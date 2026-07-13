@@ -577,7 +577,7 @@
   <h2>Temi della conservazione</h2>
   <span class="rule-line"></span>
 </div>
-<div class="section-intro">Dodici aree tematiche che coprono governance, processi e infrastruttura del sistema di conservazione. Ogni tema rimanda alle fonti normative collegate.</div>
+<div class="section-intro"><span id="temi-count-word">—</span> aree tematiche che coprono governance, processi e infrastruttura del sistema di conservazione. Ogni tema rimanda alle fonti normative collegate.</div>
 <div class="temi-grid" id="temi-grid"></div>
 
 <!-- ───────── Biblioteca ───────── -->
@@ -635,8 +635,20 @@ let searchTerm = '';
 const JURIS_LABEL = { IT: 'Italia', UE: 'UE', INT: 'Internazionale' };
 const STATUS_LABEL = { vigente: 'Vigente', superato: 'Superato', abrogato: 'Abrogato' };
 
+// Numero cardinale in lettere (italiano), utile per i conteggi in prosa.
+const NUMERI_IT = ['zero','uno','due','tre','quattro','cinque','sei','sette','otto','nove','dieci',
+  'undici','dodici','tredici','quattordici','quindici','sedici','diciassette','diciotto','diciannove','venti',
+  'ventuno','ventidue','ventitré','ventiquattro','venticinque','ventisei','ventisette','ventotto','ventinove','trenta'];
+function numeroInLettere(n, capitalize){
+  const w = NUMERI_IT[n] !== undefined ? NUMERI_IT[n] : String(n);
+  return capitalize ? w.charAt(0).toUpperCase() + w.slice(1) : w;
+}
+
 /* ───────── Temi rendering ───────── */
 function renderTemi(){
+  const wordEl = document.getElementById('temi-count-word');
+  if(wordEl) wordEl.textContent = numeroInLettere(TEMI.length, true);
+
   const grid = document.getElementById('temi-grid');
   grid.innerHTML = TEMI.map(t => `
     <div class="tema-card" tabindex="0" data-id="${t.id}" role="button" aria-label="Apri tema ${t.title}">
