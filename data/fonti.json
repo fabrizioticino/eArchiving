@@ -39,7 +39,7 @@
       "Par. 4.1.1 — Il Manuale della Conservazione (obbligatorio, aggiornato, reso disponibile agli utenti)"
     ],
     "temi": ["quadro-normativo", "responsabile-conservazione", "manuale", "formati-metadati", "oais"],
-    "url": "https://www.agid.gov.it/it/documentazione/linee-guida-sul-documento-informatico"
+    "url": "https://trasparenza.agid.gov.it/page/29/details/38/linee-guida-sulla-formazione-gestione-e-conservazione-dei-documenti-informatici.html"
   },
   {
     "id": "dpcm-3-12-2013",
@@ -79,7 +79,7 @@
       "Superato dalle Linee guida AgID dal 1° gennaio 2022"
     ],
     "temi": ["quadro-normativo", "formati-metadati"],
-    "url": "https://www.agid.gov.it/it/documentazione/linee-guida-sul-documento-informatico"
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.del.consiglio.dei.ministri:2014-11-13"
   },
   {
     "id": "marketplace-agid-conservazione",
@@ -99,7 +99,7 @@
       "Requisiti dell'art. 44 CAD a carico dell'operatore"
     ],
     "temi": ["operatori-marketplace", "quadro-normativo"],
-    "url": "https://www.agid.gov.it/it/piattaforme/conservazione"
+    "url": "https://conservatoriqualificati.agid.gov.it/"
   },
   {
     "id": "dm-mef-17-06-2014",
@@ -409,7 +409,7 @@
       "Valore orientativo, non sostitutivo delle Linee guida"
     ],
     "temi": ["quadro-normativo", "formati-metadati", "responsabile-conservazione", "manuale"],
-    "url": "https://www.agid.gov.it/it/documentazione/linee-guida-sul-documento-informatico"
+    "url": "https://www.agid.gov.it/it/domande-frequenti/conservazione"
   },
   {
     "id": "circolare-ade-18e-2014",
@@ -469,7 +469,7 @@
       "Riferimento pratico per chi aderisce al servizio gratuito"
     ],
     "temi": ["manuale", "conservazione-fiscale", "oais"],
-    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/comunicazioni/fatture-e-corrispettivi/conservazione-fc"
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/comunicazioni/fatture-e-corrispettivi"
   },
   {
     "id": "tua-152-2006-rifiuti",
