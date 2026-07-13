@@ -388,5 +388,86 @@
     ],
     "temi": ["firma-marca", "quadro-ue"],
     "url": "https://www.etsi.org/standards"
+  },
+  {
+    "id": "faq-agid-documento-informatico",
+    "title": "FAQ AgID sulle Linee guida sulla formazione, gestione e conservazione dei documenti informatici",
+    "short": "FAQ AgID — Documento informatico",
+    "type": "FAQ / Chiarimenti",
+    "issuer": "AgID — Agenzia per l'Italia Digitale",
+    "jurisdiction": "IT",
+    "date": "aggiornate periodicamente (dal 2021)",
+    "date_iso": "2021-12-01",
+    "status": "vigente",
+    "summary": "Raccolta ufficiale di risposte a quesiti applicativi sulle Linee guida: chiariscono dubbi ricorrenti su periodo transitorio, formati e metadati (Allegati 2 e 5), ruolo del Responsabile della Conservazione, copie e duplicati, e conservazione. Non hanno valore normativo ma orientano l'attuazione.",
+    "key_points": [
+      "Chiarimenti sul periodo transitorio e sulla decorrenza degli obblighi",
+      "Applicazione dei metadati minimi (Allegato 5) ai documenti già in gestione",
+      "Formati ammessi e casi particolari (PEC, documenti pregressi)",
+      "Ruolo e requisiti del Responsabile della Conservazione",
+      "Valore orientativo, non sostitutivo delle Linee guida"
+    ],
+    "temi": ["quadro-normativo", "formati-metadati", "responsabile-conservazione", "manuale"],
+    "url": "https://www.agid.gov.it/it/documentazione/linee-guida-sul-documento-informatico"
+  },
+  {
+    "id": "circolare-ade-18e-2014",
+    "title": "Circolare Agenzia delle Entrate n. 18/E del 24 giugno 2014 — IVA, fatturazione elettronica e conservazione",
+    "short": "Circolare AdE 18/E/2014",
+    "type": "Circolare",
+    "issuer": "Agenzia delle Entrate",
+    "jurisdiction": "IT",
+    "date": "24 giugno 2014",
+    "date_iso": "2014-06-24",
+    "status": "vigente",
+    "summary": "Documento di prassi che riepiloga la disciplina IVA della fatturazione elettronica e i relativi obblighi di conservazione. Chiarisce requisiti di autenticità, integrità e leggibilità della fattura e il rapporto con il D.M. 17/6/2014 sulla conservazione digitale a fini fiscali.",
+    "key_points": [
+      "Requisiti della fattura elettronica: autenticità dell'origine, integrità del contenuto, leggibilità",
+      "Obbligo di conservazione digitale delle fatture elettroniche",
+      "Rinvio alle regole tecniche del D.M. 17 giugno 2014",
+      "Chiarimenti sui sistemi di garanzia (firma, EDI, controlli di gestione)"
+    ],
+    "temi": ["conservazione-fiscale"],
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi"
+  },
+  {
+    "id": "provvedimento-ade-89757-2018",
+    "title": "Provvedimento del Direttore dell'Agenzia delle Entrate del 30 aprile 2018, n. 89757 — Regole tecniche e-fattura e servizio di conservazione",
+    "short": "Provv. AdE 89757/2018",
+    "type": "Provvedimento",
+    "issuer": "Agenzia delle Entrate",
+    "jurisdiction": "IT",
+    "date": "30 aprile 2018",
+    "date_iso": "2018-04-30",
+    "status": "vigente",
+    "summary": "Definisce le regole tecniche per l'emissione e la ricezione delle fatture elettroniche tramite Sistema di Interscambio (SdI). Rileva per la conservazione perché disciplina il servizio gratuito di conservazione a norma delle fatture elettroniche offerto dall'Agenzia su adesione.",
+    "key_points": [
+      "Regole tecniche di trasmissione/ricezione via SdI",
+      "Servizio gratuito di conservazione a norma delle fatture elettroniche su adesione",
+      "Durata della conservazione: fino allo scadere del termine di legge (10 anni)",
+      "Accordo di servizio da sottoscrivere nell'area riservata Fatture e Corrispettivi"
+    ],
+    "temi": ["conservazione-fiscale", "conservatori-accreditati"],
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi/provvedimenti"
+  },
+  {
+    "id": "manuale-conservazione-ade",
+    "title": "Manuale della conservazione del servizio dell'Agenzia delle Entrate",
+    "short": "Manuale conservazione AdE",
+    "type": "Manuale",
+    "issuer": "Agenzia delle Entrate",
+    "jurisdiction": "IT",
+    "date": "in vigore, aggiornato periodicamente",
+    "date_iso": "2022-01-01",
+    "status": "vigente",
+    "summary": "Manuale che descrive il sistema di conservazione a norma adottato dall'Agenzia delle Entrate per il servizio gratuito di conservazione delle fatture elettroniche: processi di versamento, formati, metadati, pacchetti SIP/AIP/DIP e misure di sicurezza. Esempio concreto di Manuale conforme alle Linee guida AgID.",
+    "key_points": [
+      "Descrizione del sistema di conservazione del servizio AdE",
+      "Processi di versamento, conservazione ed esibizione",
+      "Pacchetti informativi e metadati adottati",
+      "Riferimento pratico per chi aderisce al servizio gratuito"
+    ],
+    "temi": ["manuale", "conservazione-fiscale", "oais"],
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/comunicazioni/fatture-e-corrispettivi/conservazione-fc"
   }
 ]
