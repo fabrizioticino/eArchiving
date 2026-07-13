@@ -16,7 +16,7 @@
     "num": "02",
     "title": "Responsabile della Conservazione",
     "abstract": "La figura che governa il sistema, redige il Manuale e risponde della conformità.",
-    "body": "Il Responsabile della Conservazione (RdC) definisce le politiche di conservazione, governa e monitora il sistema e redige il Manuale. Deve possedere competenze giuridiche, informatiche e archivistiche. Può essere interno o esterno, ma per le PA la responsabilità resta in capo all'ente e il ruolo non è integralmente delegabile all'esterno. Si coordina con Produttore, Responsabile del trattamento dati, Responsabile della sicurezza ICT ed eventuale conservatore accreditato.",
+    "body": "Il Responsabile della Conservazione (RdC) definisce le politiche di conservazione, governa e monitora il sistema e redige il Manuale. Deve possedere competenze giuridiche, informatiche e archivistiche. Può essere interno o esterno, ma per le PA la responsabilità resta in capo all'ente e il ruolo non è integralmente delegabile all'esterno. Si coordina con Produttore, Responsabile del trattamento dati, Responsabile della sicurezza ICT ed eventuale operatore di conservazione esterno.",
     "obblighi": [
       "Nomina formale con atto scritto",
       "Redazione e aggiornamento del Manuale della Conservazione",
@@ -74,15 +74,16 @@
     ]
   },
   {
-    "id": "conservatori-accreditati",
+    "id": "operatori-marketplace",
     "num": "07",
-    "title": "Conservatori accreditati AgID",
-    "abstract": "Requisiti e obblighi dei soggetti che erogano conservazione in outsourcing.",
-    "body": "Chi esternalizza la conservazione può rivolgersi a un conservatore accreditato iscritto nell'elenco pubblico AgID (Circolare 65/2014). Il conservatore garantisce i requisiti dell'art. 44 CAD, nomina un proprio RdC e stipula un contratto che regola SLA, responsabilità e procedure di migrazione/restituzione dei dati a fine rapporto.",
+    "title": "Operatori di conservazione e Marketplace AgID",
+    "abstract": "Conservazione in outsourcing: requisiti degli operatori e servizi qualificati sul Marketplace AgID.",
+    "body": "Con le Linee guida AgID il precedente regime di accreditamento dei conservatori (art. 44-bis CAD, abrogato) è stato superato. Chi esternalizza la conservazione si rivolge a operatori dei servizi di conservazione che devono garantire i requisiti dell'art. 44 CAD; per i servizi rivolti alla PA gli operatori sono qualificati e reperibili nel Marketplace AgID. L'operatore nomina un proprio Responsabile della Conservazione e stipula con l'ente un contratto che regola SLA, responsabilità e procedure di migrazione/restituzione dei dati a fine rapporto.",
     "obblighi": [
-      "Verificare l'iscrizione nell'elenco pubblico dei conservatori AgID",
-      "Contratto con SLA, responsabilità e clausole di migrazione/restituzione",
-      "Coordinamento tra RdC dell'ente e RdC del conservatore"
+      "Selezionare operatori qualificati (per la PA: presenti nel Marketplace AgID)",
+      "Verificare il possesso dei requisiti dell'art. 44 CAD da parte dell'operatore",
+      "Contratto con SLA, responsabilità e clausole di migrazione/restituzione dati",
+      "Coordinamento tra RdC dell'ente e RdC dell'operatore"
     ]
   },
   {

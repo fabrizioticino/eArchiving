@@ -82,22 +82,23 @@
     "url": "https://www.agid.gov.it/it/documentazione/linee-guida-sul-documento-informatico"
   },
   {
-    "id": "circolare-agid-65-2014",
-    "title": "Circolare AgID n. 65 del 10 aprile 2014 — Qualificazione dei conservatori",
-    "short": "Circolare AgID 65/2014",
-    "type": "Circolare",
+    "id": "marketplace-agid-conservazione",
+    "title": "Marketplace AgID — Operatori e servizi di conservazione qualificati",
+    "short": "Marketplace AgID",
+    "type": "Elenco / Marketplace",
     "issuer": "AgID — Agenzia per l'Italia Digitale",
     "jurisdiction": "IT",
-    "date": "10 aprile 2014",
-    "date_iso": "2014-04-10",
+    "date": "operativo, aggiornato in continuo",
+    "date_iso": "2022-01-01",
     "status": "vigente",
-    "summary": "Disciplina i requisiti per l'accreditamento dei soggetti pubblici e privati che svolgono attività di conservazione. Base per l'iscrizione nell'elenco pubblico dei conservatori accreditati AgID.",
+    "summary": "Con le Linee guida AgID il precedente regime di accreditamento dei conservatori (art. 44-bis CAD, abrogato) è stato superato. Gli operatori dei servizi di conservazione rivolti alla PA sono qualificati e pubblicati nel Marketplace AgID, elenco aggiornato dei fornitori e dei relativi servizi di conservazione conformi.",
     "key_points": [
-      "Requisiti tecnici, organizzativi ed economici per l'accreditamento",
-      "Iscrizione nell'elenco pubblico dei conservatori AgID",
-      "Obblighi di mantenimento dei requisiti nel tempo"
+      "Superamento del regime di accreditamento (art. 44-bis CAD abrogato)",
+      "Operatori dei servizi di conservazione qualificati per la PA",
+      "Elenco pubblico e aggiornato dei servizi nel Marketplace AgID",
+      "Requisiti dell'art. 44 CAD a carico dell'operatore"
     ],
-    "temi": ["conservatori-accreditati", "quadro-normativo"],
+    "temi": ["operatori-marketplace", "quadro-normativo"],
     "url": "https://www.agid.gov.it/it/piattaforme/conservazione"
   },
   {
@@ -447,7 +448,7 @@
       "Durata della conservazione: fino allo scadere del termine di legge (10 anni)",
       "Accordo di servizio da sottoscrivere nell'area riservata Fatture e Corrispettivi"
     ],
-    "temi": ["conservazione-fiscale", "conservatori-accreditati"],
+    "temi": ["conservazione-fiscale", "operatori-marketplace"],
     "url": "https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi/provvedimenti"
   },
   {
