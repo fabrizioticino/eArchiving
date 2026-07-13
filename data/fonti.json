@@ -1,0 +1,392 @@
+[
+  {
+    "id": "cad-82-2005",
+    "title": "D.Lgs. 7 marzo 2005, n. 82 — Codice dell'Amministrazione Digitale (CAD)",
+    "short": "CAD",
+    "type": "Decreto legislativo",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "7 marzo 2005 (s.m.i.)",
+    "date_iso": "2005-03-07",
+    "status": "vigente",
+    "summary": "Testo fondamentale sulla digitalizzazione della PA e sui documenti informatici. Definisce documento informatico, conservazione e sistema di conservazione, e fissa i requisiti che il sistema deve garantire nel tempo: autenticità, integrità, affidabilità, leggibilità e reperibilità.",
+    "key_points": [
+      "Art. 1 — Definizioni: documento informatico, conservazione, sistema di conservazione",
+      "Art. 40 — Formazione di documenti informatici nelle PA",
+      "Art. 43 — Riproduzione e conservazione dei documenti",
+      "Art. 44 — Requisiti del sistema di conservazione (autenticità, integrità, affidabilità, leggibilità, reperibilità)",
+      "Art. 71 — Rinvio alle Linee guida AgID per le regole tecniche"
+    ],
+    "temi": ["quadro-normativo", "responsabile-conservazione", "formati-metadati"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82"
+  },
+  {
+    "id": "linee-guida-agid-2021",
+    "title": "Linee guida AgID sulla formazione, gestione e conservazione dei documenti informatici (Det. n. 407/2021)",
+    "short": "Linee guida AgID",
+    "type": "Linee guida",
+    "issuer": "AgID — Agenzia per l'Italia Digitale",
+    "jurisdiction": "IT",
+    "date": "9 settembre 2021 — in vigore dal 1° gennaio 2022 (agg. 2023)",
+    "date_iso": "2021-09-09",
+    "status": "vigente",
+    "summary": "Fonte tecnica di riferimento oggi vigente: sostituiscono e integrano i precedenti DPCM tecnici. Disciplinano formati ammessi (Allegato 2), metadati obbligatori (Allegato 5), ruolo del Responsabile della Conservazione e contenuti del Manuale della Conservazione.",
+    "key_points": [
+      "In vigore dal 1° gennaio 2022 (con periodo transitorio); aggiornamento del 2023",
+      "Allegato 2 — Formati ammessi per la conservazione (PDF/A, TIFF, XML, EML/MSG, MPEG-4, WAV/MP3)",
+      "Allegato 5 — Metadati minimi obbligatori del documento informatico",
+      "Par. 4.1 — Il Responsabile della Conservazione (competenze giuridiche, informatiche, archivistiche)",
+      "Par. 4.1.1 — Il Manuale della Conservazione (obbligatorio, aggiornato, reso disponibile agli utenti)"
+    ],
+    "temi": ["quadro-normativo", "responsabile-conservazione", "manuale", "formati-metadati", "oais"],
+    "url": "https://www.agid.gov.it/it/documentazione/linee-guida-sul-documento-informatico"
+  },
+  {
+    "id": "dpcm-3-12-2013",
+    "title": "DPCM 3 dicembre 2013 — Regole tecniche per il sistema di conservazione",
+    "short": "DPCM 3/12/2013",
+    "type": "DPCM",
+    "issuer": "Presidenza del Consiglio dei Ministri",
+    "jurisdiction": "IT",
+    "date": "3 dicembre 2013",
+    "date_iso": "2013-12-03",
+    "status": "superato",
+    "summary": "Storiche regole tecniche del sistema di conservazione: introduce il Responsabile della Conservazione, il Manuale, il modello OAIS (SIP/AIP/DIP) e le misure di sicurezza. Superato dalle Linee guida AgID dal 1° gennaio 2022, resta riferimento storico e interpretativo.",
+    "key_points": [
+      "Art. 4 — Il Responsabile della Conservazione",
+      "Art. 5 — Il Manuale della Conservazione (contenuto obbligatorio)",
+      "Art. 6 — Il pacchetto informativo: SIP, AIP, DIP (modello OAIS)",
+      "Art. 7 — Misure di sicurezza",
+      "Art. 8 — Conservatore accreditato"
+    ],
+    "temi": ["quadro-normativo", "manuale", "oais", "responsabile-conservazione"],
+    "url": "https://www.agid.gov.it/it/piattaforme/conservazione"
+  },
+  {
+    "id": "dpcm-13-11-2014",
+    "title": "DPCM 13 novembre 2014 — Regole tecniche sulla formazione del documento informatico",
+    "short": "DPCM 13/11/2014",
+    "type": "DPCM",
+    "issuer": "Presidenza del Consiglio dei Ministri",
+    "jurisdiction": "IT",
+    "date": "13 novembre 2014",
+    "date_iso": "2014-11-13",
+    "status": "superato",
+    "summary": "Regole tecniche sulla formazione, gestione e conservazione del documento informatico e sulla copia/duplicato/estratto. Superato dalle Linee guida AgID 2021, utile come riferimento storico su copie informatiche e duplicati.",
+    "key_points": [
+      "Formazione del documento informatico e sue copie",
+      "Copie, duplicati ed estratti informatici",
+      "Superato dalle Linee guida AgID dal 1° gennaio 2022"
+    ],
+    "temi": ["quadro-normativo", "formati-metadati"],
+    "url": "https://www.agid.gov.it/it/documentazione/linee-guida-sul-documento-informatico"
+  },
+  {
+    "id": "circolare-agid-65-2014",
+    "title": "Circolare AgID n. 65 del 10 aprile 2014 — Qualificazione dei conservatori",
+    "short": "Circolare AgID 65/2014",
+    "type": "Circolare",
+    "issuer": "AgID — Agenzia per l'Italia Digitale",
+    "jurisdiction": "IT",
+    "date": "10 aprile 2014",
+    "date_iso": "2014-04-10",
+    "status": "vigente",
+    "summary": "Disciplina i requisiti per l'accreditamento dei soggetti pubblici e privati che svolgono attività di conservazione. Base per l'iscrizione nell'elenco pubblico dei conservatori accreditati AgID.",
+    "key_points": [
+      "Requisiti tecnici, organizzativi ed economici per l'accreditamento",
+      "Iscrizione nell'elenco pubblico dei conservatori AgID",
+      "Obblighi di mantenimento dei requisiti nel tempo"
+    ],
+    "temi": ["conservatori-accreditati", "quadro-normativo"],
+    "url": "https://www.agid.gov.it/it/piattaforme/conservazione"
+  },
+  {
+    "id": "dm-mef-17-06-2014",
+    "title": "D.M. 17 giugno 2014 (MEF) — Conservazione digitale a fini fiscali e tributari",
+    "short": "D.M. 17/6/2014",
+    "type": "Decreto ministeriale",
+    "issuer": "Ministero dell'Economia e delle Finanze",
+    "jurisdiction": "IT",
+    "date": "17 giugno 2014",
+    "date_iso": "2014-06-17",
+    "status": "vigente",
+    "summary": "Disciplina la conservazione digitale dei documenti rilevanti ai fini fiscali (fatture, registri IVA, libri contabili). Fissa il termine per l'apposizione di firma digitale e marca temporale al ciclo annuale di conservazione.",
+    "key_points": [
+      "Documenti fiscali conservabili solo in digitale se conformi al decreto",
+      "Firma digitale e marca temporale entro il 3° mese successivo al termine di presentazione della dichiarazione dei redditi",
+      "Impronta dell'archivio e comunicazione (semplificata dai provvedimenti successivi)"
+    ],
+    "temi": ["conservazione-fiscale", "firma-marca"],
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi"
+  },
+  {
+    "id": "dlgs-127-2015",
+    "title": "D.Lgs. 5 agosto 2015, n. 127 — Fatturazione elettronica e trasmissione telematica",
+    "short": "D.Lgs. 127/2015",
+    "type": "Decreto legislativo",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "5 agosto 2015",
+    "date_iso": "2015-08-05",
+    "status": "vigente",
+    "summary": "Base normativa della fatturazione elettronica via SdI. Rileva per la conservazione: le fatture elettroniche devono essere conservate a norma per 10 anni; l'Agenzia delle Entrate offre un servizio di conservazione gratuito su adesione.",
+    "key_points": [
+      "Obbligo di conservazione a norma delle fatture elettroniche (10 anni)",
+      "Servizio di conservazione gratuito dell'Agenzia delle Entrate su convenzione",
+      "Interazione con il D.M. 17/6/2014 sulla conservazione fiscale"
+    ],
+    "temi": ["conservazione-fiscale"],
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/comunicazioni/fatture-e-corrispettivi"
+  },
+  {
+    "id": "dpr-445-2000",
+    "title": "D.P.R. 28 dicembre 2000, n. 445 — Testo unico sulla documentazione amministrativa",
+    "short": "D.P.R. 445/2000",
+    "type": "D.P.R.",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "28 dicembre 2000",
+    "date_iso": "2000-12-28",
+    "status": "vigente",
+    "summary": "Testo unico su documentazione amministrativa, protocollo informatico e gestione documentale. Fornisce il quadro su registrazione di protocollo, classificazione e fascicolazione, presupposti a monte della conservazione.",
+    "key_points": [
+      "Protocollo informatico e segnatura",
+      "Gestione documentale e fascicolazione",
+      "Certificazioni e autocertificazioni"
+    ],
+    "temi": ["quadro-normativo"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2000-12-28;445"
+  },
+  {
+    "id": "dlgs-42-2004",
+    "title": "D.Lgs. 22 gennaio 2004, n. 42 — Codice dei beni culturali e del paesaggio",
+    "short": "Codice beni culturali",
+    "type": "Decreto legislativo",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "22 gennaio 2004",
+    "date_iso": "2004-01-22",
+    "status": "vigente",
+    "summary": "Per gli archivi pubblici disciplina la tutela archivistica: gli archivi delle PA sono beni culturali. Lo scarto dei documenti (anche informatici) richiede l'autorizzazione della Soprintendenza archivistica.",
+    "key_points": [
+      "Archivi pubblici come beni culturali",
+      "Autorizzazione della Soprintendenza archivistica allo scarto",
+      "Vincoli di conservazione permanente per documenti di rilievo storico"
+    ],
+    "temi": ["scarto-cessazione", "quadro-normativo"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42"
+  },
+  {
+    "id": "dlgs-196-2003",
+    "title": "D.Lgs. 30 giugno 2003, n. 196 — Codice in materia di protezione dei dati personali",
+    "short": "Codice Privacy",
+    "type": "Decreto legislativo",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "30 giugno 2003 (adeguato al GDPR dal D.Lgs. 101/2018)",
+    "date_iso": "2003-06-30",
+    "status": "vigente",
+    "summary": "Codice Privacy nazionale, coordinato con il GDPR. I sistemi di conservazione che trattano dati personali devono rispettarne i principi; il RdC si coordina con il DPO dove presente.",
+    "key_points": [
+      "Coordinato con il GDPR (Reg. UE 2016/679) dal D.Lgs. 101/2018",
+      "Base per le misure di sicurezza nei trattamenti di conservazione",
+      "Rapporto con il Responsabile del trattamento e il DPO"
+    ],
+    "temi": ["gdpr-privacy"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196"
+  },
+  {
+    "id": "gdpr-2016-679",
+    "title": "Regolamento (UE) 2016/679 — GDPR",
+    "short": "GDPR",
+    "type": "Regolamento UE",
+    "issuer": "Parlamento europeo e Consiglio",
+    "jurisdiction": "UE",
+    "date": "27 aprile 2016 — applicabile dal 25 maggio 2018",
+    "date_iso": "2016-04-27",
+    "status": "vigente",
+    "summary": "Regolamento generale sulla protezione dei dati. Impatta la conservazione tramite i principi di privacy by design (art. 25), limitazione della conservazione, sicurezza (art. 32) e bilanciamento con il diritto alla cancellazione (art. 17).",
+    "key_points": [
+      "Art. 5 — Limitazione della conservazione e minimizzazione",
+      "Art. 17 — Diritto alla cancellazione, da bilanciare con gli obblighi di conservazione",
+      "Art. 25 — Protezione dei dati by design e by default",
+      "Art. 32 — Sicurezza del trattamento"
+    ],
+    "temi": ["gdpr-privacy"],
+    "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"
+  },
+  {
+    "id": "eidas-910-2014",
+    "title": "Regolamento (UE) n. 910/2014 — eIDAS",
+    "short": "eIDAS",
+    "type": "Regolamento UE",
+    "issuer": "Parlamento europeo e Consiglio",
+    "jurisdiction": "UE",
+    "date": "23 luglio 2014",
+    "date_iso": "2014-07-23",
+    "status": "vigente",
+    "summary": "Quadro europeo su identità digitale e servizi fiduciari: firme elettroniche, sigilli, marche temporali qualificate e servizi elettronici di recapito. Fondamento della validità delle firme e delle marche apposte nei processi di conservazione.",
+    "key_points": [
+      "Firme elettroniche qualificate (QES) e sigilli elettronici",
+      "Validazione temporale elettronica qualificata (marca temporale)",
+      "Servizio elettronico qualificato di conservazione delle firme (art. 34)",
+      "Prestatori di servizi fiduciari qualificati (QTSP)"
+    ],
+    "temi": ["firma-marca", "quadro-ue"],
+    "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32014R0910"
+  },
+  {
+    "id": "eidas2-2024-1183",
+    "title": "Regolamento (UE) 2024/1183 — eIDAS 2 (European Digital Identity)",
+    "short": "eIDAS 2",
+    "type": "Regolamento UE",
+    "issuer": "Parlamento europeo e Consiglio",
+    "jurisdiction": "UE",
+    "date": "11 aprile 2024 — in vigore dal 20 maggio 2024",
+    "date_iso": "2024-04-11",
+    "status": "vigente",
+    "summary": "Revisione del quadro eIDAS: introduce il portafoglio europeo di identità digitale (EUDI Wallet) e aggiorna i servizi fiduciari, inclusa la conservazione elettronica qualificata. Da monitorare per l'impatto sui formati di firma e sui servizi di conservazione.",
+    "key_points": [
+      "European Digital Identity Wallet (EUDI Wallet)",
+      "Nuovo servizio fiduciario qualificato di archiviazione elettronica",
+      "Aggiornamento dei requisiti per i prestatori di servizi fiduciari",
+      "Atti di esecuzione in progressiva pubblicazione"
+    ],
+    "temi": ["quadro-ue", "firma-marca"],
+    "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1183"
+  },
+  {
+    "id": "iso-14721-oais",
+    "title": "ISO 14721 — Open Archival Information System (OAIS)",
+    "short": "ISO 14721 (OAIS)",
+    "type": "Standard",
+    "issuer": "ISO / CCSDS",
+    "jurisdiction": "INT",
+    "date": "2012 (Reference Model)",
+    "date_iso": "2012-01-01",
+    "status": "vigente",
+    "summary": "Modello di riferimento per gli archivi digitali di lungo periodo. Definisce i pacchetti informativi SIP, AIP e DIP richiamati dalla normativa italiana e i processi funzionali di un sistema di conservazione affidabile.",
+    "key_points": [
+      "SIP — Submission Information Package (versamento)",
+      "AIP — Archival Information Package (archiviazione)",
+      "DIP — Dissemination Information Package (distribuzione)",
+      "Modello funzionale richiamato dal DPCM 3/12/2013 e dalle Linee guida AgID"
+    ],
+    "temi": ["oais", "quadro-ue"],
+    "url": "https://www.iso.org/standard/57284.html"
+  },
+  {
+    "id": "iso-19005-pdfa",
+    "title": "ISO 19005 — PDF/A (formato per la conservazione a lungo termine)",
+    "short": "ISO 19005 (PDF/A)",
+    "type": "Standard",
+    "issuer": "ISO",
+    "jurisdiction": "INT",
+    "date": "2005–2020 (parti 1–4)",
+    "date_iso": "2005-01-01",
+    "status": "vigente",
+    "summary": "Formato PDF vincolato per l'archiviazione di lungo periodo: garantisce l'autoconsistenza e la riproducibilità nel tempo. È il formato preferito per i documenti testuali dall'Allegato 2 delle Linee guida AgID.",
+    "key_points": [
+      "PDF/A-1, PDF/A-2, PDF/A-3, PDF/A-4",
+      "Divieto di contenuti dinamici e font non incorporati",
+      "Formato raccomandato dall'Allegato 2 delle Linee guida AgID"
+    ],
+    "temi": ["formati-metadati"],
+    "url": "https://www.iso.org/standard/38920.html"
+  },
+  {
+    "id": "uni-11386-sincro",
+    "title": "UNI 11386 — SInCRO: Supporto all'Interoperabilità nella Conservazione e nel Recupero degli Oggetti digitali",
+    "short": "UNI 11386 (SInCRO)",
+    "type": "Norma tecnica",
+    "issuer": "UNI",
+    "jurisdiction": "IT",
+    "date": "2020",
+    "date_iso": "2020-01-01",
+    "status": "vigente",
+    "summary": "Standard italiano che definisce la struttura dell'Indice del Pacchetto di Archiviazione (IPdA), cioè il file XML che descrive e sigilla il contenuto dell'AIP. Riferimento tecnico per l'interoperabilità dei pacchetti di conservazione.",
+    "key_points": [
+      "Struttura XML dell'Indice del Pacchetto di Archiviazione (IPdA)",
+      "Elementi descrittivi, di integrità e di firma del pacchetto",
+      "Richiamato dalle Linee guida AgID per la chiusura dei pacchetti"
+    ],
+    "temi": ["oais", "formati-metadati"],
+    "url": "https://store.uni.com/uni-11386-2020"
+  },
+  {
+    "id": "iso-15489-rm",
+    "title": "ISO 15489 — Records management",
+    "short": "ISO 15489",
+    "type": "Standard",
+    "issuer": "ISO",
+    "jurisdiction": "INT",
+    "date": "2016 (parte 1)",
+    "date_iso": "2016-01-01",
+    "status": "vigente",
+    "summary": "Standard internazionale sulla gestione dei documenti d'archivio (records management): principi e requisiti per creare, acquisire e gestire documenti autentici, affidabili e utilizzabili lungo tutto il ciclo di vita.",
+    "key_points": [
+      "Principi di gestione documentale e requisiti dei records",
+      "Metadati per la gestione dei documenti d'archivio",
+      "Base metodologica a monte della conservazione"
+    ],
+    "temi": ["formati-metadati", "quadro-ue"],
+    "url": "https://www.iso.org/standard/62542.html"
+  },
+  {
+    "id": "iso-16363-audit",
+    "title": "ISO 16363 — Audit e certificazione dei repository digitali affidabili",
+    "short": "ISO 16363",
+    "type": "Standard",
+    "issuer": "ISO / CCSDS",
+    "jurisdiction": "INT",
+    "date": "2012",
+    "date_iso": "2012-01-01",
+    "status": "vigente",
+    "summary": "Definisce i criteri per valutare l'affidabilità (trustworthiness) di un repository digitale di conservazione. Utile come griglia di audit del sistema di conservazione e complemento del modello OAIS.",
+    "key_points": [
+      "Criteri di affidabilità di un Trusted Digital Repository",
+      "Governance, gestione del rischio e sostenibilità dell'archivio",
+      "Griglia per audit e certificazione del sistema"
+    ],
+    "temi": ["oais", "monitoraggio-audit"],
+    "url": "https://www.iso.org/standard/56510.html"
+  },
+  {
+    "id": "etsi-en-319-102",
+    "title": "ETSI EN 319 102 / 319 122 / 319 132 / 319 142 — Formati di firma avanzata (AdES)",
+    "short": "ETSI AdES (CAdES/XAdES/PAdES)",
+    "type": "Norma tecnica",
+    "issuer": "ETSI",
+    "jurisdiction": "UE",
+    "date": "serie in aggiornamento",
+    "date_iso": "2016-01-01",
+    "status": "vigente",
+    "summary": "Specifiche tecniche europee dei formati di firma elettronica avanzata e qualificata (CAdES, XAdES, PAdES, ASiC) attuative del regolamento eIDAS. Determinano i formati di firma ammessi nei documenti conservati.",
+    "key_points": [
+      "CAdES, XAdES, PAdES e contenitori ASiC",
+      "Profili di firma con validazione a lungo termine (LTV)",
+      "Attuazione tecnica del regolamento eIDAS"
+    ],
+    "temi": ["firma-marca", "quadro-ue"],
+    "url": "https://www.etsi.org/standards"
+  },
+  {
+    "id": "etsi-en-319-421-tsa",
+    "title": "ETSI EN 319 421 / 319 422 — Marca temporale e Time-Stamping Authority",
+    "short": "ETSI Time-Stamping",
+    "type": "Norma tecnica",
+    "issuer": "ETSI",
+    "jurisdiction": "UE",
+    "date": "serie in aggiornamento",
+    "date_iso": "2016-01-01",
+    "status": "vigente",
+    "summary": "Requisiti per i prestatori che emettono marche temporali e profilo del token di marca temporale. Base tecnica per la validazione temporale qualificata usata per rendere opponibile la data di conservazione.",
+    "key_points": [
+      "Requisiti di policy e sicurezza delle Time-Stamping Authority",
+      "Profilo del token di marca temporale",
+      "Riferimento per la validazione temporale qualificata eIDAS"
+    ],
+    "temi": ["firma-marca", "quadro-ue"],
+    "url": "https://www.etsi.org/standards"
+  }
+]

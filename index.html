@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conservazione a norma — Fonti normative e temi</title>
+<meta name="description" content="Portale di raccolta del materiale normativo sulla conservazione dei documenti informatici: CAD, Linee guida AgID, DPCM, eIDAS, standard ISO/ETSI. Quadro Italia + UE, organizzato per temi e per fonti.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+  :root{
+    --paper:#F5F5F5;
+    --ink:#161616;
+    --ink-soft:#5A5A5A;
+    --line:#D6D6D6;
+    --stamp-green:#1F1F1F;
+    --stamp-green-bg:#E4E4E4;
+    --stamp-amber:#B0151F;
+    --stamp-amber-bg:#F6DEE0;
+    --stamp-grey:#8A8A8A;
+    --stamp-grey-bg:#EAEAEA;
+    --accent:#C8102E;
+    --card:#FFFFFF;
+    --shadow: 0 1px 0 rgba(0,0,0,0.08);
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  body::before{
+    content:"";
+    position:fixed; inset:0;
+    background-image:
+      repeating-linear-gradient(0deg, rgba(27,36,33,0.018) 0px, rgba(27,36,33,0.018) 1px, transparent 1px, transparent 3px);
+    pointer-events:none;
+    z-index:0;
+  }
+
+  a{color:inherit;}
+
+  /* ───────── Header / masthead ───────── */
+  header.masthead{
+    position:relative;
+    z-index:1;
+    border-bottom:3px double var(--ink);
+    padding:28px 5vw 18px;
+  }
+  .masthead-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    flex-wrap:wrap;
+    gap:8px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-bottom:18px;
+  }
+  .masthead-top .dot{ color:var(--accent); }
+
+  h1.title{
+    font-family:'Fraunces', serif;
+    font-optical-sizing:auto;
+    font-weight:600;
+    font-size:clamp(34px, 6vw, 64px);
+    line-height:0.98;
+    margin:0 0 10px;
+    letter-spacing:-0.01em;
+  }
+  h1.title em{
+    font-style:italic;
+    font-weight:400;
+    color:var(--accent);
+  }
+
+  .subhead{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    gap:18px;
+    border-top:1px solid var(--line);
+    padding-top:14px;
+    margin-top:18px;
+  }
+  .subhead p{
+    max-width:620px;
+    font-size:15px;
+    line-height:1.55;
+    color:var(--ink-soft);
+    margin:0;
+  }
+  .meta-stamp{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    text-align:right;
+    color:var(--ink-soft);
+    line-height:1.6;
+    white-space:nowrap;
+  }
+  .meta-stamp .label{
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-size:10px;
+    color:var(--stamp-green);
+  }
+
+  /* ───────── Section rule ───────── */
+  .section-rule{
+    position:relative;
+    z-index:1;
+    padding:34px 5vw 0;
+    display:flex;
+    align-items:baseline;
+    gap:14px;
+  }
+  .section-rule h2{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(22px,3.4vw,32px);
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  .section-rule .kicker{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--accent);
+  }
+  .section-rule .rule-line{
+    flex:1;
+    border-bottom:1px solid var(--line);
+    transform:translateY(-4px);
+  }
+  .section-intro{
+    position:relative;
+    z-index:1;
+    padding:8px 5vw 0;
+    max-width:720px;
+    font-size:14px;
+    line-height:1.55;
+    color:var(--ink-soft);
+  }
+
+  /* ───────── Temi grid ───────── */
+  .temi-grid{
+    position:relative;
+    z-index:1;
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+    margin:22px 5vw 0;
+  }
+  .tema-card{
+    background:var(--card);
+    padding:20px 22px;
+    cursor:pointer;
+    transition:background .15s ease;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .tema-card:hover{ background:#fff; }
+  .tema-num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+  }
+  .tema-title{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:20px;
+    line-height:1.15;
+  }
+  .tema-abstract{
+    font-size:13px;
+    line-height:1.5;
+    color:var(--ink-soft);
+  }
+  .tema-foot{
+    margin-top:auto;
+    padding-top:8px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10.5px;
+    color:var(--accent);
+    letter-spacing:.03em;
+  }
+
+  /* ───────── Controls bar (biblioteca) ───────── */
+  .controls{
+    position:sticky;
+    top:0;
+    z-index:50;
+    background:var(--paper);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    padding:14px 5vw;
+    display:flex;
+    gap:14px;
+    align-items:center;
+    flex-wrap:wrap;
+    backdrop-filter:blur(2px);
+    margin-top:34px;
+  }
+  .search-wrap{
+    position:relative;
+    flex:1 1 260px;
+    max-width:420px;
+  }
+  .search-wrap input{
+    width:100%;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    padding:10px 14px 10px 32px;
+    border:1px solid var(--ink);
+    background:var(--card);
+    color:var(--ink);
+    outline:none;
+    border-radius:2px;
+  }
+  .search-wrap input:focus{
+    box-shadow:0 0 0 3px rgba(200,16,46,0.15);
+    border-color:var(--accent);
+  }
+  .search-wrap::before{
+    content:"⌕";
+    position:absolute;
+    left:11px; top:50%; transform:translateY(-50%);
+    font-size:15px;
+    color:var(--ink-soft);
+  }
+  .filter-group{
+    display:flex;
+    gap:6px;
+    flex-wrap:wrap;
+    align-items:center;
+  }
+  .filter-group .glabel{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    color:var(--ink-soft);
+    margin-right:2px;
+  }
+  .filter-chip{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+    padding:7px 12px;
+    border:1px solid var(--line);
+    background:var(--card);
+    color:var(--ink-soft);
+    cursor:pointer;
+    border-radius:2px;
+    transition:all .15s ease;
+    user-select:none;
+  }
+  .filter-chip:hover{ border-color:var(--ink); color:var(--ink); }
+  .filter-chip.active{
+    background:var(--ink);
+    color:var(--paper);
+    border-color:var(--ink);
+  }
+  .result-count{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    margin-left:auto;
+    white-space:nowrap;
+  }
+
+  /* ───────── Biblioteca grid ───────── */
+  main{
+    position:relative;
+    z-index:1;
+    padding:26px 5vw 80px;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(320px, 1fr));
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .fonte-card{
+    background:var(--card);
+    padding:20px 22px;
+    cursor:pointer;
+    transition:background .15s ease;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  .fonte-card:hover{ background:#fff; }
+  .fonte-card-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:10px;
+  }
+  .fonte-short{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:19px;
+    line-height:1.15;
+  }
+  .fonte-type{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    color:var(--ink-soft);
+    margin-top:4px;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+  }
+  .badge-row{
+    display:flex;
+    gap:6px;
+    flex-wrap:wrap;
+  }
+  .badge{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    letter-spacing:.03em;
+    padding:3px 8px;
+    border-radius:20px;
+    white-space:nowrap;
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+  }
+  .badge::before{
+    content:"";
+    width:6px; height:6px;
+    border-radius:50%;
+    display:inline-block;
+  }
+  .badge.vigente{ background:var(--stamp-green-bg); color:var(--stamp-green); }
+  .badge.vigente::before{ background:var(--stamp-green); }
+  .badge.superato{ background:var(--stamp-amber-bg); color:var(--stamp-amber); }
+  .badge.superato::before{ background:var(--stamp-amber); }
+  .badge.abrogato{ background:var(--stamp-grey-bg); color:var(--stamp-grey); }
+  .badge.abrogato::before{ background:var(--stamp-grey); }
+  .badge.juris{ background:#EEE9E1; color:#6B5B3E; }
+  .badge.juris::before{ display:none; }
+
+  .fonte-foot{
+    margin-top:auto;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.5;
+    border-top:1px solid var(--line);
+    padding-top:10px;
+  }
+  .fonte-foot b{ color:var(--ink); font-weight:600; }
+
+  .no-results{
+    grid-column:1/-1;
+    background:var(--card);
+    padding:60px 20px;
+    text-align:center;
+    font-family:'IBM Plex Mono', monospace;
+    color:var(--ink-soft);
+    font-size:13px;
+  }
+
+  /* ───────── Detail overlay ───────── */
+  .detail-overlay{
+    position:fixed;
+    inset:0;
+    background:var(--paper);
+    z-index:200;
+    display:none;
+    overflow-y:auto;
+  }
+  .detail-overlay.open{ display:block; }
+
+  .detail-header{
+    position:sticky;
+    top:0;
+    background:var(--paper);
+    border-bottom:3px double var(--ink);
+    padding:18px 5vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:16px;
+    z-index:5;
+  }
+  .back-btn{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    background:none;
+    border:1px solid var(--ink);
+    padding:8px 16px;
+    cursor:pointer;
+    color:var(--ink);
+    border-radius:2px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    white-space:nowrap;
+  }
+  .back-btn:hover{ background:var(--ink); color:var(--paper); }
+
+  .detail-title{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(20px,3.2vw,34px);
+    text-align:right;
+    line-height:1.1;
+  }
+
+  .detail-body{
+    max-width:900px;
+    margin:0 auto;
+    padding:36px 5vw 100px;
+  }
+
+  .detail-meta{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    margin-bottom:24px;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    align-items:center;
+  }
+
+  .lead{
+    font-size:17px;
+    line-height:1.6;
+    margin:0 0 28px;
+  }
+
+  .block{ margin-bottom:30px; }
+  .block-head{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.07em;
+    color:var(--ink-soft);
+    border-bottom:1px solid var(--line);
+    padding-bottom:8px;
+    margin-bottom:14px;
+  }
+  .point-list{ margin:0; padding:0; list-style:none; }
+  .point-list li{
+    position:relative;
+    padding:9px 0 9px 22px;
+    font-size:14px;
+    line-height:1.5;
+    border-bottom:1px solid var(--line);
+  }
+  .point-list li::before{
+    content:"§";
+    position:absolute; left:0; top:9px;
+    color:var(--accent);
+    font-family:'Fraunces', serif;
+    font-weight:600;
+  }
+
+  .field-grid{
+    display:grid;
+    grid-template-columns:170px 1fr;
+    border:1px solid var(--line);
+    background:var(--line);
+    gap:1px;
+    margin-bottom:8px;
+  }
+  .field-label{
+    background:var(--card);
+    padding:13px 16px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10.5px;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+    color:var(--ink-soft);
+    display:flex;
+    align-items:center;
+  }
+  .field-value{
+    background:#fff;
+    padding:13px 16px;
+    font-size:14px;
+    line-height:1.55;
+    display:flex;
+    align-items:center;
+  }
+  .ref-link{ color:var(--accent); font-size:13px; font-weight:600; text-decoration:none; letter-spacing:.02em; }
+  .ref-link:hover{ text-decoration:underline; }
+
+  .chip-row{ display:flex; gap:8px; flex-wrap:wrap; }
+  .rel-chip{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    padding:7px 12px;
+    border:1px solid var(--line);
+    background:var(--card);
+    border-radius:2px;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  .rel-chip:hover{ border-color:var(--ink); background:#fff; }
+
+  @media (max-width:640px){
+    .field-grid{ grid-template-columns:1fr; }
+    .field-label{ padding-bottom:4px; }
+    .detail-title{ font-size:20px; }
+  }
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:24px 5vw 40px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+
+  ::selection{ background:var(--accent); color:#fff; }
+
+  button:focus-visible, input:focus-visible, .fonte-card:focus-visible, .tema-card:focus-visible{
+    outline:2px solid var(--accent);
+    outline-offset:2px;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *{ transition:none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span>CONSERVAZIONE DIGITALE A NORMA <span class="dot">•</span> AUTORE: FABRIZIO TICINO</span>
+    <span id="live-clock"></span>
+  </div>
+  <h1 class="title">Conservazione <em>a norma</em><br>del documento informatico</h1>
+  <div class="subhead">
+    <p>Raccolta ragionata del materiale normativo sulla conservazione dei documenti informatici — CAD, Linee guida AgID, DPCM, regolamenti UE e standard ISO/ETSI. Organizzato per <b>temi</b> e in una <b>biblioteca</b> ricercabile. Perimetro Italia + Unione Europea.</p>
+    <div class="meta-stamp">
+      <div class="label">Ultimo aggiornamento</div>
+      <div id="last-updated">—</div>
+      <div class="label" style="margin-top:8px;">Fonti in biblioteca</div>
+      <div id="fonti-count">—</div>
+    </div>
+  </div>
+</header>
+
+<!-- ───────── Temi ───────── -->
+<div class="section-rule">
+  <span class="kicker">Parte I</span>
+  <h2>Temi della conservazione</h2>
+  <span class="rule-line"></span>
+</div>
+<div class="section-intro">Dodici aree tematiche che coprono governance, processi e infrastruttura del sistema di conservazione. Ogni tema rimanda alle fonti normative collegate.</div>
+<div class="temi-grid" id="temi-grid"></div>
+
+<!-- ───────── Biblioteca ───────── -->
+<div class="section-rule">
+  <span class="kicker">Parte II</span>
+  <h2>Biblioteca normativa</h2>
+  <span class="rule-line"></span>
+</div>
+<div class="section-intro">Il corpus delle fonti: leggi, decreti, linee guida, circolari, regolamenti UE e standard tecnici. Filtra per giurisdizione, tipo o stato di vigenza.</div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <input type="text" id="search" placeholder="Cerca fonte, articolo, ente…" autocomplete="off">
+  </div>
+  <div class="filter-group" id="filter-juris" data-field="jurisdiction">
+    <span class="glabel">Area</span>
+    <span class="filter-chip active" data-val="all">Tutte</span>
+    <span class="filter-chip" data-val="IT">Italia</span>
+    <span class="filter-chip" data-val="UE">UE</span>
+    <span class="filter-chip" data-val="INT">Internaz.</span>
+  </div>
+  <div class="filter-group" id="filter-status" data-field="status">
+    <span class="glabel">Stato</span>
+    <span class="filter-chip active" data-val="all">Tutti</span>
+    <span class="filter-chip" data-val="vigente">Vigente</span>
+    <span class="filter-chip" data-val="superato">Superato</span>
+  </div>
+  <div class="result-count" id="result-count"></div>
+</div>
+
+<main>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  <span>Materiale a fini informativi — non costituisce consulenza legale o fiscale</span>
+  <span>Verificare sempre la versione vigente sulle fonti ufficiali (AgID, Normattiva, EUR-Lex)</span>
+</footer>
+
+<!-- ───────── Detail overlay ───────── -->
+<div class="detail-overlay" id="detail-overlay">
+  <div class="detail-header">
+    <button class="back-btn" id="back-btn">← Torna all'indice</button>
+    <div class="detail-title" id="detail-title"></div>
+  </div>
+  <div class="detail-body" id="detail-body"></div>
+</div>
+
+<script>
+let TEMI = [];
+let FONTI = [];
+let activeFilters = { jurisdiction: 'all', status: 'all' };
+let searchTerm = '';
+
+const JURIS_LABEL = { IT: 'Italia', UE: 'UE', INT: 'Internazionale' };
+const STATUS_LABEL = { vigente: 'Vigente', superato: 'Superato', abrogato: 'Abrogato' };
+
+/* ───────── Temi rendering ───────── */
+function renderTemi(){
+  const grid = document.getElementById('temi-grid');
+  grid.innerHTML = TEMI.map(t => `
+    <div class="tema-card" tabindex="0" data-id="${t.id}" role="button" aria-label="Apri tema ${t.title}">
+      <div class="tema-num">${t.num}</div>
+      <div class="tema-title">${t.title}</div>
+      <div class="tema-abstract">${t.abstract}</div>
+      <div class="tema-foot">${fontiForTema(t.id).length} fonti collegate →</div>
+    </div>`).join('');
+  grid.querySelectorAll('.tema-card').forEach(card => {
+    card.addEventListener('click', () => openTema(card.dataset.id));
+    card.addEventListener('keypress', e => { if(e.key === 'Enter') openTema(card.dataset.id); });
+  });
+}
+
+function fontiForTema(temaId){
+  return FONTI.filter(f => (f.temi || []).includes(temaId));
+}
+
+/* ───────── Biblioteca rendering ───────── */
+function renderGrid(){
+  const grid = document.getElementById('grid');
+  const term = searchTerm.trim().toLowerCase();
+
+  const filtered = FONTI.filter(f => {
+    if(activeFilters.jurisdiction !== 'all' && f.jurisdiction !== activeFilters.jurisdiction) return false;
+    if(activeFilters.status !== 'all' && f.status !== activeFilters.status) return false;
+    if(term){
+      const hay = [f.title, f.short, f.type, f.issuer, f.summary, (f.key_points||[]).join(' ')].join(' ').toLowerCase();
+      if(!hay.includes(term)) return false;
+    }
+    return true;
+  });
+
+  document.getElementById('result-count').textContent = `${filtered.length} / ${FONTI.length} fonti`;
+
+  if(filtered.length === 0){
+    grid.innerHTML = `<div class="no-results">Nessuna fonte corrisponde ai filtri selezionati.</div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(f => {
+    const statusCls = f.status === 'vigente' ? 'vigente' : (f.status === 'abrogato' ? 'abrogato' : 'superato');
+    return `
+    <div class="fonte-card" tabindex="0" data-id="${f.id}" role="button" aria-label="Apri fonte ${f.short}">
+      <div class="fonte-card-top">
+        <div>
+          <div class="fonte-short">${f.short}</div>
+          <div class="fonte-type">${f.type}</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge juris">${JURIS_LABEL[f.jurisdiction] || f.jurisdiction}</span>
+        <span class="badge ${statusCls}">${STATUS_LABEL[f.status] || f.status}</span>
+      </div>
+      <div class="fonte-foot">
+        <b>${f.issuer}</b><br>${f.date}
+      </div>
+    </div>`;
+  }).join('');
+
+  grid.querySelectorAll('.fonte-card').forEach(card => {
+    card.addEventListener('click', () => openFonte(card.dataset.id));
+    card.addEventListener('keypress', e => { if(e.key === 'Enter') openFonte(card.dataset.id); });
+  });
+}
+
+/* ───────── Detail: tema ───────── */
+function openTema(id){
+  const t = TEMI.find(x => x.id === id);
+  if(!t) return;
+  document.getElementById('detail-title').textContent = t.title;
+  const related = fontiForTema(id);
+
+  const obblighiHTML = (t.obblighi || []).map(o => `<li>${o}</li>`).join('');
+  const relatedHTML = related.length
+    ? `<div class="chip-row">${related.map(f => `<span class="rel-chip" data-fonte="${f.id}">${f.short} →</span>`).join('')}</div>`
+    : `<p style="color:var(--ink-soft);font-size:14px;">Nessuna fonte collegata.</p>`;
+
+  document.getElementById('detail-body').innerHTML = `
+    <div class="detail-meta"><span>Tema ${t.num} / ${String(TEMI.length).padStart(2,'0')}</span></div>
+    <p class="lead">${t.body}</p>
+    <div class="block">
+      <div class="block-head">Obblighi e adempimenti chiave</div>
+      <ul class="point-list">${obblighiHTML}</ul>
+    </div>
+    <div class="block">
+      <div class="block-head">Fonti normative collegate</div>
+      ${relatedHTML}
+    </div>
+  `;
+  bindRelChips();
+  showOverlay('tema-' + id);
+}
+
+/* ───────── Detail: fonte ───────── */
+function openFonte(id){
+  const f = FONTI.find(x => x.id === id);
+  if(!f) return;
+  document.getElementById('detail-title').textContent = f.short;
+
+  const statusCls = f.status === 'vigente' ? 'vigente' : (f.status === 'abrogato' ? 'abrogato' : 'superato');
+  const pointsHTML = (f.key_points || []).map(p => `<li>${p}</li>`).join('');
+  const relTemi = (f.temi || []).map(tid => TEMI.find(t => t.id === tid)).filter(Boolean);
+  const relTemiHTML = relTemi.length
+    ? `<div class="chip-row">${relTemi.map(t => `<span class="rel-chip" data-tema="${t.id}">${t.num} · ${t.title} →</span>`).join('')}</div>`
+    : '';
+
+  document.getElementById('detail-body').innerHTML = `
+    <div class="detail-meta">
+      <span class="badge juris">${JURIS_LABEL[f.jurisdiction] || f.jurisdiction}</span>
+      <span class="badge ${statusCls}">${STATUS_LABEL[f.status] || f.status}</span>
+      <span>${f.type}</span>
+    </div>
+    <p class="lead">${f.summary}</p>
+
+    <div class="block">
+      <div class="field-grid">
+        <div class="field-label">Titolo</div><div class="field-value">${f.title}</div>
+      </div>
+      <div class="field-grid">
+        <div class="field-label">Ente emittente</div><div class="field-value">${f.issuer}</div>
+      </div>
+      <div class="field-grid">
+        <div class="field-label">Data / vigenza</div><div class="field-value">${f.date}</div>
+      </div>
+      <div class="field-grid">
+        <div class="field-label">Stato</div><div class="field-value">${STATUS_LABEL[f.status] || f.status}</div>
+      </div>
+      <div class="field-grid">
+        <div class="field-label">Riferimento</div><div class="field-value"><a href="${f.url}" target="_blank" rel="noopener" class="ref-link">Fonte ufficiale →</a></div>
+      </div>
+    </div>
+
+    ${pointsHTML ? `<div class="block">
+      <div class="block-head">Punti chiave</div>
+      <ul class="point-list">${pointsHTML}</ul>
+    </div>` : ''}
+
+    ${relTemiHTML ? `<div class="block">
+      <div class="block-head">Temi collegati</div>
+      ${relTemiHTML}
+    </div>` : ''}
+  `;
+  bindRelChips();
+  showOverlay('fonte-' + id);
+}
+
+function bindRelChips(){
+  document.querySelectorAll('.rel-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      if(chip.dataset.fonte) openFonte(chip.dataset.fonte);
+      else if(chip.dataset.tema) openTema(chip.dataset.tema);
+      window.scrollTo(0,0);
+    });
+  });
+}
+
+function showOverlay(hash){
+  document.getElementById('detail-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  window.scrollTo(0,0);
+  history.pushState({hash}, '', `#${hash}`);
+}
+
+function closeDetail(){
+  document.getElementById('detail-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+  history.pushState({}, '', window.location.pathname);
+}
+
+function routeFromHash(){
+  const hash = window.location.hash.replace('#','');
+  if(!hash){ closeDetail(); return; }
+  if(hash.startsWith('tema-')) openTema(hash.slice(5));
+  else if(hash.startsWith('fonte-')) openFonte(hash.slice(6));
+}
+
+document.getElementById('back-btn').addEventListener('click', closeDetail);
+window.addEventListener('popstate', routeFromHash);
+
+document.getElementById('search').addEventListener('input', e => {
+  searchTerm = e.target.value;
+  renderGrid();
+});
+
+document.querySelectorAll('.controls .filter-group').forEach(group => {
+  const field = group.dataset.field;
+  group.querySelectorAll('.filter-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      group.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilters[field] = chip.dataset.val;
+      renderGrid();
+    });
+  });
+});
+
+function updateClock(){
+  const now = new Date();
+  const opts = { weekday:'short', year:'numeric', month:'short', day:'numeric', hour:'2-digit', minute:'2-digit' };
+  document.getElementById('live-clock').textContent = now.toLocaleDateString('it-IT', opts);
+}
+updateClock();
+setInterval(updateClock, 30000);
+
+async function init(){
+  try {
+    const [tRes, fRes] = await Promise.all([fetch('data/temi.json'), fetch('data/fonti.json')]);
+    TEMI = await tRes.json();
+    FONTI = await fRes.json();
+  } catch(e) {
+    document.getElementById('grid').innerHTML = `<div class="no-results">Errore nel caricamento dei dati. Verifica che data/temi.json e data/fonti.json siano presenti.</div>`;
+    return;
+  }
+
+  document.getElementById('fonti-count').textContent = FONTI.length + ' documenti';
+
+  try {
+    const meta = await (await fetch('data/meta.json')).json();
+    document.getElementById('last-updated').textContent = meta.last_run || '—';
+  } catch(e) {
+    document.getElementById('last-updated').textContent = '13 luglio 2026';
+  }
+
+  renderTemi();
+  renderGrid();
+  routeFromHash();
+}
+
+init();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "quadro-normativo",
+    "num": "01",
+    "title": "Quadro normativo",
+    "abstract": "L'ossatura giuridica della conservazione a norma in Italia: dal CAD alle Linee guida AgID vigenti.",
+    "body": "La conservazione dei documenti informatici in Italia poggia sul CAD (D.Lgs. 82/2005), che ne fissa definizioni e requisiti (art. 44: autenticità, integrità, affidabilità, leggibilità, reperibilità). Le regole tecniche, un tempo nei DPCM del 2013–2014, sono oggi contenute nelle Linee guida AgID in vigore dal 1° gennaio 2022. Per la PA restano rilevanti il D.P.R. 445/2000 sulla gestione documentale e il Codice dei beni culturali per la tutela archivistica.",
+    "obblighi": [
+      "Garantire i requisiti dell'art. 44 CAD per tutto il ciclo di conservazione",
+      "Applicare le Linee guida AgID vigenti (non più i soli DPCM tecnici)",
+      "Distinguere obblighi pieni della PA da facoltà/obblighi settoriali dei privati"
+    ]
+  },
+  {
+    "id": "responsabile-conservazione",
+    "num": "02",
+    "title": "Responsabile della Conservazione",
+    "abstract": "La figura che governa il sistema, redige il Manuale e risponde della conformità.",
+    "body": "Il Responsabile della Conservazione (RdC) definisce le politiche di conservazione, governa e monitora il sistema e redige il Manuale. Deve possedere competenze giuridiche, informatiche e archivistiche. Può essere interno o esterno, ma per le PA la responsabilità resta in capo all'ente e il ruolo non è integralmente delegabile all'esterno. Si coordina con Produttore, Responsabile del trattamento dati, Responsabile della sicurezza ICT ed eventuale conservatore accreditato.",
+    "obblighi": [
+      "Nomina formale con atto scritto",
+      "Redazione e aggiornamento del Manuale della Conservazione",
+      "Verifica periodica di conformità e integrità del sistema",
+      "Per la PA: ruolo non integralmente esternalizzabile"
+    ]
+  },
+  {
+    "id": "manuale",
+    "num": "03",
+    "title": "Manuale della Conservazione",
+    "abstract": "Il documento obbligatorio che descrive il sistema, i ruoli e i processi.",
+    "body": "Il Manuale della Conservazione descrive l'intero sistema adottato: tipologie documentali, pacchetti informativi, processi di versamento, conservazione, accesso, scarto, infrastruttura e sicurezza. Va redatto prima dell'avvio del sistema, aggiornato a ogni variazione significativa e reso disponibile agli utenti. Per le PA è approvato dall'organo di vertice, pubblicato sul sito istituzionale e soggetto a vigilanza AgID.",
+    "obblighi": [
+      "Redazione prima dell'avvio del sistema",
+      "Struttura conforme al par. 4.1.1 delle Linee guida AgID",
+      "Aggiornamento ad ogni variazione significativa",
+      "Per la PA: approvazione, pubblicazione e vigilanza AgID"
+    ]
+  },
+  {
+    "id": "oais",
+    "num": "04",
+    "title": "Modello OAIS — SIP / AIP / DIP",
+    "abstract": "L'architettura a pacchetti informativi alla base del sistema di conservazione.",
+    "body": "La normativa italiana adotta il modello OAIS (ISO 14721). Il Produttore versa il SIP (Submission Information Package); il sistema lo trasforma nell'AIP (Archival Information Package) conservato nel tempo, chiuso e sigillato tramite l'Indice del Pacchetto di Archiviazione (UNI 11386 — SInCRO); su richiesta viene prodotto il DIP (Dissemination Information Package) per l'utente abilitato.",
+    "obblighi": [
+      "Definire e documentare SIP, AIP e DIP nel Manuale",
+      "Chiudere gli AIP con Indice del Pacchetto di Archiviazione (UNI 11386)",
+      "Garantire tracciabilità e integrità lungo tutta la catena"
+    ]
+  },
+  {
+    "id": "formati-metadati",
+    "num": "05",
+    "title": "Formati e metadati",
+    "abstract": "Formati idonei alla lunga conservazione e metadati minimi obbligatori.",
+    "body": "L'Allegato 2 delle Linee guida AgID individua i formati idonei alla conservazione (PDF/A, TIFF, XML, EML/MSG, MPEG-4, WAV/MP3), privilegiando l'autoconsistenza e la riproducibilità nel tempo. L'Allegato 5 definisce i metadati minimi obbligatori: identificativo univoco, data di produzione, tipologia documentale, soggetto produttore, riferimento temporale certificato.",
+    "obblighi": [
+      "Usare formati dell'Allegato 2 (PDF/A come preferito per i testi)",
+      "Associare a ogni documento i metadati minimi dell'Allegato 5",
+      "Prevedere la migrazione dei formati per garantire la leggibilità futura"
+    ]
+  },
+  {
+    "id": "firma-marca",
+    "num": "06",
+    "title": "Firma digitale e marca temporale",
+    "abstract": "Gli strumenti fiduciari che assicurano autenticità, integrità e data certa.",
+    "body": "Firma digitale/elettronica qualificata e marca temporale, disciplinate dal regolamento eIDAS e dalle norme tecniche ETSI (CAdES, XAdES, PAdES; time-stamping), assicurano autenticità, integrità e opponibilità temporale dei documenti e dei pacchetti conservati. La conservazione fiscale richiede firma e marca sul ciclo annuale (D.M. 17/6/2014).",
+    "obblighi": [
+      "Apporre firma e marca temporale secondo i formati ETSI/eIDAS",
+      "Preferire profili con validazione a lungo termine (LTV)",
+      "Rispettare i termini della conservazione fiscale (D.M. 17/6/2014)"
+    ]
+  },
+  {
+    "id": "conservatori-accreditati",
+    "num": "07",
+    "title": "Conservatori accreditati AgID",
+    "abstract": "Requisiti e obblighi dei soggetti che erogano conservazione in outsourcing.",
+    "body": "Chi esternalizza la conservazione può rivolgersi a un conservatore accreditato iscritto nell'elenco pubblico AgID (Circolare 65/2014). Il conservatore garantisce i requisiti dell'art. 44 CAD, nomina un proprio RdC e stipula un contratto che regola SLA, responsabilità e procedure di migrazione/restituzione dei dati a fine rapporto.",
+    "obblighi": [
+      "Verificare l'iscrizione nell'elenco pubblico dei conservatori AgID",
+      "Contratto con SLA, responsabilità e clausole di migrazione/restituzione",
+      "Coordinamento tra RdC dell'ente e RdC del conservatore"
+    ]
+  },
+  {
+    "id": "conservazione-fiscale",
+    "num": "08",
+    "title": "Conservazione fiscale",
+    "abstract": "Regole specifiche per fatture elettroniche, registri IVA e libri contabili.",
+    "body": "I documenti rilevanti ai fini fiscali seguono il D.M. 17/6/2014: conservazione digitale ammessa se conforme, con firma e marca temporale sul ciclo annuale entro il terzo mese successivo al termine di presentazione della dichiarazione. Le fatture elettroniche via SdI (D.Lgs. 127/2015) vanno conservate 10 anni; l'Agenzia delle Entrate offre un servizio di conservazione gratuito su adesione.",
+    "obblighi": [
+      "Conservazione digitale conforme al D.M. 17/6/2014",
+      "Firma e marca sul ciclo annuale entro i termini fiscali",
+      "Conservazione decennale delle fatture elettroniche"
+    ]
+  },
+  {
+    "id": "gdpr-privacy",
+    "num": "09",
+    "title": "GDPR e protezione dati",
+    "abstract": "Bilanciamento tra obblighi di conservazione e diritti degli interessati.",
+    "body": "I sistemi di conservazione che trattano dati personali applicano il GDPR e il Codice Privacy: privacy by design (art. 25), sicurezza del trattamento (art. 32), limitazione della conservazione e bilanciamento con il diritto alla cancellazione (art. 17) rispetto agli obblighi normativi di conservazione. Il RdC si coordina con il Responsabile del trattamento e con il DPO ove presente.",
+    "obblighi": [
+      "Progettare il sistema secondo privacy by design e by default",
+      "Bilanciare cancellazione (art. 17) e obblighi di conservazione",
+      "Coordinamento del RdC con DPO e Responsabile del trattamento"
+    ]
+  },
+  {
+    "id": "scarto-cessazione",
+    "num": "10",
+    "title": "Scarto e cessazione",
+    "abstract": "Selezione per lo scarto, migrazione e chiusura del sistema.",
+    "body": "Il Manuale disciplina la selezione per lo scarto e le procedure di migrazione in caso di cambio sistema o cessazione del servizio. Per le PA lo scarto dei documenti richiede l'autorizzazione della Soprintendenza archivistica (Codice dei beni culturali). Vanno garantite la continuità di leggibilità e la restituzione integrale dei pacchetti.",
+    "obblighi": [
+      "Definire il massimario di scarto e i tempi di conservazione",
+      "Per la PA: autorizzazione della Soprintendenza archivistica allo scarto",
+      "Procedure di migrazione e restituzione dati a fine servizio"
+    ]
+  },
+  {
+    "id": "monitoraggio-audit",
+    "num": "11",
+    "title": "Monitoraggio e audit",
+    "abstract": "Verifiche periodiche, audit trail e gestione delle anomalie.",
+    "body": "Il sistema prevede verifiche periodiche di conformità e integrità (hash, firme), audit trail e log di accesso e modifica, indicatori di qualità e procedure di risposta ad anomalie e data breach. Lo standard ISO 16363 offre una griglia per valutare l'affidabilità del repository di conservazione.",
+    "obblighi": [
+      "Verifiche periodiche di integrità e conformità",
+      "Conservazione dei log e audit trail",
+      "Procedure di gestione di anomalie e data breach"
+    ]
+  },
+  {
+    "id": "quadro-ue",
+    "num": "12",
+    "title": "Quadro europeo e standard internazionali",
+    "abstract": "eIDAS, standard ISO/ETSI e l'evoluzione verso eIDAS 2.",
+    "body": "Il livello europeo e internazionale fornisce l'infrastruttura tecnica: eIDAS per firme e servizi fiduciari, gli standard ISO (OAIS 14721, PDF/A 19005, records management 15489, audit 16363) e le norme ETSI sui formati di firma e sul time-stamping. eIDAS 2 (Reg. 2024/1183) introduce l'EUDI Wallet e un servizio qualificato di archiviazione elettronica: fronte da monitorare.",
+    "obblighi": [
+      "Allineare firme e marche agli standard eIDAS/ETSI",
+      "Adottare gli standard ISO di riferimento (OAIS, PDF/A, ecc.)",
+      "Monitorare l'attuazione di eIDAS 2 e degli atti di esecuzione"
+    ]
+  }
+]
