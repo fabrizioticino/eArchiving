@@ -144,5 +144,18 @@
       "Adottare gli standard ISO di riferimento (OAIS, PDF/A, ecc.)",
       "Monitorare l'attuazione di eIDAS 2 e degli atti di esecuzione"
     ]
+  },
+  {
+    "id": "conservazione-rentri",
+    "num": "13",
+    "title": "Conservazione RENTRI (tracciabilità rifiuti)",
+    "abstract": "Registro cronologico digitale, FIR digitale/xFIR e MUD: documenti informatici da conservare a norma.",
+    "body": "Con il RENTRI — Registro Elettronico Nazionale per la Tracciabilità dei Rifiuti (art. 188-bis del Testo Unico Ambientale, introdotto dal D.Lgs. 116/2020 e attuato dal D.M. 59/2023) — la documentazione sui rifiuti diventa digitale e va conservata come documento informatico. Rientrano nel perimetro: il registro cronologico di carico e scarico dei rifiuti (art. 190 TUA) tenuto in formato digitale; il Formulario di Identificazione del Rifiuto (FIR, art. 193 TUA) in formato digitale, prodotto secondo il tracciato dati xFIR definito dagli standard tecnici RENTRI e sottoposto a vidimazione digitale; il MUD (Modello Unico di Dichiarazione ambientale, Legge 70/1994). Questi documenti vanno conservati per i termini previsti dalla normativa ambientale (di norma 3 anni dall'ultima registrazione per registri e formulari) applicando le regole sulla conservazione dei documenti informatici (Linee guida AgID): formati idonei, metadati, firma e marca temporale.",
+    "obblighi": [
+      "Iscrizione al RENTRI secondo lo scaglionamento (dal 15/12/2024 per >50 dipendenti; 15/6/2025 per 11-50; 15/12/2025 per gli altri)",
+      "Tenuta in formato digitale del registro cronologico di carico/scarico e del FIR (tracciato xFIR)",
+      "Vidimazione digitale di registri e formulari tramite i servizi RENTRI",
+      "Conservazione a norma dei documenti per i termini del TUA (di norma 3 anni), secondo le Linee guida AgID"
+    ]
   }
 ]

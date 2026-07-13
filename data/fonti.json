@@ -469,5 +469,104 @@
     ],
     "temi": ["manuale", "conservazione-fiscale", "oais"],
     "url": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/comunicazioni/fatture-e-corrispettivi/conservazione-fc"
+  },
+  {
+    "id": "tua-152-2006-rifiuti",
+    "title": "D.Lgs. 3 aprile 2006, n. 152 (Testo Unico Ambientale) — Tracciabilità dei rifiuti (artt. 188-bis, 190, 193)",
+    "short": "TUA — Tracciabilità rifiuti",
+    "type": "Decreto legislativo",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "3 aprile 2006 (s.m.i.)",
+    "date_iso": "2006-04-03",
+    "status": "vigente",
+    "summary": "Parte IV del Codice dell'Ambiente: disciplina la gestione dei rifiuti e la loro tracciabilità documentale. Fissa gli obblighi di tenuta del registro cronologico di carico e scarico (art. 190) e del formulario di identificazione del rifiuto (art. 193), oggi digitalizzati dal RENTRI (art. 188-bis).",
+    "key_points": [
+      "Art. 188-bis — Sistema di tracciabilità dei rifiuti (RENTRI)",
+      "Art. 190 — Registro cronologico di carico e scarico dei rifiuti",
+      "Art. 193 — Formulario di Identificazione del Rifiuto (FIR)",
+      "Conservazione di registri e formulari per i termini di legge (di norma 3 anni)"
+    ],
+    "temi": ["conservazione-rentri", "quadro-normativo"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152"
+  },
+  {
+    "id": "dlgs-116-2020",
+    "title": "D.Lgs. 3 settembre 2020, n. 116 — Recepimento direttive UE sui rifiuti e istituzione del RENTRI",
+    "short": "D.Lgs. 116/2020",
+    "type": "Decreto legislativo",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "3 settembre 2020",
+    "date_iso": "2020-09-03",
+    "status": "vigente",
+    "summary": "Recepisce le direttive UE 2018 sull'economia circolare modificando il Testo Unico Ambientale. Riscrive l'art. 188-bis istituendo il RENTRI, il sistema nazionale di tracciabilità digitale dei rifiuti gestito dal Ministero dell'Ambiente.",
+    "key_points": [
+      "Recepimento del pacchetto UE economia circolare (dir. 2018/851 e collegate)",
+      "Nuovo art. 188-bis TUA: istituzione del RENTRI",
+      "Basi per la dematerializzazione di registri e formulari"
+    ],
+    "temi": ["conservazione-rentri", "quadro-normativo", "quadro-ue"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2020-09-03;116"
+  },
+  {
+    "id": "dm-59-2023-rentri",
+    "title": "D.M. 4 aprile 2023, n. 59 — Regolamento di attuazione del RENTRI",
+    "short": "D.M. 59/2023 (Regolamento RENTRI)",
+    "type": "Decreto ministeriale",
+    "issuer": "Ministero dell'Ambiente e della Sicurezza Energetica (MASE)",
+    "jurisdiction": "IT",
+    "date": "4 aprile 2023",
+    "date_iso": "2023-04-04",
+    "status": "vigente",
+    "summary": "Regolamento che disciplina organizzazione e funzionamento del RENTRI: iscrizione scaglionata dei soggetti obbligati, tenuta in formato digitale del registro cronologico di carico/scarico e del FIR, vidimazione digitale e relative regole di conservazione dei documenti.",
+    "key_points": [
+      "Iscrizione per fasi: dal 15/12/2024 (>50 dipendenti), dal 15/6/2025 (11-50), dal 15/12/2025 (altri obbligati)",
+      "Registro cronologico e FIR tenuti in formato digitale",
+      "Vidimazione digitale dei documenti tramite i servizi RENTRI",
+      "Rinvio ai decreti direttoriali per modelli e formati dei dati"
+    ],
+    "temi": ["conservazione-rentri", "quadro-normativo", "manuale"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.ministeriale:2023-04-04;59"
+  },
+  {
+    "id": "standard-tecnici-rentri-xfir",
+    "title": "Decreti direttoriali RENTRI — Standard tecnici e formati dei dati (registro cronologico, FIR digitale / xFIR)",
+    "short": "Standard tecnici RENTRI (xFIR)",
+    "type": "Decreto direttoriale",
+    "issuer": "MASE — Direzione generale Economia circolare",
+    "jurisdiction": "IT",
+    "date": "dal 2023 (aggiornati periodicamente)",
+    "date_iso": "2023-12-06",
+    "status": "vigente",
+    "summary": "Attuano il Regolamento RENTRI definendo modelli, codifiche e formati dei dati per la tenuta digitale del registro cronologico di carico/scarico e per il formulario in formato digitale (tracciato dati xFIR), oltre alle modalità di trasmissione e interoperabilità con la piattaforma RENTRI.",
+    "key_points": [
+      "Formato dei dati del registro cronologico digitale",
+      "Tracciato xFIR del Formulario di Identificazione del Rifiuto in formato digitale",
+      "Regole di interoperabilità, trasmissione e vidimazione digitale",
+      "Aggiornati periodicamente dalla Direzione generale competente"
+    ],
+    "temi": ["conservazione-rentri", "formati-metadati", "firma-marca"],
+    "url": "https://www.rentri.gov.it/"
+  },
+  {
+    "id": "legge-70-1994-mud",
+    "title": "Legge 25 gennaio 1994, n. 70 — MUD (Modello Unico di Dichiarazione ambientale)",
+    "short": "Legge 70/1994 (MUD)",
+    "type": "Legge",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "25 gennaio 1994 (modello approvato con DPCM annuale)",
+    "date_iso": "1994-01-25",
+    "status": "vigente",
+    "summary": "Istituisce il Modello Unico di Dichiarazione ambientale (MUD), dichiarazione annuale sui rifiuti presentata alle Camere di Commercio entro il 30 aprile. Il modello è approvato con DPCM annuale; con l'avvio del RENTRI gli adempimenti dichiarativi sono progressivamente semplificati per i soggetti iscritti.",
+    "key_points": [
+      "Dichiarazione ambientale annuale (rifiuti) entro il 30 aprile",
+      "Modello approvato di anno in anno con DPCM",
+      "Presentazione tramite le Camere di Commercio",
+      "Interazione e progressiva semplificazione con il RENTRI"
+    ],
+    "temi": ["conservazione-rentri", "quadro-normativo"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1994-01-25;70"
   }
 ]
