@@ -458,10 +458,10 @@
     "type": "Manuale",
     "issuer": "Agenzia delle Entrate",
     "jurisdiction": "IT",
-    "date": "in vigore, aggiornato periodicamente",
+    "date": "v3.1 (aggiornato periodicamente)",
     "date_iso": "2022-01-01",
     "status": "vigente",
-    "summary": "Manuale che descrive il sistema di conservazione a norma adottato dall'Agenzia delle Entrate per il servizio gratuito di conservazione delle fatture elettroniche: processi di versamento, formati, metadati, pacchetti SIP/AIP/DIP e misure di sicurezza. Esempio concreto di Manuale conforme alle Linee guida AgID.",
+    "summary": "Manuale che descrive il sistema di conservazione a norma adottato dall'Agenzia delle Entrate per il servizio gratuito di conservazione delle fatture elettroniche transitate da SdI (conservate per 15 anni): processi di versamento, formati, metadati, pacchetti SIP/AIP/DIP e misure di sicurezza. Esempio concreto di Manuale conforme alle Linee guida AgID.",
     "key_points": [
       "Descrizione del sistema di conservazione del servizio AdE",
       "Processi di versamento, conservazione ed esibizione",
@@ -469,7 +469,7 @@
       "Riferimento pratico per chi aderisce al servizio gratuito"
     ],
     "temi": ["manuale", "conservazione-fiscale", "oais"],
-    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/schede/comunicazioni/fatture-e-corrispettivi"
+    "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/210557/Manuale+di+Conservazione+3.1.pdf/0465a114-e5b7-052b-8f02-45ca7a7bb8f1"
   },
   {
     "id": "circolare-ade-36e-2006",
