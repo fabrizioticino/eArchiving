@@ -469,7 +469,10 @@
       "Riferimento pratico per chi aderisce al servizio gratuito"
     ],
     "temi": ["manuale", "conservazione-fiscale", "oais"],
-    "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/210557/Manuale+di+Conservazione+3.1.pdf/0465a114-e5b7-052b-8f02-45ca7a7bb8f1"
+    "url": "https://www.agenziaentrate.gov.it/portale/aree-tematiche/fatturazione-elettronica/guida-fatturazione-elettronica/i-servizi-dell-agenzia-fe/servizio-conservazione-elettronica",
+    "links": [
+      { "label": "Manuale (PDF v3.1)", "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/210557/Manuale+di+Conservazione+3.1.pdf/0465a114-e5b7-052b-8f02-45ca7a7bb8f1" }
+    ]
   },
   {
     "id": "circolare-ade-36e-2006",

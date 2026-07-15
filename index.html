@@ -797,6 +797,11 @@ function openFonte(id){
     ? `<div class="chip-row">${relTemi.map(t => `<span class="rel-chip" data-tema="${t.id}">${t.num} · ${t.title} →</span>`).join('')}</div>`
     : '';
 
+  const extraRefsHTML = (f.links || []).map(l => `
+      <div class="field-grid">
+        <div class="field-label">${l.label}</div><div class="field-value"><a href="${l.url}" target="_blank" rel="noopener" class="ref-link">Apri →</a></div>
+      </div>`).join('');
+
   document.getElementById('detail-body').innerHTML = `
     <div class="detail-meta">
       <span class="badge juris">${JURIS_LABEL[f.jurisdiction] || f.jurisdiction}</span>
@@ -820,7 +825,7 @@ function openFonte(id){
       </div>
       <div class="field-grid">
         <div class="field-label">Riferimento</div><div class="field-value"><a href="${f.url}" target="_blank" rel="noopener" class="ref-link">Fonte ufficiale →</a></div>
-      </div>
+      </div>${extraRefsHTML}
     </div>
 
     ${pointsHTML ? `<div class="block">
