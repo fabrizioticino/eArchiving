@@ -713,12 +713,15 @@ function bindFonteCards(container){
   });
 }
 
+// Le prassi AdE vivono solo nella sezione dedicata: escluse dalla griglia principale.
+const isAdeFonte = f => f.issuer === 'Agenzia delle Entrate';
+
 /* ───────── Raccolta: circolari e prassi AdE sulla conservazione ───────── */
 function renderAdeCollection(){
   const grid = document.getElementById('ade-grid');
   if(!grid) return;
   const items = FONTI
-    .filter(f => f.issuer === 'Agenzia delle Entrate')
+    .filter(isAdeFonte)
     .sort((a, b) => (a.date_iso || '').localeCompare(b.date_iso || ''));
   const countEl = document.getElementById('ade-count');
   if(countEl) countEl.textContent = `${items.length} document${items.length === 1 ? 'o' : 'i'}`;
@@ -731,7 +734,8 @@ function renderGrid(){
   const grid = document.getElementById('grid');
   const term = searchTerm.trim().toLowerCase();
 
-  const filtered = FONTI.filter(f => {
+  const base = FONTI.filter(f => !isAdeFonte(f));
+  const filtered = base.filter(f => {
     if(activeFilters.jurisdiction !== 'all' && f.jurisdiction !== activeFilters.jurisdiction) return false;
     if(activeFilters.status !== 'all' && f.status !== activeFilters.status) return false;
     if(term){
@@ -741,7 +745,7 @@ function renderGrid(){
     return true;
   });
 
-  document.getElementById('result-count').textContent = `${filtered.length} / ${FONTI.length} fonti`;
+  document.getElementById('result-count').textContent = `${filtered.length} / ${base.length} fonti`;
 
   if(filtered.length === 0){
     grid.innerHTML = `<div class="no-results">Nessuna fonte corrisponde ai filtri selezionati.</div>`;
