@@ -1,0 +1,68 @@
+[
+  {
+    "conservatore": "Aruba PEC S.p.A.",
+    "servizio": "DocFly",
+    "formato": "PDF",
+    "url": "https://www.pec.it/documents/tc-files/it/43_manualeconservazionearubapec.pdf"
+  },
+  {
+    "conservatore": "Credemtel S.p.A.",
+    "servizio": "GEDCONS",
+    "formato": "Pagina web",
+    "url": "https://www.credemtel.it/gestione-documentale/conservazione-digitale/"
+  },
+  {
+    "conservatore": "In.Te.S.A. S.p.A. (Kyndryl)",
+    "servizio": "",
+    "formato": "PDF",
+    "url": "https://www.intesa.it/risorse/Manuale-Conservazione_ITA.pdf"
+  },
+  {
+    "conservatore": "Maggioli S.p.A.",
+    "servizio": "",
+    "formato": "PDF",
+    "url": "https://assistenza.maggioli.it/wp-content/uploads/2023/01/ConservazioneDigitale-MaggioliSpa-Manuale_Disciplinare_del_Servizio_signed.pdf"
+  },
+  {
+    "conservatore": "Namirial S.p.A.",
+    "servizio": "Namirial Archive",
+    "formato": "PDF",
+    "url": "https://support.namirial.com/download/159/manuale-operativo-can/1611/manuale-di-conservazione.pdf"
+  },
+  {
+    "conservatore": "Postel S.p.A. (Gruppo Poste Italiane)",
+    "servizio": "Postedoc",
+    "formato": "PDF",
+    "url": "https://postecert.poste.it/conservazione/postedoc_manuale.pdf"
+  },
+  {
+    "conservatore": "SIAV S.p.A.",
+    "servizio": "",
+    "formato": "Pagina web",
+    "url": "https://www.siav.com/it/soluzioni/servizio-conservazione-digitale/"
+  },
+  {
+    "conservatore": "TeamSystem Service S.r.l.",
+    "servizio": "TeamSystem Archive — v3.0",
+    "formato": "PDF",
+    "url": "https://5264012.fs1.hubspotusercontent-na1.net/hubfs/5264012/TRUST%20SERVICES/ConservazioneDigitale/TeamSystemService_Manuale_della_Conservazione_v30.pdf"
+  },
+  {
+    "conservatore": "Tinexta InfoCert S.p.A.",
+    "servizio": "LegalDoc",
+    "formato": "Pagina web",
+    "url": "https://www.infocert.it/conservazione/documentazione/"
+  },
+  {
+    "conservatore": "Unimatica-RGI S.p.A.",
+    "servizio": "UNISTORAGE",
+    "formato": "Pagina web",
+    "url": "https://www.unimaticaspa.it/it/manuale-del-sistema-di-conservazione"
+  },
+  {
+    "conservatore": "Zucchetti Digital Solutions S.r.l.",
+    "servizio": "",
+    "formato": "PDF",
+    "url": "https://www.agid.gov.it/sites/default/files/repository_files/mscver13_manuale_servizio_conservazione.pdf"
+  }
+]

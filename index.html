@@ -290,6 +290,28 @@
     padding:22px 5vw 70px;
   }
 
+  /* ───────── Card manuale (conservatore) ───────── */
+  .manuale-card{
+    background:var(--card);
+    padding:20px 22px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    text-decoration:none;
+    color:inherit;
+    transition:background .15s ease;
+  }
+  .manuale-card:hover{ background:#fff; }
+  .manuale-foot{
+    margin-top:auto;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--accent);
+    letter-spacing:.03em;
+    border-top:1px solid var(--line);
+    padding-top:10px;
+  }
+
   /* ───────── Biblioteca grid ───────── */
   main{
     position:relative;
@@ -631,6 +653,18 @@
   <div class="grid" id="ade-grid"></div>
 </div>
 
+<!-- ───────── Manuali del servizio di conservazione (conservatori) ───────── -->
+<div class="section-rule">
+  <span class="kicker">Operatori</span>
+  <h2>Manuali servizio conservazione</h2>
+  <span class="rule-line"></span>
+  <span class="result-count" id="manuali-count"></span>
+</div>
+<div class="section-intro">Manuali del servizio di conservazione dei principali conservatori italiani qualificati. L'elenco completo e sempre aggiornato di <b>tutti</b> i conservatori iscritti, con i rispettivi manuali, è pubblicato nel <a href="https://conservatoriqualificati.agid.gov.it/" target="_blank" rel="noopener" class="ref-link">Marketplace AgID dei servizi di conservazione →</a></div>
+<div class="ade-wrap">
+  <div class="grid" id="manuali-grid"></div>
+</div>
+
 <footer>
   <span>Materiale a fini informativi — non costituisce consulenza legale o fiscale</span>
   <span>Verificare sempre la versione vigente sulle fonti ufficiali (AgID, Normattiva, EUR-Lex)</span>
@@ -648,6 +682,7 @@
 <script>
 let TEMI = [];
 let FONTI = [];
+let MANUALI = [];
 let activeFilters = { jurisdiction: 'all', status: 'all' };
 let searchTerm = '';
 
@@ -727,6 +762,20 @@ function renderAdeCollection(){
   if(countEl) countEl.textContent = `${items.length} document${items.length === 1 ? 'o' : 'i'}`;
   grid.innerHTML = items.map(fonteCardHTML).join('');
   bindFonteCards(grid);
+}
+
+/* ───────── Manuali del servizio di conservazione ───────── */
+function renderManuali(){
+  const grid = document.getElementById('manuali-grid');
+  if(!grid) return;
+  grid.innerHTML = MANUALI.map(m => `
+    <a class="manuale-card" href="${m.url}" target="_blank" rel="noopener" aria-label="Apri il manuale di ${m.conservatore}">
+      <div class="fonte-short">${m.conservatore}</div>
+      <div class="fonte-type">Manuale del servizio di conservazione${m.servizio ? ' · ' + m.servizio : ''}</div>
+      <div class="manuale-foot">${m.formato || 'Documento'} · Apri →</div>
+    </a>`).join('');
+  const c = document.getElementById('manuali-count');
+  if(c) c.textContent = `${MANUALI.length} conservatori`;
 }
 
 /* ───────── Biblioteca rendering ───────── */
@@ -919,9 +968,16 @@ async function init(){
     document.getElementById('last-updated').textContent = '13 luglio 2026';
   }
 
+  try {
+    MANUALI = await (await fetch('data/manuali.json')).json();
+  } catch(e) {
+    MANUALI = [];
+  }
+
   renderTemi();
   renderGrid();
   renderAdeCollection();
+  renderManuali();
   routeFromHash();
 }
 
