@@ -586,6 +586,69 @@
     "url": "https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi"
   },
   {
+    "id": "risoluzione-ade-106e-2014",
+    "title": "Risoluzione Agenzia delle Entrate n. 106/E del 2 dicembre 2014 — Codice tributo 2501: imposta di bollo su libri, registri e documenti informatici",
+    "short": "Risoluzione AdE 106/E/2014",
+    "type": "Risoluzione",
+    "issuer": "Agenzia delle Entrate",
+    "jurisdiction": "IT",
+    "date": "2 dicembre 2014",
+    "date_iso": "2014-12-02",
+    "status": "vigente",
+    "summary": "Istituisce il codice tributo 2501 per il versamento tramite modello F24 dell'imposta di bollo su libri, registri e altri documenti informatici rilevanti ai fini tributari (art. 6 del D.M. 17 giugno 2014). È il riferimento per il bollo su libro giornale, libro degli inventari e registri contabili tenuti in modalità digitale.",
+    "key_points": [
+      "Codice tributo 2501 per l'imposta di bollo sui documenti informatici (art. 6 D.M. 17/6/2014)",
+      "Versamento esclusivamente telematico con modello F24",
+      "Pagamento in unica soluzione entro 120 giorni dalla chiusura dell'esercizio",
+      "Base per il bollo su libro giornale, libro inventari e registri informatici"
+    ],
+    "temi": ["conservazione-fiscale", "firma-marca"],
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi/risoluzioni"
+  },
+  {
+    "id": "risoluzione-ade-42e-2019",
+    "title": "Risoluzione Agenzia delle Entrate n. 42/E del 28 aprile 2019 — Codici tributo per l'imposta di bollo sulle fatture elettroniche",
+    "short": "Risoluzione AdE 42/E/2019",
+    "type": "Risoluzione",
+    "issuer": "Agenzia delle Entrate",
+    "jurisdiction": "IT",
+    "date": "28 aprile 2019",
+    "date_iso": "2019-04-28",
+    "status": "vigente",
+    "summary": "Istituisce i codici tributo (2521, 2522, 2523, 2524) per il versamento con modello F24 dell'imposta di bollo sulle fatture elettroniche, dovuta con cadenza trimestrale. Rileva per la conservazione delle fatture (comprese quelle esenti IVA o fuori campo di importo superiore a 77,47 euro) su cui è dovuto il bollo.",
+    "key_points": [
+      "Codici tributo 2521-2524 per il bollo trimestrale sulle fatture elettroniche",
+      "Versamento telematico tramite modello F24",
+      "Bollo dovuto sulle fatture esenti/fuori campo IVA oltre 77,47 euro",
+      "Coordinamento con l'elenco delle fatture soggette a bollo del portale Fatture e Corrispettivi"
+    ],
+    "temi": ["conservazione-fiscale", "firma-marca"],
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi/risoluzioni",
+    "links": [
+      { "label": "Guida AdE: imposta di bollo sulle fatture elettroniche", "url": "https://www.agenziaentrate.gov.it/portale/imposta-di-bollo-sulle-fatture-elettroniche" }
+    ]
+  },
+  {
+    "id": "risposta-ade-144-2026",
+    "title": "Risposta a interpello Agenzia delle Entrate n. 144 del 2026 — Imposta di bollo sul libro giornale informatico",
+    "short": "Risposta AdE 144/2026",
+    "type": "Risposta a interpello",
+    "issuer": "Agenzia delle Entrate",
+    "jurisdiction": "IT",
+    "date": "luglio 2026",
+    "date_iso": "2026-07-13",
+    "status": "vigente",
+    "summary": "Chiarisce, per il libro giornale tenuto in modalità informatica, che il conteggio delle 2.500 registrazioni rilevanti ai fini dell'imposta di bollo va effettuato autonomamente per ciascun periodo d'imposta, azzerando il contatore alla chiusura dell'esercizio. Valorizza l'inciso «o frazione di esse» dell'art. 6, comma 3, del D.M. 17 giugno 2014.",
+    "key_points": [
+      "Conteggio delle 2.500 registrazioni autonomo per ciascun anno d'imposta",
+      "Rilevanza autonoma anche delle frazioni di 2.500 registrazioni",
+      "Imposta di 16 euro (soggetti con TCG forfettaria) o 32 euro ogni 2.500 registrazioni o frazione",
+      "Versamento telematico entro 120 giorni dalla chiusura dell'esercizio"
+    ],
+    "temi": ["conservazione-fiscale"],
+    "url": "https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi"
+  },
+  {
     "id": "tua-152-2006-rifiuti",
     "title": "D.Lgs. 3 aprile 2006, n. 152 (Testo Unico Ambientale) — Tracciabilità dei rifiuti (artt. 188-bis, 190, 193)",
     "short": "TUA — Tracciabilità rifiuti",
