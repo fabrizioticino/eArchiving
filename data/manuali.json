@@ -19,7 +19,7 @@
   },
   {
     "conservatore": "In.Te.S.A. S.p.A. (Kyndryl)",
-    "servizio": "",
+    "servizio": "Manuale del Conservatore v08 (2025)",
     "formato": "PDF",
     "url": "https://www.intesa.it/risorse/Manuale-Conservazione_ITA.pdf"
   },
@@ -31,19 +31,19 @@
   },
   {
     "conservatore": "Maggioli S.p.A.",
-    "servizio": "",
-    "formato": "PDF",
-    "url": "https://assistenza.maggioli.it/wp-content/uploads/2023/01/ConservazioneDigitale-MaggioliSpa-Manuale_Disciplinare_del_Servizio_signed.pdf"
+    "servizio": "Documentazione conservazione digitale",
+    "formato": "Pagina web",
+    "url": "https://assistenza.maggioli.it/conservazione-digitale-documentazione/"
   },
   {
     "conservatore": "Namirial S.p.A.",
-    "servizio": "Namirial Archive",
+    "servizio": "Manuale del Conservatore (agg. 2025)",
     "formato": "PDF",
-    "url": "https://support.namirial.com/download/159/manuale-operativo-can/1611/manuale-di-conservazione.pdf"
+    "url": "https://static.namirial.com/docs/it/manuale-del-conservatore.pdf"
   },
   {
     "conservatore": "Postel S.p.A. (Gruppo Poste Italiane)",
-    "servizio": "Postedoc",
+    "servizio": "Postedoc (ed. 2025)",
     "formato": "PDF",
     "url": "https://postecert.poste.it/conservazione/postedoc_manuale.pdf"
   },
