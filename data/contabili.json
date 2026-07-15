@@ -1,0 +1,342 @@
+[
+  {
+    "id": "registri-iva",
+    "title": "Registri IVA",
+    "abstract": "Registro delle fatture emesse, degli acquisti e dei corrispettivi: la base della liquidazione dell'imposta sul valore aggiunto.",
+    "lead": "I registri IVA sono le scritture in cui l'imprenditore e il professionista annotano le operazioni rilevanti ai fini dell'imposta sul valore aggiunto. Non nascono dal Codice civile ma dalla disciplina IVA (D.P.R. 633/1972): registro delle fatture emesse, registro degli acquisti e, per chi non emette fattura, registro dei corrispettivi. Da queste annotazioni discende la liquidazione periodica dell'imposta, cioè il calcolo di quanto versare o portare a credito. Sono documenti a un tempo contabili e fiscali, la cui corretta costruzione è il presupposto della corretta determinazione del tributo.",
+    "sezioni": [
+      {
+        "h": "Che cosa sono e a quale esigenza rispondono",
+        "p": [
+          "I registri IVA nascono per dare attuazione al meccanismo di applicazione dell'imposta sul valore aggiunto, imposta che colpisce il valore aggiunto in ciascuna fase della catena produttiva e distributiva attraverso il gioco di IVA a debito (sulle vendite) e IVA a credito (sugli acquisti). Perché questo meccanismo funzioni occorre che ogni soggetto passivo tenga memoria ordinata delle operazioni attive e passive: a questo servono, appunto, i registri IVA.",
+          "La disciplina è contenuta nel Titolo II del D.P.R. 26 ottobre 1972, n. 633. In particolare, l'articolo 23 disciplina il registro delle fatture emesse, l'articolo 24 il registro dei corrispettivi e l'articolo 25 il registro degli acquisti. L'articolo 39 detta le regole generali di tenuta e conservazione dei registri. Si tratta di scritture obbligatorie per la generalità dei soggetti passivi IVA, con semplificazioni per i regimi minori e per i contribuenti forfetari, esonerati dalla tenuta secondo le regole ordinarie."
+        ]
+      },
+      {
+        "h": "Come si costruisce il registro delle fatture emesse",
+        "p": [
+          "Il registro delle fatture emesse accoglie l'annotazione delle fatture attive, cioè quelle emesse dal soggetto verso i propri clienti. Ciascuna fattura va annotata seguendo l'ordine della sua numerazione e con riferimento alla data di emissione; per ogni documento si riportano il numero progressivo, la data, l'identificativo del cliente, l'imponibile distinto per aliquota e la relativa imposta, oltre alle operazioni non imponibili, esenti o escluse. L'annotazione va effettuata entro i termini previsti dall'articolo 23, che li àncora al momento di effettuazione dell'operazione e di emissione della fattura.",
+          "La suddivisione per aliquota è il cuore della costruzione: è essa a consentire, in sede di liquidazione, di sommare l'imposta a debito distintamente per ciascuna aliquota applicata. Con la fatturazione elettronica obbligatoria via Sistema di Interscambio, molte annotazioni sono di fatto alimentate dai dati trasmessi allo SdI, e l'Agenzia delle Entrate mette a disposizione registri IVA precompilati; resta però la responsabilità del contribuente di verificarne e integrarne il contenuto."
+        ]
+      },
+      {
+        "h": "Registro degli acquisti e registro dei corrispettivi",
+        "p": [
+          "Il registro degli acquisti (art. 25) accoglie le fatture passive, cioè quelle ricevute dai fornitori, dalla cui annotazione dipende il diritto alla detrazione dell'IVA assolta sugli acquisti. Ogni fattura d'acquisto va annotata prima della liquidazione periodica nella quale si esercita la detrazione e comunque entro il termine di presentazione della dichiarazione annuale relativa all'anno di ricezione. Anche qui si riportano numero, data, fornitore, imponibile per aliquota e imposta detraibile.",
+          "Il registro dei corrispettivi (art. 24) è destinato ai soggetti che, come i commercianti al minuto, non sono obbligati a emettere fattura per ogni operazione: vi si annotano i corrispettivi giornalieri delle vendite, oggi in larga parte alimentati dalla memorizzazione e trasmissione telematica dei corrispettivi tramite registratore telematico. Insieme, i tre registri fotografano l'intera posizione IVA del soggetto: quanto ha incassato, quanto ha speso, quanta imposta deve o può portare in detrazione."
+        ]
+      },
+      {
+        "h": "Il senso nell'impianto contabile: dalla registrazione alla liquidazione",
+        "p": [
+          "Nel disegno complessivo della contabilità, i registri IVA costituiscono il ponte tra la rilevazione delle singole operazioni e l'adempimento periodico verso l'Erario. Le medesime operazioni che vengono annotate nel libro giornale ai fini civilistici trovano nei registri IVA la loro rappresentazione ai fini dell'imposta, secondo una logica in parte diversa: non l'ordine cronologico dei fatti di gestione, ma la loro rilevanza per il calcolo del tributo, distinta per aliquota e per natura dell'operazione.",
+          "Dalla somma algebrica dell'IVA a debito risultante dal registro delle vendite e dell'IVA a credito risultante dal registro degli acquisti scaturisce la liquidazione periodica, mensile o trimestrale, che determina l'imposta da versare o il credito da riportare. I registri IVA sono quindi lo strumento operativo attraverso cui l'impresa autoliquida il proprio debito d'imposta, in un sistema che affida al contribuente la determinazione e il versamento del tributo sotto il controllo successivo dell'Amministrazione."
+        ]
+      },
+      {
+        "h": "Tenuta, aggiornamento e semplificazioni",
+        "p": [
+          "L'articolo 39 del D.P.R. 633/1972 fissa le regole di tenuta: i registri vanno tenuti secondo le norme di ordinata contabilità, senza spazi in bianco né abrasioni, e le annotazioni devono essere effettuate nei termini previsti. Nel tempo il legislatore ha introdotto rilevanti semplificazioni sulla tenuta con strumenti informatici: la tenuta dei registri con sistemi elettronici è considerata regolare, e in determinate condizioni i registri tenuti in formato elettronico non devono essere necessariamente stampati né conservati digitalmente a norma se sono aggiornati e resi disponibili, anche a stampa, in sede di controllo.",
+          "Questa evoluzione riflette il progressivo superamento della logica cartacea: ciò che conta è la disponibilità del dato e la sua leggibilità in caso di verifica, più che la materialità del supporto. Restano ferme le regole sull'ordine, sulla completezza e sui termini di annotazione, la cui violazione può incidere sulla liquidazione dell'imposta e sull'esercizio del diritto alla detrazione."
+        ]
+      },
+      {
+        "h": "Conservazione e imposta di bollo",
+        "p": [
+          "I registri IVA sono documenti rilevanti ai fini tributari e come tali soggetti agli obblighi di conservazione: vanno conservati fino alla definizione degli accertamenti relativi al corrispondente periodo d'imposta, e comunque nel rispetto del termine ordinario. Se tenuti e conservati in modalità digitale, si applicano le regole del D.M. 17 giugno 2014 e delle Linee guida AgID sulla conservazione dei documenti informatici, con formati idonei, metadati, firma e marca temporale sul ciclo annuale.",
+          "Un aspetto spesso frainteso riguarda l'imposta di bollo: a differenza del libro giornale e del libro degli inventari, i registri IVA non sono soggetti all'imposta di bollo. L'imposta di bollo sui libri contabili grava infatti sui soli libro giornale e libro inventari; i registri IVA, come gli altri registri fiscali obbligatori, ne sono esclusi. Resta invece dovuta, quando ne ricorrono i presupposti, l'imposta di bollo sulle singole fatture (ad esempio quelle esenti o fuori campo IVA oltre la soglia di legge), che è però questione distinta dalla tassazione dei registri."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.P.R. 633/1972, art. 23 — registro delle fatture emesse",
+      "D.P.R. 633/1972, art. 24 — registro dei corrispettivi",
+      "D.P.R. 633/1972, art. 25 — registro degli acquisti",
+      "D.P.R. 633/1972, art. 39 — tenuta e conservazione dei registri IVA",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "dlgs-127-2015", "circolare-ade-18e-2014", "risposta-ade-236-2021"]
+  },
+  {
+    "id": "libro-giornale",
+    "title": "Libro Giornale",
+    "abstract": "La scrittura cronologica per eccellenza: tutte le operazioni di gestione, giorno per giorno, nell'ordine in cui avvengono.",
+    "lead": "Il libro giornale è il registro contabile obbligatorio in cui vengono annotate, in ordine cronologico, tutte le operazioni relative all'esercizio dell'impresa. È previsto dall'articolo 2216 del Codice civile, nell'ambito dell'obbligo generale di tenuta delle scritture contabili posto dall'articolo 2214. La sua caratteristica distintiva è la cronologicità: ogni fatto di gestione vi trova posto nel momento in cui si verifica, indipendentemente dalla sua natura, componendo il diario continuo e ordinato della vita economica dell'impresa.",
+    "sezioni": [
+      {
+        "h": "L'obbligo e la funzione",
+        "p": [
+          "L'articolo 2214 del Codice civile impone all'imprenditore che esercita un'attività commerciale di tenere il libro giornale, il libro degli inventari e le altre scritture contabili richieste dalla natura e dalle dimensioni dell'impresa. Il libro giornale è, tra queste, la scrittura cronologica fondamentale: l'articolo 2216 stabilisce che deve indicare giorno per giorno le operazioni relative all'esercizio dell'impresa.",
+          "La funzione del libro giornale è duplice. Sul piano interno, offre la rappresentazione ordinata e continua dei fatti di gestione, consentendo di ricostruire in ogni momento la sequenza delle operazioni. Sul piano esterno e probatorio, costituisce un elemento di prova nei rapporti tra imprenditori e uno strumento di controllo per l'Amministrazione finanziaria, che vi attinge per verificare la corrispondenza tra i fatti di gestione e la loro rappresentazione contabile e fiscale."
+        ]
+      },
+      {
+        "h": "Come si costruisce: l'articolo cronologico e la partita doppia",
+        "p": [
+          "Ogni annotazione nel libro giornale prende la forma di un articolo contabile, che registra un'operazione secondo il metodo della partita doppia. In esso ogni fatto di gestione è rilevato simultaneamente sotto due profili: la variazione finanziaria (entrata o uscita di denaro, sorgere di un credito o di un debito) e la corrispondente variazione economica o patrimoniale. A ogni operazione corrisponde quindi almeno un conto acceso in dare e almeno un conto acceso in avere, per importi uguali, secondo il principio per cui non vi è dare senza un corrispondente avere.",
+          "L'articolo si compone tipicamente della data dell'operazione, dei conti movimentati con l'indicazione degli importi in dare e in avere, e di una descrizione sintetica dell'operazione. La costruzione è rigorosamente cronologica: le operazioni si susseguono nell'ordine temporale in cui si verificano, con numerazione progressiva delle registrazioni. È questa sequenza continua e non interrompibile a garantire l'affidabilità del libro come diario fedele della gestione."
+        ]
+      },
+      {
+        "h": "Il senso nell'impianto contabile: il cuore della partita doppia",
+        "p": [
+          "Nel sistema della partita doppia il libro giornale rappresenta il momento della rilevazione cronologica, che si contrappone e si integra con la rilevazione sistematica propria del libro mastro. Ogni operazione, prima annotata cronologicamente nel giornale, viene poi riclassificata nel mastro per conto, così da conoscere in ogni momento il saldo di ciascun conto. Giornale e mastro sono le due facce dello stesso impianto: il primo racconta quando e in quale ordine sono avvenute le operazioni, il secondo quanto ciascun conto ha accumulato.",
+          "Da questa duplice registrazione discende, a fine esercizio, la costruzione del bilancio: i saldi dei conti, ordinati e riepilogati, confluiscono nella situazione patrimoniale ed economica dell'impresa. Il libro giornale è quindi il punto di partenza dell'intero processo contabile: la fedeltà e la completezza delle sue annotazioni condizionano la correttezza di tutte le elaborazioni successive, dal mastro al bilancio, fino alla determinazione del reddito imponibile."
+        ]
+      },
+      {
+        "h": "Numerazione, tenuta e termini",
+        "p": [
+          "Il libro giornale deve essere numerato progressivamente in ogni pagina. L'obbligo di bollatura e vidimazione iniziale è stato soppresso per il libro giornale e per il libro degli inventari, che oggi richiedono la sola numerazione progressiva; resta invece dovuta l'imposta di bollo. Le annotazioni vanno effettuate secondo le regole dell'ordinata contabilità dettate dall'articolo 2219 del Codice civile: senza spazi in bianco, senza interlinee e senza abrasioni, in modo che le eventuali cancellazioni restino leggibili.",
+          "Sul piano fiscale, l'articolo 22 del D.P.R. 600/1973 richiama le disposizioni civilistiche e impone che le registrazioni siano eseguite non oltre sessanta giorni. Questo termine coordina l'esigenza di tempestività della rilevazione con la praticità della tenuta, e la sua violazione può integrare un'irregolarità contabile rilevante in sede di accertamento."
+        ]
+      },
+      {
+        "h": "Tenuta digitale e conservazione",
+        "p": [
+          "Il libro giornale può essere tenuto in modalità informatica. La prassi dell'Agenzia delle Entrate ha chiarito che la tenuta con sistemi elettronici è regolare e che la conservazione digitale a norma non è indispensabile se il libro è regolarmente aggiornato e può essere reso disponibile, anche a stampa, in sede di controllo. Se invece si opta per la tenuta e conservazione integralmente digitale, si applicano le regole del D.M. 17 giugno 2014 e delle Linee guida AgID, con firma e marca temporale sul ciclo annuale entro i termini fiscali.",
+          "La scelta tra stampa cartacea e conservazione digitale a norma non è neutra: la via digitale richiede un processo di conservazione strutturato ma elimina la materialità dell'archivio, mentre la stampa su richiesta mantiene un impianto più tradizionale. In entrambi i casi resta ferma l'esigenza di garantire l'integrità, la leggibilità e la reperibilità del libro per tutto il periodo di conservazione richiesto."
+        ]
+      },
+      {
+        "h": "L'imposta di bollo sul libro giornale",
+        "p": [
+          "Il libro giornale è soggetto all'imposta di bollo. Per i libri tenuti in modalità cartacea l'imposta è dovuta ogni cento pagine o frazione; per i libri tenuti in modalità informatica, l'articolo 6 del D.M. 17 giugno 2014 stabilisce che l'imposta è dovuta ogni 2.500 registrazioni o frazione di esse. La misura è di 16 euro per i soggetti che assolvono in modo forfetario la tassa di concessione governativa e di 32 euro per gli altri soggetti.",
+          "Il versamento, per i documenti informatici, avviene esclusivamente in via telematica con modello F24, utilizzando il codice tributo 2501 istituito con la Risoluzione dell'Agenzia delle Entrate n. 106/E del 2014, in unica soluzione entro 120 giorni dalla chiusura dell'esercizio. Sul conteggio delle 2.500 registrazioni è intervenuta la Risposta a interpello n. 144 del 2026, che ha chiarito come la soglia vada calcolata autonomamente per ciascun periodo d'imposta, azzerando il contatore alla chiusura di ogni esercizio e attribuendo rilievo anche alle frazioni di 2.500."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2214 — obbligo delle scritture contabili",
+      "Codice civile, art. 2216 — libro giornale",
+      "Codice civile, art. 2219 — norme di ordinata contabilità",
+      "D.P.R. 600/1973, art. 22 — tenuta e conservazione a fini fiscali",
+      "D.M. 17 giugno 2014, art. 6 — imposta di bollo sui libri informatici",
+      "Ris. AdE 106/E/2014 — codice tributo 2501; Risposta AdE 144/2026 — conteggio registrazioni"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "risoluzione-ade-106e-2014", "risposta-ade-144-2026", "risposta-ade-236-2021", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libro-inventari",
+    "title": "Libro Inventari",
+    "abstract": "La fotografia annuale del patrimonio: attività, passività e bilancio, redatti all'inizio dell'attività e alla chiusura di ogni esercizio.",
+    "lead": "Il libro degli inventari è la scrittura contabile obbligatoria che rappresenta, in modo analitico, la consistenza del patrimonio dell'impresa a una data determinata. Previsto dall'articolo 2217 del Codice civile, si redige all'inizio dell'esercizio dell'impresa e successivamente ogni anno, e si chiude con il bilancio. Se il libro giornale è il diario dinamico delle operazioni, il libro inventari è la fotografia statica del patrimonio: mostra ciò che l'impresa possiede e ciò che deve in un preciso momento.",
+    "sezioni": [
+      {
+        "h": "Obbligo, contenuto e funzione",
+        "p": [
+          "L'articolo 2217 del Codice civile stabilisce che l'inventario deve redigersi all'inizio dell'esercizio dell'impresa e successivamente ogni anno, e deve contenere l'indicazione e la valutazione delle attività e delle passività relative all'impresa, nonché delle attività e delle passività dell'imprenditore estranee all'impresa. L'inventario si chiude con il bilancio e con il conto dei profitti e delle perdite, che deve dimostrare con evidenza e verità gli utili conseguiti e le perdite subite.",
+          "La funzione del libro inventari è quella di offrire una rappresentazione completa e analitica del patrimonio: non un semplice saldo, ma l'elencazione e la valutazione dei singoli elementi attivi e passivi. Questa analiticità lo distingue dal bilancio d'esercizio, che ne costituisce la sintesi: l'inventario è il documento di dettaglio da cui il bilancio trae le proprie poste, e a cui si può risalire per verificarne la composizione."
+        ]
+      },
+      {
+        "h": "Come si costruisce l'inventario",
+        "p": [
+          "La costruzione dell'inventario muove dalla ricognizione analitica di tutti gli elementi patrimoniali: le immobilizzazioni, le rimanenze di magazzino, i crediti, le disponibilità liquide, tra le attività; i debiti, i fondi e le altre passività, dal lato opposto. Ciascun elemento va non solo indicato ma valutato, secondo i criteri di valutazione previsti dalla legge e dai principi contabili, così da attribuire a ogni posta un valore attendibile.",
+          "Particolare rilievo assume la valutazione delle rimanenze di magazzino, che richiede la conta fisica e la valorizzazione delle giacenze secondo i criteri ammessi. Dall'aggregazione ordinata di attività e passività, e dal confronto con l'esercizio precedente, emergono il risultato economico dell'esercizio e la consistenza patrimoniale finale. L'inventario si chiude, appunto, con il bilancio, che ne rappresenta la sintesi ordinata secondo gli schemi di legge."
+        ]
+      },
+      {
+        "h": "Il senso nell'impianto contabile: il raccordo con il bilancio",
+        "p": [
+          "Nel disegno complessivo della contabilità il libro inventari occupa la posizione di cerniera tra la contabilità dell'esercizio e la rappresentazione di sintesi del bilancio. Le scritture di assestamento e di chiusura che, a fine esercizio, rettificano e completano le rilevazioni del libro giornale trovano nell'inventario la loro traduzione analitica: rimanenze, ammortamenti, ratei e risconti, accantonamenti sono tutti elementi che l'inventario espone nel dettaglio e che confluiscono poi nelle poste sintetiche del bilancio.",
+          "In questo senso l'inventario è il documento che assicura la continuità e la verificabilità del processo contabile: consente di ricostruire come si è formato il valore delle poste di bilancio, collegando la sintesi finale all'analisi degli elementi che la compongono. Per l'Amministrazione finanziaria è uno strumento essenziale di controllo, perché rende trasparente la composizione del patrimonio e la coerenza tra le valutazioni adottate e il reddito dichiarato."
+        ]
+      },
+      {
+        "h": "Redazione, sottoscrizione e termini",
+        "p": [
+          "L'inventario deve essere redatto e sottoscritto dall'imprenditore entro tre mesi dal termine per la presentazione della dichiarazione dei redditi. La sottoscrizione dell'imprenditore ne attesta l'assunzione di responsabilità sul contenuto e sulle valutazioni. Anche il libro inventari, come il libro giornale, richiede oggi la sola numerazione progressiva delle pagine, essendo venuto meno l'obbligo di bollatura e vidimazione iniziale, mentre resta dovuta l'imposta di bollo.",
+          "La tenuta segue le regole di ordinata contabilità e le annotazioni vanno effettuate nel rispetto dei termini. Il coordinamento tra il termine di redazione dell'inventario e quello della dichiarazione dei redditi non è casuale: l'inventario, chiudendosi con il bilancio, fornisce la base da cui muove la determinazione del reddito d'impresa, e la sua tempestiva redazione è funzionale alla coerenza dell'intero adempimento dichiarativo."
+        ]
+      },
+      {
+        "h": "Tenuta digitale, conservazione e bollo",
+        "p": [
+          "Come per il libro giornale, anche il libro degli inventari può essere tenuto in modalità informatica e conservato digitalmente a norma secondo il D.M. 17 giugno 2014 e le Linee guida AgID, oppure tenuto in forma elettronica e reso disponibile a stampa in sede di controllo, secondo i chiarimenti della prassi. La scelta tra le due modalità va coordinata con quella adottata per gli altri libri, per coerenza dell'impianto contabile.",
+          "Il libro degli inventari è soggetto all'imposta di bollo con le stesse modalità del libro giornale: 16 o 32 euro ogni cento pagine per i libri cartacei, ovvero ogni 2.500 registrazioni per quelli informatici, con versamento telematico tramite modello F24 e codice tributo 2501. Trattandosi di un documento che tipicamente contiene un numero contenuto di annotazioni rispetto al giornale, l'incidenza del bollo è di norma limitata, ma resta un adempimento da presidiare al pari degli altri."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2214 — obbligo delle scritture contabili",
+      "Codice civile, art. 2217 — libro degli inventari e bilancio",
+      "D.P.R. 600/1973, art. 22 — tenuta e conservazione a fini fiscali",
+      "D.M. 17 giugno 2014, art. 6 — imposta di bollo sui libri informatici",
+      "Ris. AdE 106/E/2014 — codice tributo 2501"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "risoluzione-ade-106e-2014", "risposta-ade-236-2021", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libro-mastro",
+    "title": "Libro Mastro",
+    "abstract": "La rilevazione sistematica per conti: i saldi di ogni conto, complemento sistematico del libro giornale.",
+    "lead": "Il libro mastro è la scrittura contabile che raccoglie le registrazioni in forma sistematica, ordinandole per conto anziché per data. A differenza del libro giornale e del libro degli inventari, non è un libro obbligatorio espressamente nominato dal Codice civile, ma rientra tra le scritture richieste dalla natura e dalle dimensioni dell'impresa (art. 2214 c.c.) ed è parte integrante e imprescindibile del metodo della partita doppia. Se il giornale registra le operazioni nell'ordine in cui accadono, il mastro le riaggrega per conto, mostrando in ogni momento il saldo di ciascuno.",
+    "sezioni": [
+      {
+        "h": "Natura e collocazione tra le scritture",
+        "p": [
+          "Il Codice civile, all'articolo 2214, impone la tenuta del libro giornale, del libro degli inventari e delle altre scritture contabili richieste dalla natura e dalle dimensioni dell'impresa. Il libro mastro rientra in questa terza categoria: non è nominato espressamente come obbligatorio, ma è indispensabile in qualunque sistema di contabilità ordinaria tenuto con il metodo della partita doppia, perché senza di esso non sarebbe possibile conoscere il saldo dei singoli conti.",
+          "La sua natura è quella di scrittura sistematica: mentre il giornale è cronologico, il mastro è per oggetto. Ogni conto — cassa, banca, clienti, fornitori, merci, ricavi, costi e così via — ha nel mastro la propria posizione, in cui confluiscono tutte le movimentazioni che lo riguardano, prelevate dalle registrazioni del giornale. Il mastro è quindi il luogo in cui la contabilità si organizza per significato economico, e non più per successione temporale."
+        ]
+      },
+      {
+        "h": "Come si costruisce: dal giornale ai conti",
+        "p": [
+          "La costruzione del mastro avviene per riclassificazione delle registrazioni del giornale. Ogni articolo cronologico, che movimenta almeno un conto in dare e uno in avere, viene riportato nelle rispettive schede di mastro: l'importo in dare di un conto nel giornale diventa una scrittura in dare nella scheda di quel conto nel mastro, e così per l'avere. Questa operazione, un tempo manuale e detta mastrino, è oggi svolta automaticamente dai software contabili, che alimentano contemporaneamente giornale e mastro a partire dalla medesima registrazione.",
+          "Ciascuna scheda di mastro (o mastrino) presenta, per un singolo conto, l'elenco ordinato dei movimenti in dare e in avere e il relativo saldo progressivo. Il saldo di un conto in un dato momento è la differenza tra il totale del dare e il totale dell'avere: è questo dato che consente di sapere, ad esempio, quanto ammonta il credito verso un cliente, la giacenza di cassa o il totale dei ricavi maturati. Il mastro è dunque lo strumento che trasforma la sequenza delle operazioni in conoscenza dei saldi."
+        ]
+      },
+      {
+        "h": "Il senso nell'impianto contabile: giornale e mastro insieme",
+        "p": [
+          "Giornale e mastro sono le due colonne portanti della partita doppia e si presuppongono a vicenda. Il giornale garantisce la registrazione cronologica e integrale di tutte le operazioni; il mastro ne garantisce la lettura per conto. Nessuno dei due, da solo, sarebbe sufficiente: il solo giornale non consentirebbe di conoscere agevolmente i saldi, il solo mastro perderebbe l'ordine temporale e la visione unitaria dell'operazione. La coerenza tra i due — ogni movimento del giornale trova riscontro nel mastro e viceversa — è il primo controllo di regolarità della contabilità.",
+          "Dal mastro si ricava il bilancio di verifica, che riepiloga i saldi di tutti i conti e ne controlla la quadratura: la somma dei saldi dare deve eguagliare la somma dei saldi avere. Da qui, attraverso le scritture di assestamento e di chiusura riflesse nell'inventario, si giunge al bilancio d'esercizio. Il mastro è quindi lo snodo attraverso cui la massa delle registrazioni cronologiche si trasforma nei valori sintetici che compongono la situazione patrimoniale ed economica dell'impresa."
+        ]
+      },
+      {
+        "h": "Tenuta, valore probatorio e conservazione",
+        "p": [
+          "Non essendo un libro obbligatorio nominato, il libro mastro non è soggetto né a numerazione con le formalità dei libri obbligatori né all'imposta di bollo; ciononostante, in quanto scrittura contabile richiesta dal sistema, deve essere tenuto secondo le regole dell'ordinata contabilità e concorre a formare il quadro documentale su cui si fonda l'attendibilità della contabilità nel suo complesso. In sede di verifica, il mastro è uno degli strumenti più utilizzati, perché consente di analizzare l'andamento dei singoli conti e di individuare rapidamente anomalie o incongruenze.",
+          "Sul piano della conservazione, il libro mastro rientra tra le scritture contabili che, ai fini fiscali, vanno conservate fino alla definizione degli accertamenti relativi al periodo d'imposta. Se prodotto e tenuto in formato digitale, come avviene nella quasi totalità dei casi tramite i software gestionali, va conservato secondo le regole applicabili ai documenti informatici, garantendone integrità, leggibilità e reperibilità per tutto il periodo richiesto."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2214 — scritture richieste dalla natura e dimensione dell'impresa",
+      "Codice civile, art. 2219 — norme di ordinata contabilità",
+      "D.P.R. 600/1973, art. 22 — conservazione delle scritture a fini fiscali",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "risposta-ade-236-2021", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libro-cespiti",
+    "title": "Libro Cespiti",
+    "abstract": "Il registro dei beni ammortizzabili: la memoria analitica delle immobilizzazioni e dei relativi ammortamenti.",
+    "lead": "Il libro dei cespiti, o registro dei beni ammortizzabili, è la scrittura in cui l'impresa annota i beni strumentali a utilità pluriennale e ne segue nel tempo l'ammortamento. È previsto, ai fini fiscali, dall'articolo 16 del D.P.R. 600/1973. La sua funzione è tenere memoria analitica di ciascun cespite — data di acquisizione, costo, quota e fondo di ammortamento — così da determinare correttamente le quote deducibili e il valore residuo dei beni impiegati nell'attività.",
+    "sezioni": [
+      {
+        "h": "Che cosa registra e perché",
+        "p": [
+          "I beni strumentali a utilità pluriennale — impianti, macchinari, attrezzature, fabbricati, automezzi, beni immateriali — non esauriscono la loro utilità nell'esercizio in cui sono acquistati, ma la cedono gradualmente lungo più esercizi. Il costo di questi beni non è quindi deducibile per intero al momento dell'acquisto, ma va ripartito nel tempo attraverso l'ammortamento. Il registro dei beni ammortizzabili è lo strumento che consente di seguire, bene per bene, questo processo di ripartizione.",
+          "L'articolo 16 del D.P.R. 600/1973 disciplina il contenuto del registro, prevedendo che per ciascun bene siano indicati l'anno di acquisizione, il costo originario, le rivalutazioni e le svalutazioni, il fondo di ammortamento nella misura raggiunta al termine del periodo precedente, il coefficiente di ammortamento effettivamente applicato, la quota annuale e le eventuali cessioni o eliminazioni. È da questi dati che discende la determinazione delle quote di ammortamento deducibili ai fini della determinazione del reddito d'impresa."
+        ]
+      },
+      {
+        "h": "Come si costruisce e si aggiorna",
+        "p": [
+          "La costruzione del registro muove dall'iscrizione di ciascun cespite al momento della sua acquisizione, con l'indicazione del costo comprensivo degli oneri accessori di diretta imputazione. A partire da tale iscrizione, per ogni esercizio si calcola e si annota la quota di ammortamento, applicando al costo il coefficiente previsto per la categoria del bene, e si aggiorna il fondo di ammortamento, che rappresenta la quota di costo già dedotta. La differenza tra costo e fondo esprime il valore residuo da ammortizzare.",
+          "Il registro si aggiorna a ogni evento che riguarda i cespiti: nuove acquisizioni, cessioni, dismissioni, rivalutazioni. In caso di cessione o eliminazione del bene, il registro consente di determinare l'eventuale plusvalenza o minusvalenza, confrontando il corrispettivo con il valore residuo. La corretta tenuta del registro è quindi il presupposto per la corretta deduzione degli ammortamenti e per la corretta rilevazione dei componenti di reddito legati alla cessione dei beni strumentali."
+        ]
+      },
+      {
+        "h": "Il senso nell'impianto contabile e i rapporti con gli altri libri",
+        "p": [
+          "Nel disegno contabile il registro dei beni ammortizzabili svolge una funzione di dettaglio rispetto alle poste sintetiche delle immobilizzazioni iscritte in bilancio e riepilogate nel libro inventari. Le quote di ammortamento calcolate nel registro trovano riscontro nelle scritture di assestamento del libro giornale e nei relativi conti del mastro, mentre il valore residuo dei cespiti concorre alla valutazione delle immobilizzazioni nell'inventario e nel bilancio.",
+          "Proprio per questo stretto collegamento, la normativa consente di non tenere il registro dei beni ammortizzabili in forma autonoma quando le relative annotazioni sono effettuate, con lo stesso dettaglio, nel libro degli inventari o nel libro giornale. La ratio è evitare duplicazioni: ciò che conta è che i dati analitici sui cespiti siano disponibili e ricostruibili, non che esista necessariamente un libro fisicamente distinto. Nella pratica dei software gestionali, il registro cespiti è comunque una funzione dedicata che dialoga con la contabilità generale."
+        ]
+      },
+      {
+        "h": "Termini, tenuta digitale e conservazione",
+        "p": [
+          "Il registro dei beni ammortizzabili deve essere aggiornato entro il termine di presentazione della dichiarazione dei redditi, coerentemente con la sua funzione di supporto alla determinazione del reddito d'impresa. Non è soggetto all'imposta di bollo, che grava sui soli libro giornale e libro inventari, né alle formalità di numerazione proprie dei libri obbligatori nominati dal Codice civile, ma va tenuto secondo le regole dell'ordinata contabilità.",
+          "In quanto scrittura rilevante ai fini tributari, il registro va conservato fino alla definizione degli accertamenti relativi al periodo d'imposta. Se tenuto e prodotto in formato digitale, come avviene ordinariamente, si applicano le regole sulla conservazione dei documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID, con le medesime garanzie di integrità, leggibilità e reperibilità richieste per le altre scritture contabili."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.P.R. 600/1973, art. 16 — registro dei beni ammortizzabili",
+      "D.P.R. 600/1973, art. 22 — conservazione delle scritture a fini fiscali",
+      "Codice civile, art. 2219 — norme di ordinata contabilità",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "risposta-ade-236-2021", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "giornale-magazzino",
+    "title": "Giornale di magazzino",
+    "abstract": "La rilevazione cronologica dei movimenti di magazzino, cuore delle scritture ausiliarie di magazzino.",
+    "lead": "Il giornale di magazzino è la scrittura in cui si annotano, in ordine cronologico, i movimenti di carico e scarico dei beni in giacenza. Fa parte delle scritture ausiliarie di magazzino, la cui tenuta è imposta, ai fini fiscali, dall'articolo 14 del D.P.R. 600/1973 ai soggetti che superano determinate soglie dimensionali. La sua funzione è documentare in modo continuo la movimentazione delle merci, così da consentire la determinazione e il controllo delle rimanenze.",
+    "sezioni": [
+      {
+        "h": "Obbligo e ambito di applicazione",
+        "p": [
+          "L'articolo 14, comma 1, lettera d), del D.P.R. 600/1973 include, tra le scritture contabili obbligatorie ai fini fiscali, le scritture ausiliarie di magazzino. L'obbligo non è generalizzato: la contabilità di magazzino è dovuta dai soggetti che superano, per due esercizi consecutivi, le soglie di ricavi e di rimanenze finali fissate dalla normativa, con decorrenza dal secondo periodo d'imposta successivo. Al di sotto di tali soglie l'obbligo non sussiste, in coerenza con il principio di proporzionalità degli adempimenti rispetto alle dimensioni dell'impresa.",
+          "Le scritture ausiliarie di magazzino comprendono, tipicamente, il giornale di magazzino e le schede di magazzino. Il giornale ne rappresenta la componente cronologica: vi si annotano, nell'ordine temporale in cui avvengono, i movimenti di entrata e di uscita dei beni. La funzione dell'obbligo è consentire un controllo analitico sulla formazione delle rimanenze, voce di bilancio particolarmente delicata perché incide direttamente sulla determinazione del reddito d'esercizio."
+        ]
+      },
+      {
+        "h": "Come si costruisce",
+        "p": [
+          "La costruzione del giornale di magazzino consiste nella registrazione cronologica di ciascun movimento rilevante: gli acquisti e le altre entrate di merci, i prelievi per la produzione o la vendita, i resi, le rettifiche di inventario. Per ogni movimento si indicano la data, la natura dell'operazione, l'identificazione del bene o della categoria, le quantità in entrata e in uscita e, secondo le modalità adottate, i valori. L'obiettivo è ricostruire, in qualsiasi momento, la giacenza di ciascun bene per differenza tra il totale dei carichi e il totale degli scarichi.",
+          "La normativa non impone di seguire tutti i beni al massimo livello di dettaglio: è ammessa l'aggregazione per categorie omogenee di beni, purché sia garantito il controllo delle rimanenze. La contabilità di magazzino può quindi essere tenuta a quantità o a quantità e valore, secondo le esigenze e le dimensioni dell'impresa, purché rispetti i requisiti minimi di analiticità richiesti per assolvere la sua funzione di controllo."
+        ]
+      },
+      {
+        "h": "Il senso nell'impianto contabile e i rapporti con l'inventario",
+        "p": [
+          "Il giornale di magazzino svolge, rispetto alle rimanenze, una funzione analoga a quella che il libro giornale svolge rispetto all'intera gestione: ne offre la rilevazione cronologica e continua. Il suo valore risiede nel collegamento con la valutazione delle rimanenze in sede di inventario: i dati di giacenza risultanti dalla contabilità di magazzino costituiscono la base su cui si effettua la conta fisica e la valorizzazione delle rimanenze finali, che confluiscono nel libro degli inventari e nel bilancio.",
+          "La coerenza tra la contabilità di magazzino e le rimanenze iscritte in bilancio è un elemento centrale di verifica per l'Amministrazione finanziaria, perché le rimanenze rappresentano un componente di reddito e una loro errata determinazione incide direttamente sull'imponibile. Il giornale di magazzino, documentando in modo continuo i movimenti, consente di dimostrare la correttezza delle giacenze dichiarate e di ricostruire la formazione delle rimanenze lungo l'esercizio."
+        ]
+      },
+      {
+        "h": "Tenuta, tenuta digitale e conservazione",
+        "p": [
+          "Il giornale di magazzino va tenuto secondo le regole dell'ordinata contabilità e nel rispetto dei termini di registrazione previsti per le scritture ausiliarie. Non è soggetto all'imposta di bollo, che riguarda i soli libro giornale e libro inventari, né alle formalità di numerazione proprie dei libri obbligatori nominati dal Codice civile. La sua obbligatorietà e il suo contenuto derivano dalla disciplina fiscale, e in particolare dall'articolo 14 del D.P.R. 600/1973.",
+          "In quanto scrittura rilevante ai fini tributari, il giornale di magazzino è soggetto agli obblighi di conservazione: va conservato fino alla definizione degli accertamenti relativi al periodo d'imposta. Se tenuto in formato digitale, come avviene nei sistemi gestionali integrati con la logistica e la produzione, si applicano le regole sulla conservazione dei documenti informatici, con le garanzie di integrità, leggibilità e reperibilità richieste per l'intero periodo di conservazione."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.P.R. 600/1973, art. 14, comma 1, lett. d) — scritture ausiliarie di magazzino",
+      "D.P.R. 600/1973, art. 22 — conservazione delle scritture a fini fiscali",
+      "Codice civile, art. 2219 — norme di ordinata contabilità",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "risposta-ade-236-2021", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "schede-magazzino",
+    "title": "Schede di magazzino",
+    "abstract": "La rilevazione sistematica per singolo articolo: la giacenza e i movimenti di ciascun bene, complemento del giornale di magazzino.",
+    "lead": "Le schede di magazzino sono la componente sistematica delle scritture ausiliarie di magazzino: mentre il giornale di magazzino registra i movimenti in ordine cronologico, le schede li ordinano per singolo articolo o categoria di beni, mostrando per ciascuno la giacenza e la sua evoluzione. Come il giornale di magazzino, rientrano tra le scritture obbligatorie ai fini fiscali per i soggetti che superano le soglie dimensionali previste dall'articolo 14 del D.P.R. 600/1973.",
+    "sezioni": [
+      {
+        "h": "Funzione e collocazione tra le scritture ausiliarie",
+        "p": [
+          "Le scritture ausiliarie di magazzino, imposte dall'articolo 14 del D.P.R. 600/1973 ai soggetti di maggiori dimensioni, si articolano in una rilevazione cronologica — il giornale di magazzino — e in una rilevazione sistematica per oggetto — le schede di magazzino. Le schede rappresentano il conto di magazzino di ciascun bene o categoria: raccolgono, per singolo articolo, tutti i movimenti che lo riguardano e ne evidenziano la giacenza in ogni momento.",
+          "Il rapporto tra giornale e schede di magazzino ricalca, in scala, quello tra libro giornale e libro mastro nella contabilità generale: il primo termine della coppia offre l'ordine temporale, il secondo l'ordine per oggetto. Le schede consentono di rispondere alla domanda fondamentale della gestione del magazzino — quanto ho di questo bene in questo momento — che la sola registrazione cronologica non permetterebbe di soddisfare agevolmente."
+        ]
+      },
+      {
+        "h": "Come si costruiscono",
+        "p": [
+          "Ciascuna scheda è intestata a un singolo articolo o a una categoria omogenea di beni e riporta, in forma ordinata, i movimenti di carico e di scarico che lo riguardano, con l'indicazione della data, della quantità e, secondo le modalità adottate, del valore, oltre alla giacenza progressiva. La giacenza di un articolo, in un dato momento, è la differenza tra il totale dei carichi e il totale degli scarichi registrati nella sua scheda. Le schede si alimentano dagli stessi movimenti annotati nel giornale di magazzino, secondo un principio di coerenza analogo a quello che lega giornale e mastro.",
+          "Come per il giornale di magazzino, è ammessa l'aggregazione per categorie omogenee, e la tenuta può avvenire a sole quantità o a quantità e valore, purché resti garantito il controllo delle rimanenze. Nei sistemi informatici di gestione del magazzino, le schede non sono documenti fisicamente distinti ma viste per articolo dei medesimi dati che alimentano il giornale, generate automaticamente dal software a partire dalle registrazioni dei movimenti."
+        ]
+      },
+      {
+        "h": "Il senso nell'impianto contabile: dal dettaglio alle rimanenze",
+        "p": [
+          "Le schede di magazzino sono lo strumento che rende operativa la funzione di controllo delle rimanenze propria della contabilità di magazzino. È attraverso le schede che si può conoscere la giacenza di ciascun bene, individuare le rotazioni, rilevare eventuali differenze inventariali tra la giacenza contabile e quella fisica riscontrata in sede di conta. La loro analiticità è il presupposto per una valorizzazione attendibile delle rimanenze finali, che confluiscono nell'inventario e nel bilancio come componente del reddito d'esercizio.",
+          "In sede di verifica, le schede di magazzino consentono all'Amministrazione finanziaria di ricostruire i movimenti dei singoli beni e di controllarne la coerenza con gli acquisti, le vendite e le rimanenze dichiarate. Eventuali scostamenti tra i dati delle schede e le altre scritture contabili possono segnalare irregolarità nella determinazione delle rimanenze e, di riflesso, del reddito. Le schede sono quindi, insieme al giornale di magazzino, il fondamento documentale della correttezza della voce rimanenze."
+        ]
+      },
+      {
+        "h": "Tenuta, tenuta digitale e conservazione",
+        "p": [
+          "Le schede di magazzino vanno tenute secondo le regole dell'ordinata contabilità e nel rispetto dei termini previsti per le scritture ausiliarie. Non sono soggette all'imposta di bollo né alle formalità di numerazione dei libri obbligatori nominati dal Codice civile: la loro disciplina deriva dalla normativa fiscale sulle scritture ausiliarie di magazzino e dalla funzione di controllo delle rimanenze che sono chiamate ad assolvere.",
+          "Trattandosi di scritture rilevanti ai fini tributari, le schede di magazzino sono soggette agli obblighi di conservazione fino alla definizione degli accertamenti relativi al periodo d'imposta. Nella pratica sono prodotte e tenute in formato digitale all'interno dei sistemi gestionali di magazzino, e vanno pertanto conservate secondo le regole applicabili ai documenti informatici, garantendo integrità, leggibilità e reperibilità dei dati per tutto il periodo di conservazione richiesto."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.P.R. 600/1973, art. 14, comma 1, lett. d) — scritture ausiliarie di magazzino",
+      "D.P.R. 600/1973, art. 22 — conservazione delle scritture a fini fiscali",
+      "Codice civile, art. 2219 — norme di ordinata contabilità",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "risposta-ade-236-2021", "linee-guida-agid-2021"]
+  }
+]

@@ -289,6 +289,7 @@
     z-index:1;
     padding:22px 5vw 70px;
   }
+  #contabili-grid{ margin-bottom:70px; }
 
   /* ───────── Card manuale (conservatore) ───────── */
   .manuale-card{
@@ -684,6 +685,16 @@
   <div class="grid" id="manuali-grid"></div>
 </div>
 
+<!-- ───────── Focus: documenti contabili ───────── -->
+<div class="section-rule">
+  <span class="kicker">Focus</span>
+  <h2>Documenti contabili</h2>
+  <span class="rule-line"></span>
+  <span class="result-count" id="contabili-count"></span>
+</div>
+<div class="section-intro">Schede sui principali libri e registri contabili: come si costruisce ciascun documento, il suo senso nell'impianto contabile e gli aspetti di tenuta, conservazione e imposta di bollo, con le relative fonti normative.</div>
+<div class="temi-grid" id="contabili-grid"></div>
+
 <footer>
   <span>Materiale a fini informativi — non costituisce consulenza legale o fiscale</span>
   <span>Verificare sempre la versione vigente sulle fonti ufficiali (AgID, Normattiva, EUR-Lex)</span>
@@ -702,6 +713,7 @@
 let TEMI = [];
 let FONTI = [];
 let MANUALI = [];
+let CONTABILI = [];
 let activeFilters = { jurisdiction: 'all', status: 'all' };
 let searchTerm = '';
 
@@ -781,6 +793,62 @@ function renderAdeCollection(){
   if(countEl) countEl.textContent = `${items.length} document${items.length === 1 ? 'o' : 'i'}`;
   grid.innerHTML = items.map(fonteCardHTML).join('');
   bindFonteCards(grid);
+}
+
+/* ───────── Documenti contabili ───────── */
+function renderContabili(){
+  const grid = document.getElementById('contabili-grid');
+  if(!grid) return;
+  grid.innerHTML = CONTABILI.map(c => `
+    <div class="tema-card" tabindex="0" data-id="${c.id}" role="button" aria-label="Apri scheda ${c.title}">
+      <div class="tema-num">SCHEDA</div>
+      <div class="tema-title">${c.title}</div>
+      <div class="tema-abstract">${c.abstract}</div>
+      <div class="tema-foot">Apri la scheda →</div>
+    </div>`).join('');
+  grid.querySelectorAll('.tema-card').forEach(card => {
+    card.addEventListener('click', () => openContabile(card.dataset.id));
+    card.addEventListener('keypress', e => { if(e.key === 'Enter') openContabile(card.dataset.id); });
+  });
+  const cnt = document.getElementById('contabili-count');
+  if(cnt) cnt.textContent = `${CONTABILI.length} schede`;
+}
+
+function openContabile(id){
+  const c = CONTABILI.find(x => x.id === id);
+  if(!c) return;
+  document.getElementById('detail-title').textContent = c.title;
+
+  const sezioniHTML = (c.sezioni || []).map(s => `
+    <div class="appro-section">
+      ${s.h ? `<h3 class="appro-h">${s.h}</h3>` : ''}
+      ${(s.p || []).map(par => `<p class="appro-p">${par}</p>`).join('')}
+    </div>`).join('');
+
+  const normHTML = (c.fonti_norm || []).length
+    ? `<div class="block">
+         <div class="block-head">Fonti normative</div>
+         <ul class="point-list">${c.fonti_norm.map(n => `<li>${n}</li>`).join('')}</ul>
+       </div>`
+    : '';
+
+  const relFonti = (c.fonti_ids || []).map(fid => FONTI.find(f => f.id === fid)).filter(Boolean);
+  const relHTML = relFonti.length
+    ? `<div class="block">
+         <div class="block-head">Approfondisci in biblioteca</div>
+         <div class="chip-row">${relFonti.map(f => `<span class="rel-chip" data-fonte="${f.id}">${f.short} →</span>`).join('')}</div>
+       </div>`
+    : '';
+
+  document.getElementById('detail-body').innerHTML = `
+    <div class="detail-meta"><span>Documento contabile</span></div>
+    <p class="lead">${c.lead}</p>
+    ${sezioniHTML}
+    ${normHTML}
+    ${relHTML}
+  `;
+  bindRelChips();
+  showOverlay('contabile-' + id);
 }
 
 /* ───────── Manuali del servizio di conservazione ───────── */
@@ -944,6 +1012,7 @@ function routeFromHash(){
   const hash = window.location.hash.replace('#','');
   if(!hash){ closeDetail(); return; }
   if(hash.startsWith('tema-')) openTema(hash.slice(5));
+  else if(hash.startsWith('contabile-')) openContabile(hash.slice(10));
   else if(hash.startsWith('fonte-')) openFonte(hash.slice(6));
 }
 
@@ -1000,10 +1069,17 @@ async function init(){
     MANUALI = [];
   }
 
+  try {
+    CONTABILI = await (await fetch('data/contabili.json')).json();
+  } catch(e) {
+    CONTABILI = [];
+  }
+
   renderTemi();
   renderGrid();
   renderAdeCollection();
   renderManuali();
+  renderContabili();
   routeFromHash();
 }
 
