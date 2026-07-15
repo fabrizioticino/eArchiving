@@ -5,6 +5,44 @@
     "title": "Quadro normativo",
     "abstract": "L'ossatura giuridica della conservazione a norma in Italia: dal CAD alle Linee guida AgID vigenti.",
     "body": "La conservazione dei documenti informatici in Italia poggia sul CAD (D.Lgs. 82/2005), che ne fissa definizioni e requisiti (art. 44: autenticità, integrità, affidabilità, leggibilità, reperibilità). Le regole tecniche, un tempo nei DPCM del 2013–2014, sono oggi contenute nelle Linee guida AgID in vigore dal 1° gennaio 2022. Per la PA restano rilevanti il D.P.R. 445/2000 sulla gestione documentale e il Codice dei beni culturali per la tutela archivistica.",
+    "approfondimento": [
+      {
+        "h": "Dalla conservazione sostitutiva alla conservazione a norma",
+        "p": [
+          "La disciplina italiana della conservazione dei documenti informatici è il risultato di una stratificazione normativa lunga oltre vent'anni. Il punto di partenza concettuale è la nozione di «conservazione sostitutiva», nata per attribuire valore giuridico a documenti nati o riprodotti in formato digitale, in modo da poter eliminare l'originale cartaceo. Nel tempo l'espressione è stata sostituita da quella, più corretta, di «conservazione a norma»: non si tratta di sostituire la carta, ma di assicurare che un documento informatico mantenga nel tempo le proprie caratteristiche giuridiche di autenticità, integrità e leggibilità.",
+          "Il baricentro del sistema è il Codice dell'Amministrazione Digitale (D.Lgs. 7 marzo 2005, n. 82), più volte modificato. Il CAD non è una legge tecnica di dettaglio, ma la cornice di principio: definisce cosa sia un documento informatico, ne disciplina l'efficacia probatoria, individua i soggetti obbligati e rinvia a fonti tecniche di rango secondario per le regole operative. Attorno al CAD ruotano il D.P.R. 445/2000 sulla documentazione amministrativa e il protocollo informatico, la normativa fiscale sulla conservazione dei documenti tributari e, per gli archivi pubblici, il Codice dei beni culturali."
+        ]
+      },
+      {
+        "h": "L'articolo 44 del CAD e i requisiti del sistema",
+        "p": [
+          "Il cuore giuridico della conservazione è l'art. 44 del CAD, che impone al sistema di conservazione di garantire, per tutto il periodo di tenuta dei documenti, cinque requisiti fondamentali: autenticità, integrità, affidabilità, leggibilità e reperibilità. L'autenticità assicura che il documento sia realmente ciò che dichiara di essere e provenga da chi risulta averlo formato; l'integrità che non sia stato alterato dopo la sua formazione; l'affidabilità che il sistema operi in modo prevedibile e documentato; la leggibilità che il contenuto resti fruibile anche a distanza di anni, nonostante l'evoluzione tecnologica; la reperibilità che ogni documento possa essere ricercato e recuperato tramite chiavi certe.",
+          "Questi requisiti non sono meri principi programmatici: costituiscono il parametro di conformità rispetto al quale si misura la validità giuridica del sistema. Un sistema che non li garantisca espone il titolare al rischio che i documenti conservati non siano opponibili a terzi o non siano accettati in sede di verifica fiscale o di contenzioso. L'art. 44 individua inoltre la figura del responsabile della conservazione e prevede la possibilità di affidare il servizio a soggetti terzi in possesso di adeguati requisiti."
+        ]
+      },
+      {
+        "h": "Il passaggio alle Linee guida AgID",
+        "p": [
+          "Fino al 2021 le regole tecniche erano contenute in una serie di DPCM, in particolare il DPCM 3 dicembre 2013 sul sistema di conservazione e il DPCM 13 novembre 2014 sulla formazione del documento informatico. Con la Determinazione AgID n. 407 del 9 settembre 2021 sono state adottate le «Linee guida sulla formazione, gestione e conservazione dei documenti informatici», in vigore dal 1° gennaio 2022, che hanno sostituito e integrato i precedenti DPCM tecnici in un corpo unico.",
+          "Le Linee guida rappresentano oggi la fonte tecnica di riferimento: disciplinano l'intero ciclo di vita del documento, dalla formazione alla gestione fino alla conservazione e allo scarto, e sono corredate da allegati operativi (formati ammessi, metadati, glossario). L'approccio è dichiaratamente olistico: la conservazione non è più trattata come una fase isolata a valle, ma come il momento finale di un processo unitario che inizia già con la corretta formazione del documento e la sua tenuta nel sistema di gestione documentale."
+        ]
+      },
+      {
+        "h": "Soggetti obbligati: pubbliche amministrazioni e privati",
+        "p": [
+          "Il quadro normativo distingue nettamente tra pubbliche amministrazioni e soggetti privati. Per le PA (individuate dall'art. 2 del CAD) la conservazione digitale a norma è un obbligo pieno: gli archivi pubblici sono per legge beni culturali e la loro gestione è soggetta a vincoli ulteriori, tra cui l'intervento della Soprintendenza archivistica per le operazioni di scarto. Le PA devono inoltre pubblicare il Manuale della conservazione sul proprio sito istituzionale e sono soggette alla vigilanza di AgID.",
+          "Per i soggetti privati la conservazione digitale è in linea di principio una facoltà, che diventa obbligo quando la legge impone di conservare determinati documenti: è il caso, in primo luogo, dei documenti rilevanti ai fini fiscali e tributari, ma anche di numerose tipologie previste da normative settoriali (lavoro, sanità, ambiente). Anche il privato che sceglie la via digitale deve però rispettare i requisiti dell'art. 44 CAD e le regole tecniche delle Linee guida: la natura facoltativa riguarda la scelta del mezzo, non la qualità del risultato."
+        ]
+      },
+      {
+        "h": "Una gerarchia di fonti da leggere insieme",
+        "p": [
+          "Comprendere la conservazione richiede di leggere insieme fonti di rango diverso. Al vertice si collocano il CAD e, sul piano europeo, il regolamento eIDAS che disciplina firme, sigilli e marche temporali; a livello tecnico intervengono le Linee guida AgID con i loro allegati e gli standard internazionali richiamati (in particolare il modello OAIS per l'architettura dei pacchetti e i formati idonei alla lunga conservazione); sul versante settoriale si aggiungono le regole fiscali, ambientali e di protezione dei dati personali.",
+          "Questa pluralità di fonti non va intesa come una sovrapposizione disordinata, ma come un sistema coordinato: il CAD detta i principi, le Linee guida le regole operative, gli standard le specifiche tecniche, le norme settoriali i tempi e le condizioni di conservazione delle singole tipologie documentali. Il compito di ricomporre queste fonti in un assetto coerente spetta, nella pratica, al Responsabile della conservazione, che le traduce nelle scelte concrete descritte nel Manuale.",
+          "In definitiva, il quadro normativo della conservazione non si esaurisce nell'elenco delle fonti applicabili, ma richiede di comprenderne l'articolazione e la reciproca gerarchia. Il CAD offre i principi e la definizione dei requisiti; le Linee guida AgID traducono quei principi in regole operative; gli standard internazionali forniscono le specifiche tecniche; le normative fiscali, ambientali e di protezione dei dati aggiungono i tempi e le condizioni di conservazione delle singole tipologie documentali. Un'organizzazione che intenda conservare a norma deve quindi dotarsi non solo di strumenti tecnologici adeguati, ma di una mappa aggiornata di questo quadro, capace di orientare le scelte concrete e di adattarle all'evoluzione continua delle fonti. È proprio la capacità di mantenere allineati sistema e normativa nel tempo, più che il rispetto formale di singoli adempimenti, a distinguere una conservazione realmente conforme da una conformità solo apparente. Per questo il presidio del quadro normativo è un'attività continua, che accompagna l'intero ciclo di vita dell'archivio digitale."
+        ]
+      }
+    ],
     "obblighi": [
       "Garantire i requisiti dell'art. 44 CAD per tutto il ciclo di conservazione",
       "Applicare le Linee guida AgID vigenti (non più i soli DPCM tecnici)",
@@ -17,6 +55,44 @@
     "title": "Responsabile della Conservazione",
     "abstract": "La figura che governa il sistema, redige il Manuale e risponde della conformità.",
     "body": "Il Responsabile della Conservazione (RdC) definisce le politiche di conservazione, governa e monitora il sistema e redige il Manuale. Deve possedere competenze giuridiche, informatiche e archivistiche. Può essere interno o esterno, ma per le PA la responsabilità resta in capo all'ente e il ruolo non è integralmente delegabile all'esterno. Si coordina con Produttore, Responsabile del trattamento dati, Responsabile della sicurezza ICT ed eventuale operatore di conservazione esterno.",
+    "approfondimento": [
+      {
+        "h": "Una figura di garanzia, non solo tecnica",
+        "p": [
+          "Il Responsabile della Conservazione è la figura attorno a cui ruota l'intero sistema. Non si tratta di un ruolo meramente tecnico né di una qualifica formale: è un centro di imputazione di responsabilità che risponde della conformità del sistema alle norme e ai requisiti dell'art. 44 CAD. La sua nomina, che deve avvenire con atto formale scritto, individua un soggetto preciso a cui ricondurre le scelte di governo del sistema e il rispetto delle regole nel tempo.",
+          "Le Linee guida AgID definiscono compiti e requisiti del RdC nel paragrafo dedicato ai ruoli. Il Responsabile definisce le politiche complessive del servizio di conservazione, ne governa la gestione con piena responsabilità e visibilità sull'operato dei diversi soggetti coinvolti, monitora nel tempo il corretto funzionamento del sistema e ne assicura la rispondenza ai requisiti normativi. È, in sintesi, il regista che tiene insieme gli aspetti giuridici, archivistici, organizzativi e tecnologici della conservazione."
+        ]
+      },
+      {
+        "h": "Competenze richieste: giuridiche, informatiche, archivistiche",
+        "p": [
+          "Il profilo delineato dalla normativa richiede una combinazione di competenze difficilmente reperibile in una sola persona senza un adeguato supporto. Il RdC deve possedere competenze giuridiche, per interpretare correttamente il quadro normativo e i tempi di conservazione delle diverse tipologie documentali; competenze archivistiche, per governare la corretta organizzazione, descrizione e selezione dei documenti; competenze informatiche e di sicurezza, per comprendere l'architettura del sistema, i formati, le firme e le misure di protezione.",
+          "Proprio per questo il Responsabile si avvale di una struttura e coordina una pluralità di figure specialistiche. Nella pratica, il RdC è spesso una figura apicale che si appoggia a professionisti dei diversi ambiti e, quando il servizio è esternalizzato, dialoga con il Responsabile del servizio di conservazione nominato dall'operatore esterno. La normativa non richiede una specifica certificazione professionale obbligatoria, ma la responsabilità che grava sul ruolo rende essenziale un livello di competenza effettivo e documentabile."
+        ]
+      },
+      {
+        "h": "Interno o esterno: il nodo della delega",
+        "p": [
+          "Il Responsabile della Conservazione può essere una figura interna all'organizzazione oppure, entro certi limiti, esterna. La questione della delega è particolarmente delicata per le pubbliche amministrazioni. Anche quando la PA affida il servizio di conservazione a un operatore terzo, la titolarità della responsabilità e il ruolo di indirizzo restano in capo all'ente: il Responsabile della conservazione della PA non può trasferire integralmente all'esterno le proprie funzioni di governo, ma conserva un nucleo di responsabilità non delegabile, a partire dalla redazione e dall'aggiornamento del Manuale.",
+          "Per i soggetti privati la disciplina è più flessibile, ma il principio di fondo resta: l'esternalizzazione riguarda l'esecuzione materiale del servizio, non l'esonero dalle responsabilità. Il titolare che si affida a un conservatore esterno deve comunque nominare il proprio Responsabile della conservazione, definire con l'operatore i confini delle rispettive responsabilità e vigilare sul corretto adempimento del servizio attraverso il contratto e i suoi livelli di servizio."
+        ]
+      },
+      {
+        "h": "Il coordinamento con le altre figure del sistema",
+        "p": [
+          "Il Responsabile della Conservazione non opera in isolamento, ma al centro di una rete di ruoli. Si coordina con il Produttore, cioè con chi forma i documenti e prepara i pacchetti di versamento, definendo con esso modalità e controlli del versamento; con il Responsabile del trattamento dei dati personali e con il Data Protection Officer, per gli aspetti di conformità al GDPR dei documenti conservati; con il Responsabile della sicurezza dei sistemi informativi, per le misure di protezione dell'infrastruttura.",
+          "Quando il servizio è affidato all'esterno, si aggiunge il coordinamento con l'operatore di conservazione e con il suo Responsabile del servizio di conservazione. Questa architettura di ruoli, che il Manuale è chiamato a descrivere in modo puntuale, riflette la natura trasversale della conservazione: un processo che tocca contemporaneamente il piano giuridico, quello organizzativo, quello della protezione dei dati e quello della sicurezza informatica, e che richiede quindi un presidio unitario capace di far dialogare competenze diverse."
+        ]
+      },
+      {
+        "h": "Responsabilità nel tempo e continuità",
+        "p": [
+          "La responsabilità del RdC ha una dimensione temporale che va oltre l'avvio del sistema. La conservazione è per definizione un'attività di lungo periodo: i documenti devono restare autentici, integri e leggibili per anni, spesso per decenni. Il Responsabile deve quindi presidiare la continuità del sistema, pianificando la migrazione dei formati che rischiano l'obsolescenza, verificando periodicamente l'integrità dei pacchetti e aggiornando il Manuale a ogni variazione significativa dell'organizzazione, delle tecnologie o del quadro normativo.",
+          "In caso di avvicendamento della persona fisica che ricopre il ruolo, o di cambio dell'operatore esterno, occorre garantire la continuità delle responsabilità e la corretta trasmissione delle consegne, evitando soluzioni di continuità che potrebbero compromettere l'affidabilità del sistema. La figura del Responsabile della conservazione è, in questo senso, tanto un ruolo quanto una funzione permanente dell'organizzazione, che deve essere sempre coperta e operativa per tutto il tempo in cui esistono documenti da conservare.",
+          "Vale la pena sottolineare che la responsabilità del RdC non è soltanto una responsabilità di risultato, ma anche di processo e di documentazione. Non basta che il sistema funzioni: occorre poter dimostrare, in ogni momento, che ha funzionato correttamente e secondo regole predefinite. Per questo il Responsabile deve curare la tracciabilità delle proprie decisioni, la coerenza tra il Manuale e la realtà operativa, la conservazione degli esiti dei controlli e la formazione delle persone coinvolte nel processo. L'aggiornamento continuo delle proprie competenze, di fronte a un quadro normativo e tecnologico in costante evoluzione, è parte integrante del ruolo: un Responsabile che non segua l'evoluzione delle Linee guida, degli standard e delle tecnologie rischia di governare un sistema formalmente attivo ma sostanzialmente disallineato. In questo senso il RdC è al tempo stesso garante, coordinatore e custode della memoria del sistema, e la qualità complessiva della conservazione dipende in misura decisiva dalla serietà con cui questo ruolo viene interpretato e presidiato nel tempo."
+        ]
+      }
+    ],
     "obblighi": [
       "Nomina formale con atto scritto",
       "Redazione e aggiornamento del Manuale della Conservazione",
@@ -30,6 +106,44 @@
     "title": "Manuale della Conservazione",
     "abstract": "Il documento obbligatorio che descrive il sistema, i ruoli e i processi.",
     "body": "Il Manuale della Conservazione descrive l'intero sistema adottato: tipologie documentali, pacchetti informativi, processi di versamento, conservazione, accesso, scarto, infrastruttura e sicurezza. Va redatto prima dell'avvio del sistema, aggiornato a ogni variazione significativa e reso disponibile agli utenti. Per le PA è approvato dall'organo di vertice, pubblicato sul sito istituzionale e soggetto a vigilanza AgID.",
+    "approfondimento": [
+      {
+        "h": "Che cosa è e perché è obbligatorio",
+        "p": [
+          "Il Manuale della Conservazione è il documento che descrive in dettaglio il sistema di conservazione adottato e il modo in cui esso garantisce nel tempo i requisiti di legge. Non è un adempimento formale, ma lo strumento attraverso cui il titolare rende trasparente, verificabile e ripetibile il proprio processo di conservazione. La sua redazione è espressamente prevista dalle Linee guida AgID ed è considerata la funzione tipica e non delegabile del Responsabile della conservazione.",
+          "Il Manuale svolge una duplice funzione: verso l'interno, guida gli operatori e documenta le scelte compiute; verso l'esterno, costituisce la prova della conformità del sistema in caso di verifiche, ispezioni o contenzioso. Un sistema privo di Manuale, o dotato di un Manuale generico e non aderente alla realtà operativa, è un sistema che difficilmente potrà dimostrare la propria affidabilità di fronte a un'autorità di controllo o a un giudice."
+        ]
+      },
+      {
+        "h": "La struttura definita dalle Linee guida",
+        "p": [
+          "Le Linee guida AgID delineano una struttura di contenuti minimi che il Manuale deve possedere. Vi rientrano l'anagrafica del soggetto produttore e del sistema, l'individuazione dei ruoli e delle responsabilità, la descrizione delle tipologie documentali trattate con i relativi metadati e tempi di conservazione, la descrizione dei pacchetti informativi (versamento, archiviazione, distribuzione), il processo di conservazione nelle sue fasi, l'infrastruttura tecnologica e le misure di sicurezza, le modalità di esibizione e di accesso, le procedure di scarto e di chiusura del sistema.",
+          "La struttura non va intesa come un modello da compilare meccanicamente. Il Manuale deve rispecchiare fedelmente il sistema realmente adottato dall'organizzazione: le sue scelte tecnologiche, i suoi flussi, i suoi controlli. Un Manuale copiato o disallineato rispetto alla realtà operativa è tanto pericoloso quanto la sua assenza, perché documenta un sistema che non esiste e mina alla radice l'affidabilità che dovrebbe attestare."
+        ]
+      },
+      {
+        "h": "Redazione, approvazione e pubblicazione",
+        "p": [
+          "Il Manuale deve essere redatto prima dell'avvio del sistema di conservazione: descrive il modo in cui il sistema opererà, e non può quindi essere un documento redatto a posteriori per giustificare scelte già compiute. Per le pubbliche amministrazioni il Manuale è approvato dall'organo di vertice dell'ente e pubblicato sul sito istituzionale, nella sezione dedicata, in modo da assicurarne la trasparenza e la conoscibilità da parte di cittadini e organi di controllo.",
+          "Per i soggetti privati non è previsto l'obbligo di pubblicazione, ma il Manuale deve comunque essere reso disponibile agli utenti del sistema e alle autorità competenti che ne facciano richiesta. Quando la conservazione è affidata a un operatore esterno, il conservatore predispone un proprio Manuale del servizio di conservazione, che descrive l'infrastruttura e i processi comuni a tutti i clienti; il titolare del servizio integra tale Manuale con le informazioni specifiche relative alle proprie tipologie documentali e alla propria organizzazione."
+        ]
+      },
+      {
+        "h": "Aggiornamento e gestione delle versioni",
+        "p": [
+          "Il Manuale è un documento vivo, non un adempimento da esaurire una tantum. Deve essere aggiornato a ogni variazione significativa del sistema di conservazione, dell'organizzazione o del quadro normativo: un cambio di operatore, l'introduzione di nuove tipologie documentali, la modifica dei formati o dei metadati, l'aggiornamento delle misure di sicurezza sono tutte circostanze che impongono una revisione. Ogni versione del Manuale va identificata, datata e tracciata, così da ricostruire in ogni momento quale assetto del sistema fosse vigente in un determinato periodo.",
+          "La gestione delle versioni non è un dettaglio bibliografico, ma un elemento sostanziale: in caso di verifica su documenti conservati anni prima, occorre poter dimostrare quali regole e quali procedure fossero in vigore al momento della loro conservazione. Il Manuale, con la sua storia delle revisioni, costituisce quindi la memoria documentale del sistema e la base su cui ricostruire, a distanza di tempo, la conformità delle operazioni effettuate."
+        ]
+      },
+      {
+        "h": "Il Manuale come strumento probatorio",
+        "p": [
+          "La funzione ultima del Manuale è quella probatoria. In sede di contenzioso o di verifica fiscale, la validità giuridica dei documenti conservati dipende dalla capacità di dimostrare che il sistema ha operato in conformità ai requisiti di legge. Il Manuale, insieme ai log del sistema e agli indici dei pacchetti di archiviazione, costituisce l'insieme documentale che rende verificabile questa conformità: descrive le regole, mentre i log e gli indici attestano che quelle regole sono state effettivamente applicate.",
+          "Per questo la cura nella redazione e nell'aggiornamento del Manuale è un investimento diretto sulla solidità giuridica dell'archivio. Un Manuale accurato, coerente con la realtà operativa e correttamente versionato, trasforma un insieme di file in un archivio giuridicamente affidabile; un Manuale trascurato lascia il sistema esposto, indipendentemente dalla qualità tecnica dell'infrastruttura sottostante. È in questo senso che il Manuale rappresenta il vero atto di governo della conservazione.",
+          "Un ultimo aspetto merita attenzione: il rapporto tra il Manuale del titolare e quello dell'operatore esterno, quando la conservazione è affidata in outsourcing. Il conservatore predispone un proprio Manuale del servizio di conservazione, che descrive l'infrastruttura, i processi e le misure di sicurezza comuni a tutti i clienti; il titolare non può limitarsi a richiamarlo, ma deve integrarlo con le informazioni specifiche relative alla propria organizzazione, alle proprie tipologie documentali, ai propri tempi di conservazione e ai propri ruoli. I due documenti devono risultare coerenti e complementari, così da coprire senza lacune l'intera catena di responsabilità. Anche la lettura incrociata dei manuali degli operatori disponibili, ad esempio nel Marketplace AgID, è utile al titolare per valutare la qualità e la trasparenza dei servizi offerti prima di sceglierne uno. Il Manuale, in tutte le sue declinazioni, resta dunque il punto di riferimento documentale che consente di ricostruire, in ogni momento e per ogni documento, come e da chi è stata garantita la conservazione a norma. Per questo la sua redazione non andrebbe mai vissuta come un obbligo burocratico da assolvere frettolosamente, ma come l'occasione per riflettere in modo sistematico sul proprio sistema di conservazione e per renderne esplicite, e quindi migliorabili, tutte le scelte."
+        ]
+      }
+    ],
     "obblighi": [
       "Redazione prima dell'avvio del sistema",
       "Struttura conforme al par. 4.1.1 delle Linee guida AgID",
@@ -43,6 +157,44 @@
     "title": "Modello OAIS — SIP / AIP / DIP",
     "abstract": "L'architettura a pacchetti informativi alla base del sistema di conservazione.",
     "body": "La normativa italiana adotta il modello OAIS (ISO 14721). Il Produttore versa il SIP (Submission Information Package); il sistema lo trasforma nell'AIP (Archival Information Package) conservato nel tempo, chiuso e sigillato tramite l'Indice del Pacchetto di Archiviazione (UNI 11386 — SInCRO); su richiesta viene prodotto il DIP (Dissemination Information Package) per l'utente abilitato.",
+    "approfondimento": [
+      {
+        "h": "Un modello internazionale al centro della disciplina italiana",
+        "p": [
+          "Il modello OAIS (Open Archival Information System), formalizzato nello standard ISO 14721, è l'architettura concettuale su cui si fonda la conservazione digitale di lungo periodo a livello internazionale. La normativa italiana lo ha adottato fin dal DPCM 3 dicembre 2013 e lo mantiene nelle Linee guida AgID: parlare di conservazione a norma significa, in larga parte, parlare di come i documenti attraversano le tre forme di pacchetto informativo previste dal modello.",
+          "L'idea di fondo dell'OAIS è che un archivio digitale affidabile non conserva semplicemente dei file, ma dei «pacchetti informativi» che racchiudono, insieme al contenuto, tutte le informazioni necessarie a comprenderlo, a garantirne l'integrità e a ricostruirne il contesto. Il modello distingue tre tipi di pacchetto, corrispondenti a tre momenti del ciclo di vita: l'ingresso (SIP), la conservazione (AIP) e l'accesso (DIP)."
+        ]
+      },
+      {
+        "h": "Il pacchetto di versamento (SIP)",
+        "p": [
+          "Il SIP (Submission Information Package), in italiano pacchetto di versamento, è ciò che il Produttore trasmette al sistema di conservazione. Contiene i documenti da conservare, i loro metadati e, tipicamente, un indice o file di descrizione che elenca il contenuto del pacchetto e ne consente il controllo. Il versamento non è un semplice caricamento di file: è un atto formale che segna il passaggio dei documenti dalla sfera di gestione del Produttore a quella di responsabilità del sistema di conservazione.",
+          "All'ingresso il sistema effettua una serie di controlli di conformità: verifica che i formati siano tra quelli ammessi, che i metadati obbligatori siano presenti e corretti, che l'integrità dei file corrisponda a quanto dichiarato nell'indice. L'esito del versamento è documentato in un rapporto di versamento, che attesta l'avvenuta presa in carico e costituisce la prova del corretto trasferimento. La qualità del SIP condiziona la qualità dell'intera conservazione: errori o incompletezze a monte si riflettono su tutto il ciclo successivo."
+        ]
+      },
+      {
+        "h": "Il pacchetto di archiviazione (AIP) e l'indice SInCRO",
+        "p": [
+          "Il SIP, una volta accettato, viene trasformato dal sistema nell'AIP (Archival Information Package), il pacchetto di archiviazione, cioè la forma in cui i documenti sono effettivamente conservati nel tempo. L'AIP arricchisce il contenuto con le informazioni di conservazione necessarie a garantirne autenticità e integrità nel lungo periodo, e viene chiuso e sigillato attraverso l'apposizione di firma o sigillo elettronico e marca temporale.",
+          "Elemento centrale dell'AIP è l'Indice del Pacchetto di Archiviazione (IPdA), la cui struttura è definita dallo standard italiano UNI 11386, noto come SInCRO. L'indice è un file, tipicamente in formato XML, che descrive analiticamente il contenuto del pacchetto, ne registra le impronte informatiche (hash) e ne certifica l'integrità complessiva. Firmato e marcato temporalmente, l'indice sigilla il pacchetto: qualsiasi alterazione successiva dei documenti in esso descritti sarebbe rilevabile confrontando le impronte. È attraverso questo meccanismo che l'AIP diventa un oggetto giuridicamente affidabile e verificabile."
+        ]
+      },
+      {
+        "h": "Il pacchetto di distribuzione (DIP)",
+        "p": [
+          "Quando un utente abilitato richiede l'accesso a uno o più documenti conservati, il sistema produce il DIP (Dissemination Information Package), il pacchetto di distribuzione. Il DIP è ricavato dall'AIP e contiene i documenti richiesti nella forma adatta alla consultazione o all'esibizione, insieme alle informazioni che ne attestano la provenienza dall'archivio conservato. È il DIP, ad esempio, ciò che viene esibito in caso di verifica fiscale o richiesto in giudizio.",
+          "La distinzione tra AIP e DIP è importante: l'AIP resta immodificato e sigillato nell'archivio, mentre il DIP è una copia prodotta per l'accesso, che non intacca l'integrità del pacchetto conservato. In questo modo il sistema può soddisfare ripetute richieste di consultazione senza mai alterare l'originale conservato, e ogni copia esibita porta con sé la garanzia della propria corrispondenza al pacchetto di archiviazione da cui è stata generata."
+        ]
+      },
+      {
+        "h": "Perché il modello a pacchetti garantisce l'affidabilità",
+        "p": [
+          "La forza del modello OAIS sta nel fatto che tratta la conservazione come una catena continua e tracciabile: dal versamento all'archiviazione fino alla distribuzione, ogni passaggio è documentato e ogni pacchetto porta con sé le informazioni che ne consentono la verifica. Non si conserva un file isolato, ma un oggetto informativo completo di contesto, metadati e prove di integrità, collegato al momento del suo ingresso e alle operazioni successive.",
+          "Questa architettura consente di rispondere alle domande fondamentali della conservazione: da dove proviene questo documento, chi lo ha versato e quando, è ancora identico all'originale, come posso recuperarlo e dimostrarne l'autenticità. Il Manuale della conservazione descrive come SIP, AIP e DIP sono concretamente definiti nel singolo sistema, mentre gli standard internazionali e italiani ne fissano la struttura tecnica. La combinazione tra modello OAIS, indice SInCRO e strumenti fiduciari di firma e marca temporale è ciò che trasforma un deposito di file in un archivio digitale affidabile nel tempo.",
+          "Vale la pena osservare che il modello OAIS non prescrive una specifica tecnologia, ma un insieme di funzioni e di responsabilità che qualsiasi sistema di conservazione affidabile deve assolvere: l'ingresso e la presa in carico, la conservazione e la gestione dei dati, l'amministrazione, la pianificazione della conservazione di lungo periodo e l'accesso. Questa astrazione ne costituisce la forza: consente di descrivere e confrontare sistemi tecnologicamente diversi con un linguaggio comune, e di ragionare sulla conservazione in termini di funzioni da garantire piuttosto che di prodotti da adottare. Nel concreto, la corretta implementazione del modello richiede che ogni passaggio tra i pacchetti sia documentato e reversibile nella tracciabilità, che le trasformazioni subite dai documenti siano registrate e che l'integrità sia verificabile in qualsiasi momento. È questo insieme di garanzie, e non la semplice adozione di un software, a rendere un sistema conforme al modello e quindi realmente idoneo alla conservazione di lungo periodo dei documenti informatici. Conoscere il modello OAIS, anche solo nei suoi tratti essenziali, è dunque il presupposto per leggere con consapevolezza il funzionamento di qualsiasi sistema di conservazione e per valutarne criticamente l'affidabilità, al di là delle specifiche soluzioni tecnologiche adottate."
+        ]
+      }
+    ],
     "obblighi": [
       "Definire e documentare SIP, AIP e DIP nel Manuale",
       "Chiudere gli AIP con Indice del Pacchetto di Archiviazione (UNI 11386)",
@@ -55,6 +207,44 @@
     "title": "Formati e metadati",
     "abstract": "Formati idonei alla lunga conservazione e metadati minimi obbligatori.",
     "body": "L'Allegato 2 delle Linee guida AgID individua i formati idonei alla conservazione (PDF/A, TIFF, XML, EML/MSG, MPEG-4, WAV/MP3), privilegiando l'autoconsistenza e la riproducibilità nel tempo. L'Allegato 5 definisce i metadati minimi obbligatori: identificativo univoco, data di produzione, tipologia documentale, soggetto produttore, riferimento temporale certificato.",
+    "approfondimento": [
+      {
+        "h": "Perché il formato è una scelta di conservazione",
+        "p": [
+          "La scelta del formato non è un dettaglio tecnico, ma una decisione che condiziona la possibilità stessa di conservare un documento nel tempo. Un file salvato in un formato proprietario, dipendente da uno specifico software o da una versione destinata a diventare obsoleta, rischia di risultare illeggibile a distanza di anni, anche se i bit sono perfettamente integri. La conservazione a norma richiede quindi di privilegiare formati aperti, documentati, stabili e autoconsistenti, cioè capaci di essere interpretati senza dipendere da elementi esterni.",
+          "L'Allegato 2 delle Linee guida AgID individua un insieme di formati considerati idonei alla conservazione, distinti per tipologia di contenuto. Non si tratta di un elenco chiuso e immutabile: è un riferimento che l'organizzazione deve applicare motivando le proprie scelte nel Manuale, e che va riconsiderato nel tempo alla luce dell'evoluzione tecnologica. La regola generale è preferire, per ciascuna tipologia documentale, il formato più stabile e diffuso tra quelli idonei."
+        ]
+      },
+      {
+        "h": "I formati idonei per tipologia di contenuto",
+        "p": [
+          "Per i documenti testuali il formato di riferimento è il PDF/A (ISO 19005), una variante del PDF appositamente vincolata per l'archiviazione di lungo periodo: incorpora i font, vieta i contenuti dinamici e garantisce che il documento appaia in futuro esattamente come al momento della sua formazione. Per le immagini raster è indicato il TIFF, formato non compresso o compresso senza perdita, adatto a preservare la fedeltà delle riproduzioni digitali di documenti analogici.",
+          "Per i dati strutturati il riferimento è l'XML, che consente di conservare informazioni in forma leggibile sia dalle macchine sia, in prospettiva, dalle persone; è il caso, ad esempio, delle fatture elettroniche. Per i messaggi di posta elettronica sono indicati i formati EML e MSG, che preservano il messaggio con i suoi metadati e allegati. Per i contenuti multimediali si individuano formati come MPEG-4 per il video e WAV o MP3 per l'audio. La logica comune è sempre la stessa: preferire formati standardizzati, documentati e diffusi, che offrano le migliori garanzie di riproducibilità futura."
+        ]
+      },
+      {
+        "h": "I metadati: l'identità del documento",
+        "p": [
+          "Se il formato garantisce la leggibilità del contenuto, i metadati ne garantiscono l'identità e la reperibilità. Un documento conservato senza metadati adeguati è come un libro senza titolo, autore né data in una biblioteca priva di catalogo: esiste, ma non può essere trovato né correttamente interpretato. I metadati descrivono il documento, ne fissano il contesto di produzione e ne consentono la ricerca, il recupero e la verifica.",
+          "L'Allegato 5 delle Linee guida AgID definisce l'insieme dei metadati minimi obbligatori che devono accompagnare ogni documento informatico. Vi rientrano un identificativo univoco che distingue il documento da ogni altro, la data di produzione, la tipologia documentale, l'indicazione del soggetto che lo ha prodotto e il riferimento temporale che ne colloca la formazione nel tempo. A questi metadati minimi l'organizzazione può e deve aggiungere quelli specifici necessari alla gestione delle proprie tipologie documentali, così da rendere efficace la ricerca e la selezione."
+        ]
+      },
+      {
+        "h": "Metadati e valore probatorio",
+        "p": [
+          "I metadati non hanno solo una funzione gestionale, ma anche probatoria. Il riferimento temporale certificato, in particolare, contribuisce a rendere opponibile a terzi la data del documento, e i metadati che identificano il soggetto produttore concorrono ad attestarne l'autenticità. In sede di verifica o di contenzioso, la completezza e la correttezza dei metadati sono spesso decisive per dimostrare che un determinato documento è stato prodotto da un certo soggetto in un certo momento e non è stato successivamente alterato.",
+          "Per questo la definizione dello schema di metadati non può essere lasciata al caso o gestita in modo incoerente tra le diverse tipologie documentali. Il Manuale della conservazione descrive, per ciascuna classe di documenti, i metadati associati e le regole con cui vengono valorizzati. Un sistema di metadati progettato con cura è ciò che consente, a distanza di anni, di ricostruire con certezza la storia e l'identità di ogni documento conservato."
+        ]
+      },
+      {
+        "h": "La migrazione dei formati e l'obsolescenza",
+        "p": [
+          "Nessun formato è eterno. Anche i formati oggi considerati idonei potranno un giorno diventare obsoleti, e i supporti su cui i dati sono memorizzati hanno una durata fisica limitata. La conservazione di lungo periodo deve quindi prevedere, come parte integrante del processo, la pianificazione della migrazione: il passaggio, quando necessario, da formati o supporti a rischio di obsolescenza verso soluzioni più aggiornate, in modo da garantire la continuità della leggibilità.",
+          "La migrazione è un'operazione delicata, perché deve preservare l'integrità e l'autenticità dei documenti pur cambiando il loro contenitore tecnologico. Va documentata nel Manuale e tracciata nel sistema, così da poter dimostrare che il documento migrato corrisponde all'originale conservato. Insieme alla verifica periodica dell'integrità dei pacchetti, la gestione dell'obsolescenza dei formati è ciò che distingue una vera conservazione di lungo periodo da un semplice deposito passivo di file destinato, prima o poi, a diventare illeggibile.",
+          "Formati e metadati, in conclusione, vanno pensati insieme come le due componenti dell'identità documentale: il formato ne preserva la forma e il contenuto, i metadati ne preservano il significato e la reperibilità. Nessuno dei due, da solo, è sufficiente. Un documento in formato perfetto ma privo di metadati è irreperibile e privo di contesto; un documento ricco di metadati ma in formato obsoleto è descritto ma illeggibile. La progettazione della conservazione richiede quindi di definire, per ciascuna tipologia documentale, sia il formato idoneo sia lo schema di metadati, coordinando le due scelte e documentandole nel Manuale. A ciò si aggiunge la dimensione temporale: entrambe le scelte devono essere riviste periodicamente, perché ciò che oggi è idoneo potrà non esserlo domani. La cura sistematica di formati e metadati, con la relativa pianificazione delle migrazioni, è il presupposto tecnico su cui poggiano tutti gli altri requisiti della conservazione a norma, dall'autenticità alla leggibilità fino alla reperibilità nel tempo. Trascurare questa componente equivale a costruire un archivio su fondamenta instabili: le garanzie giuridiche e le misure di sicurezza più sofisticate perdono efficacia se applicate a documenti che, per formato o per carenza di metadati, non potranno essere letti né ritrovati in futuro."
+        ]
+      }
+    ],
     "obblighi": [
       "Usare formati dell'Allegato 2 (PDF/A come preferito per i testi)",
       "Associare a ogni documento i metadati minimi dell'Allegato 5",
@@ -67,6 +257,44 @@
     "title": "Firma digitale e marca temporale",
     "abstract": "Gli strumenti fiduciari che assicurano autenticità, integrità e data certa.",
     "body": "Firma digitale/elettronica qualificata e marca temporale, disciplinate dal regolamento eIDAS e dalle norme tecniche ETSI (CAdES, XAdES, PAdES; time-stamping), assicurano autenticità, integrità e opponibilità temporale dei documenti e dei pacchetti conservati. La conservazione fiscale richiede firma e marca sul ciclo annuale (D.M. 17/6/2014).",
+    "approfondimento": [
+      {
+        "h": "Gli strumenti che rendono affidabile la conservazione",
+        "p": [
+          "Firma elettronica e marca temporale sono gli strumenti fiduciari che traducono in termini tecnici i requisiti giuridici di autenticità e integrità. La firma lega un documento a un soggetto e attesta che il contenuto non è stato modificato dopo la sottoscrizione; la marca temporale lega il documento a un momento certo, rendendo opponibile a terzi la sua data. Nella conservazione questi strumenti operano a due livelli: sui singoli documenti, quando la loro natura lo richiede, e sui pacchetti di archiviazione, che vengono sigillati con firma o sigillo e marca temporale.",
+          "Il quadro di riferimento è il regolamento europeo eIDAS, che disciplina l'identità digitale e i servizi fiduciari in modo uniforme in tutta l'Unione, e le norme tecniche europee elaborate dall'ETSI, che ne definiscono l'attuazione. Grazie a eIDAS una firma qualificata o una marca temporale qualificata prodotte in Italia hanno pieno valore in tutti gli Stati membri, e i prestatori di servizi fiduciari qualificati sono soggetti a vigilanza e iscritti in elenchi pubblici europei."
+        ]
+      },
+      {
+        "h": "Firma elettronica: dai livelli semplici a quella qualificata",
+        "p": [
+          "Il regolamento eIDAS distingue diversi livelli di firma elettronica: la firma elettronica semplice, la firma elettronica avanzata e la firma elettronica qualificata. Quest'ultima, basata su un certificato qualificato e creata mediante un dispositivo sicuro, gode del più alto valore probatorio ed è equiparata, sul piano degli effetti, alla firma autografa. Accanto alla firma delle persone fisiche, eIDAS disciplina il sigillo elettronico, che assolve funzione analoga per le persone giuridiche.",
+          "Nella conservazione, la firma o il sigillo garantiscono che un documento o un pacchetto provenga da un soggetto determinato e non sia stato alterato. Per i pacchetti di archiviazione si utilizza tipicamente un sigillo elettronico del conservatore, che ne attesta la provenienza dal sistema e ne garantisce l'integrità complessiva insieme all'indice SInCRO. La scelta del livello di firma dipende dalla natura del documento e dalle esigenze probatorie: per i documenti a maggior rilievo giuridico si richiede la firma qualificata, mentre per altri possono essere sufficienti livelli inferiori, sempre secondo quanto stabilito dalla normativa e descritto nel Manuale."
+        ]
+      },
+      {
+        "h": "I formati di firma: CAdES, XAdES, PAdES e ASiC",
+        "p": [
+          "Sul piano tecnico, le firme elettroniche avanzate e qualificate assumono formati standardizzati definiti dalle norme ETSI. I principali sono il CAdES, che produce tipicamente file con estensione .p7m e può firmare qualsiasi tipo di file; lo XAdES, pensato per la firma di documenti XML; il PAdES, che integra la firma all'interno di un documento PDF mantenendone la leggibilità diretta. A questi si aggiungono i contenitori ASiC, che permettono di associare in un unico involucro i documenti e le relative firme.",
+          "La scelta del formato di firma incide sulla conservazione, perché deve garantire la verificabilità della firma anche a distanza di molti anni. Per questo si preferiscono i profili con validazione a lungo termine (LTV, Long Term Validation), che incorporano nel file le informazioni necessarie a verificare la firma anche quando il certificato originario è scaduto o revocato. Senza questi accorgimenti, una firma perfettamente valida al momento dell'apposizione potrebbe risultare non verificabile anni dopo, vanificando la sua funzione probatoria proprio nel momento in cui serve."
+        ]
+      },
+      {
+        "h": "La marca temporale e la data certa",
+        "p": [
+          "La marca temporale è il servizio fiduciario che associa a un documento o a un'impronta informatica un riferimento temporale opponibile a terzi, emesso da un prestatore qualificato (Time-Stamping Authority) secondo le norme ETSI. Nella conservazione la marca temporale è essenziale per attribuire data certa ai pacchetti di archiviazione e per congelare nel tempo lo stato di integrità dei documenti: sigillando l'indice del pacchetto con una marca temporale, si dimostra che a quella data il contenuto era esattamente quello descritto.",
+          "La data certa non è una questione formale: molte scadenze e molti effetti giuridici dipendono dal momento in cui un documento si considera formato o conservato. In ambito fiscale, in particolare, il processo di conservazione deve concludersi con l'apposizione di firma e marca temporale entro termini precisi, così da attestare che i documenti tributari sono stati conservati nei tempi prescritti. La marca temporale è quindi il ponte tra l'integrità tecnica del documento e la sua rilevanza giuridica nel tempo."
+        ]
+      },
+      {
+        "h": "Il rinnovo e la tenuta della validità nel tempo",
+        "p": [
+          "Una delle sfide della conservazione di lungo periodo è mantenere valide e verificabili le firme e le marche anche a distanza di decenni, quando gli algoritmi crittografici utilizzati potrebbero essere considerati non più sicuri e i certificati risultare scaduti. Per questo la conservazione non si limita ad apporre firme e marche all'origine, ma prevede meccanismi di rinnovo e di rafforzamento delle prove, come l'apposizione di nuove marche temporali che estendono nel tempo la validità delle precedenti.",
+          "Il regolamento eIDAS ha introdotto, tra i servizi fiduciari, anche quello di conservazione delle firme e dei sigilli elettronici, volto proprio a preservarne l'affidabilità nel lungo periodo. Le organizzazioni devono quindi progettare la conservazione tenendo conto non solo dello stato attuale della tecnologia crittografica, ma della sua evoluzione: la validità di una firma non è un dato acquisito una volta per tutte, ma un risultato da mantenere attivamente attraverso le procedure descritte nel Manuale e i servizi fiduciari qualificati.",
+          "Va infine ricordato che firma e marca temporale non sostituiscono, ma completano gli altri presidi della conservazione. Una firma valida apposta su un documento in formato non idoneo, o privo di metadati, non basta a renderlo conservabile a norma; allo stesso modo, un pacchetto sigillato ma non verificato periodicamente nel tempo perde progressivamente la sua affidabilità. Gli strumenti fiduciari vanno quindi inseriti in un processo complessivo che li integri con la scelta dei formati, la definizione dei metadati, il modello a pacchetti e le verifiche periodiche di integrità. È questa integrazione a produrre l'effetto giuridico voluto: un documento di cui si possa dimostrare, a distanza di anni, chi lo ha formato, quando, e che non è stato successivamente alterato. Comprendere il ruolo di firma e marca temporale significa quindi comprendere che la certezza giuridica, nel digitale, non è una proprietà statica del documento, ma il prodotto di un sistema di garanzie mantenuto attivo nel tempo."
+        ]
+      }
+    ],
     "obblighi": [
       "Apporre firma e marca temporale secondo i formati ETSI/eIDAS",
       "Preferire profili con validazione a lungo termine (LTV)",
@@ -79,6 +307,44 @@
     "title": "Operatori di conservazione e Marketplace AgID",
     "abstract": "Conservazione in outsourcing: requisiti degli operatori e servizi qualificati sul Marketplace AgID.",
     "body": "Con le Linee guida AgID il precedente regime di accreditamento dei conservatori (art. 44-bis CAD, abrogato) è stato superato. Chi esternalizza la conservazione si rivolge a operatori dei servizi di conservazione che devono garantire i requisiti dell'art. 44 CAD; per i servizi rivolti alla PA gli operatori sono qualificati e reperibili nel Marketplace AgID. L'operatore nomina un proprio Responsabile della Conservazione e stipula con l'ente un contratto che regola SLA, responsabilità e procedure di migrazione/restituzione dei dati a fine rapporto.",
+    "approfondimento": [
+      {
+        "h": "Dalla accreditamento alla qualificazione: un cambio di paradigma",
+        "p": [
+          "Fino all'entrata in vigore delle Linee guida AgID, chi voleva offrire servizi di conservazione alle pubbliche amministrazioni doveva ottenere un accreditamento presso l'Agenzia, previsto dall'ormai abrogato articolo 44-bis del CAD e disciplinato in dettaglio dalla Circolare AgID 65/2014. L'accreditamento certificava il possesso di stringenti requisiti tecnici, organizzativi ed economici e comportava l'iscrizione in un elenco pubblico dei conservatori accreditati.",
+          "Con le Linee guida questo regime è stato superato. Non si parla più di conservatori accreditati, ma di operatori dei servizi di conservazione e di un sistema di qualificazione basato su un apposito Regolamento sui criteri per la fornitura dei servizi di conservazione. Il cambiamento non è solo terminologico: riflette un diverso modello di controllo, incentrato sul possesso e sul mantenimento di requisiti di qualità, sicurezza e organizzazione, verificati nel tempo, piuttosto che su un atto autorizzativo iniziale."
+        ]
+      },
+      {
+        "h": "Il Marketplace AgID dei servizi di conservazione",
+        "p": [
+          "Il luogo in cui questa qualificazione diventa visibile è il Marketplace dei servizi di conservazione, pubblicato da AgID. Si tratta di una vetrina in cui le pubbliche amministrazioni possono individuare più agevolmente gli operatori che offrono servizi di conservazione conformi ai requisiti, verificarne le caratteristiche e reperire la relativa documentazione, a partire dal Manuale del servizio di conservazione di ciascun operatore.",
+          "La presenza nel Marketplace non è obbligatoria per erogare il servizio in generale, ma costituisce il riferimento per i servizi rivolti alla pubblica amministrazione, che deve rivolgersi a operatori in possesso dei requisiti previsti. Per il titolare del servizio, il Marketplace rappresenta uno strumento di trasparenza e di scelta informata: consente di confrontare gli operatori, di consultare i loro manuali e di verificare che il fornitore prescelto sia effettivamente qualificato per il tipo di servizio richiesto."
+        ]
+      },
+      {
+        "h": "I requisiti dell'operatore e la responsabilità condivisa",
+        "p": [
+          "L'operatore che eroga il servizio di conservazione deve garantire i requisiti dell'art. 44 CAD per tutti i documenti che gli sono affidati: autenticità, integrità, affidabilità, leggibilità e reperibilità. Deve dotarsi di un'infrastruttura sicura e ridondata, di procedure documentate, di misure di protezione dei dati e di un proprio Responsabile del servizio di conservazione, distinto dal Responsabile della conservazione del titolare. Questa distinzione riflette un principio essenziale: chi controlla e chi è controllato non possono coincidere.",
+          "L'esternalizzazione, infatti, non trasferisce integralmente la responsabilità: il titolare del servizio resta responsabile della conservazione dei propri documenti e vigila sull'operato del conservatore. Si instaura così una responsabilità condivisa, in cui l'operatore risponde della corretta erogazione tecnica del servizio secondo il proprio Manuale, mentre il titolare risponde delle scelte di indirizzo, dell'individuazione delle tipologie documentali e dei tempi di conservazione, e del controllo sul rispetto del contratto."
+        ]
+      },
+      {
+        "h": "Il contratto di servizio: SLA, responsabilità, sicurezza",
+        "p": [
+          "Il rapporto tra titolare e operatore è regolato da un contratto di servizio, che costituisce lo strumento giuridico attraverso cui si definiscono i confini delle rispettive responsabilità. Il contratto deve individuare con precisione le attività affidate all'operatore e quelle che restano in capo al titolare, i livelli di servizio (Service Level Agreement) garantiti in termini di disponibilità, tempi di risposta e continuità operativa, le misure di sicurezza adottate e le modalità di gestione degli incidenti.",
+          "Un aspetto spesso sottovalutato è la disciplina degli aspetti legati alla protezione dei dati personali: quando l'operatore tratta dati personali per conto del titolare, va inquadrato come responsabile del trattamento ai sensi del GDPR, con un apposito atto giuridico che ne disciplini gli obblighi. Il contratto di conservazione è quindi un documento complesso, che intreccia profili di conformità normativa, di sicurezza informatica e di protezione dei dati, e che deve essere redatto con la stessa cura riservata al Manuale."
+        ]
+      },
+      {
+        "h": "Migrazione, portabilità e cessazione del servizio",
+        "p": [
+          "Uno degli snodi più critici della conservazione in outsourcing è la fine del rapporto. Che si tratti di un cambio di operatore, della cessazione dell'attività del conservatore o della semplice scadenza del contratto, occorre garantire che i documenti conservati non vadano perduti e restino accessibili e verificabili. Per questo il contratto deve prevedere fin dall'inizio le procedure di migrazione e di restituzione integrale dei pacchetti di archiviazione al titolare o al nuovo operatore.",
+          "La portabilità dei dati è un requisito essenziale: il titolare non deve trovarsi prigioniero di un fornitore, ma deve poter trasferire il proprio archivio conservando l'integrità e l'autenticità dei documenti e la loro storia. Le procedure di uscita, la struttura dei pacchetti restituiti e le garanzie di continuità della leggibilità vanno definite in anticipo e descritte nella documentazione del servizio. Pianificare la cessazione all'atto della sottoscrizione del contratto è, paradossalmente, uno degli aspetti che meglio misura la solidità di un servizio di conservazione.",
+          "La scelta di esternalizzare la conservazione, in conclusione, non è una delega in bianco, ma l'inizio di una relazione da governare attivamente. Il titolare deve selezionare l'operatore con criterio, verificandone i requisiti e la documentazione, definire con precisione i confini delle responsabilità nel contratto, e vigilare nel tempo sul rispetto dei livelli di servizio e delle regole. Il Marketplace AgID facilita la fase di scelta, offrendo trasparenza sugli operatori qualificati e sui loro manuali, ma non esonera il titolare dal proprio ruolo di indirizzo e controllo. Anche i soggetti privati, per i quali il ricorso al Marketplace non è imposto, hanno interesse a scegliere operatori affidabili e a leggerne criticamente la documentazione di servizio. In definitiva, l'outsourcing sposta all'esterno l'esecuzione tecnica della conservazione, ma lascia al titolare la responsabilità delle scelte di fondo e la titolarità dei propri documenti: una consapevolezza che deve accompagnare ogni fase del rapporto, dalla selezione dell'operatore fino all'eventuale migrazione verso un fornitore diverso. Solo così l'esternalizzazione diventa una scelta di efficienza e non un trasferimento di rischio: l'operatore mette a disposizione infrastruttura e competenze specialistiche, mentre il titolare conserva la regia e la piena titolarità del proprio patrimonio documentale."
+        ]
+      }
+    ],
     "obblighi": [
       "Selezionare operatori qualificati (per la PA: presenti nel Marketplace AgID)",
       "Verificare il possesso dei requisiti dell'art. 44 CAD da parte dell'operatore",
@@ -92,6 +358,44 @@
     "title": "Conservazione fiscale",
     "abstract": "Regole specifiche per fatture elettroniche, registri IVA e libri contabili.",
     "body": "I documenti rilevanti ai fini fiscali seguono il D.M. 17/6/2014: conservazione digitale ammessa se conforme, con firma e marca temporale sul ciclo annuale entro il terzo mese successivo al termine di presentazione della dichiarazione. Le fatture elettroniche via SdI (D.Lgs. 127/2015) vanno conservate 10 anni; l'Agenzia delle Entrate offre un servizio di conservazione gratuito su adesione.",
+    "approfondimento": [
+      {
+        "h": "Una disciplina speciale accanto a quella generale",
+        "p": [
+          "La conservazione dei documenti rilevanti ai fini fiscali e tributari costituisce un ambito con regole proprie, che si affiancano alla disciplina generale del CAD e delle Linee guida AgID. La ragione è evidente: per l'ordinamento tributario la conservazione dei documenti non è solo una buona pratica gestionale, ma la condizione perché fatture, registri e scritture contabili mantengano efficacia probatoria in sede di controllo e possano essere legittimamente eliminati nella loro forma cartacea.",
+          "Il riferimento centrale è il Decreto del Ministero dell'Economia e delle Finanze del 17 giugno 2014, che disciplina le modalità di assolvimento degli obblighi fiscali relativi ai documenti informatici e alla loro riproduzione su supporti digitali. A questo si aggiungono la disciplina della fatturazione elettronica, la prassi dell'Agenzia delle Entrate espressa in numerose circolari e risoluzioni, e le regole sull'imposta di bollo sui documenti informatici."
+        ]
+      },
+      {
+        "h": "Il D.M. 17 giugno 2014 e il ciclo annuale",
+        "p": [
+          "Il D.M. 17 giugno 2014 stabilisce che i documenti rilevanti ai fini tributari possono essere conservati esclusivamente in forma digitale se il processo rispetta le condizioni previste. Elemento caratterizzante è la cadenza del processo di conservazione: mentre la disciplina generale non impone una periodicità fissa, in ambito fiscale il processo deve concludersi, per ciascun periodo d'imposta, con l'apposizione di firma e marca temporale entro il terzo mese successivo al termine di presentazione della dichiarazione dei redditi.",
+          "Questo termine trasforma la conservazione fiscale in un adempimento periodico con una scadenza precisa: ogni anno il titolare deve chiudere il ciclo di conservazione dei documenti tributari relativi al periodo d'imposta, sigillandoli con firma e marca temporale entro il termine previsto. Il mancato rispetto della periodicità e delle modalità può compromettere la validità della conservazione ai fini fiscali, con conseguenze in sede di verifica. La prassi dell'Agenzia delle Entrate, nel tempo, ha chiarito numerosi aspetti applicativi di questa disciplina."
+        ]
+      },
+      {
+        "h": "La fatturazione elettronica e la conservazione decennale",
+        "p": [
+          "Con l'introduzione dell'obbligo generalizzato di fatturazione elettronica, la conservazione delle fatture ha assunto un rilievo centrale. Le fatture elettroniche transitate attraverso il Sistema di Interscambio devono essere conservate a norma, e il termine ordinario di conservazione ai fini fiscali e civilistici è di dieci anni. La fattura elettronica, essendo un documento informatico in formato XML strutturato, richiede una conservazione che ne preservi non solo la leggibilità ma anche la struttura e i metadati.",
+          "Per agevolare gli operatori, l'Agenzia delle Entrate mette a disposizione un servizio di conservazione gratuito delle fatture elettroniche, attivabile su adesione dall'area riservata del portale Fatture e Corrispettivi. Aderendo al servizio, le fatture emesse e ricevute tramite il Sistema di Interscambio vengono conservate a norma direttamente dall'Agenzia, che ne assume la relativa responsabilità tecnica secondo il proprio Manuale di conservazione. Il servizio è facoltativo: il contribuente può scegliere di conservare autonomamente o di affidarsi a un operatore di mercato."
+        ]
+      },
+      {
+        "h": "Registri, libri contabili e imposta di bollo",
+        "p": [
+          "La conservazione fiscale non riguarda solo le fatture, ma l'intero insieme dei documenti rilevanti ai fini tributari: registri IVA, libro giornale, libro degli inventari, scritture contabili obbligatorie. La prassi dell'Agenzia delle Entrate ha chiarito che i registri contabili tenuti con sistemi elettronici non devono necessariamente essere portati in conservazione digitale a norma se sono regolarmente aggiornati e resi disponibili, anche a stampa, su richiesta degli organi di controllo; se però si sceglie la via della tenuta esclusivamente digitale, occorre rispettare le regole della conservazione a norma.",
+          "Un profilo specifico riguarda l'imposta di bollo sui documenti informatici, il cui assolvimento avviene con modalità telematiche e secondo termini definiti dalla normativa. Anche su questo aspetto l'Agenzia delle Entrate è intervenuta con chiarimenti di prassi. La conservazione fiscale, in definitiva, richiede di coordinare le regole tecniche generali con le specifiche modalità di assolvimento degli obblighi tributari, tenendo conto della natura di ciascuna tipologia documentale e dei relativi termini."
+        ]
+      },
+      {
+        "h": "Il valore probatorio in sede di verifica",
+        "p": [
+          "L'obiettivo ultimo della conservazione fiscale è garantire che, in caso di controllo, i documenti conservati siano pienamente opponibili all'Amministrazione finanziaria e ne sia dimostrabile l'autenticità, l'integrità e la conservazione nei termini previsti. Un sistema di conservazione fiscale correttamente impostato consente di esibire i documenti richiesti nella forma di pacchetti di distribuzione che ne attestano la provenienza dall'archivio conservato e il rispetto delle regole.",
+          "Le conseguenze di una conservazione non conforme possono essere significative: dalla contestazione della validità dei documenti alla loro inutilizzabilità a fini probatori, con possibili riflessi sull'accertamento. Per questo la conservazione fiscale non va trattata come un adempimento marginale, ma come un presidio della certezza dei rapporti tributari, che richiede attenzione alle scadenze, corretta apposizione di firme e marche, e piena tracciabilità del processo. Il coordinamento con il Responsabile della conservazione e, se presente, con l'operatore esterno è essenziale per assicurare il rispetto di tutte le regole di settore.",
+          "La conservazione fiscale illustra bene come una disciplina di settore si innesti sulla cornice generale della conservazione a norma senza sostituirla. Le regole tributarie aggiungono requisiti specifici — la periodicità annuale, i termini legati alla dichiarazione, le modalità di assolvimento dell'imposta di bollo, la durata decennale — ma presuppongono e richiamano le regole tecniche generali del CAD e delle Linee guida AgID quanto a formati, metadati, firme e marche temporali. Chi gestisce la conservazione dei documenti fiscali deve quindi padroneggiare entrambi i livelli e tenerne conto in modo coordinato, evitando sia di applicare le regole generali ignorando le specificità fiscali, sia di concentrarsi sugli adempimenti tributari trascurando i requisiti tecnici di conservazione. La prassi dell'Agenzia delle Entrate, con le sue numerose circolari e risoluzioni, costituisce una guida preziosa per orientarsi in questo intreccio, e la sua consultazione sistematica è parte integrante di una corretta gestione della conservazione dei documenti rilevanti ai fini fiscali. Data la delicatezza della materia e la frequenza con cui la prassi interviene a precisarne l'applicazione, è opportuno verificare periodicamente gli aggiornamenti dell'Agenzia e adeguare di conseguenza le procedure descritte nel Manuale della conservazione."
+        ]
+      }
+    ],
     "obblighi": [
       "Conservazione digitale conforme al D.M. 17/6/2014",
       "Firma e marca sul ciclo annuale entro i termini fiscali",
@@ -104,6 +408,44 @@
     "title": "GDPR e protezione dati",
     "abstract": "Bilanciamento tra obblighi di conservazione e diritti degli interessati.",
     "body": "I sistemi di conservazione che trattano dati personali applicano il GDPR e il Codice Privacy: privacy by design (art. 25), sicurezza del trattamento (art. 32), limitazione della conservazione e bilanciamento con il diritto alla cancellazione (art. 17) rispetto agli obblighi normativi di conservazione. Il RdC si coordina con il Responsabile del trattamento e con il DPO ove presente.",
+    "approfondimento": [
+      {
+        "h": "Conservare e proteggere: due esigenze da conciliare",
+        "p": [
+          "La conservazione dei documenti informatici e la protezione dei dati personali sono due discipline che si incontrano necessariamente, perché la gran parte dei documenti conservati contiene dati riferiti a persone fisiche. Le due esigenze possono apparire in tensione: la conservazione tende a trattenere i documenti nel tempo, mentre la protezione dei dati impone di non conservarli oltre il necessario. Il compito di chi governa il sistema è conciliare queste esigenze, applicando congiuntamente il Regolamento generale sulla protezione dei dati (GDPR) e il Codice Privacy nazionale.",
+          "Il punto di equilibrio non è arbitrario: la conservazione dei dati oltre la loro immediata utilità è legittima quando risponde a un obbligo di legge o a una finalità riconosciuta, come gli obblighi fiscali, contabili o documentali. In questi casi la conservazione non contraddice il GDPR, ma ne costituisce un'applicazione, perché il trattamento trova la propria base giuridica proprio nell'obbligo normativo di conservare. La chiave è definire con chiarezza, per ciascuna tipologia documentale, la finalità della conservazione e il relativo tempo di tenuta."
+        ]
+      },
+      {
+        "h": "Il principio di limitazione della conservazione",
+        "p": [
+          "Il GDPR fissa, tra i principi applicabili al trattamento, quello di limitazione della conservazione: i dati personali devono essere conservati in una forma che consenta l'identificazione degli interessati per un arco di tempo non superiore al conseguimento delle finalità per le quali sono trattati. Questo principio non vieta la conservazione di lungo periodo, ma impone di giustificarla: ogni tipologia documentale deve avere un tempo di conservazione definito e motivato, coerente con l'obbligo di legge o con la finalità che lo sorregge.",
+          "Nella pratica, ciò si traduce nella predisposizione di un massimario o piano di conservazione che, per ciascuna classe di documenti, indichi il periodo di tenuta e il fondamento normativo. Il piano di conservazione è al tempo stesso uno strumento archivistico e uno strumento di conformità al GDPR: definisce quando i documenti possono o devono essere selezionati per lo scarto, evitando sia la distruzione prematura di documenti ancora necessari sia la conservazione illimitata e ingiustificata di dati personali."
+        ]
+      },
+      {
+        "h": "Privacy by design e sicurezza del trattamento",
+        "p": [
+          "Il GDPR impone che la protezione dei dati sia incorporata nella progettazione stessa dei sistemi (privacy by design) e che le impostazioni predefinite siano quelle più protettive (privacy by default). Applicato alla conservazione, questo principio richiede che il sistema sia concepito, fin dall'origine, per trattare i dati personali in modo sicuro e proporzionato: limitando gli accessi ai soli soggetti autorizzati, cifrando i dati dove opportuno, minimizzando le informazioni trattate rispetto alle finalità.",
+          "A ciò si aggiunge l'obbligo di adottare misure tecniche e organizzative adeguate a garantire la sicurezza del trattamento, commisurate al rischio. Nei sistemi di conservazione queste misure coincidono in larga parte con quelle previste dalle Linee guida per la sicurezza del sistema: controllo degli accessi, tracciamento delle operazioni, backup e continuità operativa, protezione da alterazioni e accessi non autorizzati. La sicurezza della conservazione e la sicurezza dei dati personali sono, in questo senso, due facce dello stesso presidio."
+        ]
+      },
+      {
+        "h": "Il diritto alla cancellazione e i suoi limiti",
+        "p": [
+          "Uno dei punti di maggiore tensione riguarda il diritto alla cancellazione, il cosiddetto diritto all'oblio. Il GDPR riconosce all'interessato il diritto di ottenere la cancellazione dei propri dati, ma prevede espressamente che tale diritto non si applica quando il trattamento è necessario per adempiere un obbligo legale che richiede la conservazione. Un documento fiscale, ad esempio, non può essere cancellato su richiesta dell'interessato finché sussiste l'obbligo di conservarlo.",
+          "Il bilanciamento va quindi condotto caso per caso: dove esiste un obbligo di conservazione, esso prevale e la cancellazione è differita al termine del periodo di tenuta; dove l'obbligo non sussiste, la richiesta di cancellazione va onorata secondo le regole del GDPR. Gestire correttamente questo bilanciamento richiede di conoscere, per ogni documento, la finalità e la base giuridica della conservazione, ancora una volta a partire dal piano di conservazione. La cancellazione, quando dovuta, deve poi essere effettiva e documentata, in coerenza con le procedure di scarto del sistema."
+        ]
+      },
+      {
+        "h": "Il coordinamento tra i ruoli della conservazione e della privacy",
+        "p": [
+          "La gestione congiunta di conservazione e protezione dei dati richiede il coordinamento tra ruoli diversi. Il Responsabile della conservazione governa il sistema e le sue regole; il titolare del trattamento risponde della conformità al GDPR; il Data Protection Officer, ove presente, vigila e fornisce consulenza sulla protezione dei dati; l'eventuale operatore esterno di conservazione, quando tratta dati personali per conto del titolare, assume la veste di responsabile del trattamento e va disciplinato con apposito atto.",
+          "Questo intreccio di ruoli deve trovare composizione nella documentazione del sistema: il Manuale della conservazione e i registri delle attività di trattamento devono essere coerenti tra loro, così come i tempi di conservazione indicati nel piano archivistico e quelli assunti ai fini della protezione dei dati. Una conservazione ben progettata è anche una conservazione rispettosa della privacy: conserva ciò che deve, per il tempo che deve, con le garanzie di sicurezza che deve, e provvede alla cancellazione quando gli obblighi vengono meno.",
+          "Guardare alla conservazione con le lenti della protezione dei dati aiuta anche a evitare due errori speculari e ugualmente diffusi. Il primo è la conservazione indiscriminata e a tempo indeterminato, giustificata dal timore di eliminare documenti che potrebbero un giorno servire: un atteggiamento che, oltre a violare il principio di limitazione della conservazione, accresce inutilmente i rischi e i costi. Il secondo è la cancellazione affrettata di documenti ancora soggetti a obblighi di legge, sull'onda di una lettura semplicistica del diritto all'oblio. La via corretta, in entrambi i casi, passa per la definizione consapevole dei tempi di conservazione e per il loro coordinamento tra piano archivistico e piano dei trattamenti. Una conservazione rispettosa della privacy non è quella che conserva di meno né quella che conserva di più, ma quella che conserva il giusto: ogni documento per il tempo previsto dalla sua finalità, con le garanzie di sicurezza adeguate, e con procedure di scarto e cancellazione effettive e documentate."
+        ]
+      }
+    ],
     "obblighi": [
       "Progettare il sistema secondo privacy by design e by default",
       "Bilanciare cancellazione (art. 17) e obblighi di conservazione",
@@ -116,6 +458,44 @@
     "title": "Scarto e cessazione",
     "abstract": "Selezione per lo scarto, migrazione e chiusura del sistema.",
     "body": "Il Manuale disciplina la selezione per lo scarto e le procedure di migrazione in caso di cambio sistema o cessazione del servizio. Per le PA lo scarto dei documenti richiede l'autorizzazione della Soprintendenza archivistica (Codice dei beni culturali). Vanno garantite la continuità di leggibilità e la restituzione integrale dei pacchetti.",
+    "approfondimento": [
+      {
+        "h": "Conservare non significa trattenere per sempre",
+        "p": [
+          "Un equivoco diffuso è ritenere che conservare significhi trattenere tutto indefinitamente. In realtà la conservazione è un'attività selettiva: non tutti i documenti hanno lo stesso valore né lo stesso tempo di rilevanza. La selezione per lo scarto, cioè l'individuazione dei documenti che, esaurita la loro utilità e decorsi i termini di conservazione, possono essere legittimamente eliminati, è parte integrante e fisiologica di un sistema di conservazione ben governato.",
+          "Lo scarto risponde a esigenze diverse ma convergenti: liberare l'archivio da documenti non più necessari, ridurre i costi di conservazione, e soprattutto rispettare il principio di limitazione della conservazione dei dati personali. Un archivio che non pratica mai lo scarto non è più affidabile di uno che scarta a caso: entrambi denunciano l'assenza di una politica di conservazione consapevole. La chiave è che lo scarto avvenga in base a regole predefinite e documentate, non a decisioni estemporanee."
+        ]
+      },
+      {
+        "h": "Il massimario e i tempi di conservazione",
+        "p": [
+          "Lo strumento che governa lo scarto è il massimario o piano di conservazione: un documento che, per ciascuna tipologia documentale, stabilisce il tempo di conservazione e la destinazione finale, indicando se e quando i documenti possono essere selezionati per lo scarto oppure devono essere conservati in modo permanente. I tempi di conservazione derivano da fonti diverse: obblighi fiscali e civilistici, normative settoriali, esigenze amministrative interne, valore storico.",
+          "La definizione dei tempi non è un'operazione banale: richiede di conoscere, per ogni classe di documenti, il fondamento normativo della conservazione e la sua durata. Il massimario va tenuto aggiornato e coordinato con il piano dei trattamenti ai fini della protezione dei dati, così che i tempi di conservazione archivistica e quelli di conservazione dei dati personali risultino coerenti. È il massimario a trasformare lo scarto da atto arbitrario in operazione regolata e giustificabile."
+        ]
+      },
+      {
+        "h": "Lo scarto nelle pubbliche amministrazioni",
+        "p": [
+          "Per le pubbliche amministrazioni lo scarto è soggetto a un vincolo ulteriore e stringente. Gli archivi pubblici sono per legge beni culturali, tutelati dal Codice dei beni culturali e del paesaggio: la loro conservazione risponde non solo a esigenze amministrative, ma alla salvaguardia della memoria storica della collettività. Per questo lo scarto dei documenti delle PA non può essere deciso autonomamente dall'ente, ma richiede l'autorizzazione della Soprintendenza archivistica competente.",
+          "La procedura prevede che l'ente predisponga un elenco dei documenti proposti per lo scarto e lo sottoponga alla Soprintendenza, che valuta l'assenza di interesse storico e autorizza o meno l'eliminazione. Solo dopo l'autorizzazione i documenti possono essere effettivamente eliminati. Questo passaggio, che vale anche per i documenti informatici, garantisce che nessun documento potenzialmente rilevante per la ricerca storica venga distrutto senza un vaglio esterno, e va previsto e descritto nelle procedure di scarto del sistema di conservazione."
+        ]
+      },
+      {
+        "h": "La cessazione del sistema e la migrazione",
+        "p": [
+          "Accanto allo scarto dei singoli documenti, il sistema di conservazione deve gestire l'evento della propria cessazione o del proprio cambiamento: la sostituzione dell'operatore, la migrazione verso una nuova infrastruttura, la chiusura del servizio. In tutti questi casi la posta in gioco è la continuità: i documenti conservati non devono andare perduti né perdere le proprie garanzie di autenticità, integrità e leggibilità nel passaggio da un sistema all'altro.",
+          "Le procedure di migrazione e di restituzione integrale dei pacchetti di archiviazione vanno previste fin dall'origine e descritte nel Manuale e nel contratto di servizio. La migrazione deve preservare non solo i documenti, ma anche i loro metadati, gli indici dei pacchetti e le prove di integrità, così che l'archivio trasferito resti verificabile come quello originario. Una cessazione mal gestita può vanificare anni di conservazione corretta: per questo la pianificazione dell'uscita è un indicatore della maturità di un sistema di conservazione."
+        ]
+      },
+      {
+        "h": "Continuità di leggibilità e responsabilità nel tempo",
+        "p": [
+          "Il filo conduttore di scarto e cessazione è la responsabilità sulla continuità dell'archivio nel tempo. Anche quando un documento viene scartato, l'operazione deve essere tracciata e documentata, così da poter dimostrare che l'eliminazione è avvenuta in base al massimario e, per le PA, con l'autorizzazione della Soprintendenza. Anche quando il sistema cambia, deve restare garantita la possibilità di recuperare e leggere i documenti conservati, senza soluzioni di continuità.",
+          "Questo richiede una visione di lungo periodo: chi governa la conservazione deve pensare non solo al presente del sistema, ma alla sua evoluzione e alla sua eventuale fine. La continuità di leggibilità, la corretta gestione delle migrazioni e la tracciabilità delle operazioni di scarto sono le garanzie che trasformano un archivio digitale in una risorsa affidabile per l'intero arco della sua esistenza, indipendentemente dai cambiamenti tecnologici e organizzativi che potranno intervenire nel tempo.",
+          "Scarto e cessazione, spesso percepiti come momenti marginali o meramente tecnici, sono in realtà tra i più rivelatori della qualità complessiva di un sistema di conservazione. Un sistema che sa scartare correttamente è un sistema che conosce il proprio contenuto, ne ha definito i tempi e le finalità, e mantiene coerenza tra piano archivistico, obblighi normativi e protezione dei dati. Un sistema che sa gestire la propria cessazione è un sistema che ha pensato alla continuità dell'archivio oltre i propri confini temporali e tecnologici, garantendo che i documenti sopravvivano ai cambiamenti di infrastruttura, di operatore e di organizzazione. Al contrario, l'incapacità di scartare o di migrare ordinatamente segnala un sistema che vive solo nel presente, esposto al rischio di accumulare dati ingiustificati o di perdere il proprio patrimonio documentale al primo cambiamento. Pianificare fin dall'origine sia le regole di scarto sia le procedure di uscita è dunque parte costitutiva di una conservazione consapevole, non un'aggiunta da rinviare al momento in cui il problema si presenterà. Un archivio ben governato è quello che sa non solo accogliere e custodire i documenti, ma anche selezionarli, eliminarli quando dovuto e trasferirli quando necessario, mantenendo intatte in ogni passaggio le garanzie di autenticità, integrità e leggibilità."
+        ]
+      }
+    ],
     "obblighi": [
       "Definire il massimario di scarto e i tempi di conservazione",
       "Per la PA: autorizzazione della Soprintendenza archivistica allo scarto",
@@ -128,6 +508,44 @@
     "title": "Monitoraggio e audit",
     "abstract": "Verifiche periodiche, audit trail e gestione delle anomalie.",
     "body": "Il sistema prevede verifiche periodiche di conformità e integrità (hash, firme), audit trail e log di accesso e modifica, indicatori di qualità e procedure di risposta ad anomalie e data breach. Lo standard ISO 16363 offre una griglia per valutare l'affidabilità del repository di conservazione.",
+    "approfondimento": [
+      {
+        "h": "L'affidabilità è un risultato da mantenere",
+        "p": [
+          "Un sistema di conservazione non è affidabile una volta per tutte al momento della sua attivazione: l'affidabilità è un risultato che va mantenuto e dimostrato nel tempo attraverso attività continue di monitoraggio e verifica. I documenti restano nel sistema per anni o decenni, durante i quali possono verificarsi degradi dei supporti, obsolescenza dei formati, incidenti di sicurezza, errori operativi. Il monitoraggio è ciò che consente di intercettare questi eventi prima che compromettano l'integrità dell'archivio.",
+          "Le Linee guida AgID e la buona pratica archivistica richiedono che il sistema preveda verifiche periodiche della sua conformità e del corretto funzionamento. Non si tratta di controlli occasionali, ma di un presidio strutturato, pianificato nel Manuale e documentato negli esiti. Il monitoraggio trasforma la conservazione da attività passiva di deposito in un processo attivo di custodia, in cui lo stato dell'archivio è costantemente sotto controllo e ogni anomalia trova una risposta."
+        ]
+      },
+      {
+        "h": "Verifiche di integrità: hash e firme",
+        "p": [
+          "Il cuore tecnico del monitoraggio è la verifica periodica dell'integrità dei documenti e dei pacchetti conservati. Ogni file, al momento della conservazione, è associato a un'impronta informatica (hash) che ne rappresenta in modo univoco il contenuto: qualsiasi modifica, anche minima, produrrebbe un'impronta diversa. Ricalcolando periodicamente le impronte e confrontandole con quelle registrate negli indici dei pacchetti, il sistema può rilevare eventuali alterazioni o corruzioni dei dati.",
+          "Analogamente, va verificata nel tempo la validità delle firme e dei sigilli elettronici e delle marche temporali che sigillano i pacchetti. Poiché certificati e algoritmi crittografici hanno una durata limitata, occorre monitorarne lo stato e intervenire, quando necessario, con il rinnovo delle marche temporali per estendere nel tempo la verificabilità delle prove. Queste verifiche, apparentemente tecniche, sono la traduzione operativa dei requisiti di autenticità e integrità: senza di esse, la garanzia di legge resterebbe una dichiarazione priva di riscontro."
+        ]
+      },
+      {
+        "h": "Audit trail e log delle operazioni",
+        "p": [
+          "Un sistema di conservazione affidabile deve poter dimostrare non solo che i documenti sono integri, ma anche che tutte le operazioni compiute su di essi sono avvenute in modo controllato e tracciabile. A questo serve l'audit trail: la registrazione sistematica delle operazioni effettuate sul sistema, dai versamenti agli accessi, dalle produzioni di pacchetti di distribuzione alle operazioni di scarto e di migrazione. Ogni evento significativo lascia una traccia, con l'indicazione di chi lo ha compiuto, quando e su quali documenti.",
+          "I log di accesso e di modifica costituiscono così la memoria operativa del sistema e sono essi stessi oggetto di conservazione e protezione: devono essere tenuti al riparo da alterazioni e conservati per un periodo adeguato. In sede di verifica o di contenzioso, i log consentono di ricostruire la storia di un documento e di dimostrare che il sistema ha operato secondo le regole del Manuale. Insieme all'indice dei pacchetti e al Manuale stesso, l'audit trail completa l'insieme documentale che rende verificabile l'affidabilità della conservazione."
+        ]
+      },
+      {
+        "h": "Gestione delle anomalie e dei data breach",
+        "p": [
+          "Il monitoraggio non ha senso se non è accompagnato da procedure di risposta alle anomalie che esso rileva. Un sistema maturo prevede in anticipo come reagire ai diversi tipi di incidente: la corruzione di un file, il fallimento di una verifica di integrità, un accesso non autorizzato, un guasto dell'infrastruttura. Le procedure di risposta definiscono chi interviene, con quali priorità, come si ripristina la situazione e come si documenta l'accaduto.",
+          "Particolare rilievo assume la gestione delle violazioni di dati personali (data breach): quando l'incidente coinvolge dati personali, scattano gli obblighi previsti dal GDPR, che possono richiedere la notifica all'autorità di controllo e, nei casi più gravi, la comunicazione agli interessati, entro termini stringenti. Le procedure di gestione degli incidenti del sistema di conservazione devono quindi essere coordinate con le procedure di gestione dei data breach dell'organizzazione, così che la risposta tecnica e quella di conformità procedano insieme."
+        ]
+      },
+      {
+        "h": "Audit e valutazione dell'affidabilità del repository",
+        "p": [
+          "Al di là delle verifiche di routine, esiste la possibilità di sottoporre l'intero sistema a una valutazione strutturata della propria affidabilità. Lo standard internazionale ISO 16363 offre una griglia articolata di criteri per valutare la fiducia che si può riporre in un repository digitale di conservazione: dalla governance alla gestione del rischio, dalla sostenibilità economica e organizzativa alla robustezza tecnica dell'infrastruttura. È un riferimento utile sia per l'autovalutazione sia per eventuali processi di certificazione.",
+          "L'adozione di una logica di audit, anche interno, porta la conservazione a un livello di maturità superiore: non ci si limita a operare correttamente, ma si verifica periodicamente e in modo indipendente che il sistema, nel suo complesso, sia effettivamente in grado di garantire l'affidabilità dichiarata. Indicatori di qualità, riesami periodici e valutazioni strutturate trasformano il monitoraggio da adempimento tecnico in una vera e propria funzione di assicurazione della qualità dell'archivio digitale, a beneficio della sua tenuta nel lungo periodo.",
+          "In prospettiva, monitoraggio e audit collegano tra loro tutti gli altri temi della conservazione: verificano che i formati restino leggibili e i metadati coerenti, che le firme e le marche temporali siano ancora valide, che il modello a pacchetti mantenga la propria integrità, che i tempi di conservazione e di scarto siano rispettati, che le misure di sicurezza e di protezione dei dati funzionino. In questo senso il monitoraggio è il sistema nervoso della conservazione: raccoglie segnali da ogni parte del sistema e consente di intervenire prima che un problema diventi irreversibile. La documentazione prodotta da queste attività — esiti delle verifiche, log, rapporti di audit — non è un mero adempimento interno, ma parte integrante del corredo probatorio che, insieme al Manuale e agli indici dei pacchetti, rende dimostrabile l'affidabilità dell'archivio. Investire nel monitoraggio significa quindi investire nella capacità del sistema di dimostrare, e non solo di dichiarare, la propria conformità nel tempo. È questa capacità di dimostrazione, alimentata da verifiche costanti e da una documentazione ordinata, a fare la differenza nel momento in cui l'affidabilità dell'archivio viene messa alla prova da un controllo, da un contenzioso o da un incidente."
+        ]
+      }
+    ],
     "obblighi": [
       "Verifiche periodiche di integrità e conformità",
       "Conservazione dei log e audit trail",
@@ -140,6 +558,44 @@
     "title": "Quadro europeo e standard internazionali",
     "abstract": "eIDAS, standard ISO/ETSI e l'evoluzione verso eIDAS 2.",
     "body": "Il livello europeo e internazionale fornisce l'infrastruttura tecnica: eIDAS per firme e servizi fiduciari, gli standard ISO (OAIS 14721, PDF/A 19005, records management 15489, audit 16363) e le norme ETSI sui formati di firma e sul time-stamping. eIDAS 2 (Reg. 2024/1183) introduce l'EUDI Wallet e un servizio qualificato di archiviazione elettronica: fronte da monitorare.",
+    "approfondimento": [
+      {
+        "h": "La dimensione europea e internazionale della conservazione",
+        "p": [
+          "La conservazione dei documenti informatici non è una materia esclusivamente nazionale. Le regole italiane si innestano su un tessuto di norme europee e di standard internazionali che ne costituiscono l'infrastruttura tecnica e giuridica. Comprendere questo livello sovranazionale è essenziale, perché molte delle scelte concrete della conservazione — dai formati di firma agli standard dei pacchetti informativi — derivano direttamente da regolamenti europei e da standard ISO ed ETSI.",
+          "Il rapporto tra i livelli è di integrazione: la normativa italiana definisce i principi e le regole operative nazionali, mentre il livello europeo assicura l'interoperabilità e il riconoscimento reciproco tra gli Stati membri, e gli standard internazionali forniscono le specifiche tecniche di dettaglio. Una firma qualificata, un formato di conservazione, un modello di archivio digitale hanno valore e significato proprio perché ancorati a riferimenti condivisi che superano i confini nazionali."
+        ]
+      },
+      {
+        "h": "Il regolamento eIDAS e i servizi fiduciari",
+        "p": [
+          "Il regolamento europeo eIDAS (Reg. UE 910/2014) costituisce il fondamento della fiducia digitale nell'Unione. Disciplina in modo uniforme l'identificazione elettronica e i servizi fiduciari: firme elettroniche, sigilli elettronici, validazioni temporali (marche temporali), servizi di recapito certificato e certificati per l'autenticazione dei siti web. Grazie a eIDAS, questi strumenti prodotti da un prestatore qualificato in uno Stato membro sono riconosciuti in tutti gli altri, con lo stesso valore giuridico.",
+          "Per la conservazione, eIDAS è decisivo perché fornisce la base giuridica di firme, sigilli e marche temporali che garantiscono autenticità, integrità e data certa dei documenti e dei pacchetti conservati. Prevede inoltre uno specifico servizio fiduciario di conservazione delle firme e dei sigilli elettronici, volto a preservarne l'affidabilità nel lungo periodo. I prestatori di servizi fiduciari qualificati sono soggetti a vigilanza e iscritti in elenchi pubblici (trusted list) consultabili a livello europeo, che consentono di verificare l'affidabilità di chi eroga tali servizi."
+        ]
+      },
+      {
+        "h": "Gli standard ISO alla base del sistema",
+        "p": [
+          "Molti dei pilastri tecnici della conservazione derivano da standard internazionali ISO. Il modello OAIS (ISO 14721) definisce l'architettura a pacchetti informativi — versamento, archiviazione, distribuzione — adottata dalla normativa italiana. Il formato PDF/A (ISO 19005) fornisce lo standard di riferimento per la conservazione dei documenti testuali. Lo standard sui records management (ISO 15489) offre i principi metodologici per la gestione dei documenti d'archivio a monte della conservazione.",
+          "Sul versante della valutazione, lo standard ISO 16363 definisce i criteri per misurare l'affidabilità di un repository digitale di conservazione. Questi standard non sono obblighi giuridici diretti, ma costituiscono il linguaggio tecnico comune che la normativa richiama e presuppone: adottarli significa allinearsi alle migliori pratiche riconosciute a livello internazionale e garantire l'interoperabilità e la verificabilità del proprio sistema. La conservazione a norma è, in larga parte, l'applicazione coordinata di questi standard entro la cornice giuridica nazionale ed europea."
+        ]
+      },
+      {
+        "h": "Le norme tecniche ETSI",
+        "p": [
+          "Se eIDAS fissa i principi, sono le norme tecniche elaborate dall'ETSI (l'istituto europeo per le norme di telecomunicazione) a definirne l'attuazione pratica. Le norme ETSI specificano i formati delle firme elettroniche avanzate e qualificate — CAdES, XAdES, PAdES e i contenitori ASiC — e i requisiti dei servizi di validazione temporale e dei prestatori che li erogano. È grazie a queste norme che una firma o una marca temporale possono essere prodotte e verificate in modo uniforme e interoperabile.",
+          "Per la conservazione, le norme ETSI rilevano soprattutto nella scelta dei formati di firma e nell'adozione di profili idonei alla validazione a lungo termine, che consentono di verificare le firme anche a distanza di molti anni. L'allineamento a questi standard è ciò che assicura che gli strumenti fiduciari utilizzati oggi resteranno verificabili e affidabili nel futuro, mantenendo la loro efficacia probatoria per l'intero periodo di conservazione dei documenti."
+        ]
+      },
+      {
+        "h": "Verso eIDAS 2: l'evoluzione del quadro europeo",
+        "p": [
+          "Il quadro europeo è in evoluzione. Il regolamento eIDAS 2 (Reg. UE 2024/1183) ha rivisto e aggiornato la disciplina dei servizi fiduciari e dell'identità digitale, introducendo il portafoglio europeo di identità digitale (EUDI Wallet), destinato a offrire ai cittadini uno strumento sicuro per identificarsi e gestire documenti e attributi digitali in tutta l'Unione. Tra le novità rilevanti figura anche un nuovo servizio fiduciario qualificato di archiviazione elettronica.",
+          "Questi sviluppi rappresentano un fronte da monitorare con attenzione, perché la loro attuazione — che procede attraverso una serie di atti di esecuzione — inciderà nel tempo sui servizi di conservazione, sui formati di firma ammessi e sull'infrastruttura di fiducia digitale europea. Chi governa la conservazione deve mantenere uno sguardo prospettico: le scelte tecnologiche e organizzative di oggi vanno compiute tenendo conto non solo del quadro vigente, ma della sua evoluzione, così da assicurare che il sistema resti conforme e interoperabile anche di fronte ai cambiamenti del contesto europeo.",
+          "La lettura del quadro europeo e internazionale restituisce, in definitiva, il senso profondo della conservazione a norma: non un adempimento puramente nazionale, ma la partecipazione a un ecosistema di fiducia digitale condiviso. Le firme e le marche temporali prodotte in Italia valgono in tutta l'Unione perché ancorate a eIDAS; i pacchetti di conservazione sono affidabili perché costruiti secondo il modello OAIS; i formati garantiscono la leggibilità futura perché standardizzati a livello internazionale. Questa dimensione sovranazionale comporta un vantaggio — l'interoperabilità e il riconoscimento reciproco — ma anche una responsabilità: seguire l'evoluzione del quadro europeo, dalle nuove versioni delle norme tecniche fino all'attuazione di eIDAS 2, per non trovarsi impreparati di fronte ai cambiamenti. Chi governa la conservazione dovrebbe quindi considerare gli sviluppi europei non come un fronte lontano, ma come una componente diretta della propria pianificazione, integrando il monitoraggio normativo europeo nelle attività ordinarie di aggiornamento del sistema e del Manuale. Solo una conservazione consapevole della propria collocazione nel più ampio ecosistema europeo e internazionale può dirsi davvero robusta: capace non soltanto di rispettare le regole di oggi, ma di evolvere insieme ad esse, preservando nel tempo il valore giuridico dei documenti affidati alla sua custodia."
+        ]
+      }
+    ],
     "obblighi": [
       "Allineare firme e marche agli standard eIDAS/ETSI",
       "Adottare gli standard ISO di riferimento (OAIS, PDF/A, ecc.)",
@@ -152,6 +608,44 @@
     "title": "Conservazione RENTRI (tracciabilità rifiuti)",
     "abstract": "Registro cronologico digitale, FIR digitale/xFIR e MUD: documenti informatici da conservare a norma.",
     "body": "Con il RENTRI — Registro Elettronico Nazionale per la Tracciabilità dei Rifiuti (art. 188-bis del Testo Unico Ambientale, introdotto dal D.Lgs. 116/2020 e attuato dal D.M. 59/2023) — la documentazione sui rifiuti diventa digitale e va conservata come documento informatico. Rientrano nel perimetro: il registro cronologico di carico e scarico dei rifiuti (art. 190 TUA) tenuto in formato digitale; il Formulario di Identificazione del Rifiuto (FIR, art. 193 TUA) in formato digitale, prodotto secondo il tracciato dati xFIR definito dagli standard tecnici RENTRI e sottoposto a vidimazione digitale; il MUD (Modello Unico di Dichiarazione ambientale, Legge 70/1994). Questi documenti vanno conservati per i termini previsti dalla normativa ambientale (di norma 3 anni dall'ultima registrazione per registri e formulari) applicando le regole sulla conservazione dei documenti informatici (Linee guida AgID): formati idonei, metadati, firma e marca temporale.",
+    "approfondimento": [
+      {
+        "h": "Il RENTRI e la digitalizzazione della tracciabilità dei rifiuti",
+        "p": [
+          "La gestione dei rifiuti è da sempre accompagnata da una documentazione articolata, storicamente cartacea, volta a garantire la tracciabilità di ogni movimentazione. Con il RENTRI, il Registro Elettronico Nazionale per la Tracciabilità dei Rifiuti, questa documentazione entra pienamente nella dimensione digitale. Il RENTRI è previsto dall'articolo 188-bis del Testo Unico Ambientale (D.Lgs. 152/2006), come riscritto dal D.Lgs. 116/2020 in attuazione delle direttive europee sull'economia circolare, ed è disciplinato in dettaglio dal Regolamento adottato con il D.M. 59/2023.",
+          "L'obiettivo del sistema è assicurare una tracciabilità efficace e trasparente dei rifiuti attraverso strumenti digitali interoperabili, superando la frammentazione dei supporti cartacei. Ma la digitalizzazione della tracciabilità porta con sé una conseguenza spesso trascurata: i documenti che ne derivano sono documenti informatici a tutti gli effetti e, in quanto tali, devono essere conservati a norma secondo le regole generali del CAD e delle Linee guida AgID, oltre che nel rispetto dei termini previsti dalla normativa ambientale."
+        ]
+      },
+      {
+        "h": "Il registro cronologico di carico e scarico in formato digitale",
+        "p": [
+          "Il registro cronologico di carico e scarico dei rifiuti, previsto dall'articolo 190 del Testo Unico Ambientale, è lo strumento in cui gli operatori annotano le operazioni di produzione, gestione e movimentazione dei rifiuti. Con il RENTRI, questo registro viene tenuto in formato digitale, secondo i modelli e i formati definiti dai decreti tecnici attuativi. Non si tratta più di un registro vidimato su carta, ma di un documento informatico strutturato, prodotto e aggiornato secondo regole standardizzate.",
+          "La tenuta digitale del registro comporta la sua conservazione come documento informatico: il registro, una volta chiuso per il periodo di riferimento, deve essere conservato applicando le regole tecniche della conservazione a norma, con l'apposizione di firma e marca temporale e la garanzia di integrità e leggibilità nel tempo. Il termine di conservazione, di norma, è di tre anni dalla data dell'ultima registrazione, salvo termini diversi previsti per specifiche categorie di soggetti o di rifiuti. La corretta conservazione del registro è essenziale per dimostrare, in sede di controllo, la regolarità della gestione dei rifiuti."
+        ]
+      },
+      {
+        "h": "Il Formulario di Identificazione del Rifiuto e il tracciato xFIR",
+        "p": [
+          "Il Formulario di Identificazione del Rifiuto (FIR), disciplinato dall'articolo 193 del Testo Unico Ambientale, è il documento che accompagna il trasporto dei rifiuti e ne attesta l'identificazione, la provenienza, la destinazione e le caratteristiche. Con il RENTRI il formulario assume forma digitale: viene prodotto secondo un tracciato dati standardizzato, denominato xFIR, definito dagli standard tecnici del sistema, e sottoposto a vidimazione digitale attraverso i servizi RENTRI, superando la tradizionale vidimazione cartacea.",
+          "Il FIR digitale, in quanto documento informatico strutturato, deve essere conservato a norma per il periodo previsto dalla normativa, di regola tre anni. La sua conservazione richiede particolare attenzione alla preservazione della struttura del tracciato dati e dei metadati che ne consentono l'interpretazione e la ricerca, oltre alle garanzie di integrità e data certa proprie della conservazione a norma. Il passaggio dal formulario cartaceo al FIR digitale non elimina, ma anzi rafforza, l'esigenza di una conservazione affidabile: la validità giuridica del documento nel tempo dipende dalla qualità del processo di conservazione."
+        ]
+      },
+      {
+        "h": "Il MUD e gli adempimenti dichiarativi",
+        "p": [
+          "Accanto a registro e formulario, il quadro documentale della gestione dei rifiuti comprende il MUD, il Modello Unico di Dichiarazione ambientale, istituito dalla Legge 70/1994. Si tratta della dichiarazione annuale, presentata di regola entro il 30 aprile alle Camere di Commercio, con cui i soggetti obbligati comunicano i dati relativi ai rifiuti prodotti e gestiti nell'anno precedente. Il modello è approvato di anno in anno con apposito decreto.",
+          "Con l'avvio a regime del RENTRI, gli adempimenti dichiarativi sono destinati a una progressiva semplificazione per i soggetti iscritti, poiché i dati contenuti nei registri digitali potranno alimentare direttamente gli obblighi di comunicazione. Anche la documentazione dichiarativa e le ricevute che ne derivano costituiscono documenti da conservare secondo le regole applicabili. La transizione al sistema digitale ridisegna così l'intero ciclo documentale della gestione dei rifiuti, dalla registrazione delle operazioni alla dichiarazione annuale, in una logica di integrazione e riduzione degli oneri."
+        ]
+      },
+      {
+        "h": "L'iscrizione scaglionata e gli obblighi di conservazione",
+        "p": [
+          "L'entrata in vigore del RENTRI è avvenuta in modo graduale, attraverso uno scaglionamento degli obblighi di iscrizione in funzione delle dimensioni e della tipologia dei soggetti. Le prime categorie di operatori — in particolare gli enti e le imprese di maggiori dimensioni e i gestori — sono state coinvolte a partire dalla fine del 2024, seguite dalle imprese di dimensioni intermedie nel corso del 2025 e, infine, dagli altri soggetti obbligati. Questo approccio progressivo ha consentito un adeguamento ordinato al nuovo sistema.",
+          "Per gli operatori, l'ingresso nel RENTRI significa non solo iscriversi e utilizzare i servizi digitali per registri e formulari, ma anche organizzare la conservazione a norma dei documenti che ne derivano. Registro cronologico e FIR digitali vanno conservati per i termini previsti dalla normativa ambientale, applicando le regole delle Linee guida AgID quanto a formati idonei, metadati, firma e marca temporale. La conservazione RENTRI rappresenta così un caso concreto in cui una normativa settoriale specifica si salda con la disciplina generale della conservazione dei documenti informatici, richiedendo agli operatori del settore rifiuti di padroneggiare entrambe.",
+          "Il caso del RENTRI è emblematico di una tendenza più ampia: la progressiva digitalizzazione di adempimenti settoriali un tempo cartacei — in ambito ambientale, sanitario, del lavoro, dei trasporti — produce continuamente nuovi documenti informatici che ricadono, per ciò stesso, nell'ambito della conservazione a norma. Ogni volta che una registrazione, un formulario o una dichiarazione passa dal supporto cartaceo a quello digitale, l'organizzazione deve interrogarsi non solo su come produrre e trasmettere il documento, ma su come conservarlo nel tempo garantendone autenticità, integrità e leggibilità. In questo senso la conservazione non è un tema di nicchia riservato agli specialisti, ma una competenza trasversale destinata a diventare sempre più diffusa. Comprendere come il registro cronologico, il FIR digitale e il MUD si inseriscano nel quadro generale della conservazione aiuta a leggere anche gli altri processi di digitalizzazione settoriale con la consapevolezza che, dietro ogni nuovo documento informatico, si apre sempre la questione della sua conservazione a norma per il tempo previsto dalla legge."
+        ]
+      }
+    ],
     "obblighi": [
       "Iscrizione al RENTRI secondo lo scaglionamento (dal 15/12/2024 per >50 dipendenti; 15/6/2025 per 11-50; 15/12/2025 per gli altri)",
       "Tenuta in formato digitale del registro cronologico di carico/scarico e del FIR (tracciato xFIR)",

@@ -480,6 +480,25 @@
     margin:0 0 28px;
   }
 
+  /* ───────── Approfondimento tema ───────── */
+  .appro-section{ margin:0 0 22px; }
+  .appro-h{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:20px;
+    line-height:1.2;
+    margin:28px 0 12px;
+    padding-top:4px;
+    border-top:1px solid var(--line);
+  }
+  .appro-p{
+    font-size:15px;
+    line-height:1.7;
+    margin:0 0 13px;
+    color:var(--ink);
+  }
+  .appro-p:last-child{ margin-bottom:0; }
+
   .block{ margin-bottom:30px; }
   .block-head{
     font-family:'IBM Plex Mono', monospace;
@@ -817,9 +836,16 @@ function openTema(id){
     ? `<div class="chip-row">${related.map(f => `<span class="rel-chip" data-fonte="${f.id}">${f.short} →</span>`).join('')}</div>`
     : `<p style="color:var(--ink-soft);font-size:14px;">Nessuna fonte collegata.</p>`;
 
+  const approHTML = (t.approfondimento || []).map(s => `
+    <div class="appro-section">
+      ${s.h ? `<h3 class="appro-h">${s.h}</h3>` : ''}
+      ${(s.p || []).map(par => `<p class="appro-p">${par}</p>`).join('')}
+    </div>`).join('');
+
   document.getElementById('detail-body').innerHTML = `
     <div class="detail-meta"><span>Tema ${t.num} / ${String(TEMI.length).padStart(2,'0')}</span></div>
     <p class="lead">${t.body}</p>
+    ${approHTML}
     <div class="block">
       <div class="block-head">Obblighi e adempimenti chiave</div>
       <ul class="point-list">${obblighiHTML}</ul>
