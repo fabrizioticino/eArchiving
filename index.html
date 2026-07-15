@@ -283,6 +283,13 @@
     white-space:nowrap;
   }
 
+  /* ───────── Raccolta AdE ───────── */
+  .ade-wrap{
+    position:relative;
+    z-index:1;
+    padding:22px 5vw 70px;
+  }
+
   /* ───────── Biblioteca grid ───────── */
   main{
     position:relative;
@@ -612,6 +619,18 @@
   <div class="grid" id="grid"></div>
 </main>
 
+<!-- ───────── Raccolta: circolari e prassi AdE sulla conservazione ───────── -->
+<div class="section-rule">
+  <span class="kicker">Focus</span>
+  <h2>Circolari e prassi AdE sulla conservazione</h2>
+  <span class="rule-line"></span>
+  <span class="result-count" id="ade-count"></span>
+</div>
+<div class="section-intro">Tutti i riferimenti di prassi dell'Agenzia delle Entrate rilevanti per la conservazione dei documenti informatici di rilevanza tributaria: circolari, risoluzioni, risposte a interpello e provvedimenti, in ordine cronologico.</div>
+<div class="ade-wrap">
+  <div class="grid" id="ade-grid"></div>
+</div>
+
 <footer>
   <span>Materiale a fini informativi — non costituisce consulenza legale o fiscale</span>
   <span>Verificare sempre la versione vigente sulle fonti ufficiali (AgID, Normattiva, EUR-Lex)</span>
@@ -667,6 +686,46 @@ function fontiForTema(temaId){
   return FONTI.filter(f => (f.temi || []).includes(temaId));
 }
 
+function fonteCardHTML(f){
+  const statusCls = f.status === 'vigente' ? 'vigente' : (f.status === 'abrogato' ? 'abrogato' : 'superato');
+  return `
+    <div class="fonte-card" tabindex="0" data-id="${f.id}" role="button" aria-label="Apri fonte ${f.short}">
+      <div class="fonte-card-top">
+        <div>
+          <div class="fonte-short">${f.short}</div>
+          <div class="fonte-type">${f.type}</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge juris">${JURIS_LABEL[f.jurisdiction] || f.jurisdiction}</span>
+        <span class="badge ${statusCls}">${STATUS_LABEL[f.status] || f.status}</span>
+      </div>
+      <div class="fonte-foot">
+        <b>${f.issuer}</b><br>${f.date}
+      </div>
+    </div>`;
+}
+
+function bindFonteCards(container){
+  container.querySelectorAll('.fonte-card').forEach(card => {
+    card.addEventListener('click', () => openFonte(card.dataset.id));
+    card.addEventListener('keypress', e => { if(e.key === 'Enter') openFonte(card.dataset.id); });
+  });
+}
+
+/* ───────── Raccolta: circolari e prassi AdE sulla conservazione ───────── */
+function renderAdeCollection(){
+  const grid = document.getElementById('ade-grid');
+  if(!grid) return;
+  const items = FONTI
+    .filter(f => f.issuer === 'Agenzia delle Entrate')
+    .sort((a, b) => (a.date_iso || '').localeCompare(b.date_iso || ''));
+  const countEl = document.getElementById('ade-count');
+  if(countEl) countEl.textContent = `${items.length} document${items.length === 1 ? 'o' : 'i'}`;
+  grid.innerHTML = items.map(fonteCardHTML).join('');
+  bindFonteCards(grid);
+}
+
 /* ───────── Biblioteca rendering ───────── */
 function renderGrid(){
   const grid = document.getElementById('grid');
@@ -689,30 +748,8 @@ function renderGrid(){
     return;
   }
 
-  grid.innerHTML = filtered.map(f => {
-    const statusCls = f.status === 'vigente' ? 'vigente' : (f.status === 'abrogato' ? 'abrogato' : 'superato');
-    return `
-    <div class="fonte-card" tabindex="0" data-id="${f.id}" role="button" aria-label="Apri fonte ${f.short}">
-      <div class="fonte-card-top">
-        <div>
-          <div class="fonte-short">${f.short}</div>
-          <div class="fonte-type">${f.type}</div>
-        </div>
-      </div>
-      <div class="badge-row">
-        <span class="badge juris">${JURIS_LABEL[f.jurisdiction] || f.jurisdiction}</span>
-        <span class="badge ${statusCls}">${STATUS_LABEL[f.status] || f.status}</span>
-      </div>
-      <div class="fonte-foot">
-        <b>${f.issuer}</b><br>${f.date}
-      </div>
-    </div>`;
-  }).join('');
-
-  grid.querySelectorAll('.fonte-card').forEach(card => {
-    card.addEventListener('click', () => openFonte(card.dataset.id));
-    card.addEventListener('keypress', e => { if(e.key === 'Enter') openFonte(card.dataset.id); });
-  });
+  grid.innerHTML = filtered.map(fonteCardHTML).join('');
+  bindFonteCards(grid);
 }
 
 /* ───────── Detail: tema ───────── */
@@ -875,6 +912,7 @@ async function init(){
 
   renderTemi();
   renderGrid();
+  renderAdeCollection();
   routeFromHash();
 }
 
