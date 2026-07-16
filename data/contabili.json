@@ -429,6 +429,139 @@
         ]
       },
       {
+        "h": "Le origini e la ratio dell'inventario",
+        "p": [
+          "L'inventario è, insieme al giornale, una delle scritture più antiche della tradizione mercantile. Prima ancora che la legge lo imponesse, il mercante aveva l'esigenza di conoscere, a intervalli regolari, la consistenza del proprio patrimonio: cosa possedeva, cosa doveva, quale era il risultato della propria attività. L'inventario nasce da questa esigenza elementare di autoconoscenza economica, e solo in seguito è stato codificato come obbligo giuridico e come strumento di tutela dei terzi e del credito.",
+          "La ratio dell'obbligo civilistico è duplice. Da un lato, l'inventario serve all'imprenditore stesso, imponendogli di fare periodicamente il punto sulla propria situazione patrimoniale ed economica; dall'altro, serve ai terzi — creditori, soci, Amministrazione finanziaria — che dall'inventario e dal bilancio che lo conclude traggono elementi per valutare la solidità e la correttezza della gestione. In questa doppia funzione, interna ed esterna, risiede il senso profondo di una scrittura che, a differenza del giornale, non registra il flusso continuo delle operazioni, ma ne fotografa periodicamente il risultato."
+        ]
+      },
+      {
+        "h": "Inventario e bilancio: analisi e sintesi",
+        "p": [
+          "Il rapporto tra inventario e bilancio è quello tra analisi e sintesi. L'inventario è il documento analitico: elenca e valuta partitamente i singoli elementi del patrimonio, bene per bene, credito per credito, debito per debito. Il bilancio è il documento di sintesi: aggrega quegli elementi nelle voci ordinate dello stato patrimoniale e del conto economico, secondo gli schemi previsti dalla legge. L'articolo 2217 del Codice civile stabilisce, appunto, che l'inventario si chiude con il bilancio.",
+          "Questa distinzione ha conseguenze pratiche rilevanti. Il bilancio, essendo sintetico, non consente da solo di ricostruire la composizione delle singole poste: per sapere di quali crediti si compone la voce «crediti verso clienti», o di quali beni la voce «rimanenze», occorre risalire all'inventario. L'inventario è quindi il documento di dettaglio che dà sostanza e verificabilità al bilancio, e la sua conservazione è essenziale per poter giustificare, anche a distanza di tempo, la composizione e la valutazione delle poste sintetiche. In sede di controllo, l'inventario è ciò che consente di aprire il bilancio e di verificarne il fondamento."
+        ]
+      },
+      {
+        "h": "L'inventario di costituzione e gli inventari annuali",
+        "p": [
+          "L'articolo 2217 distingue due momenti nella vita dell'inventario. Il primo è l'inventario di costituzione, redatto all'inizio dell'esercizio dell'impresa: è la fotografia del patrimonio con cui l'attività prende avvio, il punto di partenza da cui muove tutta la successiva contabilità. Esso individua gli elementi attivi e passivi conferiti o destinati all'impresa e ne fissa i valori iniziali.",
+          "I successivi sono gli inventari annuali, redatti alla chiusura di ciascun esercizio. Ogni inventario annuale fotografa il patrimonio a fine anno e si collega, per continuità, all'inventario dell'esercizio precedente: i valori finali di un esercizio diventano i valori iniziali del successivo. Questa continuità, garantita dalle scritture di apertura e di chiusura registrate nel libro giornale, assicura che il patrimonio dell'impresa sia rappresentato senza soluzioni di continuità lungo l'intera vita dell'attività. L'inventario annuale è quindi al tempo stesso il punto di arrivo di un esercizio e il punto di partenza del successivo."
+        ]
+      },
+      {
+        "h": "La struttura dell'inventario: attività e passività",
+        "p": [
+          "L'inventario si articola nella rappresentazione delle attività e delle passività. Tra le attività figurano le immobilizzazioni — materiali, immateriali e finanziarie —, le rimanenze di magazzino, i crediti verso clienti e verso altri soggetti, le disponibilità liquide in cassa e in banca, e le altre attività. Tra le passività figurano i debiti verso fornitori, verso banche, verso l'Erario e gli enti previdenziali, i fondi per rischi e oneri, il trattamento di fine rapporto e le altre passività. La differenza tra attività e passività esprime il patrimonio netto, cioè la ricchezza propria dell'impresa.",
+          "Per l'imprenditore individuale, l'articolo 2217 impone di indicare anche le attività e le passività estranee all'impresa: ciò riflette il fatto che, nell'impresa individuale, non vi è separazione patrimoniale tra la sfera dell'impresa e quella personale dell'imprenditore, che risponde delle obbligazioni con tutto il proprio patrimonio. Questa completezza della rappresentazione, che nelle società di capitali è invece limitata al patrimonio sociale, riflette la diversa struttura giuridica dei soggetti e la diversa estensione della responsabilità patrimoniale."
+        ]
+      },
+      {
+        "h": "I criteri di valutazione degli elementi patrimoniali",
+        "p": [
+          "Non basta elencare gli elementi del patrimonio: occorre valutarli, attribuendo a ciascuno un valore attendibile. La valutazione segue i criteri dettati dal Codice civile per il bilancio, agli articoli 2423 e seguenti, e in particolare le regole dell'articolo 2426, integrate dai principi contabili nazionali. Il principio generale è quello della prudenza, che impone di non sopravvalutare le attività né di sottovalutare le passività, e della rappresentazione veritiera e corretta della situazione patrimoniale ed economica.",
+          "I criteri variano a seconda della natura degli elementi. Le immobilizzazioni sono iscritte al costo di acquisto o di produzione, ridotto degli ammortamenti e delle eventuali svalutazioni. I crediti sono valutati secondo il valore di presumibile realizzo, tenendo conto del rischio di insolvenza. I debiti sono iscritti al loro valore nominale. Le disponibilità liquide al loro valore effettivo. La corretta applicazione di questi criteri è il cuore della redazione dell'inventario, perché da essa dipende l'attendibilità dei valori esposti e, di riflesso, la veridicità del bilancio e la corretta determinazione del reddito."
+        ]
+      },
+      {
+        "h": "La valutazione delle rimanenze di magazzino",
+        "p": [
+          "Tra tutte le poste, la valutazione delle rimanenze di magazzino è una delle più delicate e delle più rilevanti, perché le rimanenze incidono direttamente sul risultato d'esercizio: un maggior valore delle rimanenze finali aumenta il reddito, un minor valore lo riduce. Le rimanenze comprendono le materie prime, i semilavorati, i prodotti finiti e le merci giacenti a fine esercizio, e la loro determinazione presuppone la conta fisica delle giacenze e la loro valorizzazione secondo criteri ammessi.",
+          "Il Codice civile e la normativa fiscale ammettono diversi metodi di valorizzazione delle rimanenze fungibili: il costo medio ponderato, il metodo FIFO (primo entrato, primo uscito) e il metodo LIFO (ultimo entrato, primo uscito), con le loro varianti. Il criterio generale è quello del minore tra il costo e il valore di realizzo desumibile dal mercato, in applicazione del principio di prudenza. La scelta e la coerente applicazione del metodo di valorizzazione, insieme alla corretta rilevazione delle giacenze attraverso la contabilità di magazzino, sono determinanti per l'attendibilità dell'inventario e sono tra gli aspetti più esaminati in sede di controllo, proprio per l'impatto diretto delle rimanenze sul reddito imponibile."
+        ]
+      },
+      {
+        "h": "Immobilizzazioni, crediti e debiti nell'inventario",
+        "p": [
+          "Le immobilizzazioni trovano nell'inventario la loro rappresentazione analitica, in stretto collegamento con il registro dei beni ammortizzabili: per ciascun cespite l'inventario espone il valore residuo, dato dal costo storico ridotto del fondo di ammortamento. È attraverso questa esposizione che l'inventario documenta la consistenza del patrimonio investito in beni strumentali e la sua progressiva riduzione per effetto dell'ammortamento, che ripartisce il costo lungo la vita utile del bene.",
+          "I crediti e i debiti sono anch'essi oggetto di rappresentazione analitica. I crediti verso clienti, valutati al presumibile realizzo, richiedono la considerazione del rischio di inesigibilità, che può tradursi in svalutazioni e nell'accantonamento a un fondo svalutazione crediti. I debiti verso fornitori, banche ed enti sono iscritti al valore nominale. L'analiticità dell'inventario consente di conoscere la composizione di queste poste — quali crediti, verso chi, di quale importo e scadenza — informazione che il solo bilancio sintetico non fornisce e che è preziosa sia per la gestione sia per il controllo."
+        ]
+      },
+      {
+        "h": "La conta fisica e le rilevazioni di fine esercizio",
+        "p": [
+          "La redazione dell'inventario presuppone un'attività di rilevazione della consistenza effettiva degli elementi patrimoniali. Per le rimanenze di magazzino, in particolare, ciò comporta la conta fisica delle giacenze: l'accertamento materiale delle quantità di materie, semilavorati, prodotti e merci presenti a fine esercizio, da confrontare con le risultanze della contabilità di magazzino. Eventuali differenze inventariali — tra la giacenza contabile e quella fisica — vanno individuate, spiegate e contabilizzate, perché incidono sulla valutazione delle rimanenze e sul risultato d'esercizio.",
+          "Analoghe attività di rilevazione riguardano le altre poste: la ricognizione dei crediti e dei debiti in essere, la verifica delle disponibilità liquide, l'accertamento della consistenza delle immobilizzazioni. Queste rilevazioni di fine esercizio sono il presupposto fattuale dell'inventario: senza un accertamento attendibile della realtà, la valutazione sarebbe priva di fondamento. La cura con cui si conducono le operazioni di rilevazione, e la documentazione che le accompagna, sono quindi parte integrante della corretta redazione dell'inventario e concorrono alla sua attendibilità in sede di controllo."
+        ]
+      },
+      {
+        "h": "Il patrimonio netto e la sua composizione",
+        "p": [
+          "La differenza tra il totale delle attività e il totale delle passività esprime il patrimonio netto, cioè la ricchezza propria dell'impresa, la parte del patrimonio che non è finanziata da terzi ma appartiene all'imprenditore o ai soci. Il patrimonio netto è la grandezza sintetica che misura la solidità patrimoniale dell'impresa e la sua capacità di far fronte alle obbligazioni con mezzi propri, ed è oggetto di particolare attenzione da parte dei creditori e degli altri portatori di interesse.",
+          "Nelle società, il patrimonio netto si compone di diverse voci — il capitale sociale, le riserve, gli utili o le perdite portati a nuovo, il risultato dell'esercizio — la cui articolazione riflette la storia economica e le scelte di destinazione degli utili della società. Nell'impresa individuale, il patrimonio netto assume la forma del capitale netto dell'imprenditore. In entrambi i casi, l'inventario, esponendo analiticamente attività e passività, consente di ricostruire come si è formato il patrimonio netto e di verificarne la variazione da un esercizio all'altro, variazione che riflette il risultato della gestione e le eventuali operazioni sul capitale."
+        ]
+      },
+      {
+        "h": "Immobilizzazioni immateriali e finanziarie",
+        "p": [
+          "Accanto alle immobilizzazioni materiali, l'inventario espone le immobilizzazioni immateriali e finanziarie, che pure concorrono alla consistenza del patrimonio. Tra le immobilizzazioni immateriali figurano i costi di impianto e ampliamento, i diritti di brevetto e di utilizzazione delle opere dell'ingegno, le concessioni, le licenze, i marchi, l'avviamento acquisito a titolo oneroso: beni privi di consistenza fisica ma di utilità pluriennale, iscritti al costo e ammortizzati lungo la loro vita utile.",
+          "Le immobilizzazioni finanziarie comprendono le partecipazioni in altre imprese, i crediti di natura finanziaria e i titoli detenuti durevolmente. La loro valutazione segue criteri specifici, che tengono conto della natura durevole dell'investimento e del valore recuperabile. La corretta rappresentazione di queste poste nell'inventario è essenziale per una fotografia completa del patrimonio, che non si esaurisce nei beni materiali e nel magazzino, ma comprende anche il valore degli investimenti immateriali e finanziari dell'impresa, spesso rilevanti soprattutto nelle realtà più strutturate."
+        ]
+      },
+      {
+        "h": "Fondi per rischi e oneri, TFR e altre passività",
+        "p": [
+          "Tra le passività, l'inventario espone non solo i debiti certi verso fornitori, banche ed enti, ma anche le passività di natura stimata: i fondi per rischi e oneri, costituiti per fronteggiare perdite o debiti di esistenza certa o probabile ma di importo o data indeterminati, e il fondo per il trattamento di fine rapporto, che accoglie le somme maturate a favore dei dipendenti. Queste poste, frutto di stime e di accantonamenti, richiedono valutazioni prudenti e coerenti nel tempo.",
+          "La rappresentazione delle passività stimate riflette il principio di prudenza, che impone di tener conto dei rischi e delle perdite di competenza dell'esercizio anche se non ancora manifestatisi finanziariamente. L'inventario, esponendo analiticamente questi fondi, documenta la considerazione dei rischi e degli oneri futuri nella determinazione del patrimonio e del reddito. La corretta quantificazione degli accantonamenti è uno degli aspetti più delicati della redazione dell'inventario, perché incide sul risultato d'esercizio e richiede valutazioni fondate e giustificabili in sede di controllo."
+        ]
+      },
+      {
+        "h": "L'inventario e la determinazione del reddito d'impresa",
+        "p": [
+          "L'inventario, chiudendosi con il bilancio, è alla base della determinazione del reddito d'impresa ai fini fiscali. Il reddito imponibile si determina, per i soggetti in contabilità ordinaria, a partire dal risultato del conto economico, secondo il principio di derivazione, con le variazioni in aumento e in diminuzione previste dalla normativa tributaria. Molte di queste variazioni riguardano proprio le poste valutate nell'inventario: le rimanenze, gli ammortamenti, gli accantonamenti, le svalutazioni, per le quali la normativa fiscale detta limiti e criteri specifici che possono differire da quelli civilistici.",
+          "Per questo l'inventario è al centro dell'attenzione sia della disciplina civilistica sia di quella fiscale: la valutazione delle poste incide contemporaneamente sulla rappresentazione veritiera del bilancio e sulla determinazione dell'imponibile. La coerenza tra i valori dell'inventario, le risultanze delle altre scritture e le poste dichiarate è un elemento essenziale di regolarità, e le divergenze tra criteri civilistici e fiscali vanno gestite attraverso le variazioni previste dalla normativa tributaria. L'inventario è quindi il documento in cui la dimensione civilistica e quella fiscale della contabilità si incontrano nella determinazione del patrimonio e del reddito."
+        ]
+      },
+      {
+        "h": "L'evoluzione degli adempimenti e la conservazione digitale",
+        "p": [
+          "Anche per il libro degli inventari gli adempimenti formali si sono semplificati nel tempo: è venuto meno l'obbligo di bollatura e vidimazione iniziale, restando richiesta la sola numerazione progressiva delle pagine e il pagamento dell'imposta di bollo. Parallelamente, la tenuta si è spostata dal supporto cartaceo ai sistemi elettronici, con la possibilità di conservazione digitale a norma o di tenuta elettronica con esibizione a stampa in sede di controllo.",
+          "La conservazione dell'inventario segue le regole applicabili alle scritture contabili: va conservato fino alla definizione degli accertamenti relativi al periodo d'imposta e nel rispetto del termine decennale civilistico. Se conservato in modalità digitale a norma, si applicano il D.M. 17 giugno 2014 e le Linee guida AgID, con formati idonei, metadati, firma e marca temporale sul ciclo annuale. La scelta della modalità di conservazione va coordinata con quella degli altri libri e documentata nel Manuale della conservazione, così da garantire nel tempo l'integrità, la leggibilità e la reperibilità della fotografia annuale del patrimonio che l'inventario rappresenta."
+        ]
+      },
+      {
+        "h": "I principi contabili e la rappresentazione veritiera e corretta",
+        "p": [
+          "La valutazione degli elementi dell'inventario non si esaurisce nell'applicazione meccanica dei criteri del Codice civile, ma è integrata dai principi contabili nazionali elaborati dall'Organismo Italiano di Contabilità (OIC), che forniscono le regole tecniche di dettaglio per la rilevazione e la valutazione delle diverse poste. I principi contabili traducono in indicazioni operative i criteri generali di legge, riducendo i margini di discrezionalità e favorendo l'uniformità e la comparabilità delle rappresentazioni.",
+          "Al di sopra dei singoli criteri si colloca il principio della rappresentazione veritiera e corretta, sancito dall'articolo 2423 del Codice civile, che costituisce la clausola generale della redazione del bilancio e, di riflesso, dell'inventario che lo precede. Veridicità non significa esattezza matematica — molte poste sono frutto di stime — ma correttezza e ragionevolezza delle valutazioni, condotte in buona fede e secondo i criteri prudenziali di legge. L'inventario, esponendo analiticamente le poste valutate, è lo strumento che consente di verificare il rispetto di questo principio e di giustificare le scelte valutative adottate."
+        ]
+      },
+      {
+        "h": "L'inventario nelle società di capitali",
+        "p": [
+          "Nelle società di capitali, l'obbligo di redigere l'inventario si inserisce in un quadro più articolato di obblighi di rappresentazione, che culmina nel bilancio d'esercizio disciplinato dagli articoli 2423 e seguenti del Codice civile, composto da stato patrimoniale, conto economico, rendiconto finanziario e nota integrativa. L'inventario mantiene la sua funzione di documento analitico di dettaglio, da cui il bilancio d'esercizio trae la composizione delle proprie poste, ma il bilancio delle società è soggetto a regole più stringenti quanto a schemi, contenuto e pubblicità.",
+          "A differenza dell'impresa individuale, nelle società di capitali il patrimonio rappresentato è quello sociale, distinto da quello personale dei soci, in coerenza con l'autonomia patrimoniale perfetta che caratterizza questi soggetti. Il bilancio d'esercizio, approvato dall'assemblea e depositato presso il registro delle imprese, è soggetto a pubblicità e a controllo, e l'inventario ne costituisce il supporto analitico interno. La corretta tenuta dell'inventario è quindi il presupposto della redazione di un bilancio veritiero e corretto, e la sua conservazione consente di giustificare, anche a distanza di tempo, la composizione delle poste dei bilanci depositati."
+        ]
+      },
+      {
+        "h": "Inventario, revisione e controllo di gestione",
+        "p": [
+          "Nelle imprese soggette a controllo, l'inventario è oggetto dell'attività del collegio sindacale e del revisore legale, che ne verificano la correttezza e la coerenza con il bilancio. Le verifiche sulle rimanenze, in particolare, comprendono spesso la presenza dei revisori alle operazioni di conta fisica e il riscontro dei criteri di valorizzazione adottati, proprio per l'impatto delle rimanenze sul risultato d'esercizio. L'inventario è quindi uno dei documenti centrali su cui si fonda il giudizio sul bilancio.",
+          "Oltre al controllo esterno, l'inventario è uno strumento prezioso di controllo di gestione interno: la conoscenza analitica della composizione del patrimonio, delle giacenze di magazzino, dei crediti e dei debiti consente alla direzione di monitorare l'andamento dell'impresa, di individuare inefficienze — come giacenze eccessive o crediti di dubbia esigibilità — e di assumere decisioni fondate. La qualità dell'inventario si riflette quindi non solo sulla conformità agli obblighi di legge e sull'attendibilità del bilancio, ma sulla capacità dell'impresa di conoscere e governare il proprio patrimonio."
+        ]
+      },
+      {
+        "h": "La continuità aziendale e il suo riflesso sulle valutazioni",
+        "p": [
+          "Le valutazioni esposte nell'inventario e nel bilancio presuppongono, di regola, che l'impresa sia in funzionamento e destinata a proseguire la propria attività: è il presupposto della continuità aziendale, il cosiddetto going concern. In condizioni di continuità, i beni sono valutati in funzione della loro utilità per l'attività — le immobilizzazioni al costo ammortizzato, le rimanenze al costo — e non in prospettiva liquidatoria. La continuità aziendale è quindi un presupposto implicito che governa l'intera impostazione delle valutazioni.",
+          "Quando la continuità viene meno, o è seriamente compromessa, le valutazioni devono essere riviste in una diversa prospettiva, che tiene conto del possibile realizzo dei beni in condizioni non ordinarie. La verifica del presupposto di continuità è quindi un momento essenziale della redazione dell'inventario e del bilancio, con rilievo particolare nelle situazioni di crisi. L'inventario, fotografando analiticamente il patrimonio, è uno degli strumenti attraverso cui si valuta la capacità dell'impresa di far fronte alle proprie obbligazioni e di proseguire l'attività, elemento centrale sia per la gestione sia per la tutela dei creditori."
+        ]
+      },
+      {
+        "h": "Inventario e partita doppia: la verifica incrociata",
+        "p": [
+          "L'inventario non è un documento isolato, ma si inserisce nel sistema della partita doppia e ne costituisce un momento di verifica. I valori esposti nell'inventario devono trovare corrispondenza nelle risultanze delle scritture: i saldi dei conti del mastro, alimentati dalle registrazioni del giornale e integrati dalle scritture di assestamento, devono coincidere con le poste analitiche dell'inventario. Questa coerenza tra la rilevazione sistematica dei conti e la fotografia analitica del patrimonio è un controllo fondamentale di attendibilità della contabilità.",
+          "In sede di verifica, l'incrocio tra l'inventario, il libro giornale, il libro mastro, il registro dei beni ammortizzabili e la contabilità di magazzino consente di riscontrare la coerenza dell'intero impianto contabile: le rimanenze dell'inventario devono corrispondere ai dati di magazzino, i cespiti al registro dei beni ammortizzabili, i crediti e i debiti ai relativi partitari. Eventuali incongruenze segnalano errori o irregolarità da approfondire. L'inventario è quindi al tempo stesso un documento di sintesi analitica del patrimonio e un punto di verifica incrociata della regolarità e della coerenza di tutte le scritture contabili dell'impresa."
+        ]
+      },
+      {
+        "h": "L'inventario e la tutela dei terzi e del credito",
+        "p": [
+          "Oltre alla funzione interna di autoconoscenza e a quella fiscale, l'inventario assolve una funzione di tutela dei terzi e del credito. Fotografando periodicamente il patrimonio, esso offre ai creditori, ai finanziatori e agli altri portatori di interesse un elemento per valutare la consistenza patrimoniale dell'impresa e la sua capacità di far fronte alle obbligazioni. È in questa prospettiva che l'ordinamento impone l'obbligo di redazione dell'inventario e ne disciplina l'efficacia probatoria: la scrittura non serve solo all'imprenditore, ma alla trasparenza dei rapporti economici.",
+          "Questa funzione di garanzia spiega perché la regolarità e la veridicità dell'inventario assumano rilievo particolare nelle situazioni di crisi e nei rapporti con il ceto creditorio. Un patrimonio rappresentato in modo fedele e verificabile consente ai terzi di fare affidamento sulla contabilità dell'impresa; al contrario, un inventario irregolare o non veritiero mina la fiducia su cui si fondano i rapporti di credito e può assumere rilievo, nelle ipotesi più gravi, sul piano della responsabilità dell'imprenditore. La cura nella redazione e nella conservazione dell'inventario è quindi anche un presidio della affidabilità dell'impresa nei confronti del mercato e dei terzi con cui essa entra in rapporto."
+        ]
+      },
+      {
         "h": "Il senso nell'impianto contabile: il raccordo con il bilancio",
         "p": [
           "Nel disegno complessivo della contabilità il libro inventari occupa la posizione di cerniera tra la contabilità dell'esercizio e la rappresentazione di sintesi del bilancio. Le scritture di assestamento e di chiusura che, a fine esercizio, rettificano e completano le rilevazioni del libro giornale trovano nell'inventario la loro traduzione analitica: rimanenze, ammortamenti, ratei e risconti, accantonamenti sono tutti elementi che l'inventario espone nel dettaglio e che confluiscono poi nelle poste sintetiche del bilancio.",
@@ -448,11 +581,48 @@
           "Come per il libro giornale, anche il libro degli inventari può essere tenuto in modalità informatica e conservato digitalmente a norma secondo il D.M. 17 giugno 2014 e le Linee guida AgID, oppure tenuto in forma elettronica e reso disponibile a stampa in sede di controllo, secondo i chiarimenti della prassi. La scelta tra le due modalità va coordinata con quella adottata per gli altri libri, per coerenza dell'impianto contabile.",
           "Il libro degli inventari è soggetto all'imposta di bollo con le stesse modalità del libro giornale: 16 o 32 euro ogni cento pagine per i libri cartacei, ovvero ogni 2.500 registrazioni per quelli informatici, con versamento telematico tramite modello F24 e codice tributo 2501. Trattandosi di un documento che tipicamente contiene un numero contenuto di annotazioni rispetto al giornale, l'incidenza del bollo è di norma limitata, ma resta un adempimento da presidiare al pari degli altri."
         ]
+      },
+      {
+        "h": "Le scritture di assestamento e la loro traduzione nell'inventario",
+        "p": [
+          "L'inventario è strettamente legato alle scritture di assestamento che, a fine esercizio, adeguano i valori contabili alla competenza economica del periodo. Gli ammortamenti, che ripartiscono il costo dei beni pluriennali; le rimanenze, che rinviano al futuro i costi delle merci non ancora vendute; i ratei e i risconti, che ripartiscono costi e ricavi a cavallo di più esercizi; gli accantonamenti a fondi rischi e oneri; le svalutazioni: tutte queste rettifiche, registrate nel libro giornale, trovano nell'inventario la loro rappresentazione analitica e concorrono a determinare il risultato d'esercizio.",
+          "L'inventario è quindi il luogo in cui le scritture di assestamento si consolidano in una rappresentazione ordinata del patrimonio. Senza di esse, il patrimonio esposto rifletterebbe soltanto i movimenti finanziari dell'esercizio, non la reale competenza economica dei costi e dei ricavi. È attraverso l'assestamento e la sua traduzione nell'inventario che la contabilità passa dalla rilevazione dei fatti gestionali alla determinazione veritiera del reddito e della consistenza patrimoniale, secondo il principio di competenza che governa la redazione del bilancio."
+        ]
+      },
+      {
+        "h": "Il valore probatorio del libro inventari",
+        "p": [
+          "Come il libro giornale, anche il libro degli inventari rientra tra le scritture contabili la cui efficacia probatoria è disciplinata dagli articoli 2709 e seguenti del Codice civile. Regolarmente tenuto, l'inventario può fare prova contro l'imprenditore e, a determinate condizioni, a suo favore nei rapporti con altri imprenditori. La sottoscrizione dell'imprenditore, richiesta dall'articolo 2217, rafforza questa valenza, attestando l'assunzione di responsabilità sul contenuto e sulle valutazioni esposte.",
+          "Sul piano fiscale, l'inventario è uno strumento essenziale di controllo: rendendo trasparente la composizione e la valutazione del patrimonio, consente all'Amministrazione finanziaria di verificare la coerenza tra le poste di bilancio e il reddito dichiarato, e in particolare di riscontrare la correttezza della valutazione delle rimanenze, che incide direttamente sull'imponibile. Un inventario regolare, sottoscritto e conservato a norma è quindi tanto un adempimento quanto uno strumento di difesa del contribuente, perché documenta e giustifica le scelte valutative adottate."
+        ]
+      },
+      {
+        "h": "L'inventario nei diversi regimi contabili",
+        "p": [
+          "L'obbligo di redazione del libro degli inventari grava sui soggetti in contabilità ordinaria, tenuti al metodo della partita doppia. I soggetti in contabilità semplificata sono esonerati dalla tenuta del libro giornale e del libro degli inventari, e assolvono i propri obblighi contabili attraverso i registri IVA integrati e il registro dei beni ammortizzabili; per essi, la determinazione delle rimanenze avviene con modalità semplificate. Il regime forfetario prevede una contabilità ancora più snella, con esonero dalla generalità degli obblighi di registrazione.",
+          "Anche i soggetti in contabilità semplificata possono optare per la contabilità ordinaria, assumendo così l'obbligo di redigere l'inventario. La scelta del regime determina quindi se e come l'inventario debba essere redatto, e incide sulla completezza della rappresentazione patrimoniale disponibile. La corretta individuazione del regime applicabile è il presupposto per stabilire gli obblighi documentali dell'impresa e per organizzare di conseguenza la redazione, la tenuta e la conservazione delle scritture, evitando sia carenze sia adempimenti non dovuti."
+        ]
+      },
+      {
+        "h": "L'inventario nelle procedure concorsuali e nei controlli",
+        "p": [
+          "In caso di crisi dell'impresa e di apertura di procedure concorsuali, l'inventario assume un rilievo particolare, perché la fotografia analitica del patrimonio che esso offre è la base su cui si ricostruisce la situazione dell'impresa insolvente e si valutano le ragioni dei creditori. La regolarità e la veridicità dell'inventario e del bilancio che lo conclude possono avere conseguenze significative sulla valutazione della condotta dell'imprenditore e degli amministratori nel periodo che ha preceduto la crisi.",
+          "Nei controlli fiscali ordinari, l'inventario è tra i documenti esaminati con maggiore attenzione, in particolare per la valutazione delle rimanenze, che rappresenta uno degli aspetti più delicati per l'impatto diretto sul reddito. I verificatori riscontrano la coerenza tra l'inventario, la contabilità di magazzino, il libro giornale e il bilancio, alla ricerca di incongruenze che possano segnalare una determinazione non attendibile del patrimonio e del reddito. Un inventario ordinato, completo e conservato a norma consente di rispondere con precisione alle richieste e di dimostrare la correttezza delle valutazioni adottate."
+        ]
+      },
+      {
+        "h": "Buone pratiche e sintesi: la fotografia verificabile del patrimonio",
+        "p": [
+          "La corretta redazione del libro degli inventari poggia su alcune buone pratiche: l'accuratezza della ricognizione analitica di tutti gli elementi patrimoniali; la coerente applicazione dei criteri di valutazione, in particolare per le rimanenze; la tempestività della redazione e della sottoscrizione entro i termini di legge; il collegamento con le altre scritture — libro giornale, registro dei beni ammortizzabili, contabilità di magazzino — di cui l'inventario costituisce la sintesi analitica; e una scelta consapevole tra tenuta cartacea, tenuta elettronica con stampa su richiesta e conservazione digitale a norma, coordinata con quella degli altri libri e documentata nel Manuale della conservazione.",
+          "In sintesi, il libro degli inventari è la fotografia analitica, periodica e verificabile del patrimonio dell'impresa: il documento che, chiudendosi con il bilancio, collega la contabilità dell'esercizio alla sua rappresentazione di sintesi e ne garantisce la giustificabilità nel tempo. La sua funzione non è formale, ma sostanziale e probatoria: rende trasparente la composizione e la valutazione del patrimonio, fonda la determinazione del reddito e costituisce prova nei rapporti con i terzi e con l'Amministrazione. Comprendere il libro degli inventari significa comprendere come l'impresa misura, periodicamente, la propria consistenza economica e la rende conoscibile e verificabile."
+        ]
       }
     ],
     "fonti_norm": [
       "Codice civile, art. 2214 — obbligo delle scritture contabili",
       "Codice civile, art. 2217 — libro degli inventari e bilancio",
+      "Codice civile, artt. 2423-2426 — criteri di valutazione del bilancio",
+      "Codice civile, artt. 2709-2711 — efficacia probatoria dei libri contabili",
       "D.P.R. 600/1973, art. 22 — tenuta e conservazione a fini fiscali",
       "D.M. 17 giugno 2014, art. 6 — imposta di bollo sui libri informatici",
       "Ris. AdE 106/E/2014 — codice tributo 2501"
