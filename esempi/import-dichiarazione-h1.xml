@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  FAC-SIMILE - ESEMPIO DIDATTICO - DATI FITTIZI
+  Tracciato SEMPLIFICATO e illustrativo di una dichiarazione doganale di
+  importazione (famiglia H1: immissione in libera pratica e in consumo).
+  NON conforme allo schema XSD ufficiale ADM/UE e NON valido a fini doganali
+  o fiscali. Aziende, partite IVA, EORI, MRN e importi sono inventati.
+  Generato per il Libro bianco sulla conservazione a norma.
+-->
+<DichiarazioneImportazione tipo="H1" versione="fac-simile">
+  <Testata>
+    <MRN>25ITXXXXXXXXXXXXX9 (FAC-SIMILE)</MRN>
+    <DataAccettazione>2026-03-12</DataAccettazione>
+    <UfficioDoganale>IT_XXX — Ufficio doganale di esempio</UfficioDoganale>
+    <RegimeRichiesto>40 — Immissione in libera pratica e in consumo</RegimeRichiesto>
+  </Testata>
+  <Dichiarante>
+    <Denominazione>Alfa Commerciale S.r.l.</Denominazione>
+    <EORI>IT-FACSIMILE-0000</EORI>
+    <PartitaIVA>IT00000000000</PartitaIVA>
+    <Indirizzo>Via Esempio 1, 20100 Milano (MI), Italia</Indirizzo>
+  </Dichiarante>
+  <Speditore>
+    <Denominazione>Beta Manufacturing Co. Ltd</Denominazione>
+    <Paese>CN — Cina</Paese>
+  </Speditore>
+  <Articolo numero="1">
+    <Descrizione>Apparecchi di illuminazione a LED</Descrizione>
+    <VoceTaric>9405 11 00</VoceTaric>
+    <Origine>CN</Origine>
+    <MassaLorda unita="kg">520</MassaLorda>
+    <MassaNetta unita="kg">480</MassaNetta>
+    <ValoreDogana valuta="EUR">10000.00</ValoreDogana>
+    <Dazio aliquota="2.7%">270.00</Dazio>
+    <IVA aliquota="22%">2258.40</IVA>
+    <DocumentiCorredo>
+      <Documento tipo="Fattura">N. 2026/BETA/128 del 20/02/2026</Documento>
+      <Documento tipo="Trasporto">B/L n. FAC-SIMILE-778</Documento>
+      <Documento tipo="Origine">Certificato di origine n. FAC-SIMILE/CN/55</Documento>
+    </DocumentiCorredo>
+  </Articolo>
+  <RiepilogoDiritti valuta="EUR">
+    <Dazio>270.00</Dazio>
+    <IVAImportazione>2258.40</IVAImportazione>
+    <TotaleDiritti>2528.40</TotaleDiritti>
+  </RiepilogoDiritti>
+</DichiarazioneImportazione>

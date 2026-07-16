@@ -580,6 +580,19 @@
     transition:all .15s ease;
   }
   .rel-chip:hover{ border-color:var(--ink); background:#fff; }
+  .esempio-chip{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    padding:7px 12px;
+    border:1px solid var(--accent);
+    color:var(--accent);
+    background:var(--card);
+    border-radius:2px;
+    cursor:pointer;
+    text-decoration:none;
+    transition:all .15s ease;
+  }
+  .esempio-chip:hover{ background:var(--accent); color:#fff; }
 
   @media (max-width:640px){
     .field-grid{ grid-template-columns:1fr; }
@@ -855,6 +868,13 @@ function schedaDetailBody(item, metaLabel){
        </div>`
     : '';
 
+  const esempiHTML = (item.esempi || []).length
+    ? `<div class="block">
+         <div class="block-head">Esempi (fac-simile — dati fittizi, non validi a fini doganali/fiscali)</div>
+         <div class="chip-row">${item.esempi.map(e => `<a class="esempio-chip" href="${e.file}" target="_blank" rel="noopener">${e.label} ↗</a>`).join('')}</div>
+       </div>`
+    : '';
+
   const relFonti = (item.fonti_ids || []).map(fid => FONTI.find(f => f.id === fid)).filter(Boolean);
   const relHTML = relFonti.length
     ? `<div class="block">
@@ -867,6 +887,7 @@ function schedaDetailBody(item, metaLabel){
     <div class="detail-meta"><span>${metaLabel}</span></div>
     <p class="lead">${item.lead}</p>
     ${sezioniHTML}
+    ${esempiHTML}
     ${normHTML}
     ${relHTML}
   `;

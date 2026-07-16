@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  FAC-SIMILE - ESEMPIO DIDATTICO - DATI FITTIZI
+  Tracciato SEMPLIFICATO e illustrativo di una dichiarazione doganale di
+  esportazione (famiglia B1). NON conforme allo schema XSD ufficiale ADM/UE
+  e NON valido a fini doganali o fiscali. Aziende, partite IVA, EORI, MRN e
+  importi sono inventati. Generato per il Libro bianco sulla conservazione a norma.
+-->
+<DichiarazioneEsportazione tipo="B1" versione="fac-simile">
+  <Testata>
+    <MRN>25ITYYYYYYYYYYYYY4 (FAC-SIMILE)</MRN>
+    <DataAccettazione>2026-03-18</DataAccettazione>
+    <UfficioEsportazione>IT_XXX — Ufficio di esportazione di esempio</UfficioEsportazione>
+    <UfficioUscita>IT_ZZZ — Ufficio di uscita di esempio</UfficioUscita>
+    <RegimeRichiesto>10 — Esportazione definitiva</RegimeRichiesto>
+  </Testata>
+  <Esportatore>
+    <Denominazione>Alfa Commerciale S.r.l.</Denominazione>
+    <EORI>IT-FACSIMILE-0000</EORI>
+    <PartitaIVA>IT00000000000</PartitaIVA>
+    <Indirizzo>Via Esempio 1, 20100 Milano (MI), Italia</Indirizzo>
+  </Esportatore>
+  <Destinatario>
+    <Denominazione>Gamma Trading LLC</Denominazione>
+    <Paese>US — Stati Uniti</Paese>
+  </Destinatario>
+  <Articolo numero="1">
+    <Descrizione>Macchine per caffè espresso professionali</Descrizione>
+    <VoceTaric>8419 81 20</VoceTaric>
+    <Origine>IT</Origine>
+    <MassaLorda unita="kg">640</MassaLorda>
+    <MassaNetta unita="kg">600</MassaNetta>
+    <ValoreStatistico valuta="EUR">25000.00</ValoreStatistico>
+    <RegimeIVA>Cessione all'esportazione non imponibile — art. 8 D.P.R. 633/1972</RegimeIVA>
+    <DocumentiCorredo>
+      <Documento tipo="Fattura">N. 2026/ALFA/341 del 16/03/2026 (non imponibile art. 8)</Documento>
+      <Documento tipo="Trasporto">CMR n. FAC-SIMILE-4521</Documento>
+      <Documento tipo="OriginePreferenziale">EUR.1 n. FAC-SIMILE/IT/210</Documento>
+    </DocumentiCorredo>
+  </Articolo>
+  <EsitoUscita>
+    <Stato>Uscita conclusa (FAC-SIMILE)</Stato>
+    <DataUscita>2026-03-21</DataUscita>
+  </EsitoUscita>
+</DichiarazioneEsportazione>

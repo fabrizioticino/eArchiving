@@ -5,6 +5,9 @@
     "title": "Dichiarazione doganale di importazione (tracciato H1)",
     "abstract": "L'atto con cui le merci provenienti da Paesi terzi vengono vincolate al regime dell'immissione in libera pratica e all'assolvimento dei diritti di confine.",
     "lead": "La dichiarazione doganale di importazione è l'atto giuridico con cui l'operatore chiede di vincolare le merci provenienti da un Paese terzo a un regime doganale, tipicamente l'immissione in libera pratica e il consumo. Su di essa si fondano l'accertamento dei diritti di confine — dazi, IVA all'importazione, eventuali accise — e i controlli dell'Agenzia delle Dogane e dei Monopoli. Con la reingegnerizzazione del sistema AIDA, il vecchio Documento Amministrativo Unico (DAU) cartaceo è stato sostituito da una dichiarazione interamente elettronica, trasmessa secondo i tracciati dati della famiglia «H» previsti dal Codice Doganale dell'Unione.",
+    "esempi": [
+      { "label": "Dichiarazione H1 (XML)", "file": "esempi/import-dichiarazione-h1.xml" }
+    ],
     "sezioni": [
       {
         "h": "Che cos'è e a quale esigenza risponde",
@@ -64,6 +67,9 @@
     "title": "Prospetto di riepilogo ai fini contabili (IVA all'importazione)",
     "abstract": "Il documento digitale che, dopo la dematerializzazione della bolletta doganale, consente di registrare e detrarre l'IVA assolta in importazione.",
     "lead": "Con la dematerializzazione della bolletta doganale, avviata nel 2022, il tradizionale esemplare cartaceo della dichiarazione di importazione non viene più rilasciato all'operatore. Al suo posto, l'Agenzia delle Dogane e dei Monopoli mette a disposizione, sul Portale Unico Dogane e Monopoli, il «prospetto di riepilogo ai fini contabili» della dichiarazione doganale: il documento che riepiloga i dati dell'operazione — MRN, fatture collegate, IVA assolta — e che l'importatore deve acquisire, registrare e conservare per poter detrarre l'IVA all'importazione.",
+    "esempi": [
+      { "label": "Prospetto di riepilogo (HTML)", "file": "esempi/import-prospetto-riepilogo.html" }
+    ],
     "sezioni": [
       {
         "h": "Dalla bolletta doganale cartacea al prospetto digitale",
@@ -115,6 +121,10 @@
     "title": "Documenti a corredo dell'importazione",
     "abstract": "Fattura, valore in dogana, origine, trasporto e certificati: i documenti che accompagnano e giustificano la dichiarazione di importazione.",
     "lead": "La dichiarazione doganale di importazione non è un atto isolato, ma si fonda su un insieme di documenti che ne giustificano e ne provano i contenuti: la fattura del fornitore estero, gli elementi per la determinazione del valore in dogana, i documenti che attestano l'origine della merce, i documenti di trasporto e gli eventuali certificati richiesti dalla normativa. Questi documenti a corredo sono il fondamento probatorio della dichiarazione e vanno conservati insieme a essa per l'intero periodo in cui l'operazione può essere sottoposta a controllo.",
+    "esempi": [
+      { "label": "Fattura commerciale (HTML)", "file": "esempi/import-fattura-commerciale.html" },
+      { "label": "Certificato di origine (HTML)", "file": "esempi/import-certificato-origine.html" }
+    ],
     "sezioni": [
       {
         "h": "La fattura e il valore in dogana",
@@ -166,6 +176,9 @@
     "title": "Dichiarazione doganale di esportazione (tracciato B1)",
     "abstract": "L'atto con cui le merci unionali vengono vincolate al regime di esportazione verso Paesi terzi, presupposto della non imponibilità IVA.",
     "lead": "La dichiarazione doganale di esportazione è l'atto con cui si vincolano al regime dell'esportazione le merci unionali destinate a lasciare il territorio doganale dell'Unione verso un Paese terzo. È il presupposto doganale della cessione all'esportazione, che ai fini IVA è non imponibile ai sensi dell'articolo 8 del D.P.R. 633/1972. Con la reingegnerizzazione del sistema AIDA e l'avvio del sistema unionale AES (Automated Export System), il DAU di esportazione è stato sostituito da una dichiarazione elettronica basata sui tracciati della famiglia «B».",
+    "esempi": [
+      { "label": "Dichiarazione B1 (XML)", "file": "esempi/export-dichiarazione-b1.xml" }
+    ],
     "sezioni": [
       {
         "h": "Che cos'è e perché è necessaria",
@@ -218,6 +231,9 @@
     "title": "La prova di uscita: MRN, visto uscire e IVISTO",
     "abstract": "Il documento che attesta l'effettiva uscita delle merci dall'Unione, condizione della non imponibilità IVA della cessione all'esportazione.",
     "lead": "Dichiarare le merci all'esportazione non basta: perché la cessione sia legittimamente non imponibile ai fini IVA, occorre provare che le merci hanno effettivamente lasciato il territorio doganale dell'Unione. Questa prova, un tempo costituita dal timbro «visto uscire» apposto sull'esemplare cartaceo della dichiarazione, è oggi interamente telematica: si fonda sul messaggio elettronico di uscita associato al MRN e, dal dicembre 2024, sul visto elettronico denominato IVISTO, scaricabile dal portale dell'Agenzia delle Dogane e dei Monopoli.",
+    "esempi": [
+      { "label": "Prova di uscita / IVISTO (HTML)", "file": "esempi/export-prova-uscita.html" }
+    ],
     "sezioni": [
       {
         "h": "Perché la prova di uscita è decisiva",
@@ -269,6 +285,10 @@
     "title": "Documenti a corredo dell'esportazione",
     "abstract": "Fattura, origine preferenziale, documenti di trasporto e certificati: il fascicolo che accompagna e giustifica l'esportazione.",
     "lead": "Anche l'esportazione, come l'importazione, si fonda su un insieme di documenti che accompagnano e giustificano la dichiarazione: la fattura di vendita, i documenti che attestano l'origine preferenziale delle merci ai fini degli accordi commerciali, i documenti di trasporto e gli eventuali certificati e autorizzazioni. Insieme alla dichiarazione e alla prova di uscita, questi documenti compongono il fascicolo dell'operazione di esportazione, fondamentale per dimostrarne la regolarità e la non imponibilità IVA.",
+    "esempi": [
+      { "label": "DAE — Accompagnamento esportazione (HTML)", "file": "esempi/export-dae.html" },
+      { "label": "Certificato EUR.1 (HTML)", "file": "esempi/export-eur1.html" }
+    ],
     "sezioni": [
       {
         "h": "La fattura di vendita all'esportazione",
