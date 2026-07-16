@@ -56,6 +56,14 @@
         ]
       },
       {
+        "h": "I registri del regime del margine",
+        "p": [
+          "Una classe documentale del tutto peculiare è quella dei registri del regime del margine, il regime speciale IVA previsto per la rivendita di beni usati, oggetti d'arte, d'antiquariato e da collezione, disciplinato dagli articoli 36 e seguenti del D.L. 23 febbraio 1995, n. 41, convertito nella Legge 85/1995. La ratio del regime è evitare la doppia imposizione su beni che rientrano nel circuito commerciale dopo essere già stati tassati in via definitiva: l'IVA non colpisce l'intero prezzo di rivendita, ma il solo margine, cioè la differenza tra il prezzo di vendita e il prezzo di acquisto del bene. Proprio questa base imponibile differenziale impone una tenuta documentale specifica, distinta da quella ordinaria.",
+          "Il regime prevede tre metodi di determinazione del margine, ciascuno con propri riflessi sulle registrazioni: il metodo analitico (ordinario), in cui il margine è calcolato per ogni singola operazione di rivendita; il metodo globale, in cui il margine è determinato sulla massa degli acquisti e delle cessioni del periodo; e il metodo forfetario (art. 36, comma 5), applicabile a specifiche categorie di beni con l'applicazione di una percentuale forfetaria al prezzo di vendita. L'articolo 38 del D.L. 41/1995 fissa gli obblighi di registrazione, imponendo in particolare l'annotazione dei corrispettivi nell'apposito registro di cui all'articolo 24 del D.P.R. 633/1972 e la numerazione e conservazione delle fatture di acquisto dei beni destinati alla rivendita.",
+          "Il metodo globale, in particolare, richiede la tenuta di distinti registri di carico e scarico dei beni assoggettati al regime: un registro degli acquisti (carico) e un registro delle cessioni (scarico), dalla cui contrapposizione, per ciascun periodo, si determina il margine complessivo e l'eventuale imposta dovuta. Questi registri del margine costituiscono una classe documentale autonoma, che va tenuta separatamente dai registri IVA ordinari e conservata a norma con propri metadati e tempi di conservazione. Per gli operatori del settore dei beni usati — commercianti di auto usate, di preziosi, di opere d'arte, rivenditori dell'usato — la corretta tenuta e conservazione dei registri del margine è un adempimento centrale, spesso oggetto di specifica attenzione in sede di controllo, perché da essa dipende la legittimità dell'applicazione del regime speciale e la corretta determinazione dell'imposta."
+        ]
+      },
+      {
         "h": "Termini di registrazione e loro implicazioni",
         "p": [
           "La tempestività delle annotazioni è un elemento essenziale della regolarità dei registri IVA. Le fatture emesse vanno annotate secondo i termini fissati dall'articolo 23 del D.P.R. 633/1972, correlati al momento di effettuazione dell'operazione e di emissione del documento; le fatture di acquisto vanno annotate, ai fini dell'esercizio della detrazione, prima della liquidazione periodica nella quale il diritto è esercitato e comunque entro il termine di presentazione della dichiarazione annuale relativa all'anno di ricezione. I corrispettivi vanno annotati con riferimento a ciascun giorno.",
@@ -187,6 +195,8 @@
       "D.P.R. 633/1972, art. 24 — registro dei corrispettivi",
       "D.P.R. 633/1972, art. 25 — registro degli acquisti",
       "D.P.R. 633/1972, art. 39 — tenuta e conservazione dei registri IVA",
+      "D.L. 41/1995, artt. 36-40 — regime del margine (beni usati); art. 38 — obblighi di registrazione e registri di carico/scarico",
+      "D.L. 78/2010, art. 21-bis — comunicazione liquidazioni periodiche IVA (LIPE)",
       "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
     ],
     "fonti_ids": ["dm-mef-17-06-2014", "dlgs-127-2015", "circolare-ade-18e-2014", "risposta-ade-236-2021"]
