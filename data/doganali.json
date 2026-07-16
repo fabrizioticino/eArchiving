@@ -1,0 +1,317 @@
+[
+  {
+    "id": "import-dichiarazione",
+    "ambito": "Import",
+    "title": "Dichiarazione doganale di importazione (tracciato H1)",
+    "abstract": "L'atto con cui le merci provenienti da Paesi terzi vengono vincolate al regime dell'immissione in libera pratica e all'assolvimento dei diritti di confine.",
+    "lead": "La dichiarazione doganale di importazione è l'atto giuridico con cui l'operatore chiede di vincolare le merci provenienti da un Paese terzo a un regime doganale, tipicamente l'immissione in libera pratica e il consumo. Su di essa si fondano l'accertamento dei diritti di confine — dazi, IVA all'importazione, eventuali accise — e i controlli dell'Agenzia delle Dogane e dei Monopoli. Con la reingegnerizzazione del sistema AIDA, il vecchio Documento Amministrativo Unico (DAU) cartaceo è stato sostituito da una dichiarazione interamente elettronica, trasmessa secondo i tracciati dati della famiglia «H» previsti dal Codice Doganale dell'Unione.",
+    "sezioni": [
+      {
+        "h": "Che cos'è e a quale esigenza risponde",
+        "p": [
+          "Quando una merce entra nel territorio doganale dell'Unione da un Paese terzo, non può circolare liberamente né essere immessa in consumo finché non è stata dichiarata in dogana e non sono stati assolti i relativi obblighi. La dichiarazione doganale di importazione è l'atto con cui il dichiarante — l'importatore o un suo rappresentante, tipicamente uno spedizioniere doganale — manifesta la volontà di vincolare le merci a un determinato regime e fornisce all'autorità doganale tutti gli elementi necessari all'accertamento.",
+          "La sua funzione è duplice. Da un lato è lo strumento attraverso cui si determinano e si assolvono i diritti di confine: il dazio, calcolato in base alla classificazione tariffaria, all'origine e al valore in dogana della merce; l'IVA all'importazione; le eventuali accise. Dall'altro è il presupposto dei controlli doganali, sanitari, di sicurezza e di politica commerciale che l'Unione esercita alle proprie frontiere esterne. La dichiarazione è quindi al tempo stesso un atto fiscale, un atto di controllo e un atto di responsabilità del dichiarante sui dati forniti."
+        ]
+      },
+      {
+        "h": "Il quadro normativo: dal TULD al Codice Doganale dell'Unione",
+        "p": [
+          "La disciplina doganale è oggi in larga parte di fonte unionale. Il riferimento centrale è il Codice Doganale dell'Unione (CDU), il Regolamento (UE) n. 952/2013, integrato dal Regolamento delegato (UE) 2015/2446 e dal Regolamento di esecuzione (UE) 2015/2447, che disciplinano in modo uniforme in tutti gli Stati membri i regimi, le formalità e i tracciati delle dichiarazioni. Il diritto doganale è materia di competenza dell'Unione, e la normativa nazionale ha funzione complementare.",
+          "Sul piano interno, il quadro è stato profondamente rinnovato dal D.Lgs. 26 settembre 2024, n. 141, che ha dettato le «Disposizioni nazionali complementari al codice doganale dell'Unione» e ha abrogato il storico Testo Unico delle Leggi Doganali (D.P.R. 43/1973), riducendo e riordinando in poco più di cento articoli una disciplina prima frammentata in centinaia di disposizioni. La riforma ha inoltre qualificato espressamente l'IVA all'importazione come diritto di confine e rivisto il sistema sanzionatorio. La dichiarazione di importazione va quindi letta oggi nella cornice del CDU e delle nuove disposizioni nazionali complementari."
+        ]
+      },
+      {
+        "h": "Come si costruisce: i tracciati H e la dichiarazione elettronica",
+        "p": [
+          "Con la reingegnerizzazione del sistema informativo doganale (AIDA), la dichiarazione di importazione non è più un modulo cartaceo ma un messaggio elettronico strutturato secondo tracciati dati standardizzati a livello unionale, appartenenti alla famiglia «H». Il tracciato H1 corrisponde alla dichiarazione ordinaria per l'immissione in libera pratica e in consumo; altri tracciati della stessa famiglia (fino a H7) coprono fattispecie particolari, come i regimi speciali, il deposito o le spedizioni di modico valore.",
+          "La costruzione della dichiarazione consiste nella compilazione, per ciascun articolo, di un insieme strutturato di dati: la classificazione tariffaria della merce, l'origine, il valore in dogana, la massa, il regime richiesto, i documenti di accompagnamento, il calcolo dei diritti. Il nuovo sistema consente la trasmissione incrementale dei dati, un numero molto elevato di articoli per dichiarazione e lo svincolo per singolo articolo. La dichiarazione, una volta accettata dal sistema, riceve un numero di riferimento univoco (MRN, Master Reference Number) che la identifica e ne consente il tracciamento in ogni fase successiva."
+        ]
+      },
+      {
+        "h": "Il senso doganale e fiscale: accertamento e svincolo",
+        "p": [
+          "La dichiarazione accettata dà avvio all'accertamento doganale: l'autorità verifica la correttezza dei dati dichiarati, può disporre il controllo documentale o la visita fisica delle merci, e determina i diritti dovuti. Il pagamento o la garanzia dei diritti è condizione per lo svincolo, cioè per la messa a disposizione delle merci al dichiarante. Con l'immissione in libera pratica le merci acquisiscono la posizione di merci unionali e possono circolare liberamente nel mercato interno.",
+          "Sotto il profilo fiscale, la dichiarazione di importazione è il fatto che genera il debito di IVA all'importazione, dovuta al momento dell'importazione al pari di un diritto di confine. Questa IVA, se l'importatore ha diritto alla detrazione, potrà essere recuperata secondo le regole ordinarie, a condizione che l'operazione sia correttamente documentata e registrata. È qui che la dichiarazione doganale si salda con la disciplina IVA e con la contabilità dell'impresa: l'atto doganale genera un onere che si riflette nei registri IVA e nella liquidazione dell'imposta."
+        ]
+      },
+      {
+        "h": "La responsabilità del dichiarante e la revisione dell'accertamento",
+        "p": [
+          "La dichiarazione doganale è un atto di responsabilità: il dichiarante risponde dell'esattezza e della completezza dei dati forniti, dell'autenticità dei documenti allegati e dell'osservanza degli obblighi connessi al regime richiesto. Errori nella classificazione tariffaria, nella determinazione dell'origine o del valore in dogana possono dare luogo a maggiori diritti e a sanzioni. Per questo l'operatività doganale si avvale, di norma, di rappresentanti doganali qualificati e, per gli operatori più strutturati, dello status di operatore economico autorizzato (AEO).",
+          "L'autorità doganale può inoltre procedere alla revisione dell'accertamento anche dopo lo svincolo delle merci: il Codice Doganale dell'Unione prevede che i controlli a posteriori possano essere effettuati entro un termine, di norma triennale, decorrente dalla data di accettazione della dichiarazione. Questa possibilità di controllo differito rende essenziale la conservazione ordinata della dichiarazione e di tutta la documentazione a corredo, che deve poter essere esibita in caso di verifica."
+        ]
+      },
+      {
+        "h": "Conservazione della dichiarazione di importazione",
+        "p": [
+          "La dichiarazione doganale di importazione e i documenti a essa collegati vanno conservati per assolvere a un duplice ordine di esigenze. Sul piano doganale, la conservazione è funzionale alla revisione dell'accertamento e ai controlli a posteriori, per i quali il Codice Doganale dell'Unione fissa termini pluriennali. Sul piano fiscale e contabile, i documenti rilevano ai fini dell'IVA all'importazione e della sua detrazione, e come tali rientrano tra le scritture da conservare fino alla definizione degli accertamenti e nel rispetto del termine decennale civilistico.",
+          "Trattandosi oggi di documenti nativi digitali, prodotti e scambiati in forma elettronica attraverso i sistemi dell'Agenzia delle Dogane e dei Monopoli, la loro conservazione segue le regole sui documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID: formati idonei, metadati, firma e marca temporale, garanzia di integrità e leggibilità nel tempo. La corretta conservazione della dichiarazione, del suo MRN e della documentazione correlata è il presupposto per dimostrare, anche a distanza di anni, la regolarità dell'operazione di importazione e la legittimità della detrazione dell'IVA."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Reg. (UE) 952/2013 — Codice Doganale dell'Unione (CDU)",
+      "Reg. delegato (UE) 2015/2446 e Reg. di esecuzione (UE) 2015/2447",
+      "D.Lgs. 141/2024 — disposizioni nazionali complementari al CDU (abrogazione del TULD, D.P.R. 43/1973)",
+      "D.P.R. 633/1972, artt. 67-70 — IVA all'importazione",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021", "risposta-ade-236-2021"]
+  },
+  {
+    "id": "import-prospetto",
+    "ambito": "Import",
+    "title": "Prospetto di riepilogo ai fini contabili (IVA all'importazione)",
+    "abstract": "Il documento digitale che, dopo la dematerializzazione della bolletta doganale, consente di registrare e detrarre l'IVA assolta in importazione.",
+    "lead": "Con la dematerializzazione della bolletta doganale, avviata nel 2022, il tradizionale esemplare cartaceo della dichiarazione di importazione non viene più rilasciato all'operatore. Al suo posto, l'Agenzia delle Dogane e dei Monopoli mette a disposizione, sul Portale Unico Dogane e Monopoli, il «prospetto di riepilogo ai fini contabili» della dichiarazione doganale: il documento che riepiloga i dati dell'operazione — MRN, fatture collegate, IVA assolta — e che l'importatore deve acquisire, registrare e conservare per poter detrarre l'IVA all'importazione.",
+    "sezioni": [
+      {
+        "h": "Dalla bolletta doganale cartacea al prospetto digitale",
+        "p": [
+          "Per lungo tempo la prova documentale dell'importazione e dell'IVA assolta è stata la «bolletta doganale», l'esemplare cartaceo della dichiarazione vistato dalla dogana e consegnato all'operatore. Con la digitalizzazione delle procedure e la reingegnerizzazione del sistema AIDA, questo esemplare cartaceo non viene più prodotto: la dichiarazione è interamente elettronica e la sua rappresentazione utile ai fini contabili è costituita dal prospetto di riepilogo ai fini contabili, un documento digitale generato dai sistemi dell'Agenzia delle Dogane e dei Monopoli.",
+          "Il prospetto ha, a tutti gli effetti, sostituito la bolletta doganale cartacea come documento rilevante ai fini dell'IVA. Esso è reperibile dall'operatore nella propria area riservata del Portale Unico Dogane e Monopoli, da cui può essere estratto e scaricato. Questa evoluzione ha richiesto ai contribuenti di adeguare le proprie procedure: non si attende più la consegna fisica di un documento, ma si estrae attivamente il prospetto dal portale per registrarlo in contabilità."
+        ]
+      },
+      {
+        "h": "Che cosa contiene e a cosa serve",
+        "p": [
+          "Il prospetto di riepilogo ai fini contabili contiene i dati ufficiali dell'operazione di importazione necessari alla sua rilevazione contabile e fiscale: il numero di riferimento della dichiarazione (MRN), l'elenco delle fatture collegate, l'imponibile e l'IVA assolta all'importazione, oltre agli altri elementi identificativi dell'operazione. È, in sostanza, la sintesi contabile della dichiarazione doganale, pensata proprio per consentire all'importatore di annotare correttamente l'operazione nei propri registri.",
+          "La sua funzione essenziale è quella di documentare l'IVA assolta in dogana ai fini dell'esercizio del diritto alla detrazione. L'IVA all'importazione, infatti, è dovuta al momento dell'importazione come diritto di confine, ma può essere recuperata dall'importatore che ne abbia diritto: il prospetto è il documento che attesta l'avvenuto assolvimento dell'imposta e ne consente il recupero, a condizione che sia correttamente acquisito, registrato e conservato."
+        ]
+      },
+      {
+        "h": "La registrazione nei registri IVA",
+        "p": [
+          "Il prospetto di riepilogo, in quanto documento che attesta l'IVA assolta all'importazione, va registrato nel registro degli acquisti secondo le medesime regole previste per le fatture di acquisto. La registrazione deve avvenire anteriormente alla liquidazione periodica nella quale si esercita il diritto alla detrazione e comunque entro il termine previsto dalla normativa IVA. È attraverso questa annotazione che l'IVA assolta in dogana confluisce nella liquidazione periodica dell'imposta e viene recuperata in detrazione.",
+          "L'Agenzia delle Entrate ha chiarito che la detrazione dell'IVA all'importazione è legittima solo se il contribuente possiede e conserva il documento doganale ufficiale — oggi il prospetto di riepilogo — e ha correttamente registrato l'operazione. Il possesso e la conservazione del prospetto sono quindi condizioni sostanziali della detrazione: non basta aver pagato l'imposta in dogana, occorre disporre del documento che ne dà prova e averlo regolarmente annotato. Il prospetto diventa così una classe documentale specifica dell'area IVA, strettamente collegata al registro degli acquisti."
+        ]
+      },
+      {
+        "h": "Il senso nell'impianto contabile e fiscale",
+        "p": [
+          "Il prospetto di riepilogo ai fini contabili è il punto di raccordo tra la dimensione doganale e quella fiscale e contabile dell'importazione. L'operazione, nata come atto doganale con la dichiarazione e lo svincolo delle merci, si traduce in una rilevazione contabile — l'acquisto di beni dall'estero, il debito verso il fornitore, i diritti di confine assolti — e in una posizione IVA, con l'imposta all'importazione da registrare e detrarre. Il prospetto è il documento che consente di collegare correttamente questi piani.",
+          "In sede di controllo, la coerenza tra il prospetto, le fatture di acquisto dei fornitori esteri e le registrazioni contabili e IVA è un elemento di verifica: i verificatori riscontrano che l'IVA detratta trovi corrispondenza nei prospetti doganali e che le operazioni siano state correttamente rilevate. La corretta acquisizione e conservazione dei prospetti è quindi essenziale non solo per la legittimità della detrazione, ma per la dimostrabilità della regolarità dell'intero ciclo dell'importazione."
+        ]
+      },
+      {
+        "h": "Conservazione del prospetto di riepilogo",
+        "p": [
+          "Il prospetto di riepilogo ai fini contabili è un documento nativo digitale, che l'importatore estrae dal Portale Unico Dogane e Monopoli. In quanto documento rilevante ai fini dell'IVA e della contabilità, va conservato con le medesime garanzie previste per gli altri documenti fiscali: se conservato in modalità digitale a norma, si applicano le regole del D.M. 17 giugno 2014 e delle Linee guida AgID, con formati idonei, metadati, firma e marca temporale sul ciclo annuale.",
+          "Poiché il prospetto non viene più consegnato in forma cartacea e resta disponibile sul portale per un periodo definito, è buona pratica estrarlo tempestivamente e includerlo nel sistema di conservazione dell'impresa, senza affidarsi alla sola disponibilità sul portale. La conservazione ordinata dei prospetti, classificati come documenti IVA collegati alle importazioni e corredati dei relativi metadati, garantisce la reperibilità della prova dell'IVA assolta per tutto il periodo in cui l'operazione può essere oggetto di controllo, sia doganale sia fiscale."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.P.R. 633/1972, artt. 67-70 — IVA all'importazione e detrazione",
+      "Reg. (UE) 952/2013 — Codice Doganale dell'Unione (bolletta e dichiarazione)",
+      "Circolari e istruzioni ADM sulla dematerializzazione della bolletta doganale (dal 2022) e sull'estrazione del prospetto",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021", "risposta-ade-236-2021"]
+  },
+  {
+    "id": "import-corredo",
+    "ambito": "Import",
+    "title": "Documenti a corredo dell'importazione",
+    "abstract": "Fattura, valore in dogana, origine, trasporto e certificati: i documenti che accompagnano e giustificano la dichiarazione di importazione.",
+    "lead": "La dichiarazione doganale di importazione non è un atto isolato, ma si fonda su un insieme di documenti che ne giustificano e ne provano i contenuti: la fattura del fornitore estero, gli elementi per la determinazione del valore in dogana, i documenti che attestano l'origine della merce, i documenti di trasporto e gli eventuali certificati richiesti dalla normativa. Questi documenti a corredo sono il fondamento probatorio della dichiarazione e vanno conservati insieme a essa per l'intero periodo in cui l'operazione può essere sottoposta a controllo.",
+    "sezioni": [
+      {
+        "h": "La fattura e il valore in dogana",
+        "p": [
+          "Il documento centrale a corredo dell'importazione è la fattura commerciale del fornitore estero, che documenta la transazione e costituisce la base per la determinazione del valore in dogana. Il valore in dogana è l'elemento su cui si calcolano il dazio e, in larga parte, l'IVA all'importazione: il Codice Doganale dell'Unione ne detta le regole di determinazione, fondate in via principale sul valore di transazione, cioè sul prezzo effettivamente pagato o da pagare per le merci, con le rettifiche previste per costi di trasporto, assicurazione e altri elementi.",
+          "La corretta determinazione del valore in dogana è uno degli aspetti più delicati dell'operazione, perché da essa dipende l'ammontare dei diritti dovuti. Un tempo affidata a una dichiarazione specifica (il modello DV1), la comunicazione degli elementi del valore è oggi integrata nei dati della dichiarazione elettronica. La fattura, insieme agli eventuali contratti e ai documenti di trasporto e assicurazione, è la fonte da cui si traggono gli elementi del valore, e la sua conservazione è essenziale per giustificare l'importo dichiarato in caso di controllo."
+        ]
+      },
+      {
+        "h": "L'origine della merce",
+        "p": [
+          "L'origine della merce è un elemento determinante dell'operazione doganale, perché incide sul dazio applicabile e sull'applicazione di misure di politica commerciale. Si distingue tra origine non preferenziale, che individua il Paese di origine ai fini generali, e origine preferenziale, che consente l'applicazione di dazi ridotti o nulli in virtù di accordi tra l'Unione e Paesi terzi. La prova dell'origine è fornita da appositi documenti o dichiarazioni, la cui natura dipende dal regime e dall'accordo applicabile.",
+          "Per l'origine preferenziale, la prova può essere costituita da certificati di circolazione (come l'EUR.1) o da dichiarazioni di origine rese dall'esportatore, secondo le regole dei singoli accordi. La corretta gestione e conservazione dei documenti relativi all'origine è essenziale per beneficiare legittimamente dei trattamenti preferenziali: in sede di controllo, l'autorità può richiedere la prova dell'origine dichiarata, e la sua mancanza può comportare il recupero dei dazi non applicati e l'irrogazione di sanzioni."
+        ]
+      },
+      {
+        "h": "Documenti di trasporto e certificati",
+        "p": [
+          "L'importazione è accompagnata dai documenti di trasporto che provano la spedizione e il percorso delle merci: la lettera di vettura internazionale su strada (CMR), la polizza di carico marittima (bill of lading), la lettera di vettura aerea (AWB), a seconda del modo di trasporto. Questi documenti concorrono a provare l'effettività e le circostanze dell'operazione e rilevano anche per la determinazione del valore in dogana, quanto ai costi di trasporto e assicurazione.",
+          "A seconda della natura delle merci, la dichiarazione può inoltre richiedere certificati e autorizzazioni specifici: certificati sanitari e fitosanitari per prodotti alimentari, animali e vegetali; licenze di importazione per merci soggette a restrizioni; documentazione per merci a duplice uso o soggette a misure particolari. Tutti questi documenti costituiscono il corredo probatorio della dichiarazione e concorrono a dimostrarne la regolarità e la conformità alle norme doganali, sanitarie, di sicurezza e di politica commerciale."
+        ]
+      },
+      {
+        "h": "Il senso: il fascicolo dell'operazione di importazione",
+        "p": [
+          "Nel loro insieme, la dichiarazione, il prospetto di riepilogo ai fini contabili e i documenti a corredo compongono il fascicolo dell'operazione di importazione: un insieme documentale coerente che descrive l'intera vicenda, dalla transazione commerciale all'ingresso delle merci, dall'assolvimento dei diritti alla loro immissione in libera pratica. La completezza e la coerenza di questo fascicolo sono la migliore garanzia della regolarità dell'operazione.",
+          "In sede di controllo, sia doganale sia fiscale, l'autorità ricostruisce l'operazione a partire da questo insieme documentale: verifica la corrispondenza tra la fattura, il valore dichiarato, l'origine, il trasporto e la dichiarazione, e riscontra la coerenza con le registrazioni contabili e IVA. Un fascicolo ordinato, completo e conservato a norma consente di rispondere con precisione alle richieste dei verificatori e di dimostrare la legittimità dell'operazione e della detrazione dell'IVA."
+        ]
+      },
+      {
+        "h": "Conservazione dei documenti a corredo",
+        "p": [
+          "I documenti a corredo dell'importazione vanno conservati per l'intero periodo in cui l'operazione può essere sottoposta a controllo: ai fini doganali, in funzione dei termini di revisione dell'accertamento previsti dal Codice Doganale dell'Unione; ai fini fiscali e contabili, fino alla definizione degli accertamenti e nel rispetto del termine decennale. La conservazione deve garantire la reperibilità di ciascun documento e il suo collegamento con la dichiarazione e con il prospetto di riepilogo.",
+          "Molti di questi documenti sono oggi nativi digitali o vengono acquisiti in formato elettronico; la loro conservazione segue le regole sui documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID. È buona pratica organizzare la conservazione per fascicolo o per operazione, associando alla dichiarazione tutti i documenti a corredo con metadati che ne consentano la ricerca, così da poter ricostruire e esibire l'intero fascicolo dell'importazione in caso di controllo, anche a distanza di anni."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Reg. (UE) 952/2013 — CDU (valore in dogana, origine, prova)",
+      "Reg. delegato (UE) 2015/2446 e Reg. di esecuzione (UE) 2015/2447",
+      "D.P.R. 633/1972, artt. 67-70 — IVA all'importazione",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "export-dichiarazione",
+    "ambito": "Export",
+    "title": "Dichiarazione doganale di esportazione (tracciato B1)",
+    "abstract": "L'atto con cui le merci unionali vengono vincolate al regime di esportazione verso Paesi terzi, presupposto della non imponibilità IVA.",
+    "lead": "La dichiarazione doganale di esportazione è l'atto con cui si vincolano al regime dell'esportazione le merci unionali destinate a lasciare il territorio doganale dell'Unione verso un Paese terzo. È il presupposto doganale della cessione all'esportazione, che ai fini IVA è non imponibile ai sensi dell'articolo 8 del D.P.R. 633/1972. Con la reingegnerizzazione del sistema AIDA e l'avvio del sistema unionale AES (Automated Export System), il DAU di esportazione è stato sostituito da una dichiarazione elettronica basata sui tracciati della famiglia «B».",
+    "sezioni": [
+      {
+        "h": "Che cos'è e perché è necessaria",
+        "p": [
+          "Quando merci unionali sono destinate a essere vendute e spedite fuori dal territorio doganale dell'Unione, devono essere dichiarate all'esportazione. La dichiarazione di esportazione è l'atto con cui il dichiarante — l'esportatore o un suo rappresentante — vincola le merci al regime di esportazione e fornisce all'autorità doganale gli elementi per il controllo. A differenza dell'importazione, l'esportazione non comporta di norma l'assolvimento di dazi, ma è soggetta ai controlli di politica commerciale, di sicurezza e, per talune merci, a restrizioni o autorizzazioni.",
+          "La dichiarazione di esportazione ha un rilievo fiscale decisivo: è il presupposto documentale della cessione all'esportazione, che ai fini dell'IVA è un'operazione non imponibile. Perché la non imponibilità sia legittima, occorre però non solo dichiarare le merci all'esportazione, ma anche provare che esse hanno effettivamente lasciato il territorio dell'Unione. La dichiarazione è quindi il primo atto di una sequenza che si completa con la prova di uscita delle merci."
+        ]
+      },
+      {
+        "h": "Il quadro normativo",
+        "p": [
+          "Come per l'importazione, la disciplina è di fonte prevalentemente unionale: il Codice Doganale dell'Unione (Reg. UE 952/2013) e i suoi regolamenti delegato e di esecuzione governano i regimi e le formalità dell'esportazione. Sul piano nazionale, il D.Lgs. 141/2024, che ha abrogato il Testo Unico delle Leggi Doganali, detta le disposizioni complementari. Sul versante fiscale, l'articolo 8 del D.P.R. 633/1972 disciplina le cessioni all'esportazione e la loro non imponibilità ai fini IVA.",
+          "La distinzione tra esportazioni dirette e indirette, prevista dall'articolo 8, incide sulle modalità e sui soggetti responsabili del trasporto fuori dall'Unione e sui termini entro cui deve avvenire l'uscita. In tutti i casi, la corretta qualificazione dell'operazione e il rispetto delle condizioni previste dalla norma sono essenziali per l'applicazione legittima del regime di non imponibilità, che consente all'esportatore di non addebitare l'IVA sulla cessione."
+        ]
+      },
+      {
+        "h": "Come si costruisce: i tracciati B e il sistema AES",
+        "p": [
+          "Con la reingegnerizzazione del sistema doganale, la dichiarazione di esportazione è divenuta un messaggio elettronico strutturato secondo i tracciati della famiglia «B». Il tracciato B1 corrisponde alla dichiarazione ordinaria di esportazione; sono previsti tracciati per le dichiarazioni semplificate e per le pre-dichiarazioni. Il sistema consente di presentare una pre-dichiarazione anche prima che le merci siano disponibili, da completare entro un termine con l'indicazione della loro effettiva collocazione.",
+          "La dichiarazione è presentata all'ufficio doganale di esportazione, che effettua i controlli sulla corrispondenza tra le merci, la fattura e i dati dichiarati e assegna alla dichiarazione un numero di riferimento univoco (MRN). Dal dicembre 2024, con l'avvio a regime del sistema unionale AES-P1, le nuove procedure elettroniche sono divenute l'unica modalità ammissibile. La dichiarazione elettronica e il relativo MRN sono il fondamento del successivo tracciamento dell'uscita delle merci."
+        ]
+      },
+      {
+        "h": "Ufficio di esportazione e ufficio di uscita",
+        "p": [
+          "L'esportazione coinvolge due uffici doganali distinti. L'ufficio di esportazione è quello a cui è presentata la dichiarazione e che assegna il MRN: verifica la corrispondenza delle merci con quanto dichiarato e autorizza l'avvio dell'operazione. L'ufficio di uscita è invece l'ultimo ufficio doganale prima che le merci lascino fisicamente il territorio dell'Unione, e ha il compito di controllare l'uscita effettiva delle merci e di certificarla.",
+          "Questa articolazione tra ufficio di esportazione e ufficio di uscita è il fondamento del meccanismo di prova dell'uscita: l'ufficio di uscita comunica all'ufficio di esportazione l'avvenuta uscita delle merci, consentendo l'appuramento dell'operazione. È da questo dialogo tra uffici, oggi interamente telematico, che scaturisce la prova che le merci hanno effettivamente lasciato l'Unione, prova indispensabile per la non imponibilità IVA della cessione."
+        ]
+      },
+      {
+        "h": "Conservazione della dichiarazione di esportazione",
+        "p": [
+          "La dichiarazione di esportazione e la documentazione correlata vanno conservate sia ai fini doganali, per i controlli a posteriori previsti dal Codice Doganale dell'Unione, sia ai fini fiscali, come prova documentale della cessione all'esportazione non imponibile. Sul piano fiscale, in particolare, la conservazione della dichiarazione e della prova di uscita è la condizione per dimostrare la legittimità della non imponibilità applicata, e la loro assenza può comportare il recupero dell'IVA non addebitata e sanzioni.",
+          "Trattandosi di documenti nativi digitali, generati e scambiati attraverso i sistemi doganali, la loro conservazione segue le regole sui documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID. È essenziale conservare, in modo ordinato e collegato, la dichiarazione, il relativo MRN, la fattura di vendita e la prova di uscita delle merci, così da poter ricostruire e dimostrare l'intera operazione di esportazione in caso di controllo, anche a distanza di anni."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Reg. (UE) 952/2013 — Codice Doganale dell'Unione (CDU)",
+      "Reg. delegato (UE) 2015/2446 e Reg. di esecuzione (UE) 2015/2447",
+      "D.Lgs. 141/2024 — disposizioni nazionali complementari al CDU",
+      "D.P.R. 633/1972, art. 8 — cessioni all'esportazione non imponibili IVA",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021", "risposta-ade-236-2021"]
+  },
+  {
+    "id": "export-prova-uscita",
+    "ambito": "Export",
+    "title": "La prova di uscita: MRN, visto uscire e IVISTO",
+    "abstract": "Il documento che attesta l'effettiva uscita delle merci dall'Unione, condizione della non imponibilità IVA della cessione all'esportazione.",
+    "lead": "Dichiarare le merci all'esportazione non basta: perché la cessione sia legittimamente non imponibile ai fini IVA, occorre provare che le merci hanno effettivamente lasciato il territorio doganale dell'Unione. Questa prova, un tempo costituita dal timbro «visto uscire» apposto sull'esemplare cartaceo della dichiarazione, è oggi interamente telematica: si fonda sul messaggio elettronico di uscita associato al MRN e, dal dicembre 2024, sul visto elettronico denominato IVISTO, scaricabile dal portale dell'Agenzia delle Dogane e dei Monopoli.",
+    "sezioni": [
+      {
+        "h": "Perché la prova di uscita è decisiva",
+        "p": [
+          "La cessione all'esportazione è non imponibile ai fini IVA ai sensi dell'articolo 8 del D.P.R. 633/1972, ma la non imponibilità è subordinata a una condizione sostanziale: che le merci escano effettivamente dal territorio doganale dell'Unione. La dichiarazione di esportazione manifesta la volontà e avvia l'operazione, ma da sola non prova l'uscita; è la prova dell'effettiva uscita a legittimare il trattamento di non imponibilità e a esonerare l'esportatore dall'addebito dell'IVA.",
+          "La posta in gioco è rilevante: in assenza della prova di uscita, l'operazione non può considerarsi un'esportazione non imponibile, con la conseguenza che l'IVA potrebbe essere dovuta e che potrebbero applicarsi sanzioni. Per questo la prova di uscita è, per l'esportatore, uno dei documenti più importanti da acquisire e conservare, e la sua gestione è oggetto di particolare attenzione nella prassi operativa e nei controlli fiscali."
+        ]
+      },
+      {
+        "h": "Dal timbro cartaceo al messaggio telematico",
+        "p": [
+          "In passato la prova di uscita era costituita dal timbro «visto uscire» apposto dall'ufficio doganale di uscita sull'esemplare cartaceo della dichiarazione (l'esemplare 3 del DAU) o su una copia della fattura. Con la digitalizzazione delle procedure doganali, questo meccanismo cartaceo è stato sostituito da un flusso interamente telematico: l'ufficio di uscita comunica elettronicamente all'ufficio di esportazione l'avvenuta uscita delle merci, e da questo dialogo scaturisce il messaggio dei «risultati di uscita» che appura l'operazione.",
+          "La prova dell'uscita si fonda quindi sul MRN, il numero di riferimento univoco della dichiarazione, attraverso il quale è possibile interrogare il sistema informativo doganale e verificare lo stato dell'operazione e l'avvenuta uscita. Per un lungo periodo l'esportatore ha potuto acquisire la prova consultando, tramite il MRN, il sistema AIDA e ottenendo evidenza dell'uscita delle merci."
+        ]
+      },
+      {
+        "h": "L'IVISTO: il visto elettronico dell'uscita",
+        "p": [
+          "Dal dicembre 2024, con l'evoluzione dei sistemi doganali e l'avvio a regime del sistema unionale AES, la modalità di acquisizione della prova di uscita si è ulteriormente formalizzata attraverso l'IVISTO, il visto elettronico dell'uscita. L'esportatore, previa autorizzazione richiesta sul portale dell'Agenzia delle Dogane e dei Monopoli, può richiedere e scaricare in forma elettronica il documento che attesta l'uscita delle merci, associato al relativo MRN.",
+          "L'IVISTO costituisce la prova documentale, in forma elettronica, che le merci hanno lasciato il territorio dell'Unione, e sostituisce a tutti gli effetti il vecchio visto cartaceo. La sua introduzione ha completato la dematerializzazione della prova di uscita, allineandola alle procedure elettroniche di esportazione. Per l'esportatore, richiedere e conservare l'IVISTO è oggi il modo ordinario per documentare l'uscita delle merci e sostenere la legittimità della non imponibilità IVA."
+        ]
+      },
+      {
+        "h": "Esportazioni dirette, indirette e triangolazioni",
+        "p": [
+          "La disciplina dell'articolo 8 distingue le esportazioni dirette, in cui il trasporto fuori dall'Unione è curato dal cedente o per suo conto, dalle esportazioni indirette, in cui è il cessionario non residente a curare il trasporto entro un termine dalla consegna. In entrambi i casi la prova dell'uscita è essenziale, ma le modalità e i termini possono variare, e nelle esportazioni indirette l'esportatore deve prestare particolare attenzione ad acquisire la prova che il cessionario ha effettivamente esportato i beni nei termini di legge.",
+          "Situazioni particolari si presentano nelle esportazioni in triangolazione, in cui intervengono più soggetti e la merce è ceduta a un primo acquirente ma trasportata direttamente fuori dall'Unione. In questi casi la ricostruzione della prova di uscita e la sua imputazione alle diverse cessioni richiedono attenzione, perché la non imponibilità deve poggiare su una prova coerente con l'effettivo percorso delle merci. La corretta gestione documentale di queste operazioni è essenziale per evitare contestazioni sulla legittimità del regime applicato."
+        ]
+      },
+      {
+        "h": "Conservazione della prova di uscita",
+        "p": [
+          "La prova di uscita — oggi il messaggio telematico dei risultati di uscita e l'IVISTO, collegati al MRN — è un documento essenziale da conservare, perché costituisce la giustificazione della non imponibilità IVA della cessione all'esportazione. Va conservata insieme alla dichiarazione di esportazione e alla fattura di vendita, componendo il fascicolo dell'operazione, per l'intero periodo in cui questa può essere sottoposta a controllo fiscale, nel rispetto dei termini di accertamento e del termine decennale.",
+          "Trattandosi di documenti nativi digitali, la loro conservazione segue le regole sui documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID. È buona pratica acquisire tempestivamente la prova di uscita per ciascuna esportazione, collegarla al MRN e alla fattura, e includerla nel sistema di conservazione con metadati che ne consentano la ricerca. La capacità di esibire, per ogni cessione all'esportazione, la relativa prova di uscita è la migliore garanzia della legittimità della non imponibilità in caso di verifica."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.P.R. 633/1972, art. 8 — cessioni all'esportazione non imponibili IVA",
+      "Reg. (UE) 952/2013 — CDU (uscita delle merci, appuramento dell'esportazione)",
+      "Sistema AES e procedure ADM sull'IVISTO (dal 2 dicembre 2024)",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021", "risposta-ade-236-2021"]
+  },
+  {
+    "id": "export-corredo",
+    "ambito": "Export",
+    "title": "Documenti a corredo dell'esportazione",
+    "abstract": "Fattura, origine preferenziale, documenti di trasporto e certificati: il fascicolo che accompagna e giustifica l'esportazione.",
+    "lead": "Anche l'esportazione, come l'importazione, si fonda su un insieme di documenti che accompagnano e giustificano la dichiarazione: la fattura di vendita, i documenti che attestano l'origine preferenziale delle merci ai fini degli accordi commerciali, i documenti di trasporto e gli eventuali certificati e autorizzazioni. Insieme alla dichiarazione e alla prova di uscita, questi documenti compongono il fascicolo dell'operazione di esportazione, fondamentale per dimostrarne la regolarità e la non imponibilità IVA.",
+    "sezioni": [
+      {
+        "h": "La fattura di vendita all'esportazione",
+        "p": [
+          "La fattura di vendita è il documento che documenta la cessione all'esportazione. Trattandosi di un'operazione non imponibile ai sensi dell'articolo 8 del D.P.R. 633/1972, la fattura è emessa senza addebito di IVA, con l'indicazione del titolo di non imponibilità. La fattura costituisce la base della dichiarazione doganale, che deve corrispondere ai dati in essa contenuti quanto a natura, quantità e valore delle merci, ed è uno degli elementi che l'ufficio doganale verifica in sede di controllo.",
+          "La coerenza tra la fattura, la dichiarazione di esportazione e la prova di uscita è essenziale: eventuali discrepanze possono dare luogo a contestazioni, sia doganali sia fiscali. La fattura è inoltre il documento da cui muove la concorrenza dell'operazione al plafond IVA per gli esportatori abituali, che consente a chi effettua abitualmente esportazioni di acquistare beni e servizi senza applicazione dell'imposta entro determinati limiti. La corretta emissione e conservazione della fattura di esportazione è quindi un adempimento centrale."
+        ]
+      },
+      {
+        "h": "L'origine preferenziale e i certificati",
+        "p": [
+          "Nell'esportazione assume particolare rilievo l'origine preferenziale delle merci, che consente all'acquirente nel Paese terzo di beneficiare di dazi ridotti in virtù degli accordi commerciali tra l'Unione e quel Paese. La prova dell'origine preferenziale è fornita da documenti quali il certificato di circolazione EUR.1, il certificato ATR per gli scambi con la Turchia, o da dichiarazioni di origine rese dall'esportatore secondo le regole dei singoli accordi, in taluni casi nell'ambito del sistema degli esportatori registrati.",
+          "A questi si affianca, quando richiesto dal Paese di destinazione, il certificato di origine non preferenziale, rilasciato di norma dalle Camere di Commercio, che attesta il Paese di origine della merce ai fini generali. La corretta gestione dei documenti relativi all'origine è essenziale per consentire al cliente estero di fruire dei trattamenti preferenziali e per rispondere alle eventuali richieste di verifica dell'origine che le autorità del Paese di destinazione possono rivolgere, tramite l'Unione, all'esportatore."
+        ]
+      },
+      {
+        "h": "Documenti di trasporto e documento di accompagnamento",
+        "p": [
+          "L'esportazione è accompagnata dai documenti di trasporto che provano la spedizione delle merci verso il Paese terzo: la lettera di vettura internazionale su strada (CMR), la polizza di carico marittima, la lettera di vettura aerea. Questi documenti concorrono a provare l'effettività del trasporto fuori dall'Unione e sono elementi di riscontro della prova di uscita, contribuendo a documentare l'intero percorso delle merci.",
+          "Nel sistema doganale l'operazione è inoltre accompagnata dal documento di accompagnamento all'esportazione (DAE), che riporta il MRN e accompagna le merci fino all'ufficio di uscita, dove si perfeziona l'uscita dal territorio dell'Unione. Il DAE, i documenti di trasporto e la prova di uscita si integrano nel documentare che le merci hanno effettivamente lasciato l'Unione, elemento su cui si fonda la non imponibilità IVA della cessione."
+        ]
+      },
+      {
+        "h": "Il senso: il fascicolo dell'operazione di esportazione",
+        "p": [
+          "Come per l'importazione, la dichiarazione, la prova di uscita e i documenti a corredo compongono il fascicolo dell'operazione di esportazione: un insieme documentale coerente che descrive l'intera vicenda, dalla vendita al trasporto, dalla dichiarazione all'uscita effettiva delle merci. La completezza e la coerenza di questo fascicolo sono la migliore garanzia della regolarità dell'operazione e della legittimità della non imponibilità IVA applicata.",
+          "In sede di controllo fiscale, l'Amministrazione ricostruisce l'operazione a partire da questo insieme documentale: verifica la corrispondenza tra la fattura, la dichiarazione, la prova di uscita e i documenti di trasporto, e riscontra la coerenza con le registrazioni contabili e IVA. Un fascicolo ordinato, completo e conservato a norma consente all'esportatore di dimostrare, per ciascuna cessione, che le merci hanno lasciato l'Unione e che la non imponibilità è stata legittimamente applicata."
+        ]
+      },
+      {
+        "h": "Conservazione dei documenti a corredo",
+        "p": [
+          "I documenti a corredo dell'esportazione vanno conservati per l'intero periodo in cui l'operazione può essere sottoposta a controllo doganale e fiscale: in funzione dei termini di revisione dell'accertamento previsti dal Codice Doganale dell'Unione e, ai fini fiscali, fino alla definizione degli accertamenti e nel rispetto del termine decennale. La conservazione deve garantire il collegamento tra la fattura, la dichiarazione, la prova di uscita, i documenti di origine e di trasporto, così da ricostruire l'intero fascicolo dell'operazione.",
+          "La gran parte di questi documenti è oggi in formato elettronico o viene acquisita digitalmente; la loro conservazione segue le regole sui documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID. Organizzare la conservazione per operazione, associando a ciascuna esportazione tutti i documenti del fascicolo con metadati che ne consentano la ricerca, è la pratica che meglio garantisce la reperibilità e l'esibizione della documentazione a sostegno della non imponibilità IVA, anche a distanza di anni."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.P.R. 633/1972, art. 8 — cessioni all'esportazione non imponibili; plafond esportatori abituali",
+      "Reg. (UE) 952/2013 — CDU (origine, esportazione, documento di accompagnamento)",
+      "Reg. delegato (UE) 2015/2446 e Reg. di esecuzione (UE) 2015/2447",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  }
+]

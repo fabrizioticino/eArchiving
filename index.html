@@ -289,7 +289,18 @@
     z-index:1;
     padding:22px 5vw 70px;
   }
-  #contabili-grid{ margin-bottom:70px; }
+  #contabili-grid{ margin-bottom:40px; }
+  .doganali-group-label{
+    position:relative;
+    z-index:1;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:var(--accent);
+    padding:26px 5vw 0;
+  }
+  #doganali-export{ margin-bottom:70px; }
 
   /* ───────── Card manuale (conservatore) ───────── */
   .manuale-card{
@@ -695,6 +706,21 @@
 <div class="section-intro">Schede sui principali libri e registri contabili: come si costruisce ciascun documento, il suo senso nell'impianto contabile e gli aspetti di tenuta, conservazione e imposta di bollo, con le relative fonti normative.</div>
 <div class="temi-grid" id="contabili-grid"></div>
 
+<!-- ───────── Focus: documenti doganali ───────── -->
+<div class="section-rule">
+  <span class="kicker">Focus</span>
+  <h2>Documenti doganali</h2>
+  <span class="rule-line"></span>
+  <span class="result-count" id="doganali-count"></span>
+</div>
+<div class="section-intro">Documenti dell'import e dell'export: come si formano, il loro senso doganale e fiscale (IVA all'importazione, non imponibilità all'esportazione) e la conservazione, con le fonti normative — Codice Doganale dell'Unione, D.Lgs. 141/2024, D.P.R. 633/1972.</div>
+<div id="doganali-wrap">
+  <div class="doganali-group-label">Import</div>
+  <div class="temi-grid" id="doganali-import"></div>
+  <div class="doganali-group-label">Export</div>
+  <div class="temi-grid" id="doganali-export"></div>
+</div>
+
 <footer>
   <span>Materiale a fini informativi — non costituisce consulenza legale o fiscale</span>
   <span>Verificare sempre la versione vigente sulle fonti ufficiali (AgID, Normattiva, EUR-Lex)</span>
@@ -714,6 +740,7 @@ let TEMI = [];
 let FONTI = [];
 let MANUALI = [];
 let CONTABILI = [];
+let DOGANALI = [];
 let activeFilters = { jurisdiction: 'all', status: 'all' };
 let searchTerm = '';
 
@@ -814,25 +841,21 @@ function renderContabili(){
   if(cnt) cnt.textContent = `${CONTABILI.length} schede`;
 }
 
-function openContabile(id){
-  const c = CONTABILI.find(x => x.id === id);
-  if(!c) return;
-  document.getElementById('detail-title').textContent = c.title;
-
-  const sezioniHTML = (c.sezioni || []).map(s => `
+function schedaDetailBody(item, metaLabel){
+  const sezioniHTML = (item.sezioni || []).map(s => `
     <div class="appro-section">
       ${s.h ? `<h3 class="appro-h">${s.h}</h3>` : ''}
       ${(s.p || []).map(par => `<p class="appro-p">${par}</p>`).join('')}
     </div>`).join('');
 
-  const normHTML = (c.fonti_norm || []).length
+  const normHTML = (item.fonti_norm || []).length
     ? `<div class="block">
          <div class="block-head">Fonti normative</div>
-         <ul class="point-list">${c.fonti_norm.map(n => `<li>${n}</li>`).join('')}</ul>
+         <ul class="point-list">${item.fonti_norm.map(n => `<li>${n}</li>`).join('')}</ul>
        </div>`
     : '';
 
-  const relFonti = (c.fonti_ids || []).map(fid => FONTI.find(f => f.id === fid)).filter(Boolean);
+  const relFonti = (item.fonti_ids || []).map(fid => FONTI.find(f => f.id === fid)).filter(Boolean);
   const relHTML = relFonti.length
     ? `<div class="block">
          <div class="block-head">Approfondisci in biblioteca</div>
@@ -840,15 +863,55 @@ function openContabile(id){
        </div>`
     : '';
 
-  document.getElementById('detail-body').innerHTML = `
-    <div class="detail-meta"><span>Documento contabile</span></div>
-    <p class="lead">${c.lead}</p>
+  return `
+    <div class="detail-meta"><span>${metaLabel}</span></div>
+    <p class="lead">${item.lead}</p>
     ${sezioniHTML}
     ${normHTML}
     ${relHTML}
   `;
+}
+
+function openContabile(id){
+  const c = CONTABILI.find(x => x.id === id);
+  if(!c) return;
+  document.getElementById('detail-title').textContent = c.title;
+  document.getElementById('detail-body').innerHTML = schedaDetailBody(c, 'Documento contabile');
   bindRelChips();
   showOverlay('contabile-' + id);
+}
+
+/* ───────── Documenti doganali (Import / Export) ───────── */
+function renderDoganali(){
+  const wrap = document.getElementById('doganali-wrap');
+  if(!wrap) return;
+  [['Import', 'doganali-import'], ['Export', 'doganali-export']].forEach(([ambito, gridId]) => {
+    const grid = document.getElementById(gridId);
+    if(!grid) return;
+    const items = DOGANALI.filter(d => d.ambito === ambito);
+    grid.innerHTML = items.map(d => `
+      <div class="tema-card" tabindex="0" data-id="${d.id}" role="button" aria-label="Apri scheda ${d.title}">
+        <div class="tema-num">${ambito.toUpperCase()}</div>
+        <div class="tema-title">${d.title}</div>
+        <div class="tema-abstract">${d.abstract}</div>
+        <div class="tema-foot">Apri la scheda →</div>
+      </div>`).join('');
+    grid.querySelectorAll('.tema-card').forEach(card => {
+      card.addEventListener('click', () => openDoganale(card.dataset.id));
+      card.addEventListener('keypress', e => { if(e.key === 'Enter') openDoganale(card.dataset.id); });
+    });
+  });
+  const cnt = document.getElementById('doganali-count');
+  if(cnt) cnt.textContent = `${DOGANALI.length} schede`;
+}
+
+function openDoganale(id){
+  const d = DOGANALI.find(x => x.id === id);
+  if(!d) return;
+  document.getElementById('detail-title').textContent = d.title;
+  document.getElementById('detail-body').innerHTML = schedaDetailBody(d, 'Documento doganale — ' + d.ambito);
+  bindRelChips();
+  showOverlay('doganale-' + id);
 }
 
 /* ───────── Manuali del servizio di conservazione ───────── */
@@ -1013,6 +1076,7 @@ function routeFromHash(){
   if(!hash){ closeDetail(); return; }
   if(hash.startsWith('tema-')) openTema(hash.slice(5));
   else if(hash.startsWith('contabile-')) openContabile(hash.slice(10));
+  else if(hash.startsWith('doganale-')) openDoganale(hash.slice(9));
   else if(hash.startsWith('fonte-')) openFonte(hash.slice(6));
 }
 
@@ -1075,11 +1139,18 @@ async function init(){
     CONTABILI = [];
   }
 
+  try {
+    DOGANALI = await (await fetch('data/doganali.json')).json();
+  } catch(e) {
+    DOGANALI = [];
+  }
+
   renderTemi();
   renderGrid();
   renderAdeCollection();
   renderManuali();
   renderContabili();
+  renderDoganali();
   routeFromHash();
 }
 
