@@ -283,6 +283,27 @@
     white-space:nowrap;
   }
 
+  /* ───────── Navigazione a sezioni ───────── */
+  [hidden]{ display:none !important; }
+  .sez-nav{
+    position:relative;
+    z-index:1;
+    padding:22px 5vw 0;
+  }
+  .sez-nav .back-btn{ text-decoration:none; display:inline-flex; }
+  .index-card{
+    background:var(--card);
+    padding:22px 24px;
+    cursor:pointer;
+    transition:background .15s ease;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    text-decoration:none;
+    color:inherit;
+  }
+  .index-card:hover{ background:#fff; }
+
   /* ───────── Raccolta AdE ───────── */
   .ade-wrap{
     position:relative;
@@ -644,7 +665,20 @@
   </div>
 </header>
 
+<!-- ───────── Indice (home) ───────── -->
+<div id="home-index">
+  <div class="section-rule">
+    <span class="kicker">Indice</span>
+    <h2>Sezioni del libro bianco</h2>
+    <span class="rule-line"></span>
+  </div>
+  <div class="section-intro">Apri una sezione per consultarne i contenuti.</div>
+  <div class="temi-grid" id="index-grid"></div>
+</div>
+
 <!-- ───────── Temi ───────── -->
+<section class="portal-section" data-sez="temi" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
 <div class="section-rule">
   <span class="kicker">Parte I</span>
   <h2>Temi della conservazione</h2>
@@ -652,8 +686,11 @@
 </div>
 <div class="section-intro"><span id="temi-count-word">—</span> aree tematiche che coprono governance, processi e infrastruttura del sistema di conservazione. Ogni tema rimanda alle fonti normative collegate.</div>
 <div class="temi-grid" id="temi-grid"></div>
+</section>
 
 <!-- ───────── Biblioteca ───────── -->
+<section class="portal-section" data-sez="biblioteca" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
 <div class="section-rule">
   <span class="kicker">Parte II</span>
   <h2>Biblioteca normativa</h2>
@@ -684,8 +721,11 @@
 <main>
   <div class="grid" id="grid"></div>
 </main>
+</section>
 
 <!-- ───────── Raccolta: circolari e prassi AdE sulla conservazione ───────── -->
+<section class="portal-section" data-sez="ade" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
 <div class="section-rule">
   <span class="kicker">Focus</span>
   <h2>Circolari e prassi AdE sulla conservazione</h2>
@@ -696,8 +736,11 @@
 <div class="ade-wrap">
   <div class="grid" id="ade-grid"></div>
 </div>
+</section>
 
 <!-- ───────── Manuali del servizio di conservazione (conservatori) ───────── -->
+<section class="portal-section" data-sez="manuali" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
 <div class="section-rule">
   <span class="kicker">Operatori</span>
   <h2>Manuali servizio conservazione</h2>
@@ -708,8 +751,11 @@
 <div class="ade-wrap">
   <div class="grid" id="manuali-grid"></div>
 </div>
+</section>
 
 <!-- ───────── Focus: documenti contabili ───────── -->
+<section class="portal-section" data-sez="contabili" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
 <div class="section-rule">
   <span class="kicker">Focus</span>
   <h2>Documenti contabili</h2>
@@ -718,8 +764,11 @@
 </div>
 <div class="section-intro">Schede sui principali libri e registri contabili: come si costruisce ciascun documento, il suo senso nell'impianto contabile e gli aspetti di tenuta, conservazione e imposta di bollo, con le relative fonti normative.</div>
 <div class="temi-grid" id="contabili-grid"></div>
+</section>
 
 <!-- ───────── Focus: documenti doganali ───────── -->
+<section class="portal-section" data-sez="doganali" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
 <div class="section-rule">
   <span class="kicker">Focus</span>
   <h2>Documenti doganali</h2>
@@ -733,6 +782,7 @@
   <div class="doganali-group-label">Export</div>
   <div class="temi-grid" id="doganali-export"></div>
 </div>
+</section>
 
 <footer>
   <span>Materiale a fini informativi — non costituisce consulenza legale o fiscale</span>
@@ -754,6 +804,7 @@ let FONTI = [];
 let MANUALI = [];
 let CONTABILI = [];
 let DOGANALI = [];
+let currentSez = null;
 let activeFilters = { jurisdiction: 'all', status: 'all' };
 let searchTerm = '';
 
@@ -893,13 +944,13 @@ function schedaDetailBody(item, metaLabel){
   `;
 }
 
-function openContabile(id){
+function openContabile(id, noPush){
   const c = CONTABILI.find(x => x.id === id);
   if(!c) return;
   document.getElementById('detail-title').textContent = c.title;
   document.getElementById('detail-body').innerHTML = schedaDetailBody(c, 'Documento contabile');
   bindRelChips();
-  showOverlay('contabile-' + id);
+  showOverlay('contabile-' + id, noPush);
 }
 
 /* ───────── Documenti doganali (Import / Export) ───────── */
@@ -926,13 +977,13 @@ function renderDoganali(){
   if(cnt) cnt.textContent = `${DOGANALI.length} schede`;
 }
 
-function openDoganale(id){
+function openDoganale(id, noPush){
   const d = DOGANALI.find(x => x.id === id);
   if(!d) return;
   document.getElementById('detail-title').textContent = d.title;
   document.getElementById('detail-body').innerHTML = schedaDetailBody(d, 'Documento doganale — ' + d.ambito);
   bindRelChips();
-  showOverlay('doganale-' + id);
+  showOverlay('doganale-' + id, noPush);
 }
 
 /* ───────── Manuali del servizio di conservazione ───────── */
@@ -977,7 +1028,7 @@ function renderGrid(){
 }
 
 /* ───────── Detail: tema ───────── */
-function openTema(id){
+function openTema(id, noPush){
   const t = TEMI.find(x => x.id === id);
   if(!t) return;
   document.getElementById('detail-title').textContent = t.title;
@@ -1008,11 +1059,11 @@ function openTema(id){
     </div>
   `;
   bindRelChips();
-  showOverlay('tema-' + id);
+  showOverlay('tema-' + id, noPush);
 }
 
 /* ───────── Detail: fonte ───────── */
-function openFonte(id){
+function openFonte(id, noPush){
   const f = FONTI.find(x => x.id === id);
   if(!f) return;
   document.getElementById('detail-title').textContent = f.short;
@@ -1066,7 +1117,7 @@ function openFonte(id){
     </div>` : ''}
   `;
   bindRelChips();
-  showOverlay('fonte-' + id);
+  showOverlay('fonte-' + id, noPush);
 }
 
 function bindRelChips(){
@@ -1079,30 +1130,71 @@ function bindRelChips(){
   });
 }
 
-function showOverlay(hash){
+function showOverlay(hash, noPush){
   document.getElementById('detail-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
   window.scrollTo(0,0);
-  history.pushState({hash}, '', `#${hash}`);
+  if(!noPush) history.pushState({hash}, '', `#${hash}`);
+}
+
+function hideOverlay(){
+  document.getElementById('detail-overlay').classList.remove('open');
+  document.body.style.overflow = '';
 }
 
 function closeDetail(){
-  document.getElementById('detail-overlay').classList.remove('open');
-  document.body.style.overflow = '';
-  history.pushState({}, '', window.location.pathname);
+  hideOverlay();
+  history.pushState({}, '', currentSez ? `#sezione-${currentSez}` : window.location.pathname);
+  window.scrollTo(0,0);
+}
+
+/* ───────── Navigazione a sezioni ───────── */
+function setSection(id){
+  const home = document.getElementById('home-index');
+  if(home) home.hidden = !!id;
+  document.querySelectorAll('.portal-section').forEach(s => { s.hidden = (s.dataset.sez !== id); });
+  currentSez = id || null;
+}
+
+// L'indice è generato dalle sezioni stesse: titolo e descrizione restano sempre allineati.
+function renderHomeIndex(){
+  const grid = document.getElementById('index-grid');
+  if(!grid) return;
+  grid.innerHTML = [...document.querySelectorAll('.portal-section')].map(s => {
+    const kicker = s.querySelector('.section-rule .kicker');
+    const h2 = s.querySelector('.section-rule h2');
+    const intro = s.querySelector('.section-intro');
+    const n = s.querySelectorAll('.tema-card, .fonte-card, .manuale-card').length;
+    return `
+      <a class="index-card" href="#sezione-${s.dataset.sez}">
+        <div class="tema-num">${kicker ? kicker.textContent : ''}</div>
+        <div class="tema-title">${h2 ? h2.textContent : ''}</div>
+        <div class="tema-abstract">${intro ? intro.textContent.trim() : ''}</div>
+        <div class="tema-foot">${n} voci · Apri la sezione →</div>
+      </a>`;
+  }).join('');
 }
 
 function routeFromHash(){
   const hash = window.location.hash.replace('#','');
-  if(!hash){ closeDetail(); return; }
-  if(hash.startsWith('tema-')) openTema(hash.slice(5));
-  else if(hash.startsWith('contabile-')) openContabile(hash.slice(10));
-  else if(hash.startsWith('doganale-')) openDoganale(hash.slice(9));
-  else if(hash.startsWith('fonte-')) openFonte(hash.slice(6));
+  if(!hash){ hideOverlay(); setSection(null); return; }
+  if(hash.startsWith('sezione-')){ hideOverlay(); setSection(hash.slice(8)); window.scrollTo(0,0); return; }
+  if(hash.startsWith('tema-')){ setSection('temi'); openTema(hash.slice(5), true); return; }
+  if(hash.startsWith('contabile-')){ setSection('contabili'); openContabile(hash.slice(10), true); return; }
+  if(hash.startsWith('doganale-')){ setSection('doganali'); openDoganale(hash.slice(9), true); return; }
+  if(hash.startsWith('fonte-')){
+    const id = hash.slice(6);
+    const f = FONTI.find(x => x.id === id);
+    setSection(f && isAdeFonte(f) ? 'ade' : 'biblioteca');
+    openFonte(id, true);
+    return;
+  }
+  hideOverlay(); setSection(null);
 }
 
 document.getElementById('back-btn').addEventListener('click', closeDetail);
 window.addEventListener('popstate', routeFromHash);
+window.addEventListener('hashchange', routeFromHash);
 
 document.getElementById('search').addEventListener('input', e => {
   searchTerm = e.target.value;
@@ -1172,6 +1264,7 @@ async function init(){
   renderManuali();
   renderContabili();
   renderDoganali();
+  renderHomeIndex();
   routeFromHash();
 }
 
