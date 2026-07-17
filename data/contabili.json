@@ -854,6 +854,139 @@
         ]
       },
       {
+        "h": "La ratio dell'ammortamento",
+        "p": [
+          "Alla base del registro dei cespiti sta un principio fondamentale della rappresentazione contabile: la competenza economica. Un bene strumentale acquistato oggi produrrà utilità per molti anni; imputarne l'intero costo all'esercizio di acquisto significherebbe attribuire a quell'anno un onere che in realtà appartiene a tutti gli esercizi in cui il bene sarà impiegato, deformando sia il risultato dell'anno di acquisto sia quello degli anni successivi. L'ammortamento è la tecnica che risolve questo problema, ripartendo il costo lungo la vita utile del bene.",
+          "Da questa esigenza discende la necessità di una scrittura dedicata: per ripartire correttamente il costo occorre tenere memoria, bene per bene, di quanto è stato pagato, di quanto è già stato dedotto e di quanto resta da ammortizzare. Il registro dei beni ammortizzabili è esattamente questa memoria. La sua funzione non è quindi burocratica, ma sostanziale: senza di esso non sarebbe possibile né determinare correttamente il reddito d'esercizio, né conoscere il valore residuo del patrimonio investito in beni strumentali."
+        ]
+      },
+      {
+        "h": "Il bene strumentale e l'utilità pluriennale",
+        "p": [
+          "Non tutti i beni acquistati dall'impresa entrano nel registro dei cespiti. Vi entrano i beni strumentali, cioè quelli impiegati durevolmente nell'esercizio dell'attività e non destinati alla vendita: impianti, macchinari, attrezzature, mobili, automezzi, fabbricati, oltre ai beni immateriali come brevetti, marchi e licenze. Restano esclusi i beni-merce, destinati alla rivendita, che confluiscono nelle rimanenze, e i beni di consumo, il cui costo è interamente di competenza dell'esercizio.",
+          "Il criterio distintivo è l'utilità pluriennale: il bene cede la propria utilità lungo più esercizi e per questo il suo costo va ripartito. La corretta qualificazione di un acquisto — bene strumentale da ammortizzare, bene-merce da iscrivere tra le rimanenze, costo di esercizio da dedurre integralmente — è il primo passo della gestione dei cespiti, e un errore in questa fase si riflette sull'intera catena: sull'iscrizione nel registro, sul calcolo degli ammortamenti, sulla valutazione del patrimonio e sulla determinazione del reddito."
+        ]
+      },
+      {
+        "h": "Il contenuto obbligatorio del registro",
+        "p": [
+          "L'articolo 16 del D.P.R. 600/1973 definisce con precisione il contenuto del registro. Per ciascun bene, o per categorie omogenee di beni, devono risultare: l'anno di acquisizione; il costo originario; le eventuali rivalutazioni e svalutazioni; il fondo di ammortamento nella misura raggiunta al termine del periodo d'imposta precedente; il coefficiente di ammortamento effettivamente praticato nel periodo; la quota annuale di ammortamento; le eliminazioni dal processo produttivo e le cessioni.",
+          "Questo insieme di dati non è casuale: ciascun elemento è necessario a ricostruire la storia fiscale del bene e a giustificare la quota dedotta in ciascun esercizio. Il costo originario è la base di calcolo; il fondo indica quanto è già stato dedotto; il coefficiente giustifica la misura della quota; le rivalutazioni e svalutazioni spiegano eventuali variazioni della base. In sede di controllo, è proprio la completezza di questi dati a consentire la verifica della correttezza degli ammortamenti dedotti, e la loro assenza o incompletezza può compromettere la deducibilità."
+        ]
+      },
+      {
+        "h": "Il costo di acquisizione e gli oneri accessori",
+        "p": [
+          "La base su cui si calcola l'ammortamento è il costo di acquisizione del bene, che non coincide necessariamente con il prezzo esposto in fattura. Al prezzo si aggiungono, infatti, gli oneri accessori di diretta imputazione: le spese di trasporto, di installazione e di collaudo, i dazi, le eventuali spese notarili e di registrazione per gli immobili, e in genere tutti i costi necessari a rendere il bene pronto per l'uso. Per i beni costruiti internamente, il costo è quello di produzione.",
+          "Un aspetto rilevante riguarda l'IVA: se detraibile, non concorre al costo; se indetraibile, in tutto o in parte, si aggiunge al costo del bene e concorre quindi alla base di ammortamento. La corretta determinazione del costo di acquisizione è essenziale, perché da essa dipende l'ammontare complessivo che sarà dedotto lungo la vita del bene. Un costo determinato in modo errato produce ammortamenti errati per tutti gli esercizi successivi, con un effetto che si protrae nel tempo e che in sede di verifica può dare luogo a rettifiche pluriennali."
+        ]
+      },
+      {
+        "h": "I coefficienti di ammortamento",
+        "p": [
+          "La misura massima della quota di ammortamento deducibile ai fini fiscali non è liberamente determinata dall'impresa, ma discende dai coefficienti stabiliti con decreto ministeriale, tradizionalmente il D.M. 31 dicembre 1988, che individua per ciascuna categoria di beni e per ciascun settore di attività un coefficiente percentuale. Il coefficiente esprime la quota di costo deducibile in ciascun esercizio e riflette la vita utile presunta del bene secondo l'esperienza settoriale.",
+          "La disciplina fiscale dell'ammortamento dei beni materiali è contenuta nell'articolo 102 del TUIR, quella dei beni immateriali nell'articolo 103. Una regola caratteristica prevede che nel primo esercizio di entrata in funzione del bene il coefficiente sia ridotto alla metà, in considerazione del fatto che il bene è impiegato solo per una parte dell'anno. L'applicazione dei coefficienti va annotata nel registro, che deve indicare il coefficiente effettivamente praticato: è questo dato che consente di verificare che la quota dedotta non ecceda il massimo consentito."
+        ]
+      },
+      {
+        "h": "Il calcolo della quota e il fondo di ammortamento",
+        "p": [
+          "Il calcolo della quota annuale avviene applicando il coefficiente al costo del bene: se un macchinario costa 100.000 euro e il coefficiente è del 12,5%, la quota annua è di 12.500 euro, ridotta a 6.250 nel primo esercizio di entrata in funzione. Ogni quota così determinata viene annotata nel registro e va ad alimentare il fondo di ammortamento, che rappresenta la somma delle quote già imputate e quindi la parte di costo già dedotta.",
+          "La differenza tra il costo originario e il fondo di ammortamento esprime il valore residuo, cioè la parte di costo ancora da ammortizzare, che corrisponde al valore con cui il bene figura nel patrimonio. Quando il fondo eguaglia il costo, il bene è completamente ammortizzato e non genera più quote deducibili, pur potendo restare in uso: in tal caso continua a figurare nel registro con valore residuo nullo, finché non sia ceduto o eliminato. È questo meccanismo, semplice ma rigoroso, che il registro documenta bene per bene e anno per anno."
+        ]
+      },
+      {
+        "h": "I beni di modico valore",
+        "p": [
+          "La disciplina fiscale prevede una semplificazione per i beni di costo unitario contenuto: l'articolo 102 del TUIR consente la deduzione integrale nell'esercizio, anziché l'ammortamento pluriennale, per i beni il cui costo unitario non supera la soglia di 516,46 euro. La ratio è evidente: per beni di valore modesto, il beneficio informativo dell'ammortamento non giustificherebbe l'onere gestionale di seguirli per più esercizi.",
+          "Questa facoltà, tuttavia, non esonera dall'attenzione: la soglia si riferisce al costo unitario del singolo bene, e occorre valutare correttamente quando più elementi costituiscano un unico bene complesso — un impianto composto di più parti — piuttosto che beni autonomi. Inoltre, la scelta della deduzione integrale ha effetti sul piano civilistico e su quello fiscale che vanno coordinati. Anche i beni dedotti integralmente possono comunque essere annotati nel registro o in appositi elenchi, per tenerne memoria a fini gestionali e inventariali, pur non generando quote di ammortamento negli esercizi successivi."
+        ]
+      },
+      {
+        "h": "L'entrata in funzione del bene",
+        "p": [
+          "Un principio cardine della disciplina fiscale dell'ammortamento è che le quote iniziano a essere deducibili a partire dall'esercizio di entrata in funzione del bene, non da quello di acquisto. Un macchinario acquistato a dicembre ma installato e reso operativo a marzo dell'anno successivo comincerà ad ammortizzarsi solo nel secondo esercizio. Questa regola, prevista dall'articolo 102 del TUIR, riflette la logica dell'ammortamento: il costo si ripartisce lungo il periodo in cui il bene produce utilità, e l'utilità comincia con l'impiego effettivo.",
+          "L'entrata in funzione è quindi un dato da documentare e da tenere presente nella gestione del registro, perché determina il momento di avvio dell'ammortamento e, con esso, la riduzione a metà del coefficiente nel primo esercizio. In sede di controllo, la deduzione di quote su beni non ancora entrati in funzione è una contestazione ricorrente. La corretta rilevazione della data di entrata in funzione, distinta da quella di acquisto, è un elemento di accuratezza che il registro e la documentazione di supporto devono consentire di dimostrare."
+        ]
+      },
+      {
+        "h": "I beni immateriali",
+        "p": [
+          "Accanto ai beni materiali, il registro accoglie i beni immateriali, la cui disciplina fiscale è dettata dall'articolo 103 del TUIR con criteri propri, diversi dai coefficienti del decreto ministeriale. Per i diritti di utilizzazione delle opere dell'ingegno, i brevetti industriali, i processi e le formule, la quota deducibile non può eccedere una misura pari a metà del costo. Per i marchi d'impresa e per l'avviamento, la deduzione è ammessa in misura non superiore a un diciottesimo del costo.",
+          "Per le concessioni, le licenze e i diritti di durata determinata, l'ammortamento segue invece la durata di utilizzazione prevista dal contratto o dalla legge. Questa articolazione richiede attenzione nella qualificazione del bene immateriale, perché a categorie diverse corrispondono regole diverse. Il registro deve dare conto della categoria e del criterio applicato, così da consentire la verifica della quota dedotta. I beni immateriali, spesso di valore rilevante nelle imprese moderne, rappresentano quindi un capitolo del registro cespiti con regole proprie da presidiare con cura."
+        ]
+      },
+      {
+        "h": "Fabbricati e scorporo del valore del terreno",
+        "p": [
+          "I fabbricati strumentali presentano una particolarità rilevante: il terreno su cui insistono non è soggetto ad ammortamento, perché non subisce deperimento. La normativa impone quindi lo scorporo del valore dell'area dal valore complessivo dell'immobile, ammortizzando soltanto la componente riferibile al fabbricato. Quando il valore dell'area non risulta da un acquisto autonomo, esso si determina forfetariamente come quota percentuale del costo complessivo, con una misura maggiore per i fabbricati industriali rispetto agli altri.",
+          "Questa regola, introdotta per contrastare l'ammortamento di componenti non deperibili, ha un impatto concreto sulla gestione del registro: per ciascun fabbricato occorre distinguere la quota riferibile al terreno, non ammortizzabile, da quella riferibile alla costruzione, ammortizzabile secondo il coefficiente applicabile. Il registro deve dare conto di questa distinzione, e la sua omissione è tra le contestazioni ricorrenti in sede di verifica sui fabbricati strumentali. La corretta gestione degli immobili nel registro richiede quindi un'attenzione specifica, superiore a quella dei beni mobili."
+        ]
+      },
+      {
+        "h": "Beni in leasing e beni di terzi",
+        "p": [
+          "Non tutti i beni impiegati dall'impresa figurano nel registro dei cespiti. I beni acquisiti in locazione finanziaria, secondo l'impostazione contabile tradizionalmente adottata in Italia per i soggetti che applicano le regole nazionali, non sono iscritti tra le immobilizzazioni dell'utilizzatore finché non è esercitato il riscatto: la rilevazione avviene attraverso la deduzione dei canoni, secondo le regole e i termini minimi previsti dal TUIR. Solo al riscatto il bene entra nel patrimonio e nel registro, con il relativo valore.",
+          "Analogamente, i beni di terzi impiegati dall'impresa a vario titolo — in comodato, in affitto, in prestito d'uso — non figurano tra i cespiti dell'utilizzatore, pur potendo essere oggetto di annotazioni gestionali o di conti d'ordine. La corretta individuazione di quali beni entrano nel registro e quali no è quindi un passaggio preliminare essenziale: iscrivere beni non di proprietà o omettere beni propri produce errori nella determinazione degli ammortamenti e nella rappresentazione del patrimonio, con riflessi sia civilistici sia fiscali."
+        ]
+      },
+      {
+        "h": "Agevolazioni e maggiorazioni sugli investimenti",
+        "p": [
+          "Nel corso degli anni il legislatore è intervenuto ripetutamente con misure agevolative sugli investimenti in beni strumentali, volte a incentivare il rinnovo del parco produttivo e la trasformazione tecnologica. Si sono succedute forme di maggiorazione del costo ammortizzabile, che consentivano di dedurre quote superiori al costo effettivamente sostenuto, e successivamente meccanismi di credito d'imposta commisurato all'investimento, con aliquote differenziate a seconda della tipologia di bene.",
+          "Queste misure, che si sono avvicendate e modificate nel tempo, hanno un riflesso diretto sulla gestione dei cespiti: richiedono di individuare i beni agevolabili, di documentarne i requisiti e, nel caso delle maggiorazioni, di gestire una base di ammortamento fiscale diversa da quella civilistica. Trattandosi di misure temporanee e soggette a frequenti modifiche, è essenziale verificare di volta in volta la disciplina vigente al momento dell'investimento. Il registro, documentando costo, coefficiente e quote, resta lo strumento su cui queste discipline si innestano e da cui si ricostruisce il trattamento applicato a ciascun bene."
+        ]
+      },
+      {
+        "h": "Il registro nei regimi contabili e nei sistemi gestionali",
+        "p": [
+          "L'obbligo di tenuta del registro dei beni ammortizzabili non è esclusivo della contabilità ordinaria: anche i soggetti in contabilità semplificata, che pure sono esonerati dal libro giornale e dal libro degli inventari, devono disporre dei dati sui beni ammortizzabili, potendo assolvere l'obbligo con modalità semplificate e, entro certi limiti, attraverso annotazioni sui registri IVA. La ragione è evidente: senza i dati sui cespiti non sarebbe possibile determinare le quote di ammortamento deducibili, che concorrono al reddito in qualunque regime.",
+          "Nei sistemi gestionali il registro cespiti è tipicamente un modulo dedicato, integrato con la contabilità generale: l'iscrizione di un bene genera automaticamente le scritture contabili, il calcolo delle quote produce le scritture di assestamento, la cessione determina il calcolo automatico di plusvalenze e minusvalenze. Questa integrazione riduce gli errori e garantisce la coerenza tra registro, giornale, mastro e bilancio. Resta però la responsabilità dell'impresa di impostare correttamente i dati di base — categoria, coefficiente, data di entrata in funzione, costo — da cui tutto il resto discende automaticamente."
+        ]
+      },
+      {
+        "h": "Le categorie omogenee di beni",
+        "p": [
+          "L'articolo 16 del D.P.R. 600/1973 non impone necessariamente il dettaglio del singolo bene: consente che le annotazioni siano effettuate per categorie omogenee di beni, raggruppati per anno di acquisizione e per coefficiente di ammortamento. Questa facoltà risponde a un'esigenza pratica: per imprese con un parco di beni numeroso e ripetitivo — si pensi a un'azienda con centinaia di attrezzature identiche — seguire ogni singolo elemento sarebbe oneroso senza reale beneficio informativo.",
+          "Il raggruppamento è però ammesso solo per beni effettivamente omogenei, acquisiti nello stesso anno e assoggettati allo stesso coefficiente: solo così la categoria si comporta, ai fini dell'ammortamento, come un unico bene. Restano invece da seguire singolarmente i beni di rilievo, quelli con vicende proprie — rivalutazioni, cessioni, dismissioni — e quelli per cui la normativa richiede il dettaglio. Nella pratica dei sistemi gestionali, che rendono poco oneroso il dettaglio analitico, il raggruppamento per categorie è oggi meno frequente, ma resta una possibilità utile in casi specifici."
+        ]
+      },
+      {
+        "h": "Manutenzioni, riparazioni e capitalizzazioni",
+        "p": [
+          "Un tema strettamente connesso al registro dei cespiti è il trattamento delle spese di manutenzione e riparazione. La distinzione fondamentale è tra manutenzione ordinaria, che mantiene il bene in efficienza senza accrescerne il valore o la vita utile, e manutenzione straordinaria, che invece incrementa la capacità produttiva o prolunga la vita del bene. Le prime sono costi dell'esercizio; le seconde vanno capitalizzate, cioè portate a incremento del costo del bene e ammortizzate con esso.",
+          "Sul piano fiscale, l'articolo 102 del TUIR prevede per le spese di manutenzione ordinaria una regola specifica: sono deducibili nell'esercizio entro un limite commisurato a una percentuale del costo complessivo dei beni ammortizzabili risultante dal registro, mentre l'eccedenza è deducibile in quote costanti negli esercizi successivi. È significativo che il parametro di questo limite si ricavi proprio dal registro dei cespiti: un ulteriore motivo per cui la sua corretta tenuta ha effetti che vanno oltre il solo calcolo degli ammortamenti, incidendo anche sulla deducibilità di altri componenti di reddito."
+        ]
+      },
+      {
+        "h": "Il registro come inventario dei beni strumentali",
+        "p": [
+          "Al di là della funzione fiscale, il registro dei cespiti assolve una funzione gestionale di inventario dei beni strumentali: consente di sapere quali beni l'impresa possiede, dove sono collocati, quando sono stati acquistati, quanto sono stati ammortizzati e quale valore residuo hanno. È, in sostanza, la mappa del capitale fisso investito nell'attività, informazione preziosa per la programmazione degli investimenti, per la gestione delle manutenzioni, per le coperture assicurative e per le valutazioni straordinarie.",
+          "Molte imprese affiancano al registro fiscale una gestione dei cespiti più ricca di informazioni — ubicazione, matricola, centro di costo, responsabile, stato di conservazione — che risponde a esigenze operative. La periodica ricognizione fisica dei beni, confrontata con le risultanze del registro, consente di individuare beni non più esistenti ma ancora iscritti, o beni presenti ma mai registrati: entrambe situazioni da correggere, perché incidono sia sulla correttezza degli ammortamenti sia sull'attendibilità della rappresentazione patrimoniale nell'inventario e nel bilancio."
+        ]
+      },
+      {
+        "h": "Il valore informativo del parco cespiti nel tempo",
+        "p": [
+          "Il registro dei cespiti, conservato nel tempo, restituisce un'informazione che nessun'altra scrittura fornisce: la storia degli investimenti durevoli dell'impresa. Dall'analisi del registro si ricava l'età media del parco beni, il grado di ammortamento raggiunto, la dinamica degli investimenti negli anni, l'incidenza dei beni completamente ammortizzati ma ancora in uso. Sono informazioni che parlano della capacità dell'impresa di rinnovare la propria struttura produttiva e della vetustà dei suoi mezzi.",
+          "Questa dimensione temporale rende la conservazione del registro particolarmente importante: poiché l'ammortamento si sviluppa lungo molti esercizi, la ricostruzione della posizione di un cespite può richiedere di risalire indietro di anni. Un registro conservato a norma, insieme alla documentazione di acquisto, consente di dimostrare in ogni momento la correttezza delle quote dedotte lungo l'intera vita del bene, e di rispondere con precisione alle richieste degli organi di controllo anche molto tempo dopo l'investimento iniziale."
+        ]
+      },
+      {
+        "h": "La documentazione a supporto del registro",
+        "p": [
+          "Il registro dei cespiti non è autosufficiente: i dati che contiene devono poter essere giustificati dalla documentazione sottostante. La fattura di acquisto prova il costo; i documenti relativi agli oneri accessori — trasporto, installazione, collaudo — ne giustificano l'incremento; per gli immobili, l'atto notarile e la perizia eventualmente redatta documentano il valore e lo scorporo dell'area; i contratti e i verbali attestano la data di entrata in funzione, le dismissioni, le cessioni.",
+          "Questo corredo documentale va conservato insieme al registro e per il medesimo periodo, perché è ciò che consente di dimostrare, in sede di verifica, la fondatezza dei valori annotati. Poiché la vita di un cespite può estendersi per molti anni, la documentazione di acquisto può dover essere esibita a grande distanza di tempo dall'operazione. Organizzare la conservazione digitale collegando ciascun cespite ai relativi documenti — con metadati che ne consentano il recupero — è quindi una pratica che ripaga ampiamente nel momento in cui il controllo interviene."
+        ]
+      },
+      {
+        "h": "Gli errori ricorrenti nella gestione dei cespiti",
+        "p": [
+          "L'esperienza dei controlli evidenzia alcuni errori ricorrenti nella gestione del registro. Il più frequente è l'errata determinazione del costo, per omessa inclusione degli oneri accessori o per indebita capitalizzazione di costi che avrebbero dovuto essere dedotti nell'esercizio. Seguono l'applicazione di coefficienti non corrispondenti alla categoria del bene o al settore di attività, la deduzione di quote su beni non ancora entrati in funzione, e la mancata gestione dello scorporo del terreno per i fabbricati.",
+          "Altri errori riguardano la fase finale: beni ceduti o dismessi che restano iscritti e continuano a generare quote, oppure plusvalenze e minusvalenze calcolate su valori residui non aggiornati. A questi si aggiunge la confusione tra manutenzione ordinaria e straordinaria, con effetti sia sulla base ammortizzabile sia sulla deducibilità delle spese. La maggior parte di questi errori nasce non da complessità tecniche insormontabili, ma da disallineamenti tra la realtà operativa e la sua rappresentazione nel registro: il presidio più efficace resta l'aggiornamento tempestivo e la periodica riconciliazione tra registro, contabilità e consistenza fisica dei beni."
+        ]
+      },
+      {
         "h": "Il senso nell'impianto contabile e i rapporti con gli altri libri",
         "p": [
           "Nel disegno contabile il registro dei beni ammortizzabili svolge una funzione di dettaglio rispetto alle poste sintetiche delle immobilizzazioni iscritte in bilancio e riepilogate nel libro inventari. Le quote di ammortamento calcolate nel registro trovano riscontro nelle scritture di assestamento del libro giornale e nei relativi conti del mastro, mentre il valore residuo dei cespiti concorre alla valutazione delle immobilizzazioni nell'inventario e nel bilancio.",
@@ -866,10 +999,55 @@
           "Il registro dei beni ammortizzabili deve essere aggiornato entro il termine di presentazione della dichiarazione dei redditi, coerentemente con la sua funzione di supporto alla determinazione del reddito d'impresa. Non è soggetto all'imposta di bollo, che grava sui soli libro giornale e libro inventari, né alle formalità di numerazione proprie dei libri obbligatori nominati dal Codice civile, ma va tenuto secondo le regole dell'ordinata contabilità.",
           "In quanto scrittura rilevante ai fini tributari, il registro va conservato fino alla definizione degli accertamenti relativi al periodo d'imposta. Se tenuto e prodotto in formato digitale, come avviene ordinariamente, si applicano le regole sulla conservazione dei documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID, con le medesime garanzie di integrità, leggibilità e reperibilità richieste per le altre scritture contabili."
         ]
+      },
+      {
+        "h": "Ammortamento civilistico e ammortamento fiscale",
+        "p": [
+          "Una distinzione essenziale, spesso fonte di equivoci, è quella tra ammortamento civilistico e ammortamento fiscale. Sul piano civilistico, l'articolo 2426 del Codice civile impone che il costo delle immobilizzazioni sia ammortizzato sistematicamente in ogni esercizio in relazione alla residua possibilità di utilizzazione del bene: il criterio è economico e guarda alla vita utile effettiva. Sul piano fiscale, la deducibilità della quota è limitata dai coefficienti ministeriali previsti dal TUIR.",
+          "I due piani possono divergere: se l'ammortamento civilistico, correttamente determinato in base alla vita utile, eccede il massimo fiscalmente deducibile, la differenza dà luogo a una variazione in aumento in dichiarazione, con l'eventuale rilevazione della fiscalità differita. Il registro dei beni ammortizzabili documenta il profilo fiscale — il coefficiente praticato, la quota dedotta, il fondo — mentre il bilancio riflette quello civilistico. Comprendere e gestire questa possibile divergenza è uno degli aspetti più delicati della gestione dei cespiti, e il registro è lo strumento che ne consente il controllo."
+        ]
+      },
+      {
+        "h": "Rivalutazioni e svalutazioni",
+        "p": [
+          "Il valore dei cespiti iscritto nel registro non è necessariamente immutabile. Possono intervenire rivalutazioni, quando norme specifiche consentono di adeguare il valore dei beni, con effetti che possono essere civilistici, fiscali o entrambi a seconda della disciplina applicabile; e svalutazioni, quando il bene subisce una perdita durevole di valore che ne riduce il valore recuperabile al di sotto del valore contabile residuo.",
+          "L'articolo 16 del D.P.R. 600/1973 richiede espressamente che rivalutazioni e svalutazioni risultino dal registro, proprio perché modificano la base di calcolo dell'ammortamento e quindi le quote deducibili degli esercizi successivi. La loro corretta annotazione è essenziale per la ricostruibilità della storia fiscale del bene: senza di essa non sarebbe possibile spiegare perché la quota di un dato esercizio differisce da quella degli anni precedenti. Il registro, registrando questi eventi, conserva memoria completa delle vicende che hanno interessato ciascun cespite."
+        ]
+      },
+      {
+        "h": "Cessione, dismissione, plusvalenze e minusvalenze",
+        "p": [
+          "La vita del cespite nel registro si conclude con la sua cessione o eliminazione. In caso di cessione, il confronto tra il corrispettivo di vendita e il valore residuo — costo meno fondo di ammortamento — determina una plusvalenza, se il corrispettivo è maggiore, o una minusvalenza, se è minore. Questi componenti concorrono alla determinazione del reddito d'esercizio secondo le regole del TUIR, che per le plusvalenze prevedono, al ricorrere di certe condizioni, la possibilità di rateizzazione in più esercizi.",
+          "In caso di eliminazione del bene dal processo produttivo senza cessione — per rottamazione, distruzione o obsolescenza — il valore residuo eventualmente non ammortizzato costituisce un componente negativo di reddito. Anche questi eventi devono risultare dal registro, che ne conserva traccia. La corretta gestione della fase finale della vita del cespite è importante quanto quella iniziale: è dal registro che si traggono i dati per calcolare correttamente plusvalenze e minusvalenze, e la loro determinazione errata incide direttamente sul reddito imponibile dell'esercizio."
+        ]
+      },
+      {
+        "h": "Il registro nei controlli fiscali",
+        "p": [
+          "Il registro dei beni ammortizzabili è tra i documenti richiesti in sede di verifica fiscale, perché consente di controllare la correttezza degli ammortamenti dedotti, uno dei componenti negativi di reddito più rilevanti per le imprese strutturate. I verificatori riscontrano la corretta qualificazione dei beni, la determinazione del costo, l'applicazione dei coefficienti, il calcolo delle quote e del fondo, la corretta gestione delle cessioni.",
+          "Le contestazioni più frequenti riguardano l'applicazione di coefficienti superiori a quelli ammessi, l'errata determinazione del costo per omessa o indebita inclusione di oneri accessori, la qualificazione come bene strumentale di elementi che avrebbero dovuto essere trattati diversamente, la deduzione di quote su beni non più esistenti o non entrati in funzione. Un registro completo, coerente con la documentazione di acquisto e con le scritture contabili, e conservato a norma, è la migliore garanzia per dimostrare la correttezza degli ammortamenti dedotti anche a distanza di anni."
+        ]
+      },
+      {
+        "h": "Il coordinamento con inventario, giornale e mastro",
+        "p": [
+          "Il registro dei cespiti vive in stretto dialogo con le altre scritture. Le quote di ammortamento calcolate nel registro sono rilevate, come scritture di assestamento, nel libro giornale e confluiscono nei conti del mastro — il conto di costo «ammortamenti» e il conto rettificativo «fondo ammortamento». Il valore residuo dei cespiti, risultante dal registro, alimenta la valutazione delle immobilizzazioni nel libro degli inventari e, di conseguenza, la voce delle immobilizzazioni nello stato patrimoniale.",
+          "Questa catena di corrispondenze è un controllo di coerenza fondamentale: il totale dei valori residui del registro deve corrispondere al valore delle immobilizzazioni iscritte in bilancio, il totale dei fondi al fondo ammortamento del mastro, il totale delle quote al costo per ammortamenti del conto economico. In sede di verifica, l'incrocio tra registro cespiti, inventario, giornale e mastro è uno dei riscontri più diretti dell'attendibilità della contabilità. Il registro, pur essendo una scrittura di dettaglio, è quindi un tassello essenziale della coerenza complessiva dell'impianto contabile."
+        ]
+      },
+      {
+        "h": "Buone pratiche e sintesi: la memoria dei beni strumentali",
+        "p": [
+          "La corretta tenuta del registro dei cespiti poggia su alcune buone pratiche: la puntuale iscrizione di ogni bene al momento dell'acquisizione, con determinazione accurata del costo comprensivo degli oneri accessori; la corretta individuazione della categoria e del coefficiente applicabile; l'aggiornamento tempestivo a ogni evento — quote, rivalutazioni, svalutazioni, cessioni, eliminazioni; la coerenza con le scritture contabili e con il bilancio; e la conservazione a norma insieme alla documentazione di acquisto, che ne costituisce il fondamento probatorio.",
+          "In sintesi, il registro dei beni ammortizzabili è la memoria analitica dei beni strumentali dell'impresa: la scrittura che, bene per bene, documenta quanto è costato, quanto è già stato dedotto, quanto resta da ammortizzare e come si è conclusa la sua vita nell'impresa. La sua funzione unisce il piano contabile, quello fiscale e quello gestionale: fonda la deduzione degli ammortamenti, alimenta la valutazione del patrimonio e consente di conoscere la consistenza e l'età del parco beni strumentali. Comprendere il registro dei cespiti significa comprendere come l'impresa misura, nel tempo, il consumo dei propri investimenti durevoli."
+        ]
       }
     ],
     "fonti_norm": [
       "D.P.R. 600/1973, art. 16 — registro dei beni ammortizzabili",
+      "D.P.R. 917/1986 (TUIR), artt. 102-103 — ammortamento dei beni materiali e immateriali",
+      "D.M. 31 dicembre 1988 — coefficienti di ammortamento",
+      "Codice civile, art. 2426 — ammortamento sistematico delle immobilizzazioni",
       "D.P.R. 600/1973, art. 22 — conservazione delle scritture a fini fiscali",
       "Codice civile, art. 2219 — norme di ordinata contabilità",
       "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
