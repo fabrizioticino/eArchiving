@@ -1075,6 +1075,125 @@
         ]
       },
       {
+        "h": "Perché la legge impone la contabilità di magazzino",
+        "p": [
+          "La ragione per cui il legislatore fiscale impone alle imprese di maggiori dimensioni la tenuta delle scritture ausiliarie di magazzino risiede nel ruolo delle rimanenze nella determinazione del reddito. Le rimanenze finali di magazzino costituiscono un componente positivo di reddito: rinviando al futuro il costo delle merci non ancora vendute, esse aumentano l'utile dell'esercizio in cui si formano e lo riducono in quello in cui i beni saranno venduti. Una loro sopravvalutazione o sottovalutazione incide quindi direttamente sull'imponibile.",
+          "Senza una contabilità di magazzino, la determinazione delle rimanenze si affiderebbe alla sola conta fisica di fine esercizio, priva di un riscontro con i movimenti registrati. La contabilità di magazzino fornisce invece un dato di giacenza contabile, ricostruito dai carichi e dagli scarichi, da confrontare con la giacenza fisica: le eventuali differenze inventariali diventano così visibili e devono essere spiegate. È questo il senso dell'obbligo: rendere le rimanenze una grandezza documentata e verificabile, e non un dato affermato senza riscontro, così da presidiare uno degli aspetti più delicati della determinazione del reddito d'impresa."
+        ]
+      },
+      {
+        "h": "Le soglie dimensionali e la decorrenza dell'obbligo",
+        "p": [
+          "L'obbligo di tenuta della contabilità di magazzino non grava sulla generalità delle imprese, ma solo su quelle che superano determinate soglie dimensionali, individuate con riferimento ai ricavi e al valore delle rimanenze finali. La normativa richiede che entrambe le soglie siano superate per due esercizi consecutivi, e fissa la decorrenza dell'obbligo a partire dal secondo periodo d'imposta successivo a quello in cui il superamento si è consolidato. Con questo meccanismo di gradualità, l'obbligo si attiva solo quando le dimensioni dell'impresa lo giustificano stabilmente.",
+          "Simmetricamente, l'obbligo cessa quando, per un certo numero di esercizi, i ricavi o le rimanenze scendono al di sotto delle soglie: anche l'uscita dall'obbligo segue una regola di stabilità, per evitare oscillazioni continue. La corretta individuazione del momento di ingresso e di uscita dall'obbligo è un adempimento preliminare essenziale: tenere la contabilità di magazzino quando non è dovuta comporta oneri superflui, ma soprattutto ometterla quando è obbligatoria costituisce un'irregolarità che può avere conseguenze rilevanti in sede di accertamento, fino a legittimare metodi di ricostruzione induttiva del reddito."
+        ]
+      },
+      {
+        "h": "I movimenti di carico e scarico",
+        "p": [
+          "Il giornale di magazzino registra due grandi categorie di movimenti: i carichi, cioè le entrate di beni, e gli scarichi, cioè le uscite. Tra i carichi rientrano gli acquisti di materie prime e di merci, i resi da clienti, i prodotti finiti che rientrano dalla produzione, i trasferimenti in entrata tra magazzini. Tra gli scarichi rientrano i prelievi di materie per la produzione, le vendite di prodotti e merci, i resi a fornitori, gli scarti e le distruzioni, i trasferimenti in uscita.",
+          "Ogni movimento va rilevato nel momento in cui si verifica, con l'indicazione della data, della causale, del bene o della categoria interessata e delle quantità movimentate. È dalla contrapposizione tra il totale dei carichi e il totale degli scarichi che si ricava, in ogni momento, la giacenza di ciascun bene. La completezza e la tempestività della rilevazione dei movimenti sono quindi il presupposto dell'affidabilità della contabilità di magazzino: un movimento non registrato o registrato in ritardo si traduce in una giacenza contabile non corrispondente alla realtà, con riflessi sulla determinazione delle rimanenze."
+        ]
+      },
+      {
+        "h": "Le causali di magazzino",
+        "p": [
+          "Perché i movimenti siano correttamente interpretabili, ciascuno è associato a una causale, che ne qualifica la natura: acquisto, vendita, prelievo per produzione, versamento di prodotti finiti, reso, rettifica inventariale, trasferimento, scarto. La causale non è un semplice dettaglio descrittivo: determina il segno del movimento — carico o scarico — e il suo trattamento ai fini della valorizzazione e del collegamento con la contabilità generale.",
+          "Nei sistemi gestionali le causali di magazzino sono codificate e collegate alle causali contabili, così che la registrazione di un movimento di magazzino generi, dove pertinente, la corrispondente scrittura in contabilità generale. Una corretta impostazione delle causali è essenziale per la coerenza tra la contabilità di magazzino e quella generale: un acquisto deve muovere il magazzino in carico e, contestualmente, rilevare il costo e il debito verso il fornitore; una vendita deve muovere il magazzino in scarico e rilevare il ricavo e il credito. La causale è quindi lo snodo che collega il piano fisico dei movimenti al piano contabile dei valori."
+        ]
+      },
+      {
+        "h": "Contabilità a quantità e contabilità a quantità e valore",
+        "p": [
+          "La contabilità di magazzino può essere tenuta secondo due livelli di dettaglio. Nella tenuta a sole quantità, i movimenti sono rilevati esclusivamente nelle unità di misura fisiche — pezzi, chilogrammi, litri — e la giacenza è espressa in quantità. Nella tenuta a quantità e valore, a ciascun movimento e a ciascuna giacenza è associato anche un valore, determinato secondo un criterio di valorizzazione, così da conoscere non solo quanto si ha di un bene, ma quanto vale.",
+          "La scelta tra le due modalità dipende dalle esigenze e dalle dimensioni dell'impresa, oltre che dai requisiti di legge. La tenuta a quantità e valore è più onerosa ma più informativa, perché fornisce direttamente il valore delle giacenze utile alla determinazione delle rimanenze; la tenuta a sole quantità richiede una successiva valorizzazione in sede di inventario. In entrambi i casi resta fermo l'obiettivo: garantire il controllo delle rimanenze. La valorizzazione dei movimenti, quando adottata, deve seguire criteri coerenti — costo medio, FIFO, LIFO — allineati a quelli utilizzati per la valutazione delle rimanenze in bilancio."
+        ]
+      },
+      {
+        "h": "I criteri di valorizzazione dei movimenti",
+        "p": [
+          "Quando la contabilità di magazzino è tenuta a valore, la valorizzazione degli scarichi e delle giacenze richiede l'adozione di un criterio, poiché i beni fungibili acquistati in momenti diversi hanno costi diversi. I criteri ammessi sono quelli riconosciuti anche per la valutazione delle rimanenze in bilancio: il costo medio ponderato, che valorizza i beni al costo medio degli acquisti; il metodo FIFO, che valorizza gli scarichi ai costi più antichi, lasciando in giacenza i più recenti; il metodo LIFO, che valorizza gli scarichi ai costi più recenti, con le sue varianti.",
+          "La scelta del criterio ha effetti sul valore delle rimanenze e, di riflesso, sul reddito: in periodi di prezzi crescenti, il FIFO tende a esporre rimanenze di valore maggiore, il LIFO di valore minore. La coerenza tra il criterio adottato nella contabilità di magazzino e quello utilizzato per la valutazione delle rimanenze in bilancio è essenziale, e la sua applicazione costante nel tempo è un principio da rispettare. Il giornale di magazzino, valorizzando i movimenti secondo il criterio prescelto, fornisce la base documentale della valorizzazione delle rimanenze e ne consente la verifica in sede di controllo."
+        ]
+      },
+      {
+        "h": "Dal controllo delle scorte all'obbligo fiscale",
+        "p": [
+          "La contabilità di magazzino nasce, storicamente, come strumento di gestione prima ancora che come obbligo fiscale. Ogni impresa che detiene scorte ha interesse a conoscere le proprie giacenze: per non interrompere la produzione o la vendita per mancanza di beni, per non immobilizzare capitale in scorte eccessive, per individuare merci obsolete o a lenta rotazione. Il controllo delle scorte è una funzione essenziale della gestione operativa, che le imprese esercitano indipendentemente da qualunque obbligo di legge.",
+          "Il legislatore fiscale ha innestato su questa esigenza gestionale un obbligo documentale, imponendo alle imprese di maggiori dimensioni di formalizzare la contabilità di magazzino secondo requisiti minimi di analiticità e continuità. L'obbligo fiscale non crea quindi una scrittura estranea alla vita dell'impresa, ma dà forma e rilevanza probatoria a una funzione che l'impresa già esercita. Comprendere questa duplice natura — strumento di gestione e adempimento fiscale — aiuta a cogliere il senso della contabilità di magazzino: non un peso burocratico fine a sé stesso, ma la formalizzazione di un controllo che è interesse dell'impresa stessa esercitare."
+        ]
+      },
+      {
+        "h": "Unità di misura e identificazione dei beni",
+        "p": [
+          "La corretta tenuta della contabilità di magazzino richiede una definizione precisa delle unità di misura e dell'identificazione dei beni. Ogni articolo deve essere individuato in modo univoco — attraverso un codice, una descrizione, eventuali caratteristiche distintive — e a ciascuno deve essere associata l'unità di misura appropriata: pezzi, chilogrammi, litri, metri. La coerenza dell'unità di misura è essenziale, perché carichi e scarichi di uno stesso bene devono essere espressi nella stessa unità per poter essere confrontati e per ricavare la giacenza.",
+          "L'identificazione dei beni pone problemi particolari quando l'impresa gestisce articoli numerosi, varianti dello stesso prodotto, o beni che possono essere misurati in modi diversi. Una codifica ben progettata è il presupposto di una contabilità di magazzino affidabile, così come lo è il piano dei conti per la contabilità generale. Nei sistemi gestionali l'anagrafica degli articoli, con codici, descrizioni, unità di misura e categorie, è la struttura su cui poggia l'intera contabilità di magazzino: la sua accuratezza condiziona la qualità di tutte le rilevazioni successive."
+        ]
+      },
+      {
+        "h": "Le presunzioni di cessione e di acquisto",
+        "p": [
+          "Un profilo di particolare delicatezza della contabilità di magazzino riguarda le presunzioni di cessione e di acquisto. La normativa prevede che i beni acquistati, importati o prodotti che non si trovano nei luoghi in cui il contribuente svolge la propria attività, e che non risultano da idonea documentazione di uscita, si presumono ceduti; specularmente, i beni che si trovano nei luoghi dell'attività si presumono acquistati se non se ne prova la diversa provenienza. Queste presunzioni possono trasformare un ammanco di magazzino non giustificato in una vendita presunta, imponibile.",
+          "La rilevanza pratica è evidente: la contabilità di magazzino, documentando i movimenti e consentendo di giustificare le differenze tra giacenza contabile e fisica, è lo strumento che consente di superare o di contenere l'applicazione di queste presunzioni. Un ammanco spiegato da una regolare documentazione di uscita — un reso, uno scarto documentato, una distruzione verbalizzata — non dà luogo a presunzione di cessione; un ammanco privo di giustificazione può invece esservi assoggettato. La cura nella rilevazione e nella documentazione dei movimenti è quindi, anche sotto questo profilo, un presidio diretto contro contestazioni che possono incidere significativamente sul reddito."
+        ]
+      },
+      {
+        "h": "Le semplificazioni della disciplina",
+        "p": [
+          "La disciplina della contabilità di magazzino è stata nel tempo oggetto di semplificazioni, volte a contenere gli oneri per le imprese senza pregiudicare la funzione di controllo. Il D.P.R. 695/1996 è intervenuto proprio in questo senso, ridefinendo modalità e ambito dell'obbligo. Tra le semplificazioni rientrano la possibilità di aggregare i beni per categorie omogenee, la facoltà di tenere la contabilità a sole quantità in determinate condizioni, e criteri di individuazione delle soglie e di decorrenza dell'obbligo pensati per evitare adempimenti sproporzionati.",
+          "Queste semplificazioni riflettono un principio generale del sistema: la proporzionalità degli adempimenti rispetto alle dimensioni e alla natura dell'impresa. La contabilità di magazzino, per la sua onerosità, è riservata alle imprese che, per dimensione, giustificano un controllo analitico delle rimanenze, e anche per esse la disciplina consente adattamenti che ne riducono il peso. Conoscere le semplificazioni applicabili è quindi parte della corretta gestione dell'obbligo, perché consente di assolverlo con le modalità meno onerose compatibili con la funzione di controllo che la legge intende garantire."
+        ]
+      },
+      {
+        "h": "I documenti a supporto dei movimenti",
+        "p": [
+          "Ogni movimento di magazzino trova fondamento in un documento che lo giustifica: la fattura e il documento di trasporto per gli acquisti e le vendite, l'ordine di produzione per i prelievi di materie e per i versamenti di prodotti finiti, il verbale per gli scarti e le distruzioni, il documento di trasporto interno per i trasferimenti tra magazzini. Questa documentazione è ciò che consente di provare l'effettività e la natura dei movimenti registrati nel giornale di magazzino.",
+          "La coerenza tra i movimenti registrati e i documenti sottostanti è uno dei principali oggetti di verifica: i carichi devono trovare riscontro negli acquisti documentati, gli scarichi nelle vendite o negli altri documenti di uscita. Particolare rilievo assume il documento di trasporto, che accompagna la movimentazione fisica dei beni e ne prova l'uscita: la sua corretta emissione e conservazione è essenziale, tra l'altro, per superare le presunzioni di cessione sui beni non presenti in azienda. La conservazione dei documenti di supporto insieme al giornale di magazzino è quindi parte integrante della corretta tenuta delle scritture ausiliarie."
+        ]
+      },
+      {
+        "h": "Rotazione delle scorte e obsolescenza",
+        "p": [
+          "Al di là della funzione fiscale, la contabilità di magazzino fornisce informazioni preziose per la gestione delle scorte. Dall'analisi dei movimenti si ricavano indicatori come l'indice di rotazione, che misura la velocità con cui le scorte si rinnovano, e la giacenza media, che esprime il capitale mediamente immobilizzato in magazzino. Questi indicatori consentono di individuare i beni a lenta rotazione, le scorte eccessive e i beni fermi, orientando le decisioni di approvvigionamento e di vendita.",
+          "Un aspetto strettamente collegato è l'obsolescenza: i beni che restano a lungo in giacenza possono perdere valore, per superamento tecnologico, deterioramento o cambiamento della domanda. La contabilità di magazzino, evidenziando la data dei carichi e la lentezza degli scarichi, consente di individuare i beni obsoleti e di procedere, in sede di inventario, alla loro svalutazione. Questa funzione informativa, pur non essendo l'obiettivo primario dell'obbligo fiscale, è uno dei benefici più concreti di una contabilità di magazzino ben tenuta, che diventa così uno strumento di governo delle scorte oltre che di controllo delle rimanenze."
+        ]
+      },
+      {
+        "h": "Magazzini multipli e beni presso terzi",
+        "p": [
+          "Le imprese di maggiori dimensioni gestiscono spesso più magazzini, distinti per sede, per funzione o per tipologia di beni. La contabilità di magazzino deve seguire questa articolazione, rilevando i movimenti all'interno di ciascun magazzino e i trasferimenti tra l'uno e l'altro. I trasferimenti interni non modificano la giacenza complessiva dell'impresa, ma spostano i beni da un magazzino all'altro, e vanno documentati per mantenere la corrispondenza tra giacenza contabile e collocazione fisica.",
+          "Una situazione particolare riguarda i beni dell'impresa che si trovano presso terzi — in conto deposito, in conto lavorazione, in visione — e i beni di terzi che si trovano presso l'impresa. Questi beni, pur essendo fisicamente collocati in modo particolare, restano di proprietà del rispettivo titolare e vanno gestiti coerentemente: i beni propri presso terzi concorrono alle rimanenze dell'impresa, quelli di terzi presso l'impresa no. La corretta rilevazione di queste situazioni è essenziale per una determinazione accurata delle rimanenze e per superare le presunzioni sui beni non presenti nei luoghi dell'attività, che richiedono idonea documentazione della loro collocazione presso terzi."
+        ]
+      },
+      {
+        "h": "La valorizzazione delle rimanenze ai fini fiscali",
+        "p": [
+          "La contabilità di magazzino è funzionale alla determinazione delle rimanenze, la cui valutazione ai fini fiscali è disciplinata dall'articolo 92 del TUIR. La norma stabilisce un valore minimo delle rimanenze finali, calcolato secondo criteri che si fondano sul raggruppamento dei beni per categorie omogenee e sull'applicazione di metodi di valorizzazione come il costo medio ponderato, il LIFO a scatti e il FIFO. Il contribuente può adottare valori superiori, ma non inferiori, a quello minimo determinato secondo la norma.",
+          "Questa disciplina fiscale delle rimanenze presuppone e valorizza la contabilità di magazzino: è dai dati di giacenza e di costo che essa registra che si ricavano gli elementi per applicare i criteri di valutazione previsti dal TUIR. La coerenza tra i dati della contabilità di magazzino, la valutazione delle rimanenze in bilancio e il valore fiscalmente rilevante è quindi essenziale. Il giornale di magazzino, insieme alle schede, fornisce la base analitica su cui poggia la determinazione delle rimanenze, e la sua corretta tenuta è il presupposto per una valutazione difendibile in sede di controllo."
+        ]
+      },
+      {
+        "h": "Errori ricorrenti e attendibilità delle scritture",
+        "p": [
+          "L'esperienza dei controlli evidenzia alcuni errori ricorrenti nella tenuta della contabilità di magazzino: movimenti registrati in ritardo o omessi, che disallineano la giacenza contabile dalla realtà; differenze inventariali non spiegate né contabilizzate; incoerenze tra il criterio di valorizzazione del magazzino e quello delle rimanenze in bilancio; mancata gestione dei beni presso terzi o dei trasferimenti tra magazzini. Ciascuno di questi errori compromette l'attendibilità delle scritture e può dare adito a contestazioni.",
+          "L'attendibilità della contabilità di magazzino è un valore che va oltre il singolo adempimento: una contabilità di magazzino inattendibile può minare la credibilità dell'intera contabilità dell'impresa e legittimare, nei casi più gravi, ricostruzioni induttive del reddito. Al contrario, una contabilità di magazzino ordinata, coerente con la documentazione e con le altre scritture, e regolarmente riconciliata con la consistenza fisica, è un elemento di forza che testimonia la correttezza della gestione. La cura nella tenuta di questa scrittura, spesso percepita come meramente operativa, ha quindi riflessi diretti sulla solidità della posizione fiscale dell'impresa."
+        ]
+      },
+      {
+        "h": "Il magazzino e il controllo di gestione",
+        "p": [
+          "La contabilità di magazzino è uno dei principali alimentatori del controllo di gestione. La conoscenza dei consumi di materie, dei costi di produzione incorporati nei semilavorati e nei prodotti finiti, della rotazione delle scorte è essenziale per determinare il costo dei prodotti, per fissare i prezzi di vendita, per valutare la redditività delle diverse linee di attività. I dati del magazzino, riclassificati per destinazione, confluiscono nella contabilità analitica e nel calcolo dei costi di prodotto.",
+          "In questa prospettiva, la contabilità di magazzino non è solo un adempimento fiscale, ma uno strumento di conoscenza economica dell'impresa. La qualità e la tempestività dei dati di magazzino condizionano l'affidabilità del controllo di gestione: dati inaccurati o non aggiornati producono costi di prodotto errati e decisioni mal fondate. Per questo, nelle imprese strutturate, la contabilità di magazzino è curata con un'attenzione che va oltre il minimo richiesto dall'obbligo fiscale, perché è alla base della capacità dell'impresa di conoscere i propri costi e di governare la propria redditività."
+        ]
+      },
+      {
+        "h": "La conservazione dei dati di magazzino",
+        "p": [
+          "In quanto scrittura rilevante ai fini tributari, la contabilità di magazzino — giornale e schede — va conservata fino alla definizione degli accertamenti relativi al periodo d'imposta, nel rispetto del termine decennale civilistico. Trattandosi ordinariamente di dati nativi digitali, generati dai sistemi gestionali di logistica e produzione, la loro conservazione segue le regole sui documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID: formati idonei, metadati, garanzia di integrità, leggibilità e reperibilità nel tempo.",
+          "Una peculiarità della contabilità di magazzino è la mole dei dati: i movimenti di un magazzino attivo possono essere numerosissimi, e la loro conservazione richiede soluzioni capaci di gestire grandi volumi mantenendo la reperibilità del singolo movimento. È buona pratica conservare i dati di magazzino in collegamento con la documentazione di supporto — documenti di trasporto, ordini di produzione, verbali — così da poter ricostruire, anche a distanza di anni, la giustificazione di ciascun movimento e la formazione delle rimanenze di ciascun esercizio. La capacità di esibire una contabilità di magazzino completa e coerente per gli esercizi passati è, in sede di verifica, uno degli elementi che meglio dimostrano la regolarità della gestione delle rimanenze."
+        ]
+      },
+      {
         "h": "Il senso nell'impianto contabile e i rapporti con l'inventario",
         "p": [
           "Il giornale di magazzino svolge, rispetto alle rimanenze, una funzione analoga a quella che il libro giornale svolge rispetto all'intera gestione: ne offre la rilevazione cronologica e continua. Il suo valore risiede nel collegamento con la valutazione delle rimanenze in sede di inventario: i dati di giacenza risultanti dalla contabilità di magazzino costituiscono la base su cui si effettua la conta fisica e la valorizzazione delle rimanenze finali, che confluiscono nel libro degli inventari e nel bilancio.",
@@ -1087,11 +1206,55 @@
           "Il giornale di magazzino va tenuto secondo le regole dell'ordinata contabilità e nel rispetto dei termini di registrazione previsti per le scritture ausiliarie. Non è soggetto all'imposta di bollo, che riguarda i soli libro giornale e libro inventari, né alle formalità di numerazione proprie dei libri obbligatori nominati dal Codice civile. La sua obbligatorietà e il suo contenuto derivano dalla disciplina fiscale, e in particolare dall'articolo 14 del D.P.R. 600/1973.",
           "In quanto scrittura rilevante ai fini tributari, il giornale di magazzino è soggetto agli obblighi di conservazione: va conservato fino alla definizione degli accertamenti relativi al periodo d'imposta. Se tenuto in formato digitale, come avviene nei sistemi gestionali integrati con la logistica e la produzione, si applicano le regole sulla conservazione dei documenti informatici, con le garanzie di integrità, leggibilità e reperibilità richieste per l'intero periodo di conservazione."
         ]
+      },
+      {
+        "h": "Le differenze inventariali",
+        "p": [
+          "Il confronto tra la giacenza contabile, ricostruita dai movimenti del giornale di magazzino, e la giacenza fisica, accertata con la conta di fine esercizio, può far emergere differenze inventariali: eccedenze, quando la giacenza fisica supera quella contabile, o ammanchi, quando è inferiore. Queste differenze possono avere cause fisiologiche — cali naturali, evaporazioni, arrotondamenti — o segnalare errori di registrazione, furti, distruzioni non rilevate.",
+          "Le differenze inventariali non vanno ignorate, ma spiegate e contabilizzate, perché incidono sulla determinazione delle rimanenze e possono avere rilievo fiscale. In sede di verifica, gli ammanchi ingiustificati sono oggetto di particolare attenzione, perché possono essere interpretati come indizio di vendite non registrate: la normativa e la prassi prevedono, in determinate condizioni, presunzioni di cessione per i beni che risultano mancanti senza giustificazione. La corretta gestione delle differenze inventariali, con la loro rilevazione e spiegazione, è quindi un aspetto delicato del controllo delle rimanenze, e il giornale di magazzino è lo strumento che consente di individuarle e documentarle."
+        ]
+      },
+      {
+        "h": "Magazzino e ciclo produttivo",
+        "p": [
+          "Nelle imprese industriali, la contabilità di magazzino si articola su più livelli corrispondenti alle fasi del ciclo produttivo: il magazzino delle materie prime, quello dei semilavorati o prodotti in corso di lavorazione, quello dei prodotti finiti. I movimenti collegano questi magazzini: le materie prime escono per entrare nella produzione, i prodotti finiti rientrano dalla produzione e attendono la vendita. Il giornale di magazzino documenta questa circolazione interna dei beni lungo il processo produttivo.",
+          "Questa articolazione rende la contabilità di magazzino industriale più complessa di quella di un'impresa puramente commerciale, perché deve seguire la trasformazione dei beni e non solo il loro acquisto e la loro rivendita. Le rimanenze finali comprendono materie prime, semilavorati e prodotti finiti, ciascuno con una propria valorizzazione, che per i semilavorati e i prodotti finiti include anche i costi di trasformazione. Il giornale di magazzino, seguendo i movimenti tra i diversi stadi, è il presupposto per una corretta valorizzazione delle rimanenze in un contesto produttivo, dove il valore dei beni non è solo il costo di acquisto ma anche il costo del lavoro incorporato."
+        ]
+      },
+      {
+        "h": "Il magazzino nei controlli fiscali",
+        "p": [
+          "La contabilità di magazzino è uno degli ambiti più esaminati nelle verifiche alle imprese di maggiori dimensioni, proprio per l'impatto delle rimanenze sul reddito. I verificatori riscontrano la corretta tenuta delle scritture ausiliarie, la coerenza tra i movimenti registrati e la documentazione sottostante — fatture, documenti di trasporto, ordini di produzione — e la corrispondenza tra la giacenza contabile, quella fisica e le rimanenze dichiarate in bilancio.",
+          "L'analisi del magazzino consente ricostruzioni indirette dei ricavi: dal confronto tra acquisti, giacenze e vendite, i verificatori possono stimare la coerenza dei ricavi dichiarati e individuare eventuali vendite occultate. Irregolarità gravi o l'inattendibilità della contabilità di magazzino possono legittimare metodi di accertamento induttivo, in cui il reddito è ricostruito prescindendo dalle scritture. Per l'impresa, una contabilità di magazzino ordinata, coerente e conservata a norma è quindi non solo un obbligo, ma uno strumento di difesa che consente di dimostrare la correttezza delle rimanenze e, con esse, del reddito dichiarato."
+        ]
+      },
+      {
+        "h": "La contabilità di magazzino nei sistemi gestionali",
+        "p": [
+          "Nelle imprese moderne il giornale di magazzino non è una scrittura tenuta separatamente, ma il risultato dell'integrazione tra i sistemi di gestione della logistica, della produzione e della contabilità. Ogni movimento fisico dei beni — un carico da bolla di consegna, un prelievo per un ordine di produzione, una spedizione — genera automaticamente la registrazione nel magazzino e, dove pertinente, la scrittura in contabilità generale. Il giornale di magazzino diventa così una vista cronologica dei movimenti generata dal sistema.",
+          "Questa integrazione riduce gli errori e garantisce per costruzione la coerenza tra magazzino e contabilità, ma sposta l'attenzione sulla corretta configurazione del sistema: la definizione delle causali, l'impostazione dei criteri di valorizzazione, la gestione dei diversi magazzini. La disponibilità informatica consente inoltre analisi sofisticate — rotazione delle scorte, indici di giacenza, obsolescenza — che vanno oltre l'adempimento fiscale e supportano la gestione operativa. Anche in questo contesto, tuttavia, resta ferma la responsabilità dell'impresa di garantire la completezza e la tempestività della rilevazione dei movimenti."
+        ]
+      },
+      {
+        "h": "Il rapporto con le schede di magazzino e con i registri IVA",
+        "p": [
+          "Il giornale di magazzino non è l'unica componente delle scritture ausiliarie: si accompagna alle schede di magazzino, che riordinano gli stessi movimenti per singolo articolo. Il rapporto tra giornale e schede di magazzino ricalca, in scala, quello tra libro giornale e libro mastro: il primo offre l'ordine cronologico, le seconde l'ordine per oggetto. Le due componenti si alimentano dagli stessi movimenti e devono risultare coerenti tra loro.",
+          "La contabilità di magazzino dialoga inoltre con i registri IVA e con la contabilità generale: gli acquisti e le vendite che muovono il magazzino sono gli stessi che generano le registrazioni IVA e le scritture di costo, ricavo, credito e debito. La coerenza tra questi flussi — magazzino, registri IVA, contabilità generale — è un controllo di regolarità che i verificatori esaminano con attenzione: il valore degli acquisti deve trovare riscontro nei carichi di magazzino, quello delle vendite negli scarichi. Il giornale di magazzino è quindi un tassello di un sistema documentale integrato, la cui coerenza complessiva è la migliore garanzia di attendibilità."
+        ]
+      },
+      {
+        "h": "Buone pratiche e sintesi: il diario del magazzino",
+        "p": [
+          "La corretta tenuta del giornale di magazzino poggia su alcune buone pratiche: la verifica preliminare della sussistenza dell'obbligo in base alle soglie; la rilevazione tempestiva e completa di tutti i movimenti, con causali corrette; la coerenza tra il criterio di valorizzazione del magazzino e quello delle rimanenze in bilancio; la periodica riconciliazione tra giacenza contabile e giacenza fisica, con spiegazione delle differenze inventariali; la coerenza con le schede di magazzino, i registri IVA e la contabilità generale; e la conservazione a norma insieme alla documentazione di supporto.",
+          "In sintesi, il giornale di magazzino è il diario cronologico della movimentazione dei beni: la scrittura che, registrando carichi e scarichi nell'ordine in cui avvengono, consente di conoscere in ogni momento la giacenza e di documentare la formazione delle rimanenze. La sua funzione è al tempo stesso di controllo fiscale — presidiare la determinazione di una voce di reddito particolarmente delicata — e di gestione operativa — conoscere e governare le scorte. Comprendere il giornale di magazzino significa comprendere come l'impresa tiene traccia del flusso fisico dei propri beni e lo traduce nel dato delle rimanenze che concorre alla determinazione del reddito."
+        ]
       }
     ],
     "fonti_norm": [
       "D.P.R. 600/1973, art. 14, comma 1, lett. d) — scritture ausiliarie di magazzino",
+      "D.P.R. 695/1996 — semplificazioni e soglie della contabilità di magazzino",
       "D.P.R. 600/1973, art. 22 — conservazione delle scritture a fini fiscali",
+      "D.P.R. 917/1986 (TUIR), art. 92 — valutazione delle rimanenze",
       "Codice civile, art. 2219 — norme di ordinata contabilità",
       "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
     ],
