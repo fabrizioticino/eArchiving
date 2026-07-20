@@ -784,6 +784,19 @@
 </div>
 </section>
 
+<!-- ───────── Focus: documenti people ───────── -->
+<section class="portal-section" data-sez="people" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
+<div class="section-rule">
+  <span class="kicker">Focus</span>
+  <h2>Documenti People</h2>
+  <span class="rule-line"></span>
+  <span class="result-count" id="people-count"></span>
+</div>
+<div class="section-intro">Schede sui principali documenti del lavoro e del personale: Certificazione Unica, Libro Unico del Lavoro, Modello 770, trasferte e note spese — con obblighi, trattamento fiscale, conservazione e fonti normative.</div>
+<div class="temi-grid" id="people-grid" style="margin-bottom:70px"></div>
+</section>
+
 <footer>
   <span>Materiale a fini informativi — non costituisce consulenza legale o fiscale</span>
   <span>Verificare sempre la versione vigente sulle fonti ufficiali (AgID, Normattiva, EUR-Lex)</span>
@@ -804,6 +817,7 @@ let FONTI = [];
 let MANUALI = [];
 let CONTABILI = [];
 let DOGANALI = [];
+let PEOPLE = [];
 let currentSez = null;
 let activeFilters = { jurisdiction: 'all', status: 'all' };
 let searchTerm = '';
@@ -984,6 +998,34 @@ function openDoganale(id, noPush){
   document.getElementById('detail-body').innerHTML = schedaDetailBody(d, 'Documento doganale — ' + d.ambito);
   bindRelChips();
   showOverlay('doganale-' + id, noPush);
+}
+
+/* ───────── Documenti People (HR / lavoro) ───────── */
+function renderPeople(){
+  const grid = document.getElementById('people-grid');
+  if(!grid) return;
+  grid.innerHTML = PEOPLE.map(p => `
+    <div class="tema-card" tabindex="0" data-id="${p.id}" role="button" aria-label="Apri scheda ${p.title}">
+      <div class="tema-num">SCHEDA</div>
+      <div class="tema-title">${p.title}</div>
+      <div class="tema-abstract">${p.abstract}</div>
+      <div class="tema-foot">Apri la scheda →</div>
+    </div>`).join('');
+  grid.querySelectorAll('.tema-card').forEach(card => {
+    card.addEventListener('click', () => openPeople(card.dataset.id));
+    card.addEventListener('keypress', e => { if(e.key === 'Enter') openPeople(card.dataset.id); });
+  });
+  const cnt = document.getElementById('people-count');
+  if(cnt) cnt.textContent = `${PEOPLE.length} schede`;
+}
+
+function openPeople(id, noPush){
+  const p = PEOPLE.find(x => x.id === id);
+  if(!p) return;
+  document.getElementById('detail-title').textContent = p.title;
+  document.getElementById('detail-body').innerHTML = schedaDetailBody(p, 'Documento People');
+  bindRelChips();
+  showOverlay('people-' + id, noPush);
 }
 
 /* ───────── Manuali del servizio di conservazione ───────── */
@@ -1182,6 +1224,7 @@ function routeFromHash(){
   if(hash.startsWith('tema-')){ setSection('temi'); openTema(hash.slice(5), true); return; }
   if(hash.startsWith('contabile-')){ setSection('contabili'); openContabile(hash.slice(10), true); return; }
   if(hash.startsWith('doganale-')){ setSection('doganali'); openDoganale(hash.slice(9), true); return; }
+  if(hash.startsWith('people-')){ setSection('people'); openPeople(hash.slice(7), true); return; }
   if(hash.startsWith('fonte-')){
     const id = hash.slice(6);
     const f = FONTI.find(x => x.id === id);
@@ -1258,12 +1301,19 @@ async function init(){
     DOGANALI = [];
   }
 
+  try {
+    PEOPLE = await (await fetch('data/people.json')).json();
+  } catch(e) {
+    PEOPLE = [];
+  }
+
   renderTemi();
   renderGrid();
   renderAdeCollection();
   renderManuali();
   renderContabili();
   renderDoganali();
+  renderPeople();
   renderHomeIndex();
   routeFromHash();
 }
