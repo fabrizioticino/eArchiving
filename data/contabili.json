@@ -1281,6 +1281,132 @@
         ]
       },
       {
+        "h": "Il conto di magazzino: l'analogia con il mastro",
+        "p": [
+          "Per comprendere la funzione delle schede di magazzino è illuminante l'analogia con il libro mastro della contabilità generale. Come il mastro riaggrega per conto le operazioni registrate cronologicamente nel libro giornale, così le schede di magazzino riaggregano per articolo i movimenti registrati cronologicamente nel giornale di magazzino. La scheda è, in sostanza, il conto di magazzino di ciascun bene: il luogo in cui confluiscono tutti i carichi e gli scarichi che lo riguardano e in cui si legge, in ogni momento, la sua giacenza.",
+          "Questa analogia non è casuale, ma riflette una struttura logica ricorrente nella tecnica contabile: alla rilevazione cronologica, che garantisce l'ordine temporale e la completezza, si affianca sempre una rilevazione sistematica, che organizza gli stessi dati per oggetto e ne consente la lettura. Giornale e schede di magazzino sono, per le rimanenze, ciò che giornale e mastro sono per l'intera gestione: due componenti complementari che si presuppongono a vicenda e la cui coerenza è il primo controllo di regolarità. Le schede portano l'analisi fino al livello del singolo articolo, il grado di dettaglio più fine della contabilità di magazzino."
+        ]
+      },
+      {
+        "h": "L'anagrafica degli articoli",
+        "p": [
+          "Il presupposto delle schede di magazzino è l'anagrafica degli articoli: l'insieme ordinato delle informazioni che identificano ciascun bene gestito. Ogni articolo è individuato da un codice univoco e descritto da una denominazione, da un'unità di misura, da una categoria di appartenenza e da eventuali attributi distintivi — dimensioni, colore, lotto, matricola. A ogni articolo dell'anagrafica corrisponde una scheda di magazzino, che ne segue i movimenti e la giacenza.",
+          "La qualità dell'anagrafica condiziona la qualità dell'intera contabilità di magazzino: un'anagrafica ben progettata, con codifiche coerenti e categorie ordinate, consente rilevazioni affidabili e ricerche efficaci; un'anagrafica disordinata, con duplicazioni, codici incoerenti o descrizioni ambigue, genera errori e rende difficile il controllo. La progettazione e la manutenzione dell'anagrafica articoli è quindi un'attività di rilievo, analoga alla progettazione del piano dei conti per la contabilità generale: è la struttura su cui poggia tutta la rilevazione per articolo, e la sua accuratezza si riflette su ogni scheda e su ogni giacenza."
+        ]
+      },
+      {
+        "h": "La struttura della scheda e la giacenza progressiva",
+        "p": [
+          "La scheda di un articolo si presenta, nella forma tradizionale, come un prospetto a colonne che riporta, per ogni movimento, la data, la causale, la quantità caricata o scaricata e la giacenza progressiva, cioè il saldo delle quantità dopo ciascun movimento. Quando la tenuta è a quantità e valore, la scheda riporta anche il valore dei movimenti e il valore della giacenza. La giacenza progressiva è l'informazione centrale: consente di conoscere, in corrispondenza di qualsiasi data, quanto dell'articolo era presente in magazzino.",
+          "Questa rappresentazione dinamica è preziosa non solo per conoscere la giacenza attuale, ma per ricostruire la giacenza a una data passata — informazione essenziale, ad esempio, per determinare le rimanenze a fine esercizio o per riscontrare la coerenza con una conta fisica effettuata in un dato momento. La scheda, mostrando l'evoluzione della giacenza articolo per articolo, è lo strumento che rende leggibile la storia di ciascun bene nel magazzino, e la sua accuratezza è il presupposto per una determinazione attendibile delle rimanenze."
+        ]
+      },
+      {
+        "h": "La valorizzazione a livello di scheda",
+        "p": [
+          "Quando la contabilità di magazzino è tenuta a quantità e valore, la valorizzazione avviene a livello di scheda, secondo il criterio prescelto — costo medio ponderato, FIFO, LIFO. La scheda di un articolo, registrando i carichi ai rispettivi costi e valorizzando gli scarichi secondo il criterio adottato, consente di determinare il valore della giacenza in ogni momento. È a questo livello, quello del singolo articolo, che i criteri di valorizzazione operano concretamente.",
+          "La valorizzazione per scheda ha il vantaggio di fornire direttamente il valore delle rimanenze, articolo per articolo, senza necessità di una successiva elaborazione: la somma dei valori di giacenza di tutte le schede esprime il valore complessivo delle rimanenze. Questo dato, disaggregato per articolo, è particolarmente utile in sede di inventario e di controllo, perché consente di verificare la valorizzazione bene per bene e di individuare eventuali anomalie. La coerenza tra il criterio di valorizzazione applicato nelle schede e quello utilizzato per la valutazione delle rimanenze in bilancio è essenziale, e le schede ne costituiscono la base analitica documentale."
+        ]
+      },
+      {
+        "h": "Le schede come strumento di gestione operativa",
+        "p": [
+          "Al di là della funzione fiscale, le schede di magazzino sono uno strumento essenziale della gestione operativa delle scorte. È attraverso la scheda di un articolo che il responsabile del magazzino conosce la disponibilità di quel bene e decide quando riordinarlo. Molte gestioni associano alla scheda parametri operativi come la scorta minima, il punto di riordino e la scorta massima: quando la giacenza scende al di sotto del punto di riordino, il sistema segnala la necessità di approvvigionamento.",
+          "Le schede consentono inoltre di calcolare, per ciascun articolo, indicatori di rotazione e di individuare i beni a lenta movimentazione o fermi da tempo, candidati alla svalutazione per obsolescenza. Questa funzione gestionale, sebbene distinta dall'obbligo fiscale, è spesso il motivo per cui le imprese tengono le schede con cura anche indipendentemente dalle soglie di legge: conoscere la giacenza articolo per articolo è un'esigenza operativa prima ancora che un adempimento. Le schede, in questo senso, sono il punto in cui la contabilità di magazzino incontra la gestione concreta delle scorte."
+        ]
+      },
+      {
+        "h": "Schede per articolo e schede per categoria",
+        "p": [
+          "La normativa consente di tenere le schede di magazzino non solo per singolo articolo, ma anche per categorie omogenee di beni, quando il dettaglio del singolo articolo risulterebbe eccessivamente oneroso senza reale beneficio informativo. Una categoria omogenea raggruppa beni con caratteristiche simili e valore unitario comparabile, che possono essere gestiti come un insieme unico ai fini del controllo delle rimanenze. La scelta del livello di dettaglio — articolo o categoria — dipende dalle dimensioni dell'impresa, dalla natura dei beni e dalle esigenze gestionali.",
+          "Il raggruppamento per categorie è però ammesso solo quando i beni sono effettivamente omogenei e quando resta garantita la funzione di controllo delle rimanenze: categorie troppo ampie o disomogenee vanificherebbero l'analiticità che la contabilità di magazzino deve assicurare. Nella pratica dei sistemi gestionali, che rendono poco oneroso il dettaglio per singolo articolo, la tenuta per categorie è oggi meno diffusa, ma resta una possibilità utile per beni numerosi e di modesto valore unitario. La corretta definizione del livello di dettaglio è comunque un aspetto rilevante della progettazione della contabilità di magazzino."
+        ]
+      },
+      {
+        "h": "Lotti, matricole e tracciabilità",
+        "p": [
+          "In molti settori le schede di magazzino non si limitano a seguire la quantità di un articolo, ma ne tracciano i lotti di produzione o le singole matricole. La gestione a lotti è essenziale nei settori alimentare, farmaceutico e chimico, dove la tracciabilità del lotto è imposta da normative specifiche e consente, in caso di problemi, di individuare e ritirare i prodotti interessati. La gestione a matricola riguarda invece i beni individualmente identificabili, come apparecchiature e veicoli.",
+          "La tracciabilità per lotto o matricola arricchisce la funzione delle schede, che seguono non solo quanto di un articolo è in giacenza, ma quali specifici lotti o esemplari, con le relative date di produzione, scadenza o acquisizione. Questa capacità, pur eccedendo i requisiti minimi della contabilità di magazzino ai fini fiscali, risponde a esigenze normative settoriali e gestionali sempre più diffuse. Le schede di magazzino, integrandosi con la tracciabilità, diventano così uno strumento che tiene insieme il controllo delle rimanenze, la gestione della qualità e la conformità a normative di settore, in un unico sistema di rilevazione per articolo."
+        ]
+      },
+      {
+        "h": "Il valore probatorio e la coerenza documentale",
+        "p": [
+          "Le schede di magazzino, in quanto scritture contabili obbligatorie ai fini fiscali per i soggetti tenuti, concorrono a formare il quadro documentale su cui si fonda l'attendibilità della contabilità dell'impresa. La loro coerenza con il giornale di magazzino, con i documenti di supporto — fatture, documenti di trasporto, ordini di produzione — e con le rimanenze dichiarate in bilancio è ciò che consente di dimostrare la correttezza della determinazione delle rimanenze.",
+          "Questa funzione probatoria richiede che le schede siano tenute con ordine e continuità, senza lacune né incoerenze, e conservate insieme al resto della contabilità di magazzino. In sede di contenzioso o di verifica, la capacità di esibire schede complete e coerenti per gli articoli oggetto di controllo è un elemento decisivo: consente di ricostruire la movimentazione di ciascun bene e di giustificare la giacenza dichiarata. Le schede, pur essendo il livello più analitico e apparentemente più operativo della contabilità, hanno quindi una valenza probatoria diretta, che ne fa uno strumento di tutela della posizione dell'impresa oltre che di gestione delle scorte."
+        ]
+      },
+      {
+        "h": "Dall'archivio cartaceo ai sistemi digitali",
+        "p": [
+          "Le schede di magazzino hanno una lunga storia. Nella tradizione, ogni articolo aveva la propria scheda cartacea, spesso conservata in appositi schedari, su cui si annotavano manualmente i movimenti e si aggiornava la giacenza. Questa tenuta manuale era laboriosa e soggetta a errori, e la quadratura tra le schede e il giornale richiedeva controlli periodici. Con l'avvento dei sistemi meccanografici prima e informatici poi, la scheda cartacea ha lasciato il posto al dato elettronico.",
+          "Oggi la scheda di magazzino è, nella quasi totalità dei casi, una vista generata dal sistema gestionale a partire dai movimenti registrati elettronicamente. Questa evoluzione ha eliminato la laboriosità della tenuta manuale e garantito la coerenza automatica con il giornale, ma ha spostato l'attenzione sulla corretta configurazione del sistema e sulla conservazione a norma dei dati digitali. La logica di fondo resta però immutata rispetto agli schedari di un tempo: seguire, per ciascun articolo, i movimenti e la giacenza. Comprendere questa continuità aiuta a cogliere la funzione permanente delle schede, al di là del supporto tecnologico che le realizza."
+        ]
+      },
+      {
+        "h": "La gestione delle ubicazioni",
+        "p": [
+          "Nei magazzini di grandi dimensioni, alla scheda dell'articolo si affianca la gestione delle ubicazioni: la registrazione non solo di quanto si ha di un bene, ma di dove esso si trova fisicamente all'interno del magazzino — corsia, scaffale, posizione. Questa informazione, gestita dai sistemi di warehouse management, ottimizza le operazioni di prelievo e di stoccaggio e consente di ritrovare rapidamente i beni. La scheda dell'articolo si integra così con la mappa fisica del magazzino.",
+          "La gestione delle ubicazioni, pur eccedendo i requisiti fiscali della contabilità di magazzino, contribuisce all'accuratezza delle giacenze, perché consente conte fisiche più precise e riduce gli errori di prelievo. Un articolo la cui giacenza contabile è nota ma la cui collocazione fisica è incerta è difficile da controllare; la gestione delle ubicazioni risolve questo problema, collegando il dato di giacenza della scheda alla posizione reale del bene. In questo modo la scheda di magazzino, arricchita dell'informazione di ubicazione, diventa uno strumento che unisce il controllo contabile delle rimanenze e la gestione fisica del magazzino."
+        ]
+      },
+      {
+        "h": "Scorte minime, punto di riordino e ottimizzazione",
+        "p": [
+          "Le schede di magazzino sono la base su cui si costruisce la politica delle scorte dell'impresa. A ciascun articolo si associano parametri come la scorta minima, al di sotto della quale si rischia la rottura di stock, il punto di riordino, la giacenza in corrispondenza della quale conviene emettere un nuovo ordine tenendo conto dei tempi di approvvigionamento, e la scorta massima, oltre la quale l'immobilizzo di capitale diventa eccessivo. Il confronto tra la giacenza risultante dalla scheda e questi parametri guida le decisioni di riordino.",
+          "L'ottimizzazione delle scorte è un obiettivo gestionale rilevante, perché le giacenze immobilizzano capitale e generano costi di detenzione, ma scorte insufficienti espongono al rischio di non poter soddisfare la domanda. Le schede, fornendo il dato aggiornato della giacenza articolo per articolo e alimentando gli indicatori di rotazione, sono lo strumento su cui si fonda questo equilibrio. Anche questa funzione, distinta dall'obbligo fiscale, testimonia come le schede di magazzino siano al tempo stesso uno strumento contabile e un cardine della gestione operativa dell'impresa."
+        ]
+      },
+      {
+        "h": "Le schede e la valutazione fiscale delle rimanenze",
+        "p": [
+          "Le schede di magazzino, insieme al giornale, forniscono la base analitica per la determinazione e la valutazione delle rimanenze finali, la cui disciplina fiscale è dettata dall'articolo 92 del TUIR. La norma prevede un valore minimo delle rimanenze, calcolato raggruppando i beni per categorie omogenee e applicando criteri di valorizzazione come il costo medio ponderato, il LIFO a scatti e il FIFO. È dai dati delle schede — quantità in giacenza e relativi costi — che si ricavano gli elementi per applicare questi criteri.",
+          "La coerenza tra i dati delle schede, la valutazione delle rimanenze in bilancio e il valore fiscalmente rilevante è quindi essenziale, e le schede ne costituiscono il fondamento documentale. In sede di verifica, la valorizzazione delle rimanenze viene controllata risalendo ai dati analitici delle schede, che devono giustificare quantità e valori dichiarati. Le schede di magazzino, pur essendo il livello più operativo della contabilità, sono così direttamente collegate a una delle poste di bilancio più rilevanti ai fini del reddito, e la loro accuratezza condiziona la difendibilità della valutazione delle rimanenze."
+        ]
+      },
+      {
+        "h": "Le schede nel controllo di gestione",
+        "p": [
+          "Oltre alla funzione contabile e fiscale, le schede di magazzino alimentano il controllo di gestione. La conoscenza dei movimenti e delle giacenze articolo per articolo consente di determinare i consumi, di calcolare il costo del venduto, di analizzare la marginalità dei singoli prodotti, di individuare i beni a lenta rotazione e le scorte in eccesso. I dati delle schede, riclassificati per destinazione o per centro, confluiscono nella contabilità analitica e nel calcolo dei costi di prodotto.",
+          "In questa prospettiva, le schede non sono solo un adempimento, ma una fonte informativa preziosa per le decisioni aziendali: quanto costa mantenere una certa scorta, quali prodotti ruotano rapidamente e quali restano fermi, dove si concentra il capitale immobilizzato in magazzino. La qualità dei dati delle schede condiziona l'affidabilità di queste analisi: schede accurate e aggiornate producono informazioni utili, schede lacunose producono analisi fuorvianti. Per questo, nelle imprese attente al controllo di gestione, le schede di magazzino sono curate con un rigore che va oltre il minimo richiesto dall'obbligo fiscale."
+        ]
+      },
+      {
+        "h": "Errori ricorrenti nella tenuta delle schede",
+        "p": [
+          "L'esperienza evidenzia alcuni errori ricorrenti nella tenuta delle schede di magazzino. Il più comune è il disallineamento tra giacenza contabile e giacenza fisica, dovuto a movimenti non registrati, registrati in ritardo o attribuiti all'articolo sbagliato. Seguono gli errori di anagrafica — articoli duplicati, codici incoerenti, unità di misura non uniformi — che generano schede inaffidabili; l'errata applicazione dei criteri di valorizzazione; la mancata gestione delle differenze inventariali; l'omessa distinzione tra beni propri e beni di terzi.",
+          "Molti di questi errori nascono non da complessità tecniche, ma da carenze organizzative: rilevazioni non tempestive, anagrafiche non manutenute, riconciliazioni non effettuate. Il presidio più efficace è, come per il giornale di magazzino, l'aggiornamento tempestivo dei movimenti e la periodica riconciliazione tra scheda e conta fisica. Una scheda che si disallinea dalla realtà perde la sua funzione di controllo e diventa una fonte di rischio, sia gestionale sia fiscale. La cura nella tenuta delle schede, spesso percepita come attività meramente operativa, è quindi un presidio diretto dell'attendibilità delle rimanenze e, con esse, del reddito dell'impresa."
+        ]
+      },
+      {
+        "h": "La conservazione a norma dei dati delle schede",
+        "p": [
+          "In quanto componente delle scritture ausiliarie di magazzino, le schede vanno conservate, insieme al giornale, fino alla definizione degli accertamenti relativi al periodo d'imposta e nel rispetto del termine decennale civilistico. Trattandosi ordinariamente di dati nativi digitali, generati dai sistemi gestionali, la loro conservazione segue le regole sui documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID, con formati idonei, metadati e garanzia di integrità, leggibilità e reperibilità nel tempo.",
+          "La conservazione delle schede pone, come per il giornale, il problema della mole dei dati: un magazzino con migliaia di articoli e numerosissimi movimenti genera una grande quantità di informazioni, la cui conservazione deve mantenere la reperibilità della singola scheda e del singolo movimento. È buona pratica conservare i dati delle schede in collegamento con il giornale di magazzino e con la documentazione di supporto, così da poter ricostruire, anche a distanza di anni, la movimentazione e la giacenza di ciascun articolo. La capacità di esibire schede complete e coerenti per gli esercizi passati è, in sede di verifica, uno degli elementi che meglio dimostrano la regolarità della gestione delle rimanenze."
+        ]
+      },
+      {
+        "h": "Beni deperibili e gestione delle scadenze",
+        "p": [
+          "Per i beni deperibili — prodotti alimentari, farmaci, sostanze con vita utile limitata — le schede di magazzino assumono una funzione ulteriore: la gestione delle scadenze. Oltre alla quantità in giacenza, la scheda tiene traccia delle date di scadenza dei diversi lotti, consentendo di gestire la rotazione secondo il principio per cui i beni con scadenza più prossima vanno movimentati per primi. Questa gestione, spesso imposta da normative di settore, previene la detenzione e la vendita di beni scaduti.",
+          "La gestione delle scadenze ha riflessi anche contabili e fiscali: i beni prossimi alla scadenza o scaduti possono richiedere svalutazioni in sede di valutazione delle rimanenze, perché il loro valore recuperabile si riduce; la distruzione di beni scaduti va documentata, tipicamente con verbali, per giustificare lo scarico dalla scheda e superare eventuali presunzioni di cessione. Le schede, tracciando lotti e scadenze, sono lo strumento che consente di gestire correttamente questi aspetti, tenendo insieme la conformità normativa di settore, la corretta valutazione delle rimanenze e la giustificazione degli scarichi per obsolescenza o scadenza."
+        ]
+      },
+      {
+        "h": "L'integrazione con la contabilità generale",
+        "p": [
+          "Le schede di magazzino, pur appartenendo alle scritture ausiliarie, sono strettamente integrate con la contabilità generale. I movimenti che alimentano le schede sono, in larga parte, gli stessi che generano le scritture contabili: un acquisto carica la scheda e, contestualmente, rileva il costo e il debito verso il fornitore; una vendita scarica la scheda e rileva il ricavo e il credito. Nei sistemi gestionali, questa integrazione è automatica, e la coerenza tra i movimenti di magazzino e le scritture contabili è garantita per costruzione.",
+          "La valorizzazione delle rimanenze risultante dalle schede confluisce, in sede di assestamento, nelle scritture del libro giornale e nei conti del mastro — il conto «rimanenze» e la variazione delle rimanenze nel conto economico — e da lì nel bilancio. La coerenza tra il valore delle rimanenze risultante dalle schede, le scritture contabili e le poste di bilancio è un controllo di regolarità che i verificatori esaminano con attenzione. Le schede di magazzino, occupando il livello di massimo dettaglio, sono quindi il fondamento analitico su cui poggia la rappresentazione delle rimanenze nell'intero impianto contabile, dalla singola scheda fino alla voce di bilancio."
+        ]
+      },
+      {
+        "h": "L'inventario permanente",
+        "p": [
+          "Le schede di magazzino sono lo strumento che realizza il cosiddetto inventario permanente: la conoscenza continua e aggiornata della giacenza di ciascun bene, disponibile in ogni momento e non solo alla chiusura dell'esercizio. A differenza dell'inventario periodico, che determina le giacenze solo attraverso la conta fisica di fine anno, l'inventario permanente mantiene costantemente aggiornata la giacenza contabile, articolo per articolo, attraverso la registrazione continua dei movimenti nelle schede.",
+          "L'inventario permanente offre vantaggi rilevanti: consente di conoscere in ogni momento la disponibilità dei beni senza attendere la conta fisica, di determinare il costo del venduto in modo continuo, di individuare tempestivamente ammanchi e anomalie. La conta fisica non scompare, ma cambia funzione: da unico strumento di determinazione delle giacenze diventa momento di verifica dell'inventario permanente, per riscontrare la corrispondenza tra la giacenza contabile delle schede e quella reale. Le schede di magazzino, mantenendo aggiornato l'inventario permanente, sono ciò che consente all'impresa di avere, in ogni istante, una fotografia attendibile della consistenza del proprio magazzino, coniugando l'esigenza gestionale del controllo continuo delle scorte con quella fiscale della documentazione delle rimanenze."
+        ]
+      },
+      {
         "h": "Il senso nell'impianto contabile: dal dettaglio alle rimanenze",
         "p": [
           "Le schede di magazzino sono lo strumento che rende operativa la funzione di controllo delle rimanenze propria della contabilità di magazzino. È attraverso le schede che si può conoscere la giacenza di ciascun bene, individuare le rotazioni, rilevare eventuali differenze inventariali tra la giacenza contabile e quella fisica riscontrata in sede di conta. La loro analiticità è il presupposto per una valorizzazione attendibile delle rimanenze finali, che confluiscono nell'inventario e nel bilancio come componente del reddito d'esercizio.",
@@ -1293,10 +1419,47 @@
           "Le schede di magazzino vanno tenute secondo le regole dell'ordinata contabilità e nel rispetto dei termini previsti per le scritture ausiliarie. Non sono soggette all'imposta di bollo né alle formalità di numerazione dei libri obbligatori nominati dal Codice civile: la loro disciplina deriva dalla normativa fiscale sulle scritture ausiliarie di magazzino e dalla funzione di controllo delle rimanenze che sono chiamate ad assolvere.",
           "Trattandosi di scritture rilevanti ai fini tributari, le schede di magazzino sono soggette agli obblighi di conservazione fino alla definizione degli accertamenti relativi al periodo d'imposta. Nella pratica sono prodotte e tenute in formato digitale all'interno dei sistemi gestionali di magazzino, e vanno pertanto conservate secondo le regole applicabili ai documenti informatici, garantendo integrità, leggibilità e reperibilità dei dati per tutto il periodo di conservazione richiesto."
         ]
+      },
+      {
+        "h": "La coerenza tra giornale e schede di magazzino",
+        "p": [
+          "Giornale e schede di magazzino non sono scritture indipendenti, ma due rappresentazioni degli stessi movimenti: ogni movimento registrato cronologicamente nel giornale deve trovare riscontro nella scheda dell'articolo interessato, e viceversa. La coerenza tra le due componenti è un controllo fondamentale di regolarità: il totale dei carichi e degli scarichi di un articolo nella sua scheda deve corrispondere ai movimenti di quell'articolo risultanti dal giornale, e la somma delle giacenze di tutte le schede deve corrispondere alla giacenza complessiva.",
+          "Nei sistemi gestionali questa coerenza è garantita per costruzione, perché giornale e schede sono generati dagli stessi movimenti registrati una sola volta. Nella tenuta manuale, invece, la coerenza andava verificata attivamente, e la quadratura tra giornale e schede era un controllo periodico essenziale. In sede di verifica, l'incrocio tra giornale e schede di magazzino consente di riscontrare l'affidabilità della contabilità di magazzino: incoerenze tra le due componenti segnalano errori di rilevazione da approfondire. La coerenza tra giornale e schede è quindi il presupposto dell'attendibilità dell'intera contabilità di magazzino."
+        ]
+      },
+      {
+        "h": "Inventario fisico e differenze inventariali",
+        "p": [
+          "Le schede di magazzino forniscono la giacenza contabile di ciascun articolo, che va periodicamente confrontata con la giacenza fisica accertata mediante l'inventario, cioè la conta materiale dei beni presenti in magazzino. Questo confronto, condotto articolo per articolo grazie alle schede, è il momento in cui la contabilità di magazzino si misura con la realtà: le eventuali differenze inventariali — eccedenze o ammanchi rispetto alla giacenza contabile — emergono proprio dal raffronto tra scheda e conta.",
+          "Le differenze inventariali vanno analizzate articolo per articolo, individuandone le cause e contabilizzandole. Un ammanco può derivare da un movimento non registrato, da un errore di rilevazione, da un calo fisiologico o da un evento da documentare; un'eccedenza da un carico omesso o da un errore. Le schede, consentendo di isolare l'articolo che presenta la differenza, sono lo strumento che rende possibile questa analisi puntuale. La corretta gestione delle differenze inventariali, con la loro rilevazione e spiegazione, è essenziale sia per l'attendibilità delle rimanenze sia per superare eventuali presunzioni di cessione sui beni risultati mancanti."
+        ]
+      },
+      {
+        "h": "Le schede nei controlli fiscali",
+        "p": [
+          "In sede di verifica, le schede di magazzino sono uno strumento potente nelle mani dell'Amministrazione finanziaria, perché consentono di ricostruire la movimentazione di ciascun articolo e di controllarne la coerenza con gli acquisti, le vendite e le rimanenze dichiarate. L'analisi della scheda di un singolo prodotto permette di verificare se le quantità vendute trovano riscontro nei carichi e nelle giacenze, e di individuare eventuali incoerenze che possano segnalare vendite non registrate o acquisti in nero.",
+          "Proprio per il loro dettaglio, le schede consentono controlli mirati su singoli beni, spesso più efficaci dell'analisi aggregata: un prodotto le cui vendite eccedono la somma di giacenza iniziale e acquisti rivela un'anomalia; un prodotto con giacenze che non diminuiscono nonostante le vendite ne rivela un'altra. Una contabilità di magazzino con schede accurate, coerenti con il giornale e con le altre scritture, è la migliore difesa contro queste contestazioni; al contrario, schede incoerenti o lacunose espongono a ricostruzioni induttive delle rimanenze e dei ricavi. Le schede sono quindi, in sede di controllo, il livello di massimo dettaglio su cui si gioca l'attendibilità delle rimanenze."
+        ]
+      },
+      {
+        "h": "Le schede nei sistemi di gestione del magazzino",
+        "p": [
+          "Nei moderni sistemi di gestione del magazzino, le schede non sono più prospetti tenuti separatamente, ma viste per articolo dei dati registrati una sola volta all'atto di ciascun movimento. Il sistema gestionale, o il software di warehouse management, registra ogni carico e ogni scarico e genera automaticamente sia il giornale cronologico sia le schede per articolo, garantendo coerenza e riducendo gli errori. La scheda di un articolo diventa così una interrogazione del sistema, disponibile in ogni momento e per qualsiasi periodo.",
+          "Questa integrazione consente funzionalità sofisticate: la gestione delle ubicazioni all'interno del magazzino, la tracciabilità dei lotti e delle matricole, la gestione delle scadenze per i beni deperibili, l'automazione dei riordini. La scheda, pur mantenendo la sua funzione essenziale — conoscere la giacenza e i movimenti di un articolo — si arricchisce di informazioni che ne fanno uno strumento di gestione logistica avanzata. Anche in questo contesto, tuttavia, resta ferma la funzione contabile e fiscale della scheda come componente delle scritture ausiliarie di magazzino, soggetta agli obblighi di tenuta e di conservazione."
+        ]
+      },
+      {
+        "h": "Buone pratiche e sintesi: il conto di ciascun bene",
+        "p": [
+          "La corretta tenuta delle schede di magazzino poggia su alcune buone pratiche: un'anagrafica articoli accurata e coerente, con codifiche stabili e categorie ordinate; la rilevazione tempestiva e completa di tutti i movimenti, con causali corrette; la coerenza tra le schede e il giornale di magazzino; la periodica riconciliazione tra giacenza contabile di scheda e giacenza fisica, con analisi e spiegazione delle differenze; la coerenza del criterio di valorizzazione con quello delle rimanenze in bilancio; e la conservazione a norma insieme al giornale e alla documentazione di supporto.",
+          "In sintesi, le schede di magazzino sono il conto di ciascun bene: la scrittura che, riordinando per articolo i movimenti registrati cronologicamente nel giornale, consente di conoscere in ogni momento la giacenza di ogni prodotto e di documentarne la formazione. Insieme al giornale di magazzino, le schede compongono la contabilità di magazzino, il presidio analitico della voce rimanenze, tra le più delicate nella determinazione del reddito. La loro funzione unisce il controllo fiscale e la gestione operativa delle scorte: comprendere le schede di magazzino significa comprendere come l'impresa conosce, bene per bene, la consistenza del proprio magazzino e la traduce nel dato delle rimanenze che concorre al bilancio e al reddito."
+        ]
       }
     ],
     "fonti_norm": [
       "D.P.R. 600/1973, art. 14, comma 1, lett. d) — scritture ausiliarie di magazzino",
+      "D.P.R. 695/1996 — semplificazioni e soglie della contabilità di magazzino",
+      "D.P.R. 917/1986 (TUIR), art. 92 — valutazione delle rimanenze",
       "D.P.R. 600/1973, art. 22 — conservazione delle scritture a fini fiscali",
       "Codice civile, art. 2219 — norme di ordinata contabilità",
       "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali"
