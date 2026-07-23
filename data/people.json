@@ -720,6 +720,294 @@
           "Il modello 770 è un documento interamente digitale: predisposto secondo il modello approvato dall'Agenzia delle Entrate e trasmesso telematicamente, con relativa ricevuta di avvenuta presentazione. In quanto dichiarazione fiscale, il 770 e la sua ricevuta vanno conservati dal sostituto d'imposta insieme alla documentazione che ne giustifica i dati.",
           "La conservazione segue le regole applicabili ai documenti informatici del D.M. 17 giugno 2014 e delle Linee guida AgID, con formati idonei, metadati e garanzia di integrità, leggibilità e reperibilità nel tempo. Il 770 va conservato fino alla definizione degli accertamenti relativi al periodo d'imposta, in collegamento con le Certificazioni Uniche, i cedolini e i versamenti che ne costituiscono il fondamento. La conservazione ordinata dell'intero fascicolo del sostituto d'imposta — dichiarazione, certificazioni, versamenti — è essenziale per dimostrare, anche a distanza di anni, la regolarità dell'attività di sostituzione."
         ]
+      },
+      {
+        "h": "La figura del sostituto d'imposta",
+        "p": [
+          "Il modello 770 non si comprende senza la figura che ne è protagonista: il sostituto d'imposta. Il sostituto è il soggetto che la legge obbliga a trattenere, sui redditi che eroga a terzi, una quota a titolo di imposta o di acconto, e a versarla all'Erario in luogo del percipiente. Il datore di lavoro che paga lo stipendio, il committente che remunera un professionista, la società che distribuisce dividendi: tutti operano, per legge, come sostituti d'imposta, trattenendo la ritenuta e versandola allo Stato per conto di chi percepisce il reddito.",
+          "Il meccanismo della sostituzione risponde a un'esigenza di efficienza e di garanzia del gettito: anziché riscuotere l'imposta dal singolo percipiente, l'Erario la incassa attraverso un numero ristretto di soggetti — i sostituti — che la trattengono alla fonte. Il sostituto agisce così, in sostanza, come un esattore per conto dello Stato. Il modello 770 è la dichiarazione con cui, a fine anno, questo esattore rende conto all'Amministrazione di tutta l'attività svolta: quanto ha trattenuto, su quali redditi, quanto ha versato e quando."
+        ]
+      },
+      {
+        "h": "Il quadro normativo della sostituzione",
+        "p": [
+          "La disciplina della sostituzione d'imposta ha il suo fondamento negli articoli da 23 a 30 del D.P.R. 600/1973, che individuano i soggetti obbligati, le tipologie di reddito soggette a ritenuta e le modalità di effettuazione del prelievo. Vi si distinguono le ritenute a titolo d'imposta, che esauriscono il prelievo, e quelle a titolo d'acconto, che costituiscono un anticipo dell'imposta dovuta dal percipiente in sede di dichiarazione. Ciascuna tipologia di reddito ha la propria disciplina: lavoro dipendente e assimilati, lavoro autonomo, provvigioni, redditi di capitale, dividendi.",
+          "Su questo impianto sostanziale si innesta l'obbligo dichiarativo dell'articolo 4 del D.P.R. 322/1998, che impone al sostituto di presentare annualmente la dichiarazione — il modello 770 — con cui riepiloga le ritenute operate e i versamenti effettuati. La dichiarazione chiude il ciclo della sostituzione sul piano formale: mentre durante l'anno il sostituto trattiene e versa, con il 770 rende conto complessivamente della propria attività, consentendo all'Amministrazione di verificarne la correttezza attraverso il confronto con le altre fonti documentali."
+        ]
+      },
+      {
+        "h": "L'evoluzione del modello: dal semplificato all'unificato",
+        "p": [
+          "Il modello 770 ha conosciuto una significativa evoluzione strutturale. Per lungo tempo si è articolato in due modelli distinti: il 770 Semplificato, dedicato alle ritenute su redditi di lavoro dipendente, assimilati e di lavoro autonomo, e ai dati relativi all'assistenza fiscale; e il 770 Ordinario, riservato alle ritenute su redditi di capitale, dividendi, proventi finanziari e altre fattispecie. La distinzione rifletteva la diversa natura dei redditi e dei soggetti coinvolti.",
+          "Con una riorganizzazione successiva si è pervenuti a un modello 770 unificato, che ha superato la distinzione tra semplificato e ordinario riconducendo a un unico modello i diversi quadri relativi alle varie tipologie di reddito. L'unificazione ha semplificato l'architettura dichiarativa, pur mantenendo la ricchezza dei quadri necessari a rappresentare le diverse fattispecie. Il modello attuale conserva quindi la capacità di dare conto di tutte le ritenute operate dal sostituto, dal lavoro dipendente ai redditi di capitale, in un'unica dichiarazione riepilogativa."
+        ]
+      },
+      {
+        "h": "La struttura del modello e i suoi quadri",
+        "p": [
+          "Il modello 770 si compone di una serie di quadri, ciascuno dedicato a una specifica funzione. Il cuore della dichiarazione è costituito dai quadri riepilogativi dei versamenti e delle ritenute: vi si riportano, distinti per tipologia e per periodo, i totali delle ritenute operate e dei versamenti effettuati. Accanto a questi si collocano i quadri relativi alle diverse categorie di reddito soggette a ritenuta e i prospetti di riconciliazione e compensazione.",
+          "La logica della struttura è quella del riepilogo aggregato: mentre i dati analitici relativi a ciascun percipiente sono contenuti nelle Certificazioni Uniche, il 770 raccoglie i totali e li organizza in modo da consentirne il confronto con i versamenti. La compilazione dei quadri richiede una ricostruzione ordinata dell'attività dell'anno — le ritenute mese per mese, i versamenti con i relativi codici tributo, le eventuali compensazioni — così che la dichiarazione rappresenti fedelmente il flusso complessivo della sostituzione d'imposta."
+        ]
+      },
+      {
+        "h": "Il quadro dei versamenti e delle ritenute (ST)",
+        "p": [
+          "Fra i quadri del modello 770, quello dedicato ai versamenti e alle ritenute occupa una posizione centrale. In esso il sostituto riporta, per ciascun periodo di riferimento, l'ammontare delle ritenute operate — distinte per tipologia di reddito — e i versamenti effettuati all'Erario, con l'indicazione delle date e degli importi. È il quadro che ricostruisce, mese per mese, la corrispondenza tra ciò che è stato trattenuto e ciò che è stato versato, evidenziando eventuali scostamenti o ritardi.",
+          "La compilazione di questo quadro richiede la riconciliazione tra le ritenute risultanti dai cedolini e dalle certificazioni e i versamenti eseguiti con i modelli F24. Ogni versamento è identificato da un codice tributo che ne specifica la natura, e la somma dei versamenti deve corrispondere all'ammontare delle ritenute operate. Il quadro dei versamenti è quindi il punto in cui la dichiarazione incontra la storia dei pagamenti dell'anno, e la sua coerenza con gli F24 è uno dei primi elementi che il controllo automatizzato verifica."
+        ]
+      },
+      {
+        "h": "Le addizionali regionali e comunali",
+        "p": [
+          "Oltre all'IRPEF erariale, il sostituto d'imposta trattiene e versa le addizionali regionali e comunali all'IRPEF, tributi locali che si commisurano al reddito del lavoratore. Le addizionali seguono un meccanismo particolare: sono determinate in relazione al reddito dell'anno precedente e trattenute, di norma, in un numero di rate nel corso dell'anno successivo, con un acconto per l'addizionale comunale. Il modello 770 dà conto, nei quadri dedicati, delle addizionali trattenute e versate.",
+          "La corretta gestione delle addizionali richiede attenzione, perché il loro calcolo dipende dall'aliquota deliberata da ciascuna Regione e da ciascun Comune, e dalla residenza del lavoratore. Il 770 riepiloga i versamenti delle addizionali distinguendoli per ente destinatario, così da consentire la corretta attribuzione del gettito. La coerenza tra le addizionali certificate nelle CU dei singoli lavoratori e quelle riepilogate nel 770 è, anche qui, un elemento di riscontro nei controlli, poiché ogni disallineamento segnala una possibile anomalia nella gestione del prelievo locale."
+        ]
+      },
+      {
+        "h": "Le compensazioni e i crediti del sostituto",
+        "p": [
+          "Il sostituto d'imposta può maturare crediti nei confronti dell'Erario — ad esempio a seguito di conguagli, di versamenti eccedenti, o del rimborso di somme ai lavoratori in sede di assistenza fiscale — e utilizzarli in compensazione con i debiti per ritenute. Il modello 770 contiene un quadro riepilogativo delle compensazioni e dei crediti, in cui il sostituto ricostruisce la formazione e l'utilizzo delle posizioni creditorie. È il prospetto che chiude i conti tra ciò che il sostituto deve e ciò che vanta.",
+          "La gestione delle compensazioni è delicata perché incide direttamente sui versamenti: una compensazione riduce l'importo da versare, sicché la corretta rappresentazione dei crediti nel 770 è essenziale per giustificare i minori versamenti. Le compensazioni effettuate nei modelli F24 devono trovare corrispondenza nel quadro riepilogativo del 770, e i crediti utilizzati devono essere effettivamente spettanti. I controlli dell'Amministrazione verificano proprio la legittimità delle compensazioni, perché l'uso di crediti inesistenti o non spettanti è una delle forme più insidiose di irregolarità."
+        ]
+      },
+      {
+        "h": "Le ritenute sul lavoro dipendente e assimilato",
+        "p": [
+          "La componente più rilevante, per la generalità dei sostituti, è quella relativa alle ritenute sui redditi di lavoro dipendente e assimilati. Il datore di lavoro trattiene mensilmente, sulla retribuzione, l'IRPEF calcolata secondo gli scaglioni e le aliquote vigenti, tenendo conto delle detrazioni spettanti, e a fine anno opera il conguaglio per adeguare le ritenute all'imposta effettivamente dovuta. Queste ritenute, certificate nelle CU dei singoli lavoratori, confluiscono in forma aggregata nel modello 770.",
+          "Il 770 riepiloga l'insieme delle ritenute operate sui redditi di lavoro dipendente e i relativi versamenti, consentendo all'Amministrazione di verificare che le ritenute risultanti dalle certificazioni rilasciate ai lavoratori corrispondano a quelle dichiarate e versate. La riconciliazione tra la somma delle ritenute certificate nelle CU e il totale dichiarato nel 770 è un controllo fondamentale: la coerenza tra le due fonti attesta la correttezza dell'attività del sostituto sul versante del lavoro dipendente, che per la maggior parte delle imprese costituisce la parte prevalente della dichiarazione."
+        ]
+      },
+      {
+        "h": "Le ritenute sul lavoro autonomo e le provvigioni",
+        "p": [
+          "Accanto al lavoro dipendente, il sostituto opera ritenute sui compensi di lavoro autonomo — corrisposti a professionisti e a lavoratori autonomi — e sulle provvigioni per rapporti di commissione, agenzia, mediazione e rappresentanza. Le ritenute sul lavoro autonomo sono operate, di regola, a titolo d'acconto, e certificate al percipiente nella CU, che ne consente lo scomputo in sede di dichiarazione dei redditi; le provvigioni seguono una disciplina con proprie peculiarità in ordine alla base imponibile.",
+          "Anche queste ritenute confluiscono nel modello 770, che ne riepiloga l'ammontare e i versamenti. Il sostituto che remunera professionisti e agenti deve quindi tenere traccia ordinata dei compensi erogati, delle ritenute operate e dei versamenti effettuati, così da poterli riepilogare correttamente nella dichiarazione e certificarli ai percipienti. Il collegamento tra le CU rilasciate ai lavoratori autonomi e agli agenti e i totali dichiarati nel 770 costituisce, anche in questo ambito, il riscontro su cui si fonda il controllo della corretta applicazione delle ritenute."
+        ]
+      },
+      {
+        "h": "Le ritenute sui redditi di capitale e sui dividendi",
+        "p": [
+          "Il modello 770 dà conto anche delle ritenute su redditi di capitale, dividendi, interessi e proventi finanziari, che riguardano in particolare banche, intermediari finanziari e società che distribuiscono utili. Su queste fattispecie il sostituto opera ritenute o imposte sostitutive secondo regimi specifici, spesso a titolo d'imposta, e ne riepiloga l'ammontare nei quadri dedicati del 770. Si tratta della componente che, nel modello previgente, era propria del 770 Ordinario, oggi ricondotta nel modello unificato.",
+          "La gestione di queste ritenute presenta profili tecnici peculiari, legati alla varietà dei regimi applicabili ai diversi strumenti finanziari e alla frequente natura sostitutiva del prelievo, che esaurisce l'imposizione senza necessità di ulteriore dichiarazione da parte del percipiente. Il 770 riepiloga queste ritenute distinguendole per tipologia, consentendo all'Amministrazione di verificare il corretto assolvimento degli obblighi anche in questo ambito, dove i sostituti sono tipicamente soggetti qualificati del settore finanziario, tenuti a una gestione particolarmente rigorosa del prelievo alla fonte."
+        ]
+      },
+      {
+        "h": "Il collegamento con la Certificazione Unica",
+        "p": [
+          "Il rapporto tra il modello 770 e la Certificazione Unica è di stretta complementarità, tanto da costituire il fulcro del sistema dei controlli. La CU certifica al singolo percipiente e all'Agenzia i redditi corrisposti e le ritenute operate che lo riguardano; il 770 riepiloga all'Agenzia l'insieme delle ritenute operate e versate dal sostituto. Le due dichiarazioni guardano allo stesso fenomeno da prospettive diverse: analitica e individuale la CU, aggregata e complessiva il 770.",
+          "La conseguenza è che i dati aggregati del 770 devono trovare corrispondenza con la somma dei dati certificati nelle CU trasmesse. Se il sostituto ha certificato, attraverso le CU, un certo ammontare complessivo di ritenute, quello stesso ammontare deve risultare, in forma aggregata, dal 770. Un disallineamento tra la sommatoria delle CU e il 770 è un'anomalia che l'Amministrazione rileva immediatamente attraverso i propri controlli incrociati, ed è per questo che la riconciliazione tra le due fonti, prima della presentazione, è un passaggio essenziale della corretta predisposizione della dichiarazione."
+        ]
+      },
+      {
+        "h": "Il collegamento con i versamenti F24",
+        "p": [
+          "Se la CU rappresenta il collegamento a valle, verso i percipienti, il modello F24 rappresenta il collegamento a monte, verso l'Erario. Le ritenute operate mese per mese dal sostituto sono versate all'Erario attraverso i modelli F24, con l'indicazione dei codici tributo che ne specificano la natura e del periodo di riferimento. Il 770 riepiloga, nel quadro dei versamenti, l'insieme di questi F24, ricostruendo la storia dei pagamenti dell'anno.",
+          "La coerenza tra le ritenute dichiarate nel 770 e i versamenti risultanti dagli F24 è il secondo grande riscontro del controllo. L'Amministrazione dispone dei dati dei versamenti F24 e li confronta con quanto dichiarato nel 770: le ritenute che risultano operate devono corrispondere ai versamenti effettuati. Un 770 che dichiari ritenute non seguite dai relativi versamenti evidenzia un'omissione, con conseguenze che possono estendersi al piano penale. La catena F24 — 770 — CU è dunque il triangolo su cui si regge la verificabilità dell'intera attività del sostituto d'imposta."
+        ]
+      },
+      {
+        "h": "La riconciliazione delle tre fonti",
+        "p": [
+          "Il corretto adempimento degli obblighi del sostituto si misura nella coerenza di tre fonti documentali: le Certificazioni Uniche rilasciate ai percipienti, i versamenti effettuati con gli F24 e la dichiarazione riepilogativa del 770. Idealmente, le ritenute certificate nelle CU, quelle dichiarate nel 770 e i versamenti risultanti dagli F24 devono coincidere, descrivendo lo stesso fenomeno da tre angolazioni. La riconciliazione di queste fonti, prima della presentazione del 770, è l'operazione che assicura l'assenza di disallineamenti.",
+          "Quando le tre fonti coincidono, l'attività del sostituto è pienamente verificabile e regolare; quando divergono, emerge un'anomalia che richiede spiegazione. Le divergenze possono avere cause diverse — errori di compilazione, versamenti mancanti, certificazioni non allineate — ma tutte richiedono di essere individuate e risolte, perché costituiscono il segnale su cui si innescano i controlli automatizzati e, eventualmente, gli accertamenti. La gestione ordinata di questa riconciliazione è quindi il cuore dell'attività amministrativa del sostituto d'imposta, e la conservazione della documentazione a supporto ne è il presupposto."
+        ]
+      },
+      {
+        "h": "Le modalità e i termini di presentazione",
+        "p": [
+          "Il modello 770 è presentato esclusivamente per via telematica, attraverso i canali dell'Agenzia delle Entrate — direttamente dal sostituto abilitato o tramite un intermediario incaricato, tipicamente il consulente del lavoro o il commercialista. La trasmissione telematica genera una ricevuta di avvenuta presentazione, che attesta l'adempimento e la data in cui è stato compiuto, e che va conservata insieme alla dichiarazione come prova dell'avvenuta trasmissione.",
+          "Il termine di presentazione è fissato annualmente dalla normativa e negli ultimi anni è stato collocato nella seconda parte dell'anno successivo a quello di riferimento. Il rispetto del termine è essenziale, perché la presentazione tardiva o omessa è sanzionata; entro limiti temporali ristretti, una presentazione lievemente tardiva può ancora essere considerata valida con applicazione di sanzioni ridotte. La corretta individuazione del termine e la sua osservanza sono quindi il primo adempimento formale che il sostituto deve presidiare, insieme alla conservazione della ricevuta che ne documenta il rispetto."
+        ]
+      },
+      {
+        "h": "Il ravvedimento operoso",
+        "p": [
+          "Quando il sostituto si avvede di un errore o di un'omissione — un versamento tardivo, una dichiarazione da correggere — l'ordinamento gli offre la possibilità del ravvedimento operoso, disciplinato in via generale dall'articolo 13 del D.Lgs. 472/1997. Attraverso il ravvedimento, il sostituto può regolarizzare spontaneamente la propria posizione versando il dovuto, gli interessi e una sanzione ridotta, la cui misura cresce col trascorrere del tempo dalla violazione. Il ravvedimento premia la regolarizzazione spontanea rispetto all'attesa del controllo.",
+          "Nell'ambito degli obblighi del sostituto, il ravvedimento assume rilievo sia per i versamenti tardivi delle ritenute sia per la correzione di dichiarazioni infedeli o presentate in ritardo. La possibilità di ravvedersi è tanto più preziosa quanto più grave è la violazione potenziale: regolarizzare spontaneamente un omesso versamento di ritenute, prima che si consolidi la contestazione, consente di ridurre le sanzioni ed evitare le conseguenze più severe. La conservazione ordinata della documentazione è, anche qui, il presupposto per poter ricostruire la propria posizione e ravvedersi in modo corretto e tempestivo."
+        ]
+      },
+      {
+        "h": "L'apparato sanzionatorio della dichiarazione",
+        "p": [
+          "La violazione degli obblighi dichiarativi del sostituto è presidiata da un apparato sanzionatorio articolato. L'omessa presentazione del modello 770 è sanzionata in misura commisurata alle ritenute non dichiarate, con un minimo previsto anche in assenza di ritenute; la presentazione infedele — con dati non corrispondenti alla realtà — è a sua volta sanzionata in proporzione all'ammontare delle ritenute non correttamente dichiarate. Le misure sono calibrate sulla gravità della violazione e sull'incidenza sull'interesse erariale.",
+          "Il sistema distingue tra violazioni formali, che non incidono sull'ammontare delle ritenute, e violazioni sostanziali, che ne alterano la rappresentazione. Le prime sono sanzionate in misura contenuta; le seconde, che sottraggono base al prelievo, con maggiore severità. La disciplina sanzionatoria è stata oggetto di interventi di riforma volti a razionalizzarne le misure. Al di là degli importi specifici, il principio è costante: la dichiarazione del sostituto deve essere completa e veritiera, e la sua omissione o infedeltà espone a conseguenze proporzionate all'entità delle ritenute coinvolte."
+        ]
+      },
+      {
+        "h": "L'omesso versamento delle ritenute e i profili penali",
+        "p": [
+          "La violazione più grave nell'ambito della sostituzione d'imposta è l'omesso versamento delle ritenute operate. Trattenere le ritenute sui redditi corrisposti e non versarle all'Erario significa, in sostanza, appropriarsi di somme che appartengono allo Stato e che il sostituto ha trattenuto per conto di esso. Per questa ragione, oltre le sanzioni amministrative, la disciplina prevede una specifica rilevanza penale dell'omesso versamento.",
+          "L'articolo 10-bis del D.Lgs. 74/2000 configura come reato l'omesso versamento delle ritenute dovute o certificate, oltre una soglia determinata riferita al periodo d'imposta. La collocazione della fattispecie sul piano penale riflette il particolare disvalore dell'appropriazione di somme altrui: il sostituto che non versa le ritenute non evade semplicemente un tributo proprio, ma trattiene denaro trattenuto per conto dello Stato. La corretta e tempestiva esecuzione dei versamenti, coerente con quanto dichiarato nel 770 e certificato nelle CU, è quindi un adempimento della massima delicatezza, che tocca profili non solo tributari ma anche penali."
+        ]
+      },
+      {
+        "h": "I controlli automatizzati sulla dichiarazione",
+        "p": [
+          "Il modello 770 è sottoposto ai controlli automatizzati previsti dall'articolo 36-bis del D.P.R. 600/1973, che consentono all'Amministrazione di verificare, in via automatica e per la generalità delle dichiarazioni, la coerenza tra i dati dichiarati e quelli in suo possesso. Nel caso del sostituto, il controllo incrocia i dati del 770 con quelli delle CU trasmesse e con i versamenti risultanti dagli F24, individuando disallineamenti e omissioni di versamento.",
+          "Quando il controllo automatizzato rileva un'anomalia, l'Amministrazione emette una comunicazione — spesso definita avviso bonario — con cui invita il sostituto a fornire chiarimenti o a regolarizzare la propria posizione, con applicazione di sanzioni ridotte rispetto a quelle ordinarie. Questa fase precede l'eventuale iscrizione a ruolo e offre al sostituto l'occasione di correggere errori o di dimostrare la correttezza di quanto dichiarato. La capacità di rispondere efficacemente a queste comunicazioni dipende dalla conservazione ordinata della documentazione a supporto, che consente di ricostruire la posizione e di replicare puntualmente ai rilievi."
+        ]
+      },
+      {
+        "h": "Il fascicolo documentale del sostituto d'imposta",
+        "p": [
+          "L'attività del sostituto d'imposta genera un insieme documentale articolato, che costituisce il suo fascicolo. Vi rientrano i cedolini e i prospetti delle retribuzioni corrisposte, i registri delle ritenute operate, le ricevute dei versamenti F24, le Certificazioni Uniche rilasciate ai percipienti e trasmesse all'Agenzia, il modello 770 con la relativa ricevuta di presentazione. Ciascun documento è un tassello della ricostruzione dell'attività di sostituzione, e insieme compongono il quadro completo verificabile in sede di controllo.",
+          "La coerenza e la completezza di questo fascicolo sono ciò che consente al sostituto di dimostrare, anche a distanza di anni, la correttezza del proprio operato. In sede di controllo o di contenzioso, la capacità di esibire un fascicolo ordinato — dai cedolini ai versamenti alle certificazioni alla dichiarazione — è la migliore garanzia della regolarità. La conservazione del fascicolo del sostituto non è quindi un adempimento accessorio, ma la condizione stessa della difendibilità della posizione, ed è per questo che la sua organizzazione e conservazione a norma meritano particolare attenzione."
+        ]
+      },
+      {
+        "h": "Il 770 come documento informatico",
+        "p": [
+          "Il modello 770 è, per sua natura, un documento interamente digitale: è predisposto secondo il modello approvato dall'Agenzia delle Entrate, compilato con i software di elaborazione e trasmesso telematicamente. Non esiste, nella prassi corrente, una versione cartacea originale del 770: il documento nasce, vive e viene trasmesso in forma elettronica. Alla trasmissione si accompagna la ricevuta telematica, anch'essa documento informatico, che attesta l'avvenuta presentazione e la sua data.",
+          "In quanto documento informatico rilevante ai fini fiscali, il 770 e la sua ricevuta soggiacciono alle regole di conservazione applicabili a questa categoria di documenti: il D.M. 17 giugno 2014 per i documenti fiscali e le Linee guida AgID per i documenti informatici in generale. Ciò significa che il 770 deve essere conservato in modo da garantirne l'integrità, l'autenticità, la leggibilità e la reperibilità nel tempo, attraverso un processo di conservazione a norma che ne preservi il valore probatorio per l'intero periodo in cui può essere richiesto."
+        ]
+      },
+      {
+        "h": "Formati e metadati nella conservazione del 770",
+        "p": [
+          "La conservazione a norma del modello 770 richiede che il documento sia versato in conservazione in un formato idoneo a garantirne la leggibilità nel tempo e resistente all'obsolescenza tecnologica, e corredato dei metadati che ne consentono l'identificazione e la ricerca. I metadati individuano il sostituto d'imposta, il periodo d'imposta di riferimento, la tipologia documentale e gli altri elementi che collocano il documento nel sistema di conservazione e ne attestano la posizione nel tempo.",
+          "Insieme al 770 va conservata la ricevuta telematica di presentazione, che ne attesta l'invio e la data: la coppia dichiarazione-ricevuta costituisce l'unità documentale rilevante ai fini della prova dell'adempimento. La conservazione deve garantire che entrambi i documenti restino integri e associati, così da poter dimostrare non solo il contenuto della dichiarazione ma anche l'avvenuta e tempestiva presentazione. Formati idonei, metadati completi e garanzia di integrità sono quindi i requisiti che rendono la conservazione del 770 conforme e affidabile."
+        ]
+      },
+      {
+        "h": "I tempi di conservazione del 770",
+        "p": [
+          "Il modello 770, quale dichiarazione fiscale, va conservato fino alla definizione degli accertamenti relativi al periodo d'imposta cui si riferisce. I termini di accertamento in materia di imposte sui redditi fissano l'orizzonte temporale entro cui l'Amministrazione può contestare la dichiarazione, e la conservazione deve coprire almeno questo arco, tenendo conto delle possibili proroghe e delle ipotesi in cui i termini risultano più ampi, come nel caso di omessa dichiarazione.",
+          "In pratica, la prudenza suggerisce di conservare il 770 e il relativo fascicolo per un periodo che copra con margine i termini di accertamento, così da poter fronteggiare eventuali contestazioni e contenziosi che possono protrarsi nel tempo. La conservazione digitale a norma rende sostenibile questa esigenza di lungo periodo, garantendo che la dichiarazione, la ricevuta e la documentazione a supporto restino integre, leggibili e reperibili per l'intero arco temporale in cui possono essere richieste, senza i rischi di deterioramento e dispersione propri della conservazione cartacea."
+        ]
+      },
+      {
+        "h": "Il 770 nei controlli e negli accertamenti",
+        "p": [
+          "Il modello 770 è uno strumento centrale dei controlli dell'Amministrazione finanziaria sull'attività dei sostituti d'imposta. Oltre ai controlli automatizzati, che incrociano il 770 con le CU e con i versamenti, la dichiarazione può essere oggetto di verifiche più approfondite in sede di accesso, ispezione o accertamento, nel corso delle quali gli organi verificatori esaminano la coerenza tra la dichiarazione, la documentazione contabile e i versamenti effettivamente eseguiti.",
+          "In queste sedi, la capacità del sostituto di esibire un fascicolo documentale ordinato e coerente è decisiva. Le contestazioni tipiche riguardano l'omesso o insufficiente versamento delle ritenute, l'infedeltà della dichiarazione, l'uso di compensazioni non spettanti. Di fronte a tali rilievi, la disponibilità di una documentazione completa — cedolini, prospetti delle ritenute, ricevute dei versamenti, certificazioni — consente al sostituto di dimostrare la correttezza del proprio operato o di circoscrivere la portata delle contestazioni. La conservazione a norma è quindi la premessa della difendibilità della posizione in sede di controllo."
+        ]
+      },
+      {
+        "h": "Il frontespizio e i dati identificativi",
+        "p": [
+          "Come ogni dichiarazione fiscale, il modello 770 si apre con il frontespizio, che raccoglie i dati identificativi del sostituto d'imposta e gli elementi generali della dichiarazione. Vi figurano la denominazione o i dati anagrafici del sostituto, il codice fiscale, il domicilio fiscale, il periodo d'imposta di riferimento, l'indicazione del tipo di dichiarazione — originaria, correttiva, integrativa — e i dati dell'eventuale intermediario che cura la trasmissione. Il frontespizio è la carta d'identità della dichiarazione, che ne definisce il soggetto e la natura.",
+          "L'esatta compilazione del frontespizio non è un dettaglio: da essa dipende la corretta imputazione della dichiarazione al soggetto e al periodo, e l'individuazione della sua natura. Un errore nell'indicazione del tipo di dichiarazione, o nei dati identificativi, può generare problemi di abbinamento e di controllo. Il frontespizio contiene inoltre l'impegno alla trasmissione telematica assunto dall'intermediario, elemento che documenta la catena di responsabilità nella presentazione e che rileva ai fini della tempestività dell'adempimento."
+        ]
+      },
+      {
+        "h": "Il quadro riepilogativo e la quadratura",
+        "p": [
+          "All'interno del modello 770 un ruolo particolare spetta al quadro riepilogativo, che raccoglie i totali delle diverse componenti e ne verifica la coerenza complessiva. È il quadro in cui si effettua la quadratura della dichiarazione: la somma delle ritenute operate sulle diverse tipologie di reddito, i versamenti, le compensazioni e i crediti devono comporsi in un quadro coerente, in cui i totali si corrispondono. La quadratura è l'operazione che attesta la solidità interna della dichiarazione.",
+          "Una dichiarazione che non quadra — in cui i totali non si corrispondono — segnala un errore da individuare e correggere prima della trasmissione. La quadratura non è un mero automatismo di calcolo, ma la verifica finale della coerenza di tutto il lavoro di compilazione: se le ritenute dichiarate non corrispondono ai versamenti e alle certificazioni, la dichiarazione va rivista. Il quadro riepilogativo è quindi lo strumento attraverso cui il sostituto controlla, in ultima istanza, la correttezza complessiva della propria dichiarazione."
+        ]
+      },
+      {
+        "h": "Il sostituto e l'assistenza fiscale",
+        "p": [
+          "Il sostituto d'imposta svolge un ruolo importante nell'ambito dell'assistenza fiscale ai lavoratori dipendenti e ai pensionati. Quando il lavoratore presenta la dichiarazione dei redditi in forma semplificata — il modello 730 —, il risultato della liquidazione, a debito o a credito, viene regolato attraverso il sostituto: il datore trattiene le somme dovute o rimborsa i crediti direttamente in busta paga, nei mesi successivi. Il sostituto diventa così il canale attraverso cui si materializza il conguaglio dell'assistenza fiscale.",
+          "Questa attività genera flussi di trattenute e rimborsi che devono trovare riscontro nel modello 770: le somme trattenute a debito e quelle rimborsate a credito, con i relativi recuperi in compensazione, vanno riepilogate nella dichiarazione. La gestione dei conguagli da assistenza fiscale è delicata perché intreccia la posizione del singolo lavoratore con quella del sostituto verso l'Erario: i rimborsi anticipati ai lavoratori vengono recuperati dal sostituto in compensazione, e questa dinamica deve essere rappresentata correttamente nel 770, in coerenza con i versamenti e con le certificazioni."
+        ]
+      },
+      {
+        "h": "Le somme corrisposte in procedure di pignoramento",
+        "p": [
+          "Una fattispecie peculiare che trova rappresentazione nel modello 770 è quella delle somme corrisposte a seguito di procedure di pignoramento presso terzi. Quando un soggetto è tenuto a versare somme a un creditore in esecuzione di un pignoramento, e tali somme costituiscono per il percipiente reddito soggetto a ritenuta, il terzo erogatore assume la veste di sostituto e opera la ritenuta. Il 770 dà conto di queste ritenute in un quadro dedicato, distinto per la particolarità della fattispecie.",
+          "La disciplina di queste ritenute presenta profili tecnici propri, legati alla natura delle somme corrisposte e alla posizione dei soggetti coinvolti — il debitore, il terzo pignorato, il creditore percipiente. La corretta gestione richiede di individuare se e in quale misura le somme siano soggette a ritenuta, e di documentarne il trattamento. La presenza di un quadro dedicato nel 770 riflette l'esigenza di ricondurre anche queste fattispecie particolari nel sistema di riepilogo e controllo delle ritenute, assicurando che nessuna somma soggetta a prelievo alla fonte sfugga alla rappresentazione dichiarativa."
+        ]
+      },
+      {
+        "h": "Le ritenute su locazioni brevi e fattispecie speciali",
+        "p": [
+          "Il sistema della sostituzione d'imposta si è progressivamente esteso a fattispecie nuove, connesse all'evoluzione dell'economia. È il caso delle ritenute sui canoni delle locazioni brevi, dove i soggetti che intervengono nell'incasso dei canoni — intermediari immobiliari e gestori di portali telematici — assumono, a determinate condizioni, il ruolo di sostituti, operando la ritenuta sui corrispettivi e versandola all'Erario. Anche queste ritenute confluiscono, ove dovute, nel sistema di riepilogo del 770.",
+          "L'estensione della sostituzione a fattispecie di questo tipo risponde all'esigenza di presidiare aree dell'economia in cui il rischio di sottrazione di base imponibile è elevato e la platea dei percipienti è ampia e frammentata. Attraverso l'imposizione dell'obbligo di sostituzione a soggetti qualificati — intermediari, piattaforme —, l'ordinamento concentra il prelievo su un numero ristretto di operatori, replicando la logica di efficienza propria della sostituzione. Il 770, quale dichiarazione riepilogativa dell'attività del sostituto, si adatta ad accogliere anche queste fattispecie speciali via via che la disciplina le introduce."
+        ]
+      },
+      {
+        "h": "Il condominio quale sostituto d'imposta",
+        "p": [
+          "Fra i soggetti che rivestono la qualifica di sostituto d'imposta figura anche il condominio. Quando il condominio corrisponde compensi soggetti a ritenuta — ad esempio all'amministratore, o a imprese e professionisti per prestazioni relative alle parti comuni, in particolare nell'ambito dei contratti d'appalto per lavori — è tenuto a operare la ritenuta e a versarla all'Erario, assumendo la veste di sostituto. Questa fattispecie coinvolge una platea vastissima, poiché i condomini sono soggetti diffusi sul territorio.",
+          "La qualifica del condominio come sostituto comporta l'obbligo di operare le ritenute, di certificarle ai percipienti tramite la CU e di riepilogarle nel modello 770. L'amministratore, che gestisce l'attività del condominio, cura questi adempimenti per conto della compagine condominiale. La particolarità della fattispecie sta nel fatto che un soggetto non imprenditoriale, quale il condominio, è chiamato a svolgere una funzione tipica dei sostituti, con i relativi obblighi documentali e dichiarativi. Anche per il condominio, quindi, la corretta gestione delle ritenute e la loro rappresentazione nel 770 sono adempimenti da presidiare con attenzione."
+        ]
+      },
+      {
+        "h": "Gli enti non commerciali e i soggetti particolari",
+        "p": [
+          "La qualifica di sostituto d'imposta non è propria delle sole imprese: la rivestono anche gli enti non commerciali, le associazioni, le fondazioni e in generale i soggetti che, pur non svolgendo attività d'impresa, corrispondono redditi soggetti a ritenuta. Un'associazione che remunera un collaboratore o un professionista, una fondazione che eroga compensi, un ente del terzo settore che corrisponde redditi assimilati: tutti operano come sostituti e sono tenuti agli obblighi conseguenti, compresa la presentazione del 770.",
+          "L'ampiezza della platea dei sostituti riflette la generalità del meccanismo di prelievo alla fonte, che si applica ogniqualvolta un soggetto corrisponde a terzi redditi soggetti a ritenuta, indipendentemente dalla sua natura. Per gli enti non commerciali, la gestione degli obblighi di sostituzione può risultare meno familiare che per le imprese, ed è proprio in questi ambiti che il rischio di omissioni o errori è maggiore. La corretta individuazione delle somme soggette a ritenuta, il loro versamento e la rappresentazione nel 770 richiedono quindi, anche per questi soggetti, un presidio attento degli adempimenti."
+        ]
+      },
+      {
+        "h": "Le ritenute sul TFR e sulle indennità di fine rapporto",
+        "p": [
+          "Fra i redditi soggetti a ritenuta da parte del datore di lavoro figurano il trattamento di fine rapporto e le altre indennità corrisposte alla cessazione del rapporto di lavoro. Il TFR è assoggettato a una tassazione separata, con modalità di calcolo peculiari che tengono conto degli anni di maturazione, e il datore, quale sostituto, opera la ritenuta e la versa all'Erario. Anche queste ritenute, connesse alla fase conclusiva del rapporto, trovano rappresentazione nel sistema del sostituto.",
+          "La gestione delle ritenute sul TFR presenta profili tecnici propri, legati al regime di tassazione separata e ai conguagli che l'Amministrazione può operare successivamente sulla base dell'aliquota media del contribuente. Il datore certifica al lavoratore, nella CU, le somme erogate a titolo di TFR e le ritenute operate, e ne dà conto nel quadro complessivo della propria attività di sostituzione. La corretta gestione di queste ritenute è importante perché il TFR rappresenta somme spesso rilevanti, la cui tassazione errata può generare contestazioni tanto verso il lavoratore quanto verso l'Erario."
+        ]
+      },
+      {
+        "h": "Le somme corrisposte agli eredi",
+        "p": [
+          "Una fattispecie particolare riguarda le somme che il datore di lavoro corrisponde agli eredi del lavoratore deceduto: retribuzioni maturate e non riscosse, TFR, altre indennità. Il decesso del lavoratore non estingue i crediti maturati, che si trasmettono agli eredi, e il datore deve gestire l'erogazione di queste somme agli aventi diritto, con il relativo trattamento fiscale. La disciplina prevede regole specifiche per la tassazione di queste somme in capo agli eredi.",
+          "La gestione di queste erogazioni richiede attenzione perché coinvolge soggetti diversi dal lavoratore originario e regole fiscali particolari. Il datore, quale sostituto, deve individuare il corretto trattamento delle somme corrisposte agli eredi, operare le eventuali ritenute e certificarle. Anche queste fattispecie, per quanto meno frequenti, devono trovare corretta rappresentazione nel sistema documentale del sostituto e nel modello 770, a conferma della vocazione della dichiarazione a ricomprendere l'intero spettro delle somme corrisposte soggette a prelievo alla fonte."
+        ]
+      },
+      {
+        "h": "La dichiarazione correttiva nei termini",
+        "p": [
+          "Quando il sostituto si avvede di un errore nella dichiarazione già presentata, prima della scadenza del termine ordinario di presentazione, può presentare una dichiarazione correttiva nei termini, che sostituisce integralmente quella precedente. La correttiva consente di rimediare a errori e omissioni entro la scadenza, presentando una nuova dichiarazione completa e corretta, senza incorrere nelle sanzioni proprie della dichiarazione infedele, poiché la correzione avviene entro il termine fisiologico dell'adempimento.",
+          "La dichiarazione correttiva nei termini è lo strumento fisiologico di gestione degli errori rilevati tempestivamente: consente al sostituto di consolidare una rappresentazione corretta della propria attività prima ancora che la dichiarazione originaria produca i suoi effetti definitivi. La sua natura sostitutiva richiede che la correttiva sia completa, e non limitata alle sole voci da correggere: essa rimpiazza in toto la precedente. La conservazione ordinata di tutte le versioni presentate — originaria e correttiva — è utile a ricostruire, se necessario, la sequenza degli adempimenti."
+        ]
+      },
+      {
+        "h": "La dichiarazione integrativa oltre i termini",
+        "p": [
+          "Diversa dalla correttiva è la dichiarazione integrativa, con cui il sostituto corregge la dichiarazione dopo la scadenza del termine ordinario di presentazione. L'integrativa può essere a favore del contribuente, quando emenda errori che avevano determinato un maggior debito, o a sfavore, quando corregge errori che avevano determinato un minor versamento. In quest'ultimo caso, la regolarizzazione si accompagna, di norma, al versamento del dovuto e alle sanzioni ridotte tramite ravvedimento.",
+          "L'istituto dell'integrativa consente al sostituto di correggere la propria posizione anche a distanza di tempo dalla presentazione originaria, entro i termini previsti dalla disciplina. La sua funzione è quella di permettere l'emenda degli errori rilevati tardivamente, evitando che la posizione resti cristallizzata su una rappresentazione non corretta. La gestione delle integrative richiede di documentare con precisione le ragioni e l'entità delle correzioni, e di conservare la traccia della dichiarazione originaria e di quella integrativa, così da poter ricostruire l'evoluzione della posizione dichiarativa in caso di controllo."
+        ]
+      },
+      {
+        "h": "Il ruolo e la responsabilità dell'intermediario",
+        "p": [
+          "La maggior parte dei sostituti d'imposta si avvale, per la predisposizione e la trasmissione del modello 770, di un intermediario abilitato — il consulente del lavoro, il commercialista, il centro di assistenza. L'intermediario assume l'impegno a trasmettere telematicamente la dichiarazione e rilascia al sostituto l'impegno alla trasmissione, oltre a consegnargli, dopo l'invio, la copia della dichiarazione trasmessa e la ricevuta di avvenuta presentazione. La catena di responsabilità nella presentazione è così documentata in ogni passaggio.",
+          "L'affidamento all'intermediario non solleva il sostituto dalla responsabilità sostanziale della dichiarazione, che resta il soggetto obbligato e risponde della veridicità dei dati, ma introduce un soggetto professionale che presidia la correttezza tecnica dell'adempimento. La corretta gestione del rapporto tra sostituto e intermediario — la trasmissione tempestiva dei dati, la verifica della dichiarazione prima dell'invio, la conservazione della documentazione dell'impegno e della ricevuta — è essenziale perché l'adempimento si perfezioni correttamente e sia dimostrabile in caso di controllo."
+        ]
+      },
+      {
+        "h": "Il 770 e le scritture contabili del sostituto",
+        "p": [
+          "Il modello 770 non è un documento isolato, ma il punto di arrivo di una registrazione contabile che accompagna, per tutto l'anno, l'attività del sostituto. Le ritenute operate sono rilevate nelle scritture contabili come debiti verso l'Erario; i versamenti ne determinano l'estinzione; le compensazioni movimentano i crediti. La contabilità del sostituto è quindi la fonte da cui si ricava la ricostruzione dei dati che confluiscono nel 770, e la sua coerenza con la dichiarazione è un ulteriore elemento di riscontro.",
+          "In sede di controllo, l'esame delle scritture contabili consente di verificare la corrispondenza tra la rappresentazione contabile delle ritenute e dei versamenti e quella dichiarativa del 770. Un disallineamento tra contabilità e dichiarazione è un segnale di anomalia che richiede spiegazione. La tenuta ordinata delle scritture e la loro riconciliazione con il 770 sono quindi parte integrante della corretta gestione degli obblighi del sostituto, e la conservazione delle scritture, unitamente al fascicolo dichiarativo, concorre alla difendibilità della posizione nel tempo."
+        ]
+      },
+      {
+        "h": "Il collegamento con la disciplina delle ritenute negli appalti",
+        "p": [
+          "Nell'ambito dei contratti d'appalto e di servizi ad alta intensità di manodopera, la disciplina ha introdotto meccanismi volti a contrastare l'omesso versamento delle ritenute da parte degli appaltatori e subappaltatori. Il committente è chiamato a un ruolo di controllo sul corretto versamento delle ritenute operate dall'appaltatore sui redditi dei lavoratori impiegati nell'appalto, con obblighi di verifica e, in certe condizioni, di riscontro documentale. La finalità è impedire che, nella catena degli appalti, le ritenute vengano trattenute ma non versate.",
+          "Questa disciplina, pur non modificando la struttura del 770, incide sulla gestione degli obblighi del sostituto negli appalti, imponendo una tracciabilità rafforzata dei versamenti delle ritenute riferibili ai lavoratori impiegati nelle specifiche commesse. La documentazione che attesta il corretto versamento delle ritenute assume, in questo contesto, un rilievo ulteriore, sia nei rapporti tra committente e appaltatore sia in sede di controllo. La conservazione ordinata di questa documentazione si integra con quella del fascicolo del sostituto, a comporre il quadro complessivo della regolarità nella gestione delle ritenute."
+        ]
+      },
+      {
+        "h": "Il 770 nel sistema delle dichiarazioni fiscali",
+        "p": [
+          "Il modello 770 si colloca all'interno del più ampio sistema delle dichiarazioni fiscali, accanto alle dichiarazioni dei redditi, IVA e IRAP. La sua specificità è di essere la dichiarazione del sostituto — non del soggetto che produce il reddito, ma di chi lo eroga e ne trattiene l'imposta. Questa peculiarità colloca il 770 in una posizione di snodo: da un lato guarda ai percipienti, cui il sostituto certifica i redditi e le ritenute; dall'altro guarda all'Erario, cui rende conto dei versamenti.",
+          "Il ruolo del 770 nel sistema dichiarativo si comprende appieno considerando la funzione di controllo incrociato che esso svolge. I dati delle CU, alimentati dal 770 e dai versamenti, confluiscono nelle dichiarazioni precompilate dei singoli percipienti: le ritenute che il sostituto ha operato e certificato diventano gli acconti che il percipiente scomputa dalla propria imposta. Il 770 è quindi un ingranaggio del sistema di riscossione e di controllo, che collega l'attività del sostituto alla posizione fiscale di ciascun percipiente e all'interesse complessivo dell'Erario alla corretta riscossione dei tributi."
+        ]
+      },
+      {
+        "h": "La dematerializzazione dell'intero ciclo del sostituto",
+        "p": [
+          "L'attività del sostituto d'imposta è oggi interamente dematerializzata. I cedolini sono elaborati e spesso consegnati in formato elettronico; le ritenute sono versate con F24 telematici; le Certificazioni Uniche sono trasmesse in via telematica all'Agenzia e consegnate ai percipienti in formato digitale; il modello 770 è predisposto e trasmesso elettronicamente. L'intero ciclo, dalla retribuzione alla dichiarazione, si svolge senza carta, in un flusso di documenti informatici che si susseguono e si collegano.",
+          "Questa piena dematerializzazione rende più efficiente la gestione ma accentua l'importanza della conservazione a norma: documenti che nascono digitali devono essere conservati digitalmente, con le garanzie di integrità, autenticità e leggibilità proprie dei documenti informatici. Il fascicolo del sostituto — cedolini, F24, CU, 770, ricevute — è un insieme di documenti informatici la cui conservazione deve rispettare le regole del D.M. 17 giugno 2014 e delle Linee guida AgID. La corretta conservazione di questo ciclo interamente digitale è la condizione perché l'attività del sostituto resti verificabile e difendibile nel tempo."
+        ]
+      },
+      {
+        "h": "Il responsabile della conservazione e il fascicolo digitale",
+        "p": [
+          "La conservazione a norma del fascicolo del sostituto d'imposta richiede un processo governato, di cui è responsabile la figura del responsabile della conservazione. Che la conservazione sia gestita internamente o affidata a un conservatore esterno, il processo che assicura l'integrità, la leggibilità e la reperibilità dei documenti — dai cedolini al 770 — deve essere definito, documentato e presidiato in coerenza con le regole tecniche applicabili ai documenti informatici. Il datore o l'ente che riveste la qualifica di sostituto mantiene la responsabilità del corretto svolgimento del processo.",
+          "La governance della conservazione si traduce in scelte concrete circa i formati, i metadati, la periodicità dei versamenti in conservazione, le garanzie di sicurezza e riservatezza dei dati dei percipienti. Il manuale della conservazione, ove previsto, documenta queste scelte e costituisce il riferimento per verificarne la conformità. Per il fascicolo del sostituto, che raccoglie dati personali e retributivi di numerosi soggetti, la corretta impostazione della conservazione è al tempo stesso una garanzia di conformità fiscale e di tutela della riservatezza, e concorre a preservare nel tempo il valore probatorio dell'intera documentazione."
+        ]
+      },
+      {
+        "h": "Errori frequenti e buone pratiche nel 770",
+        "p": [
+          "Nella predisposizione del modello 770 ricorrono errori tipici che è utile conoscere per prevenirli. Fra i più frequenti: il disallineamento tra i totali del 770 e la sommatoria delle CU trasmesse; la mancata corrispondenza tra le ritenute dichiarate e i versamenti F24; l'errata indicazione dei codici tributo; la rappresentazione non corretta delle compensazioni; l'omessa considerazione dei conguagli di fine anno. Ciascuno di questi errori genera un'anomalia che i controlli automatizzati intercettano.",
+          "Le buone pratiche muovono dal principio della riconciliazione preventiva: prima di trasmettere il 770, occorre verificare la coerenza tra dichiarazione, certificazioni e versamenti, risolvendo ogni disallineamento. La cura nella gestione dei codici tributo, l'attenzione ai conguagli e alle compensazioni, la conservazione ordinata della documentazione a supporto sono gli accorgimenti che riducono il rischio di contestazioni. Un 770 predisposto con questa cura, allineato alle CU e agli F24 e sorretto da un fascicolo documentale completo, è la migliore garanzia della regolarità dell'attività del sostituto d'imposta.",
+          "La chiusura del ciclo — dai cedolini alle ritenute, dai versamenti alle certificazioni, fino alla dichiarazione riepilogativa e alla sua conservazione a norma — rappresenta l'insieme coerente attraverso cui il sostituto d'imposta rende verificabile, nel tempo, il corretto assolvimento di uno degli obblighi più delicati del sistema tributario: quello di trattenere e versare, per conto dello Stato, le imposte sui redditi che eroga a terzi."
+        ]
       }
     ],
     "fonti_norm": [
