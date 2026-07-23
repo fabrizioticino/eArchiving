@@ -2885,6 +2885,125 @@
           "In diversi ambiti, il contribuente non compila autonomamente il modello F24, ma riceve un modello predeterminato o precompilato dall'ente o dall'Amministrazione. È il caso, ad esempio, di alcune comunicazioni dell'Agenzia delle Entrate a seguito di controlli automatizzati delle dichiarazioni, che sono accompagnate dagli F24 già compilati con le somme dovute a titolo di imposta, sanzioni ridotte e interessi, da versare per definire la posizione.",
           "Analogamente, alcuni enti mettono a disposizione modelli F24 precompilati per specifici tributi, come avviene per taluni tributi locali. Il modello predeterminato semplifica l'adempimento e riduce il rischio di errori di compilazione, ma richiede comunque al contribuente di verificarne la correttezza e di effettuare il versamento nei termini. La diffusione di modelli precompilati riflette la più generale evoluzione del sistema fiscale verso adempimenti assistiti dall'Amministrazione, in cui il contribuente valida e paga anziché compilare da zero, con l'F24 che resta il canale attraverso cui il versamento si perfeziona."
         ]
+      },
+      {
+        "h": "L'F24 Elementi identificativi (Elide)",
+        "p": [
+          "Accanto al modello F24 ordinario, il sistema prevede versioni specializzate per particolari esigenze. L'F24 Elementi identificativi, noto come F24 Elide, è utilizzato per i versamenti che richiedono l'indicazione di elementi identificativi ulteriori rispetto a quelli previsti dal modello ordinario, o per i tributi i cui codici non sono gestibili nel modello ordinario. È il caso, ad esempio, di alcuni versamenti relativi all'imposta di registro sui contratti di locazione, che richiedono l'indicazione degli estremi del contratto e delle controparti.",
+          "L'F24 Elide consente di veicolare, insieme al versamento, le informazioni identificative necessarie a collegare la somma versata alla specifica fattispecie cui si riferisce. La sua struttura, con lo spazio per gli elementi identificativi, risponde all'esigenza di tracciare versamenti che non si esaurirebbero nella mera indicazione del codice tributo e del periodo. La corretta scelta tra il modello ordinario e l'F24 Elide, in funzione della tipologia del versamento, è un aspetto della corretta gestione dell'adempimento, e la conservazione del modello e della quietanza segue le medesime regole applicabili all'F24 ordinario."
+        ]
+      },
+      {
+        "h": "L'F24 Accise e l'F24 Enti pubblici",
+        "p": [
+          "Ulteriori versioni specializzate del modello rispondono a specifiche esigenze. L'F24 Accise è utilizzato per il versamento delle accise e di altri tributi del settore, con una struttura che accoglie i codici e gli elementi propri di questi tributi. L'F24 Enti pubblici, o F24 EP, è riservato agli enti e alle amministrazioni pubbliche per i versamenti di loro competenza, con modalità adeguate alla specificità di questi soggetti e ai loro sistemi di pagamento.",
+          "La molteplicità delle versioni del modello F24 riflette l'ampiezza delle fattispecie che il sistema del versamento unitario è chiamato a gestire, dai tributi ordinari alle accise, dai versamenti dei privati a quelli degli enti pubblici. Ciascuna versione condivide la logica di fondo dell'F24 — il versamento unitario, la possibilità di compensazione, la tracciabilità — adattandola alle specificità della fattispecie. La corretta individuazione della versione da utilizzare è il presupposto per un versamento correttamente imputato, e la conservazione dei diversi modelli e delle relative quietanze concorre alla documentazione ordinata degli adempimenti."
+        ]
+      },
+      {
+        "h": "Dal modello F23 all'F24",
+        "p": [
+          "Prima e accanto all'F24, il sistema dei versamenti ha conosciuto il modello F23, storicamente utilizzato per il versamento dell'imposta di registro, dell'imposta di bollo su determinati atti, delle sanzioni e dei tributi connessi a procedimenti giudiziari e amministrativi. L'F23 rispondeva a esigenze diverse da quelle dell'F24, essendo legato a fattispecie in cui il versamento si collega a un atto o a un procedimento specifico anziché agli adempimenti periodici di massa.",
+          "Nel tempo, molte fattispecie prima gestite con l'F23 sono state ricondotte all'F24, in particolare attraverso l'F24 Elide, nell'ambito di un processo di razionalizzazione e unificazione dei canali di versamento. La coesistenza e la progressiva sostituzione tra i due modelli riflette l'evoluzione del sistema verso una maggiore unitarietà. La conoscenza di questa evoluzione è utile per interpretare i versamenti relativi ad annualità in cui operavano modelli diversi, e per collocare correttamente la documentazione dei versamenti negli archivi, dove possono coesistere quietanze relative a modelli diversi succedutisi nel tempo."
+        ]
+      },
+      {
+        "h": "Compensazione orizzontale e verticale",
+        "p": [
+          "La compensazione nel modello F24 si distingue in due forme concettualmente diverse. La compensazione verticale, o interna, opera tra debiti e crediti dello stesso tributo — ad esempio, l'utilizzo di un credito IVA per ridurre un debito IVA successivo —, e segue le regole proprie di ciascun tributo. La compensazione orizzontale, o esterna, opera invece tra tributi e contributi di natura diversa — ad esempio, l'utilizzo di un credito IVA per pagare i contributi INPS —, ed è la forma resa possibile dal versamento unitario introdotto con l'F24.",
+          "La distinzione tra le due forme di compensazione è rilevante perché la compensazione orizzontale, consentendo di utilizzare crediti di un tributo per pagare debiti di natura diversa, è soggetta a limiti e controlli specifici, volti a prevenirne l'uso indebito. La compensazione orizzontale è una delle innovazioni più significative introdotte dall'F24, perché supera la rigida separazione tra i diversi tributi e contributi, consentendo al contribuente di gestire in modo unitario le proprie posizioni a debito e a credito. La corretta gestione delle compensazioni richiede la consapevolezza di questa distinzione e delle diverse regole applicabili."
+        ]
+      },
+      {
+        "h": "Il visto di conformità per la compensazione dei crediti",
+        "p": [
+          "L'utilizzo in compensazione di crediti oltre una determinata soglia è subordinato, per taluni tributi, all'apposizione del visto di conformità sulla dichiarazione da cui il credito emerge. Il visto di conformità è un'attestazione, rilasciata da un professionista abilitato, della corrispondenza dei dati della dichiarazione alla documentazione e alle scritture contabili, che offre una garanzia sulla genuinità del credito. La sua previsione, per i crediti di importo più elevato, mira a contrastare l'utilizzo di crediti non spettanti o inesistenti.",
+          "Il visto di conformità introduce un presidio preventivo sulla legittimità delle compensazioni, coinvolgendo un professionista nella verifica della correttezza del credito prima del suo utilizzo. La sua apposizione è quindi un adempimento propedeutico alla compensazione dei crediti oltre soglia, la cui omissione preclude o limita la possibilità di compensare. La documentazione del visto di conformità e della dichiarazione cui si riferisce è rilevante ai fini della legittimità della compensazione, e la sua conservazione concorre alla dimostrazione della regolarità dell'utilizzo dei crediti in caso di controllo."
+        ]
+      },
+      {
+        "h": "Crediti inesistenti e crediti non spettanti",
+        "p": [
+          "Nell'ambito del controllo sulle compensazioni, la disciplina distingue tra due categorie di crediti indebitamente utilizzati, con diverso trattamento sanzionatorio. I crediti non spettanti sono quelli esistenti ma utilizzati in misura superiore a quella consentita o in difformità dalle condizioni previste. I crediti inesistenti sono quelli privi del presupposto costitutivo, che non esistono nella realtà: la loro indebita compensazione è considerata più grave, perché non attiene a un mero errore di utilizzo, ma alla creazione di un credito fittizio.",
+          "La distinzione tra crediti non spettanti e inesistenti è rilevante perché comporta un trattamento sanzionatorio differenziato, più severo per i crediti inesistenti, e può assumere rilievo anche penale nei casi più gravi. L'utilizzo di crediti inesistenti in compensazione è una delle forme più insidiose di evasione, che l'Amministrazione contrasta con controlli specifici. La corretta gestione delle compensazioni presuppone la genuinità dei crediti utilizzati, e la conservazione della documentazione che ne attesta l'esistenza e la spettanza è il presupposto per dimostrare, in caso di controllo, la legittimità dell'utilizzo."
+        ]
+      },
+      {
+        "h": "Il controllo preventivo delle deleghe",
+        "p": [
+          "Per contrastare l'utilizzo indebito dei crediti in compensazione, la disciplina ha introdotto meccanismi di controllo preventivo delle deleghe di pagamento contenenti compensazioni. L'Amministrazione può sospendere l'esecuzione di deleghe che presentino compensazioni caratterizzate da profili di rischio, per il tempo necessario a verificarne la legittimità. Se il controllo conferma l'irregolarità, la delega non è eseguita e la compensazione non si perfeziona; se conferma la regolarità, la delega prosegue il suo corso.",
+          "Questo controllo preventivo rappresenta un presidio a monte, che interviene prima che la compensazione produca i suoi effetti, a differenza dei controlli tradizionali che intervengono a posteriori. La sua introduzione riflette l'esigenza di contrastare tempestivamente le compensazioni indebite, particolarmente quelle basate su crediti inesistenti. Per il contribuente, ciò comporta l'esigenza di gestire con particolare cura le compensazioni, assicurandosi della genuinità dei crediti utilizzati e conservando la documentazione a supporto, per poter dimostrare la legittimità della compensazione qualora la delega sia sottoposta a controllo."
+        ]
+      },
+      {
+        "h": "I crediti d'imposta da bonus edilizi",
+        "p": [
+          "Un ambito che ha assunto grande rilievo nell'utilizzo dell'F24 è quello dei crediti d'imposta derivanti dagli incentivi per gli interventi edilizi ed energetici. Le detrazioni per il recupero edilizio, l'efficientamento energetico e gli altri interventi agevolati possono, a determinate condizioni, tradursi in crediti d'imposta utilizzabili in compensazione nel modello F24. Questi crediti, spesso di importo rilevante, sono fruiti in più anni o utilizzati in un'unica soluzione secondo le regole applicabili.",
+          "La gestione dei crediti d'imposta da bonus edilizi attraverso l'F24 ha comportato un notevole incremento delle compensazioni e ha richiesto un rafforzamento dei controlli, data la rilevanza degli importi e i rischi di utilizzo indebito. La corretta fruizione di questi crediti presuppone la sussistenza dei presupposti dell'agevolazione e il rispetto delle condizioni previste. La documentazione degli interventi e dei crediti maturati è essenziale per la legittimità della compensazione, e la sua conservazione è particolarmente importante in un ambito soggetto a controlli intensi, dove la dimostrazione della spettanza del credito è decisiva."
+        ]
+      },
+      {
+        "h": "La cessione dei crediti e l'utilizzo in F24",
+        "p": [
+          "In taluni ambiti, i crediti d'imposta possono essere ceduti a terzi, che li acquisiscono e li utilizzano in compensazione nel proprio F24. È il caso, in particolare, di alcuni crediti derivanti dagli incentivi edilizi, per i quali è stata prevista la possibilità di cessione, con l'acquirente che utilizza il credito ceduto per compensare i propri debiti. Questo meccanismo ha creato un mercato dei crediti d'imposta, in cui l'F24 è lo strumento attraverso cui il credito acquisito viene monetizzato.",
+          "La cessione dei crediti e il loro utilizzo in compensazione da parte del cessionario pongono specifiche esigenze di tracciabilità e di controllo, per garantire che i crediti ceduti siano genuini e correttamente utilizzati. La disciplina ha previsto meccanismi per il tracciamento delle cessioni e per la verifica dei crediti. La documentazione della cessione e del credito acquisito è essenziale per la legittimità dell'utilizzo in compensazione, e la sua conservazione è il presupposto per dimostrare, in caso di controllo, la regolarità della posizione del cessionario che ha utilizzato il credito nel proprio F24."
+        ]
+      },
+      {
+        "h": "I canali e i sistemi di pagamento",
+        "p": [
+          "La presentazione telematica dell'F24 avviene attraverso diversi canali. I contribuenti possono utilizzare i servizi telematici dell'Agenzia delle Entrate, accessibili direttamente o tramite intermediari abilitati, oppure i servizi di home banking messi a disposizione dalle banche e da altri prestatori di servizi di pagamento. La scelta del canale dipende dalle caratteristiche del contribuente e dalla presenza o meno di compensazioni, poiché in taluni casi l'utilizzo di crediti in compensazione impone il ricorso ai canali dell'Agenzia.",
+          "La molteplicità dei canali riflette l'esigenza di rendere agevole l'adempimento per la generalità dei contribuenti, dai privati alle imprese. Ciascun canale genera le ricevute e le quietanze che documentano l'adempimento, secondo modalità proprie. La corretta gestione del versamento attraverso il canale prescelto, con l'acquisizione e la conservazione delle ricevute, è il presupposto per la documentazione dell'adempimento. La conoscenza dei vincoli relativi ai canali, particolarmente in presenza di compensazioni, è importante per una corretta gestione dei versamenti che utilizzano crediti."
+        ]
+      },
+      {
+        "h": "L'F24 come documento informatico",
+        "p": [
+          "L'F24 presentato telematicamente è, a tutti gli effetti, un documento informatico: nasce come modello elettronico, è trasmesso in via telematica e genera ricevute e quietanze anch'esse digitali. La quietanza telematica, che attesta l'avvenuto pagamento, è il documento informatico che prova l'adempimento del versamento. In quanto documenti informatici rilevanti ai fini fiscali, l'F24 e le sue quietanze soggiacciono, per la conservazione, alle regole applicabili a questa categoria di documenti.",
+          "La natura informatica dell'F24 e delle quietanze comporta l'applicazione dei principi della conservazione a norma: l'impiego di formati idonei, l'associazione di metadati, la garanzia di integrità, autenticità, leggibilità e reperibilità nel tempo. La quietanza costituisce la prova dell'adempimento del versamento, e la sua conservazione a norma è essenziale per poter dimostrare, anche a distanza di tempo, l'avvenuto pagamento. In un sistema in cui i versamenti si perfezionano interamente per via telematica, la conservazione digitale a norma delle quietanze è il presidio che assicura la dimostrabilità degli adempimenti nel tempo."
+        ]
+      },
+      {
+        "h": "Formati e metadati per la conservazione dell'F24",
+        "p": [
+          "La conservazione a norma degli F24 e delle relative quietanze richiede l'impiego di formati idonei alla leggibilità nel tempo e l'associazione di metadati che ne consentano l'identificazione e la ricerca. I metadati individuano il contribuente, il periodo, la tipologia dei tributi versati, gli estremi dell'operazione, collocando ciascun documento nel sistema di conservazione e consentendone il reperimento. La struttura del documento e le informazioni che esso veicola devono essere preservate per garantirne l'interpretabilità.",
+          "La particolarità della conservazione dell'F24 sta nel suo collegamento con gli adempimenti sottostanti: ciascun versamento si riferisce a un debito tributario o contributivo, e la sua documentazione deve poter essere collegata a quella dell'adempimento cui si riferisce. La conservazione dovrebbe quindi preservare non solo il singolo F24 e la sua quietanza, ma anche la possibilità di collegarli alla dichiarazione, alla denuncia o all'obbligazione che il versamento estingue. La corretta strutturazione della conservazione, con metadati adeguati, è ciò che consente di ricostruire, in sede di controllo, il collegamento tra il versamento e l'adempimento sottostante."
+        ]
+      },
+      {
+        "h": "Il valore probatorio della quietanza",
+        "p": [
+          "La quietanza dell'F24 possiede un rilevante valore probatorio: è il documento che attesta l'avvenuto pagamento delle somme dovute, e come tale costituisce la prova dell'adempimento del versamento. In sede di controllo, quando l'Amministrazione contesti l'omesso versamento di un tributo o di un contributo, è la quietanza a dimostrare che il pagamento è stato effettuato, e la ricevuta di trasmissione a dimostrare che è avvenuto nei termini. La disponibilità della quietanza è quindi decisiva per la difesa del contribuente.",
+          "Questo valore probatorio conferma l'importanza della conservazione delle quietanze: un versamento effettuato ma non documentabile, per l'assenza della quietanza, espone il contribuente al rischio di non poter dimostrare l'adempimento. La conservazione a norma delle quietanze, con la garanzia della loro integrità e reperibilità, è quindi un presidio essenziale, tanto più in un sistema in cui i versamenti sono numerosi e ricorrenti. La capacità di reperire ed esibire la quietanza di un versamento, anche a distanza di anni, è la migliore garanzia contro le contestazioni di omesso versamento, e dipende interamente dalla qualità della conservazione."
+        ]
+      },
+      {
+        "h": "I tempi di conservazione degli F24",
+        "p": [
+          "Gli F24 e le relative quietanze vanno conservati per un periodo coerente con i termini di accertamento dei tributi e con quelli di prescrizione dei contributi cui i versamenti si riferiscono. Poiché i versamenti riguardano una molteplicità di tributi e contributi, ciascuno con i propri termini, la conservazione deve coprire il più esteso degli orizzonti temporali rilevanti, tenendo conto delle possibili proroghe e delle esigenze connesse a eventuali contenziosi.",
+          "In pratica, la conservazione degli F24 si inserisce nel più ampio orizzonte di conservazione della documentazione fiscale e contributiva del contribuente, che copre i termini di accertamento con un margine prudenziale. La conservazione digitale a norma rende sostenibile questa esigenza, garantendo che gli F24 e le quietanze restino integri, leggibili e reperibili per l'intero arco in cui possono essere richiesti. La corretta gestione dei tempi di conservazione è parte della politica documentale del contribuente, e concorre alla difendibilità della posizione in caso di controllo sui versamenti effettuati."
+        ]
+      },
+      {
+        "h": "L'F24 e il cassetto fiscale",
+        "p": [
+          "I versamenti effettuati attraverso l'F24 confluiscono nel cassetto fiscale del contribuente, lo strumento telematico dell'Agenzia delle Entrate che raccoglie le informazioni sulla sua posizione fiscale, inclusi i versamenti, le dichiarazioni, le comunicazioni. Il cassetto fiscale consente al contribuente di consultare i propri versamenti e di verificarne la corretta acquisizione da parte dell'Amministrazione, offrendo una fonte di riscontro della propria posizione.",
+          "La disponibilità dei dati dei versamenti nel cassetto fiscale offre un utile strumento di verifica, che consente di controllare la corrispondenza tra i versamenti effettuati e quelli acquisiti dall'Amministrazione, e di rilevare eventuali anomalie. Tuttavia, la disponibilità dei dati nel cassetto fiscale non sostituisce la conservazione delle quietanze da parte del contribuente, che resta il soggetto tenuto a documentare i propri adempimenti. Il cassetto fiscale è quindi uno strumento complementare di riscontro, che si affianca alla conservazione a norma della documentazione dei versamenti, senza sostituirla."
+        ]
+      },
+      {
+        "h": "Il ruolo dell'intermediario nella gestione degli F24",
+        "p": [
+          "La gestione degli F24, per le imprese e i professionisti, è tipicamente affidata a un intermediario — il commercialista, il consulente del lavoro, il centro di assistenza —, che cura la predisposizione dei modelli, la gestione delle compensazioni, la trasmissione telematica e l'acquisizione delle quietanze. L'intermediario, spesso, versa per conto del contribuente attraverso i propri sistemi, assumendo l'impegno alla trasmissione e gestendo il rapporto con l'Amministrazione.",
+          "L'affidamento all'intermediario non solleva il contribuente dalla responsabilità sostanziale degli adempimenti, ma introduce una competenza professionale che presidia la correttezza tecnica dei versamenti e delle compensazioni. Il rapporto si fonda sui dati e sulle disponibilità che il contribuente mette a disposizione, e sulla corretta gestione da parte dell'intermediario. La conservazione delle quietanze e della documentazione dei versamenti, gestita in coordinamento tra contribuente e intermediario, è essenziale per la dimostrabilità degli adempimenti, e la sua corretta impostazione è parte del rapporto professionale."
+        ]
+      },
+      {
+        "h": "La conservazione a norma come chiusura del ciclo",
+        "p": [
+          "L'F24 rappresenta il momento conclusivo di numerosi adempimenti: la dichiarazione dei redditi, la liquidazione dell'IVA, il versamento delle ritenute, il pagamento dei contributi trovano tutti, nell'F24, il canale attraverso cui l'obbligazione si estingue con il pagamento. La quietanza che ne risulta è la prova che il ciclo dell'adempimento si è chiuso correttamente. La conservazione a norma della quietanza è quindi la conservazione della prova dell'avvenuto adempimento, il tassello finale che documenta il pagamento.",
+          "In questa prospettiva, la conservazione a norma degli F24 e delle quietanze assume un rilievo che va oltre il singolo versamento: è la conservazione della dimostrazione che gli obblighi tributari e contributivi sono stati assolti. La capacità di esibire, a distanza di anni, la quietanza di un versamento è ciò che consente al contribuente di dimostrare la propria regolarità di fronte alle contestazioni. La conservazione a norma dell'F24 chiude quindi il ciclo di ciascun adempimento, preservandone la prova documentale per l'intero periodo in cui può essere richiesta, e costituisce l'ultimo, essenziale presidio della difendibilità della posizione del contribuente."
+        ]
       }
     ],
     "fonti_norm": [
