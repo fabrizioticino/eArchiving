@@ -340,6 +340,9 @@
     "title": "CBAM — Meccanismo di adeguamento del carbonio alle frontiere",
     "abstract": "Il nuovo obbligo unionale sulle importazioni di merci ad alta intensità di carbonio: la relazione e la dichiarazione da presentare, il calcolo delle emissioni incorporate e dei certificati da acquistare e restituire.",
     "lead": "Il CBAM — Carbon Border Adjustment Mechanism, in italiano meccanismo di adeguamento del carbonio alle frontiere — è lo strumento con cui l'Unione europea applica alle importazioni di determinate merci ad alta intensità di emissioni un onere corrispondente al prezzo del carbonio che sarebbe stato pagato se le stesse merci fossero state prodotte nell'Unione soggette al sistema di scambio delle quote di emissione (ETS). Istituito dal Regolamento (UE) 2023/956, il CBAM si articola in un periodo transitorio (1 ottobre 2023 – 31 dicembre 2025), in cui l'importatore deve solo presentare una relazione trimestrale sulle emissioni incorporate senza alcun pagamento, e in un periodo definitivo, dal 1 gennaio 2026, in cui subentrano l'obbligo di una dichiarazione CBAM annuale, l'acquisto e la restituzione di certificati CBAM e, quindi, un vero e proprio onere economico. Questa scheda descrive nel dettaglio la relazione e la dichiarazione da presentare e il modo in cui si calcolano le emissioni e i pagamenti.",
+    "esempi": [
+      { "label": "Dichiarazione CBAM con calcolo dei certificati (HTML)", "file": "esempi/cbam-dichiarazione.html" }
+    ],
     "sezioni": [
       {
         "h": "Che cos'è il CBAM e a quale esigenza risponde",

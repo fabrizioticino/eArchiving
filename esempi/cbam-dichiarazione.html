@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAC-SIMILE — Dichiarazione CBAM e calcolo dei certificati</title>
+<style>
+  body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:#e9e9e9;color:#161616;}
+  .banner{background:#C8102E;color:#fff;padding:10px 16px;text-align:center;font-size:12.5px;font-weight:600;letter-spacing:.03em;}
+  .wm{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-28deg);font-size:min(16vw,120px);color:rgba(200,16,46,.07);font-weight:800;pointer-events:none;white-space:nowrap;z-index:0;}
+  .sheet{position:relative;z-index:1;max-width:860px;margin:22px auto;background:#fff;padding:30px 40px;box-shadow:0 1px 8px rgba(0,0,0,.15);}
+  h1{font-size:19px;margin:0 0 4px;}
+  h2{font-size:14px;margin:24px 0 6px;color:#C8102E;border-bottom:1px solid #eee;padding-bottom:4px;}
+  .sub{font-size:12px;color:#666;margin-bottom:16px;}
+  .agency{font-size:12px;color:#444;border:1px dashed #bbb;padding:6px 10px;display:inline-block;margin-bottom:14px;}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13px;}
+  td,th{border:1px solid #ccc;padding:6px 9px;text-align:left;vertical-align:top;}
+  th{background:#f0f0f0;}
+  .k{background:#f6f6f6;font-weight:600;width:38%;}
+  .right{text-align:right;}
+  .step{background:#fafafa;}
+  .sub-tot{font-weight:600;background:#f2f2f2;}
+  .tot{font-weight:700;background:#fbeaec;}
+  .note{font-size:11px;color:#8a4b52;background:#fdf3f4;border-left:3px solid #C8102E;padding:8px 12px;margin:12px 0;line-height:1.5;}
+  .foot{margin-top:22px;font-size:10.5px;color:#777;border-top:1px solid #ddd;padding-top:10px;line-height:1.5;}
+  .formula{font-family:'Consolas','Courier New',monospace;font-size:12px;color:#333;}
+</style>
+</head>
+<body>
+<div class="banner">FAC-SIMILE · ESEMPIO DIDATTICO · DATI FITTIZI · NON VALIDO A FINI DOGANALI, FISCALI O CBAM</div>
+<div class="wm">FAC-SIMILE</div>
+<div class="sheet">
+  <div class="agency">Registro CBAM — CBAM Registry (UE) · Autorità nazionale competente <em>(riferimento illustrativo)</em></div>
+  <h1>Dichiarazione CBAM annuale — estratto con calcolo dei certificati</h1>
+  <div class="sub">Meccanismo di adeguamento del carbonio alle frontiere — Reg. (UE) 2023/956 · periodo definitivo (dal 1&deg; gennaio 2026)</div>
+
+  <h2>1 · Dati del dichiarante e del periodo</h2>
+  <table>
+    <tr><td class="k">Dichiarante CBAM autorizzato</td><td>Alfa Commerciale S.r.l.</td></tr>
+    <tr><td class="k">N. autorizzazione CBAM</td><td>IT-CBAM-FACSIMILE-000</td></tr>
+    <tr><td class="k">EORI</td><td>IT-FACSIMILE-0000</td></tr>
+    <tr><td class="k">Partita IVA</td><td>IT00000000000</td></tr>
+    <tr><td class="k">Anno di riferimento</td><td>2026 <em>(anno civile delle importazioni)</em></td></tr>
+    <tr><td class="k">Registro / canale</td><td>Registro CBAM (UE) — dichiarazione annuale telematica</td></tr>
+  </table>
+
+  <h2>2 · Merce importata soggetta al CBAM</h2>
+  <table>
+    <tr><th>Elemento</th><th>Valore</th></tr>
+    <tr><td class="k">Descrizione merce</td><td>Prodotti laminati piatti di ferro / acciaio non legato</td></tr>
+    <tr><td class="k">Codice NC (nomenclatura combinata)</td><td>7208 51 20</td></tr>
+    <tr><td class="k">Settore CBAM</td><td>Ghisa, ferro e acciaio</td></tr>
+    <tr><td class="k">Paese di origine</td><td>IN — India <em>(Paese terzo, esempio)</em></td></tr>
+    <tr><td class="k">Impianto di produzione</td><td>Gamma Steel Works Ltd — impianto FAC-SIMILE</td></tr>
+    <tr><td class="k">Quantità importata nell'anno</td><td class="right">100,00 t</td></tr>
+    <tr><td class="k">Tipologia merce</td><td>Merce complessa (incorpora precursori soggetti al CBAM)</td></tr>
+  </table>
+
+  <h2>3 · Emissioni incorporate (verificate)</h2>
+  <table>
+    <tr><th>Componente</th><th class="right">Emissioni specifiche<br>(tCO&#8322;e / t)</th><th class="right">Emissioni totali<br>(tCO&#8322;e)</th></tr>
+    <tr><td>Emissioni dirette (processo produttivo + precursori)</td><td class="right">1,60</td><td class="right">160,00</td></tr>
+    <tr><td>Emissioni indirette (energia elettrica consumata)</td><td class="right">0,30</td><td class="right">30,00</td></tr>
+    <tr><td class="sub-tot">Emissioni incorporate totali (100,00 t &times; 1,90)</td><td class="sub-tot right">1,90</td><td class="sub-tot right">190,00</td></tr>
+  </table>
+  <table>
+    <tr><td class="k">Metodo di determinazione</td><td>Dati reali dell'impianto (metodo UE)</td></tr>
+    <tr><td class="k">Verificatore accreditato</td><td>Delta Verifica S.p.A. — accreditamento FAC-SIMILE</td></tr>
+    <tr><td class="k">Prezzo del carbonio pagato nel Paese di origine</td><td>S&igrave; — sistema ETS nazionale (illustrativo)</td></tr>
+  </table>
+
+  <h2>4 · Calcolo dei certificati CBAM da restituire e dell'onere</h2>
+  <table>
+    <tr><th>Passaggio</th><th class="right">Valore</th></tr>
+    <tr><td class="step">A · Emissioni incorporate totali</td><td class="right">190,00 tCO&#8322;e</td></tr>
+    <tr><td class="step">B · Fattore CBAM dell'anno <em>(riflette la quota gi&agrave; coperta dalle quote gratuite ETS)</em></td><td class="right">2,5 %</td></tr>
+    <tr><td class="sub-tot">C · Emissioni soggette all'obbligo (A &times; B)</td><td class="sub-tot right">4,75 tCO&#8322;e</td></tr>
+    <tr><td class="step">D · Riduzione per prezzo del carbonio pagato all'estero</td><td class="right">&minus; 0,25</td></tr>
+    <tr><td class="sub-tot">E · Certificati CBAM da restituire (C &minus; D)</td><td class="sub-tot right">4,50</td></tr>
+    <tr><td class="step">F · Prezzo del certificato CBAM <em>(media settimanale, ancorata al prezzo delle quote ETS)</em></td><td class="right">75,00 EUR</td></tr>
+    <tr><td class="tot">ONERE CBAM DOVUTO (E &times; F)</td><td class="tot right">337,50 EUR</td></tr>
+  </table>
+
+  <div class="note">
+    <b>Come si legge il calcolo.</b> Le emissioni incorporate verificate (A) sono ridotte dal <b>fattore CBAM</b> dell'anno (B): nel primo periodo esso &egrave; basso, perch&eacute; i produttori europei ricevono ancora quote gratuite ETS; cresce di anno in anno fino al 100&nbsp;% quando le quote gratuite saranno azzerate. Sulle emissioni cos&igrave; ottenute (C) si sottrae la quota corrispondente al <b>prezzo del carbonio gi&agrave; pagato all'estero</b> (D), per evitare doppia imposizione. I <b>certificati da restituire</b> (E), moltiplicati per il <b>prezzo del certificato</b> agganciato all'ETS (F), danno l'onere dovuto. Il <b>fattore CBAM</b> e il <b>prezzo del certificato</b> qui indicati sono valori <b>illustrativi</b>: variano per anno e per andamento del mercato.
+  </div>
+
+  <div class="formula">
+    Onere = [ (Emissioni incorporate &times; Fattore CBAM) &minus; Adeguamento carbonio estero ] &times; Prezzo certificato<br>
+    Onere = [ (190,00 &times; 2,5%) &minus; 0,25 ] &times; 75,00 EUR = 4,50 &times; 75,00 = <b>337,50 EUR</b>
+  </div>
+
+  <h2>5 · Obblighi collegati</h2>
+  <table>
+    <tr><td class="k">Detenzione trimestrale certificati</td><td>Nel corso dell'anno il conto nel Registro deve contenere certificati a copertura di una quota delle emissioni gi&agrave; importate</td></tr>
+    <tr><td class="k">Restituzione certificati</td><td>Contestuale alla dichiarazione annuale (i certificati restituiti sono cancellati)</td></tr>
+    <tr><td class="k">Conservazione documentale</td><td>Dati emissioni, relazione di verifica, prova del carbonio estero, ricevute — conservazione a norma pluriennale</td></tr>
+  </table>
+
+  <div class="foot">
+    <b>FAC-SIMILE a fini illustrativi.</b> Documento di esempio generato per il <i>Libro bianco sulla conservazione a norma del documento informatico</i>. Tutti i dati &mdash; azienda, EORI, partita IVA, numero di autorizzazione, impianto, verificatore, quantit&agrave;, emissioni, fattore CBAM, prezzo del certificato e importi &mdash; sono <b>inventati</b> o <b>illustrativi</b>. Il documento <b>non riproduce il layout ufficiale</b> del Registro CBAM n&eacute; degli atti dell'Unione europea e <b>non &egrave; valido a fini doganali, fiscali o CBAM</b>. La dichiarazione CBAM reale va predisposta e trasmessa attraverso il Registro CBAM dell'Unione secondo il Reg. (UE) 2023/956 e gli atti attuativi vigenti, con emissioni verificate da un verificatore accreditato, e conservata a norma. I valori del fattore CBAM e del prezzo dei certificati variano nel tempo secondo la normativa e il mercato ETS.
+  </div>
+</div>
+</body>
+</html>
