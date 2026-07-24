@@ -321,7 +321,7 @@
     color:var(--accent);
     padding:26px 5vw 0;
   }
-  #doganali-export{ margin-bottom:70px; }
+  #doganali-cbam{ margin-bottom:70px; }
 
   /* ───────── Card manuale (conservatore) ───────── */
   .manuale-card{
@@ -781,6 +781,8 @@
   <div class="temi-grid" id="doganali-import"></div>
   <div class="doganali-group-label">Export</div>
   <div class="temi-grid" id="doganali-export"></div>
+  <div class="doganali-group-label">CBAM — Meccanismo di adeguamento del carbonio</div>
+  <div class="temi-grid" id="doganali-cbam"></div>
 </div>
 </section>
 
@@ -971,7 +973,7 @@ function openContabile(id, noPush){
 function renderDoganali(){
   const wrap = document.getElementById('doganali-wrap');
   if(!wrap) return;
-  [['Import', 'doganali-import'], ['Export', 'doganali-export']].forEach(([ambito, gridId]) => {
+  [['Import', 'doganali-import'], ['Export', 'doganali-export'], ['CBAM', 'doganali-cbam']].forEach(([ambito, gridId]) => {
     const grid = document.getElementById(gridId);
     if(!grid) return;
     const items = DOGANALI.filter(d => d.ambito === ambito);
