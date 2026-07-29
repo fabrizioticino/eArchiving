@@ -766,6 +766,19 @@
 <div class="temi-grid" id="contabili-grid"></div>
 </section>
 
+<!-- ───────── Focus: libri sociali ───────── -->
+<section class="portal-section" data-sez="societari" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
+<div class="section-rule">
+  <span class="kicker">Focus</span>
+  <h2>Libri sociali</h2>
+  <span class="rule-line"></span>
+  <span class="result-count" id="societari-count"></span>
+</div>
+<div class="section-intro">Schede sui libri sociali obbligatori e non obbligatori (artt. 2421 e 2478 c.c.): libro dei soci, verbali di assemblee, consiglio di amministrazione e organi di controllo, obbligazioni e strumenti finanziari, libri delle S.r.l.; vidimazione, imposta di bollo e tassa di concessione governativa; tenuta con strumenti informatici (art. 2215-bis), efficacia probatoria, durata e cessazione. Gli aspetti generali della conservazione a norma sono trattati nei temi dedicati, a cui la sezione rinvia.</div>
+<div class="temi-grid" id="societari-grid" style="margin-bottom:40px"></div>
+</section>
+
 <!-- ───────── Focus: documenti doganali ───────── -->
 <section class="portal-section" data-sez="doganali" hidden>
 <div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
@@ -818,6 +831,7 @@ let TEMI = [];
 let FONTI = [];
 let MANUALI = [];
 let CONTABILI = [];
+let SOCIETARI = [];
 let DOGANALI = [];
 let PEOPLE = [];
 let currentSez = null;
@@ -967,6 +981,34 @@ function openContabile(id, noPush){
   document.getElementById('detail-body').innerHTML = schedaDetailBody(c, 'Documento contabile');
   bindRelChips();
   showOverlay('contabile-' + id, noPush);
+}
+
+/* ───────── Libri sociali ───────── */
+function renderSocietari(){
+  const grid = document.getElementById('societari-grid');
+  if(!grid) return;
+  grid.innerHTML = SOCIETARI.map(c => `
+    <div class="tema-card" tabindex="0" data-id="${c.id}" role="button" aria-label="Apri scheda ${c.title}">
+      <div class="tema-num">SCHEDA</div>
+      <div class="tema-title">${c.title}</div>
+      <div class="tema-abstract">${c.abstract}</div>
+      <div class="tema-foot">Apri la scheda →</div>
+    </div>`).join('');
+  grid.querySelectorAll('.tema-card').forEach(card => {
+    card.addEventListener('click', () => openSocietario(card.dataset.id));
+    card.addEventListener('keypress', e => { if(e.key === 'Enter') openSocietario(card.dataset.id); });
+  });
+  const cnt = document.getElementById('societari-count');
+  if(cnt) cnt.textContent = `${SOCIETARI.length} schede`;
+}
+
+function openSocietario(id, noPush){
+  const c = SOCIETARI.find(x => x.id === id);
+  if(!c) return;
+  document.getElementById('detail-title').textContent = c.title;
+  document.getElementById('detail-body').innerHTML = schedaDetailBody(c, 'Libro sociale');
+  bindRelChips();
+  showOverlay('societario-' + id, noPush);
 }
 
 /* ───────── Documenti doganali (Import / Export) ───────── */
@@ -1225,6 +1267,7 @@ function routeFromHash(){
   if(hash.startsWith('sezione-')){ hideOverlay(); setSection(hash.slice(8)); window.scrollTo(0,0); return; }
   if(hash.startsWith('tema-')){ setSection('temi'); openTema(hash.slice(5), true); return; }
   if(hash.startsWith('contabile-')){ setSection('contabili'); openContabile(hash.slice(10), true); return; }
+  if(hash.startsWith('societario-')){ setSection('societari'); openSocietario(hash.slice(11), true); return; }
   if(hash.startsWith('doganale-')){ setSection('doganali'); openDoganale(hash.slice(9), true); return; }
   if(hash.startsWith('people-')){ setSection('people'); openPeople(hash.slice(7), true); return; }
   if(hash.startsWith('fonte-')){
@@ -1298,6 +1341,12 @@ async function init(){
   }
 
   try {
+    SOCIETARI = await (await fetch('data/societari.json')).json();
+  } catch(e) {
+    SOCIETARI = [];
+  }
+
+  try {
     DOGANALI = await (await fetch('data/doganali.json')).json();
   } catch(e) {
     DOGANALI = [];
@@ -1314,6 +1363,7 @@ async function init(){
   renderAdeCollection();
   renderManuali();
   renderContabili();
+  renderSocietari();
   renderDoganali();
   renderPeople();
   renderHomeIndex();

@@ -1,0 +1,544 @@
+[
+  {
+    "id": "libri-sociali-quadro",
+    "title": "I libri sociali: quadro generale (art. 2421 c.c.)",
+    "abstract": "Che cosa sono i libri sociali, quali sono obbligatori per le società di capitali e come si collocano rispetto alle scritture contabili.",
+    "lead": "I libri sociali sono i registri nei quali si documenta la vita degli organi della società: le decisioni dei soci, quelle degli amministratori, quelle degli organi di controllo, la compagine sociale e i titoli emessi. Per le società per azioni l'elenco dei libri obbligatori è fissato dall'articolo 2421 del Codice civile; per le società a responsabilità limitata provvede l'articolo 2478. Distinti dalle scritture contabili — che documentano i fatti di gestione sul piano economico e patrimoniale — i libri sociali documentano la dimensione organizzativa e deliberativa dell'ente, e costituiscono la memoria ufficiale del suo funzionamento. La loro corretta tenuta, la vidimazione, l'imposta di bollo e, oggi, la tenuta informatica e la conservazione a norma sono il tema di questa sezione.",
+    "sezioni": [
+      {
+        "h": "Che cosa sono i libri sociali e a quale esigenza rispondono",
+        "p": [
+          "Una società è un'organizzazione che agisce attraverso i propri organi: l'assemblea dei soci, l'organo amministrativo, l'organo di controllo. Ciascuno di questi organi assume decisioni, e tali decisioni devono essere documentate in modo ordinato, affinché ne restino traccia e prova nel tempo. I libri sociali assolvono proprio a questa funzione: sono i registri in cui si verbalizzano le adunanze e le deliberazioni degli organi sociali, si annota la composizione della compagine e si documentano i titoli emessi. Sono, in sostanza, la memoria formale del funzionamento dell'ente.",
+          "La loro funzione è duplice. Sul piano interno, i libri sociali garantiscono la trasparenza e la tracciabilità delle decisioni verso i soci e gli organi; sul piano esterno, offrono prova dell'attività degli organi verso i terzi, l'autorità giudiziaria e l'amministrazione. Un verbale assembleare regolarmente tenuto documenta che una determinata decisione è stata assunta, con quali maggioranze e in quale data; il libro dei soci documenta chi è titolare delle azioni. I libri sociali sono quindi documenti a rilevanza probatoria, la cui corretta tenuta è presidiata dalla legge e la cui conservazione deve garantirne l'integrità e la reperibilità nel tempo."
+        ]
+      },
+      {
+        "h": "Libri sociali e scritture contabili: una distinzione fondamentale",
+        "p": [
+          "I libri sociali vanno tenuti distinti dalle scritture contabili. Le scritture contabili — il libro giornale, il libro degli inventari, i registri IVA, le scritture ausiliarie — documentano i fatti di gestione sotto il profilo economico, finanziario e patrimoniale, e sono disciplinate dagli articoli 2214 e seguenti del Codice civile e dalla normativa fiscale. I libri sociali documentano invece la dimensione organizzativa e deliberativa della società: chi ne fa parte, come si formano le sue decisioni, come operano i suoi organi. Le due categorie rispondono a esigenze diverse e seguono regimi in parte differenti.",
+          "La distinzione ha conseguenze pratiche rilevanti, in particolare per la vidimazione e l'imposta di bollo. Per le scritture contabili, l'obbligo di bollatura e vidimazione iniziale è stato soppresso; per i libri sociali obbligatori, invece, la vidimazione iniziale permane. Anche il regime dell'imposta di bollo differisce. Comprendere a quale categoria appartenga un determinato registro è quindi il primo passo per applicarne correttamente la disciplina di tenuta, vidimazione, bollo e conservazione. Questa sezione si concentra sui libri sociali; per i libri e registri contabili si rinvia alla sezione dedicata ai documenti contabili."
+        ]
+      },
+      {
+        "h": "L'elenco dell'articolo 2421 per le società per azioni",
+        "p": [
+          "Per le società per azioni, l'articolo 2421 del Codice civile elenca i libri sociali obbligatori che la società deve tenere, oltre alle scritture contabili richieste dalla natura e dalle dimensioni dell'impresa. Si tratta del libro dei soci; del libro delle obbligazioni; del libro delle adunanze e delle deliberazioni delle assemblee; del libro delle adunanze e delle deliberazioni del consiglio di amministrazione o del consiglio di gestione; del libro delle adunanze e delle deliberazioni del collegio sindacale, del consiglio di sorveglianza o del comitato per il controllo sulla gestione; del libro delle adunanze e delle deliberazioni del comitato esecutivo, se esiste; del libro delle adunanze e delle deliberazioni delle assemblee degli obbligazionisti, se sono state emesse obbligazioni; e del libro degli strumenti finanziari emessi ai sensi dell'articolo 2447-sexies.",
+          "La stessa norma individua i soggetti tenuti alla tenuta di ciascun libro: i primi tre — soci, obbligazioni, assemblee — e quelli del consiglio di amministrazione e del comitato esecutivo sono tenuti a cura degli amministratori; il libro delle adunanze del collegio sindacale a cura del collegio; il libro delle assemblee degli obbligazionisti a cura del rappresentante comune. Questa ripartizione della responsabilità è importante, perché individua chi risponde della corretta tenuta di ciascun registro. L'elenco dell'articolo 2421 costituisce il riferimento fondamentale per le società per azioni, mentre per le società a responsabilità limitata l'insieme dei libri obbligatori è più ristretto e definito dall'articolo 2478."
+        ]
+      },
+      {
+        "h": "La rilevanza dei libri sociali nel tempo",
+        "p": [
+          "I libri sociali hanno una rilevanza che si proietta su orizzonti temporali molto estesi. I verbali delle assemblee straordinarie, che documentano modifiche statutarie, aumenti di capitale, fusioni, restano rilevanti per l'intera vita della società e oltre; il libro dei soci documenta la titolarità delle azioni e i loro trasferimenti; i verbali del consiglio di amministrazione possono essere richiamati a distanza di anni in sede di contenzioso o di verifica. Per questo la conservazione dei libri sociali deve garantire la loro persistenza e reperibilità per periodi lunghi, ben oltre i termini ordinari di conservazione delle scritture contabili.",
+          "Questa dimensione temporale estesa rende i libri sociali un ambito emblematico della conservazione documentale di lungo periodo. Nel passaggio dalla tenuta cartacea a quella informatica, la sfida non è solo formare correttamente il documento, ma garantirne l'integrità, l'autenticità e la leggibilità per decenni, contro l'obsolescenza tecnologica. La tenuta con strumenti informatici, disciplinata dall'articolo 2215-bis del Codice civile, e la conservazione a norma secondo le regole sui documenti informatici sono gli strumenti che consentono di assolvere questa esigenza, e costituiscono il cuore degli approfondimenti che seguono."
+        ]
+      },
+      {
+        "h": "Obbligatorietà e libri facoltativi",
+        "p": [
+          "La categoria dei libri sociali comprende sia libri la cui tenuta è imposta dalla legge — i libri sociali obbligatori degli articoli 2421 e 2478 — sia libri che la società può tenere facoltativamente, per esigenze di organizzazione, di governance o di documentazione interna. I libri obbligatori sono soggetti a un regime rigoroso di vidimazione, numerazione, imposta di bollo e, per le società di capitali, alla tassa annuale di concessione governativa; i libri facoltativi, non imposti dalla legge, non sono soggetti a questi obblighi formali, ma possono comunque essere tenuti in modo ordinato e conservati per le proprie finalità.",
+          "La distinzione tra obbligatori e facoltativi è rilevante perché determina il regime applicabile. Un libro obbligatorio non correttamente vidimato o non in regola con l'imposta di bollo espone a sanzioni e può vedere ridotta la propria efficacia probatoria; un libro facoltativo, pur non soggetto a tali obblighi, conserva valore documentale nella misura in cui è tenuto in modo ordinato e attendibile. Nel prosieguo si esaminano dapprima i singoli libri obbligatori, poi il regime della vidimazione e del bollo, la tenuta informatica e la conservazione a norma, e infine i libri non obbligatori e gli altri libri d'impresa."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2421 — libri sociali obbligatori delle società per azioni",
+      "Codice civile, art. 2478 — libri obbligatori delle società a responsabilità limitata",
+      "Codice civile, artt. 2214-2220 — scritture contabili (distinzione)",
+      "Codice civile, art. 2215-bis — documentazione con strumenti informatici",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti fiscali e societari"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libro-soci",
+    "title": "Libro dei soci",
+    "abstract": "Il registro della compagine sociale nelle S.p.A., la sua funzione, il contenuto e l'abolizione dell'obbligo per le S.r.l.",
+    "lead": "Il libro dei soci è il registro nel quale la società per azioni annota la titolarità delle azioni e le sue vicende: i nominativi dei titolari di azioni nominative, il numero delle azioni possedute, i versamenti eseguiti, i trasferimenti e i vincoli. È lo strumento con cui la società tiene aggiornata la propria compagine e ne documenta la composizione nel tempo. Per le società a responsabilità limitata l'obbligo del libro dei soci è stato invece abolito nel 2009: la titolarità delle quote risulta oggi dal Registro delle imprese. Il libro dei soci resta quindi un libro sociale obbligatorio proprio delle società per azioni, con una funzione che è mutata nel tempo ma che conserva rilievo documentale.",
+    "sezioni": [
+      {
+        "h": "Che cos'è e a quale esigenza risponde",
+        "p": [
+          "Nelle società per azioni la partecipazione sociale è incorporata in azioni, che possono essere nominative o al portatore secondo la disciplina applicabile. Per le azioni nominative, la società ha bisogno di conoscere e documentare chi ne sia titolare, in quale misura e con quali vicende. Il libro dei soci assolve a questa esigenza: raccoglie, per ciascun socio titolare di azioni nominative, i dati identificativi, il numero delle azioni, la categoria, i versamenti eseguiti sui conferimenti non ancora liberati, i trasferimenti e i vincoli eventualmente gravanti sulle azioni.",
+          "La funzione del libro dei soci è di documentazione e di ordine: consente alla società di avere una rappresentazione aggiornata della propria compagine, di individuare i soggetti legittimati all'esercizio dei diritti sociali e di ricostruire la storia della titolarità delle azioni. È lo strumento attraverso cui la società tiene memoria di chi ne fa parte e delle vicende della partecipazione, con una funzione che ha accompagnato storicamente l'esercizio dei diritti sociali e la legittimazione dei soci."
+        ]
+      },
+      {
+        "h": "Il contenuto del libro dei soci",
+        "p": [
+          "Il libro dei soci deve contenere, per ciascun titolare di azioni nominative, gli elementi che identificano la partecipazione e ne documentano le vicende: il nome e i dati del titolare, il numero delle azioni possedute e la loro categoria, i versamenti eseguiti a fronte dei conferimenti non integralmente liberati, i trasferimenti delle azioni con la relativa data, e i vincoli — pegno, usufrutto, sequestro — che eventualmente gravino su di esse. La distinzione per categorie di azioni è rilevante, perché a categorie diverse possono corrispondere diritti diversi.",
+          "L'aggiornamento del libro dei soci segue le vicende della partecipazione: ogni trasferimento, ogni costituzione o cancellazione di un vincolo, ogni versamento va annotato con la relativa data. La tenuta ordinata di queste annotazioni consente di ricostruire, in qualunque momento, la composizione della compagine e la storia della titolarità delle azioni. La corretta tenuta del libro dei soci è quindi funzionale sia all'ordinato esercizio dei diritti sociali sia alla documentazione delle vicende della partecipazione, che possono assumere rilievo in sede di contenzioso o di operazioni straordinarie."
+        ]
+      },
+      {
+        "h": "L'abolizione del libro dei soci per le società a responsabilità limitata",
+        "p": [
+          "Per le società a responsabilità limitata, l'obbligo di tenere il libro dei soci è stato abolito nel 2009. La riforma ha ricondotto la documentazione della titolarità delle quote al Registro delle imprese: sono le iscrizioni nel Registro, alimentate dagli atti di trasferimento e dalle relative comunicazioni, a documentare chi sia titolare delle quote di una S.r.l. e a rilevare ai fini della legittimazione. Il libro dei soci non è più, per le S.r.l., un libro sociale obbligatorio, e le informazioni sulla compagine si traggono dalla pubblicità del Registro delle imprese.",
+          "Questa abolizione ha semplificato gli adempimenti delle società a responsabilità limitata e ha spostato sul Registro delle imprese la funzione di documentazione e di opponibilità delle vicende della partecipazione. Per le società per azioni, invece, il libro dei soci resta un libro obbligatorio ai sensi dell'articolo 2421. La differenza riflette la diversa natura delle due tipologie societarie e delle rispettive partecipazioni. Chi gestisce i libri sociali deve quindi tenere presente questa distinzione: il libro dei soci è obbligatorio per le S.p.A., non per le S.r.l., per le quali la funzione è assolta dal Registro delle imprese."
+        ]
+      },
+      {
+        "h": "Tenuta, vidimazione e responsabilità",
+        "p": [
+          "Il libro dei soci, quale libro sociale obbligatorio delle società per azioni, è tenuto a cura degli amministratori ed è soggetto agli obblighi di vidimazione, numerazione e imposta di bollo propri dei libri sociali, oltre a concorrere, per le società di capitali, alla tassa annuale di concessione governativa. La sua tenuta deve essere ordinata e aggiornata, così da riflettere sempre la composizione effettiva della compagine e la storia della titolarità delle azioni nominative.",
+          "La responsabilità della corretta tenuta grava sugli amministratori, che devono provvedere all'aggiornamento delle annotazioni in relazione alle vicende della partecipazione. Nella prospettiva della conservazione, il libro dei soci è un documento a rilevanza pluriennale, la cui persistenza e reperibilità nel tempo sono importanti per ricostruire la storia della compagine. La tenuta con strumenti informatici e la conservazione a norma, esaminate nelle schede dedicate, consentono di gestire il libro dei soci in formato digitale garantendone integrità e leggibilità nel lungo periodo."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2421, n. 1 — libro dei soci delle società per azioni",
+      "Codice civile, art. 2422 — diritto di ispezione dei libri sociali",
+      "D.L. 185/2008 (conv. L. 2/2009), art. 16 — abolizione del libro dei soci per le S.r.l.",
+      "Codice civile, art. 2215-bis — tenuta con strumenti informatici",
+      "D.M. 17 giugno 2014 — conservazione digitale"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libro-assemblee",
+    "title": "Libro delle adunanze e delle deliberazioni delle assemblee",
+    "abstract": "Il registro dei verbali assembleari: funzione, contenuto, verbale per atto pubblico e rilievo probatorio.",
+    "lead": "Il libro delle adunanze e delle deliberazioni delle assemblee raccoglie i verbali delle riunioni dell'assemblea dei soci, l'organo che esprime la volontà sociale sulle materie di sua competenza. In esso si documentano lo svolgimento delle adunanze e le deliberazioni assunte: l'approvazione del bilancio, la nomina delle cariche, le modifiche statutarie, le operazioni sul capitale. È uno dei libri sociali obbligatori più importanti, perché documenta le decisioni fondamentali della società, e le sue risultanze hanno un rilievo probatorio significativo. Per le deliberazioni dell'assemblea straordinaria il verbale è redatto da un notaio; per quelle ordinarie il verbale è redatto e sottoscritto secondo le regole applicabili. La sua corretta tenuta e conservazione è essenziale per la certezza delle decisioni sociali.",
+    "sezioni": [
+      {
+        "h": "Che cos'è e a quale esigenza risponde",
+        "p": [
+          "L'assemblea dei soci è l'organo attraverso cui si forma la volontà sociale sulle materie riservate alla sua competenza: dall'approvazione del bilancio alla nomina degli organi, dalle modifiche dello statuto alle operazioni straordinarie. Le sue decisioni devono essere documentate in modo formale, affinché ne restino prova la data, il contenuto, le maggioranze con cui sono state assunte e il regolare svolgimento dell'adunanza. Il libro delle adunanze e delle deliberazioni delle assemblee assolve a questa funzione, raccogliendo i verbali delle riunioni assembleari.",
+          "Il verbale assembleare documenta l'adunanza e la deliberazione: chi ha presieduto, chi era presente, come si è svolta la discussione, quali decisioni sono state assunte e con quali maggioranze. La sua funzione è di certezza e di prova: rende incontrovertibile ciò che l'assemblea ha deciso, e costituisce il fondamento su cui poggiano gli effetti della deliberazione. La corretta redazione e conservazione del verbale è quindi essenziale, perché da essa dipende la certezza delle decisioni sociali e la loro opponibilità."
+        ]
+      },
+      {
+        "h": "Il contenuto del verbale assembleare",
+        "p": [
+          "Il verbale dell'assemblea deve dare conto degli elementi essenziali dell'adunanza e della deliberazione. Vi si indicano la data e il luogo dell'adunanza, l'identità di chi la presiede e di chi svolge le funzioni di segretario, la regolare costituzione dell'assemblea, l'identità dei partecipanti e il capitale rappresentato, lo svolgimento della riunione, le modalità e i risultati delle votazioni, e il testo delle deliberazioni assunte. La completezza di questi elementi è essenziale per documentare il regolare svolgimento dell'adunanza e la validità delle decisioni.",
+          "La cura nella redazione del verbale è importante perché eventuali lacune o irregolarità possono riflettersi sulla validità o sull'opponibilità delle deliberazioni. Il verbale deve rappresentare fedelmente ciò che è avvenuto in assemblea, così da poter fondare gli effetti della deliberazione e da poter essere richiamato, anche a distanza di anni, in caso di contestazioni. La corretta verbalizzazione è quindi un adempimento di particolare delicatezza, che presidia la certezza delle decisioni dell'organo sovrano della società."
+        ]
+      },
+      {
+        "h": "Il verbale per atto pubblico dell'assemblea straordinaria",
+        "p": [
+          "Per le deliberazioni dell'assemblea straordinaria — quelle che incidono sullo statuto, sul capitale, sulla struttura della società — il verbale è redatto da un notaio, che ne cura la forma di atto pubblico. La deliberazione dell'assemblea straordinaria, documentata dal verbale notarile, è soggetta al controllo di legalità del notaio e alle formalità di deposito e iscrizione nel Registro delle imprese, dalle quali dipende l'efficacia delle modifiche deliberate. Il verbale notarile assume quindi un rilievo particolare, sia per la forma sia per gli effetti.",
+          "Questa particolarità comporta che il documento originale della deliberazione straordinaria abbia natura di atto pubblico notarile, distinto dalla trascrizione nel libro sociale. La società conserva il proprio libro delle adunanze, in cui la deliberazione è documentata, mentre il notaio conserva l'atto pubblico nei propri repertori e ne cura gli adempimenti pubblicitari. Il coordinamento tra il libro sociale, l'atto notarile e la pubblicità nel Registro delle imprese è un aspetto rilevante della gestione documentale delle deliberazioni straordinarie, con implicazioni anche sul piano della conservazione."
+        ]
+      },
+      {
+        "h": "Il rilievo probatorio e la conservazione",
+        "p": [
+          "Il libro delle adunanze e delle deliberazioni delle assemblee ha un rilievo probatorio significativo: documenta le decisioni fondamentali della società e costituisce la fonte su cui si fonda la certezza di ciò che l'assemblea ha deliberato. In sede di contenzioso, di verifica o di operazioni straordinarie, i verbali assembleari sono spesso il documento decisivo per ricostruire le decisioni sociali e i loro presupposti. La loro corretta tenuta e conservazione è quindi essenziale per la certezza dei rapporti sociali.",
+          "La rilevanza dei verbali assembleari si proietta su orizzonti temporali molto estesi, in particolare per le deliberazioni straordinarie che modificano l'assetto della società. La conservazione deve garantirne la persistenza, l'integrità e la reperibilità per lunghi periodi. Nella tenuta informatica, la firma digitale e la marca temporale annuale previste dall'articolo 2215-bis, unite alla conservazione a norma, assicurano che i verbali digitali conservino il loro valore probatorio nel tempo. La gestione ordinata del libro delle assemblee è quindi un presidio della certezza e della memoria delle decisioni sociali."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2421, n. 3 — libro delle adunanze e deliberazioni delle assemblee",
+      "Codice civile, art. 2375 — verbale delle deliberazioni dell'assemblea",
+      "Codice civile, art. 2436 — deposito e iscrizione delle deliberazioni modificative dello statuto",
+      "Codice civile, art. 2215-bis — tenuta con strumenti informatici",
+      "D.M. 17 giugno 2014 — conservazione digitale"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libro-cda",
+    "title": "Libro delle adunanze e delle deliberazioni del consiglio di amministrazione",
+    "abstract": "Il registro dei verbali dell'organo amministrativo collegiale e del comitato esecutivo: funzione, contenuto e conservazione.",
+    "lead": "Il libro delle adunanze e delle deliberazioni del consiglio di amministrazione raccoglie i verbali delle riunioni dell'organo amministrativo collegiale, che gestisce l'impresa e assume le decisioni di amministrazione di sua competenza. Nelle società che adottano il sistema dualistico, il libro è quello del consiglio di gestione. Vi si documentano le adunanze del consiglio, le deliberazioni assunte, le deleghe conferite, le operazioni approvate. Se è costituito un comitato esecutivo, le sue riunioni e deliberazioni sono documentate in un apposito libro. Questi libri, tenuti a cura degli amministratori, documentano l'attività dell'organo che gestisce la società e hanno rilievo per la ricostruzione delle decisioni gestorie e delle relative responsabilità.",
+    "sezioni": [
+      {
+        "h": "Che cos'è e a quale esigenza risponde",
+        "p": [
+          "L'organo amministrativo, quando è collegiale, gestisce l'impresa e assume le proprie decisioni attraverso adunanze e deliberazioni del consiglio. Queste decisioni — l'approvazione di operazioni, il conferimento di deleghe, l'esame dell'andamento della gestione, le proposte all'assemblea — devono essere documentate in modo ordinato. Il libro delle adunanze e delle deliberazioni del consiglio di amministrazione assolve a questa funzione, raccogliendo i verbali delle riunioni consiliari e documentando l'attività dell'organo che amministra la società.",
+          "La funzione del libro è di documentazione e di prova dell'attività gestoria: consente di ricostruire quali decisioni il consiglio abbia assunto, in quale data, con quali maggioranze e sulla base di quali presupposti. Questa documentazione è rilevante sia per l'ordinato funzionamento dell'organo sia, in prospettiva, per la valutazione della diligenza e della responsabilità degli amministratori. Un verbale consiliare regolarmente tenuto documenta che una determinata decisione gestoria è stata assunta collegialmente, elemento che può assumere rilievo in sede di valutazione delle responsabilità."
+        ]
+      },
+      {
+        "h": "Il contenuto del verbale consiliare",
+        "p": [
+          "Il verbale del consiglio di amministrazione deve dare conto degli elementi essenziali dell'adunanza: la data e il luogo, l'identità dei presenti e dell'eventuale collegio sindacale, la regolare costituzione del consiglio, l'ordine del giorno, lo svolgimento della discussione, le deliberazioni assunte e le modalità delle votazioni. La documentazione delle deleghe conferite agli amministratori delegati e delle operazioni approvate è particolarmente rilevante, perché delinea la ripartizione delle competenze gestorie e i limiti dei poteri delegati.",
+          "La cura nella verbalizzazione delle riunioni consiliari è importante perché il verbale documenta l'attività dell'organo che gestisce la società, con implicazioni sul piano delle responsabilità. Un verbale accurato consente di ricostruire il processo decisionale, di documentare l'eventuale dissenso di singoli amministratori e di attestare la diligenza dell'organo. Nella prospettiva del contenzioso e delle azioni di responsabilità, i verbali consiliari sono spesso un elemento di prova rilevante, e la loro corretta tenuta è un presidio della posizione degli amministratori."
+        ]
+      },
+      {
+        "h": "Il comitato esecutivo e i sistemi alternativi di amministrazione",
+        "p": [
+          "Quando all'interno del consiglio è costituito un comitato esecutivo, le sue adunanze e deliberazioni sono documentate in un apposito libro, ai sensi dell'articolo 2421. Il comitato esecutivo esercita, entro i limiti della delega, funzioni gestorie, e la documentazione delle sue riunioni segue la medesima logica del libro consiliare. Nei sistemi alternativi di amministrazione — dualistico e monistico — il libro dell'organo amministrativo è quello del consiglio di gestione, mentre le funzioni di controllo sono documentate nei libri degli organi corrispondenti.",
+          "La molteplicità degli organi e dei sistemi di amministrazione comporta che l'insieme dei libri sociali di una società rifletta la sua concreta struttura di governo. Una società con consiglio di amministrazione e comitato esecutivo terrà i relativi libri; una società con sistema dualistico terrà i libri del consiglio di gestione e del consiglio di sorveglianza. La corretta individuazione dei libri da tenere in funzione del sistema di amministrazione adottato è quindi un aspetto della corretta gestione degli adempimenti societari, e si riflette sull'organizzazione della conservazione."
+        ]
+      },
+      {
+        "h": "Tenuta e conservazione",
+        "p": [
+          "Il libro delle adunanze del consiglio di amministrazione, quale libro sociale obbligatorio, è tenuto a cura degli amministratori ed è soggetto agli obblighi di vidimazione, numerazione e imposta di bollo propri dei libri sociali. La sua tenuta deve essere ordinata e tempestiva, così da documentare con regolarità l'attività dell'organo gestorio. La documentazione delle deliberazioni consiliari, delle deleghe e delle operazioni approvate compone la memoria dell'amministrazione della società.",
+          "Sul piano della conservazione, i verbali consiliari hanno una rilevanza che può protrarsi nel tempo, in particolare in relazione alle azioni di responsabilità, che possono essere esercitate entro termini pluriennali. La conservazione deve garantire la persistenza e la reperibilità dei verbali per l'intero arco in cui possono essere richiesti. La tenuta con strumenti informatici, con la firma digitale e la marca temporale annuale dell'articolo 2215-bis, e la conservazione a norma consentono di gestire il libro consiliare in formato digitale preservandone il valore probatorio nel lungo periodo."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2421, nn. 4 e 6 — libri del consiglio di amministrazione e del comitato esecutivo",
+      "Codice civile, art. 2381 — organi delegati e comitato esecutivo",
+      "Codice civile, artt. 2409-octies e ss. — sistema dualistico (consiglio di gestione)",
+      "Codice civile, art. 2215-bis — tenuta con strumenti informatici",
+      "D.M. 17 giugno 2014 — conservazione digitale"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libro-organo-controllo",
+    "title": "Libro del collegio sindacale e degli organi di controllo",
+    "abstract": "Il registro dei verbali del collegio sindacale, del consiglio di sorveglianza e del comitato per il controllo sulla gestione.",
+    "lead": "Il libro delle adunanze e delle deliberazioni del collegio sindacale raccoglie i verbali delle riunioni dell'organo di controllo, che vigila sull'osservanza della legge e dello statuto, sul rispetto dei principi di corretta amministrazione e sull'adeguatezza dell'assetto organizzativo, amministrativo e contabile della società. Nei sistemi alternativi, il libro è quello del consiglio di sorveglianza o del comitato per il controllo sulla gestione. Tenuto a cura dell'organo di controllo stesso, questo libro documenta l'attività di vigilanza e le relative constatazioni, e assume rilievo per la ricostruzione dell'operato dei sindaci e delle responsabilità connesse alla funzione di controllo.",
+    "sezioni": [
+      {
+        "h": "Che cos'è e a quale esigenza risponde",
+        "p": [
+          "L'organo di controllo di una società — il collegio sindacale nel sistema tradizionale — svolge una funzione di vigilanza sull'osservanza della legge e dello statuto, sul rispetto dei principi di corretta amministrazione e sull'adeguatezza degli assetti organizzativi, amministrativi e contabili. Questa attività di vigilanza si esplica attraverso riunioni, verifiche, esami e constatazioni, che devono essere documentati. Il libro delle adunanze e delle deliberazioni del collegio sindacale assolve a questa funzione, raccogliendo i verbali delle riunioni dell'organo di controllo e documentandone l'attività.",
+          "La funzione del libro è di documentazione dell'attività di vigilanza: attesta che il collegio si è riunito, ha svolto le proprie verifiche, ha esaminato la situazione della società e ha assunto le proprie determinazioni. Questa documentazione è rilevante per la ricostruzione dell'operato dei sindaci e per la valutazione della diligenza con cui hanno svolto la funzione di controllo. Un libro sindacale regolarmente tenuto documenta l'esercizio effettivo della vigilanza, elemento essenziale nella valutazione delle responsabilità dell'organo di controllo."
+        ]
+      },
+      {
+        "h": "Il contenuto dei verbali dell'organo di controllo",
+        "p": [
+          "I verbali del collegio sindacale documentano le riunioni e le verifiche dell'organo: la data, i presenti, l'oggetto delle verifiche, gli esami condotti sui libri e sulle scritture, le constatazioni effettuate, i rilievi mossi e le determinazioni assunte. Vi trovano documentazione anche le verifiche periodiche di cassa, l'esame dei documenti, la partecipazione alle riunioni degli altri organi e le osservazioni sul bilancio. La completezza di queste annotazioni attesta l'effettivo svolgimento dell'attività di vigilanza.",
+          "La cura nella verbalizzazione è particolarmente importante per l'organo di controllo, perché i verbali documentano l'esercizio della funzione di vigilanza e, in caso di irregolarità della società, la diligenza con cui i sindaci l'hanno svolta. Un libro sindacale che documenti verifiche regolari, rilievi tempestivi e determinazioni adeguate è la migliore prova del corretto esercizio della funzione; l'assenza o la lacunosità delle verbalizzazioni può, all'opposto, rilevare in sede di valutazione delle responsabilità. La documentazione dell'attività di controllo è quindi un presidio della posizione dei componenti dell'organo."
+        ]
+      },
+      {
+        "h": "Gli organi di controllo nei sistemi alternativi",
+        "p": [
+          "Nei sistemi alternativi di amministrazione e controllo, la funzione di vigilanza è affidata a organi diversi dal collegio sindacale, e i relativi libri seguono la medesima logica. Nel sistema dualistico, la funzione di controllo è svolta dal consiglio di sorveglianza, le cui adunanze e deliberazioni sono documentate nel relativo libro; nel sistema monistico, la funzione è svolta dal comitato per il controllo sulla gestione, costituito all'interno del consiglio di amministrazione, con il proprio libro. L'articolo 2421 individua espressamente questi libri quali libri sociali obbligatori.",
+          "La corretta individuazione dell'organo di controllo e del relativo libro dipende quindi dal sistema di amministrazione e controllo adottato dalla società. In ogni caso, la funzione documentale è analoga: attestare l'attività di vigilanza svolta dall'organo di controllo. La conservazione di questi libri è rilevante per la ricostruzione dell'operato dell'organo e per la valutazione delle responsabilità connesse alla funzione di controllo, che possono essere fatte valere entro termini pluriennali."
+        ]
+      },
+      {
+        "h": "Tenuta e conservazione",
+        "p": [
+          "Il libro delle adunanze del collegio sindacale è tenuto a cura del collegio stesso, ed è soggetto agli obblighi di vidimazione, numerazione e imposta di bollo propri dei libri sociali obbligatori. La responsabilità della corretta tenuta grava sull'organo di controllo, che deve documentare con regolarità la propria attività di vigilanza. La tempestività e la completezza delle verbalizzazioni sono essenziali, perché il libro documenta l'esercizio effettivo della funzione.",
+          "Sul piano della conservazione, i verbali dell'organo di controllo hanno una rilevanza che si proietta nel tempo, in relazione alle azioni di responsabilità e alle verifiche che possono interessare l'operato dei sindaci. La conservazione deve garantirne la persistenza e la reperibilità per l'intero arco in cui possono essere richiesti. La tenuta con strumenti informatici e la conservazione a norma, con la firma digitale e la marca temporale annuale dell'articolo 2215-bis, consentono di gestire il libro dell'organo di controllo in formato digitale preservandone il valore probatorio nel lungo periodo."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2421, n. 5 — libro del collegio sindacale e degli organi di controllo",
+      "Codice civile, artt. 2403-2409 — collegio sindacale",
+      "Codice civile, artt. 2409-octiesdecies e ss. — comitato per il controllo sulla gestione (sistema monistico)",
+      "Codice civile, art. 2215-bis — tenuta con strumenti informatici",
+      "D.M. 17 giugno 2014 — conservazione digitale"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libri-obbligazioni-strumenti",
+    "title": "Libro delle obbligazioni, assemblee degli obbligazionisti e strumenti finanziari",
+    "abstract": "I libri sociali connessi ai titoli di debito e agli strumenti finanziari: obbligazioni, assemblee degli obbligazionisti e patrimoni destinati.",
+    "lead": "Accanto ai libri relativi alla compagine e agli organi, l'articolo 2421 prevede libri sociali connessi ai titoli e agli strumenti finanziari emessi dalla società. Il libro delle obbligazioni documenta le obbligazioni emesse ed estinte e la titolarità delle obbligazioni nominative; il libro delle adunanze e delle deliberazioni delle assemblee degli obbligazionisti documenta le decisioni dell'organo che riunisce i portatori dei titoli di debito; il libro degli strumenti finanziari emessi ai sensi dell'articolo 2447-sexies documenta gli strumenti connessi ai patrimoni destinati a uno specifico affare. Questi libri, tenuti nei casi in cui la società abbia emesso i relativi titoli, completano il quadro dei libri sociali obbligatori delle società per azioni.",
+    "sezioni": [
+      {
+        "h": "Il libro delle obbligazioni",
+        "p": [
+          "Quando la società per azioni emette obbligazioni — titoli di debito che rappresentano un prestito raccolto presso il pubblico o presso investitori — deve tenere il libro delle obbligazioni. In esso si documentano l'ammontare delle obbligazioni emesse e di quelle estinte, i nominativi dei titolari delle obbligazioni nominative, i trasferimenti e i vincoli gravanti sui titoli. Il libro assolve, per le obbligazioni, una funzione analoga a quella del libro dei soci per le azioni: documentare la titolarità dei titoli e le loro vicende.",
+          "La funzione del libro delle obbligazioni è di documentazione e di ordine nella gestione del prestito obbligazionario: consente alla società di conoscere l'entità del debito rappresentato dalle obbligazioni in circolazione e di individuare i titolari dei titoli nominativi. La corretta tenuta di questo libro è funzionale alla gestione del rapporto con gli obbligazionisti e alla documentazione delle vicende dei titoli, ed è tenuta a cura degli amministratori tra i libri sociali obbligatori nei casi in cui siano state emesse obbligazioni."
+        ]
+      },
+      {
+        "h": "Il libro delle adunanze delle assemblee degli obbligazionisti",
+        "p": [
+          "Gli obbligazionisti, quali titolari di un interesse comune connesso al prestito obbligazionario, sono organizzati in un'assemblea che delibera sulle materie di interesse comune: la nomina del rappresentante comune, le modificazioni delle condizioni del prestito, la costituzione di un fondo per le spese, e le altre questioni previste. Le adunanze e le deliberazioni dell'assemblea degli obbligazionisti sono documentate in un apposito libro, tenuto a cura del rappresentante comune degli obbligazionisti.",
+          "Questo libro documenta l'attività dell'organo che riunisce i portatori delle obbligazioni e le decisioni assunte nell'interesse comune. La sua tenuta è obbligatoria nei casi in cui la società abbia emesso obbligazioni e si sia costituita l'assemblea degli obbligazionisti. La documentazione delle deliberazioni di quest'assemblea è rilevante perché esse possono incidere sulle condizioni del prestito e sui diritti degli obbligazionisti, e la loro corretta verbalizzazione e conservazione è funzionale alla certezza dei rapporti connessi al prestito obbligazionario."
+        ]
+      },
+      {
+        "h": "Il libro degli strumenti finanziari e i patrimoni destinati",
+        "p": [
+          "L'articolo 2421 prevede infine il libro degli strumenti finanziari emessi ai sensi dell'articolo 2447-sexies, connesso all'istituto dei patrimoni destinati a uno specifico affare. Quando la società costituisce un patrimonio destinato ed emette strumenti finanziari a esso connessi, deve tenere un apposito libro che documenta le caratteristiche di tali strumenti, l'ammontare emesso, i titolari e i trasferimenti, secondo quanto previsto dalla disciplina dei patrimoni destinati.",
+          "Questo libro documenta gli strumenti finanziari connessi a un'operazione particolare, quale la destinazione di un patrimonio a uno specifico affare, e riflette la complessità di talune operazioni societarie. La sua tenuta è obbligatoria nei casi in cui la società si avvalga di questi istituti. Pur riguardando fattispecie meno frequenti, il libro degli strumenti finanziari completa il quadro dei libri sociali obbligatori dell'articolo 2421, e la sua corretta tenuta e conservazione risponde alle medesime esigenze di documentazione e di certezza proprie degli altri libri sociali."
+        ]
+      },
+      {
+        "h": "Tenuta, obbligatorietà condizionata e conservazione",
+        "p": [
+          "I libri connessi alle obbligazioni e agli strumenti finanziari hanno un'obbligatorietà condizionata: sono obbligatori nella misura in cui la società abbia emesso i relativi titoli o costituito i relativi istituti. Una società per azioni che non abbia emesso obbligazioni non terrà il libro delle obbligazioni né quello delle assemblee degli obbligazionisti; una società che non abbia costituito patrimoni destinati non terrà il libro degli strumenti finanziari. L'insieme dei libri effettivamente obbligatori dipende quindi dalle concrete operazioni della società.",
+          "Quando obbligatori, questi libri sono soggetti agli obblighi di vidimazione, numerazione e imposta di bollo propri dei libri sociali. Sul piano della conservazione, essi documentano rapporti — con gli obbligazionisti, con i titolari degli strumenti finanziari — la cui rilevanza si protrae per la durata dei titoli e oltre. La tenuta con strumenti informatici e la conservazione a norma consentono di gestire anche questi libri in formato digitale, garantendone integrità e reperibilità per l'intero periodo in cui possono assumere rilievo."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2421, nn. 2, 7 e 8 — libri di obbligazioni, assemblee obbligazionisti e strumenti finanziari",
+      "Codice civile, artt. 2410-2420 — obbligazioni e organizzazione degli obbligazionisti",
+      "Codice civile, artt. 2447-bis e 2447-sexies — patrimoni destinati e strumenti finanziari connessi",
+      "Codice civile, art. 2215-bis — tenuta con strumenti informatici",
+      "D.M. 17 giugno 2014 — conservazione digitale"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "srl-libri-decisioni",
+    "title": "I libri delle S.r.l.: decisioni dei soci e degli amministratori (art. 2478)",
+    "abstract": "I libri obbligatori delle società a responsabilità limitata e le differenze rispetto alle società per azioni.",
+    "lead": "Per le società a responsabilità limitata i libri sociali obbligatori sono individuati dall'articolo 2478 del Codice civile, con un insieme più ristretto rispetto a quello delle società per azioni. La S.r.l. deve tenere il libro delle decisioni dei soci, il libro delle decisioni degli amministratori e, quando sono nominati, il libro delle decisioni del collegio sindacale o del revisore. Il libro dei soci, come si è visto, è stato abolito nel 2009: la titolarità delle quote risulta dal Registro delle imprese. La disciplina dei libri delle S.r.l. riflette la maggiore flessibilità di questo tipo societario, in cui le decisioni dei soci e degli amministratori possono essere assunte anche senza adunanza, con modalità che si documentano nei rispettivi libri.",
+    "sezioni": [
+      {
+        "h": "Il libro delle decisioni dei soci",
+        "p": [
+          "Nelle società a responsabilità limitata, le decisioni dei soci possono essere assunte non solo con deliberazione assembleare, ma anche, quando lo statuto lo consente, mediante consultazione scritta o consenso espresso per iscritto, per le materie diverse da quelle che richiedono necessariamente l'assemblea. Il libro delle decisioni dei soci documenta queste decisioni, quale che sia la modalità con cui sono assunte: vi si trascrivono i verbali delle assemblee e le decisioni adottate mediante consultazione scritta o consenso espresso per iscritto, con l'indicazione dei soci favorevoli, contrari o astenuti.",
+          "Questa flessibilità nelle modalità decisionali riflette la natura della S.r.l., più vicina alle esigenze delle imprese di minori dimensioni e a compagini ristrette. Il libro delle decisioni dei soci raccoglie, in un unico registro, la documentazione di tutte le decisioni dei soci, comunque assunte. La sua corretta tenuta è essenziale per documentare la formazione della volontà dei soci e per la certezza delle decisioni, che possono incidere sull'organizzazione e sulla vita della società. La documentazione delle decisioni assunte senza adunanza richiede particolare cura, per attestare il rispetto delle condizioni previste dallo statuto e dalla legge."
+        ]
+      },
+      {
+        "h": "Il libro delle decisioni degli amministratori",
+        "p": [
+          "Il libro delle decisioni degli amministratori documenta le decisioni dell'organo amministrativo della S.r.l. Anche per gli amministratori, quando l'organo è collegiale e lo statuto lo consente, le decisioni possono essere assunte, per talune materie, mediante consultazione scritta o consenso espresso per iscritto, oltre che con deliberazione consiliare. Il libro raccoglie la documentazione di tutte queste decisioni, con l'indicazione delle modalità di assunzione e del contenuto.",
+          "La documentazione delle decisioni degli amministratori è rilevante per la ricostruzione dell'attività gestoria e delle relative responsabilità, analogamente a quanto avviene per i verbali consiliari delle società per azioni. La flessibilità delle modalità decisionali proprie della S.r.l. si riflette nel contenuto del libro, che documenta decisioni assunte anche senza adunanza. La corretta tenuta di questo libro è funzionale alla certezza delle decisioni gestorie e alla documentazione dell'operato degli amministratori, che può assumere rilievo in sede di valutazione delle responsabilità."
+        ]
+      },
+      {
+        "h": "Il libro dell'organo di controllo, quando nominato",
+        "p": [
+          "Le società a responsabilità limitata non sono sempre tenute a nominare un organo di controllo o un revisore; l'obbligo sorge al ricorrere di determinate condizioni previste dalla legge, legate alle dimensioni o alla struttura della società. Quando l'organo di controllo o il revisore sono nominati, la S.r.l. tiene il libro delle loro decisioni o della loro attività, che documenta l'esercizio della funzione di controllo o di revisione, analogamente al libro del collegio sindacale delle società per azioni.",
+          "L'obbligatorietà condizionata di questo libro riflette il carattere eventuale dell'organo di controllo nelle S.r.l. Nelle società in cui l'organo è nominato, il libro documenta l'attività di vigilanza o di revisione e assume rilievo per la ricostruzione dell'operato dell'organo. La corretta tenuta di questo libro segue la medesima logica degli altri libri sociali: documentare in modo ordinato e tempestivo l'attività dell'organo, così da attestarne il regolare esercizio e da preservarne la memoria nel tempo attraverso una conservazione adeguata."
+        ]
+      },
+      {
+        "h": "Le differenze rispetto alle società per azioni e il regime di tenuta",
+        "p": [
+          "L'insieme dei libri obbligatori delle S.r.l. è più ristretto rispetto a quello delle società per azioni: non vi è il libro dei soci, abolito nel 2009; non vi sono, di regola, i libri connessi alle obbligazioni e agli strumenti finanziari propri delle S.p.A. I libri delle decisioni dei soci e degli amministratori raccolgono, con maggiore flessibilità, la documentazione delle decisioni comunque assunte. Questa semplificazione riflette la natura della S.r.l. e le esigenze delle imprese cui questo tipo societario si rivolge.",
+          "Anche per le S.r.l., i libri sociali obbligatori sono soggetti agli obblighi di vidimazione, numerazione e imposta di bollo, e concorrono, per le società di capitali, alla tassa annuale di concessione governativa. La tenuta con strumenti informatici, disciplinata dall'articolo 2215-bis, e la conservazione a norma si applicano ai libri delle S.r.l. nella stessa misura in cui si applicano a quelli delle S.p.A. La flessibilità delle modalità decisionali della S.r.l. non attenua l'esigenza di una documentazione ordinata e di una conservazione che ne garantisca la persistenza nel tempo."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2478 — libri sociali obbligatori della S.r.l.",
+      "Codice civile, art. 2479 — decisioni dei soci (assemblea, consultazione scritta, consenso per iscritto)",
+      "Codice civile, art. 2477 — organo di controllo e revisione nelle S.r.l.",
+      "Codice civile, art. 2215-bis — tenuta con strumenti informatici",
+      "D.M. 17 giugno 2014 — conservazione digitale"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "bollatura-bollo-libri-sociali",
+    "title": "Vidimazione, numerazione e imposta di bollo dei libri sociali",
+    "abstract": "Gli adempimenti formali dei libri sociali: bollatura iniziale, numerazione progressiva, imposta di bollo e tassa di concessione governativa.",
+    "lead": "I libri sociali obbligatori sono soggetti, a differenza delle scritture contabili, a specifici adempimenti formali che ne presidiano l'affidabilità: la numerazione progressiva delle pagine, la vidimazione (o bollatura) iniziale prima della messa in uso, l'assolvimento dell'imposta di bollo e, per le società di capitali, il pagamento della tassa annuale di concessione governativa. Questi adempimenti hanno la funzione di garantire l'integrità e la continuità dei libri, impedendo l'inserimento o la sostituzione fraudolenta di pagine, e di assolvere agli obblighi tributari connessi. Nel passaggio alla tenuta informatica, questi adempimenti assumono forme nuove, disciplinate dall'articolo 2215-bis e dalla normativa fiscale sui documenti informatici, esaminate nelle schede successive.",
+    "sezioni": [
+      {
+        "h": "La numerazione progressiva e la vidimazione iniziale",
+        "p": [
+          "I libri sociali obbligatori devono essere numerati progressivamente in ogni pagina prima di essere messi in uso. La numerazione progressiva garantisce la continuità del libro e consente di verificare che non vi siano pagine mancanti, aggiunte o sostituite. A differenza delle scritture contabili, per le quali l'obbligo di bollatura iniziale è stato soppresso, i libri sociali obbligatori restano soggetti alla vidimazione iniziale: prima della messa in uso, il libro deve essere bollato, adempimento che ne attesta l'identità e ne garantisce l'integrità.",
+          "La vidimazione dei libri sociali è eseguita dal notaio o dall'ufficio del Registro delle imprese presso la Camera di commercio. Questo controllo formale preventivo, che permane per i libri sociali mentre è venuto meno per le scritture contabili, riflette la particolare rilevanza probatoria dei libri sociali e l'esigenza di presidiarne l'affidabilità fin dall'origine. La numerazione e la vidimazione iniziale sono quindi adempimenti essenziali dei libri sociali cartacei, la cui omissione può incidere sulla regolarità della tenuta e sull'efficacia probatoria del libro."
+        ]
+      },
+      {
+        "h": "L'imposta di bollo sui libri sociali cartacei",
+        "p": [
+          "I libri sociali sono soggetti all'imposta di bollo secondo la tariffa allegata al d.P.R. 642/1972. Per i libri tenuti su supporto cartaceo, l'imposta è dovuta in misura fissa per ogni cento pagine o frazione di cento pagine. La misura dell'imposta è differenziata: è più contenuta per le società che assolvono la tassa annuale di concessione governativa, e più elevata per i soggetti che non vi sono tenuti. L'assolvimento dell'imposta di bollo è un adempimento connesso alla tenuta dei libri sociali obbligatori.",
+          "La corretta applicazione dell'imposta di bollo richiede di individuare la misura applicabile in funzione della natura del soggetto e del regime della tassa di concessione governativa. L'imposta si assolve secondo le modalità previste dalla disciplina del bollo, e la sua omissione o insufficienza è sanzionata. La distinzione tra la misura ordinaria e quella maggiorata riflette il coordinamento tra l'imposta di bollo e la tassa di concessione governativa, esaminata di seguito, che insieme compongono gli oneri tributari connessi ai libri sociali delle società di capitali."
+        ]
+      },
+      {
+        "h": "La tassa annuale di concessione governativa",
+        "p": [
+          "Le società di capitali — società per azioni, società a responsabilità limitata, società in accomandita per azioni — sono tenute al pagamento di una tassa annuale di concessione governativa per la numerazione e bollatura dei libri sociali. La tassa è dovuta in misura forfetaria annuale, differenziata in funzione dell'ammontare del capitale sociale, ed è indipendente dal numero dei libri tenuti e dalle pagine effettivamente utilizzate. Il pagamento va effettuato entro il termine annualmente previsto, con le modalità stabilite dalla disciplina.",
+          "La tassa annuale di concessione governativa è un onere forfetario che assorbe, per le società di capitali, l'onere della vidimazione dei libri sociali, e si coordina con l'imposta di bollo, che per queste società è dovuta nella misura ridotta. Le società di persone e i soggetti non tenuti alla tassa di concessione governativa non versano questa tassa, ma scontano l'imposta di bollo nella misura maggiorata. La corretta gestione di questi oneri richiede di individuare il regime applicabile in funzione della forma societaria, e di rispettare i termini di versamento, la cui omissione è sanzionata."
+        ]
+      },
+      {
+        "h": "La funzione di garanzia degli adempimenti formali",
+        "p": [
+          "Gli adempimenti formali dei libri sociali — numerazione, vidimazione, imposta di bollo, tassa di concessione governativa — non sono meri oneri burocratici, ma assolvono a una funzione di garanzia. La numerazione e la vidimazione presidiano l'integrità e la continuità del libro, impedendo manipolazioni; l'imposta di bollo e la tassa di concessione governativa assolvono gli obblighi tributari connessi. Insieme, questi adempimenti concorrono all'affidabilità dei libri sociali e ne rafforzano l'efficacia probatoria.",
+          "La corretta esecuzione di questi adempimenti è quindi un presupposto della regolare tenuta dei libri sociali. Un libro non vidimato, non numerato o non in regola con l'imposta di bollo può vedere ridotta la propria efficacia probatoria e può esporre a sanzioni. Nel passaggio alla tenuta informatica, questi adempimenti non scompaiono ma si trasformano: la numerazione e la vidimazione sono assolte, come si vedrà, mediante la marca temporale e la firma digitale annuale previste dall'articolo 2215-bis, mentre l'imposta di bollo segue le regole specifiche dei documenti informatici. La comprensione della funzione di garanzia degli adempimenti formali aiuta a coglierne la traduzione nell'ambiente digitale."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2421, ultimo comma, e art. 2215 — numerazione e vidimazione dei libri sociali",
+      "d.P.R. 642/1972 e Tariffa allegata — imposta di bollo sui libri sociali",
+      "d.P.R. 641/1972 — tassa di concessione governativa per la bollatura dei libri sociali",
+      "Codice civile, art. 2215-bis — assolvimento degli obblighi in caso di tenuta informatica",
+      "D.M. 17 giugno 2014, art. 6 — imposta di bollo sui documenti informatici"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "tenuta-informatica-2215bis",
+    "title": "Tenuta dei libri sociali con strumenti informatici (art. 2215-bis c.c.)",
+    "abstract": "Come l'art. 2215-bis consente la tenuta informatica dei libri sociali e come si assolvono numerazione e vidimazione con firma digitale e marca temporale.",
+    "lead": "L'articolo 2215-bis del Codice civile consente di formare e tenere con strumenti informatici i libri, i repertori, le scritture e la documentazione la cui tenuta è obbligatoria per legge o regolamento, compresi i libri sociali. La norma stabilisce che le registrazioni contenute nei documenti informatici costituiscono informazione primaria e originale, che devono essere consultabili in ogni momento e che gli obblighi di numerazione progressiva e di vidimazione si assolvono, in caso di tenuta informatica, mediante l'apposizione, almeno una volta all'anno, della marcatura temporale e della firma digitale dell'imprenditore o di un suo delegato sui documenti utilizzati durante l'anno. È la disposizione che ha aperto la strada alla tenuta digitale dei libri sociali, ed è il fondamento su cui poggia la loro dematerializzazione.",
+    "sezioni": [
+      {
+        "h": "La possibilità di tenuta informatica e il valore delle registrazioni",
+        "p": [
+          "L'articolo 2215-bis, introdotto per adeguare la disciplina della documentazione d'impresa all'ambiente digitale, stabilisce che i libri, i repertori, le scritture e la documentazione la cui tenuta è obbligatoria possono essere formati e tenuti con strumenti informatici. La norma non si limita a consentire la digitalizzazione, ma qualifica le registrazioni contenute nei documenti informatici come informazione primaria e originale, da cui è possibile effettuare riproduzioni e copie su diversi supporti. Il documento informatico non è quindi una mera copia del documento cartaceo, ma l'originale stesso del libro.",
+          "Questa qualificazione è fondamentale: il libro sociale tenuto con strumenti informatici è, a tutti gli effetti, l'originale del libro, con la stessa efficacia del libro cartaceo. La norma richiede inoltre che le registrazioni siano rese consultabili in ogni momento con i mezzi messi a disposizione dal soggetto tenutario, garantendone così l'accessibilità. L'articolo 2215-bis realizza quindi la piena equiparazione tra la tenuta cartacea e quella informatica dei libri obbligatori, ponendo le basi giuridiche della loro dematerializzazione."
+        ]
+      },
+      {
+        "h": "L'assolvimento di numerazione e vidimazione: firma digitale e marca temporale",
+        "p": [
+          "Il nodo centrale della tenuta informatica riguarda l'assolvimento degli obblighi di numerazione progressiva e di vidimazione, che per i libri cartacei si realizzano con la numerazione delle pagine e la bollatura iniziale. L'articolo 2215-bis stabilisce che, in caso di tenuta con strumenti informatici, questi obblighi si assolvono mediante l'apposizione, almeno una volta all'anno, della marcatura temporale e della firma digitale dell'imprenditore o di altro soggetto da lui delegato, sui documenti utilizzati durante l'anno. La firma digitale garantisce l'autenticità e l'integrità, la marca temporale attribuisce una data certa.",
+          "Questo meccanismo sostituisce la vidimazione e la numerazione cartacee con un presidio digitale: la firma digitale attesta la provenienza e l'immodificabilità del contenuto, la marca temporale ne fissa la collocazione nel tempo, e l'apposizione almeno annuale assicura la continuità e l'integrità del libro nel tempo. In sostanza, ciò che per il libro cartaceo era garantito dalla numerazione delle pagine e dalla bollatura, per il libro informatico è garantito dalla firma digitale e dalla marca temporale apposte periodicamente. Questo è il cuore tecnico della tenuta informatica dei libri sociali."
+        ]
+      },
+      {
+        "h": "La periodicità e i casi particolari",
+        "p": [
+          "L'apposizione della marca temporale e della firma digitale deve avvenire almeno una volta all'anno sui documenti utilizzati durante l'anno. Per i libri e registri la cui tenuta rileva anche ai fini fiscali, la disciplina coordina questo adempimento con i termini fiscali, prevedendo che la marcatura e la firma siano apposte entro un termine collegato a quello di presentazione delle dichiarazioni annuali. La periodicità almeno annuale assicura che il contenuto del libro sia consolidato e reso immodificabile con regolarità, evitando che resti in uno stato non definitivo per periodi prolungati.",
+          "La norma disciplina anche i casi particolari, come quello in cui, per un intero anno, non siano state eseguite registrazioni: in tale ipotesi, la firma digitale e la marca temporale vanno apposte all'atto di una nuova registrazione, dando evidenza dell'assenza di registrazioni nel periodo. Questa previsione garantisce la continuità del presidio anche in presenza di periodi di inattività del libro. La corretta gestione della periodicità e dei casi particolari è un aspetto essenziale della tenuta informatica, perché da essa dipende il regolare assolvimento degli obblighi di numerazione e vidimazione nella forma digitale."
+        ]
+      },
+      {
+        "h": "L'imposta di bollo sui libri informatici",
+        "p": [
+          "La tenuta informatica dei libri e registri incide anche sul regime dell'imposta di bollo. Per i documenti informatici rilevanti ai fini tributari, il D.M. 17 giugno 2014 detta una disciplina specifica dell'imposta di bollo, con modalità di calcolo e di versamento diverse da quelle dei libri cartacei. In luogo dell'imposta commisurata alle pagine, per i libri e registri tenuti in modalità informatica l'imposta è determinata in relazione al numero delle registrazioni, con un versamento da effettuare con modalità telematiche entro un termine collegato alla chiusura dell'esercizio.",
+          "L'applicazione dell'imposta di bollo ai libri sociali tenuti in modalità informatica presenta profili particolari, connessi alla nozione di registrazione, che per un libro contenente verbali non coincide con quella di un registro contabile. La corretta gestione dell'imposta di bollo sui libri informatici richiede quindi attenzione alla specifica disciplina dei documenti informatici e al coordinamento con la tassa di concessione governativa. Il passaggio alla tenuta informatica non elimina gli oneri tributari, ma ne modifica le modalità di assolvimento, secondo le regole proprie dei documenti informatici."
+        ]
+      },
+      {
+        "h": "Firma e marca temporale non bastano: il rinvio alla conservazione a norma",
+        "p": [
+          "È importante non confondere l'adempimento dell'articolo 2215-bis — l'apposizione periodica della firma digitale e della marca temporale — con la conservazione a norma. La firma e la marca temporale annuali assolvono gli obblighi di numerazione e vidimazione e consolidano il contenuto del libro, ma non esauriscono le esigenze di conservazione nel tempo. Un libro sociale tenuto in modalità informatica deve anche essere conservato secondo le regole sui documenti informatici, che garantiscono l'integrità, l'autenticità, la leggibilità e la reperibilità del documento per l'intero periodo in cui deve essere mantenuto.",
+          "La tenuta informatica secondo l'articolo 2215-bis e la conservazione a norma sono quindi due profili distinti e complementari: il primo attiene alla formazione e al consolidamento periodico del libro, il secondo alla sua preservazione nel tempo. Entrambi sono necessari per una corretta gestione digitale dei libri sociali. Per gli aspetti generali della conservazione a norma — formati e metadati, responsabile e manuale della conservazione, modello OAIS e pacchetti informativi, firma digitale e marca temporale, conservazione fiscale — si rinvia ai relativi temi della conservazione trattati nel Libro bianco; la scheda dedicata ai libri sociali digitali ne esamina invece le specificità, che non si ripetono per le scritture contabili: la durata particolarmente estesa della conservazione, la sorte dei libri nelle operazioni straordinarie e nella cessazione della società, e il coordinamento con gli adempimenti dell'articolo 2215-bis."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2215-bis — documentazione con strumenti informatici (firma digitale e marca temporale)",
+      "D.L. 185/2008 (conv. L. 2/2009), art. 16 — introduzione dell'art. 2215-bis",
+      "D.M. 17 giugno 2014, art. 6 — imposta di bollo sui libri e registri informatici",
+      "CAD, artt. 20-24 — documento informatico, firma digitale, validazione temporale",
+      "Linee guida AgID — formazione e conservazione dei documenti informatici"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "efficacia-probatoria-ispezione",
+    "title": "Efficacia probatoria e diritto di ispezione dei libri sociali",
+    "abstract": "Il valore di prova dei libri sociali, il diritto dei soci e degli organi di ispezionarli e le conseguenze delle irregolarità di tenuta.",
+    "lead": "I libri sociali non sono soltanto un adempimento formale: sono documenti dotati di rilievo probatorio, che documentano le decisioni degli organi e la composizione della società e possono essere richiamati come prova nei rapporti tra soci, verso i terzi e in sede giudiziaria. A questa efficacia si accompagna il diritto dei soci e degli organi di prendere visione di determinati libri, e un apparato di conseguenze per la tenuta irregolare. Questa scheda esamina il valore probatorio dei libri sociali, il diritto di ispezione previsto dal Codice civile e i riflessi delle irregolarità sulla loro efficacia: profili propri dei libri sociali, distinti dalla disciplina probatoria delle scritture contabili.",
+    "sezioni": [
+      {
+        "h": "Il valore probatorio dei libri sociali",
+        "p": [
+          "I libri sociali documentano fatti rilevanti per la vita della società: le decisioni assunte dagli organi, la loro data, le maggioranze con cui sono state prese, la composizione della compagine, la titolarità dei titoli. In quanto documentano ufficialmente questi fatti, i libri sociali hanno un valore di prova di ciò che vi è annotato, e sono comunemente utilizzati per ricostruire le decisioni sociali e i loro presupposti nei rapporti interni ed esterni. Un verbale assembleare regolarmente tenuto fa fede della deliberazione che documenta; il libro dei soci documenta la titolarità delle azioni nominative e le sue vicende.",
+          "Questa efficacia probatoria va tenuta distinta da quella delle scritture contabili, per le quali il Codice civile detta una disciplina propria in ordine all'efficacia della prova nei rapporti tra imprenditori. Per i libri sociali, il valore di prova discende dalla loro funzione di documentazione ufficiale dell'attività degli organi e dalla regolarità della loro tenuta. Proprio perché documentano decisioni destinate a produrre effetti giuridici, i libri sociali assumono rilievo in molteplici contesti: il contenzioso tra soci, l'impugnazione delle deliberazioni, le azioni di responsabilità, le operazioni straordinarie, i controlli. La loro regolare tenuta è quindi il presupposto della loro affidabilità come prova."
+        ]
+      },
+      {
+        "h": "Il diritto di ispezione dei soci",
+        "p": [
+          "Il Codice civile riconosce ai soci il diritto di prendere visione di determinati libri sociali. Nelle società per azioni, i soci hanno diritto di esaminare il libro dei soci e il libro delle adunanze e delle deliberazioni delle assemblee, e di ottenerne estratti a proprie spese. Questo diritto di ispezione risponde all'esigenza di trasparenza verso la compagine: consente ai soci di conoscere la composizione della società e le decisioni assembleari, informazioni che li riguardano direttamente in quanto titolari di diritti sociali.",
+          "Nelle società a responsabilità limitata, il diritto di controllo dei soci non amministratori è più ampio: essi hanno diritto di avere notizie sullo svolgimento degli affari sociali e di consultare, anche tramite professionisti di fiducia, i libri sociali e i documenti relativi all'amministrazione. Questa maggiore estensione riflette il carattere più personale della S.r.l. e il coinvolgimento più diretto dei soci nella vita sociale. La corretta tenuta dei libri sociali è quindi funzionale anche all'esercizio di questi diritti di ispezione e controllo, che presuppongono libri ordinati, aggiornati e accessibili."
+        ]
+      },
+      {
+        "h": "L'accesso degli organi, dell'autorità e del giudice",
+        "p": [
+          "Oltre ai soci, altri soggetti hanno titolo ad accedere ai libri sociali. L'organo di controllo, nell'esercizio della sua funzione di vigilanza, esamina i libri sociali e le scritture per verificare la regolarità dell'amministrazione. L'autorità giudiziaria può disporre l'esibizione dei libri sociali nell'ambito di un procedimento, e i libri possono essere acquisiti come prova nel contenzioso. In sede di operazioni straordinarie e di verifiche, i libri sociali sono tra i documenti esaminati per ricostruire l'attività degli organi e la situazione della società.",
+          "Questa pluralità di soggetti legittimati all'accesso sottolinea la funzione dei libri sociali come strumento di trasparenza e di controllo. La loro accessibilità — la possibilità di prenderne visione, di ottenerne estratti, di esibirli in giudizio — è un aspetto essenziale della loro funzione. Nella tenuta informatica, questa esigenza si traduce nel requisito, posto dall'articolo 2215-bis, che le registrazioni siano rese consultabili in ogni momento con i mezzi messi a disposizione dal soggetto tenutario. L'accessibilità dei libri sociali, cartacei o digitali, è quindi un requisito funzionale al loro ruolo di documentazione e di controllo."
+        ]
+      },
+      {
+        "h": "Le irregolarità nella tenuta e le loro conseguenze",
+        "p": [
+          "La tenuta irregolare dei libri sociali produce conseguenze su più piani. Sul piano sanzionatorio, l'omessa o irregolare tenuta dei libri sociali è soggetta a sanzioni, e concorre a integrare, nei casi più gravi, ipotesi di responsabilità degli amministratori e degli organi tenuti alla loro cura. Sul piano probatorio, un libro tenuto in modo irregolare — non vidimato, non numerato, con annotazioni lacunose o non veritiere — vede ridotta la propria affidabilità come prova, e le sue lacune possono essere valutate a sfavore di chi era tenuto alla corretta tenuta.",
+          "Le irregolarità nella verbalizzazione delle deliberazioni possono inoltre riflettersi sulla validità o sull'opponibilità delle decisioni documentate, con conseguenze che vanno oltre il piano formale. Un verbale incompleto o irregolare può indebolire la posizione della società di fronte a un'impugnazione o a una contestazione. La corretta tenuta dei libri sociali — regolare, tempestiva, veritiera, con l'assolvimento degli adempimenti formali — è quindi un presidio non solo della conformità agli obblighi, ma della stessa efficacia probatoria dei libri e della solidità delle decisioni sociali. Questo rilievo si conserva, e anzi si accentua, nel passaggio alla tenuta informatica, dove l'integrità e la data certa sono garantite dalla firma digitale e dalla marca temporale."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2422 — diritto di ispezione dei libri sociali (S.p.A.)",
+      "Codice civile, art. 2476, secondo comma — diritto di controllo dei soci di S.r.l.",
+      "Codice civile, art. 2377 e ss. — invalidità delle deliberazioni assembleari",
+      "Codice civile, art. 2215-bis — consultabilità delle registrazioni informatiche",
+      "Disposizioni sanzionatorie in materia di libri sociali"
+    ],
+    "fonti_ids": ["linee-guida-agid-2021"]
+  },
+  {
+    "id": "durata-cessazione-libri-sociali",
+    "title": "Libri sociali digitali: durata, operazioni straordinarie e cessazione",
+    "abstract": "Le specificità della conservazione dei libri sociali rispetto alle scritture contabili: durata estesa, sorte nelle operazioni straordinarie e alla cessazione, con rinvio ai temi della conservazione.",
+    "lead": "La conservazione dei libri sociali presenta specificità che la distinguono da quella delle scritture contabili: una durata potenzialmente molto più estesa, una sorte particolare nelle operazioni straordinarie e regole proprie alla cessazione della società. Questa scheda si concentra su tali specificità, senza ripetere gli aspetti generali della conservazione a norma — formati e metadati, responsabile e manuale, modello OAIS e pacchetti, firma digitale e marca temporale, conservazione fiscale — che sono trattati nei temi del Libro bianco cui si rinvia. L'obiettivo è mettere a fuoco ciò che, nella conservazione, è proprio dei libri sociali e che va coordinato con gli adempimenti dell'articolo 2215-bis.",
+    "sezioni": [
+      {
+        "h": "Una durata di conservazione particolarmente estesa",
+        "p": [
+          "Mentre per le scritture contabili il Codice civile fissa un termine di conservazione decennale, i libri sociali presentano una rilevanza che spesso si proietta ben oltre. I verbali delle assemblee straordinarie documentano modifiche statutarie, aumenti di capitale, fusioni e altre operazioni i cui effetti permangono per l'intera vita della società; il libro dei soci documenta vicende della partecipazione che possono essere richiamate a grande distanza di tempo; i verbali connessi a operazioni fondamentali possono rilevare per decenni. Per questi documenti, la conservazione va commisurata non al solo termine decennale, ma all'orizzonte, spesso indefinito, della loro rilevanza.",
+          "Questa durata estesa è la prima specificità dei libri sociali rispetto alle scritture contabili sul piano della conservazione. Essa suggerisce, per i libri più rilevanti, una conservazione prudenziale di lungo periodo, coerente con la possibilità che i documenti siano richiesti a distanza di molti anni per finalità societarie, probatorie o di ricostruzione della storia dell'ente. La conservazione digitale a norma rende sostenibile questa esigenza di lungo periodo, ma proprio la durata estesa rende ancora più rilevante, per i libri sociali, la corretta gestione degli aspetti generali della conservazione trattati nei temi dedicati, ai quali si rinvia."
+        ]
+      },
+      {
+        "h": "I libri sociali nelle operazioni straordinarie",
+        "p": [
+          "Le operazioni straordinarie — fusioni, scissioni, trasformazioni, conferimenti — incidono sulla struttura della società e, di riflesso, sui suoi libri sociali. Nella fusione, la società incorporante o risultante subentra nella posizione delle società partecipanti, e la continuità documentale deve essere assicurata: i libri delle società coinvolte documentano la loro storia fino all'operazione, e la società risultante prosegue la tenuta dei propri. Nella trasformazione, che muta il tipo societario senza estinguere l'ente, la continuità dei libri accompagna la continuità della società, pur potendo mutare l'insieme dei libri obbligatori in funzione del nuovo tipo.",
+          "La gestione dei libri sociali nelle operazioni straordinarie richiede quindi attenzione alla continuità documentale e alla conservazione dello storico delle società coinvolte. I libri anteriori all'operazione non perdono rilevanza: documentano vicende che possono essere richiamate anche dopo l'operazione, e la loro conservazione resta necessaria. Nella tenuta informatica, la continuità e la conservazione dei libri attraverso le operazioni straordinarie sono un aspetto della corretta gestione documentale, che deve garantire che la memoria degli organi e delle vicende sociali non si disperda nel passaggio da un assetto all'altro."
+        ]
+      },
+      {
+        "h": "La cessazione della società e la sorte dei libri",
+        "p": [
+          "Quando la società si estingue, all'esito della liquidazione e della cancellazione dal Registro delle imprese, si pone il problema della sorte dei libri sociali e delle scritture. Il Codice civile prevede che, dopo la cancellazione della società, i libri siano conservati per un periodo pluriennale, con l'individuazione del soggetto tenuto alla conservazione e del luogo di deposito. La conservazione dei libri sociali sopravvive quindi alla società stessa, per consentire la ricostruzione delle sue vicende e la tutela dei diritti che possono essere fatti valere anche dopo l'estinzione.",
+          "Questa previsione riflette la funzione dei libri sociali come memoria dell'ente, la cui utilità non si esaurisce con la sua estinzione. La corretta gestione della cessazione richiede di individuare chi conservi i libri e per quanto tempo, e di assicurare che restino reperibili per l'intero periodo previsto. Nella tenuta informatica, la conservazione dei libri di una società estinta pone l'esigenza di garantire la persistenza dei documenti digitali oltre la vita dell'ente, con soluzioni che ne assicurino l'integrità e la reperibilità anche quando l'organizzazione che li ha prodotti non esiste più. È una delle situazioni in cui la conservazione a norma di lungo periodo mostra la sua utilità."
+        ]
+      },
+      {
+        "h": "Il coordinamento con l'art. 2215-bis e il rinvio ai temi della conservazione",
+        "p": [
+          "Per i libri sociali digitali, la corretta gestione richiede il coordinamento tra due profili già esaminati: da un lato l'adempimento dell'articolo 2215-bis, con l'apposizione periodica della firma digitale e della marca temporale che assolvono numerazione e vidimazione e consolidano il contenuto; dall'altro la conservazione a norma, che ne garantisce la persistenza nel tempo. I due profili sono distinti e complementari, ed entrambi necessari: il primo consolida, il secondo preserva. Questa è la specificità che il presente Libro bianco mette a fuoco per i libri sociali.",
+          "Per gli aspetti generali della conservazione a norma — la scelta dei formati e dei metadati, il ruolo del responsabile della conservazione, il manuale della conservazione, il modello OAIS con i pacchetti di versamento, archiviazione e distribuzione, la firma digitale e la marca temporale, la conservazione fiscale, lo scarto e la cessazione, il monitoraggio — si rinvia ai temi dedicati del Libro bianco, che li trattano in modo trasversale per tutte le categorie di documenti. Applicati ai libri sociali, questi aspetti generali si combinano con le specificità qui esaminate — durata estesa, operazioni straordinarie, cessazione — per comporre un quadro completo della conservazione a norma dei libri sociali digitali, senza duplicare quanto già trattato per le scritture contabili e nei temi generali della conservazione."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2220 — conservazione delle scritture (termine decennale, raffronto)",
+      "Codice civile, art. 2312 e art. 2496 — conservazione dei libri dopo la cancellazione della società",
+      "Codice civile, artt. 2498 e ss. — trasformazione, fusione e scissione (continuità)",
+      "Codice civile, art. 2215-bis — tenuta con strumenti informatici (coordinamento)",
+      "Temi del Libro bianco sulla conservazione a norma (rinvio per gli aspetti generali)"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "libri-non-obbligatori",
+    "title": "Libri sociali non obbligatori e altri libri d'impresa",
+    "abstract": "I libri tenuti facoltativamente, gli altri registri d'impresa e il loro regime di tenuta e conservazione.",
+    "lead": "Accanto ai libri sociali obbligatori, l'impresa può tenere libri e registri non imposti dalla legge, per esigenze di organizzazione, di governance o di documentazione interna: verbali di comitati o organismi interni, registri di attività specifiche, documentazione volontaria. Questi libri non obbligatori non sono soggetti agli obblighi formali dei libri sociali obbligatori — vidimazione, numerazione, imposta di bollo, tassa di concessione governativa — ma conservano un valore documentale nella misura in cui sono tenuti in modo ordinato e attendibile. Comprendere il diverso regime dei libri non obbligatori, e la loro possibile tenuta informatica e conservazione, completa il quadro della gestione documentale dei libri d'impresa, tra obblighi di legge e scelte organizzative.",
+    "sezioni": [
+      {
+        "h": "Che cosa sono i libri non obbligatori",
+        "p": [
+          "I libri non obbligatori sono i registri che l'impresa tiene per propria scelta, non essendo imposti da una disposizione di legge o di regolamento. Rientrano in questa categoria i verbali di organi o comitati interni non previsti dalla legge, i registri di attività particolari, la documentazione tenuta per finalità di organizzazione o di governance. La società può decidere di documentare in modo ordinato determinate attività o decisioni, pur non essendovi tenuta, per esigenze di trasparenza interna, di tracciabilità o di supporto alla propria attività.",
+          "La caratteristica di questi libri è la loro facoltatività: non discendono da un obbligo, ma da una scelta dell'impresa. Ciò non significa che siano privi di valore: un libro tenuto ordinatamente, anche se non obbligatorio, documenta le attività o le decisioni che vi sono annotate e può assumere rilievo probatorio nella misura in cui è attendibile. La distinzione tra obbligatori e non obbligatori attiene quindi al regime giuridico applicabile, non necessariamente al valore documentale, che dipende dalla qualità e dall'affidabilità della tenuta."
+        ]
+      },
+      {
+        "h": "Il diverso regime formale",
+        "p": [
+          "I libri non obbligatori non sono soggetti agli adempimenti formali propri dei libri sociali obbligatori. Non richiedono la vidimazione iniziale, non sono soggetti all'imposta di bollo nei termini previsti per i libri obbligatori, non concorrono alla tassa di concessione governativa. L'impresa può tenerli con le modalità che ritiene più opportune, senza gli oneri formali che presidiano i libri obbligatori. Questa libertà riflette la natura facoltativa di tali libri.",
+          "L'assenza di obblighi formali non toglie che una tenuta ordinata sia opportuna: un libro non obbligatorio tenuto in modo confuso o inattendibile perde gran parte del suo valore documentale. Quando l'impresa sceglie di tenere un libro facoltativo per finalità di governance o di tracciabilità, è nel suo interesse tenerlo in modo ordinato e conservarlo adeguatamente, così che possa assolvere alla funzione per cui è stato istituito. La facoltatività riguarda l'obbligo, non l'opportunità di una buona tenuta e conservazione."
+        ]
+      },
+      {
+        "h": "Alcuni esempi e il confine con altri obblighi documentali",
+        "p": [
+          "Tra i libri e i registri che l'impresa può tenere, alcuni sono facoltativi, altri sono imposti da normative diverse da quella dei libri sociali. Ad esempio, la documentazione delle riunioni di comitati interni o di organismi di governance non previsti dalla legge è facoltativa; altri registri, invece, pur non rientrando tra i libri sociali dell'articolo 2421, sono imposti da specifiche discipline di settore. È importante non confondere la facoltatività rispetto alla disciplina dei libri sociali con l'assenza di ogni obbligo: un registro può non essere un libro sociale obbligatorio e tuttavia essere imposto da un'altra normativa.",
+          "La corretta qualificazione di ciascun registro richiede quindi di verificare se esso rientri tra i libri sociali obbligatori, se sia imposto da un'altra disciplina, o se sia tenuto facoltativamente. Da questa qualificazione dipende il regime applicabile in termini di adempimenti formali, imposta di bollo e conservazione. La gestione documentale dell'impresa deve tenere conto di questa articolazione, distinguendo i libri sociali obbligatori, i registri imposti da altre normative e i libri tenuti per scelta, ciascuno con il proprio regime."
+        ]
+      },
+      {
+        "h": "Tenuta informatica e conservazione dei libri non obbligatori",
+        "p": [
+          "Anche i libri non obbligatori possono essere tenuti con strumenti informatici e conservati in formato digitale. Per questi libri, non essendovi obblighi formali di numerazione e vidimazione, non si pone l'esigenza di assolverli con la firma digitale e la marca temporale annuali previste dall'articolo 2215-bis per i libri obbligatori; l'impresa può tuttavia adottare volontariamente tali strumenti per rafforzare l'integrità e la data certa dei documenti. La conservazione a norma non è imposta per i libri non obbligatori, ma può essere adottata per garantirne la persistenza e l'affidabilità nel tempo.",
+          "La scelta del livello di formalità con cui tenere e conservare i libri non obbligatori dipende dalla loro rilevanza per l'impresa. Per libri che documentano attività o decisioni importanti, può essere opportuno adottare, anche in assenza di obbligo, gli strumenti che ne rafforzano l'integrità e la conservazione; per libri di rilievo minore, può essere sufficiente una tenuta ordinata. In ogni caso, la buona gestione documentale suggerisce di conservare in modo ordinato anche i libri non obbligatori che l'impresa ritiene di tenere, così da preservarne il valore per le finalità per cui sono stati istituiti. La distinzione tra obbligo e opportunità guida quindi le scelte di tenuta e conservazione dei libri non obbligatori, completando il quadro della gestione dei libri d'impresa."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Codice civile, art. 2421 e art. 2478 — libri sociali obbligatori (perimetro dell'obbligo)",
+      "Codice civile, art. 2215-bis — tenuta con strumenti informatici (applicabilità facoltativa)",
+      "CAD e Linee guida AgID — conservazione dei documenti informatici (adozione facoltativa)",
+      "D.M. 17 giugno 2014 — conservazione digitale dei documenti rilevanti",
+      "Normative di settore — registri imposti da discipline diverse dai libri sociali"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  }
+]
