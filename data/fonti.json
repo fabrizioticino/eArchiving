@@ -17,7 +17,7 @@
       "Art. 44 — Requisiti del sistema di conservazione (autenticità, integrità, affidabilità, leggibilità, reperibilità)",
       "Art. 71 — Rinvio alle Linee guida AgID per le regole tecniche"
     ],
-    "temi": ["quadro-normativo", "responsabile-conservazione", "formati-metadati"],
+    "temi": ["quadro-normativo", "responsabile-conservazione", "formati-metadati", "sicurezza-sistemi"],
     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82"
   },
   {
@@ -38,7 +38,7 @@
       "Par. 4.1 — Il Responsabile della Conservazione (competenze giuridiche, informatiche, archivistiche)",
       "Par. 4.1.1 — Il Manuale della Conservazione (obbligatorio, aggiornato, reso disponibile agli utenti)"
     ],
-    "temi": ["quadro-normativo", "responsabile-conservazione", "manuale", "formati-metadati", "oais"],
+    "temi": ["quadro-normativo", "responsabile-conservazione", "manuale", "formati-metadati", "oais", "sicurezza-sistemi"],
     "url": "https://trasparenza.agid.gov.it/page/29/details/38/linee-guida-sulla-formazione-gestione-e-conservazione-dei-documenti-informatici.html"
   },
   {
@@ -98,7 +98,7 @@
       "Elenco pubblico e aggiornato dei servizi nel Marketplace AgID",
       "Requisiti dell'art. 44 CAD a carico dell'operatore"
     ],
-    "temi": ["operatori-marketplace", "quadro-normativo"],
+    "temi": ["operatori-marketplace", "quadro-normativo", "sicurezza-sistemi"],
     "url": "https://conservatoriqualificati.agid.gov.it/"
   },
   {
@@ -213,7 +213,7 @@
       "Art. 25 — Protezione dei dati by design e by default",
       "Art. 32 — Sicurezza del trattamento"
     ],
-    "temi": ["gdpr-privacy"],
+    "temi": ["gdpr-privacy", "sicurezza-sistemi"],
     "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"
   },
   {
@@ -233,7 +233,7 @@
       "Servizio elettronico qualificato di conservazione delle firme (art. 34)",
       "Prestatori di servizi fiduciari qualificati (QTSP)"
     ],
-    "temi": ["firma-marca", "quadro-ue"],
+    "temi": ["firma-marca", "quadro-ue", "sicurezza-sistemi"],
     "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32014R0910"
   },
   {
@@ -253,7 +253,7 @@
       "Aggiornamento dei requisiti per i prestatori di servizi fiduciari",
       "Atti di esecuzione in progressiva pubblicazione"
     ],
-    "temi": ["quadro-ue", "firma-marca"],
+    "temi": ["quadro-ue", "firma-marca", "sicurezza-sistemi"],
     "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1183"
   },
   {
@@ -349,7 +349,7 @@
       "Governance, gestione del rischio e sostenibilità dell'archivio",
       "Griglia per audit e certificazione del sistema"
     ],
-    "temi": ["oais", "monitoraggio-audit"],
+    "temi": ["oais", "monitoraggio-audit", "sicurezza-sistemi"],
     "url": "https://www.iso.org/standard/56510.html"
   },
   {
@@ -746,5 +746,65 @@
     ],
     "temi": ["conservazione-rentri", "quadro-normativo"],
     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1994-01-25;70"
+  },
+  {
+    "id": "iso-27001-sgsi",
+    "title": "ISO/IEC 27001:2022 — Sistemi di gestione per la sicurezza delle informazioni",
+    "short": "ISO/IEC 27001",
+    "type": "Standard internazionale",
+    "issuer": "ISO/IEC",
+    "jurisdiction": "INT",
+    "date": "ottobre 2022 (ed. 2022)",
+    "date_iso": "2022-10-25",
+    "status": "vigente",
+    "summary": "Norma di riferimento per il Sistema di Gestione della Sicurezza delle Informazioni (SGSI/ISMS). Impone un ciclo di analisi del rischio, selezione dei controlli (Dichiarazione di applicabilità), attuazione, misurazione e miglioramento. Per gli operatori di conservazione la certificazione è storicamente presupposto dell'accreditamento e requisito richiesto dai committenti.",
+    "key_points": [
+      "SGSI basato sul rischio: valutazione, trattamento, Dichiarazione di applicabilità (SoA)",
+      "Controlli dettagliati in ISO/IEC 27002 (organizzativi, persone, fisici, tecnologici)",
+      "Norme collegate: ISO/IEC 27017 e 27018 (cloud), 27035 (incidenti), ISO 22301 (continuità operativa)",
+      "Certificazione da organismo accreditato; riesami e audit periodici"
+    ],
+    "temi": ["sicurezza-sistemi", "operatori-marketplace", "monitoraggio-audit"],
+    "url": "https://www.iso.org/standard/27001"
+  },
+  {
+    "id": "nis2-2022-2555",
+    "title": "Direttiva (UE) 2022/2555 (NIS2) e D.Lgs. 4 settembre 2024, n. 138",
+    "short": "NIS2",
+    "type": "Direttiva UE / Decreto legislativo",
+    "issuer": "UE / Stato italiano",
+    "jurisdiction": "UE-IT",
+    "date": "14 dicembre 2022 — recepita in Italia il 4 settembre 2024",
+    "date_iso": "2022-12-14",
+    "status": "vigente",
+    "summary": "Quadro europeo per un livello comune elevato di cibersicurezza, recepito in Italia con il D.Lgs. 138/2024. Amplia la platea dei soggetti «essenziali» e «importanti» tenuti alla gestione del rischio cyber e alla notifica degli incidenti. Autorità competente è l'ACN, presso cui opera il CSIRT Italia. Molti data center e servizi cloud e digitali — categorie in cui possono rientrare gli operatori di conservazione — sono destinatari degli obblighi.",
+    "key_points": [
+      "Misure di gestione del rischio (art. 21): analisi del rischio, incidenti, continuità, supply chain, crittografia, accessi, formazione",
+      "Responsabilizzazione degli organi di amministrazione",
+      "Notifica incidenti significativi al CSIRT: pre-notifica entro 24h, notifica entro 72h, relazione finale entro 1 mese",
+      "Sicurezza della catena di fornitura come obbligo espresso"
+    ],
+    "temi": ["sicurezza-sistemi", "operatori-marketplace"],
+    "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022L2555"
+  },
+  {
+    "id": "circolare-agid-2-2017-misure-minime",
+    "title": "Circolare AgID 18 aprile 2017, n. 2 — Misure minime di sicurezza ICT per le PA",
+    "short": "Misure minime AgID (2/2017)",
+    "type": "Circolare",
+    "issuer": "AgID — Agenzia per l'Italia Digitale",
+    "jurisdiction": "IT",
+    "date": "18 aprile 2017",
+    "date_iso": "2017-04-18",
+    "status": "vigente",
+    "summary": "Definisce le misure minime di sicurezza ICT che le pubbliche amministrazioni devono adottare, declinate in tre livelli di attuazione (minimo, standard, alto) attraverso gli AgID Basic Security Controls (ABSC), derivati dai CIS/SANS Critical Security Controls. Riferimento operativo per il presidio della sicurezza dei sistemi, incluso il sistema di conservazione della PA.",
+    "key_points": [
+      "AgID Basic Security Controls (ABSC) su tre livelli: minimo, standard, alto",
+      "Derivazione dai CIS/SANS Critical Security Controls",
+      "Modulo di implementazione (MIM) da compilare e conservare",
+      "Base per l'autovalutazione e l'adeguamento della sicurezza ICT delle PA"
+    ],
+    "temi": ["sicurezza-sistemi", "quadro-normativo"],
+    "url": "https://www.agid.gov.it/it/sicurezza/misure-minime-sicurezza-ict"
   }
 ]
