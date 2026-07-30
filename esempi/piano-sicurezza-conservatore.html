@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piano di Sicurezza del Sistema di Conservazione — Documento modello</title>
+<style>
+  :root{
+    --ink:#161616; --soft:#5a5a5a; --line:#d9d9d9; --accent:#C8102E;
+    --bg:#e9e9e9; --sheet:#fff; --k:#f6f6f6; --box:#fafafa;
+    --zt-cp:#fbeaec; --zt-dp:#eef4fb; --zt-pip:#f3f6ee;
+  }
+  *{box-sizing:border-box;}
+  body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:var(--bg);color:var(--ink);line-height:1.55;}
+  .banner{background:var(--accent);color:#fff;padding:10px 16px;text-align:center;font-size:12.5px;font-weight:600;letter-spacing:.03em;}
+  .sheet{position:relative;max-width:920px;margin:22px auto;background:var(--sheet);padding:34px 46px 48px;box-shadow:0 1px 10px rgba(0,0,0,.16);}
+  .doc-head{border-bottom:3px double var(--ink);padding-bottom:14px;margin-bottom:18px;}
+  .doc-head .kicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700;}
+  h1{font-size:23px;margin:6px 0 4px;line-height:1.15;}
+  .doc-head .sub{font-size:12.5px;color:var(--soft);}
+  .meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px 0;font-size:11.5px;color:#444;margin-top:12px;}
+  .meta-grid span b{color:var(--ink);}
+  h2{font-size:16px;margin:30px 0 8px;color:var(--accent);border-bottom:1px solid #eee;padding-bottom:5px;}
+  h3{font-size:13.5px;margin:18px 0 4px;color:#111;}
+  p{font-size:13px;margin:8px 0;}
+  ul,ol{font-size:13px;margin:8px 0 8px 4px;padding-left:20px;}
+  li{margin:4px 0;}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:12px;}
+  td,th{border:1px solid #ccc;padding:6px 9px;text-align:left;vertical-align:top;}
+  th{background:#f0f0f0;font-size:11.5px;}
+  .k{background:var(--k);font-weight:600;width:34%;}
+  .toc{background:var(--box);border:1px solid var(--line);padding:14px 20px;font-size:12.5px;columns:2;column-gap:34px;}
+  .toc a{color:var(--ink);text-decoration:none;}
+  .toc a:hover{color:var(--accent);text-decoration:underline;}
+  .note{font-size:11.5px;color:#8a4b52;background:#fdf3f4;border-left:3px solid var(--accent);padding:9px 13px;margin:14px 0;}
+  .tip{font-size:11.5px;color:#3a5566;background:#eef4fb;border-left:3px solid #3a7bbf;padding:9px 13px;margin:14px 0;}
+  .mono{font-family:'Consolas','Courier New',monospace;}
+  .foot{margin-top:30px;font-size:10.5px;color:#777;border-top:1px solid #ddd;padding-top:12px;}
+  .tag{display:inline-block;font-size:10px;letter-spacing:.04em;text-transform:uppercase;background:#f0f0f0;border:1px solid var(--line);padding:2px 7px;margin:2px 3px 2px 0;color:#555;}
+
+  /* ---- Zero Trust diagram ---- */
+  .zt{border:1px solid var(--line);background:#fcfcfc;padding:18px;margin:16px 0;}
+  .zt-title{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);text-align:center;margin-bottom:14px;}
+  .zt-plane{border:1px dashed #c9c9c9;border-radius:6px;padding:12px;margin:10px 0;}
+  .zt-plane.cp{background:var(--zt-cp);}
+  .zt-plane.dp{background:var(--zt-dp);}
+  .zt-plane .lbl{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#555;margin-bottom:8px;}
+  .zt-row{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;}
+  .zt-box{background:#fff;border:1.5px solid #999;border-radius:6px;padding:8px 12px;font-size:11.5px;font-weight:600;text-align:center;min-width:96px;}
+  .zt-box.accent{border-color:var(--accent);color:var(--accent);}
+  .zt-box small{display:block;font-weight:400;color:#777;font-size:10px;margin-top:2px;}
+  .zt-arrow{font-size:18px;color:#888;}
+  .zt-pip{background:var(--zt-pip);border:1px dashed #bcc9ac;border-radius:6px;padding:10px;margin-top:10px;}
+  .zt-pip .lbl{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#5a6b46;margin-bottom:6px;}
+  .zt-pip .zt-row .zt-box{min-width:0;font-weight:500;font-size:10.5px;padding:5px 9px;}
+  @media(max-width:640px){ .sheet{padding:22px 16px;} .toc{columns:1;} .meta-grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<div class="banner">DOCUMENTO MODELLO · TEMPLATE ILLUSTRATIVO · DA ADATTARE ALLA REALTÀ DEL SINGOLO CONSERVATORE · NON È UN DOCUMENTO UFFICIALE</div>
+<div class="sheet">
+
+  <div class="doc-head">
+    <div class="kicker">Allegato al Manuale della Conservazione</div>
+    <h1>Piano di Sicurezza del Sistema di Conservazione</h1>
+    <div class="sub">Misure tecniche e organizzative, architettura Zero Trust e presidio della cibersicurezza del servizio di conservazione a norma</div>
+    <div class="meta-grid">
+      <span><b>Soggetto:</b> [Denominazione del Conservatore] — <em>da compilare</em></span>
+      <span><b>Documento:</b> PSC — Piano di Sicurezza</span>
+      <span><b>Versione:</b> 1.0 (modello)</span>
+      <span><b>Classificazione:</b> Uso interno</span>
+      <span><b>Responsabile:</b> RSSI / CISO, di concerto con il RdC</span>
+      <span><b>Riesame:</b> almeno annuale e a ogni cambiamento significativo</span>
+    </div>
+  </div>
+
+  <div class="note">
+    Questo è un <b>documento template</b> a scopo illustrativo e riutilizzabile: riproduce l'impianto tipico dei piani di sicurezza allegati ai Manuali della Conservazione, senza riferimenti a soggetti, marchi o prodotti specifici. I campi tra parentesi quadre <span class="mono">[ ]</span> e i valori indicati come «modello» vanno compilati e tarati sulla concreta infrastruttura, sull'analisi del rischio e sulle certificazioni del singolo Conservatore.
+  </div>
+
+  <h2 id="toc">Indice</h2>
+  <div class="toc">
+    <a href="#s0">0 · Scopo, ambito e riferimenti</a><br>
+    <a href="#s1">1 · Principi e obiettivi di sicurezza</a><br>
+    <a href="#s2">2 · Governance, ruoli e responsabilità</a><br>
+    <a href="#s3">3 · SGSI ISO/IEC 27001 e analisi del rischio</a><br>
+    <a href="#s4">4 · Certificazioni e accreditamento</a><br>
+    <a href="#s5">5 · Architettura di sicurezza</a><br>
+    <a href="#s5b">5.bis · Architettura Zero Trust</a><br>
+    <a href="#s6">6 · Gestione identità e accessi (IAM)</a><br>
+    <a href="#s7">7 · Protezione dei dati e integrità</a><br>
+    <a href="#s8">8 · Logging, audit trail e monitoraggio</a><br>
+    <a href="#s9">9 · Sicurezza operativa</a><br>
+    <a href="#s10">10 · Resilienza, backup e continuità</a><br>
+    <a href="#s11">11 · Sicurezza fisica e data center</a><br>
+    <a href="#s12">12 · Cloud e catena di fornitura</a><br>
+    <a href="#s13">13 · Gestione incidenti e data breach</a><br>
+    <a href="#s14">14 · Formazione e consapevolezza</a><br>
+    <a href="#s15">15 · Audit, riesame e miglioramento</a><br>
+    <a href="#all-a">Allegato A · Matrice di conformità</a><br>
+    <a href="#all-b">Allegato B · Fonti architetturali e normative</a>
+  </div>
+
+  <h2 id="s0">0 · Scopo, ambito e riferimenti</h2>
+  <p>Il presente Piano di Sicurezza descrive le misure tecniche, fisiche e organizzative con cui il Conservatore assicura la <b>riservatezza, l'integrità, la disponibilità e la resilienza</b> del sistema di conservazione e dei documenti informatici affidati dai Titolari, per l'intero ciclo di vita dei pacchetti di archiviazione (SIP → AIP → DIP → Deletion). Esso costituisce parte integrante e allegato del <b>Manuale della Conservazione</b> e ne condivide il perimetro applicativo.</p>
+  <p>La sicurezza non è trattata come un adempimento a sé, ma come la condizione tecnica che rende possibile la conformità giuridica: senza misure adeguate non sono garantibili i cinque requisiti dell'<b>art. 44 del CAD</b> (autenticità, integrità, affidabilità, leggibilità, reperibilità), che il sistema deve assicurare nel tempo.</p>
+  <h3>Riferimenti normativi e tecnici</h3>
+  <ul>
+    <li><b>CAD</b> — D.Lgs. 82/2005, artt. 44 (requisiti del sistema) e 51 (sicurezza di dati, sistemi e infrastrutture);</li>
+    <li><b>Linee guida AgID</b> sulla formazione, gestione e conservazione dei documenti informatici (in vigore dal 1° gennaio 2022);</li>
+    <li><b>Misure minime di sicurezza ICT per le PA</b> — Circolare AgID n. 2/2017 (AgID Basic Security Controls, derivati dai CIS/SANS Controls);</li>
+    <li><b>GDPR</b> — Reg. (UE) 2016/679, artt. 5.1.f, 25, 32 (sicurezza del trattamento), 33-34 (data breach);</li>
+    <li><b>eIDAS / eIDAS 2</b> — Reg. (UE) 910/2014 e 2024/1183, e norme <b>ETSI</b> per i servizi fiduciari;</li>
+    <li><b>NIS2</b> — Direttiva (UE) 2022/2555, recepita con <b>D.Lgs. 138/2024</b>; vigilanza dell'ACN e notifiche al CSIRT Italia;</li>
+    <li>Standard: <b>ISO/IEC 27001</b> (SGSI), <b>27002</b>, <b>27017</b>/<b>27018</b> (cloud), <b>27035</b> (incidenti), <b>22301</b> (continuità), <b>9001</b> (qualità), <b>ISO 14721</b> (OAIS), <b>ISO 16363</b> (archivi digitali affidabili), <b>UNI 11386</b> (SInCRO);</li>
+    <li><b>NIST SP 800-207</b> — <i>Zero Trust Architecture</i> (modello di riferimento architetturale).</li>
+  </ul>
+
+  <h2 id="s1">1 · Principi e obiettivi di sicurezza</h2>
+  <p>Il Piano persegue la triade <b>CIA</b> — Confidentiality, Integrity, Availability — estesa dalla <b>resilienza</b> richiesta dall'art. 32 GDPR e dalla NIS2, e la lega ai requisiti dell'art. 44 CAD secondo la tabella seguente.</p>
+  <table>
+    <tr><th>Obiettivo di sicurezza</th><th>Requisito CAD (art. 44) collegato</th><th>Misure cardine</th></tr>
+    <tr><td><b>Riservatezza</b></td><td>—</td><td>Controllo accessi, cifratura, segregazione multi-tenant</td></tr>
+    <tr><td><b>Integrità</b></td><td>Integrità, autenticità</td><td>Hash SHA-256, marche temporali, WORM/immutabilità, firma degli indici</td></tr>
+    <tr><td><b>Disponibilità</b></td><td>Leggibilità, reperibilità</td><td>Ridondanza, backup, continuità operativa e disaster recovery</td></tr>
+    <tr><td><b>Affidabilità/Resilienza</b></td><td>Affidabilità</td><td>SGSI, monitoraggio, gestione incidenti, verifica periodica</td></tr>
+  </table>
+  <p>Principi guida trasversali: <b>security &amp; privacy by design/by default</b> (art. 25 GDPR), <b>difesa in profondità</b>, <b>minimo privilegio</b>, <b>separazione dei compiti</b> e — per l'accesso alle risorse — il modello <b>Zero Trust</b> descritto al § 5.bis.</p>
+
+  <h2 id="s2">2 · Governance, ruoli e responsabilità</h2>
+  <p>La sicurezza è governata da un modello di responsabilità chiaro, formalizzato nell'organigramma della conservazione. I ruoli chiave e i loro compiti in materia di sicurezza sono:</p>
+  <table>
+    <tr><th>Ruolo</th><th>Responsabilità di sicurezza</th></tr>
+    <tr><td class="k">Responsabile del servizio di conservazione / RdC</td><td>Governa il sistema, definisce le politiche, garantisce la conformità e presidia il Manuale e questo Piano.</td></tr>
+    <tr><td class="k">RSSI / CISO (Responsabile sicurezza sistemi informativi)</td><td>Progetta e mantiene il SGSI, l'analisi del rischio, l'architettura di sicurezza e la risposta agli incidenti.</td></tr>
+    <tr><td class="k">DPO (Responsabile protezione dati)</td><td>Vigila sulla conformità GDPR, supporta la DPIA e la gestione dei data breach.</td></tr>
+    <tr><td class="k">Responsabile del trattamento (art. 28 GDPR)</td><td>Il Conservatore, verso il Titolare, con obblighi contrattuali su misure di sicurezza e sub-responsabili.</td></tr>
+    <tr><td class="k">Operations / SOC</td><td>Monitoraggio continuo (SIEM), gestione di vulnerabilità, patch e log.</td></tr>
+  </table>
+
+  <h2 id="s3">3 · SGSI ISO/IEC 27001 e analisi del rischio</h2>
+  <p>Il presidio è strutturato attorno a un <b>Sistema di Gestione della Sicurezza delle Informazioni (SGSI)</b> conforme alla <b>ISO/IEC 27001:2022</b>, fondato sul ciclo Plan-Do-Check-Act:</p>
+  <ul>
+    <li><b>Analisi del rischio</b> periodica: identificazione degli asset (piattaforma, AIP, chiavi, credenziali, data center), delle minacce e delle vulnerabilità, valutazione di probabilità e impatto;</li>
+    <li><b>Trattamento del rischio</b> e <b>Dichiarazione di Applicabilità (SoA)</b> dei controlli (ISO/IEC 27002: organizzativi, relativi alle persone, fisici, tecnologici);</li>
+    <li><b>Misurazione</b> dell'efficacia (KPI, indicatori di sicurezza), <b>riesame della direzione</b>, <b>audit interni</b> e <b>miglioramento continuo</b>;</li>
+    <li>Integrazione con <b>ISO 22301</b> (continuità), <b>ISO/IEC 27017/27018</b> (cloud e dati personali in cloud) e <b>ISO/IEC 27035</b> (incidenti).</li>
+  </ul>
+
+  <h2 id="s4">4 · Certificazioni e accreditamento</h2>
+  <p>Il Conservatore mantiene un impianto di certificazioni verificabili da organismi accreditati, tipicamente:</p>
+  <p>
+    <span class="tag">ISO 9001</span><span class="tag">ISO/IEC 27001</span><span class="tag">ISO/IEC 27017</span><span class="tag">ISO/IEC 27018</span><span class="tag">ISO/IEC 27701 (privacy)</span><span class="tag">ISO 22301</span><span class="tag">ISO/IEC 20000-1</span><span class="tag">eIDAS QTSP</span>
+  </p>
+  <p>Ove operi verso la Pubblica Amministrazione o come conservatore qualificato, il Conservatore rispetta i requisiti di accreditamento e di iscrizione al <b>Marketplace AgID</b> dei servizi di conservazione, con evidenze documentali di sicurezza e continuità operativa.</p>
+
+  <h2 id="s5">5 · Architettura di sicurezza</h2>
+  <p>L'architettura adotta la <b>difesa in profondità</b>: più livelli di controllo indipendenti (rete, host, applicazione, dato) in modo che il cedimento di uno non comprometta l'intero sistema. Il sistema è organizzato in <b>zone logiche</b> a fiducia crescente:</p>
+  <ul>
+    <li><b>Zona di frontiera</b> (ingestione SIP, portale utenti): esposta, protetta da WAF, reverse proxy, protezione anti-DDoS e scansione antimalware dei pacchetti in ingresso;</li>
+    <li><b>Zona applicativa</b> (motore di conservazione, generazione AIP, firma e marca temporale): non esposta direttamente, accessibile solo tramite servizi controllati;</li>
+    <li><b>Zona dati</b> (storage degli AIP, database dei metadati, indici SInCRO): massima protezione, storage cifrato e, dove possibile, <b>immutabile (WORM)</b>;</li>
+    <li><b>Zona di gestione</b> (amministrazione, chiavi, backup): isolata, accessibile solo con accessi privilegiati (PAM).</li>
+  </ul>
+  <p>La segmentazione di rete separa gli ambienti di <b>sviluppo, test ed esercizio</b> e isola i tenant. Su questa base si innesta il modello Zero Trust, che sostituisce la fiducia implicita «interna alla rete» con la verifica esplicita e continua di ogni richiesta.</p>
+
+  <h2 id="s5b">5.bis · Architettura Zero Trust</h2>
+  <p>Il modello perimetrale tradizionale («castello e fossato») presume che tutto ciò che è dentro la rete sia affidabile: una volta superato il firewall, un attaccante — o un insider — si muove lateralmente con poche barriere. Per un archivio digitale che custodisce documenti con valore probatorio decennale questa assunzione è inaccettabile. Il Conservatore adotta perciò un'architettura <b>Zero Trust</b> ispirata al <b>NIST SP 800-207</b>, sintetizzata nella massima <span class="mono">«never trust, always verify»</span>.</p>
+
+  <h3>I principi (tenets NIST SP 800-207)</h3>
+  <ol>
+    <li>Ogni risorsa dati e servizio è una risorsa da proteggere; non esiste una «rete interna fidata» per definizione.</li>
+    <li>Ogni comunicazione è protetta indipendentemente dalla posizione di rete (cifratura sempre, anche «dentro»).</li>
+    <li>L'accesso alle risorse è concesso <b>per singola sessione</b>, secondo il <b>minimo privilegio</b>.</li>
+    <li>L'accesso è determinato da una <b>policy dinamica</b>: identità, stato del dispositivo, contesto (ora, luogo, comportamento) e sensibilità della risorsa.</li>
+    <li>Si presume la compromissione (<b>assume breach</b>): monitoraggio dell'integrità e della postura di tutti gli asset.</li>
+    <li>Autenticazione e autorizzazione sono <b>dinamiche e continue</b>, non «una tantum» all'ingresso.</li>
+    <li>Si raccolgono dati su stato, traffico e accessi per <b>migliorare di continuo</b> le politiche di sicurezza.</li>
+  </ol>
+
+  <h3>Componenti logiche</h3>
+  <p>L'architettura separa il <b>piano di controllo</b> (che decide) dal <b>piano dei dati</b> (che applica). Ogni richiesta di accesso a un AIP, a un metadato o a una funzione amministrativa attraversa un <b>Policy Enforcement Point (PEP)</b>, che interroga il <b>Policy Decision Point</b> — composto da <b>Policy Engine</b> (motore di valutazione) e <b>Policy Administrator</b> — il quale decide sulla base di più fonti informative (identità, dispositivo, minacce, log).</p>
+
+  <div class="zt">
+    <div class="zt-title">Modello logico Zero Trust applicato al sistema di conservazione (NIST SP 800-207)</div>
+    <div class="zt-plane cp">
+      <div class="lbl">Control Plane — decide</div>
+      <div class="zt-row">
+        <div class="zt-box accent">Policy Engine<small>valuta la policy</small></div>
+        <div class="zt-arrow">↔</div>
+        <div class="zt-box accent">Policy Administrator<small>autorizza / revoca la sessione</small></div>
+      </div>
+    </div>
+    <div class="zt-plane dp">
+      <div class="lbl">Data Plane — applica</div>
+      <div class="zt-row">
+        <div class="zt-box">Soggetto<small>utente / servizio</small></div>
+        <div class="zt-arrow">→</div>
+        <div class="zt-box accent">PEP<small>Policy Enforcement Point</small></div>
+        <div class="zt-arrow">→</div>
+        <div class="zt-box">Risorsa<small>AIP · metadati · funzioni</small></div>
+      </div>
+    </div>
+    <div class="zt-pip">
+      <div class="lbl">Fonti informative per la decisione (PIP)</div>
+      <div class="zt-row">
+        <div class="zt-box">IAM / MFA</div>
+        <div class="zt-box">Postura del dispositivo</div>
+        <div class="zt-box">Threat intelligence</div>
+        <div class="zt-box">SIEM / log</div>
+        <div class="zt-box">Sensibilità del dato</div>
+        <div class="zt-box">Contesto (ora, luogo)</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Applicazione concreta al Conservatore</h3>
+  <ul>
+    <li><b>Identità come nuovo perimetro:</b> ogni accesso (umano o machine-to-machine) è autenticato con MFA e autorizzato per ruolo; le utenze di servizio usano identità gestite e credenziali a rotazione.</li>
+    <li><b>Microsegmentazione:</b> le zone applicativa, dati e gestione comunicano solo tramite flussi esplicitamente consentiti; il movimento laterale è negato per default.</li>
+    <li><b>Segregazione multi-tenant:</b> ogni Titolare è isolato logicamente; gli AIP e i metadati di un Titolare non sono raggiungibili da contesti di un altro. La generazione dell'AIP garantisce univocità e segregazione dei dati per ciascun Titolare.</li>
+    <li><b>ZTNA al posto della VPN:</b> l'accesso amministrativo avviene tramite <i>Zero Trust Network Access</i> con verifica di identità e postura, non tramite una VPN che «apre» l'intera rete.</li>
+    <li><b>Cifratura ovunque (mTLS):</b> le comunicazioni tra componenti sono mutuamente autenticate e cifrate, anche all'interno del data center.</li>
+    <li><b>Accesso privilegiato just-in-time:</b> le utenze amministrative sono gestite via PAM, con elevazione temporanea, registrazione delle sessioni e revoca automatica.</li>
+    <li><b>Assume breach:</b> immutabilità WORM degli AIP, hash SHA-256 e marche temporali rendono ogni manomissione rilevabile; il SIEM correla gli eventi e attiva risposte automatiche.</li>
+    <li><b>Verifica continua:</b> la sessione può essere rivalutata e interrotta se cambiano il rischio, la postura del dispositivo o il comportamento.</li>
+  </ul>
+
+  <h3>Perimetrale vs Zero Trust</h3>
+  <table>
+    <tr><th>Aspetto</th><th>Modello perimetrale</th><th>Zero Trust</th></tr>
+    <tr><td class="k">Fiducia</td><td>Implicita all'interno della rete</td><td>Mai implicita; verificata a ogni richiesta</td></tr>
+    <tr><td class="k">Unità di controllo</td><td>Il perimetro (firewall)</td><td>La singola risorsa e la singola sessione</td></tr>
+    <tr><td class="k">Movimento laterale</td><td>Facile una volta «dentro»</td><td>Negato per default (microsegmentazione)</td></tr>
+    <tr><td class="k">Accesso remoto</td><td>VPN che espone la rete</td><td>ZTNA per singola applicazione</td></tr>
+    <tr><td class="k">Autorizzazione</td><td>Statica, all'ingresso</td><td>Dinamica e continua, basata sul contesto</td></tr>
+  </table>
+  <div class="tip">Zero Trust non sostituisce la difesa in profondità: la <b>completa</b>, spostando il baricentro dal presidio del perimetro alla verifica esplicita di ogni accesso a ogni risorsa. È un percorso di maturità, non un prodotto: si adotta per gradi, partendo dalle risorse più critiche (gli AIP e le chiavi).</div>
+
+  <h2 id="s6">6 · Gestione delle identità e degli accessi (IAM)</h2>
+  <ul>
+    <li><b>Autenticazione forte (MFA)</b> per l'accesso al portale, alle console amministrative e alle API sensibili;</li>
+    <li><b>Minimo privilegio</b> e <b>RBAC/ABAC</b>: profili per ruolo e attributi, con separazione dei compiti;</li>
+    <li><b>PAM</b> per le utenze privilegiate: vaulting delle credenziali, accesso <i>just-in-time</i>, registrazione delle sessioni;</li>
+    <li><b>Ciclo di vita</b> delle utenze: provisioning/deprovisioning tempestivo, riesame periodico dei diritti (access review);</li>
+    <li>Consultazione dei documenti riservati previa autenticazione e, per gli oggetti cifrati, download e decifratura riservata ai soli soggetti autorizzati tramite chiave assegnata.</li>
+  </ul>
+
+  <h2 id="s7">7 · Protezione dei dati e integrità</h2>
+  <table>
+    <tr><th>Ambito</th><th>Misura</th></tr>
+    <tr><td class="k">Cifratura in transito</td><td>TLS/HTTPS e sFTP per il versamento e la distribuzione; mTLS tra i componenti interni.</td></tr>
+    <tr><td class="k">Cifratura at rest</td><td>Cifratura lato server degli oggetti (es. AES-256), con chiavi uniche per oggetto e master key a rotazione.</td></tr>
+    <tr><td class="k">Gestione delle chiavi</td><td>KMS/HSM, separazione dei ruoli, rotazione e custodia sicura delle chiavi.</td></tr>
+    <tr><td class="k">Integrità</td><td>Impronta <b>SHA-256</b> di ogni oggetto; indici <b>SInCRO (UNI 11386)</b> firmati; <b>marche temporali</b> qualificate.</td></tr>
+    <tr><td class="k">Immutabilità</td><td>Storage <b>WORM</b> / object-lock per impedire modifica e cancellazione non autorizzate degli AIP.</td></tr>
+    <tr><td class="k">Antimalware</td><td>Scansione dei pacchetti in ingresso; rapporto antivirus (AR) sui SIP infetti.</td></tr>
+    <tr><td class="k">Verifiche periodiche</td><td>Controlli programmati di integrità e di leggibilità dei formati nel tempo.</td></tr>
+  </table>
+
+  <h2 id="s8">8 · Logging, audit trail e monitoraggio</h2>
+  <ul>
+    <li><b>Log immodificabili</b> di tutte le operazioni sul ciclo di vita dei pacchetti (versamento, generazione AIP, distribuzione, scarto) e degli accessi;</li>
+    <li>Raccolta centralizzata e correlazione tramite <b>SIEM</b>, con allarmi su eventi anomali e possibilità di risposta automatica;</li>
+    <li>Conservazione dei log per il periodo previsto, con protezione da alterazione e cancellazione;</li>
+    <li>Rapporti (Submission Report, rapporti antivirus, indici firmati) che documentano le verifiche effettuate.</li>
+  </ul>
+
+  <h2 id="s9">9 · Sicurezza operativa</h2>
+  <ul>
+    <li><b>Hardening</b> dei sistemi secondo baseline riconosciute (es. CIS Benchmark);</li>
+    <li><b>Vulnerability management</b> e <b>patching</b> tempestivo; gestione delle configurazioni;</li>
+    <li><b>Penetration test</b> e <b>vulnerability assessment</b> periodici, con remediation tracciata;</li>
+    <li>Segregazione degli ambienti sviluppo/test/esercizio e <b>secure SDLC</b> per la piattaforma;</li>
+    <li>Gestione sicura dei supporti e cancellazione sicura a fine vita.</li>
+  </ul>
+
+  <h2 id="s10">10 · Resilienza, backup e continuità operativa</h2>
+  <p>La disponibilità e la reperibilità dei documenti sono garantite per l'intero periodo di conservazione tramite:</p>
+  <ul>
+    <li><b>Backup</b> regolari e <b>ridondanza</b> dei dati su <b>data center geograficamente distinti</b>;</li>
+    <li><b>Piano di Continuità Operativa (BCP)</b> e <b>Disaster Recovery (DRP)</b> conformi a <b>ISO 22301</b>;</li>
+    <li>Obiettivi di ripristino <b>RTO/RPO</b> definiti e coerenti con gli SLA verso i Titolari;</li>
+    <li><b>Test di ripristino</b> periodici documentati, con verifica dell'effettiva recuperabilità e leggibilità degli AIP.</li>
+  </ul>
+  <table>
+    <tr><th>Parametro</th><th>Valore modello <em>(da tarare per servizio)</em></th></tr>
+    <tr><td class="k">RTO (Recovery Time Objective)</td><td>≤ 4 ore per i servizi critici</td></tr>
+    <tr><td class="k">RPO (Recovery Point Objective)</td><td>≤ 15 minuti</td></tr>
+    <tr><td class="k">Ridondanza dati</td><td>Repliche sincrone/asincrone su siti distinti</td></tr>
+    <tr><td class="k">Frequenza test DR</td><td>Almeno annuale</td></tr>
+  </table>
+
+  <h2 id="s11">11 · Sicurezza fisica e data center</h2>
+  <ul>
+    <li>Data center di livello elevato (es. Tier III/IV) con controllo degli accessi fisici, videosorveglianza, rilevazione e spegnimento incendi;</li>
+    <li>Ridondanza di alimentazione (UPS, gruppi elettrogeni) e di climatizzazione;</li>
+    <li>Localizzazione dei dati coerente con i vincoli normativi e contrattuali (es. UE), rilevante anche ai fini del GDPR.</li>
+  </ul>
+
+  <h2 id="s12">12 · Cloud e catena di fornitura</h2>
+  <ul>
+    <li>Conformità <b>ISO/IEC 27017</b> (sicurezza cloud) e <b>27018</b> (protezione dei dati personali in cloud);</li>
+    <li>Per i servizi resi alla PA, uso di infrastrutture e servizi cloud <b>qualificati secondo il quadro ACN</b> (Strategia Cloud Italia), con classificazione di dati e servizi per criticità;</li>
+    <li><b>Sicurezza della supply chain</b> (obbligo espresso NIS2): selezione e qualifica dei fornitori, clausole contrattuali su misure e notifiche, verifiche periodiche;</li>
+    <li><b>Reversibilità e portabilità:</b> possibilità di recuperare integralmente gli AIP in formati leggibili in caso di cessazione o subentro di un nuovo Conservatore — la continuità della conservazione non deve dipendere da un singolo fornitore.</li>
+  </ul>
+
+  <h2 id="s13">13 · Gestione incidenti e data breach</h2>
+  <p>Il Conservatore adotta un processo strutturato di gestione degli incidenti (rilevazione, classificazione, contenimento, eradicazione, ripristino, lezioni apprese) coerente con <b>ISO/IEC 27035</b>, che coordina i diversi canali di notifica:</p>
+  <table>
+    <tr><th>Scenario</th><th>Obbligo</th><th>Tempistica</th></tr>
+    <tr><td>Violazione di dati personali (GDPR)</td><td>Notifica al Garante (art. 33) e, se rischio elevato, agli interessati (art. 34)</td><td>Entro <b>72 ore</b> dalla conoscenza</td></tr>
+    <tr><td>Incidente significativo (NIS2, se soggetto)</td><td>Notifica al <b>CSIRT Italia</b> (ACN)</td><td>Pre-notifica <b>24h</b>, notifica <b>72h</b>, relazione finale <b>1 mese</b></td></tr>
+  </table>
+  <p>Un singolo evento può richiedere notifiche parallele ad autorità diverse: il processo interno tiene insieme i canali e le tempistiche, con ruoli e catena di escalation definiti.</p>
+
+  <h2 id="s14">14 · Formazione e consapevolezza</h2>
+  <ul>
+    <li>Programma periodico di formazione e sensibilizzazione del personale (phishing, gestione credenziali, data breach);</li>
+    <li>Formazione specialistica per i ruoli tecnici e per gli amministratori;</li>
+    <li>Politiche di sicurezza note e sottoscritte, con verifica dell'aderenza.</li>
+  </ul>
+
+  <h2 id="s15">15 · Audit, riesame e miglioramento continuo</h2>
+  <ul>
+    <li><b>Audit interni</b> ed <b>esterni</b> (certificazione ISO, sorveglianza) periodici;</li>
+    <li><b>Monitoraggio</b> continuo del sistema e riesame degli indicatori di sicurezza;</li>
+    <li><b>Riesame della direzione</b> almeno annuale e a fronte di cambiamenti significativi o incidenti;</li>
+    <li>Allineamento continuo di sistema e normativa: la sicurezza è un processo, non un adempimento una tantum, e accompagna l'intero ciclo di vita dell'archivio digitale (cfr. tema <b>Monitoraggio e audit</b> e standard <b>ISO 16363</b> sugli archivi affidabili).</li>
+  </ul>
+
+  <h2 id="all-a">Allegato A · Matrice di conformità (estratto)</h2>
+  <table>
+    <tr><th>Requisito / fonte</th><th>Misura del Piano</th><th>Riferimento</th></tr>
+    <tr><td>Requisiti del sistema</td><td>Integrità (hash/marca/WORM), reperibilità, leggibilità nel tempo</td><td>Art. 44 CAD</td></tr>
+    <tr><td>Sicurezza di dati e sistemi</td><td>Difesa in profondità, Zero Trust, misure organizzative</td><td>Art. 51 CAD; Linee guida AgID</td></tr>
+    <tr><td>Sicurezza del trattamento</td><td>Cifratura, resilienza, ripristino, verifica periodica</td><td>Art. 32 GDPR</td></tr>
+    <tr><td>Gestione della sicurezza</td><td>SGSI, analisi del rischio, SoA, audit</td><td>ISO/IEC 27001</td></tr>
+    <tr><td>Continuità operativa</td><td>BCP/DRP, RTO/RPO, test</td><td>ISO 22301</td></tr>
+    <tr><td>Sicurezza cloud</td><td>Controlli 27017/27018, qualificazione ACN (PA)</td><td>ISO/IEC 27017-27018; ACN</td></tr>
+    <tr><td>Gestione del rischio cyber e notifiche</td><td>Misure ex art. 21, notifica al CSIRT</td><td>NIS2; D.Lgs. 138/2024</td></tr>
+    <tr><td>Architettura di accesso</td><td>Zero Trust: PEP/PDP, microsegmentazione, ZTNA, mTLS</td><td>NIST SP 800-207</td></tr>
+  </table>
+
+  <h2 id="all-b">Allegato B · Fonti architetturali e normative</h2>
+  <p>L'impianto di questo template riflette la prassi comune documentata nei Manuali della Conservazione dei conservatori accreditati (certificazioni, misure di sicurezza, continuità operativa e architetture), ricondotta a un modello generico privo di riferimenti a soggetti, marchi o prodotti. Fonti di riferimento:</p>
+  <ul>
+    <li><b>Normative:</b> CAD (artt. 44, 51); Linee guida AgID; Misure minime di sicurezza ICT (Circolare AgID 2/2017); GDPR (artt. 25, 32, 33-34); eIDAS/eIDAS 2 e norme ETSI; NIS2 (Direttiva UE 2022/2555 e D.Lgs. 138/2024); quadro ACN per la qualificazione cloud.</li>
+    <li><b>Standard:</b> ISO/IEC 27001, 27002, 27017, 27018, 27035, 27701; ISO 22301; ISO 9001; ISO 14721 (OAIS); ISO 16363; UNI 11386 (SInCRO).</li>
+    <li><b>Architettura:</b> NIST SP 800-207 — <i>Zero Trust Architecture</i>; CIS Controls / CIS Benchmark per l'hardening.</li>
+  </ul>
+
+  <div class="foot">
+    <b>Documento modello / template</b> a scopo illustrativo ed educativo, non attribuibile ad alcuna organizzazione reale. Da adattare all'infrastruttura, all'analisi del rischio e alle certificazioni del singolo Conservatore. Riferimenti normativi aggiornati a luglio 2026. Fonti architetturali: NIST SP 800-207 (Zero Trust Architecture); standard ISO/IEC citati; Linee guida AgID; GDPR; NIS2 (D.Lgs. 138/2024).
+  </div>
+
+</div>
+</body>
+</html>
