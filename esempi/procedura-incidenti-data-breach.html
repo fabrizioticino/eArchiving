@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Procedura di gestione degli incidenti e dei data breach — Documento modello</title>
+<style>
+  :root{
+    --ink:#161616; --soft:#5a5a5a; --line:#d9d9d9; --accent:#C8102E;
+    --bg:#e9e9e9; --sheet:#fff; --k:#f6f6f6; --box:#fafafa;
+  }
+  *{box-sizing:border-box;}
+  body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:var(--bg);color:var(--ink);line-height:1.55;}
+  .banner{background:var(--accent);color:#fff;padding:10px 16px;text-align:center;font-size:12.5px;font-weight:600;letter-spacing:.03em;}
+  .sheet{position:relative;max-width:920px;margin:22px auto;background:var(--sheet);padding:34px 46px 48px;box-shadow:0 1px 10px rgba(0,0,0,.16);}
+  .doc-head{border-bottom:3px double var(--ink);padding-bottom:14px;margin-bottom:18px;}
+  .doc-head .kicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700;}
+  h1{font-size:23px;margin:6px 0 4px;line-height:1.15;}
+  .doc-head .sub{font-size:12.5px;color:var(--soft);}
+  .meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px 0;font-size:11.5px;color:#444;margin-top:12px;}
+  .meta-grid span b{color:var(--ink);}
+  h2{font-size:16px;margin:30px 0 8px;color:var(--accent);border-bottom:1px solid #eee;padding-bottom:5px;}
+  h3{font-size:13.5px;margin:18px 0 4px;color:#111;}
+  p{font-size:13px;margin:8px 0;}
+  ul,ol{font-size:13px;margin:8px 0 8px 4px;padding-left:20px;}
+  li{margin:4px 0;}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:12px;}
+  td,th{border:1px solid #ccc;padding:6px 9px;text-align:left;vertical-align:top;}
+  th{background:#f0f0f0;font-size:11.5px;}
+  .k{background:var(--k);font-weight:600;width:30%;}
+  .toc{background:var(--box);border:1px solid var(--line);padding:14px 20px;font-size:12.5px;columns:2;column-gap:34px;}
+  .toc a{color:var(--ink);text-decoration:none;}
+  .toc a:hover{color:var(--accent);text-decoration:underline;}
+  .note{font-size:11.5px;color:#8a4b52;background:#fdf3f4;border-left:3px solid var(--accent);padding:9px 13px;margin:14px 0;}
+  .tip{font-size:11.5px;color:#3a5566;background:#eef4fb;border-left:3px solid #3a7bbf;padding:9px 13px;margin:14px 0;}
+  .warn{font-size:11.5px;color:#7a5a00;background:#fbf3e0;border-left:3px solid #d8a418;padding:9px 13px;margin:14px 0;}
+  .mono{font-family:'Consolas','Courier New',monospace;}
+  .foot{margin-top:30px;font-size:10.5px;color:#777;border-top:1px solid #ddd;padding-top:12px;}
+  .sev-crit{background:#fbeaec;font-weight:600;}
+  .sev-high{background:#fdeee0;font-weight:600;}
+  .sev-med{background:#fbf7e0;}
+  .sev-low{background:#eef4ea;}
+
+  /* fasi ciclo di vita */
+  .flow{display:flex;flex-wrap:wrap;gap:6px;align-items:stretch;margin:14px 0;}
+  .flow .ph{flex:1 1 110px;min-width:110px;background:#fff;border:1.5px solid #bbb;border-radius:6px;padding:8px 10px;font-size:11px;position:relative;}
+  .flow .ph b{display:block;font-size:11.5px;color:var(--accent);margin-bottom:2px;}
+  .flow .ph small{color:#777;}
+  .flow .num{position:absolute;top:-9px;left:-9px;background:var(--accent);color:#fff;width:19px;height:19px;border-radius:50%;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;}
+
+  /* timeline notifiche */
+  .tl{border:1px solid var(--line);background:#fcfcfc;padding:16px 18px;margin:14px 0;}
+  .tl-title{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);text-align:center;margin-bottom:14px;}
+  .tl-row{display:flex;gap:8px;align-items:stretch;flex-wrap:wrap;}
+  .tl-step{flex:1 1 150px;min-width:150px;background:#fff;border:1.5px solid #999;border-left:4px solid var(--accent);border-radius:5px;padding:8px 11px;font-size:11px;}
+  .tl-step b{display:block;font-size:12px;color:var(--accent);margin-bottom:2px;}
+  .tl-when{font-family:'Consolas','Courier New',monospace;font-weight:700;color:#111;}
+  @media(max-width:640px){ .sheet{padding:22px 16px;} .toc{columns:1;} .meta-grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<div class="banner">DOCUMENTO MODELLO · TEMPLATE ILLUSTRATIVO · DA ADATTARE ALLA REALTÀ DEL SINGOLO CONSERVATORE · NON È UN DOCUMENTO UFFICIALE</div>
+<div class="sheet">
+
+  <div class="doc-head">
+    <div class="kicker">Allegato al Piano di Sicurezza · Sistema di conservazione</div>
+    <h1>Procedura di gestione degli incidenti e dei data breach</h1>
+    <div class="sub">Rilevazione, risposta, notifica alle autorità e comunicazione delle violazioni di sicurezza e dei dati personali</div>
+    <div class="meta-grid">
+      <span><b>Soggetto:</b> [Denominazione del Conservatore] — <em>da compilare</em></span>
+      <span><b>Documento:</b> PROC-IR — Incident Response &amp; Data Breach</span>
+      <span><b>Versione:</b> 1.0 (modello)</span>
+      <span><b>Classificazione:</b> Riservato</span>
+      <span><b>Titolari:</b> RSSI/CISO e DPO, di concerto con il RdC</span>
+      <span><b>Riesame:</b> almeno annuale e dopo ogni incidente rilevante</span>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>Documento template</b> a scopo illustrativo e riutilizzabile, privo di riferimenti a soggetti, marchi, prodotti o fornitori. I campi tra parentesi quadre <span class="mono">[ ]</span> e i valori indicati come «modello» vanno compilati e tarati sulla concreta organizzazione, sull'analisi del rischio e sul ruolo del singolo Conservatore. I termini di notifica hanno natura di legge e vanno sempre verificati sulle fonti vigenti.
+  </div>
+
+  <h2 id="toc">Indice</h2>
+  <div class="toc">
+    <a href="#s1">1 · Scopo e ambito</a><br>
+    <a href="#s2">2 · Riferimenti normativi</a><br>
+    <a href="#s3">3 · Definizioni</a><br>
+    <a href="#s4">4 · Principi</a><br>
+    <a href="#s5">5 · Ruoli e organizzazione</a><br>
+    <a href="#s6">6 · Ciclo di vita dell'incidente</a><br>
+    <a href="#s7">7 · Classificazione e gravità</a><br>
+    <a href="#s8">8 · Rilevazione e segnalazione</a><br>
+    <a href="#s9">9 · Triage e valutazione del rischio</a><br>
+    <a href="#s10">10 · Contenimento, eradicazione, ripristino</a><br>
+    <a href="#s11">11 · Obblighi di notifica</a><br>
+    <a href="#s12">12 · Comunicazione</a><br>
+    <a href="#s13">13 · Registro incidenti e violazioni</a><br>
+    <a href="#s14">14 · Post-incidente e miglioramento</a><br>
+    <a href="#s15">15 · Test ed esercitazioni</a><br>
+    <a href="#s16">16 · Conservazione della documentazione</a><br>
+    <a href="#a-a">Allegato A · Scheda incidente</a><br>
+    <a href="#a-b">Allegato B · Albero decisionale data breach</a><br>
+    <a href="#a-c">Allegato C · Tempistiche di notifica</a>
+  </div>
+
+  <h2 id="s1">1 · Scopo e ambito</h2>
+  <p>La presente procedura definisce come il Conservatore <b>rileva, classifica, gestisce, notifica e documenta</b> gli incidenti di sicurezza e le violazioni di dati personali (<i>data breach</i>) che interessano il sistema di conservazione a norma, i documenti conservati e i relativi metadati. L'obiettivo è ridurre l'impatto degli eventi, ripristinare tempestivamente i servizi e assolvere agli <b>obblighi di notifica</b> verso le autorità competenti, i Titolari del servizio e gli interessati, nei termini di legge.</p>
+  <p>La procedura è parte integrante del Piano di Sicurezza e del SGSI e si coordina con la Politica di Penetration Test, con il piano di continuità operativa e disaster recovery e con il monitoraggio.</p>
+
+  <div class="tip"><b>Doppio ruolo del Conservatore.</b> Verso i Titolari dei documenti, il Conservatore agisce di norma come <b>responsabile del trattamento</b> (art. 28 GDPR): in caso di violazione di dati personali deve <b>informare il Titolare senza ingiustificato ritardo</b>, poiché è quest'ultimo (titolare del trattamento) a notificare al Garante e, ove necessario, agli interessati. Il Conservatore può inoltre avere obblighi propri come soggetto NIS2 e/o come prestatore di servizi fiduciari.</p></div>
+
+  <h2 id="s2">2 · Riferimenti normativi</h2>
+  <ul>
+    <li><b>GDPR</b> — Reg. (UE) 2016/679: art. 4(12) (definizione di violazione), art. 33 (notifica al Garante entro 72 ore), art. 34 (comunicazione agli interessati), art. 33.5 (registro delle violazioni), art. 28 e 33.2 (obblighi del responsabile verso il titolare);</li>
+    <li><b>Codice Privacy</b> — D.Lgs. 196/2003 e provvedimenti del <b>Garante</b>; <b>Linee guida EDPB</b> in materia di notifica delle violazioni;</li>
+    <li><b>NIS2</b> — Direttiva (UE) 2022/2555 e <b>D.Lgs. 138/2024</b>: notifica degli incidenti significativi al <b>CSIRT Italia</b> (ACN);</li>
+    <li><b>eIDAS</b> — Reg. (UE) 910/2014, obblighi di notifica per i prestatori di servizi fiduciari (ove applicabile);</li>
+    <li><b>CAD</b> art. 51; <b>Linee guida AgID</b>; <b>Misure minime AgID</b> (2/2017);</li>
+    <li><b>Standard:</b> <b>ISO/IEC 27035</b> (gestione degli incidenti), <b>ISO/IEC 27001/27002</b>, <b>ISO/IEC 29147</b> e <b>30111</b> (vulnerability disclosure e handling).</li>
+  </ul>
+
+  <h2 id="s3">3 · Definizioni</h2>
+  <table>
+    <tr><td class="k">Evento di sicurezza</td><td>Occorrenza osservabile in un sistema o rete, potenzialmente rilevante per la sicurezza.</td></tr>
+    <tr><td class="k">Incidente di sicurezza</td><td>Evento (o serie di eventi) che compromette o minaccia riservatezza, integrità o disponibilità di sistemi, servizi o dati.</td></tr>
+    <tr><td class="k">Violazione di dati personali (data breach)</td><td>Violazione di sicurezza che comporta, accidentalmente o illecitamente, distruzione, perdita, modifica, divulgazione non autorizzata o accesso a dati personali (art. 4(12) GDPR).</td></tr>
+    <tr><td class="k">Tipologie di breach</td><td>Di <b>riservatezza</b> (accesso/divulgazione non autorizzati), di <b>integrità</b> (alterazione non autorizzata), di <b>disponibilità</b> (perdita di accesso o distruzione).</td></tr>
+    <tr><td class="k">Incidente significativo (NIS2)</td><td>Incidente con impatto rilevante sull'erogazione dei servizi, secondo le soglie definite dalla normativa.</td></tr>
+    <tr><td class="k">Near miss</td><td>Evento potenzialmente dannoso non concretizzatosi; da registrare per il miglioramento.</td></tr>
+  </table>
+
+  <h2 id="s4">4 · Principi</h2>
+  <ul>
+    <li><b>Tempestività:</b> rilevare e reagire nel minor tempo possibile; il conteggio dei termini di notifica decorre dalla «conoscenza» dell'evento;</li>
+    <li><b>Contenimento prioritario:</b> limitare l'impatto prima di eradicare, preservando le evidenze;</li>
+    <li><b>Coordinamento delle notifiche:</b> un unico evento può richiedere notifiche parallele ad autorità diverse (Garante, CSIRT, vigilanza), con tempistiche e finalità differenti;</li>
+    <li><b>Preservazione delle prove</b> (forensic readiness) e catena di custodia;</li>
+    <li><b>Riservatezza</b> nella gestione dell'incidente e nelle comunicazioni.</li>
+  </ul>
+
+  <h2 id="s5">5 · Ruoli e organizzazione</h2>
+  <table>
+    <tr><th>Ruolo</th><th>Responsabilità</th></tr>
+    <tr><td class="k">Gruppo di gestione incidenti (CSIRT/IRT interno)</td><td>Coordina la risposta operativa: triage, contenimento, eradicazione, ripristino, documentazione.</td></tr>
+    <tr><td class="k">RSSI / CISO</td><td>Responsabile del processo; decide l'escalation; presidia le notifiche tecniche (CSIRT/vigilanza).</td></tr>
+    <tr><td class="k">DPO</td><td>Valuta se l'evento è un data breach e il rischio per gli interessati; supporta le notifiche GDPR e tiene il registro delle violazioni.</td></tr>
+    <tr><td class="k">Responsabile della conservazione (RdC)</td><td>Valuta l'impatto sul servizio di conservazione e sull'integrità/disponibilità degli AIP; informa i Titolari.</td></tr>
+    <tr><td class="k">Funzione legale</td><td>Supporta gli obblighi di notifica e i rapporti con le autorità.</td></tr>
+    <tr><td class="k">Comunicazione</td><td>Gestisce le comunicazioni verso Titolari, interessati e, se necessario, esterni.</td></tr>
+    <tr><td class="k">Owner di sistema / SOC</td><td>Rilevazione (SIEM), evidenze, esecuzione delle azioni tecniche.</td></tr>
+  </table>
+  <p>La procedura definisce una <b>catena di escalation</b> con contatti e reperibilità (24/7 per i servizi critici) e i criteri per attivare i livelli superiori.</p>
+
+  <h2 id="s6">6 · Ciclo di vita dell'incidente</h2>
+  <p>La gestione segue un ciclo strutturato allineato alla <b>ISO/IEC 27035</b> e alle prassi di incident response:</p>
+  <div class="flow">
+    <div class="ph"><span class="num">1</span><b>Preparazione</b><small>ruoli, strumenti, playbook, formazione</small></div>
+    <div class="ph"><span class="num">2</span><b>Rilevazione</b><small>identificazione e segnalazione</small></div>
+    <div class="ph"><span class="num">3</span><b>Triage</b><small>classificazione, valutazione rischio</small></div>
+    <div class="ph"><span class="num">4</span><b>Contenimento</b><small>limitare l'impatto</small></div>
+    <div class="ph"><span class="num">5</span><b>Eradicazione</b><small>rimozione della causa</small></div>
+    <div class="ph"><span class="num">6</span><b>Ripristino</b><small>ritorno all'operatività</small></div>
+    <div class="ph"><span class="num">7</span><b>Notifiche</b><small>autorità, Titolari, interessati</small></div>
+    <div class="ph"><span class="num">8</span><b>Chiusura</b><small>lessons learned, azioni correttive</small></div>
+  </div>
+
+  <h2 id="s7">7 · Classificazione e gravità</h2>
+  <p>Ogni incidente è classificato per <b>gravità</b> combinando impatto (su riservatezza, integrità, disponibilità, e sugli interessati) e urgenza. La gravità determina l'escalation e i tempi di risposta interni.</p>
+  <table>
+    <tr><th>Livello</th><th>Descrizione (esempi)</th><th>Risposta interna <em>(modello)</em></th></tr>
+    <tr><td class="sev-crit">Critico</td><td>Compromissione dello storage AIP o della segregazione tra Titolari; indisponibilità estesa del servizio; data breach ad alto rischio</td><td>Attivazione immediata IRT + direzione; risposta 24/7</td></tr>
+    <tr><td class="sev-high">Alto</td><td>Accesso non autorizzato a sistemi rilevanti; violazione di dati personali con rischio</td><td>Attivazione IRT; escalation a RSSI e DPO</td></tr>
+    <tr><td class="sev-med">Medio</td><td>Anomalie contenute, tentativi rilevati e bloccati con impatto limitato</td><td>Gestione ordinaria con monitoraggio rafforzato</td></tr>
+    <tr><td class="sev-low">Basso</td><td>Eventi minori, near miss</td><td>Registrazione e analisi</td></tr>
+  </table>
+
+  <h2 id="s8">8 · Rilevazione e segnalazione</h2>
+  <ul>
+    <li><b>Canali di rilevazione:</b> allarmi <b>SIEM</b>/SOC, monitoraggio, antimalware, controlli di integrità degli AIP, segnalazioni del personale e dei Titolari;</li>
+    <li><b>Segnalazione:</b> punto di contatto unico e modalità note a tutto il personale; ogni sospetto va segnalato senza ritardo;</li>
+    <li><b>Registrazione iniziale</b> nella scheda incidente (Allegato A) con marcatura oraria della <b>conoscenza</b> dell'evento (rilevante per i termini di notifica).</li>
+  </ul>
+
+  <h2 id="s9">9 · Triage e valutazione del rischio</h2>
+  <p>Il triage stabilisce se l'evento è un incidente, ne determina la gravità e verifica se si tratta di una <b>violazione di dati personali</b>. In caso affermativo, il DPO valuta il <b>rischio per i diritti e le libertà degli interessati</b> considerando natura dei dati, volume, categorie di interessati, facilità di identificazione, gravità delle conseguenze e misure che attenuano il rischio (es. dati cifrati o resi inintelligibili).</p>
+  <div class="warn"><b>Effetto delle misure tecniche.</b> Se i dati coinvolti erano <b>cifrati</b> con chiavi non compromesse o comunque resi inintelligibili, il rischio per gli interessati può risultare improbabile, con effetti sull'obbligo di comunicazione ex art. 34. La valutazione va comunque documentata.</div>
+
+  <h2 id="s10">10 · Contenimento, eradicazione, ripristino</h2>
+  <ul>
+    <li><b>Contenimento:</b> isolare i sistemi coinvolti, revocare credenziali/sessioni, bloccare gli indicatori di compromissione, preservando le evidenze;</li>
+    <li><b>Eradicazione:</b> rimuovere la causa (malware, vulnerabilità sfruttata, accessi illeciti) e verificare l'assenza di persistenze;</li>
+    <li><b>Ripristino:</b> ripristinare i servizi e i dati da backup integri, in coordinamento con i piani di <b>continuità operativa e disaster recovery</b>; verificare integrità e leggibilità degli AIP ripristinati prima del rientro in esercizio;</li>
+    <li><b>Verifica post-ripristino:</b> monitoraggio rafforzato per escludere recrudescenze.</li>
+  </ul>
+
+  <h2 id="s11">11 · Obblighi di notifica</h2>
+  <p>A seconda della natura dell'evento e del ruolo del Conservatore possono attivarsi più obblighi, tra loro <b>paralleli</b>. La procedura tiene insieme i canali e le tempistiche.</p>
+
+  <div class="tl">
+    <div class="tl-title">Tempistiche di notifica (dalla «conoscenza» dell'evento)</div>
+    <div class="tl-row">
+      <div class="tl-step"><b>Responsabile → Titolare</b><span class="tl-when">senza ingiustificato ritardo</span><br>Il Conservatore (responsabile) informa il Titolare del trattamento del data breach (art. 33.2 GDPR).</div>
+      <div class="tl-step"><b>NIS2 · pre-notifica</b><span class="tl-when">≤ 24 ore</span><br>Al CSIRT Italia, se soggetto essenziale/importante e incidente significativo.</div>
+      <div class="tl-step"><b>eIDAS (se QTSP)</b><span class="tl-when">≤ 24 ore</span><br>All'organismo di vigilanza per gli incidenti sui servizi fiduciari.</div>
+      <div class="tl-step"><b>GDPR · Garante</b><span class="tl-when">≤ 72 ore</span><br>Il Titolare notifica al Garante se la violazione presenta un rischio (art. 33).</div>
+      <div class="tl-step"><b>NIS2 · notifica</b><span class="tl-when">≤ 72 ore</span><br>Notifica completa dell'incidente significativo al CSIRT.</div>
+      <div class="tl-step"><b>Interessati (art. 34)</b><span class="tl-when">senza ingiustificato ritardo</span><br>Se il rischio è <b>elevato</b>, il Titolare comunica agli interessati.</div>
+      <div class="tl-step"><b>NIS2 · relazione finale</b><span class="tl-when">≤ 1 mese</span><br>Relazione conclusiva al CSIRT.</div>
+    </div>
+  </div>
+
+  <h3>Contenuto minimo della notifica (GDPR)</h3>
+  <ul>
+    <li>Natura della violazione, categorie e numero approssimativo di interessati e di record coinvolti;</li>
+    <li>Dati di contatto del DPO o punto di contatto;</li>
+    <li>Probabili conseguenze della violazione;</li>
+    <li>Misure adottate o proposte per porvi rimedio e attenuarne gli effetti.</li>
+  </ul>
+  <p>Ove non sia possibile fornire tutte le informazioni contestualmente, è ammessa la notifica <b>per fasi</b> senza ulteriore ingiustificato ritardo. Il Conservatore, come responsabile, fornisce al Titolare ogni elemento utile ad assolvere gli obblighi.</p>
+
+  <h2 id="s12">12 · Comunicazione</h2>
+  <ul>
+    <li><b>Interna:</b> aggiornamenti alla direzione e ai ruoli coinvolti secondo l'escalation;</li>
+    <li><b>Verso i Titolari:</b> informativa tempestiva e canale dedicato, con gli elementi necessari ai loro obblighi;</li>
+    <li><b>Verso gli interessati</b> (a supporto del Titolare, quando dovuta): linguaggio chiaro, natura della violazione, possibili conseguenze e misure/raccomandazioni;</li>
+    <li><b>Verso le autorità:</b> tramite i canali ufficiali (Garante, CSIRT Italia, vigilanza);</li>
+    <li><b>Esterna/media:</b> gestita dalla funzione comunicazione, in modo coordinato e verificato.</li>
+  </ul>
+
+  <h2 id="s13">13 · Registro incidenti e violazioni</h2>
+  <p>Tutti gli incidenti e, distintamente, le violazioni di dati personali sono tracciati in un <b>registro</b> (il registro delle violazioni è previsto dall'art. 33.5 GDPR anche per i casi non notificati). Contenuto minimo:</p>
+  <ul>
+    <li>Identificativo, date (conoscenza, contenimento, chiusura), descrizione e categoria;</li>
+    <li>Sistemi/dati coinvolti, numero di interessati e record (se data breach);</li>
+    <li>Valutazione del rischio ed esito (notificato/non notificato, con motivazione);</li>
+    <li>Notifiche effettuate (autorità, Titolari, interessati) con date e riferimenti;</li>
+    <li>Azioni di contenimento, eradicazione, ripristino e correttive; esito del follow-up.</li>
+  </ul>
+
+  <h2 id="s14">14 · Post-incidente e miglioramento</h2>
+  <ul>
+    <li><b>Lessons learned</b> strutturate al termine di ogni incidente rilevante;</li>
+    <li><b>Azioni correttive</b> con owner e scadenza; aggiornamento dell'analisi del rischio e delle misure;</li>
+    <li>Aggiornamento di playbook, controlli e formazione sulla base delle cause radice;</li>
+    <li>Alimentazione del riesame della direzione del SGSI.</li>
+  </ul>
+
+  <h2 id="s15">15 · Test ed esercitazioni</h2>
+  <ul>
+    <li><b>Esercitazioni</b> periodiche (es. tabletop) sugli scenari più critici, incluso un data breach con notifiche multiple;</li>
+    <li>Verifica dei tempi di attivazione, dei contatti e dei canali di notifica;</li>
+    <li>Integrazione con i test di continuità operativa e disaster recovery.</li>
+  </ul>
+
+  <h2 id="s16">16 · Conservazione della documentazione</h2>
+  <p>Schede incidente, valutazioni del rischio, registro delle violazioni, notifiche e relative ricevute, verbali e report costituiscono documentazione del SGSI e prova dell'assolvimento degli obblighi: sono <b>conservati a norma</b> per il periodo previsto, con controllo degli accessi e garanzia di integrità, a supporto degli audit e delle verifiche delle autorità.</p>
+
+  <h2 id="a-a">Allegato A · Scheda incidente (modello)</h2>
+  <table>
+    <tr><td class="k">ID incidente</td><td>[INC-AAAA-000]</td></tr>
+    <tr><td class="k">Data/ora conoscenza</td><td>[gg/mm/aaaa hh:mm]</td></tr>
+    <tr><td class="k">Rilevato da / canale</td><td>[SIEM / segnalazione / …]</td></tr>
+    <tr><td class="k">Descrizione</td><td>[sintesi dell'evento]</td></tr>
+    <tr><td class="k">Sistemi/dati coinvolti</td><td>[componenti, tipologie di dati]</td></tr>
+    <tr><td class="k">È un data breach?</td><td>[Sì/No] — [motivazione]</td></tr>
+    <tr><td class="k">Gravità</td><td>[Critico/Alto/Medio/Basso]</td></tr>
+    <tr><td class="k">Valutazione rischio interessati</td><td>[assente/di rischio/elevato]</td></tr>
+    <tr><td class="k">Azioni (contenim./eradic./riprist.)</td><td>[…]</td></tr>
+    <tr><td class="k">Notifiche effettuate</td><td>[Titolare / Garante / CSIRT / interessati — date]</td></tr>
+    <tr><td class="k">Stato / chiusura</td><td>[aperto/chiuso] — [data]</td></tr>
+  </table>
+
+  <h2 id="a-b">Allegato B · Albero decisionale «è un data breach da notificare?»</h2>
+  <ol>
+    <li>C'è stata una violazione di sicurezza? <span class="mono">No → incidente non-privacy: gestisci e chiudi.</span></li>
+    <li>Coinvolge <b>dati personali</b>? <span class="mono">No → non è un data breach (resta incidente di sicurezza).</span></li>
+    <li>È un data breach → <b>registra sempre</b> (art. 33.5) e informa il Titolare senza ritardo.</li>
+    <li>C'è un <b>rischio</b> per gli interessati? <span class="mono">Sì → il Titolare notifica al Garante ≤ 72h.</span></li>
+    <li>Il rischio è <b>elevato</b>? <span class="mono">Sì → comunicazione agli interessati (art. 34), salvo eccezioni (es. dati cifrati/inintelligibili).</span></li>
+    <li>Verifica in parallelo gli obblighi <b>NIS2</b> ed <b>eIDAS</b>, se applicabili.</li>
+  </ol>
+
+  <h2 id="a-c">Allegato C · Tempistiche di notifica (sintesi)</h2>
+  <table>
+    <tr><th>Obbligo</th><th>Destinatario</th><th>Termine</th><th>Presupposto</th></tr>
+    <tr><td>GDPR art. 33.2</td><td>Titolare del trattamento</td><td>Senza ingiustificato ritardo</td><td>Conservatore = responsabile; ogni data breach</td></tr>
+    <tr><td>GDPR art. 33</td><td>Garante</td><td>≤ 72 ore</td><td>A cura del Titolare, se la violazione presenta un rischio</td></tr>
+    <tr><td>GDPR art. 34</td><td>Interessati</td><td>Senza ingiustificato ritardo</td><td>Se rischio <b>elevato</b> (salvo eccezioni)</td></tr>
+    <tr><td>NIS2</td><td>CSIRT Italia</td><td>Pre-notifica ≤ 24h · notifica ≤ 72h · relazione ≤ 1 mese</td><td>Se soggetto essenziale/importante e incidente significativo</td></tr>
+    <tr><td>eIDAS</td><td>Organismo di vigilanza</td><td>≤ 24 ore</td><td>Se prestatore di servizi fiduciari (incidente rilevante)</td></tr>
+  </table>
+
+  <div class="foot">
+    <b>Documento modello / template</b> a scopo illustrativo, non attribuibile ad alcuna organizzazione reale e privo di riferimenti a società, marchi, prodotti o fornitori. I termini e i presupposti di notifica hanno natura di legge: vanno sempre verificati sulle fonti vigenti e sulle indicazioni del Garante, dell'ACN/CSIRT e dell'organismo di vigilanza. Da adattare all'organizzazione, all'analisi del rischio e al ruolo del singolo Conservatore. Riferimenti aggiornati a luglio 2026.
+  </div>
+
+</div>
+</body>
+</html>
