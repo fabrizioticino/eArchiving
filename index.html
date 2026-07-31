@@ -1311,7 +1311,7 @@ setInterval(updateClock, 30000);
 
 async function init(){
   try {
-    const [tRes, fRes] = await Promise.all([fetch('data/temi.json'), fetch('data/fonti.json')]);
+    const [tRes, fRes] = await Promise.all([fetch('data/temi.json', {cache:'no-cache'}), fetch('data/fonti.json', {cache:'no-cache'})]);
     TEMI = await tRes.json();
     FONTI = await fRes.json();
   } catch(e) {
@@ -1322,38 +1322,38 @@ async function init(){
   document.getElementById('fonti-count').textContent = FONTI.length + ' documenti';
 
   try {
-    const meta = await (await fetch('data/meta.json')).json();
+    const meta = await (await fetch('data/meta.json', {cache:'no-cache'})).json();
     document.getElementById('last-updated').textContent = meta.last_run || '—';
   } catch(e) {
     document.getElementById('last-updated').textContent = '13 luglio 2026';
   }
 
   try {
-    MANUALI = await (await fetch('data/manuali.json')).json();
+    MANUALI = await (await fetch('data/manuali.json', {cache:'no-cache'})).json();
   } catch(e) {
     MANUALI = [];
   }
 
   try {
-    CONTABILI = await (await fetch('data/contabili.json')).json();
+    CONTABILI = await (await fetch('data/contabili.json', {cache:'no-cache'})).json();
   } catch(e) {
     CONTABILI = [];
   }
 
   try {
-    SOCIETARI = await (await fetch('data/societari.json')).json();
+    SOCIETARI = await (await fetch('data/societari.json', {cache:'no-cache'})).json();
   } catch(e) {
     SOCIETARI = [];
   }
 
   try {
-    DOGANALI = await (await fetch('data/doganali.json')).json();
+    DOGANALI = await (await fetch('data/doganali.json', {cache:'no-cache'})).json();
   } catch(e) {
     DOGANALI = [];
   }
 
   try {
-    PEOPLE = await (await fetch('data/people.json')).json();
+    PEOPLE = await (await fetch('data/people.json', {cache:'no-cache'})).json();
   } catch(e) {
     PEOPLE = [];
   }
