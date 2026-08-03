@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ============================================================================
+  FAC-SIMILE · ESEMPIO DIDATTICO · DATI FITTIZI
+  Registro cronologico di carico e scarico dei rifiuti (RENTRI)
+  Riferimenti: D.Lgs. 152/2006 (artt. 190); D.M. 59/2023 (Regolamento RENTRI)
+  e relativi standard tecnici. Struttura SEMPLIFICATA a scopo illustrativo:
+  NON conforme al tracciato ufficiale, non valida ad alcun fine.
+  Nomi, codici, quantita' e date sono fittizi.
+  ============================================================================
+-->
+<RegistroCronologico versione="fac-simile-1.0">
+
+  <Intestazione>
+    <TipoRegistro>Carico e scarico rifiuti</TipoRegistro>
+    <Operatore>
+      <Denominazione>Alfa Manifatturiera S.r.l.</Denominazione>
+      <CodiceFiscale>00000000000</CodiceFiscale>
+      <NumeroIscrizioneRENTRI>RENTRI-FACSIMILE-000000</NumeroIscrizioneRENTRI>
+      <CategoriaOperatore>Produttore iniziale di rifiuti</CategoriaOperatore>
+    </Operatore>
+    <UnitaLocale>
+      <Denominazione>Stabilimento di [Citta]</Denominazione>
+      <Indirizzo>Via Esempio, 1 - 00000 [Citta] (XX)</Indirizzo>
+    </UnitaLocale>
+    <NumeroRegistro>1/2026</NumeroRegistro>
+    <DataApertura>2026-01-02</DataApertura>
+    <VidimazioneDigitale>RENTRI-VIDIMA-FACSIMILE</VidimazioneDigitale>
+  </Intestazione>
+
+  <Movimenti>
+
+    <Annotazione>
+      <NumeroProgressivo>1</NumeroProgressivo>
+      <DataRegistrazione>2026-01-08</DataRegistrazione>
+      <TipoOperazione>CARICO</TipoOperazione>
+      <Causale>Produzione</Causale>
+      <Rifiuto>
+        <CodiceEER>150106</CodiceEER>
+        <Descrizione>imballaggi in materiali misti</Descrizione>
+        <Pericoloso>false</Pericoloso>
+        <StatoFisico>Solido non pulverulento</StatoFisico>
+        <CaratteristichePericolo/>
+      </Rifiuto>
+      <Quantita>
+        <Valore>1250.00</Valore>
+        <UnitaMisura>kg</UnitaMisura>
+        <PesoVerificato>true</PesoVerificato>
+      </Quantita>
+      <RiferimentoFIR/>
+      <Annotazioni>Rifiuto prodotto dal reparto imballaggio.</Annotazioni>
+    </Annotazione>
+
+    <Annotazione>
+      <NumeroProgressivo>2</NumeroProgressivo>
+      <DataRegistrazione>2026-01-10</DataRegistrazione>
+      <TipoOperazione>CARICO</TipoOperazione>
+      <Causale>Produzione</Causale>
+      <Rifiuto>
+        <CodiceEER>130208*</CodiceEER>
+        <Descrizione>altri oli per motori, ingranaggi e lubrificazione</Descrizione>
+        <Pericoloso>true</Pericoloso>
+        <StatoFisico>Liquido</StatoFisico>
+        <CaratteristichePericolo>
+          <HP>HP5</HP>
+          <HP>HP14</HP>
+        </CaratteristichePericolo>
+      </Rifiuto>
+      <Quantita>
+        <Valore>320.00</Valore>
+        <UnitaMisura>kg</UnitaMisura>
+        <PesoVerificato>true</PesoVerificato>
+      </Quantita>
+      <RiferimentoFIR/>
+      <Annotazioni>Olio esausto da manutenzione macchinari - deposito temporaneo.</Annotazioni>
+    </Annotazione>
+
+    <Annotazione>
+      <NumeroProgressivo>3</NumeroProgressivo>
+      <DataRegistrazione>2026-01-24</DataRegistrazione>
+      <TipoOperazione>SCARICO</TipoOperazione>
+      <Causale>Conferimento a terzi</Causale>
+      <Rifiuto>
+        <CodiceEER>130208*</CodiceEER>
+        <Descrizione>altri oli per motori, ingranaggi e lubrificazione</Descrizione>
+        <Pericoloso>true</Pericoloso>
+        <StatoFisico>Liquido</StatoFisico>
+        <CaratteristichePericolo>
+          <HP>HP5</HP>
+          <HP>HP14</HP>
+        </CaratteristichePericolo>
+      </Rifiuto>
+      <Quantita>
+        <Valore>320.00</Valore>
+        <UnitaMisura>kg</UnitaMisura>
+        <PesoVerificato>true</PesoVerificato>
+      </Quantita>
+      <OperazioneRecuperoSmaltimento>R13</OperazioneRecuperoSmaltimento>
+      <Trasportatore>
+        <Denominazione>Beta Trasporti S.r.l.</Denominazione>
+        <CodiceFiscale>11111111111</CodiceFiscale>
+        <IscrizioneAlboGestori>XX/000000</IscrizioneAlboGestori>
+      </Trasportatore>
+      <Destinatario>
+        <Denominazione>Gamma Recuperi S.p.A.</Denominazione>
+        <CodiceFiscale>22222222222</CodiceFiscale>
+        <ImpiantoDestinazione>Impianto di stoccaggio - [Citta]</ImpiantoDestinazione>
+      </Destinatario>
+      <RiferimentoFIR>FIR-FACSIMILE-2026-000123</RiferimentoFIR>
+      <Annotazioni>Conferimento accompagnato da formulario xFIR n. FIR-FACSIMILE-2026-000123.</Annotazioni>
+    </Annotazione>
+
+  </Movimenti>
+
+  <PiePagina>
+    <Nota>Documento FAC-SIMILE a scopo esclusivamente didattico. Non conforme al tracciato ufficiale RENTRI e non valido ad alcun fine. Dati fittizi.</Nota>
+  </PiePagina>
+
+</RegistroCronologico>

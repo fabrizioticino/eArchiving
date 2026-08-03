@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ============================================================================
+  FAC-SIMILE · ESEMPIO DIDATTICO · DATI FITTIZI
+  File .xFIR - Formulario di Identificazione del Rifiuto (FIR) in formato XML
+  Riferimenti: D.Lgs. 152/2006 (art. 193); D.M. 59/2023 (Regolamento RENTRI)
+  e relativi standard tecnici sul formato xFIR. Struttura SEMPLIFICATA a scopo
+  illustrativo: NON conforme al tracciato ufficiale, non valida ad alcun fine.
+  Nomi, codici, quantita', targhe e date sono fittizi.
+  ============================================================================
+-->
+<xFIR versione="fac-simile-1.0">
+
+  <Formulario>
+    <NumeroFIR>FIR-FACSIMILE-2026-000123</NumeroFIR>
+    <DataEmissione>2026-01-24</DataEmissione>
+    <DataOraInizioTrasporto>2026-01-24T09:30:00+01:00</DataOraInizioTrasporto>
+    <TipoTrasporto>Ordinario</TipoTrasporto>
+  </Formulario>
+
+  <ProduttoreDetentore>
+    <Denominazione>Alfa Manifatturiera S.r.l.</Denominazione>
+    <CodiceFiscale>00000000000</CodiceFiscale>
+    <NumeroIscrizioneRENTRI>RENTRI-FACSIMILE-000000</NumeroIscrizioneRENTRI>
+    <UnitaLocale>
+      <Indirizzo>Via Esempio, 1 - 00000 [Citta] (XX)</Indirizzo>
+    </UnitaLocale>
+  </ProduttoreDetentore>
+
+  <Trasportatore>
+    <Denominazione>Beta Trasporti S.r.l.</Denominazione>
+    <CodiceFiscale>11111111111</CodiceFiscale>
+    <IscrizioneAlboGestori>XX/000000</IscrizioneAlboGestori>
+    <Conducente>Mario Bianchi (nominativo fittizio)</Conducente>
+    <TargaMezzo>XX000XX</TargaMezzo>
+    <TargaRimorchio/>
+  </Trasportatore>
+
+  <Destinatario>
+    <Denominazione>Gamma Recuperi S.p.A.</Denominazione>
+    <CodiceFiscale>22222222222</CodiceFiscale>
+    <IscrizioneAlboGestori>XX/111111</IscrizioneAlboGestori>
+    <ImpiantoDestinazione>
+      <Denominazione>Impianto di stoccaggio - [Citta]</Denominazione>
+      <Indirizzo>Via Impianto, 10 - 00000 [Citta] (XX)</Indirizzo>
+      <TipoImpianto>Stoccaggio (D15/R13)</TipoImpianto>
+    </ImpiantoDestinazione>
+  </Destinatario>
+
+  <Intermediario/>
+
+  <Rifiuto>
+    <CodiceEER>130208*</CodiceEER>
+    <Descrizione>altri oli per motori, ingranaggi e lubrificazione</Descrizione>
+    <Pericoloso>true</Pericoloso>
+    <CaratteristichePericolo>
+      <HP>HP5</HP>
+      <HP>HP14</HP>
+    </CaratteristichePericolo>
+    <StatoFisico>Liquido</StatoFisico>
+    <ProvenienzaRifiuto>Speciale</ProvenienzaRifiuto>
+    <CaratteristicheChimicoFisiche>Oli minerali esausti - non clorurati</CaratteristicheChimicoFisiche>
+    <OperazioneRecuperoSmaltimento>R13</OperazioneRecuperoSmaltimento>
+    <Quantita>
+      <Valore>320.00</Valore>
+      <UnitaMisura>kg</UnitaMisura>
+      <PesoVerificatoAPartenza>true</PesoVerificatoAPartenza>
+    </Quantita>
+    <NumeroColli>2</NumeroColli>
+    <TipoImballaggio>Cisternetta IBC 1000 L</TipoImballaggio>
+    <AllaRinfusa>false</AllaRinfusa>
+  </Rifiuto>
+
+  <Percorso>
+    <PartenzaDa>Via Esempio, 1 - [Citta]</PartenzaDa>
+    <DestinazioneA>Via Impianto, 10 - [Citta]</DestinazioneA>
+    <PercorsoProgrammato>Itinerario piu' breve autorizzato</PercorsoProgrammato>
+  </Percorso>
+
+  <EsitoConferimento>
+    <DataOraArrivo>2026-01-24T11:05:00+01:00</DataOraArrivo>
+    <RifiutoAccettato>true</RifiutoAccettato>
+    <QuantitaAccettata>
+      <Valore>320.00</Valore>
+      <UnitaMisura>kg</UnitaMisura>
+    </QuantitaAccettata>
+    <QuantitaRespinta>
+      <Valore>0.00</Valore>
+      <UnitaMisura>kg</UnitaMisura>
+    </QuantitaRespinta>
+    <Note>Conferimento regolare, nessuna difformita' rilevata.</Note>
+  </EsitoConferimento>
+
+  <Firme>
+    <FirmaProduttore>[firma digitale - FAC-SIMILE]</FirmaProduttore>
+    <FirmaTrasportatore>[firma digitale - FAC-SIMILE]</FirmaTrasportatore>
+    <FirmaDestinatario>[firma digitale - FAC-SIMILE]</FirmaDestinatario>
+    <MarcaTemporale>[riferimento marca temporale - FAC-SIMILE]</MarcaTemporale>
+  </Firme>
+
+  <PiePagina>
+    <Nota>Documento FAC-SIMILE a scopo esclusivamente didattico. Non conforme al tracciato ufficiale xFIR/RENTRI e non valido ad alcun fine. Dati fittizi.</Nota>
+  </PiePagina>
+
+</xFIR>
