@@ -15,7 +15,8 @@
       "Art. 40 — Formazione di documenti informatici nelle PA",
       "Art. 43 — Riproduzione e conservazione dei documenti",
       "Art. 44 — Requisiti del sistema di conservazione (autenticità, integrità, affidabilità, leggibilità, reperibilità)",
-      "Art. 71 — Rinvio alle Linee guida AgID per le regole tecniche"
+      "Art. 71 — Rinvio alle Linee guida AgID per le regole tecniche",
+      "Revisione organica in corso: delega art. 11 L. 167/2025 (entro ~2027; allineamento a eIDAS 2, interoperabilità e PDND). Modifiche puntuali con DL 19/2026 (artt. 50, 62, IPA); gli artt. 43-44-51 sulla conservazione restano invariati"
     ],
     "temi": ["quadro-normativo", "responsabile-conservazione", "formati-metadati", "sicurezza-sistemi"],
     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82"
@@ -253,7 +254,7 @@
       "Aggiornamento dei requisiti per i prestatori di servizi fiduciari",
       "Atti di esecuzione in progressiva pubblicazione"
     ],
-    "temi": ["quadro-ue", "firma-marca", "sicurezza-sistemi"],
+    "temi": ["quadro-ue", "firma-marca", "sicurezza-sistemi", "quadro-normativo"],
     "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1183"
   },
   {
@@ -806,5 +807,45 @@
     ],
     "temi": ["sicurezza-sistemi", "quadro-normativo"],
     "url": "https://www.agid.gov.it/it/sicurezza/misure-minime-sicurezza-ict"
+  },
+  {
+    "id": "legge-167-2025",
+    "title": "Legge n. 167/2025 — Legge annuale per la semplificazione e il miglioramento della qualità normativa (delega revisione CAD, art. 11)",
+    "short": "L. 167/2025 (delega CAD)",
+    "type": "Legge",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "2025 — in vigore dal 29 novembre 2025",
+    "date_iso": "2025-11-29",
+    "status": "vigente",
+    "summary": "Legge annuale per la semplificazione. L'art. 11 delega il Governo alla revisione organica del CAD (D.Lgs. 82/2005) entro diciotto mesi, con criteri direttivi orientati ad aggiornare identificazione elettronica e servizi fiduciari in coerenza con il quadro europeo (eIDAS 2) e a rafforzare l'interoperabilità dei sistemi e delle banche dati tramite la PDND (principio once only). Nel 2026 è stata avviata una consultazione pubblica sulla riforma.",
+    "key_points": [
+      "Art. 11 — Delega per la revisione organica del CAD (entro 18 mesi)",
+      "Allineamento di identità elettronica e servizi fiduciari a eIDAS 2",
+      "Rafforzamento dell'interoperabilità e della PDND (once only)",
+      "Consultazione pubblica avviata nel 2026; decreti delegati da monitorare"
+    ],
+    "temi": ["quadro-normativo", "quadro-ue"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025;167"
+  },
+  {
+    "id": "dl-19-2026",
+    "title": "Decreto-legge 19 febbraio 2026, n. 19 — Disposizioni in materia di amministrazione digitale",
+    "short": "DL 19/2026",
+    "type": "Decreto-legge",
+    "issuer": "Stato italiano",
+    "jurisdiction": "IT",
+    "date": "19 febbraio 2026",
+    "date_iso": "2026-02-19",
+    "status": "vigente",
+    "summary": "Interviene con modifiche puntuali al CAD in materia di amministrazione digitale: rafforza l'interoperabilità e l'acquisizione d'ufficio dei dati tramite la PDND, riducendo il ricorso alle autocertificazioni. Modifica, tra l'altro, l'art. 50 (interoperabilità), l'art. 62 (ANPR e identificativo ID ANPR) e la disciplina dell'IPA. Non incide direttamente sugli articoli cardine della conservazione (43, 44, 51), che restano invariati, ma produce effetti indiretti su tracciamento, metadatazione e gestione documentale.",
+    "key_points": [
+      "Art. 50 — Interoperabilità dei dati (nuovo comma) e acquisizione d'ufficio via PDND",
+      "Art. 62 — ANPR e identificativo ID ANPR in luogo del codice fiscale",
+      "Indice delle pubbliche amministrazioni (IPA)",
+      "Nessuna modifica diretta agli artt. 43-44-51 sulla conservazione"
+    ],
+    "temi": ["quadro-normativo"],
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2026-02-19;19"
   }
 ]
