@@ -1759,5 +1759,64 @@
       "D.M. 17 giugno 2014 e Linee guida AgID — esibizione dei documenti fiscali conservati in modalità informatica"
     ],
     "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021", "circolare-ade-18e-2014", "cad-82-2005"]
+  },
+  {
+    "id": "transfer-pricing",
+    "title": "Transfer Pricing — Documentazione",
+    "abstract": "Masterfile e Documentazione Nazionale sui prezzi di trasferimento: contenuto, penalty protection e — punto cruciale — firma elettronica con marca temporale entro il termine della dichiarazione.",
+    "lead": "La documentazione sui prezzi di trasferimento (transfer pricing) è l'insieme dei documenti con cui l'impresa che effettua operazioni infragruppo con parti correlate non residenti dimostra che i corrispettivi rispettano il principio di libera concorrenza (arm's length). Non è obbligatoria in senso stretto, ma predisporla in forma «idonea» consente di beneficiare della cosiddetta penalty protection: l'esonero dalle sanzioni per infedele dichiarazione in caso di rettifica dei prezzi di trasferimento. Dal punto di vista della conservazione, il tratto più delicato e specifico è che la documentazione deve essere firmata elettronicamente e marcata temporalmente entro un termine preciso: senza la marca temporale, la documentazione non è idonea e la protezione dalle sanzioni viene meno.",
+    "sezioni": [
+      {
+        "h": "Quadro normativo",
+        "p": [
+          "Il principio di libera concorrenza per le operazioni infragruppo transfrontaliere è fissato dall'articolo 110, comma 7, del TUIR. La disciplina della documentazione idonea e della connessa esimente sanzionatoria trova fondamento nell'articolo 26 del D.L. 78/2010 e nell'articolo 1, comma 6, e nell'articolo 2, comma 4-ter, del D.Lgs. 471/1997. Le regole operative attuali sono dettate dal Provvedimento del Direttore dell'Agenzia delle Entrate del 23 novembre 2020 (prot. n. 360494/2020), che ha sostituito il precedente provvedimento del 2010 e si applica a partire dal periodo d'imposta in corso alla sua pubblicazione (per i soggetti solari, dal 2020).",
+          "Il Provvedimento recepisce l'impianto OCSE (approccio Masterfile e Local file) e ne precisa struttura, contenuti e adempimenti. Ulteriori chiarimenti operativi sono stati forniti dalla Circolare dell'Agenzia delle Entrate n. 15/E del 26 novembre 2021."
+        ]
+      },
+      {
+        "h": "Masterfile e Documentazione Nazionale",
+        "p": [
+          "La documentazione idonea si compone di due documenti. Il Masterfile contiene informazioni sul gruppo multinazionale nel suo complesso: struttura organizzativa, attività, beni immateriali, attività finanziarie infragruppo e posizione fiscale del gruppo. La Documentazione Nazionale (Local file) riguarda invece la singola entità locale: descrizione dell'impresa, delle operazioni infragruppo, dell'analisi di comparabilità e del metodo adottato per la determinazione dei prezzi di trasferimento.",
+          "Con il Provvedimento del 2020 l'obbligo di predisporre entrambi i documenti è stato esteso alla generalità dei soggetti (in precedenza il Masterfile era richiesto principalmente alle holding). La documentazione va redatta in lingua italiana; il Masterfile può essere presentato anche in inglese. Sono previsti alcuni adattamenti per le piccole e medie imprese quanto all'aggiornamento di alcune parti dell'analisi."
+        ]
+      },
+      {
+        "h": "Firma elettronica e marca temporale: il punto cruciale",
+        "p": [
+          "L'innovazione più rilevante del Provvedimento del 2020, e l'aspetto che più interessa la conservazione, è l'obbligo di firma. Il Masterfile e la Documentazione Nazionale devono essere firmati dal legale rappresentante del contribuente (o da un suo delegato) mediante firma elettronica con marca temporale, da apporre entro la data di presentazione della dichiarazione dei redditi relativa al periodo d'imposta cui la documentazione si riferisce.",
+          "L'apposizione della marca temporale è espressamente qualificata come condizione essenziale per l'idoneità della documentazione: la marca temporale attribuisce ai documenti una data certa e opponibile, dimostrando che la documentazione era stata predisposta e cristallizzata entro il termine di legge e non è stata formata o modificata successivamente, ad esempio dopo l'avvio di un controllo. In mancanza della firma elettronica con marca temporale entro il termine, la documentazione non è considerata idonea, con la conseguenza — sostanziale — della perdita della penalty protection, anche se i contenuti fossero completi e corretti.",
+          "Sul tipo di firma, la prassi ha chiarito che è sufficiente una firma elettronica accompagnata dalla marca temporale; nell'uso concreto si ricorre alla firma digitale con marca temporale. Per la documentazione riferita a più periodi, la firma e la marca vanno apposte per ciascuna annualità entro il rispettivo termine; per la documentazione predisposta a corredo di una dichiarazione integrativa, la marca temporale va apposta entro la data di presentazione dell'integrativa."
+        ]
+      },
+      {
+        "h": "Comunicazione in dichiarazione ed esibizione",
+        "p": [
+          "Il possesso della documentazione idonea va comunicato all'Agenzia delle Entrate barrando l'apposita casella nella dichiarazione dei redditi (modello Redditi). È questa comunicazione a segnalare all'Amministrazione la volontà di avvalersi del regime e a consentire l'accesso alla penalty protection.",
+          "In sede di controllo, la documentazione deve essere consegnata all'Agenzia entro venti giorni dalla relativa richiesta. Eventuali informazioni integrative richieste dai verificatori vanno fornite entro il termine da questi indicato. La tempestività dell'esibizione, unita alla presenza della firma e della marca temporale apposte entro il termine, è ciò che rende la documentazione effettivamente opponibile."
+        ]
+      },
+      {
+        "h": "La penalty protection",
+        "p": [
+          "Il beneficio connesso alla documentazione idonea è l'esimente sanzionatoria: in caso di rettifica del reddito derivante dalla contestazione dei prezzi di trasferimento, il contribuente che abbia predisposto e comunicato una documentazione idonea non è assoggettato alla sanzione per dichiarazione infedele altrimenti applicabile sul maggior imponibile. La documentazione non impedisce la rettifica, ma neutralizza la componente sanzionatoria, che nel transfer pricing può essere particolarmente rilevante.",
+          "La protezione opera però solo se la documentazione è idonea nella sostanza e nella forma: completa nei contenuti richiesti dal Provvedimento, comunicata in dichiarazione e — appunto — firmata elettronicamente e marcata temporalmente entro il termine. La giurisprudenza e la prassi sono rigorose nel richiedere il rispetto di tutte queste condizioni: un difetto formale come la mancanza o la tardività della marca temporale è sufficiente a far venire meno il beneficio."
+        ]
+      },
+      {
+        "h": "Conservazione a norma e data certa",
+        "p": [
+          "La documentazione di transfer pricing è, a tutti gli effetti, un insieme di documenti informatici rilevanti a fini fiscali e come tali va conservata a norma per i termini dell'accertamento, garantendone integrità, leggibilità e reperibilità. La marca temporale apposta ai fini dell'idoneità svolge qui una doppia funzione: da un lato è requisito sostanziale per la penalty protection, dall'altro fornisce la prova della data certa dei documenti, elemento centrale della conservazione a norma.",
+          "In pratica, il processo di formazione della documentazione (redazione, firma elettronica del legale rappresentante, apposizione della marca temporale entro il termine della dichiarazione) e quello di conservazione a norma vanno progettati in modo coordinato: la marca temporale che cristallizza la documentazione entro il termine confluisce nel sistema di conservazione, dove il documento è custodito con i propri metadati fino alla definizione degli accertamenti relativi al periodo d'imposta. È un caso emblematico in cui firma e marca temporale non sono un mero adempimento tecnico, ma la condizione stessa dell'efficacia giuridica del documento."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.P.R. 917/1986 (TUIR), art. 110, comma 7 — principio di libera concorrenza per le operazioni infragruppo",
+      "D.L. 78/2010, art. 26 — documentazione idonea e regime premiale (penalty protection)",
+      "D.Lgs. 471/1997, art. 1, comma 6, e art. 2, comma 4-ter — esimente dalla sanzione per infedele dichiarazione",
+      "Provvedimento AdE 23 novembre 2020, prot. n. 360494/2020 — oneri documentali; firma elettronica con marca temporale entro il termine della dichiarazione; esibizione entro 20 giorni",
+      "Circolare AdE n. 15/E del 26 novembre 2021 — chiarimenti operativi"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021", "eidas-910-2014", "etsi-en-319-421-tsa"]
   }
 ]
