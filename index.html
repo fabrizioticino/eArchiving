@@ -799,6 +799,19 @@
 </div>
 </section>
 
+<!-- ───────── Focus: documenti ambientali ───────── -->
+<section class="portal-section" data-sez="ambientali" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
+<div class="section-rule">
+  <span class="kicker">Focus</span>
+  <h2>Documenti Ambientali</h2>
+  <span class="rule-line"></span>
+  <span class="result-count" id="ambientali-count"></span>
+</div>
+<div class="section-intro">Le normative ambientali che generano documenti da conservare: EUDR (deforestazione), PPWR (imballaggi), CBAM (carbonio alle frontiere), RENTRI e FIR (tracciabilità dei rifiuti). Per ciascuna: quadro normativo, obblighi, scadenze e sanzioni, con i profili di conservazione a norma.</div>
+<div class="temi-grid" id="ambientali-grid" style="margin-bottom:40px"></div>
+</section>
+
 <!-- ───────── Focus: documenti people ───────── -->
 <section class="portal-section" data-sez="people" hidden>
 <div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
@@ -833,6 +846,7 @@ let MANUALI = [];
 let CONTABILI = [];
 let SOCIETARI = [];
 let DOGANALI = [];
+let AMBIENTALI = [];
 let PEOPLE = [];
 let currentSez = null;
 let activeFilters = { jurisdiction: 'all', status: 'all' };
@@ -1009,6 +1023,34 @@ function openSocietario(id, noPush){
   document.getElementById('detail-body').innerHTML = schedaDetailBody(c, 'Libro sociale');
   bindRelChips();
   showOverlay('societario-' + id, noPush);
+}
+
+/* ───────── Documenti ambientali ───────── */
+function renderAmbientali(){
+  const grid = document.getElementById('ambientali-grid');
+  if(!grid) return;
+  grid.innerHTML = AMBIENTALI.map(c => `
+    <div class="tema-card" tabindex="0" data-id="${c.id}" role="button" aria-label="Apri scheda ${c.title}">
+      <div class="tema-num">SCHEDA</div>
+      <div class="tema-title">${c.title}</div>
+      <div class="tema-abstract">${c.abstract}</div>
+      <div class="tema-foot">Apri la scheda →</div>
+    </div>`).join('');
+  grid.querySelectorAll('.tema-card').forEach(card => {
+    card.addEventListener('click', () => openAmbientale(card.dataset.id));
+    card.addEventListener('keypress', e => { if(e.key === 'Enter') openAmbientale(card.dataset.id); });
+  });
+  const cnt = document.getElementById('ambientali-count');
+  if(cnt) cnt.textContent = `${AMBIENTALI.length} schede`;
+}
+
+function openAmbientale(id, noPush){
+  const c = AMBIENTALI.find(x => x.id === id);
+  if(!c) return;
+  document.getElementById('detail-title').textContent = c.title;
+  document.getElementById('detail-body').innerHTML = schedaDetailBody(c, 'Documento ambientale');
+  bindRelChips();
+  showOverlay('ambientale-' + id, noPush);
 }
 
 /* ───────── Documenti doganali (Import / Export) ───────── */
@@ -1269,6 +1311,7 @@ function routeFromHash(){
   if(hash.startsWith('contabile-')){ setSection('contabili'); openContabile(hash.slice(10), true); return; }
   if(hash.startsWith('societario-')){ setSection('societari'); openSocietario(hash.slice(11), true); return; }
   if(hash.startsWith('doganale-')){ setSection('doganali'); openDoganale(hash.slice(9), true); return; }
+  if(hash.startsWith('ambientale-')){ setSection('ambientali'); openAmbientale(hash.slice(11), true); return; }
   if(hash.startsWith('people-')){ setSection('people'); openPeople(hash.slice(7), true); return; }
   if(hash.startsWith('fonte-')){
     const id = hash.slice(6);
@@ -1353,6 +1396,12 @@ async function init(){
   }
 
   try {
+    AMBIENTALI = await (await fetch('data/ambientali.json', {cache:'no-cache'})).json();
+  } catch(e) {
+    AMBIENTALI = [];
+  }
+
+  try {
     PEOPLE = await (await fetch('data/people.json', {cache:'no-cache'})).json();
   } catch(e) {
     PEOPLE = [];
@@ -1365,6 +1414,7 @@ async function init(){
   renderContabili();
   renderSocietari();
   renderDoganali();
+  renderAmbientali();
   renderPeople();
   renderHomeIndex();
   routeFromHash();

@@ -1,0 +1,253 @@
+[
+  {
+    "id": "eudr",
+    "title": "EUDR — Prodotti a deforestazione zero",
+    "abstract": "Regolamento (UE) 2023/1115: dovuta diligenza e Dichiarazione di Dovuta Diligenza per le materie prime a rischio deforestazione.",
+    "lead": "L'EUDR (European Union Deforestation Regulation), Regolamento (UE) 2023/1115, vieta l'immissione sul mercato dell'Unione e l'esportazione di una serie di materie prime e prodotti derivati se non sono «a deforestazione zero», legali nel Paese di produzione e coperti da una Dichiarazione di Dovuta Diligenza. Riguarda sette filiere a rischio — bovini, cacao, caffè, palma da olio, gomma, soia e legno — e i loro derivati (cuoio, cioccolato, mobili, pneumatici, carta, ecc.). Per gli operatori e i commercianti nasce un obbligo di tracciabilità documentale rigoroso, con dati che devono essere conservati e resi disponibili alle autorità.",
+    "sezioni": [
+      {
+        "h": "Quadro normativo e ambito",
+        "p": [
+          "Il Regolamento (UE) 2023/1115 sostituisce la precedente disciplina sul legname (EUTR, Reg. 995/2010) ampliandone di molto l'ambito. Si applica ai prodotti che contengono, sono stati nutriti con o sono stati fabbricati utilizzando le materie prime «rilevanti»: bovini, cacao, caffè, palma da olio, gomma, soia e legno. Distingue tra «operatori» (chi immette per primo il prodotto sul mercato UE o lo esporta) e «commercianti», con obblighi graduati anche in base alle dimensioni dell'impresa.",
+          "L'obiettivo è garantire che i prodotti immessi o esportati non provengano da terreni soggetti a deforestazione o degrado forestale dopo il 31 dicembre 2020 e siano conformi alla normativa del Paese di produzione. La verifica si fonda sulla geolocalizzazione degli appezzamenti di produzione, che diventa il perno del sistema di tracciabilità."
+        ]
+      },
+      {
+        "h": "Obblighi",
+        "p": [
+          "L'obbligo centrale è la dovuta diligenza (due diligence), articolata in tre passaggi: raccolta di informazioni (descrizione del prodotto, quantità, Paese di produzione, coordinate di geolocalizzazione degli appezzamenti, prove di legalità e di assenza di deforestazione dopo il 31 dicembre 2020); valutazione del rischio; mitigazione del rischio quando questo non è trascurabile.",
+          "Prima di immettere il prodotto sul mercato o di esportarlo, l'operatore deve presentare una Dichiarazione di Dovuta Diligenza (DDS) nel sistema informativo dell'Unione (basato su TRACES), ottenendo un numero di riferimento che accompagna il prodotto lungo la catena. I commercianti non PMI hanno obblighi analoghi; le PMI a valle possono in parte fare affidamento sulle DDS già presentate a monte, conservandone i riferimenti. Le informazioni e le prove vanno mantenute a disposizione delle autorità competenti."
+        ]
+      },
+      {
+        "h": "Scadenze e tempistiche",
+        "p": [
+          "Il Regolamento è entrato in vigore il 29 giugno 2023. L'applicazione degli obblighi, inizialmente prevista per la fine del 2024, è stata posticipata di dodici mesi: gli obblighi si applicano dal 30 dicembre 2025 per le grandi e medie imprese e dal 30 giugno 2026 per le micro e piccole imprese.",
+          "Sono in discussione a livello europeo ulteriori misure di semplificazione e possibili aggiustamenti del calendario: le date vanno quindi sempre verificate sulle fonti aggiornate. Resta ferma la logica di fondo, con obblighi anticipati per gli operatori più grandi e un periodo più ampio per le realtà minori."
+        ]
+      },
+      {
+        "h": "Sanzioni",
+        "p": [
+          "Le sanzioni sono definite dagli Stati membri ma il Regolamento fissa un livello minimo di severità: sanzioni pecuniarie proporzionate al danno ambientale e al valore dei prodotti, con un importo massimo pari ad almeno il 4% del fatturato annuo totale realizzato nell'Unione dall'operatore o commerciante, aumentabile per assicurare che superi il beneficio economico ottenuto.",
+          "Sono inoltre previste la confisca dei prodotti e dei relativi ricavi, l'esclusione temporanea da appalti pubblici e dall'accesso a finanziamenti pubblici, il divieto temporaneo di immettere o esportare i prodotti e, nei casi gravi o reiterati, ulteriori misure. La mancanza o l'inesattezza della documentazione di dovuta diligenza è essa stessa oggetto di contestazione."
+        ]
+      },
+      {
+        "h": "Conservazione a norma",
+        "p": [
+          "La documentazione di dovuta diligenza, le Dichiarazioni di Dovuta Diligenza e le prove raccolte (dati di geolocalizzazione, certificazioni, valutazioni del rischio) devono essere conservate per almeno cinque anni dalla data di immissione sul mercato o di esportazione, e messe a disposizione delle autorità su richiesta. Trattandosi in larga parte di documenti informatici, si applicano le regole generali sulla conservazione a norma quanto a integrità, leggibilità e reperibilità nel tempo, con metadati che consentano di ricondurre ciascun documento alla relativa DDS e alla spedizione."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Regolamento (UE) 2023/1115 (EUDR) — prodotti a deforestazione zero",
+      "Regolamento (UE) 2024/3234 — rinvio di 12 mesi dell'applicazione",
+      "Sistema informativo UE basato su TRACES — Dichiarazione di Dovuta Diligenza (DDS)"
+    ],
+    "fonti_ids": ["linee-guida-agid-2021"]
+  },
+  {
+    "id": "ppwr",
+    "title": "PPWR — Imballaggi e rifiuti di imballaggio",
+    "abstract": "Regolamento (UE) 2025/40: requisiti di sostenibilità, riuso, etichettatura e responsabilità estesa del produttore per gli imballaggi.",
+    "lead": "Il PPWR (Packaging and Packaging Waste Regulation), Regolamento (UE) 2025/40, sostituisce la Direttiva 94/62/CE e trasforma la disciplina degli imballaggi in un regolamento direttamente applicabile in tutta l'Unione. Introduce requisiti stringenti di sostenibilità, riciclabilità e riuso, nuovi obblighi di etichettatura e di informazione e un rafforzamento della responsabilità estesa del produttore, con una consistente mole di documentazione tecnica da predisporre e conservare.",
+    "sezioni": [
+      {
+        "h": "Quadro normativo e ambito",
+        "p": [
+          "Il Regolamento (UE) 2025/40 disciplina l'intero ciclo di vita degli imballaggi immessi sul mercato dell'Unione, dai requisiti di progettazione alla gestione dei rifiuti di imballaggio. Riguarda produttori, importatori e distributori di imballaggi e di prodotti imballati, con obblighi differenziati lungo la catena. La scelta del regolamento, in luogo della direttiva, mira a un'armonizzazione piena, riducendo le divergenze nazionali.",
+          "Gli imballaggi sono soggetti a requisiti di sostanza (riciclabilità, contenuto di riciclato, riduzione del peso e del volume) e a requisiti di informazione (etichettatura su composizione e conferimento), oltre a obiettivi quantitativi di riuso e riduzione."
+        ]
+      },
+      {
+        "h": "Obblighi",
+        "p": [
+          "Tra gli obblighi principali: la riciclabilità di tutti gli imballaggi secondo criteri di design for recycling; il contenuto minimo di materiale riciclato negli imballaggi in plastica; la riduzione degli imballaggi e dello spazio vuoto (rapporto tra vuoto e prodotto); restrizioni su determinati formati monouso; obiettivi di riuso e di ricarica per alcune categorie; l'etichettatura armonizzata sulla composizione del materiale e sulle modalità di raccolta.",
+          "Il produttore deve redigere la documentazione tecnica e la dichiarazione di conformità che attestano il rispetto dei requisiti, e aderire ai sistemi di responsabilità estesa del produttore (EPR), con registrazione e comunicazione dei dati sugli imballaggi immessi. La conformità è condizione per l'immissione sul mercato."
+        ]
+      },
+      {
+        "h": "Scadenze e tempistiche",
+        "p": [
+          "Il Regolamento è entrato in vigore l'11 febbraio 2025. La maggior parte delle disposizioni si applica a partire dal 12 agosto 2026, cioè diciotto mesi dopo l'entrata in vigore. Numerosi obblighi specifici sono però scaglionati nel tempo, con traguardi intermedi al 2030 (obiettivi di riuso, contenuto minimo di riciclato, piena riciclabilità) e successivi.",
+          "Gli operatori devono quindi programmare l'adeguamento per fasi, tenendo conto delle date di decorrenza dei singoli requisiti e degli atti di esecuzione che ne preciseranno i criteri tecnici. Anche in questo caso le scadenze di dettaglio vanno verificate sulle fonti aggiornate."
+        ]
+      },
+      {
+        "h": "Sanzioni",
+        "p": [
+          "Il Regolamento demanda agli Stati membri la definizione delle sanzioni, che devono essere effettive, proporzionate e dissuasive. In coerenza con l'impianto europeo, si tratterà tipicamente di sanzioni amministrative pecuniarie, cui possono aggiungersi il ritiro o il divieto di immissione sul mercato dei prodotti non conformi e misure collegate ai sistemi di responsabilità estesa del produttore.",
+          "La non conformità documentale — assenza o inesattezza della documentazione tecnica, della dichiarazione di conformità o dei dati EPR — costituisce di per sé un profilo di violazione, oltre a esporre l'operatore alla contestazione sulla non conformità sostanziale dell'imballaggio."
+        ]
+      },
+      {
+        "h": "Conservazione a norma",
+        "p": [
+          "La documentazione tecnica e la dichiarazione di conformità degli imballaggi vanno conservate e tenute a disposizione delle autorità per il periodo previsto (di norma alcuni anni dall'ultima immissione sul mercato), insieme ai registri e alle comunicazioni dei sistemi di responsabilità estesa del produttore. Anche qui, la natura informatica dei documenti richiede una conservazione a norma che ne garantisca integrità e reperibilità, con metadati idonei a collegare ciascun documento alla categoria di imballaggio e al periodo di riferimento."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Regolamento (UE) 2025/40 (PPWR) — imballaggi e rifiuti di imballaggio",
+      "Direttiva 94/62/CE — disciplina previgente (abrogata/superata)",
+      "Responsabilità estesa del produttore (EPR) e atti di esecuzione della Commissione"
+    ],
+    "fonti_ids": ["linee-guida-agid-2021"]
+  },
+  {
+    "id": "cbam",
+    "title": "CBAM — Meccanismo di adeguamento del carbonio",
+    "abstract": "Regolamento (UE) 2023/956: relazioni trimestrali, dichiarazione annuale e certificati per le importazioni ad alta intensità di carbonio.",
+    "lead": "Il CBAM (Carbon Border Adjustment Mechanism), Regolamento (UE) 2023/956, applica alle importazioni di determinate merci ad alta intensità di carbonio un onere equivalente a quello che grava, tramite l'ETS, sulla produzione europea, per contrastare la delocalizzazione delle emissioni. Riguarda cemento, ferro e acciaio, alluminio, fertilizzanti, energia elettrica e idrogeno, con precisi obblighi di comunicazione, di dichiarazione e — nella fase definitiva — di acquisto e restituzione di certificati. Gli aspetti di calcolo dei certificati e dell'onere sono approfonditi nella sezione CBAM dei documenti doganali.",
+    "esempi": [
+      { "label": "Dichiarazione CBAM con calcolo dei certificati (HTML)", "file": "esempi/cbam-dichiarazione.html" }
+    ],
+    "sezioni": [
+      {
+        "h": "Quadro normativo e ambito",
+        "p": [
+          "Il Regolamento (UE) 2023/956 istituisce il CBAM e ne disciplina la fase transitoria e quella definitiva. Sono interessate le importazioni nell'Unione delle merci elencate negli allegati — cemento, ferro e acciaio, alluminio, fertilizzanti, energia elettrica e idrogeno, con alcuni precursori — per le quali occorre rendicontare le emissioni incorporate.",
+          "Il meccanismo si affianca al sistema ETS e ne segue la logica: man mano che le quote gratuite ETS si riducono, cresce l'onere CBAM a carico delle importazioni, così da equiparare il costo del carbonio tra produzione interna e importata."
+        ]
+      },
+      {
+        "h": "Obblighi",
+        "p": [
+          "Nella fase transitoria l'obbligo è di comunicazione: l'importatore (o il rappresentante doganale indiretto) presenta una relazione CBAM trimestrale con le emissioni dirette e indirette incorporate nelle merci importate, senza pagamenti.",
+          "Nella fase definitiva l'importatore deve ottenere lo status di dichiarante CBAM autorizzato, presentare una dichiarazione CBAM annuale con le emissioni incorporate verificate e acquistare e restituire un numero di certificati CBAM corrispondente a tali emissioni, al netto del carbonio eventualmente già pagato nel Paese di origine."
+        ]
+      },
+      {
+        "h": "Scadenze e tempistiche",
+        "p": [
+          "La fase transitoria va dal 1° ottobre 2023 al 31 dicembre 2025, con relazioni trimestrali (la prima riferita al quarto trimestre 2023). La fase definitiva decorre dal 1° gennaio 2026: da tale data scattano l'obbligo dei certificati e la dichiarazione annuale, la cui prima scadenza — riferita alle importazioni del 2026 — cade entro il 31 maggio 2027.",
+          "Il pacchetto di semplificazione «Omnibus» del 2025 ha introdotto una soglia de minimis (esenzione entro un quantitativo annuo di importazioni, indicativamente 50 tonnellate) che esonera i piccoli importatori dalla gran parte degli obblighi. Le regole operative sono precisate da atti di esecuzione da verificare in continuo."
+        ]
+      },
+      {
+        "h": "Sanzioni",
+        "p": [
+          "Nella fase definitiva è prevista una penalità per ogni certificato CBAM non restituito a fronte delle emissioni dichiarate, di importo analogo alla sanzione ETS per le quote mancanti (dell'ordine di un centinaio di euro per tonnellata di CO2, indicizzata), che si aggiunge all'obbligo di regolarizzazione.",
+          "Nella fase transitoria sono previste sanzioni per la mancata presentazione delle relazioni trimestrali o per relazioni incomplete o errate, con importi per tonnellata di emissioni non comunicate. La corretta tenuta della documentazione a supporto (dati di emissione, verifiche) è essenziale per evitare contestazioni."
+        ]
+      },
+      {
+        "h": "Conservazione a norma",
+        "p": [
+          "L'importatore e il dichiarante CBAM devono conservare la documentazione a supporto delle emissioni incorporate, delle verifiche e dei certificati (di norma per almeno alcuni anni), a disposizione delle autorità. I documenti — relazioni, dichiarazioni, evidenze di calcolo e di verifica — sono documenti informatici da conservare a norma, con metadati che consentano di ricondurli al periodo, alla merce e alla spedizione. Per il dettaglio del calcolo dei certificati si rinvia alla sezione CBAM dei documenti doganali e al relativo esempio."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "Regolamento (UE) 2023/956 (CBAM) — meccanismo di adeguamento del carbonio alle frontiere",
+      "Regolamento di esecuzione (UE) 2023/1773 — obblighi di comunicazione nella fase transitoria",
+      "Pacchetto Omnibus 2025 — soglia de minimis e semplificazioni"
+    ],
+    "fonti_ids": ["dm-mef-17-06-2014", "linee-guida-agid-2021"]
+  },
+  {
+    "id": "rentri",
+    "title": "RENTRI — Tracciabilità digitale dei rifiuti",
+    "abstract": "D.M. 59/2023 (art. 188-bis TUA): iscrizione, registro cronologico e FIR digitali, con obblighi, scaglionamento e sanzioni.",
+    "lead": "Il RENTRI (Registro Elettronico Nazionale per la Tracciabilità dei Rifiuti), istituito dall'art. 188-bis del Testo Unico Ambientale (D.Lgs. 152/2006) e attuato dal D.M. 59/2023, digitalizza la tracciabilità dei rifiuti: iscrizione al registro nazionale, tenuta digitale del registro cronologico di carico e scarico e produzione del Formulario di Identificazione del Rifiuto in formato xFIR. Gli aspetti di conservazione a norma dei documenti RENTRI sono approfonditi nel tema dedicato, cui questa scheda rinvia.",
+    "esempi": [
+      { "label": "Registro cronologico di carico/scarico (XML)", "file": "esempi/rentri-registro-carico-scarico.xml" },
+      { "label": "Formulario in formato xFIR (.xFIR)", "file": "esempi/rentri-formulario.xfir" }
+    ],
+    "sezioni": [
+      {
+        "h": "Quadro normativo e ambito",
+        "p": [
+          "Il RENTRI supera la frammentazione dei supporti cartacei introducendo strumenti digitali interoperabili per la tracciabilità dei rifiuti. La cornice è l'art. 188-bis del D.Lgs. 152/2006, introdotto dal D.Lgs. 116/2020, attuato dal D.M. 4 aprile 2023, n. 59 (Regolamento RENTRI) e dai relativi standard tecnici, che definiscono anche il tracciato xFIR.",
+          "Rientrano nel perimetro i produttori, i trasportatori, i gestori e gli altri soggetti obbligati alla tenuta del registro di carico e scarico e all'emissione del formulario, con adempimenti graduati in base a tipologia e dimensione."
+        ]
+      },
+      {
+        "h": "Obblighi",
+        "p": [
+          "Gli obblighi principali sono: l'iscrizione al RENTRI; la tenuta in formato digitale del registro cronologico di carico e scarico (art. 190 TUA); la vidimazione digitale di registri e formulari tramite i servizi del portale; la produzione del FIR (art. 193 TUA) secondo il tracciato dati xFIR.",
+          "Il sistema alimenta progressivamente anche gli adempimenti dichiarativi, con l'obiettivo di ridurre gli oneri per i soggetti iscritti. Gli operatori devono organizzare processi e sistemi informativi coerenti con i servizi del portale e con gli standard tecnici."
+        ]
+      },
+      {
+        "h": "Scadenze e tempistiche",
+        "p": [
+          "L'iscrizione al RENTRI è avvenuta in modo scaglionato: dal 15 dicembre 2024 per gli enti e le imprese con più di 50 dipendenti e per i gestori; dal 15 giugno 2025 per i soggetti da 11 a 50 dipendenti; dal 15 dicembre 2025 per gli altri soggetti obbligati (fino a 10 dipendenti).",
+          "A regime, registro cronologico e formulario vanno tenuti in formato digitale secondo gli standard tecnici. Le tempistiche e le modalità operative sono precisate dai provvedimenti attuativi e dagli standard tecnici del RENTRI."
+        ]
+      },
+      {
+        "h": "Sanzioni",
+        "p": [
+          "Le violazioni in materia di tracciabilità sono sanzionate dal Testo Unico Ambientale. L'art. 258 punisce con sanzioni amministrative pecuniarie l'omessa, incompleta o inesatta tenuta dei registri di carico e scarico e le irregolarità relative ai formulari; l'art. 260-bis disciplina le violazioni del sistema di tracciabilità. Gli importi variano a seconda della violazione e della natura, pericolosa o meno, dei rifiuti, con riduzioni quando i dati incompleti o inesatti non pregiudicano la tracciabilità.",
+          "Alla mancata iscrizione o al mancato utilizzo dei servizi digitali si applicano le sanzioni previste dalla disciplina RENTRI e dal TUA. Gli importi vanno verificati nella misura vigente al momento della violazione."
+        ]
+      },
+      {
+        "h": "Conservazione a norma",
+        "p": [
+          "Registro cronologico e FIR digitali vanno conservati a norma secondo le Linee guida AgID (formati idonei, metadati, firma e marca temporale). Quanto ai tempi, la conservazione dei documenti RENTRI rispetta le stesse tempistiche della conservazione dei documenti contabili: essendo documenti rilevanti anche a fini fiscali e amministrativi, sono conservati fino alla definizione degli accertamenti e comunque per il termine ordinario decennale (art. 2220 c.c.), che assorbe i più brevi termini minimi della normativa ambientale. Per l'approfondimento e gli esempi si rinvia al tema Conservazione RENTRI."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.Lgs. 152/2006 (TUA), art. 188-bis — RENTRI; art. 190 — registro di carico e scarico; art. 193 — formulario",
+      "D.Lgs. 116/2020 — introduzione dell'art. 188-bis",
+      "D.M. 4 aprile 2023, n. 59 — Regolamento RENTRI e standard tecnici (tracciato xFIR)",
+      "D.Lgs. 152/2006, artt. 258 e 260-bis — sanzioni su registri, formulari e tracciabilità"
+    ],
+    "fonti_ids": ["dm-59-2023-rentri", "standard-tecnici-rentri-xfir", "tua-152-2006-rifiuti", "dlgs-116-2020"]
+  },
+  {
+    "id": "fir",
+    "title": "FIR — Formulario di Identificazione del Rifiuto",
+    "abstract": "Art. 193 TUA: il documento che accompagna il trasporto dei rifiuti, in formato xFIR con il RENTRI, con obblighi, tempistiche e sanzioni.",
+    "lead": "Il Formulario di Identificazione del Rifiuto (FIR), disciplinato dall'art. 193 del Testo Unico Ambientale, è il documento che accompagna il trasporto dei rifiuti e ne attesta la tracciabilità dal produttore/detentore al destinatario. Con il RENTRI il FIR assume la forma digitale, prodotta secondo il tracciato dati xFIR e sottoposta a vidimazione digitale. È strettamente collegato al registro cronologico di carico e scarico, con cui condivide i riferimenti.",
+    "esempi": [
+      { "label": "Formulario in formato xFIR (.xFIR)", "file": "esempi/rentri-formulario.xfir" }
+    ],
+    "sezioni": [
+      {
+        "h": "Quadro normativo e ambito",
+        "p": [
+          "Il FIR è disciplinato dall'art. 193 del D.Lgs. 152/2006. Accompagna il trasporto dei rifiuti effettuato da enti e imprese e riporta i dati del produttore o detentore, del trasportatore e del destinatario, la descrizione del rifiuto (codice EER), la quantità, le caratteristiche di pericolo e il percorso.",
+          "Con il RENTRI e i relativi standard tecnici, il formulario è prodotto in formato digitale (xFIR) e vidimato digitalmente; il file .xFIR è tipicamente un contenitore firmato ASiC-E che raccoglie i documenti delle fasi del trasporto e le firme dei diversi attori."
+        ]
+      },
+      {
+        "h": "Obblighi",
+        "p": [
+          "Per ogni trasporto di rifiuti soggetto all'obbligo, deve essere emesso il formulario, salvo le esclusioni previste dalla legge. Il documento è redatto in più esemplari (o nel corrispondente formato digitale) e deve essere datato e sottoscritto; all'arrivo, il destinatario ne restituisce copia controfirmata con l'indicazione della quantità accettata e dell'esito del conferimento.",
+          "Il produttore o detentore deve ricevere la copia completa (o l'evidenza digitale dell'avvenuto conferimento) attestante l'esito del trasporto. Con il RENTRI questi passaggi avvengono attraverso il tracciato xFIR e i servizi digitali."
+        ]
+      },
+      {
+        "h": "Scadenze e tempistiche",
+        "p": [
+          "L'obbligo di emissione del formulario per il trasporto dei rifiuti è a regime. La digitalizzazione tramite il tracciato xFIR segue lo scaglionamento del RENTRI (dal 15 dicembre 2024, dal 15 giugno 2025 e dal 15 dicembre 2025, a seconda della categoria di soggetto).",
+          "Il produttore o detentore deve ottenere la copia controfirmata del formulario, o la corrispondente evidenza digitale dell'avvenuto conferimento, entro il termine previsto dalla legge (di norma tre mesi dalla consegna dei rifiuti al trasportatore); in mancanza, è tenuto a dare comunicazione alle autorità competenti."
+        ]
+      },
+      {
+        "h": "Sanzioni",
+        "p": [
+          "L'art. 258 del Testo Unico Ambientale sanziona il trasporto di rifiuti senza il formulario o con un formulario recante dati incompleti o inesatti, con sanzione amministrativa pecuniaria; per i rifiuti pericolosi le conseguenze sono più severe e possono assumere rilievo penale nelle ipotesi più gravi. Se le indicazioni incomplete o inesatte non pregiudicano la tracciabilità, si applica una sanzione ridotta.",
+          "Le irregolarità sui formulari si collegano spesso a quelle sui registri di carico e scarico, dando luogo a contestazioni cumulative in sede di controllo. Gli importi vanno verificati nella misura prevista dalla normativa vigente."
+        ]
+      },
+      {
+        "h": "Conservazione a norma",
+        "p": [
+          "Le copie del formulario (o gli xFIR digitali) vanno conservate per i termini previsti dal Testo Unico Ambientale, allineati — nella prassi della conservazione a norma — alle stesse tempistiche dei documenti contabili, così da garantirne la disponibilità in sede di controllo. Trattandosi di documenti informatici, si applicano le regole delle Linee guida AgID quanto a formati, metadati, firma e marca temporale. Per un esempio concreto si rinvia al file xFIR allegato e al tema Conservazione RENTRI."
+        ]
+      }
+    ],
+    "fonti_norm": [
+      "D.Lgs. 152/2006 (TUA), art. 193 — Formulario di Identificazione del Rifiuto (FIR)",
+      "D.M. 4 aprile 2023, n. 59 — Regolamento RENTRI e standard tecnici (tracciato xFIR)",
+      "D.Lgs. 152/2006, art. 258 — sanzioni per trasporto senza formulario o con dati incompleti/inesatti"
+    ],
+    "fonti_ids": ["tua-152-2006-rifiuti", "dm-59-2023-rentri", "standard-tecnici-rentri-xfir"]
+  }
+]
