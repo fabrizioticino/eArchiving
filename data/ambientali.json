@@ -756,41 +756,152 @@
     "abstract": "Art. 193 TUA: il documento che accompagna il trasporto dei rifiuti, in formato xFIR con il RENTRI, con obblighi, tempistiche e sanzioni.",
     "lead": "Il Formulario di Identificazione del Rifiuto (FIR), disciplinato dall'art. 193 del Testo Unico Ambientale, è il documento che accompagna il trasporto dei rifiuti e ne attesta la tracciabilità dal produttore/detentore al destinatario. Con il RENTRI il FIR assume la forma digitale, prodotta secondo il tracciato dati xFIR e sottoposta a vidimazione digitale. È strettamente collegato al registro cronologico di carico e scarico, con cui condivide i riferimenti.",
     "esempi": [
+      { "label": "Formulario (FIR) — rappresentazione leggibile (HTML)", "file": "esempi/fir-formulario-esempio.html" },
       { "label": "Formulario in formato xFIR (.xFIR)", "file": "esempi/rentri-formulario.xfir" }
     ],
     "sezioni": [
       {
-        "h": "Quadro normativo e ambito",
+        "h": "Contesto: il documento che segue il rifiuto",
         "p": [
-          "Il FIR è disciplinato dall'art. 193 del D.Lgs. 152/2006. Accompagna il trasporto dei rifiuti effettuato da enti e imprese e riporta i dati del produttore o detentore, del trasportatore e del destinatario, la descrizione del rifiuto (codice EER), la quantità, le caratteristiche di pericolo e il percorso.",
-          "Con il RENTRI e i relativi standard tecnici, il formulario è prodotto in formato digitale (xFIR) e vidimato digitalmente; il file .xFIR è tipicamente un contenitore firmato ASiC-E che raccoglie i documenti delle fasi del trasporto e le firme dei diversi attori."
+          "Se il registro cronologico fotografa la movimentazione dei rifiuti nel tempo presso ciascun operatore, il Formulario di Identificazione del Rifiuto (FIR) è il documento che segue fisicamente il rifiuto durante il trasporto, attestandone il percorso dal produttore o detentore al destinatario. È lo strumento che rende visibile e verificabile il passaggio più delicato della filiera: quello in cui il rifiuto lascia il luogo di produzione per raggiungere l'impianto di trattamento.",
+          "Il FIR risponde a un'esigenza precisa: garantire che ogni trasporto di rifiuti sia accompagnato da un documento che ne identifichi natura, quantità, origine, destinazione e responsabili, così da prevenire abbandoni, smaltimenti irregolari e traffici illeciti. È, in sostanza, la carta d'identità del rifiuto in viaggio, e la sua corretta compilazione e conservazione è un presidio fondamentale della tracciabilità.",
+          "Con il RENTRI il formulario passa dalla forma cartacea a quella digitale, prodotta secondo il tracciato dati xFIR e vidimata digitalmente. Ne cambia il supporto, ma non la funzione: attestare e documentare il trasporto. E come ogni documento informatico, il FIR digitale pone la questione della sua conservazione a norma per il tempo previsto dalla legge."
         ]
       },
       {
-        "h": "Obblighi",
+        "h": "Quadro normativo",
         "p": [
-          "Per ogni trasporto di rifiuti soggetto all'obbligo, deve essere emesso il formulario, salvo le esclusioni previste dalla legge. Il documento è redatto in più esemplari (o nel corrispondente formato digitale) e deve essere datato e sottoscritto; all'arrivo, il destinatario ne restituisce copia controfirmata con l'indicazione della quantità accettata e dell'esito del conferimento.",
-          "Il produttore o detentore deve ricevere la copia completa (o l'evidenza digitale dell'avvenuto conferimento) attestante l'esito del trasporto. Con il RENTRI questi passaggi avvengono attraverso il tracciato xFIR e i servizi digitali."
+          "Il FIR è disciplinato dall'art. 193 del D.Lgs. 152/2006 (Testo Unico Ambientale), che ne fissa il contenuto, gli obblighi di emissione e sottoscrizione e le modalità di gestione. La disciplina si coordina con quella del registro di carico e scarico (art. 190) e con le norme sanzionatorie (art. 258 e seguenti), formando l'ossatura della tracciabilità dei rifiuti.",
+          "Con il RENTRI e i relativi standard tecnici, il formulario è prodotto in formato digitale secondo il tracciato dati xFIR e vidimato digitalmente. Il file .xFIR è tipicamente un contenitore firmato di tipo ASiC-E, che raccoglie i documenti delle diverse fasi del trasporto — partenza, trasporto, accettazione — e le firme dei rispettivi attori, con il relativo manifest e le marche temporali.",
+          "La cornice normativa del FIR è quindi duplice: da un lato le regole sostanziali del Testo Unico Ambientale sulla tracciabilità, dall'altro gli standard tecnici del RENTRI che ne definiscono il formato digitale. Gli operatori devono padroneggiare entrambe, coordinando gli obblighi ambientali con quelli tecnici e di conservazione."
         ]
       },
       {
-        "h": "Scadenze e tempistiche",
+        "h": "Ambito e casi di esclusione",
         "p": [
-          "L'obbligo di emissione del formulario per il trasporto dei rifiuti è a regime. La digitalizzazione tramite il tracciato xFIR segue lo scaglionamento del RENTRI (dal 15 dicembre 2024, dal 15 giugno 2025 e dal 15 dicembre 2025, a seconda della categoria di soggetto).",
-          "Il produttore o detentore deve ottenere la copia controfirmata del formulario, o la corrispondente evidenza digitale dell'avvenuto conferimento, entro il termine previsto dalla legge (di norma tre mesi dalla consegna dei rifiuti al trasportatore); in mancanza, è tenuto a dare comunicazione alle autorità competenti."
+          "L'obbligo di emissione del formulario riguarda il trasporto dei rifiuti effettuato da enti e imprese, con alcune esclusioni e semplificazioni previste dalla legge, ad esempio per determinati trasporti di rifiuti non pericolosi effettuati dal produttore in quantità limitate, o per specifiche situazioni disciplinate dal Testo Unico Ambientale. La corretta individuazione dei casi in cui il FIR è dovuto è il primo passo della compliance.",
+          "Il formulario si applica a rifiuti pericolosi e non pericolosi, con obblighi rafforzati per i primi. Ogni trasporto soggetto deve essere accompagnato dal FIR corrispondente, che identifica il rifiuto trasportato e i soggetti coinvolti. La mancanza del formulario per un trasporto soggetto è una delle violazioni più gravi e frequentemente contestate.",
+          "La verifica dell'applicabilità e delle eventuali esclusioni va documentata: la scelta di non emettere il formulario per un trasporto deve poter essere giustificata sulla base di una esclusione prevista dalla legge. Anche questa valutazione fa parte del corredo documentale dell'operatore."
+        ]
+      },
+      {
+        "h": "Il contenuto del formulario",
+        "p": [
+          "Il formulario riporta un insieme definito di informazioni: i dati del produttore o detentore, del trasportatore e del destinatario; la descrizione del rifiuto con il codice EER; le caratteristiche di pericolo per i rifiuti pericolosi; lo stato fisico; la quantità e il numero di colli; l'operazione di recupero o smaltimento a cui il rifiuto è destinato; il percorso e gli estremi del mezzo di trasporto. Nel formato xFIR questi dati sono strutturati secondo il tracciato tecnico.",
+          "La completezza e l'esattezza di queste informazioni sono essenziali: un dato mancante o errato può compromettere la tracciabilità e configurare una violazione. La descrizione del rifiuto e la sua classificazione, in particolare, sono aspetti critici, perché determinano il trattamento e i controlli applicabili.",
+          "Un esempio didattico di formulario, sia in rappresentazione leggibile sia nel formato xFIR, è allegato a questa scheda: mostra la struttura dei dati e la loro articolazione tra i diversi soggetti e le diverse fasi del trasporto. La rappresentazione leggibile aiuta a comprendere il contenuto del contenitore xFIR."
+        ]
+      },
+      {
+        "h": "Il ciclo del formulario: emissione, trasporto, accettazione",
+        "p": [
+          "Il formulario segue un ciclo che rispecchia le fasi del trasporto. All'emissione, il produttore o detentore compila i dati del rifiuto e del trasporto e sottoscrive il documento; il trasportatore lo accompagna durante il viaggio. All'arrivo, il destinatario verifica il carico, indica la quantità accettata ed eventualmente respinta e l'esito del conferimento, e controfirma il formulario.",
+          "Nel RENTRI questo ciclo si realizza attraverso il tracciato xFIR e i servizi digitali: le diverse fasi — partenza, trasporto, accettazione — sono documentate e firmate digitalmente dai rispettivi attori, e il contenitore xFIR le raccoglie. La struttura per fasi consente a ciascun soggetto di sottoscrivere la propria parte, garantendo la tracciabilità dell'intero percorso.",
+          "Il produttore o detentore deve ricevere la copia completa del formulario controfirmato, o la corrispondente evidenza digitale dell'avvenuto conferimento, attestante l'esito del trasporto. È questo il documento che chiude il ciclo e che prova il corretto conferimento del rifiuto."
+        ]
+      },
+      {
+        "h": "Il termine per il ritorno del formulario",
+        "p": [
+          "Uno degli aspetti più rilevanti del regime del FIR è il termine entro cui il produttore o detentore deve ricevere la copia controfirmata del formulario, o l'evidenza digitale dell'avvenuto conferimento: di norma tre mesi dalla consegna dei rifiuti al trasportatore. Questo termine è la garanzia che il rifiuto sia effettivamente giunto a destinazione ed è stato correttamente conferito.",
+          "In mancanza del ritorno del formulario entro il termine, il produttore o detentore è tenuto a darne comunicazione alle autorità competenti. Questo obbligo di segnalazione è cruciale: esso trasferisce sul produttore la responsabilità di attivarsi quando il percorso del rifiuto non risulti concluso, prevenendo che eventuali smaltimenti irregolari restino ignoti.",
+          "Il rispetto di questo meccanismo — ricezione del formulario di ritorno o segnalazione — è oggetto di verifica e la sua omissione è sanzionata. La documentazione dell'avvenuta ricezione o dell'eventuale segnalazione va conservata, perché è la prova che il produttore ha adempiuto al proprio obbligo di controllo sul destino del rifiuto."
+        ]
+      },
+      {
+        "h": "Il rapporto con il registro di carico e scarico",
+        "p": [
+          "Il formulario e il registro di carico e scarico sono strettamente collegati e si alimentano a vicenda. I movimenti di scarico annotati nel registro richiamano i formulari che li documentano, e i due documenti condividono i riferimenti, a partire dal numero del FIR. La coerenza tra registro e formulari è la spina dorsale della tracciabilità e uno degli aspetti più verificati in sede di controllo.",
+          "Un formulario privo di corrispondenza nel registro, o un movimento di scarico senza il relativo formulario, sono anomalie che segnalano possibili irregolarità. Per questo la gestione integrata di registro e formulari, con riferimenti coerenti, è essenziale, ed è proprio ciò che il RENTRI mira a garantire attraverso l'interoperabilità e i tracciati comuni.",
+          "Sul piano della conservazione, registro e formulari vanno custoditi insieme e in modo coerente, così da poter ricostruire, per ciascun rifiuto, sia la sua registrazione contabile sia il documento di trasporto. La conservazione a norma di entrambi, con metadati che ne consentano il collegamento, è la premessa per esibire una tracciabilità completa."
+        ]
+      },
+      {
+        "h": "Rifiuti pericolosi e profili penali",
+        "p": [
+          "Il regime del formulario è più rigoroso per i rifiuti pericolosi, per i quali gli obblighi di identificazione, di indicazione delle caratteristiche di pericolo e di corretta gestione sono rafforzati. Le irregolarità sui formulari relativi a rifiuti pericolosi possono avere conseguenze più severe e, nelle ipotesi più gravi, assumere rilievo penale, in particolare quando si inseriscono in condotte di gestione illecita o di traffico di rifiuti.",
+          "La corretta classificazione del rifiuto come pericoloso, con l'indicazione delle caratteristiche di pericolo (HP), è quindi un passaggio critico: un errore o un'omissione possono compromettere la tracciabilità e aggravare le conseguenze. La documentazione a supporto della classificazione va conservata insieme al formulario.",
+          "Per gli operatori che gestiscono rifiuti pericolosi, il rigore documentale del FIR non è un formalismo, ma un presidio contro contestazioni che possono sfociare sul piano penale. La capacità di esibire formulari completi, corretti e coerenti è la migliore difesa della regolarità della gestione."
+        ]
+      },
+      {
+        "h": "Scadenze e digitalizzazione",
+        "p": [
+          "L'obbligo di emissione del formulario per il trasporto dei rifiuti è a regime. La digitalizzazione del formulario tramite il tracciato xFIR segue lo scaglionamento del RENTRI, con l'introduzione graduale del formato digitale a seconda della categoria di soggetto — dal 15 dicembre 2024, dal 15 giugno 2025 e dal 15 dicembre 2025 — e con un periodo transitorio in cui, per alcune categorie, possono convivere modalità cartacee e digitali.",
+          "Gli operatori devono adeguare per tempo i propri sistemi alla produzione del formulario in formato xFIR e all'interazione con i servizi di vidimazione digitale del RENTRI. L'adeguamento richiede l'aggiornamento dei gestionali e il coordinamento con i fornitori software, oltre alla formazione del personale.",
+          "Le tempistiche e le modalità operative di dettaglio sono precisate dai provvedimenti attuativi e dagli standard tecnici del RENTRI, in continua definizione, e vanno verificate sulle fonti aggiornate. L'impianto resta però stabile: il formulario accompagna il trasporto, in forma digitale e vidimata."
+        ]
+      },
+      {
+        "h": "Il produttore o detentore e le sue responsabilità",
+        "p": [
+          "Il produttore o detentore del rifiuto è il primo responsabile della corretta emissione del formulario. Su di lui gravano l'obbligo di identificare e classificare correttamente il rifiuto, di compilare i dati del formulario, di consegnarlo al trasportatore e di ricevere la copia di ritorno controfirmata dal destinatario. È il soggetto attorno a cui ruota l'intero ciclo del FIR.",
+          "La responsabilità del produttore non si esaurisce con la consegna del rifiuto al trasportatore: egli deve verificare che il rifiuto sia effettivamente giunto a destinazione, ricevendo il formulario di ritorno entro il termine previsto o, in mancanza, segnalando l'anomalia alle autorità. È il principio per cui la responsabilità del produttore si estende, in certa misura, fino al corretto trattamento del rifiuto.",
+          "Per questo il produttore deve conservare i formulari di ritorno e le eventuali segnalazioni: sono la prova di aver adempiuto al proprio obbligo di controllo sul destino del rifiuto. La conservazione a norma di questi documenti è parte integrante della gestione della propria responsabilità."
+        ]
+      },
+      {
+        "h": "Il trasportatore e l'Albo gestori",
+        "p": [
+          "Il trasportatore dei rifiuti deve essere iscritto all'Albo nazionale gestori ambientali per le categorie corrispondenti ai rifiuti trasportati, ed è tenuto ad accompagnare il trasporto con il formulario, a sottoscriverlo e a rispettare le condizioni di trasporto. La regolarità della sua posizione — iscrizione, autorizzazioni, idoneità dei mezzi — è un presupposto della legittimità del trasporto.",
+          "In sede di controllo, spesso effettuato su strada, il trasportatore deve poter esibire il formulario relativo al carico trasportato e dimostrare la propria iscrizione all'Albo. La mancanza del formulario o dell'iscrizione configura violazioni che possono comportare sanzioni e il fermo del mezzo.",
+          "La documentazione del trasportatore — formulari, iscrizioni, autorizzazioni — va conservata e coordinata con quella del produttore e del destinatario, così da ricostruire l'intero percorso del rifiuto. Ciascun soggetto conserva i documenti di propria competenza, ma la tracciabilità nasce dalla loro coerenza complessiva."
+        ]
+      },
+      {
+        "h": "Il destinatario e l'accettazione del rifiuto",
+        "p": [
+          "Il destinatario è l'impianto di recupero o smaltimento cui il rifiuto è conferito. All'arrivo, verifica la conformità del carico rispetto a quanto indicato nel formulario, indica la quantità accettata ed eventualmente respinta e l'esito del conferimento, e controfirma il formulario, restituendone copia al produttore o rendendo disponibile l'evidenza digitale nel RENTRI.",
+          "L'accettazione del rifiuto da parte del destinatario è il momento che chiude il ciclo del trasporto e attesta il corretto conferimento. Eventuali difformità tra il carico e il formulario — quantità diverse, rifiuto non corrispondente — devono essere rilevate e gestite, con la respinta totale o parziale e le relative annotazioni.",
+          "Anche il destinatario ha obblighi di registrazione e di conservazione: annota il carico nel proprio registro e conserva i formulari relativi ai conferimenti ricevuti. La coerenza tra il formulario, il registro del produttore e quello del destinatario è ciò che consente di ricostruire la tracciabilità completa in sede di controllo."
+        ]
+      },
+      {
+        "h": "Intermediari e commercianti di rifiuti",
+        "p": [
+          "Nella filiera dei rifiuti possono intervenire anche intermediari e commercianti, che organizzano o gestiscono operazioni di trasporto e conferimento senza necessariamente detenere fisicamente i rifiuti. Anche a questi soggetti si applicano obblighi di iscrizione, di tracciabilità e di documentazione, coerenti con il loro ruolo nella catena.",
+          "La presenza di intermediari aumenta la complessità della tracciabilità, perché moltiplica i passaggi e i soggetti coinvolti. La coerenza dei formulari e dei riferimenti lungo tutta la catena diventa perciò ancora più importante, per evitare che l'intermediazione mascheri passaggi non tracciati o irregolari.",
+          "La documentazione degli intermediari e dei commercianti — contratti, formulari, registri — va conservata e coordinata con quella degli altri soggetti. La ricostruzione della responsabilità, in caso di gestione irregolare, passa anche per la posizione degli intermediari, la cui tracciabilità documentale è quindi essenziale."
+        ]
+      },
+      {
+        "h": "Il xFIR come contenitore firmato ASiC-E",
+        "p": [
+          "Il formato xFIR merita un approfondimento tecnico. A differenza di un singolo file XML, il file .xFIR è tipicamente un contenitore firmato di tipo ASiC-E (Associated Signature Container), ossia un archivio che raccoglie più documenti insieme alle relative firme elettroniche. All'interno del contenitore si trovano il documento principale del formulario, i file delle singole fasi del trasporto — partenza, trasporto, accettazione — un manifest e le firme XAdES dei diversi attori.",
+          "Questa struttura consente a ciascun soggetto — produttore, trasportatore, destinatario — di sottoscrivere digitalmente la propria parte nelle diverse fasi del trasporto, garantendo l'integrità e l'attribuibilità di ciascun contributo. Il contenitore ASiC-E tiene insieme, in un unico file, l'intero ciclo documentale del formulario.",
+          "Sul piano della conservazione, il contenitore xFIR va custodito integralmente, con le sue firme e i suoi metadati, così da preservarne il valore probatorio. A questa scheda è allegato un esempio di file xFIR e una sua rappresentazione leggibile, che ne illustrano la struttura interna con dati fittizi."
+        ]
+      },
+      {
+        "h": "Il valore probatorio del formulario",
+        "p": [
+          "Il formulario, correttamente compilato, sottoscritto e vidimato, ha un valore probatorio rilevante: documenta il trasporto e il conferimento del rifiuto e costituisce, in sede di controllo o di contenzioso, la prova del corretto adempimento degli obblighi di tracciabilità. Nel formato digitale, il valore probatorio è rafforzato dalle firme elettroniche e dalla marca temporale, che ne attestano l'integrità e la collocazione nel tempo.",
+          "Perché il valore probatorio si conservi, il formulario deve restare integro e leggibile nel tempo: un documento alterabile o non più leggibile perderebbe la sua efficacia come prova. È qui che la conservazione a norma svolge la propria funzione, garantendo che il formulario mantenga le proprie caratteristiche giuridiche per tutto il periodo di conservazione.",
+          "In sede di controllo, la capacità di esibire il formulario con la prova della sua autenticità e della sua data è ciò che consente di dimostrare la regolarità del trasporto. Il valore probatorio del FIR e la sua conservazione a norma sono quindi due facce della stessa esigenza: rendere la tracciabilità dimostrabile e opponibile."
+        ]
+      },
+      {
+        "h": "Buone pratiche e sistemi informativi",
+        "p": [
+          "Sul piano operativo, la corretta gestione del formulario passa per alcuni presidi: la corretta classificazione del rifiuto (codice EER, pericolosità, caratteristiche HP); la compilazione completa e accurata dei dati; l'emissione del formulario nel formato xFIR con vidimazione digitale; la verifica della ricezione del formulario di ritorno entro il termine; la conservazione a norma dei formulari e delle evidenze.",
+          "Per governare volumi anche elevati di trasporti, gli operatori si affidano a sistemi informativi integrati con il RENTRI e con l'archivio di conservazione, così che i formulari prodotti confluiscano automaticamente in un archivio affidabile. L'automazione riduce gli errori e assicura la coerenza tra formulari e registro.",
+          "La corretta gestione documentale del formulario non è quindi un adempimento isolato, ma un presidio della regolarità e della responsabilità dell'operatore lungo la filiera dei rifiuti. Un formulario ben compilato, correttamente restituito e conservato a norma è la migliore prova della diligenza nella gestione del rifiuto trasportato."
         ]
       },
       {
         "h": "Sanzioni",
         "p": [
-          "L'art. 258 del Testo Unico Ambientale sanziona il trasporto di rifiuti senza il formulario o con un formulario recante dati incompleti o inesatti, con sanzione amministrativa pecuniaria; per i rifiuti pericolosi le conseguenze sono più severe e possono assumere rilievo penale nelle ipotesi più gravi. Se le indicazioni incomplete o inesatte non pregiudicano la tracciabilità, si applica una sanzione ridotta.",
-          "Le irregolarità sui formulari si collegano spesso a quelle sui registri di carico e scarico, dando luogo a contestazioni cumulative in sede di controllo. Gli importi vanno verificati nella misura prevista dalla normativa vigente."
+          "L'art. 258 del Testo Unico Ambientale sanziona il trasporto di rifiuti senza il formulario o con un formulario recante dati incompleti o inesatti, con sanzione amministrativa pecuniaria; per i rifiuti pericolosi le conseguenze sono più severe e possono assumere rilievo penale nelle ipotesi più gravi. Se le indicazioni incomplete o inesatte non pregiudicano la tracciabilità, si applica una sanzione ridotta, in coerenza con il principio di proporzionalità.",
+          "Le irregolarità sui formulari si collegano spesso a quelle sui registri di carico e scarico, dando luogo a contestazioni cumulative in sede di controllo: un'incoerenza tra registro e formulari, o la mancanza del formulario per un movimento registrato, sono segnali che innescano approfondimenti. Gli importi delle sanzioni vanno verificati nella misura prevista dalla normativa vigente al momento della violazione.",
+          "Sul piano documentale, l'emissione regolare del formulario, la ricezione della copia di ritorno e la conservazione a norma sono la migliore difesa contro le contestazioni. In sede di controllo, la capacità di esibire i formulari relativi a ciascun trasporto, coerenti con il registro, è ciò che dimostra la regolarità della gestione dei rifiuti."
         ]
       },
       {
         "h": "Conservazione a norma",
         "p": [
-          "Le copie del formulario (o gli xFIR digitali) vanno conservate per i termini previsti dal Testo Unico Ambientale, allineati — nella prassi della conservazione a norma — alle stesse tempistiche dei documenti contabili, così da garantirne la disponibilità in sede di controllo. Trattandosi di documenti informatici, si applicano le regole delle Linee guida AgID quanto a formati, metadati, firma e marca temporale. Per un esempio concreto si rinvia al file xFIR allegato a questa scheda e alla scheda RENTRI di questa sezione."
+          "Le copie del formulario, o gli xFIR digitali, vanno conservate per i termini previsti dal Testo Unico Ambientale, allineati — nella prassi della conservazione a norma — alle stesse tempistiche dei documenti contabili, ossia fino alla definizione degli accertamenti e comunque per il termine ordinario decennale (art. 2220 c.c.), così da garantirne la disponibilità in sede di controllo. Trattandosi di documenti informatici, si applicano le regole delle Linee guida AgID quanto a formati, metadati, firma e marca temporale.",
+          "La conservazione dei formulari va coordinata con quella del registro cronologico, con metadati che consentano di collegare ciascun formulario al relativo movimento di scarico e al rifiuto trasportato. È questa organizzazione a rendere possibile l'esibizione selettiva e coerente in sede di controllo, dimostrando la tracciabilità completa dal produttore al destinatario.",
+          "In definitiva, il FIR è il documento che chiude il cerchio della tracciabilità del trasporto, e la sua conservazione a norma è la condizione perché quella tracciabilità resti dimostrabile nel tempo. A questa scheda sono allegati un esempio di formulario in rappresentazione leggibile e un esempio nel formato xFIR, con dati fittizi, che illustrano struttura e contenuto del documento."
         ]
       }
     ],

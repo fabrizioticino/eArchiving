@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAC-SIMILE — Formulario di Identificazione del Rifiuto (FIR)</title>
+<style>
+  body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:#e9e9e9;color:#161616;}
+  .banner{background:#1f7a3d;color:#fff;padding:10px 16px;text-align:center;font-size:12.5px;font-weight:600;letter-spacing:.03em;}
+  .wm{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-28deg);font-size:min(16vw,120px);color:rgba(31,122,61,.08);font-weight:800;pointer-events:none;white-space:nowrap;z-index:0;}
+  .sheet{position:relative;z-index:1;max-width:840px;margin:22px auto;background:#fff;padding:32px 42px;box-shadow:0 1px 8px rgba(0,0,0,.15);font-size:13px;line-height:1.5;}
+  .head{display:flex;justify-content:space-between;border-bottom:2px solid #161616;padding-bottom:10px;margin-bottom:6px;}
+  .ente{font-weight:700;font-size:15px;}
+  .ente small{display:block;font-weight:400;font-size:11.5px;color:#555;}
+  .prot{font-size:11.5px;color:#555;text-align:right;line-height:1.5;}
+  h1{font-size:16px;margin:14px 0 4px;text-align:center;}
+  .sub{font-size:12px;color:#444;margin-bottom:12px;text-align:center;}
+  h2{font-size:12.5px;color:#1f7a3d;margin:16px 0 4px;border-bottom:1px solid #eee;padding-bottom:3px;}
+  table{width:100%;border-collapse:collapse;margin:8px 0;font-size:12px;}
+  td,th{border:1px solid #ccc;padding:5px 8px;text-align:left;vertical-align:top;}
+  th{background:#f0f0f0;}
+  .k{background:#f6f6f6;font-weight:600;width:34%;}
+  .note{font-size:11.5px;color:#3a5566;background:#eef4fb;border-left:3px solid #3a7bbf;padding:8px 12px;margin:12px 0;}
+  .firme{display:flex;justify-content:space-between;margin-top:20px;font-size:11.5px;gap:14px;}
+  .firme div{flex:1;border-top:1px solid #999;padding-top:6px;text-align:center;}
+  .foot{margin-top:20px;font-size:10.5px;color:#777;border-top:1px solid #ddd;padding-top:10px;line-height:1.5;}
+</style>
+</head>
+<body>
+<div class="banner">FAC-SIMILE · ESEMPIO DIDATTICO · DATI FITTIZI · NON È UN FORMULARIO REALE</div>
+<div class="wm">FAC-SIMILE</div>
+<div class="sheet">
+
+  <div class="head">
+    <div class="ente">Formulario di Identificazione del Rifiuto (FIR)<small>Art. 193 D.Lgs. 152/2006 · RENTRI — formato xFIR <em>(rappresentazione leggibile)</em></small></div>
+    <div class="prot">N. FIR: FACSIMILE-2026-000123<br>Data emissione: 24/01/2026<br>Vidimazione: digitale (RENTRI)</div>
+  </div>
+
+  <h1>Formulario di Identificazione del Rifiuto</h1>
+  <div class="sub">Documento che accompagna il trasporto dei rifiuti — rappresentazione leggibile del file xFIR</div>
+
+  <h2>1 · Produttore / detentore</h2>
+  <table>
+    <tr><td class="k">Denominazione</td><td>Alfa Manifatturiera S.r.l.</td></tr>
+    <tr><td class="k">Codice fiscale</td><td>00000000000</td></tr>
+    <tr><td class="k">Iscrizione RENTRI</td><td>RENTRI-FACSIMILE-000000</td></tr>
+    <tr><td class="k">Unità locale (partenza)</td><td>Via Esempio 1 — [Città]</td></tr>
+  </table>
+
+  <h2>2 · Trasportatore</h2>
+  <table>
+    <tr><td class="k">Denominazione</td><td>Beta Trasporti S.r.l.</td></tr>
+    <tr><td class="k">Iscrizione Albo gestori</td><td>XX/000000</td></tr>
+    <tr><td class="k">Targa mezzo</td><td>XX000XX</td></tr>
+  </table>
+
+  <h2>3 · Destinatario</h2>
+  <table>
+    <tr><td class="k">Denominazione</td><td>Gamma Recuperi S.p.A.</td></tr>
+    <tr><td class="k">Impianto di destinazione</td><td>Impianto di stoccaggio — [Città]</td></tr>
+    <tr><td class="k">Operazione</td><td>R13 — messa in riserva</td></tr>
+  </table>
+
+  <h2>4 · Rifiuto</h2>
+  <table>
+    <tr><td class="k">Codice EER</td><td>130208* (pericoloso)</td></tr>
+    <tr><td class="k">Descrizione</td><td>altri oli per motori, ingranaggi e lubrificazione</td></tr>
+    <tr><td class="k">Caratteristiche di pericolo (HP)</td><td>HP5; HP14</td></tr>
+    <tr><td class="k">Stato fisico</td><td>Liquido</td></tr>
+    <tr><td class="k">Quantità</td><td>320,00 kg — n. 2 colli (cisternetta IBC)</td></tr>
+  </table>
+
+  <h2>5 · Esito del conferimento (a cura del destinatario)</h2>
+  <table>
+    <tr><td class="k">Data/ora arrivo</td><td>24/01/2026 — 11:05</td></tr>
+    <tr><td class="k">Rifiuto accettato</td><td>Sì — quantità accettata 320,00 kg; respinta 0,00 kg</td></tr>
+    <tr><td class="k">Note</td><td>Conferimento regolare, nessuna difformità</td></tr>
+  </table>
+
+  <div class="note">
+    <b>Come funziona.</b> Il FIR accompagna il trasporto dal produttore/detentore al destinatario; all'arrivo il destinatario ne restituisce l'esito controfirmato con la quantità accettata. Nel RENTRI il formulario è prodotto in formato <b>xFIR</b> (contenitore firmato) e vidimato digitalmente. Il produttore riceve l'evidenza dell'avvenuto conferimento entro i termini di legge.
+  </div>
+
+  <div class="firme">
+    <div>Produttore / detentore<br><em>[firma — FAC-SIMILE]</em></div>
+    <div>Trasportatore<br><em>[firma — FAC-SIMILE]</em></div>
+    <div>Destinatario<br><em>[firma — FAC-SIMILE]</em></div>
+  </div>
+
+  <div class="foot">
+    <b>Documento FAC-SIMILE a scopo esclusivamente didattico.</b> Denominazioni, codici, quantità, targhe e date sono <b>fittizi</b> e non costituiscono un formulario reale né vidimato nel RENTRI. È una rappresentazione leggibile e semplificata del tracciato xFIR; struttura e dati vanno prodotti secondo gli standard tecnici vigenti del RENTRI (art. 193 D.Lgs. 152/2006).
+  </div>
+
+</div>
+</body>
+</html>
