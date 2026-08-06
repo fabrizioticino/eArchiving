@@ -666,7 +666,7 @@
       "Art. 193 — Formulario di Identificazione del Rifiuto (FIR)",
       "Conservazione di registri e formulari per i termini di legge (di norma 3 anni)"
     ],
-    "temi": ["conservazione-rentri", "quadro-normativo"],
+    "temi": ["quadro-normativo"],
     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152"
   },
   {
@@ -685,7 +685,7 @@
       "Nuovo art. 188-bis TUA: istituzione del RENTRI",
       "Basi per la dematerializzazione di registri e formulari"
     ],
-    "temi": ["conservazione-rentri", "quadro-normativo", "quadro-ue"],
+    "temi": ["quadro-normativo", "quadro-ue"],
     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2020-09-03;116"
   },
   {
@@ -705,7 +705,7 @@
       "Vidimazione digitale dei documenti tramite i servizi RENTRI",
       "Rinvio ai decreti direttoriali per modelli e formati dei dati"
     ],
-    "temi": ["conservazione-rentri", "quadro-normativo", "manuale"],
+    "temi": ["quadro-normativo", "manuale"],
     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.ministeriale:2023-04-04;59"
   },
   {
@@ -725,7 +725,7 @@
       "Regole di interoperabilità, trasmissione e vidimazione digitale",
       "Aggiornati periodicamente dalla Direzione generale competente"
     ],
-    "temi": ["conservazione-rentri", "formati-metadati", "firma-marca"],
+    "temi": ["formati-metadati", "firma-marca"],
     "url": "https://www.rentri.gov.it/"
   },
   {
@@ -745,7 +745,7 @@
       "Presentazione tramite le Camere di Commercio",
       "Interazione e progressiva semplificazione con il RENTRI"
     ],
-    "temi": ["conservazione-rentri", "quadro-normativo"],
+    "temi": ["quadro-normativo"],
     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1994-01-25;70"
   },
   {

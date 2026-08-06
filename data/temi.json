@@ -620,66 +620,8 @@
     ]
   },
   {
-    "id": "conservazione-rentri",
-    "num": "13",
-    "title": "Conservazione RENTRI (tracciabilità rifiuti)",
-    "abstract": "Registro cronologico digitale, FIR digitale/xFIR e MUD: documenti informatici da conservare a norma.",
-    "body": "Con il RENTRI — Registro Elettronico Nazionale per la Tracciabilità dei Rifiuti (art. 188-bis del Testo Unico Ambientale, introdotto dal D.Lgs. 116/2020 e attuato dal D.M. 59/2023) — la documentazione sui rifiuti diventa digitale e va conservata come documento informatico. Rientrano nel perimetro: il registro cronologico di carico e scarico dei rifiuti (art. 190 TUA) tenuto in formato digitale; il Formulario di Identificazione del Rifiuto (FIR, art. 193 TUA) in formato digitale, prodotto secondo il tracciato dati xFIR definito dagli standard tecnici RENTRI e sottoposto a vidimazione digitale; il MUD (Modello Unico di Dichiarazione ambientale, Legge 70/1994). Questi documenti vanno conservati come documenti informatici applicando le regole sulla conservazione (Linee guida AgID): formati idonei, metadati, firma e marca temporale. Quanto ai tempi, la conservazione a norma dei documenti RENTRI rispetta le stesse tempistiche della conservazione dei documenti contabili: oltre ai termini minimi previsti dalla normativa ambientale, essendo documenti rilevanti anche a fini fiscali e amministrativi, sono conservati fino alla definizione degli accertamenti e comunque per il termine ordinario decennale (art. 2220 del Codice civile), che assorbe e supera i più brevi termini settoriali.",
-    "approfondimento": [
-      {
-        "h": "Il RENTRI e la digitalizzazione della tracciabilità dei rifiuti",
-        "p": [
-          "La gestione dei rifiuti è da sempre accompagnata da una documentazione articolata, storicamente cartacea, volta a garantire la tracciabilità di ogni movimentazione. Con il RENTRI, il Registro Elettronico Nazionale per la Tracciabilità dei Rifiuti, questa documentazione entra pienamente nella dimensione digitale. Il RENTRI è previsto dall'articolo 188-bis del Testo Unico Ambientale (D.Lgs. 152/2006), come riscritto dal D.Lgs. 116/2020 in attuazione delle direttive europee sull'economia circolare, ed è disciplinato in dettaglio dal Regolamento adottato con il D.M. 59/2023.",
-          "L'obiettivo del sistema è assicurare una tracciabilità efficace e trasparente dei rifiuti attraverso strumenti digitali interoperabili, superando la frammentazione dei supporti cartacei. Ma la digitalizzazione della tracciabilità porta con sé una conseguenza spesso trascurata: i documenti che ne derivano sono documenti informatici a tutti gli effetti e, in quanto tali, devono essere conservati a norma secondo le regole generali del CAD e delle Linee guida AgID, oltre che nel rispetto dei termini previsti dalla normativa ambientale."
-        ]
-      },
-      {
-        "h": "Il registro cronologico di carico e scarico in formato digitale",
-        "p": [
-          "Il registro cronologico di carico e scarico dei rifiuti, previsto dall'articolo 190 del Testo Unico Ambientale, è lo strumento in cui gli operatori annotano le operazioni di produzione, gestione e movimentazione dei rifiuti. Con il RENTRI, questo registro viene tenuto in formato digitale, secondo i modelli e i formati definiti dai decreti tecnici attuativi. Non si tratta più di un registro vidimato su carta, ma di un documento informatico strutturato, prodotto e aggiornato secondo regole standardizzate.",
-          "La tenuta digitale del registro comporta la sua conservazione come documento informatico: il registro, una volta chiuso per il periodo di riferimento, deve essere conservato applicando le regole tecniche della conservazione a norma, con l'apposizione di firma e marca temporale e la garanzia di integrità e leggibilità nel tempo. Il termine di conservazione, di norma, è di tre anni dalla data dell'ultima registrazione, salvo termini diversi previsti per specifiche categorie di soggetti o di rifiuti. La corretta conservazione del registro è essenziale per dimostrare, in sede di controllo, la regolarità della gestione dei rifiuti."
-        ]
-      },
-      {
-        "h": "Il Formulario di Identificazione del Rifiuto e il tracciato xFIR",
-        "p": [
-          "Il Formulario di Identificazione del Rifiuto (FIR), disciplinato dall'articolo 193 del Testo Unico Ambientale, è il documento che accompagna il trasporto dei rifiuti e ne attesta l'identificazione, la provenienza, la destinazione e le caratteristiche. Con il RENTRI il formulario assume forma digitale: viene prodotto secondo un tracciato dati standardizzato, denominato xFIR, definito dagli standard tecnici del sistema, e sottoposto a vidimazione digitale attraverso i servizi RENTRI, superando la tradizionale vidimazione cartacea.",
-          "Il FIR digitale, in quanto documento informatico strutturato, deve essere conservato a norma per il periodo previsto dalla normativa, di regola tre anni. La sua conservazione richiede particolare attenzione alla preservazione della struttura del tracciato dati e dei metadati che ne consentono l'interpretazione e la ricerca, oltre alle garanzie di integrità e data certa proprie della conservazione a norma. Il passaggio dal formulario cartaceo al FIR digitale non elimina, ma anzi rafforza, l'esigenza di una conservazione affidabile: la validità giuridica del documento nel tempo dipende dalla qualità del processo di conservazione."
-        ]
-      },
-      {
-        "h": "Il MUD e gli adempimenti dichiarativi",
-        "p": [
-          "Accanto a registro e formulario, il quadro documentale della gestione dei rifiuti comprende il MUD, il Modello Unico di Dichiarazione ambientale, istituito dalla Legge 70/1994. Si tratta della dichiarazione annuale, presentata di regola entro il 30 aprile alle Camere di Commercio, con cui i soggetti obbligati comunicano i dati relativi ai rifiuti prodotti e gestiti nell'anno precedente. Il modello è approvato di anno in anno con apposito decreto.",
-          "Con l'avvio a regime del RENTRI, gli adempimenti dichiarativi sono destinati a una progressiva semplificazione per i soggetti iscritti, poiché i dati contenuti nei registri digitali potranno alimentare direttamente gli obblighi di comunicazione. Anche la documentazione dichiarativa e le ricevute che ne derivano costituiscono documenti da conservare secondo le regole applicabili. La transizione al sistema digitale ridisegna così l'intero ciclo documentale della gestione dei rifiuti, dalla registrazione delle operazioni alla dichiarazione annuale, in una logica di integrazione e riduzione degli oneri."
-        ]
-      },
-      {
-        "h": "L'iscrizione scaglionata e gli obblighi di conservazione",
-        "p": [
-          "L'entrata in vigore del RENTRI è avvenuta in modo graduale, attraverso uno scaglionamento degli obblighi di iscrizione in funzione delle dimensioni e della tipologia dei soggetti. Le prime categorie di operatori — in particolare gli enti e le imprese di maggiori dimensioni e i gestori — sono state coinvolte a partire dalla fine del 2024, seguite dalle imprese di dimensioni intermedie nel corso del 2025 e, infine, dagli altri soggetti obbligati. Questo approccio progressivo ha consentito un adeguamento ordinato al nuovo sistema.",
-          "Per gli operatori, l'ingresso nel RENTRI significa non solo iscriversi e utilizzare i servizi digitali per registri e formulari, ma anche organizzare la conservazione a norma dei documenti che ne derivano. Registro cronologico e FIR digitali vanno conservati a norma applicando le regole delle Linee guida AgID quanto a formati idonei, metadati, firma e marca temporale. Quanto ai tempi, la conservazione di questi documenti rispetta le stesse tempistiche previste per i documenti contabili: essendo rilevanti anche a fini fiscali e amministrativi e integrati nel sistema documentale d'impresa, sono conservati fino alla definizione degli accertamenti e comunque per il termine ordinario decennale (art. 2220 del Codice civile), che assorbe i più brevi termini minimi della normativa ambientale. La conservazione RENTRI rappresenta così un caso concreto in cui una normativa settoriale specifica si salda con la disciplina generale della conservazione dei documenti informatici, richiedendo agli operatori del settore rifiuti di padroneggiare entrambe.",
-          "Il caso del RENTRI è emblematico di una tendenza più ampia: la progressiva digitalizzazione di adempimenti settoriali un tempo cartacei — in ambito ambientale, sanitario, del lavoro, dei trasporti — produce continuamente nuovi documenti informatici che ricadono, per ciò stesso, nell'ambito della conservazione a norma. Ogni volta che una registrazione, un formulario o una dichiarazione passa dal supporto cartaceo a quello digitale, l'organizzazione deve interrogarsi non solo su come produrre e trasmettere il documento, ma su come conservarlo nel tempo garantendone autenticità, integrità e leggibilità. In questo senso la conservazione non è un tema di nicchia riservato agli specialisti, ma una competenza trasversale destinata a diventare sempre più diffusa. Comprendere come il registro cronologico, il FIR digitale e il MUD si inseriscano nel quadro generale della conservazione aiuta a leggere anche gli altri processi di digitalizzazione settoriale con la consapevolezza che, dietro ogni nuovo documento informatico, si apre sempre la questione della sua conservazione a norma per il tempo previsto dalla legge."
-        ]
-      },
-      {
-        "h": "Esempi allegati: registro di carico/scarico e file xFIR",
-        "p": [
-          "Per rendere concreta la struttura dei documenti RENTRI sono disponibili due file di esempio, in formato XML e chiaramente fac-simile (dati fittizi, non conformi al tracciato ufficiale e non validi ad alcun fine). Il primo è un <a href=\"esempi/rentri-registro-carico-scarico.xml\" target=\"_blank\" rel=\"noopener\">Registro cronologico di carico e scarico dei rifiuti</a>: riporta l'intestazione con l'operatore e il numero di iscrizione al RENTRI e alcune annotazioni di carico e scarico, con codice EER, indicazione di pericolosità e caratteristiche di pericolo (HP), stato fisico, quantità, operazione di recupero/smaltimento (es. R13), trasportatore, destinatario e riferimento al formulario.",
-          "Il secondo è un <a href=\"esempi/rentri-formulario.xfir\" target=\"_blank\" rel=\"noopener\">file .xFIR</a>: l'estensione .xFIR identifica il formato digitale del Formulario di Identificazione del Rifiuto (FIR). A differenza di un singolo XML, il .xFIR è in realtà un contenitore firmato <b>ASiC-E</b> (Associated Signature Container, tipo application/vnd.etsi.asic-e+zip): rinominandolo in .zip se ne apre la struttura interna. Il contenitore di esempio raccoglie il documento principale del formulario (in versione XML e CBOR), un file metadati.xml, i file delle singole fasi del ciclo — partenza.xml, trasporto001.xml, accettazione.xml — e la cartella META-INF con il manifest.xml e le firme XAdES separate per produttore, trasporto e accettazione, così che ciascun attore possa sottoscrivere la propria parte nelle diverse fasi. Il registro e il formulario sono collegati dal medesimo numero di FIR, a mostrare come si richiamino a vicenda nel ciclo di tracciabilità. Entrambi i file sono a scopo esclusivamente didattico e vanno sempre prodotti, nella realtà, secondo gli standard tecnici vigenti del RENTRI."
-        ]
-      }
-    ],
-    "obblighi": [
-      "Iscrizione al RENTRI secondo lo scaglionamento (dal 15/12/2024 per >50 dipendenti; 15/6/2025 per 11-50; 15/12/2025 per gli altri)",
-      "Tenuta in formato digitale del registro cronologico di carico/scarico e del FIR (tracciato xFIR)",
-      "Vidimazione digitale di registri e formulari tramite i servizi RENTRI",
-      "Conservazione a norma di registro cronologico e FIR per le stesse tempistiche dei documenti contabili: fino alla definizione degli accertamenti e comunque 10 anni (art. 2220 c.c.), termine che assorbe i minimi del TUA, secondo le Linee guida AgID"
-    ]
-  },
-  {
     "id": "sicurezza-sistemi",
-    "num": "14",
+    "num": "13",
     "title": "Sicurezza dei sistemi di conservazione",
     "abstract": "Le normative sulla sicurezza informatica applicabili al sistema di conservazione e gli adempimenti del conservatore per essere compliant.",
     "body": "La sicurezza informatica non è un accessorio della conservazione, ma un presupposto della sua validità giuridica: senza misure adeguate, i requisiti di integrità, autenticità e affidabilità dell'art. 44 CAD non possono essere garantiti nel tempo. Sul sistema di conservazione convergono più corpi normativi: l'art. 51 del CAD e le Linee guida AgID, le misure minime di sicurezza ICT per la PA, l'art. 32 del GDPR sulla sicurezza del trattamento, i requisiti eIDAS/ETSI per i servizi fiduciari, gli standard ISO/IEC 27001 e collegati, e — dal recepimento italiano — la disciplina NIS2 con la vigilanza dell'Agenzia per la Cybersicurezza Nazionale. Il conservatore deve tradurre questo quadro in un Sistema di Gestione della Sicurezza delle Informazioni documentato, descritto nel Manuale della conservazione e verificato con audit periodici.",
@@ -762,7 +704,7 @@
   },
   {
     "id": "tempi-conservazione",
-    "num": "15",
+    "num": "14",
     "title": "Tempi della conservazione",
     "abstract": "La cadenza con cui si esegue il processo — giornaliera, mensile, annuale — e il termine ultimo di legge, con una tabella riepilogativa per esercizio fiscale.",
     "body": "Nel parlare di «tempi» della conservazione occorre distinguere due piani che spesso vengono confusi. Il primo è la frequenza, o cadenza, con cui si esegue concretamente il processo di conservazione — cioè con quale periodicità si chiudono i pacchetti di versamento e si generano i pacchetti di archiviazione: può essere giornaliera, mensile o annuale, ed è una scelta organizzativa e tecnica legata al tipo e al volume dei documenti. Il secondo è il termine ultimo fissato dalla legge, entro il quale la conservazione deve comunque essere perfezionata. Per i documenti rilevanti a fini tributari questo termine è unico: il processo di conservazione va concluso entro il terzo mese successivo al termine di presentazione della dichiarazione annuale dei redditi (D.M. 17 giugno 2014); l'Agenzia delle Entrate ha chiarito che lo stesso termine vale anche per i documenti IVA, così da avere un'unica scadenza per tutti i documenti dell'anno d'imposta.",
