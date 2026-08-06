@@ -383,41 +383,176 @@
     "abstract": "Regolamento (UE) 2023/956: relazioni trimestrali, dichiarazione annuale e certificati per le importazioni ad alta intensità di carbonio.",
     "lead": "Il CBAM (Carbon Border Adjustment Mechanism), Regolamento (UE) 2023/956, applica alle importazioni di determinate merci ad alta intensità di carbonio un onere equivalente a quello che grava, tramite l'ETS, sulla produzione europea, per contrastare la delocalizzazione delle emissioni. Riguarda cemento, ferro e acciaio, alluminio, fertilizzanti, energia elettrica e idrogeno, con precisi obblighi di comunicazione, di dichiarazione e — nella fase definitiva — di acquisto e restituzione di certificati. Gli aspetti di calcolo dei certificati e dell'onere sono approfonditi nella sezione CBAM dei documenti doganali.",
     "esempi": [
+      { "label": "Relazione CBAM trimestrale — periodo transitorio (HTML)", "file": "esempi/cbam-relazione-trimestrale.html" },
       { "label": "Dichiarazione CBAM con calcolo dei certificati (HTML)", "file": "esempi/cbam-dichiarazione.html" }
     ],
     "sezioni": [
       {
-        "h": "Quadro normativo e ambito",
+        "h": "Contesto: carbon leakage e prezzo del carbonio",
         "p": [
-          "Il Regolamento (UE) 2023/956 istituisce il CBAM e ne disciplina la fase transitoria e quella definitiva. Sono interessate le importazioni nell'Unione delle merci elencate negli allegati — cemento, ferro e acciaio, alluminio, fertilizzanti, energia elettrica e idrogeno, con alcuni precursori — per le quali occorre rendicontare le emissioni incorporate.",
-          "Il meccanismo si affianca al sistema ETS e ne segue la logica: man mano che le quote gratuite ETS si riducono, cresce l'onere CBAM a carico delle importazioni, così da equiparare il costo del carbonio tra produzione interna e importata."
+          "L'Unione europea, attraverso il sistema di scambio delle quote di emissione (ETS), pone un prezzo sulle emissioni di gas serra della produzione interna. Questo prezzo, se non accompagnato da misure alle frontiere, rischia di svantaggiare i produttori europei rispetto a quelli di Paesi terzi con vincoli climatici meno stringenti, incentivando la delocalizzazione della produzione e delle relative emissioni: è il fenomeno del carbon leakage, ossia la «fuga di carbonio». Il CBAM nasce per neutralizzare questo rischio, applicando alle importazioni un onere equivalente a quello sopportato dalla produzione europea.",
+          "La logica del meccanismo è quella di equiparare il costo del carbonio tra merce prodotta nell'Unione e merce importata: chi importa beni ad alta intensità di carbonio dovrà, nella fase definitiva, acquistare certificati corrispondenti alle emissioni incorporate, al netto di quanto già eventualmente pagato nel Paese di origine. Il CBAM si affianca così all'ETS e ne segue l'evoluzione: man mano che le quote gratuite riconosciute all'industria europea si riducono, cresce l'onere a carico delle importazioni.",
+          "Per gli importatori il CBAM introduce un adempimento nuovo e complesso, che richiede di conoscere le emissioni incorporate nelle merci acquistate — dato che si forma presso il produttore estero — e di rendicontarlo con precisione. Come le altre normative ambientali di nuova generazione, il CBAM si traduce in obblighi di comunicazione, dichiarazione e documentazione da conservare."
         ]
       },
       {
-        "h": "Obblighi",
+        "h": "Ambito: merci e soggetti interessati",
         "p": [
-          "Nella fase transitoria l'obbligo è di comunicazione: l'importatore (o il rappresentante doganale indiretto) presenta una relazione CBAM trimestrale con le emissioni dirette e indirette incorporate nelle merci importate, senza pagamenti.",
-          "Nella fase definitiva l'importatore deve ottenere lo status di dichiarante CBAM autorizzato, presentare una dichiarazione CBAM annuale con le emissioni incorporate verificate e acquistare e restituire un numero di certificati CBAM corrispondente a tali emissioni, al netto del carbonio eventualmente già pagato nel Paese di origine."
+          "Il Regolamento (UE) 2023/956 si applica alle importazioni nell'Unione delle merci elencate nei suoi allegati, appartenenti ai settori a maggiore intensità di carbonio e a maggiore rischio di carbon leakage: cemento, ferro e acciaio, alluminio, fertilizzanti, energia elettrica e idrogeno, insieme ad alcuni precursori e prodotti derivati individuati dai codici della nomenclatura combinata. L'ambito potrà essere esteso in futuro ad altri settori.",
+          "Sul piano soggettivo, gli obblighi gravano sull'importatore stabilito nell'Unione o, in determinati casi, sul rappresentante doganale indiretto. Nella fase definitiva l'importatore deve inoltre ottenere lo status di dichiarante CBAM autorizzato, condizione senza la quale non potrà importare le merci interessate. La corretta individuazione delle merci soggette, tramite l'analisi dei codici doganali, è il primo passo della compliance CBAM.",
+          "L'importatore deve ricostruire, per ciascuna merce, le emissioni incorporate — dirette e, per alcune, indirette — a partire dai dati del produttore estero. Ciò comporta un flusso informativo verso l'origine analogo, per logica, a quello richiesto da altre normative sulla catena di fornitura, con la necessità di raccogliere e conservare le evidenze."
         ]
       },
       {
-        "h": "Scadenze e tempistiche",
+        "h": "Il periodo transitorio e la relazione trimestrale",
         "p": [
-          "La fase transitoria va dal 1° ottobre 2023 al 31 dicembre 2025, con relazioni trimestrali (la prima riferita al quarto trimestre 2023). La fase definitiva decorre dal 1° gennaio 2026: da tale data scattano l'obbligo dei certificati e la dichiarazione annuale, la cui prima scadenza — riferita alle importazioni del 2026 — cade entro il 31 maggio 2027.",
-          "Il pacchetto di semplificazione «Omnibus» del 2025 ha introdotto una soglia de minimis (esenzione entro un quantitativo annuo di importazioni, indicativamente 50 tonnellate) che esonera i piccoli importatori dalla gran parte degli obblighi. Le regole operative sono precisate da atti di esecuzione da verificare in continuo."
+          "La fase transitoria del CBAM va dal 1° ottobre 2023 al 31 dicembre 2025 e comporta obblighi di sola comunicazione, senza pagamenti. In questo periodo l'importatore (o il rappresentante doganale indiretto) presenta una relazione CBAM trimestrale, nella quale indica le quantità di merci importate, le emissioni dirette e indirette incorporate e l'eventuale prezzo del carbonio pagato all'estero. La prima relazione era riferita al quarto trimestre 2023.",
+          "La relazione trimestrale si presenta attraverso il registro transitorio CBAM e va trasmessa entro il mese successivo al trimestre di riferimento. Il periodo transitorio ha una funzione di rodaggio: consente alle imprese e alle autorità di familiarizzare con il meccanismo, di raccogliere i dati sulle emissioni e di affinare i metodi di calcolo, prima che scatti l'onere economico. Un esempio didattico di relazione trimestrale, con dati fittizi, è allegato a questa scheda.",
+          "Già nella fase transitoria la qualità e la completezza dei dati sono essenziali: le relazioni incomplete o errate sono sanzionabili, e i dati raccolti costituiscono la base per la successiva fase definitiva. La documentazione a supporto — dati di impianto, calcoli, corrispondenza con i produttori — va conservata fin da subito."
+        ]
+      },
+      {
+        "h": "Il periodo definitivo: dichiarante autorizzato e certificati",
+        "p": [
+          "Dal 1° gennaio 2026 decorre la fase definitiva del CBAM, con l'introduzione degli obblighi economici. L'importatore deve anzitutto ottenere lo status di dichiarante CBAM autorizzato, previa domanda all'autorità competente: senza autorizzazione non è possibile importare le merci interessate. Il dichiarante autorizzato è tenuto a presentare una dichiarazione CBAM annuale e ad acquistare e restituire i certificati corrispondenti alle emissioni incorporate.",
+          "La dichiarazione CBAM annuale riporta le emissioni incorporate totali delle merci importate nell'anno, verificate da un verificatore accreditato, e il numero di certificati CBAM da restituire, calcolato al netto del prezzo del carbonio eventualmente già pagato nel Paese di origine. La prima dichiarazione, riferita alle importazioni del 2026, cade entro il 31 maggio 2027. I certificati CBAM hanno un prezzo agganciato a quello delle quote ETS.",
+          "Il dichiarante deve gestire l'acquisto dei certificati durante l'anno e la loro restituzione in sede di dichiarazione, mantenendo un numero adeguato di certificati in relazione alle importazioni effettuate. È un adempimento che richiede pianificazione finanziaria, oltre che documentale, e che va supportato da un sistema di tracciamento delle importazioni e delle emissioni."
+        ]
+      },
+      {
+        "h": "Il calcolo delle emissioni e dei certificati",
+        "p": [
+          "Il cuore tecnico del CBAM è la determinazione delle emissioni incorporate nelle merci. Le emissioni si distinguono in dirette, legate al processo produttivo e ai precursori, e indirette, legate all'energia elettrica consumata. Il calcolo si basa preferibilmente sui dati reali dell'impianto di produzione; in mancanza, si utilizzano valori predefiniti stabiliti dalla Commissione. Le emissioni vanno determinate secondo le metodologie fissate dai regolamenti di esecuzione.",
+          "Sull'ammontare delle emissioni incorporate si applica il fattore CBAM dell'anno, che riflette la quota non più coperta dalle quote gratuite ETS e che cresce progressivamente fino al 2034, quando le quote gratuite saranno azzerate. Dalle emissioni così ottenute si sottrae la quota corrispondente al prezzo del carbonio eventualmente già pagato nel Paese di origine, per evitare la doppia imposizione. Il risultato è il numero di certificati da restituire.",
+          "Per il dettaglio operativo del calcolo dei certificati e dell'onere, con un esempio numerico, si rinvia alla sezione CBAM dei documenti doganali e al relativo esempio; qui basti sottolineare che ogni passaggio del calcolo — emissioni, fattore, adeguamento per il carbonio estero, prezzo del certificato — deve poggiare su dati documentati e conservati, perché è su di essi che si misura la correttezza della dichiarazione."
+        ]
+      },
+      {
+        "h": "La verifica delle emissioni",
+        "p": [
+          "Nella fase definitiva le emissioni incorporate dichiarate devono essere verificate da un verificatore accreditato, secondo principi analoghi a quelli previsti per l'ETS. La verifica indipendente attesta l'attendibilità dei dati di emissione e costituisce un presupposto della dichiarazione annuale: senza una verifica valida, i dati non possono essere assunti a base del calcolo dei certificati.",
+          "La verifica presuppone la disponibilità di dati di impianto tracciabili e documentati, forniti dai produttori esteri. Per l'importatore ciò significa costruire un rapporto informativo con i propri fornitori, ottenere le evidenze necessarie e conservarle, così da poterle mettere a disposizione del verificatore e, se richiesto, delle autorità.",
+          "La documentazione di verifica — rapporti, evidenze, dati di impianto — entra a pieno titolo nel fascicolo CBAM da conservare a norma. La sua completezza è la condizione per sostenere la correttezza delle emissioni dichiarate e per difendersi da eventuali contestazioni sulla determinazione dei certificati."
+        ]
+      },
+      {
+        "h": "Semplificazioni e soglia de minimis (Omnibus)",
+        "p": [
+          "Il pacchetto di semplificazione «Omnibus» del 2025 ha introdotto misure di alleggerimento degli obblighi CBAM, in particolare una soglia de minimis che esonera i piccoli importatori dalla gran parte degli adempimenti quando le importazioni annuali delle merci interessate restino entro un quantitativo limitato, indicativamente cinquanta tonnellate. L'obiettivo è concentrare gli obblighi sugli importatori significativi, riducendo il carico per gli operatori occasionali o di piccola dimensione.",
+          "Le semplificazioni riguardano anche aspetti procedurali e di calcolo, in un quadro attuativo che resta in continua evoluzione attraverso i regolamenti di esecuzione e gli aggiornamenti della Commissione. Le imprese devono quindi monitorare l'evoluzione delle regole per verificare la propria posizione rispetto alle soglie e agli obblighi applicabili.",
+          "Anche l'importatore che benefici della soglia de minimis ha interesse a documentare il rispetto delle condizioni di esenzione: la prova di essere rimasti entro la soglia, con la relativa documentazione delle importazioni, è ciò che consente di far valere l'esonero in caso di controllo. La conservazione dei dati resta quindi rilevante anche per i soggetti esentati."
+        ]
+      },
+      {
+        "h": "Il CBAM e la dogana: procedure di importazione",
+        "p": [
+          "Il CBAM si innesta sulle procedure doganali di importazione. Nella fase definitiva l'immissione in libera pratica delle merci interessate è riservata ai dichiaranti CBAM autorizzati, e le autorità doganali cooperano con l'autorità competente CBAM verificando lo status del dichiarante e trasmettendo le informazioni sulle importazioni. Il controllo si intreccia dunque con il flusso doganale ordinario, come avviene per le altre normative che condizionano l'accesso al mercato.",
+          "Per l'importatore ciò significa coordinare la gestione delle dichiarazioni doganali con quella degli obblighi CBAM: la merce soggetta va identificata correttamente in dogana, e i dati sulle importazioni devono confluire nel sistema CBAM per la successiva dichiarazione e restituzione dei certificati. Un disallineamento tra i dati doganali e quelli CBAM può generare incongruenze e contestazioni.",
+          "La documentazione doganale — dichiarazioni, bollette, documenti commerciali — si collega così alla documentazione CBAM, formando un insieme da conservare in modo coerente. La tracciabilità tra la singola importazione e le emissioni ad essa riferite è la base per ricostruire, a distanza di tempo, la correttezza degli adempimenti."
+        ]
+      },
+      {
+        "h": "Il rappresentante doganale indiretto",
+        "p": [
+          "Quando l'importatore non è stabilito nell'Unione, o sceglie di avvalersene, gli obblighi CBAM possono ricadere sul rappresentante doganale indiretto, che agisce in nome proprio e per conto dell'importatore. In questi casi è il rappresentante ad assumere il ruolo di dichiarante e a rispondere degli adempimenti, con evidenti implicazioni di responsabilità e di gestione documentale.",
+          "La scelta del modello di rappresentanza incide sulla ripartizione degli obblighi e va regolata contrattualmente, definendo chi raccoglie i dati sulle emissioni, chi presenta le relazioni e le dichiarazioni, chi acquista e restituisce i certificati e chi conserva la documentazione. La chiarezza di questi accordi è essenziale per evitare vuoti di responsabilità.",
+          "Anche il rappresentante doganale indiretto è tenuto alla conservazione della documentazione CBAM di propria competenza, con le medesime garanzie richieste all'importatore. La gestione documentale diventa così un presidio condiviso tra i soggetti coinvolti nell'importazione."
+        ]
+      },
+      {
+        "h": "Il rapporto con l'ETS e le quote gratuite",
+        "p": [
+          "Il CBAM è concepito come lo specchio esterno del sistema ETS: mentre l'ETS pone un prezzo sul carbonio della produzione interna, il CBAM lo estende alle importazioni. Il legame tra i due sistemi è dinamico: la progressiva riduzione delle quote gratuite riconosciute all'industria europea, prevista fino al loro azzeramento intorno al 2034, si accompagna al crescere del fattore CBAM applicato alle importazioni, così da mantenere la parità di trattamento tra produzione interna e importata.",
+          "Questo meccanismo di transizione ha l'obiettivo di evitare sia il carbon leakage sia una doppia protezione dell'industria europea. Per gli importatori significa che l'onere CBAM crescerà nel tempo, di pari passo con la riduzione delle quote gratuite: la pianificazione degli acquisti di certificati deve tenere conto di questa traiettoria crescente.",
+          "La comprensione del rapporto tra CBAM ed ETS è essenziale per valutare l'impatto economico del meccanismo e per programmare gli adeguamenti. La documentazione che collega le emissioni dichiarate al fattore CBAM applicabile in ciascun anno è parte del fascicolo da conservare."
+        ]
+      },
+      {
+        "h": "Gli obblighi verso i produttori esteri e la catena di fornitura",
+        "p": [
+          "Il dato cruciale del CBAM — le emissioni incorporate — si forma presso il produttore estero. L'importatore deve quindi instaurare un rapporto informativo con i propri fornitori, ottenendo i dati di impianto necessari a determinare le emissioni dirette e indirette secondo le metodologie previste. È un flusso analogo, per logica, a quello richiesto da altre normative sulla catena di fornitura, e spesso non semplice, soprattutto con produttori di Paesi con minore dimestichezza con la rendicontazione delle emissioni.",
+          "La qualità dei dati ricevuti dai fornitori condiziona l'intero adempimento: dati incompleti o inattendibili obbligano a ricorrere ai valori predefiniti, spesso più penalizzanti, e possono compromettere la verifica. Per questo gli importatori tendono a contrattualizzare con i fornitori l'obbligo di fornire i dati di emissione e a costruire strumenti per raccoglierli e validarli.",
+          "La documentazione della catena di fornitura — dati di impianto, corrispondenza, contratti — va conservata come parte del fascicolo CBAM, perché è su di essa che si fonda la determinazione delle emissioni. La sua reperibilità nel tempo è la condizione per sostenere, anche a distanza di anni, la correttezza dei dati dichiarati."
+        ]
+      },
+      {
+        "h": "Il registro CBAM e il sistema informativo",
+        "p": [
+          "Gli adempimenti CBAM si svolgono attraverso strumenti informatici dedicati: nel periodo transitorio il registro transitorio per le relazioni trimestrali, nella fase definitiva il registro CBAM per le autorizzazioni, le dichiarazioni annuali e la gestione dei certificati. Questi sistemi interconnettono importatori, dichiaranti, autorità competenti e autorità doganali, consentendo il controllo incrociato tra dati doganali e dati sulle emissioni.",
+          "Il sistema informativo è il perno operativo del meccanismo: attraverso di esso si presentano le relazioni e le dichiarazioni, si acquistano e restituiscono i certificati, si tracciano le importazioni. Per l'importatore è essenziale integrare i propri gestionali con il registro CBAM, così da alimentare correttamente le comunicazioni e da evitare disallineamenti.",
+          "Anche i documenti generati e scambiati tramite il sistema informativo — ricevute, dichiarazioni, evidenze dei certificati — vanno conservati a norma, con metadati che ne consentano la ricerca e la riconduzione al periodo e alla merce. Il sistema informativo produce il dato, ma la sua conservazione affidabile resta un obbligo dell'operatore."
+        ]
+      },
+      {
+        "h": "Impatto sui settori e sulle catene del valore",
+        "p": [
+          "Il CBAM incide profondamente sui settori interessati e sulle relative catene del valore. Le imprese che importano acciaio, alluminio, cemento, fertilizzanti, energia elettrica o idrogeno vedono aumentare i costi e la complessità degli approvvigionamenti, con effetti che si propagano a valle sui prodotti che incorporano tali materiali. La competitività si sposta verso i fornitori capaci di documentare emissioni contenute.",
+          "Per molte imprese l'impatto non è diretto ma mediato: chi acquista un componente in acciaio o alluminio subisce indirettamente gli effetti del CBAM applicato a monte. Ciò spinge a una maggiore attenzione alle emissioni lungo tutta la catena e a una selezione dei fornitori anche in base alla loro capacità di fornire dati affidabili.",
+          "La gestione del CBAM diventa così un elemento della strategia di approvvigionamento e non solo un adempimento amministrativo. La documentazione raccolta a fini CBAM può alimentare anche altre rendicontazioni ambientali dell'impresa, purché conservata in modo ordinato e integrato."
+        ]
+      },
+      {
+        "h": "Prospettive: estensione dell'ambito e sviluppi",
+        "p": [
+          "Il CBAM è concepito come un meccanismo in evoluzione. L'ambito applicativo, inizialmente limitato ai settori a maggiore intensità di carbonio, potrà essere esteso in futuro ad altri prodotti e ad altre categorie di emissioni, in coerenza con l'evoluzione dell'ETS e degli obiettivi climatici dell'Unione. Anche le metodologie di calcolo e le regole operative sono destinate ad affinarsi attraverso i regolamenti di esecuzione.",
+          "Per le imprese ciò significa che il perimetro degli obblighi CBAM è mobile e va monitorato: prodotti oggi non soggetti potrebbero rientrarvi in futuro, con la necessità di predisporre per tempo i processi di raccolta dei dati e di documentazione. La capacità di adattarsi rapidamente ai mutamenti del quadro è parte della compliance.",
+          "In questa prospettiva dinamica, disporre fin da subito di sistemi di raccolta dei dati sulle emissioni e di un archivio documentale ben organizzato è un vantaggio: consente di estendere gli adempimenti a nuovi prodotti senza ripartire da zero. La conservazione a norma della documentazione accumulata diventa un patrimonio informativo su cui costruire gli adeguamenti futuri."
+        ]
+      },
+      {
+        "h": "Buone pratiche e sistemi informativi per la conformità",
+        "p": [
+          "Sul piano operativo, la conformità al CBAM passa per alcuni presidi ricorrenti: l'identificazione delle merci soggette tramite l'analisi dei codici doganali; la richiesta di autorizzazione come dichiarante CBAM per la fase definitiva; la raccolta e la validazione dei dati di emissione dai produttori esteri; la presentazione delle relazioni e delle dichiarazioni; la pianificazione dell'acquisto e della restituzione dei certificati; la gestione della verifica indipendente.",
+          "Per governare questa complessità gli operatori si dotano di sistemi informativi capaci di collegare le importazioni alle emissioni, di calcolare i certificati dovuti e di alimentare il registro CBAM e l'archivio di conservazione. L'integrazione tra i gestionali doganali, i sistemi di raccolta dei dati sulle emissioni e la conservazione è la chiave per rendere sostenibile l'adempimento su volumi elevati.",
+          "Progettare l'interoperabilità tra questi sistemi evita di trovarsi, al momento della dichiarazione o del controllo, con dati dispersi o non riconciliabili. La conformità al CBAM è, in questo senso, un processo continuo che accompagna ogni importazione e che si fonda sulla tracciabilità e sulla conservazione dei dati."
+        ]
+      },
+      {
+        "h": "Aspetti finanziari e gestione dei certificati",
+        "p": [
+          "Nella fase definitiva il CBAM introduce un onere economico diretto: l'acquisto dei certificati corrispondenti alle emissioni incorporate. I certificati hanno un prezzo agganciato a quello delle quote ETS e vanno acquistati durante l'anno e restituiti in sede di dichiarazione. Il dichiarante deve mantenere un numero adeguato di certificati in relazione alle importazioni effettuate, evitando sia la carenza — sanzionabile — sia un eccesso immobilizzato.",
+          "La gestione dei certificati ha quindi una componente finanziaria e di tesoreria: occorre pianificare gli acquisti, monitorare l'andamento del prezzo, prevedere l'onere in funzione dei volumi importati e del fattore CBAM crescente. È un'attività che richiede strumenti di previsione e controllo, oltre che documentali.",
+          "La documentazione degli acquisti e delle restituzioni dei certificati, insieme alle evidenze dei prezzi e dei calcoli, entra nel fascicolo CBAM da conservare. La sua completezza consente di ricostruire la posizione del dichiarante e di dimostrare la corretta corrispondenza tra emissioni dichiarate e certificati restituiti."
+        ]
+      },
+      {
+        "h": "L'adeguamento per il carbonio pagato all'estero",
+        "p": [
+          "Uno degli elementi qualificanti del CBAM è l'adeguamento per il prezzo del carbonio eventualmente già pagato nel Paese di origine. Se il produttore estero ha sostenuto un prezzo del carbonio — ad esempio attraverso un sistema di scambio di quote o una carbon tax nazionale — l'importatore può ridurre proporzionalmente il numero di certificati da restituire, evitando la doppia imposizione sullo stesso quantitativo di emissioni.",
+          "Questo adeguamento va documentato con precisione: occorre provare l'esistenza e l'entità del prezzo del carbonio pagato all'estero, con evidenze idonee e riconducibili alle merci importate. La riduzione dei certificati è ammessa solo nella misura effettivamente dimostrata, e i dati vanno conservati a supporto della dichiarazione.",
+          "L'adeguamento per il carbonio estero riflette la logica di equità del meccanismo: il CBAM non intende colpire due volte le stesse emissioni, ma solo colmare il divario tra il prezzo del carbonio interno e quello effettivamente sostenuto all'origine. La corretta documentazione di questo divario è parte essenziale del calcolo."
+        ]
+      },
+      {
+        "h": "I rischi di elusione e i controlli",
+        "p": [
+          "Come ogni misura alle frontiere, il CBAM è esposto a rischi di elusione: pratiche volte ad aggirare gli obblighi o a ridurre artificiosamente l'onere, come la modifica marginale delle merci per cambiarne la classificazione, la riorganizzazione dei flussi commerciali (resource shuffling) per dirottare verso l'Unione le produzioni a minori emissioni, o la sotto-dichiarazione delle emissioni. Il Regolamento prevede strumenti per contrastare queste pratiche.",
+          "Le autorità competenti e le autorità doganali effettuano controlli sui dichiaranti, verificando la correttezza delle dichiarazioni, l'attendibilità delle emissioni e la coerenza con i dati doganali. In caso di elusione o di dati non veritieri sono previste conseguenze sanzionatorie e la revisione dei certificati dovuti.",
+          "Per l'importatore corretto, la migliore protezione contro le contestazioni di elusione è la trasparenza documentale: dati di emissione tracciabili, verifiche indipendenti, coerenza tra i flussi dichiarati e quelli reali. La conservazione ordinata di queste evidenze consente di dimostrare la genuinità della propria posizione."
+        ]
+      },
+      {
+        "h": "Le autorità competenti e la governance",
+        "p": [
+          "La governance del CBAM coinvolge più livelli: la Commissione europea, che definisce le regole di dettaglio attraverso i regolamenti di esecuzione e gestisce gli aspetti centrali del sistema, e le autorità competenti nazionali, che rilasciano le autorizzazioni ai dichiaranti, ricevono le dichiarazioni, gestiscono i certificati e svolgono i controlli. Le autorità doganali cooperano nella verifica delle importazioni.",
+          "Questa architettura richiede all'operatore di interfacciarsi con l'autorità competente del proprio Stato per l'autorizzazione e gli adempimenti, all'interno di un quadro europeo uniforme. La conoscenza dei referenti e delle procedure nazionali è parte della gestione operativa del CBAM.",
+          "La documentazione degli scambi con le autorità — domande di autorizzazione, dichiarazioni, comunicazioni, provvedimenti — va conservata come parte del fascicolo CBAM. Essa documenta il percorso autorizzativo e dichiarativo dell'operatore e può risultare rilevante in caso di controlli o contenziosi."
         ]
       },
       {
         "h": "Sanzioni",
         "p": [
-          "Nella fase definitiva è prevista una penalità per ogni certificato CBAM non restituito a fronte delle emissioni dichiarate, di importo analogo alla sanzione ETS per le quote mancanti (dell'ordine di un centinaio di euro per tonnellata di CO2, indicizzata), che si aggiunge all'obbligo di regolarizzazione.",
-          "Nella fase transitoria sono previste sanzioni per la mancata presentazione delle relazioni trimestrali o per relazioni incomplete o errate, con importi per tonnellata di emissioni non comunicate. La corretta tenuta della documentazione a supporto (dati di emissione, verifiche) è essenziale per evitare contestazioni."
+          "Nella fase definitiva è prevista una penalità per ogni certificato CBAM non restituito a fronte delle emissioni dichiarate, di importo analogo alla sanzione ETS per le quote mancanti — dell'ordine di un centinaio di euro per tonnellata di CO2, indicizzata — che si aggiunge all'obbligo di regolarizzazione, ossia alla restituzione dei certificati mancanti. La sanzione colpisce lo scostamento tra le emissioni dichiarate e i certificati effettivamente restituiti.",
+          "Nella fase transitoria sono previste sanzioni per la mancata presentazione delle relazioni trimestrali o per relazioni incomplete o errate, con importi commisurati alle tonnellate di emissioni non comunicate. Sono inoltre sanzionabili l'importazione delle merci senza lo status di dichiarante autorizzato e le altre violazioni degli obblighi CBAM.",
+          "La corretta tenuta della documentazione a supporto — dati di emissione, verifiche, calcoli, evidenze del prezzo del carbonio estero — è essenziale per evitare contestazioni e per dimostrare la correttezza di quanto dichiarato. Nel CBAM, come nelle altre normative ambientali, la prova documentale è la sostanza della conformità."
         ]
       },
       {
         "h": "Conservazione a norma",
         "p": [
-          "L'importatore e il dichiarante CBAM devono conservare la documentazione a supporto delle emissioni incorporate, delle verifiche e dei certificati (di norma per almeno alcuni anni), a disposizione delle autorità. I documenti — relazioni, dichiarazioni, evidenze di calcolo e di verifica — sono documenti informatici da conservare a norma, con metadati che consentano di ricondurli al periodo, alla merce e alla spedizione. Per il dettaglio del calcolo dei certificati si rinvia alla sezione CBAM dei documenti doganali e al relativo esempio."
+          "L'importatore e il dichiarante CBAM devono conservare la documentazione a supporto delle emissioni incorporate, delle verifiche e dei certificati, di norma per almeno alcuni anni, tenendola a disposizione delle autorità competenti. I documenti — relazioni trimestrali, dichiarazioni annuali, evidenze di calcolo, rapporti di verifica, dati di impianto, documentazione dei certificati acquistati e restituiti — sono documenti informatici da conservare a norma, con garanzie di integrità, autenticità, leggibilità e reperibilità nel tempo.",
+          "La conservazione va organizzata per classi documentali coerenti con la struttura del CBAM e con metadati che consentano di ricondurre ciascun documento al periodo, alla merce, alla spedizione e al produttore. È questa organizzazione a rendere possibile l'esibizione selettiva e tempestiva in sede di controllo e a supportare la ricostruzione del calcolo dei certificati anche a distanza di anni.",
+          "In definitiva il CBAM conferma la saldatura tra normativa ambientale e obblighi documentali: la correttezza dell'onere si dimostra con i documenti conservati a norma. Per il dettaglio del calcolo dei certificati e dell'onere si rinvia alla sezione CBAM dei documenti doganali; a questa scheda sono allegati un esempio di relazione trimestrale del periodo transitorio e un esempio di dichiarazione annuale con il calcolo dei certificati."
         ]
       }
     ],
