@@ -179,41 +179,194 @@
   {
     "id": "ppwr",
     "title": "PPWR — Imballaggi e rifiuti di imballaggio",
-    "abstract": "Regolamento (UE) 2025/40: requisiti di sostenibilità, riuso, etichettatura e responsabilità estesa del produttore per gli imballaggi.",
+    "abstract": "Regolamento (UE) 2025/40: requisiti di sostenibilità, riuso, etichettatura ed EPR per gli imballaggi — obblighi, scadenze, sanzioni e conservazione.",
     "lead": "Il PPWR (Packaging and Packaging Waste Regulation), Regolamento (UE) 2025/40, sostituisce la Direttiva 94/62/CE e trasforma la disciplina degli imballaggi in un regolamento direttamente applicabile in tutta l'Unione. Introduce requisiti stringenti di sostenibilità, riciclabilità e riuso, nuovi obblighi di etichettatura e di informazione e un rafforzamento della responsabilità estesa del produttore, con una consistente mole di documentazione tecnica da predisporre e conservare.",
+    "esempi": [
+      { "label": "Dichiarazione di conformità UE dell'imballaggio (HTML)", "file": "esempi/ppwr-dichiarazione-conformita.html" }
+    ],
     "sezioni": [
       {
-        "h": "Quadro normativo e ambito",
+        "h": "Contesto: economia circolare e imballaggi",
         "p": [
-          "Il Regolamento (UE) 2025/40 disciplina l'intero ciclo di vita degli imballaggi immessi sul mercato dell'Unione, dai requisiti di progettazione alla gestione dei rifiuti di imballaggio. Riguarda produttori, importatori e distributori di imballaggi e di prodotti imballati, con obblighi differenziati lungo la catena. La scelta del regolamento, in luogo della direttiva, mira a un'armonizzazione piena, riducendo le divergenze nazionali.",
-          "Gli imballaggi sono soggetti a requisiti di sostanza (riciclabilità, contenuto di riciclato, riduzione del peso e del volume) e a requisiti di informazione (etichettatura su composizione e conferimento), oltre a obiettivi quantitativi di riuso e riduzione."
+          "Gli imballaggi sono tra i flussi di rifiuti in più rapida crescita e uno dei simboli più visibili del modello di consumo lineare. L'Unione europea, nell'ambito del Green Deal e del piano d'azione per l'economia circolare, ha individuato negli imballaggi un settore prioritario di intervento, con l'obiettivo di ridurne la quantità, migliorarne la riciclabilità e chiudere il ciclo dei materiali. Il PPWR nasce da questa spinta, con l'ambizione di rendere tutti gli imballaggi immessi sul mercato riciclabili e di ridurre la produzione complessiva di rifiuti di imballaggio.",
+          "La logica del Regolamento è quella dell'intervento su tutto il ciclo di vita: non solo sulla gestione del rifiuto a valle, ma sulla progettazione a monte, sui materiali, sull'informazione al consumatore e sui modelli di riuso. È un cambio di paradigma che coinvolge fabbricanti, importatori e distributori e che, come le altre normative ambientali di nuova generazione, si traduce in una consistente mole di obblighi documentali: la conformità va progettata, dimostrata e conservata.",
+          "Per le imprese l'impatto è profondo e trasversale: riguarda l'ufficio acquisti, la progettazione del packaging, la produzione, il marketing e la logistica. Comprendere il PPWR significa quindi non solo conoscere gli obblighi ambientali, ma predisporre un sistema di gestione della documentazione tecnica e di conformità capace di reggere nel tempo alle verifiche delle autorità di vigilanza del mercato."
         ]
       },
       {
-        "h": "Obblighi",
+        "h": "Dalla Direttiva 94/62/CE al Regolamento",
         "p": [
-          "Tra gli obblighi principali: la riciclabilità di tutti gli imballaggi secondo criteri di design for recycling; il contenuto minimo di materiale riciclato negli imballaggi in plastica; la riduzione degli imballaggi e dello spazio vuoto (rapporto tra vuoto e prodotto); restrizioni su determinati formati monouso; obiettivi di riuso e di ricarica per alcune categorie; l'etichettatura armonizzata sulla composizione del materiale e sulle modalità di raccolta.",
-          "Il produttore deve redigere la documentazione tecnica e la dichiarazione di conformità che attestano il rispetto dei requisiti, e aderire ai sistemi di responsabilità estesa del produttore (EPR), con registrazione e comunicazione dei dati sugli imballaggi immessi. La conformità è condizione per l'immissione sul mercato."
+          "La disciplina degli imballaggi era storicamente contenuta nella Direttiva 94/62/CE, recepita dagli Stati membri con normative nazionali non omogenee. Questa frammentazione ha generato regole divergenti su etichettatura, riciclabilità e obiettivi, con ostacoli al mercato interno e difficoltà per le imprese operanti in più Paesi. Il PPWR supera la direttiva scegliendo lo strumento del regolamento, direttamente applicabile e uniforme in tutta l'Unione, per garantire un livello di armonizzazione molto più elevato.",
+          "Il passaggio dalla direttiva al regolamento non è una mera modifica formale: comporta che i requisiti sostanziali — riciclabilità, contenuto di riciclato, minimizzazione, etichettatura — siano gli stessi in tutti gli Stati membri, riducendo la necessità di adattamenti nazionali. Restano invece agli Stati alcune competenze, come la definizione delle sanzioni e l'organizzazione dei sistemi di responsabilità estesa del produttore e di deposito cauzionale.",
+          "Il nuovo impianto si coordina con le altre norme dell'economia circolare — dalla disciplina dei rifiuti alla progettazione ecocompatibile dei prodotti — e con gli obiettivi climatici dell'Unione. Per gli operatori significa inserire la gestione degli imballaggi in una cornice europea coerente, ma anche affrontare un salto di complessità negli obblighi tecnici e documentali."
         ]
       },
       {
-        "h": "Scadenze e tempistiche",
+        "h": "Ambito: definizione di imballaggio e soggetti",
         "p": [
-          "Il Regolamento è entrato in vigore l'11 febbraio 2025. La maggior parte delle disposizioni si applica a partire dal 12 agosto 2026, cioè diciotto mesi dopo l'entrata in vigore. Numerosi obblighi specifici sono però scaglionati nel tempo, con traguardi intermedi al 2030 (obiettivi di riuso, contenuto minimo di riciclato, piena riciclabilità) e successivi.",
-          "Gli operatori devono quindi programmare l'adeguamento per fasi, tenendo conto delle date di decorrenza dei singoli requisiti e degli atti di esecuzione che ne preciseranno i criteri tecnici. Anche in questo caso le scadenze di dettaglio vanno verificate sulle fonti aggiornate."
+          "Il Regolamento adotta una definizione ampia di imballaggio, che comprende gli imballaggi primari (a diretto contatto con il prodotto), secondari (che raggruppano più unità) e terziari o da trasporto (che proteggono durante la movimentazione), oltre agli imballaggi per la vendita a distanza e al commercio elettronico. Rientrano quindi nel campo di applicazione contenitori, film, vaschette, scatole, pallet, e più in generale ogni materiale destinato a contenere, proteggere, movimentare o presentare le merci.",
+          "Sul piano soggettivo, il Regolamento individua diversi operatori economici con obblighi differenziati: il fabbricante dell'imballaggio, l'importatore, il distributore, oltre ai produttori del prodotto imballato e ai gestori dei sistemi di responsabilità estesa. La corretta qualificazione del proprio ruolo determina l'ampiezza degli obblighi e va documentata, perché la stessa impresa può rivestire ruoli diversi a seconda del prodotto e dell'operazione.",
+          "L'ampiezza dell'ambito rende il PPWR una normativa che tocca la quasi totalità delle imprese che immettono beni sul mercato: chiunque venda un prodotto imballato è, a qualche titolo, coinvolto. La prima attività di compliance è quindi la mappatura degli imballaggi utilizzati e dei ruoli rivestiti, con la ricostruzione della relativa documentazione."
+        ]
+      },
+      {
+        "h": "Requisiti di riciclabilità (design for recycling)",
+        "p": [
+          "Il cuore del PPWR è l'obiettivo di rendere tutti gli imballaggi riciclabili. Il Regolamento introduce criteri di progettazione per il riciclo (design for recycling) e un sistema di classi di prestazione: gli imballaggi sono valutati in funzione della loro riciclabilità e, a partire dalle date previste, quelli che non raggiungono le classi minime non potranno più essere immessi sul mercato. È previsto anche un criterio ulteriore di riciclabilità «su scala», legato all'effettiva raccolta, selezione e riciclo del materiale in quantità significative.",
+          "La riciclabilità va dimostrata con documentazione tecnica che attesti la conformità ai criteri, definiti in dettaglio da atti di esecuzione della Commissione. Per i fabbricanti ciò comporta la revisione della progettazione degli imballaggi, la scelta di materiali e combinazioni compatibili con il riciclo e la predisposizione delle evidenze necessarie. Gli imballaggi multimateriale o difficili da separare sono i più esposti alla necessità di riprogettazione.",
+          "La classe di riciclabilità incide anche sui contributi dovuti ai sistemi di responsabilità estesa del produttore, in una logica di modulazione ecologica: gli imballaggi più riciclabili beneficiano di contributi ridotti, quelli meno riciclabili sono penalizzati. La riciclabilità diventa così non solo un requisito di accesso al mercato, ma un fattore economico diretto."
+        ]
+      },
+      {
+        "h": "Contenuto minimo di riciclato nelle plastiche",
+        "p": [
+          "Accanto alla riciclabilità, il PPWR impone obiettivi di contenuto minimo di materiale riciclato negli imballaggi in plastica, con percentuali che variano a seconda della tipologia di imballaggio e del contatto o meno con gli alimenti, e che crescono nel tempo secondo traguardi fissati per il 2030 e per gli anni successivi. L'obiettivo è creare una domanda stabile di plastica riciclata, sostenendo il mercato del riciclo e riducendo il ricorso a materia vergine.",
+          "Il rispetto delle soglie di riciclato va dimostrato e documentato: occorre poter provare la percentuale di riciclato effettivamente presente, con evidenze sulla provenienza e sulla tracciabilità del materiale. Ciò richiede accordi con i fornitori di materiale riciclato, sistemi di controllo e documentazione tecnica che regga alle verifiche. Alcune categorie e alcuni materiali potranno beneficiare di esenzioni o di regole specifiche, precisate dagli atti di esecuzione.",
+          "Per le imprese, il contenuto di riciclato è uno degli aspetti più impegnativi, perché dipende dalla disponibilità e dalla qualità del materiale riciclato sul mercato, oltre che dai vincoli tecnici e igienico-sanitari, particolarmente stringenti per gli imballaggi a contatto con gli alimenti. La documentazione a supporto va costruita lungo la catena di fornitura e conservata."
+        ]
+      },
+      {
+        "h": "Minimizzazione: peso, volume e spazio vuoto",
+        "p": [
+          "Il PPWR impone di minimizzare peso e volume degli imballaggi, riducendoli al minimo necessario a garantire funzionalità, sicurezza e igiene del prodotto. È un principio che contrasta il sovraimballaggio e impone ai fabbricanti di giustificare, con documentazione tecnica, che l'imballaggio non è più pesante o voluminoso del necessario. Determinati elementi puramente estetici o di marketing, che aumentano il volume senza funzione, sono scoraggiati o vietati.",
+          "Un requisito specifico riguarda il rapporto di spazio vuoto per gli imballaggi da trasporto, di raggruppamento e per il commercio elettronico: la quota di vuoto rispetto al prodotto non deve superare una soglia massima, per evitare le spedizioni di «aria» tipiche di certe pratiche logistiche. Il rispetto di questo rapporto va calcolato e documentato.",
+          "La minimizzazione ha effetti immediati sulla progettazione del packaging e sulla logistica: meno materiale significa meno rifiuti e minori costi, ma richiede una riprogettazione attenta e la predisposizione delle evidenze che dimostrino il rispetto dei criteri. Anche qui la conformità si traduce in documentazione tecnica da conservare."
+        ]
+      },
+      {
+        "h": "Restrizioni sugli imballaggi monouso",
+        "p": [
+          "Il Regolamento vieta o limita alcuni formati di imballaggio monouso considerati non necessari o particolarmente impattanti, elencati in un apposito allegato. Rientrano, ad esempio, taluni imballaggi monouso in plastica per frutta e verdura fresca entro certi pesi, gli imballaggi monouso per alimenti e bevande consumati all'interno dei locali della ristorazione, le confezioni monodose in ambito alberghiero e altri formati specifici, con decorrenze fissate nel tempo.",
+          "Queste restrizioni impongono agli operatori dei settori interessati — distribuzione, ristorazione, ospitalità — di rivedere le proprie pratiche, sostituendo i formati vietati con soluzioni riutilizzabili o con imballaggi consentiti. La transizione va pianificata e documentata, anche per dimostrare la conformità in sede di controllo.",
+          "Le restrizioni sui monouso si intrecciano con gli obiettivi di riuso: dove il monouso è vietato, la soluzione passa spesso per sistemi di riutilizzo e ricarica, con implicazioni organizzative e documentali per gli operatori. Anche in questo ambito la prova della conformità è affidata alla documentazione conservata."
+        ]
+      },
+      {
+        "h": "Riuso, ricarica e obiettivi",
+        "p": [
+          "Il PPWR promuove il passaggio dal monouso al riuso, fissando obiettivi di riutilizzo e di ricarica per determinate categorie di imballaggi — ad esempio nel settore delle bevande, negli imballaggi da trasporto e in alcuni ambiti della distribuzione — con traguardi progressivi nel tempo. Gli operatori tenuti al raggiungimento di questi obiettivi devono mettere in piedi sistemi di riuso, con la relativa logistica di ritorno, lavaggio e ricondizionamento degli imballaggi.",
+          "Il riuso comporta obblighi documentali specifici: occorre rendicontare le quote di imballaggi riutilizzabili immessi e riutilizzati, dimostrare il funzionamento dei sistemi di riuso e ricarica, tenere traccia dei cicli di utilizzo. È una contabilità nuova, che affianca quella dei rifiuti e che genera documenti da conservare a norma.",
+          "La transizione al riuso ridisegna i modelli di business di interi settori, con investimenti in infrastrutture e in sistemi informativi capaci di tracciare gli imballaggi lungo i cicli di vita. La documentazione che ne deriva — dai dati di rendicontazione ai contratti con i gestori dei sistemi di riuso — entra a pieno titolo nel perimetro della conservazione."
+        ]
+      },
+      {
+        "h": "Etichettatura armonizzata e informazione",
+        "p": [
+          "Il PPWR introduce un'etichettatura armonizzata degli imballaggi, con l'obiettivo di informare in modo uniforme il consumatore sulla composizione del materiale e sulle corrette modalità di conferimento e raccolta differenziata. L'etichettatura si basa su pittogrammi e simboli definiti da atti di esecuzione, così da superare la pluralità di sistemi nazionali e agevolare la corretta separazione dei rifiuti.",
+          "Sono previsti anche obblighi informativi collegati ai sistemi di deposito cauzionale e al riuso, oltre alla marcatura del materiale. L'etichettatura corretta è condizione di conformità e la sua predisposizione richiede documentazione a supporto. Gli operatori devono aggiornare grafiche e processi produttivi per integrare le nuove indicazioni entro le decorrenze previste.",
+          "Sul piano documentale, l'etichettatura genera evidenze — bozzetti, specifiche, prove di conformità — che vanno conservate a dimostrazione del rispetto degli obblighi. L'armonizzazione riduce la complessità per chi opera in più Paesi, ma impone un adeguamento tempestivo e coordinato con gli altri requisiti del Regolamento."
+        ]
+      },
+      {
+        "h": "Responsabilità estesa del produttore (EPR)",
+        "p": [
+          "Il PPWR rafforza la responsabilità estesa del produttore (EPR): chi immette imballaggi sul mercato è responsabile della gestione del loro fine vita e contribuisce ai costi di raccolta, selezione e riciclo attraverso i sistemi collettivi. I produttori devono registrarsi, dichiarare le quantità e le tipologie di imballaggi immessi e versare i relativi contributi, secondo il principio «chi inquina paga».",
+          "Un elemento centrale è la modulazione ecologica dei contributi (eco-modulation): i contributi sono commisurati alle caratteristiche ambientali dell'imballaggio, in particolare alla sua riciclabilità, così da premiare le soluzioni migliori e penalizzare quelle più impattanti. Ciò lega direttamente la progettazione dell'imballaggio ai costi sostenuti dall'impresa.",
+          "Gli obblighi EPR comportano una rendicontazione periodica e la tenuta di registri sugli imballaggi immessi, che costituiscono documentazione da conservare a norma. La correttezza di questi dati è essenziale, perché su di essi si fondano i contributi dovuti e i controlli delle autorità e dei sistemi collettivi."
+        ]
+      },
+      {
+        "h": "Sostanze preoccupanti e sicurezza",
+        "p": [
+          "Il Regolamento pone limiti alla presenza di sostanze preoccupanti negli imballaggi, in particolare per quelli a contatto con gli alimenti. Sono previste restrizioni sulle sostanze perfluoroalchiliche (PFAS) negli imballaggi alimentari e limiti alla concentrazione di metalli pesanti, in continuità con la disciplina previgente. L'obiettivo è garantire che il riciclo non veicoli sostanze pericolose e tutelare la sicurezza dei consumatori.",
+          "Il rispetto di questi limiti va dimostrato con documentazione tecnica e, se del caso, con analisi e prove di laboratorio. Per i fabbricanti significa selezionare materiali e additivi conformi e predisporre le evidenze che attestino l'assenza o la conformità delle sostanze soggette a restrizione.",
+          "La gestione delle sostanze preoccupanti si coordina con altre normative europee sui prodotti chimici e sui materiali a contatto con gli alimenti, in un quadro in cui la documentazione di conformità di prodotto e quella ambientale si sovrappongono. Un archivio ben organizzato consente di riutilizzare le stesse evidenze per adempimenti diversi."
+        ]
+      },
+      {
+        "h": "Sistemi di deposito cauzionale (DRS)",
+        "p": [
+          "Il PPWR spinge verso l'adozione di sistemi di deposito cauzionale (deposit return system, DRS) per determinati imballaggi monouso per bevande, come le bottiglie di plastica e le lattine, con l'obiettivo di raggiungere elevati tassi di raccolta differenziata. Gli Stati membri sono tenuti a istituire tali sistemi, salvo dimostrare di conseguire comunque gli obiettivi di raccolta con altri mezzi.",
+          "Per gli operatori del settore delle bevande e della distribuzione, l'introduzione del DRS comporta obblighi di adesione, di gestione del deposito e di rendicontazione, con impatti su etichettatura, logistica e sistemi informativi. I dati sui volumi immessi e restituiti alimentano una contabilità dedicata, che genera documentazione da conservare.",
+          "Il DRS è un esempio di come il PPWR incida non solo sulla progettazione dell'imballaggio, ma sull'intero modello distributivo, richiedendo il coordinamento tra produttori, distributori e gestori del sistema. Anche qui la tracciabilità e la conservazione dei dati sono la condizione per dimostrare la conformità."
+        ]
+      },
+      {
+        "h": "Documentazione tecnica e dichiarazione di conformità",
+        "p": [
+          "La conformità dell'imballaggio ai requisiti del PPWR si attesta attraverso la documentazione tecnica e la dichiarazione di conformità UE. La documentazione tecnica raccoglie le evidenze del rispetto dei requisiti — riciclabilità, contenuto di riciclato, minimizzazione, sostanze, etichettatura — e costituisce il fascicolo su cui si fonda la dichiarazione. La dichiarazione di conformità è l'atto con cui il responsabile attesta, sotto la propria responsabilità, che l'imballaggio soddisfa i requisiti applicabili.",
+          "Entrambi i documenti vanno predisposti prima dell'immissione sul mercato e tenuti a disposizione delle autorità di vigilanza per il periodo previsto. La loro assenza o incompletezza è, di per sé, un profilo di non conformità, a prescindere dalle caratteristiche sostanziali dell'imballaggio. Un esempio didattico di dichiarazione di conformità, con dati fittizi, è allegato a questa scheda.",
+          "La costruzione della documentazione tecnica è un lavoro continuo, che segue l'evoluzione dei requisiti e degli atti di esecuzione e che va aggiornato a ogni modifica dell'imballaggio. La sua conservazione a norma, con metadati che consentano di ricondurre ciascun fascicolo alla categoria di imballaggio e al periodo, è la premessa per poterla esibire in sede di controllo."
+        ]
+      },
+      {
+        "h": "Obblighi degli operatori economici e vigilanza",
+        "p": [
+          "Il PPWR distribuisce gli obblighi tra gli operatori economici secondo il loro ruolo. Il fabbricante deve progettare l'imballaggio conforme, redigere la documentazione tecnica e la dichiarazione di conformità, apporre la marcatura e conservare le evidenze. L'importatore deve verificare che il fabbricante extra-UE abbia adempiuto e che la documentazione sia disponibile, assumendosi responsabilità analoghe per gli imballaggi che immette. Il distributore deve verificare la presenza della marcatura e delle informazioni e non mettere a disposizione imballaggi non conformi.",
+          "La conformità è sorvegliata dalle autorità di vigilanza del mercato, che possono richiedere la documentazione tecnica e la dichiarazione di conformità, effettuare controlli e prove e adottare misure nei confronti dei prodotti non conformi, fino al ritiro dal mercato. La prontezza nell'esibire la documentazione richiesta è decisiva per superare i controlli.",
+          "Questa ripartizione impone a ciascun operatore di conoscere i propri obblighi e di conservare la documentazione di propria competenza, ma anche di verificare gli adempimenti degli altri anelli della catena. La gestione documentale diventa così un presidio condiviso lungo la filiera dell'imballaggio."
+        ]
+      },
+      {
+        "h": "Scadenze e regime transitorio",
+        "p": [
+          "Il Regolamento è entrato in vigore l'11 febbraio 2025. La maggior parte delle disposizioni si applica a partire dal 12 agosto 2026, cioè diciotto mesi dopo l'entrata in vigore. Numerosi obblighi specifici sono però scaglionati: i traguardi di riciclabilità, di contenuto minimo di riciclato e di riuso, così come alcune restrizioni sui monouso, decorrono da date successive, in particolare intorno al 2030 e oltre, con ulteriori inasprimenti negli anni seguenti.",
+          "Il quadro è completato da numerosi atti di esecuzione della Commissione, che precisano i criteri tecnici di riciclabilità, le regole di calcolo del contenuto di riciclato e dello spazio vuoto, i formati di etichettatura e altri aspetti di dettaglio. Le date e i criteri vanno quindi verificati sulle fonti aggiornate, perché il quadro attuativo è in continua definizione.",
+          "Per le imprese, la fase transitoria è il tempo dell'adeguamento: riprogettazione degli imballaggi, revisione delle catene di fornitura del materiale riciclato, adeguamento di etichettatura e sistemi informativi, costruzione della documentazione tecnica. Arrivare preparati alle decorrenze evita il blocco dell'immissione sul mercato degli imballaggi non conformi."
         ]
       },
       {
         "h": "Sanzioni",
         "p": [
-          "Il Regolamento demanda agli Stati membri la definizione delle sanzioni, che devono essere effettive, proporzionate e dissuasive. In coerenza con l'impianto europeo, si tratterà tipicamente di sanzioni amministrative pecuniarie, cui possono aggiungersi il ritiro o il divieto di immissione sul mercato dei prodotti non conformi e misure collegate ai sistemi di responsabilità estesa del produttore.",
-          "La non conformità documentale — assenza o inesattezza della documentazione tecnica, della dichiarazione di conformità o dei dati EPR — costituisce di per sé un profilo di violazione, oltre a esporre l'operatore alla contestazione sulla non conformità sostanziale dell'imballaggio."
+          "Il Regolamento demanda agli Stati membri la definizione delle sanzioni, che devono essere effettive, proporzionate e dissuasive. In coerenza con l'impianto europeo, si tratterà tipicamente di sanzioni amministrative pecuniarie, cui possono aggiungersi il ritiro o il divieto di immissione sul mercato dei prodotti non conformi, misure correttive e conseguenze collegate ai sistemi di responsabilità estesa del produttore.",
+          "La non conformità documentale — assenza o inesattezza della documentazione tecnica, della dichiarazione di conformità o dei dati EPR — costituisce di per sé un profilo di violazione, oltre a esporre l'operatore alla contestazione sulla non conformità sostanziale dell'imballaggio. Anche il mancato rispetto degli obblighi di etichettatura, di contenuto di riciclato o di minimizzazione è sanzionabile.",
+          "L'apparato sanzionatorio, unito alla vigilanza del mercato e agli obblighi EPR, rende la conformità agli imballaggi non un adempimento facoltativo ma un requisito presidiato su più fronti. La capacità di dimostrare, con documentazione conservata a norma, il rispetto dei requisiti è la migliore difesa contro le contestazioni."
+        ]
+      },
+      {
+        "h": "Imballaggi a contatto con gli alimenti",
+        "p": [
+          "Gli imballaggi a contatto con gli alimenti costituiscono un ambito particolarmente delicato, in cui i requisiti ambientali del PPWR si intrecciano con quelli di sicurezza alimentare. Le esigenze igienico-sanitarie e la tutela della salute pongono vincoli specifici sull'uso di materiale riciclato e sulla presenza di sostanze, rendendo più complesso il rispetto degli obiettivi di contenuto di riciclato e imponendo la conformità anche alla disciplina europea sui materiali destinati al contatto con gli alimenti.",
+          "Per questi imballaggi il Regolamento prevede regole e tempistiche in parte specifiche, con soglie di riciclato e restrizioni sulle sostanze — in particolare i PFAS — calibrate sulle esigenze di sicurezza. La documentazione tecnica deve integrare le evidenze ambientali con quelle di idoneità al contatto alimentare, in un fascicolo che risponde a più corpi normativi.",
+          "La sovrapposizione tra requisiti ambientali e alimentari conferma l'importanza di un archivio documentale ben organizzato: le stesse evidenze possono servire per adempimenti diversi, purché conservate in modo ordinato e riconducibili al singolo imballaggio e al prodotto contenuto. La conservazione a norma diventa il collante tra le diverse conformità."
+        ]
+      },
+      {
+        "h": "Imballaggi compostabili e biodegradabili",
+        "p": [
+          "Il PPWR affronta anche il tema degli imballaggi compostabili e biodegradabili, delimitandone l'ammissibilità a specifiche applicazioni in cui il compostaggio rappresenta effettivamente la soluzione di fine vita più adatta, ed evitando che si trasformino in una fonte di confusione nella raccolta differenziata o di contaminazione dei flussi di riciclo. Per determinate tipologie il Regolamento può richiedere la compostabilità, per altre limitarla o escluderla.",
+          "La qualificazione di un imballaggio come compostabile va dimostrata con documentazione tecnica e conformità agli standard applicabili, e va comunicata correttamente al consumatore attraverso l'etichettatura, per indirizzare il conferimento verso il flusso appropriato. Un'etichettatura ambigua o una qualificazione non provata sono profili di non conformità.",
+          "Anche per gli imballaggi compostabili la conservazione della documentazione — certificazioni, prove, specifiche — è la condizione per dimostrare la conformità e per evitare contestazioni sulla correttezza delle dichiarazioni ambientali, sempre più esposte anche ai profili del greenwashing."
+        ]
+      },
+      {
+        "h": "E-commerce, imballaggi da trasporto e logistica",
+        "p": [
+          "Il commercio elettronico ha moltiplicato gli imballaggi da trasporto e di raggruppamento, spesso sovradimensionati rispetto al prodotto. Il PPWR interviene su questo fronte con i requisiti di minimizzazione e con il limite al rapporto di spazio vuoto, imponendo agli operatori della logistica e della vendita a distanza di ridurre il vuoto e di ottimizzare gli imballaggi di spedizione.",
+          "Gli obiettivi di riuso toccano anche gli imballaggi da trasporto, spingendo verso sistemi di contenitori riutilizzabili nelle filiere logistiche. Ciò comporta la messa in piedi di circuiti di ritorno e ricondizionamento e la relativa rendicontazione, con impatti organizzativi rilevanti per la distribuzione.",
+          "Per gli operatori dell'e-commerce e della logistica, la conformità al PPWR significa rivedere le scelte di packaging di spedizione, calcolare e documentare il rispetto dei criteri di minimizzazione e conservare le evidenze. È un ambito in cui l'ottimizzazione ambientale coincide spesso con la riduzione dei costi, ma richiede documentazione a supporto."
+        ]
+      },
+      {
+        "h": "Coordinamento con gli obiettivi di riciclo e la gestione dei rifiuti",
+        "p": [
+          "Il PPWR non opera isolatamente ma si coordina con la disciplina europea e nazionale sulla gestione dei rifiuti e con gli obiettivi di riciclo dei rifiuti di imballaggio. La riciclabilità di progettazione, imposta a monte dal Regolamento, è funzionale al raggiungimento degli obiettivi di riciclo effettivo fissati a valle: i due piani si tengono insieme in una logica di economia circolare.",
+          "Per le imprese ciò significa inserire la conformità degli imballaggi in un sistema più ampio, che comprende la corretta gestione dei rifiuti prodotti, l'adesione ai sistemi collettivi e la rendicontazione dei flussi. La documentazione ambientale del PPWR si affianca a quella sulla gestione dei rifiuti, con possibili sovrapposizioni da governare.",
+          "Un archivio documentale integrato, che colleghi la conformità dell'imballaggio alla sua gestione di fine vita, consente di rispondere in modo coerente ai diversi obblighi e ai controlli delle autorità, evitando duplicazioni e incoerenze tra i dati dichiarati nei diversi adempimenti."
+        ]
+      },
+      {
+        "h": "Buone pratiche e sistemi informativi per la conformità",
+        "p": [
+          "Sul piano operativo, la conformità al PPWR passa per alcuni presidi ricorrenti: la mappatura degli imballaggi e dei ruoli rivestiti; la riprogettazione secondo i criteri di riciclabilità e minimizzazione; la gestione della catena di fornitura del materiale riciclato; la costruzione e l'aggiornamento della documentazione tecnica e delle dichiarazioni di conformità; l'adeguamento dell'etichettatura; la gestione degli obblighi EPR, di riuso e di deposito cauzionale.",
+          "Per governare questa complessità gli operatori si dotano di sistemi informativi capaci di raccogliere i dati di prodotto e di imballaggio, di calcolare gli indicatori richiesti (riciclabilità, contenuto di riciclato, spazio vuoto), di generare la documentazione di conformità e di alimentare le rendicontazioni EPR. L'integrazione tra questi sistemi e l'archivio di conservazione è la chiave per rendere sostenibile l'adempimento su ampi cataloghi di prodotti.",
+          "Progettare fin dall'inizio l'interoperabilità tra i sistemi di gestione del prodotto e la conservazione a norma evita di trovarsi, al momento del controllo, con documentazione dispersa o non aggiornata. La conformità al PPWR è, in questo senso, un processo continuo che accompagna l'intero ciclo di vita dell'imballaggio."
+        ]
+      },
+      {
+        "h": "Impatto sulle imprese e sulle PMI",
+        "p": [
+          "L'impatto del PPWR è particolarmente significativo per le piccole e medie imprese, che spesso non dispongono di funzioni dedicate alla conformità di prodotto e che devono affrontare i costi della riprogettazione degli imballaggi, dell'approvvigionamento di materiale riciclato e della costruzione della documentazione tecnica. Il Regolamento prevede alcune misure di proporzionalità e possibili esenzioni per determinate categorie o dimensioni, ma il quadro degli obblighi resta impegnativo.",
+          "Per le PMI la via più efficace passa spesso per l'affidamento a fornitori di imballaggi già conformi e per l'adesione ai sistemi collettivi di responsabilità estesa, che offrono servizi di rendicontazione e supporto. Resta comunque in capo all'impresa la responsabilità di verificare la conformità e di conservare la documentazione ricevuta, che va richiesta e archiviata con ordine.",
+          "Anche per le realtà minori, dunque, la conservazione a norma della documentazione — dichiarazioni di conformità ricevute dai fornitori, dati EPR, evidenze di riciclabilità — è la premessa per dimostrare la propria posizione in caso di controllo. Un archivio ordinato trasforma un adempimento potenzialmente oneroso in una gestione sostenibile nel tempo."
         ]
       },
       {
         "h": "Conservazione a norma",
         "p": [
-          "La documentazione tecnica e la dichiarazione di conformità degli imballaggi vanno conservate e tenute a disposizione delle autorità per il periodo previsto (di norma alcuni anni dall'ultima immissione sul mercato), insieme ai registri e alle comunicazioni dei sistemi di responsabilità estesa del produttore. Anche qui, la natura informatica dei documenti richiede una conservazione a norma che ne garantisca integrità e reperibilità, con metadati idonei a collegare ciascun documento alla categoria di imballaggio e al periodo di riferimento."
+          "La documentazione tecnica e la dichiarazione di conformità degli imballaggi vanno conservate e tenute a disposizione delle autorità per il periodo previsto, di norma alcuni anni dall'ultima immissione sul mercato, insieme ai registri e alle comunicazioni dei sistemi di responsabilità estesa del produttore e alla contabilità del riuso e del deposito cauzionale. La natura informatica di questi documenti richiede una conservazione a norma che ne garantisca integrità, autenticità, leggibilità e reperibilità nel tempo.",
+          "La conservazione va organizzata per classi documentali coerenti con la struttura del PPWR — documentazione tecnica, dichiarazioni di conformità, dati EPR, rendicontazioni di riuso e DRS — con metadati che consentano di ricondurre ciascun documento alla categoria di imballaggio, al prodotto e al periodo di riferimento. È questa organizzazione a rendere possibile l'esibizione selettiva e tempestiva richiesta in sede di vigilanza.",
+          "In definitiva, il PPWR conferma la tendenza per cui una normativa ambientale si traduce in un obbligo di gestione e conservazione documentale: la conformità sostanziale dell'imballaggio deve essere dimostrabile con documenti conservati a norma. A corredo di questa scheda è disponibile un esempio didattico, con dati fittizi, di dichiarazione di conformità UE dell'imballaggio."
         ]
       }
     ],
