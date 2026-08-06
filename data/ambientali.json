@@ -2,48 +2,177 @@
   {
     "id": "eudr",
     "title": "EUDR — Prodotti a deforestazione zero",
-    "abstract": "Regolamento (UE) 2023/1115: dovuta diligenza e Dichiarazione di Dovuta Diligenza per le materie prime a rischio deforestazione.",
-    "lead": "L'EUDR (European Union Deforestation Regulation), Regolamento (UE) 2023/1115, vieta l'immissione sul mercato dell'Unione e l'esportazione di una serie di materie prime e prodotti derivati se non sono «a deforestazione zero», legali nel Paese di produzione e coperti da una Dichiarazione di Dovuta Diligenza. Riguarda sette filiere a rischio — bovini, cacao, caffè, palma da olio, gomma, soia e legno — e i loro derivati (cuoio, cioccolato, mobili, pneumatici, carta, ecc.). Per gli operatori e i commercianti nasce un obbligo di tracciabilità documentale rigoroso, con dati che devono essere conservati e resi disponibili alle autorità.",
+    "abstract": "Regolamento (UE) 2023/1115: <i>due diligence</i> e Dichiarazione di <i>due diligence</i> (DDS) per le materie prime a rischio deforestazione — obblighi, scadenze, sanzioni e conservazione.",
+    "lead": "L'EUDR (European Union Deforestation Regulation), Regolamento (UE) 2023/1115, vieta l'immissione sul mercato dell'Unione e l'esportazione di una serie di materie prime e prodotti derivati se non sono «a deforestazione zero», legali nel Paese di produzione e coperti da una Dichiarazione di <i>due diligence</i> (DDS). Riguarda sette filiere a rischio — bovini, cacao, caffè, palma da olio, gomma, soia e legno — e i loro derivati (cuoio, cioccolato, mobili, pneumatici, carta, ecc.). Per gli operatori e i commercianti nasce un obbligo di tracciabilità documentale rigoroso, con dati che devono essere conservati e resi disponibili alle autorità.",
+    "esempi": [
+      { "label": "Dichiarazione di due diligence — DDS (HTML)", "file": "esempi/eudr-dds-esempio.html" }
+    ],
     "sezioni": [
       {
-        "h": "Quadro normativo e ambito",
+        "h": "Contesto: la deforestazione importata",
         "p": [
-          "Il Regolamento (UE) 2023/1115 sostituisce la precedente disciplina sul legname (EUTR, Reg. 995/2010) ampliandone di molto l'ambito. Si applica ai prodotti che contengono, sono stati nutriti con o sono stati fabbricati utilizzando le materie prime «rilevanti»: bovini, cacao, caffè, palma da olio, gomma, soia e legno. Distingue tra «operatori» (chi immette per primo il prodotto sul mercato UE o lo esporta) e «commercianti», con obblighi graduati anche in base alle dimensioni dell'impresa.",
-          "L'obiettivo è garantire che i prodotti immessi o esportati non provengano da terreni soggetti a deforestazione o degrado forestale dopo il 31 dicembre 2020 e siano conformi alla normativa del Paese di produzione. La verifica si fonda sulla geolocalizzazione degli appezzamenti di produzione, che diventa il perno del sistema di tracciabilità."
+          "L'Unione europea è, per dimensione dei consumi, uno dei principali responsabili indiretti della deforestazione mondiale: una quota significativa della perdita di foreste tropicali è legata alla produzione delle materie prime che l'Europa importa e consuma. È la cosiddetta «deforestazione importata», cioè incorporata nei beni acquistati sui mercati internazionali. Il Regolamento (UE) 2023/1115 nasce all'interno del Green Deal europeo e della strategia sulla biodiversità con l'obiettivo di spezzare questo legame, impedendo che sul mercato dell'Unione circolino prodotti la cui produzione ha comportato distruzione o degrado delle foreste.",
+          "La logica è quella di responsabilizzare l'intera catena del valore: non basta che il singolo Paese produttore vieti la deforestazione, occorre che chi immette i prodotti sul mercato europeo verifichi attivamente l'origine e la legalità di ciò che commercia. Il Regolamento sposta quindi sull'operatore economico un onere di conoscenza e di prova che, prima, era in larga parte assente. Per questo l'EUDR è, prima ancora che una norma ambientale, una norma di tracciabilità e di gestione documentale: la conformità si dimostra con i dati e con i documenti, che vanno raccolti, strutturati e conservati.",
+          "Comprendere il contesto aiuta a leggere correttamente gli adempimenti. L'EUDR non chiede una generica «attenzione all'ambiente», ma un processo verificabile e ripetibile, fondato su informazioni geolocalizzate e su una valutazione del rischio documentata. È un cambio di paradigma che avvicina la compliance ambientale alle logiche della compliance fiscale e antiriciclaggio, dove ciò che conta è la capacità di provare, in ogni momento, di aver agito con la dovuta cura."
         ]
       },
       {
-        "h": "Obblighi",
+        "h": "Quadro normativo: dall'EUTR all'EUDR",
         "p": [
-          "L'obbligo centrale è la dovuta diligenza (due diligence), articolata in tre passaggi: raccolta di informazioni (descrizione del prodotto, quantità, Paese di produzione, coordinate di geolocalizzazione degli appezzamenti, prove di legalità e di assenza di deforestazione dopo il 31 dicembre 2020); valutazione del rischio; mitigazione del rischio quando questo non è trascurabile.",
-          "Prima di immettere il prodotto sul mercato o di esportarlo, l'operatore deve presentare una Dichiarazione di Dovuta Diligenza (DDS) nel sistema informativo dell'Unione (basato su TRACES), ottenendo un numero di riferimento che accompagna il prodotto lungo la catena. I commercianti non PMI hanno obblighi analoghi; le PMI a valle possono in parte fare affidamento sulle DDS già presentate a monte, conservandone i riferimenti. Le informazioni e le prove vanno mantenute a disposizione delle autorità competenti."
+          "Il Regolamento (UE) 2023/1115 sostituisce e supera il precedente Regolamento sul legname (EUTR, Reg. 995/2010), che si limitava al legno e ai prodotti derivati e imponeva un sistema di <i>due diligence</i> più circoscritto. L'EUDR ne eredita l'impianto concettuale — la <i>due diligence</i> come strumento per tenere fuori dal mercato i prodotti a rischio — ma ne amplia enormemente il perimetro, sia in termini di materie prime coperte sia in termini di soggetti obbligati.",
+          "Il Regolamento si coordina con altri corpi normativi: la disciplina doganale dell'Unione, perché i controlli si intrecciano con le operazioni di importazione ed esportazione; la normativa sulla protezione dei dati, poiché la geolocalizzazione può toccare dati personali di produttori e coltivatori; e le iniziative di <i>corporate sustainability due diligence</i>, con cui condivide la filosofia della responsabilità lungo la catena del valore. È entrato in vigore il 29 giugno 2023, con applicazione differita per consentire l'adeguamento degli operatori e la messa a punto del sistema informativo.",
+          "L'EUDR è un regolamento e quindi direttamente applicabile in tutti gli Stati membri, senza necessità di recepimento: ciò garantisce uniformità, ma lascia agli Stati la definizione delle sanzioni e l'organizzazione delle autorità competenti. Il risultato è un quadro in cui i principi e gli obblighi sostanziali sono comuni a tutta l'Unione, mentre l'apparato di controllo e repressione conserva una componente nazionale."
         ]
       },
       {
-        "h": "Scadenze e tempistiche",
+        "h": "Ambito oggettivo: le sette materie prime e i derivati",
         "p": [
-          "Il Regolamento è entrato in vigore il 29 giugno 2023. L'applicazione degli obblighi, inizialmente prevista per la fine del 2024, è stata posticipata di dodici mesi: gli obblighi si applicano dal 30 dicembre 2025 per le grandi e medie imprese e dal 30 giugno 2026 per le micro e piccole imprese.",
-          "Sono in discussione a livello europeo ulteriori misure di semplificazione e possibili aggiustamenti del calendario: le date vanno quindi sempre verificate sulle fonti aggiornate. Resta ferma la logica di fondo, con obblighi anticipati per gli operatori più grandi e un periodo più ampio per le realtà minori."
+          "Il Regolamento individua sette materie prime «rilevanti»: bovini, cacao, caffè, palma da olio, gomma, soia e legno. Attorno a queste ruotano i prodotti «rilevanti», cioè quelli che contengono tali materie, sono stati nutriti con esse o sono stati fabbricati utilizzandole, elencati in un allegato con i corrispondenti codici della nomenclatura combinata. Rientrano così nel campo di applicazione beni molto diversi tra loro: dal cuoio al cioccolato, dai mobili ai pneumatici, dalla carta agli oli, dagli alimenti per animali ad alcuni prodotti finiti.",
+          "L'ampiezza dell'ambito oggettivo è uno degli aspetti più impegnativi per le imprese: molte scoprono di essere interessate non perché commerciano direttamente cacao o legname, ma perché i loro prodotti li incorporano. La verifica di applicabilità parte quindi dall'analisi merceologica e doganale del portafoglio prodotti, incrociando i codici NC con l'allegato del Regolamento. È un lavoro di mappatura che va documentato e aggiornato, perché l'allegato e le interpretazioni possono evolvere.",
+          "Per ciascun prodotto rilevante l'operatore deve poter risalire alla materia prima e al luogo di produzione. Ciò comporta la ricostruzione della catena di fornitura fino all'origine, con un livello di dettaglio — la geolocalizzazione degli appezzamenti — che rappresenta la vera novità e la principale difficoltà operativa dell'EUDR. Non è sufficiente conoscere il fornitore diretto: occorre arrivare al terreno su cui la materia prima è stata coltivata o allevata."
+        ]
+      },
+      {
+        "h": "Ambito soggettivo: operatori, commercianti e PMI",
+        "p": [
+          "Il Regolamento distingue due figure principali. L'«operatore» è chi, nell'esercizio di un'attività commerciale, immette per la prima volta i prodotti rilevanti sul mercato dell'Unione o li esporta. Il «commerciante» è chi, lungo la catena, mette a disposizione sul mercato prodotti già immessi. Su entrambe grava un obbligo di <i>due diligence</i>, ma con intensità e modalità differenziate anche in funzione delle dimensioni dell'impresa.",
+          "Gli operatori e i commercianti non PMI (grandi e medie imprese) hanno gli obblighi più stringenti: devono esercitare la <i>due diligence</i> completa e presentare la Dichiarazione di <i>due diligence</i> prima di immettere o esportare i prodotti. Le PMI a valle beneficiano di alcune semplificazioni: possono, entro certi limiti, fare affidamento sulla <i>due diligence</i> già esercitata a monte, richiamando i numeri di riferimento delle DDS ricevute, senza doverla ripetere integralmente; restano però tenute a conservare i riferimenti e a verificarne la disponibilità.",
+          "La corretta qualificazione del proprio ruolo — operatore o commerciante, PMI o non PMI — è il primo passo della compliance, perché determina l'ampiezza degli obblighi. È una qualificazione che va documentata e che può cambiare a seconda del prodotto e dell'operazione: la stessa impresa può essere operatore per alcune linee e commerciante per altre. La mappatura dei ruoli, come quella dei prodotti, è parte integrante della documentazione da predisporre e conservare."
+        ]
+      },
+      {
+        "h": "Le tre condizioni: deforestation-free, legalità, DDS",
+        "p": [
+          "Perché un prodotto rilevante possa essere immesso sul mercato dell'Unione o esportato, devono ricorrere tre condizioni cumulative. La prima è che il prodotto sia «a deforestazione zero» (deforestation-free): le materie prime devono provenire da terreni non soggetti a deforestazione dopo il 31 dicembre 2020 e, per il legno, senza degrado forestale dopo la stessa data. La data del 31 dicembre 2020 è il cardine temporale dell'intero sistema.",
+          "La seconda condizione è la legalità: la produzione deve essere avvenuta nel rispetto della normativa applicabile nel Paese di produzione, in un ambito molto ampio che comprende diritti di uso del suolo, tutela ambientale, diritti dei terzi, diritti del lavoro, diritti umani, principi del consenso libero, previo e informato delle popolazioni interessate, obblighi fiscali, doganali e commerciali. La legalità va provata con documentazione idonea.",
+          "La terza condizione è formale ma decisiva: la presentazione di una Dichiarazione di <i>due diligence</i> (DDS), con cui l'operatore attesta di aver esercitato la <i>due diligence</i> e che il rischio di non conformità è trascurabile. Senza DDS, il prodotto non può essere legittimamente immesso o esportato. Le tre condizioni sono strettamente legate: la DDS è credibile solo se poggia su prove di assenza di deforestazione e di legalità, che a loro volta si fondano sulla geolocalizzazione e sulla ricostruzione della catena."
+        ]
+      },
+      {
+        "h": "La due diligence — primo passo: raccolta delle informazioni",
+        "p": [
+          "L'obbligo centrale dell'EUDR è la <i>due diligence</i>, articolata in tre passaggi. Il primo è la raccolta delle informazioni, dei dati e dei documenti necessari a dimostrare la conformità: descrizione del prodotto e della materia prima, quantità, Paese di produzione e coordinate di geolocalizzazione di tutti gli appezzamenti in cui la materia prima è stata prodotta, oltre alla data o all'intervallo temporale della produzione, ai dati del fornitore e alle prove di legalità e di assenza di deforestazione dopo il 31 dicembre 2020.",
+          "La raccolta non è un adempimento episodico ma un processo strutturato, che deve garantire tracciabilità e completezza. Le informazioni provengono da fonti diverse — fornitori, produttori, certificazioni, immagini satellitari, banche dati pubbliche — e vanno organizzate in modo da poter essere verificate e collegate alla singola spedizione. La qualità del dato di origine condiziona l'intero processo: dati incompleti o inattendibili impediscono di concludere che il rischio è trascurabile.",
+          "Sul piano documentale, la fase di raccolta genera un fascicolo per ciascuna materia prima e catena di fornitura, che raccoglie i dati e le prove. Questo fascicolo è il nucleo della documentazione da conservare a norma: è ciò che l'operatore dovrà esibire alle autorità competenti per dimostrare di aver adempiuto. La sua costruzione ordinata, con metadati coerenti e riferimenti alle spedizioni, è la premessa di ogni successiva verifica."
+        ]
+      },
+      {
+        "h": "La geolocalizzazione degli appezzamenti",
+        "p": [
+          "La geolocalizzazione è la vera novità tecnica dell'EUDR e il perno dell'intero sistema. Per ogni materia prima rilevante l'operatore deve disporre delle coordinate geografiche (latitudine e longitudine) di tutti gli appezzamenti di terreno in cui essa è stata prodotta: punti per gli appezzamenti di piccola superficie, poligoni per quelli più estesi. Queste coordinate consentono di verificare, tramite immagini satellitari e sistemi di monitoraggio, se sul terreno vi sia stata deforestazione dopo la data di riferimento.",
+          "La geolocalizzazione trasforma la tracciabilità da documentale a geografica: non si tratta più solo di sapere «da chi» proviene un prodotto, ma «da dove», con precisione cartografica. Questo pone sfide organizzative notevoli, soprattutto per le filiere frammentate con moltissimi piccoli produttori, dove raccogliere e verificare le coordinate di ogni appezzamento richiede sistemi informativi dedicati e collaborazione lungo la catena.",
+          "I dati di geolocalizzazione sono al tempo stesso il cuore della prova di conformità e un elemento delicato sul piano della protezione dei dati e della riservatezza commerciale. Vanno quindi raccolti, trasmessi e conservati con misure adeguate, garantendone integrità e disponibilità nel tempo. La loro conservazione a norma è essenziale: senza le coordinate, la dimostrazione dell'assenza di deforestazione diventa impossibile e la DDS perde fondamento."
+        ]
+      },
+      {
+        "h": "La due diligence — secondo passo: valutazione del rischio",
+        "p": [
+          "Il secondo passo della <i>due diligence</i> è la valutazione del rischio che i prodotti non siano conformi, cioè che provengano da terreni deforestati dopo il 31 dicembre 2020 o che siano stati prodotti in violazione della normativa del Paese d'origine. La valutazione si fonda sulle informazioni raccolte e su una serie di criteri indicati dal Regolamento: il livello di rischio assegnato al Paese o alla regione di produzione, la presenza di foreste, la diffusione della deforestazione nell'area, le informazioni sui popoli indigeni, la complessità della catena di fornitura e il rischio di elusione o mescolamento con prodotti di origine ignota.",
+          "L'esito della valutazione è la classificazione del rischio come trascurabile o non trascurabile. Solo quando il rischio è trascurabile l'operatore può procedere all'immissione o all'esportazione presentando la DDS. Se il rischio non è trascurabile, occorre attivare la fase di mitigazione prima di poter procedere. La valutazione deve essere documentata e riesaminata periodicamente, almeno una volta l'anno, e ogni volta che emergano nuovi elementi.",
+          "La valutazione del rischio è il momento in cui la <i>due diligence</i> diventa una vera analisi e non una mera raccolta di carte. Richiede competenze e criteri espliciti, applicati in modo coerente e tracciabile. La documentazione della valutazione — i criteri usati, gli elementi considerati, le conclusioni raggiunte — è parte essenziale del fascicolo da conservare e costituisce la base su cui poggia la dichiarazione di rischio trascurabile."
+        ]
+      },
+      {
+        "h": "La due diligence — terzo passo: mitigazione del rischio",
+        "p": [
+          "Quando la valutazione conclude che il rischio non è trascurabile, l'operatore deve adottare misure di mitigazione adeguate e proporzionate a ridurlo fino a renderlo trascurabile, prima di immettere il prodotto sul mercato o di esportarlo. Le misure possono comprendere la richiesta di informazioni, dati o documenti aggiuntivi, lo svolgimento di indagini o verifiche indipendenti, audit sui fornitori, il supporto ai produttori per il rispetto degli obblighi e, in ultima analisi, la rinuncia a determinate forniture quando il rischio non possa essere ridotto.",
+          "La mitigazione presuppone politiche, controlli e procedure interne di gestione del rischio: designazione di un responsabile della conformità, verifiche indipendenti della funzione, procedure documentate. Per gli operatori non PMI questi presidi organizzativi sono obbligatori e vanno riesaminati e aggiornati periodicamente, con evidenza documentale delle attività svolte.",
+          "Anche la fase di mitigazione genera documentazione da conservare: le misure adottate, le informazioni aggiuntive acquisite, gli esiti delle verifiche. È la prova che, di fronte a un rischio non trascurabile, l'operatore non ha proceduto ciecamente ma ha agito per ridurlo. In sede di controllo, la completezza di questa documentazione è ciò che distingue una <i>due diligence</i> effettiva da un adempimento solo formale."
+        ]
+      },
+      {
+        "h": "Il sistema di classificazione dei Paesi (benchmarking)",
+        "p": [
+          "Il Regolamento prevede un sistema di classificazione (benchmarking) che assegna ai Paesi, o a loro parti, un livello di rischio — basso, standard o alto — in funzione della situazione della deforestazione. Il livello di rischio incide sull'intensità degli obblighi: per i prodotti provenienti da Paesi a basso rischio è prevista una <i>due diligence</i> semplificata, mentre per quelli provenienti da Paesi ad alto rischio i controlli delle autorità sono più intensi.",
+          "La <i>due diligence</i> semplificata per i Paesi a basso rischio non elimina gli obblighi di raccolta delle informazioni e di presentazione della DDS, ma alleggerisce le fasi di valutazione e mitigazione, sul presupposto che il contesto renda meno probabile la non conformità. Resta comunque l'obbligo di verificare l'assenza di elementi che facciano emergere un rischio effettivo.",
+          "Il benchmarking introduce un elemento dinamico: la classificazione dei Paesi può cambiare nel tempo, e con essa l'intensità degli obblighi per le relative forniture. Gli operatori devono quindi monitorare la classificazione applicabile alle proprie catene e aggiornare di conseguenza le procedure e la documentazione. Anche questo monitoraggio, con le decisioni che ne derivano, va tracciato e conservato."
+        ]
+      },
+      {
+        "h": "La Dichiarazione di due diligence (DDS) e il sistema informativo",
+        "p": [
+          "La Dichiarazione di <i>due diligence</i> (DDS) è l'atto con cui l'operatore, prima di immettere il prodotto sul mercato o di esportarlo, dichiara di aver esercitato la <i>due diligence</i> e che il rischio di non conformità è trascurabile. La DDS si presenta in un sistema informativo dell'Unione, basato sull'infrastruttura TRACES, che registra le dichiarazioni e restituisce un numero di riferimento e un numero di verifica.",
+          "Il sistema informativo è il cuore operativo dell'EUDR: interconnette gli operatori, le autorità competenti e le autorità doganali, consentendo il controllo incrociato tra le dichiarazioni e le operazioni di importazione ed esportazione. I numeri di riferimento delle DDS accompagnano i prodotti lungo la catena e possono essere richiamati dagli operatori a valle, evitando duplicazioni della <i>due diligence</i> ma imponendo la conservazione dei riferimenti.",
+          "La presentazione della DDS non esaurisce gli obblighi: l'operatore resta responsabile della conformità e deve poter dimostrare, con la documentazione sottostante, la fondatezza della dichiarazione. La DDS è quindi la punta visibile di un iceberg documentale: dietro il numero di riferimento vi è l'intero fascicolo di <i>due diligence</i>, che deve essere conservato e reso disponibile. Un esempio didattico di DDS, con dati fittizi, è allegato a questa scheda."
+        ]
+      },
+      {
+        "h": "Il flusso documentale nella catena di fornitura",
+        "p": [
+          "L'EUDR impone un flusso documentale che attraversa l'intera catena, dal produttore all'operatore che immette sul mercato, fino ai commercianti a valle. A monte si raccolgono i dati di origine e di legalità e le coordinate di geolocalizzazione; a valle si trasmettono i numeri di riferimento delle DDS e si conservano le prove ricevute. Ogni anello deve poter dimostrare la propria posizione di conformità e la connessione con gli anelli precedenti.",
+          "Questo flusso richiede sistemi informativi capaci di collegare i documenti alle singole spedizioni e di mantenere l'associazione nel tempo. La frammentazione delle filiere e la molteplicità dei fornitori rendono l'operazione complessa: senza strumenti adeguati, il rischio è di perdere la tracciabilità o di non riuscire a esibire, in sede di controllo, la documentazione riferita a una specifica partita.",
+          "La conservazione a norma dei documenti della catena — con metadati che ne consentano la ricerca per prodotto, fornitore, appezzamento e spedizione — è ciò che rende il flusso effettivamente verificabile. L'EUDR trasforma così la gestione documentale della catena di fornitura in un requisito di legge, non più in una buona pratica facoltativa."
+        ]
+      },
+      {
+        "h": "Interazione con la dogana e con la due diligence di sostenibilità",
+        "p": [
+          "L'EUDR non opera isolatamente ma si inserisce in un tessuto normativo più ampio. Sul versante doganale, l'immissione in libera pratica e l'esportazione dei prodotti rilevanti sono subordinate alla presenza dei riferimenti delle DDS: le autorità doganali e le autorità competenti EUDR cooperano attraverso l'interconnessione dei sistemi, così che il controllo ambientale si innesta sul flusso doganale ordinario. Per l'operatore ciò significa coordinare la gestione delle dichiarazioni doganali con quella delle DDS, evitando disallineamenti che potrebbero bloccare le operazioni.",
+          "Sul versante della sostenibilità d'impresa, l'EUDR condivide la filosofia della responsabilità lungo la catena del valore con la disciplina sulla <i>due diligence</i> di sostenibilità delle imprese e con gli obblighi di rendicontazione non finanziaria. Un'impresa soggetta a più di questi regimi ha interesse a costruire un sistema integrato di raccolta dati e di gestione documentale, che eviti duplicazioni e assicuri coerenza tra le diverse dichiarazioni e relazioni.",
+          "Questa integrazione ha un riflesso diretto sulla conservazione: i documenti prodotti per l'EUDR — dati di origine, valutazioni del rischio, prove di legalità — possono servire anche ad altri obblighi di sostenibilità, purché conservati in modo ordinato e reperibile. Un archivio unico e ben strutturato diventa così un asset di compliance trasversale, non un mero adempimento settoriale."
+        ]
+      },
+      {
+        "h": "Buone pratiche e presidio operativo",
+        "p": [
+          "Sul piano operativo, l'adeguamento all'EUDR passa per alcuni presidi ricorrenti: la mappatura dei prodotti rilevanti e la qualificazione del proprio ruolo (operatore o commerciante, PMI o non PMI); la ricostruzione delle catene di fornitura fino agli appezzamenti, con raccolta e validazione delle coordinate di geolocalizzazione; la definizione di procedure documentate di <i>due diligence</i>, con criteri espliciti di valutazione e mitigazione del rischio; la designazione di un responsabile della conformità e l'organizzazione di verifiche indipendenti per gli operatori non PMI.",
+          "A questi si affiancano la gestione delle DDS e dei relativi numeri di riferimento, il monitoraggio della classificazione di rischio dei Paesi di provenienza, la formazione del personale e la contrattualizzazione degli obblighi verso i fornitori. Ogni attività genera evidenze che vanno tracciate e conservate: procedure, valutazioni, audit, comunicazioni. La compliance EUDR è, in questo senso, un processo continuo, non un adempimento una tantum.",
+          "Il presidio operativo si completa con l'integrazione tra i sistemi di tracciabilità e il sistema di conservazione a norma, in modo che ciò che viene prodotto a fini di conformità confluisca automaticamente in un archivio affidabile. È questa continuità tra produzione del dato, gestione e conservazione a rendere la conformità non solo sostanziale ma anche dimostrabile nel tempo, davanti alle autorità e nell'eventuale contenzioso."
+        ]
+      },
+      {
+        "h": "Controlli, autorità competenti e cooperazione",
+        "p": [
+          "Il rispetto dell'EUDR è verificato dalle autorità competenti designate dagli Stati membri, che effettuano controlli sugli operatori e sui commercianti secondo piani basati sul rischio, con percentuali minime di controllo più elevate per i prodotti provenienti da Paesi ad alto rischio. I controlli comprendono l'esame della documentazione di <i>due diligence</i>, verifiche sul campo, analisi delle coordinate di geolocalizzazione e, se necessario, analisi di laboratorio per accertare l'origine.",
+          "Le autorità doganali svolgono un ruolo complementare: al momento dell'importazione o dell'esportazione verificano la presenza e la corrispondenza dei riferimenti delle DDS, potendo sospendere l'immissione in libera pratica o l'esportazione dei prodotti in caso di anomalie. L'interconnessione tra il sistema informativo EUDR e i sistemi doganali rende possibile questo controllo incrociato.",
+          "In caso di non conformità, le autorità possono adottare misure immediate — ritiro dal mercato, richiamo, divieto di immissione o esportazione — oltre alle sanzioni. La cooperazione tra autorità nazionali e con la Commissione mira a garantire un'applicazione uniforme. Per l'operatore, la prontezza e la completezza nell'esibire la documentazione richiesta sono decisive per superare positivamente i controlli."
+        ]
+      },
+      {
+        "h": "Scadenze e regime transitorio",
+        "p": [
+          "Il Regolamento è entrato in vigore il 29 giugno 2023. L'applicazione degli obblighi, inizialmente prevista per la fine del 2024, è stata posticipata di dodici mesi: gli obblighi si applicano dal 30 dicembre 2025 per gli operatori e i commercianti grandi e medi e dal 30 giugno 2026 per le micro e piccole imprese. La data del 31 dicembre 2020 resta il riferimento temporale per l'assenza di deforestazione, indipendentemente dalla decorrenza degli obblighi.",
+          "A livello europeo sono state discusse ulteriori misure di semplificazione e possibili aggiustamenti del calendario e degli adempimenti, anche per rispondere alle difficoltà operative segnalate dalle imprese e dai Paesi terzi. Le date e le modalità di dettaglio vanno quindi sempre verificate sulle fonti aggiornate, perché il quadro è in evoluzione.",
+          "Per le imprese, la fase transitoria è il momento in cui costruire i processi: mappatura dei prodotti e dei ruoli, ricostruzione delle catene, raccolta delle geolocalizzazioni, predisposizione dei sistemi informativi e delle procedure di <i>due diligence</i>. Arrivare preparati alla decorrenza degli obblighi significa evitare il blocco delle immissioni e delle esportazioni, che dipendono dalla presentazione della DDS."
         ]
       },
       {
         "h": "Sanzioni",
         "p": [
-          "Le sanzioni sono definite dagli Stati membri ma il Regolamento fissa un livello minimo di severità: sanzioni pecuniarie proporzionate al danno ambientale e al valore dei prodotti, con un importo massimo pari ad almeno il 4% del fatturato annuo totale realizzato nell'Unione dall'operatore o commerciante, aumentabile per assicurare che superi il beneficio economico ottenuto.",
-          "Sono inoltre previste la confisca dei prodotti e dei relativi ricavi, l'esclusione temporanea da appalti pubblici e dall'accesso a finanziamenti pubblici, il divieto temporaneo di immettere o esportare i prodotti e, nei casi gravi o reiterati, ulteriori misure. La mancanza o l'inesattezza della documentazione di dovuta diligenza è essa stessa oggetto di contestazione."
+          "Le sanzioni sono definite dagli Stati membri, ma il Regolamento fissa un livello minimo di severità comune. Sono previste sanzioni pecuniarie proporzionate al danno ambientale e al valore dei prodotti, con un importo massimo pari ad almeno il 4% del fatturato annuo totale realizzato nell'Unione dall'operatore o dal commerciante, aumentabile per assicurare che superi il beneficio economico ottenuto dalla violazione.",
+          "Oltre alle sanzioni pecuniarie, sono previste la confisca dei prodotti e dei relativi ricavi, l'esclusione temporanea dalle procedure di appalto pubblico e dall'accesso a finanziamenti pubblici, il divieto temporaneo di immettere o esportare i prodotti rilevanti e, nei casi gravi o reiterati, ulteriori misure. Le violazioni sono rese pubbliche, con un evidente impatto reputazionale.",
+          "Sul piano documentale, la mancanza, l'incompletezza o l'inesattezza della documentazione di <i>due diligence</i> è essa stessa oggetto di contestazione, a prescindere dall'esito sostanziale: un operatore che non sia in grado di esibire il fascicolo e le prove si espone alle conseguenze anche quando i prodotti fossero, nei fatti, conformi. È la conferma che nell'EUDR la prova documentale non è un accessorio, ma la sostanza stessa della conformità."
         ]
       },
       {
-        "h": "Conservazione a norma",
+        "h": "Geolocalizzazione e protezione dei dati",
         "p": [
-          "La documentazione di dovuta diligenza, le Dichiarazioni di Dovuta Diligenza e le prove raccolte (dati di geolocalizzazione, certificazioni, valutazioni del rischio) devono essere conservate per almeno cinque anni dalla data di immissione sul mercato o di esportazione, e messe a disposizione delle autorità su richiesta. Trattandosi in larga parte di documenti informatici, si applicano le regole generali sulla conservazione a norma quanto a integrità, leggibilità e reperibilità nel tempo, con metadati che consentano di ricondurre ciascun documento alla relativa DDS e alla spedizione."
+          "I dati di geolocalizzazione e le informazioni sulla catena di fornitura possono intrecciarsi con la disciplina sulla protezione dei dati personali, quando consentono di identificare, direttamente o indirettamente, i singoli produttori o coltivatori. In tali casi l'operatore deve individuare una base giuridica per il trattamento, informare gli interessati, limitare la raccolta a quanto necessario e adottare misure di sicurezza adeguate, coordinando gli obblighi EUDR con quelli del GDPR.",
+          "Alla dimensione dei dati personali si aggiunge quella della riservatezza commerciale: le coordinate degli appezzamenti e la mappa dei fornitori sono informazioni sensibili sul piano concorrenziale, la cui divulgazione impropria può danneggiare gli operatori della catena. La condivisione lungo la filiera va quindi regolata contrattualmente e assistita da misure tecniche che ne garantiscano riservatezza e integrità.",
+          "Anche per questo la conservazione a norma dei dati di geolocalizzazione assume un rilievo particolare: occorre garantirne l'integrità e la disponibilità per il tempo richiesto, ma anche il controllo degli accessi e la protezione da usi impropri. La sicurezza informatica del sistema che custodisce questi dati diventa parte integrante della compliance EUDR."
+        ]
+      },
+      {
+        "h": "PMI, filiere frammentate e sistemi informativi",
+        "p": [
+          "L'impatto dell'EUDR è particolarmente rilevante per le filiere frammentate, caratterizzate da un elevato numero di piccoli produttori, spesso in Paesi terzi con capacità documentali limitate. Raccogliere le coordinate di geolocalizzazione e le prove di legalità per ciascun appezzamento, in questi contesti, richiede investimenti in sistemi informativi, formazione e collaborazione lungo la catena, con costi significativi che si scaricano su tutti gli anelli, comprese le PMI europee a valle.",
+          "Per governare questa complessità gli operatori si dotano di sistemi informativi dedicati, capaci di raccogliere e validare i dati di origine, di collegarli alle spedizioni, di generare e gestire le DDS e i relativi numeri di riferimento, e di alimentare il sistema di conservazione. L'integrazione tra i gestionali aziendali, le piattaforme di tracciabilità e il sistema informativo dell'Unione è la chiave per rendere sostenibile l'adempimento su volumi elevati.",
+          "La scelta e la configurazione di questi strumenti non è neutra rispetto alla conservazione: i documenti e i dati prodotti dai sistemi di tracciabilità devono confluire in un archivio conservato a norma, con metadati coerenti, così da restare reperibili e integri anche a distanza di anni. Progettare fin dall'inizio l'interoperabilità tra tracciabilità e conservazione evita di trovarsi, al momento del controllo, con dati dispersi o non più recuperabili."
+        ]
+      },
+      {
+        "h": "Conservazione a norma della documentazione",
+        "p": [
+          "La documentazione di <i>due diligence</i>, le Dichiarazioni di <i>due diligence</i> e le prove raccolte — dati di geolocalizzazione, certificazioni, valutazioni del rischio, misure di mitigazione, corrispondenza con i fornitori — devono essere conservate per almeno cinque anni dalla data di immissione sul mercato o di esportazione e messe a disposizione delle autorità competenti su richiesta. Trattandosi in larga parte di documenti informatici, si applicano le regole generali sulla conservazione a norma quanto a integrità, autenticità, leggibilità e reperibilità nel tempo.",
+          "La conservazione deve essere organizzata per classi documentali coerenti con la struttura dell'EUDR — fascicolo di <i>due diligence</i>, DDS e numeri di riferimento, dati di geolocalizzazione, prove di legalità — e con metadati che consentano di ricondurre ciascun documento al prodotto, alla materia prima, all'appezzamento e alla spedizione. È questa organizzazione a rendere possibile l'esibizione selettiva e tempestiva richiesta in sede di controllo.",
+          "In definitiva, l'EUDR è un caso esemplare di come una normativa ambientale si traduca in un obbligo di gestione e conservazione documentale. La capacità di conservare a norma e di esibire, per ciascuna spedizione, la documentazione a supporto della DDS è ciò che rende la conformità dimostrabile e opponibile: senza di essa, anche la migliore <i>due diligence</i> sostanziale rischia di non poter essere fatta valere. A corredo di questa scheda è disponibile un esempio didattico, con dati fittizi, di Dichiarazione di <i>due diligence</i> (DDS)."
         ]
       }
     ],
     "fonti_norm": [
       "Regolamento (UE) 2023/1115 (EUDR) — prodotti a deforestazione zero",
       "Regolamento (UE) 2024/3234 — rinvio di 12 mesi dell'applicazione",
-      "Sistema informativo UE basato su TRACES — Dichiarazione di Dovuta Diligenza (DDS)"
+      "Sistema informativo UE basato su TRACES — Dichiarazione di <i>due diligence</i> (DDS)"
     ],
     "fonti_ids": ["linee-guida-agid-2021"]
   },
