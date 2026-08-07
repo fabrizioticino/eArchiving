@@ -1769,11 +1769,67 @@
   },
   {
     "id": "transfer-pricing",
-    "esempi": [ { "label": "Documentazione TP â€” frontespizio (HTML)", "file": "esempi/transfer-pricing-frontespizio.html" } ],
+    "esempi": [ { "label": "Documentazione TP — frontespizio (HTML)", "file": "esempi/transfer-pricing-frontespizio.html" } ],
     "title": "Transfer Pricing — Documentazione",
     "abstract": "Masterfile e Documentazione Nazionale sui prezzi di trasferimento: contenuto, penalty protection e — punto cruciale — firma elettronica con marca temporale entro il termine della dichiarazione.",
     "lead": "La documentazione sui prezzi di trasferimento (transfer pricing) è l'insieme dei documenti con cui l'impresa che effettua operazioni infragruppo con parti correlate non residenti dimostra che i corrispettivi rispettano il principio di libera concorrenza (arm's length). Non è obbligatoria in senso stretto, ma predisporla in forma «idonea» consente di beneficiare della cosiddetta penalty protection: l'esonero dalle sanzioni per infedele dichiarazione in caso di rettifica dei prezzi di trasferimento. Dal punto di vista della conservazione, il tratto più delicato e specifico è che la documentazione deve essere firmata elettronicamente e marcata temporalmente entro un termine preciso: senza la marca temporale, la documentazione non è idonea e la protezione dalle sanzioni viene meno.",
     "sezioni": [
+      {
+        "h": "Che cos'è il transfer pricing",
+        "p": [
+          "Con l'espressione transfer pricing, o prezzi di trasferimento, si indica la determinazione dei corrispettivi applicati nelle operazioni economiche e commerciali intercorrenti tra imprese appartenenti al medesimo gruppo multinazionale e situate in Stati diversi. Quando due società controllate dalla stessa capogruppo, o comunque legate da un rapporto di controllo, si scambiano beni, servizi, finanziamenti o beni immateriali, il prezzo di quello scambio non si forma sul mercato attraverso il libero incontro di domanda e offerta tra parti indipendenti, ma è deciso all'interno del gruppo. È proprio questa circostanza a rendere il transfer pricing un tema centrale della fiscalità internazionale.",
+          "Il prezzo praticato in un'operazione infragruppo, infatti, determina la ripartizione del reddito imponibile tra le diverse entità del gruppo e, di conseguenza, tra i diversi Stati in cui esse operano. Alzando o abbassando i prezzi di trasferimento, un gruppo potrebbe spostare utili da un Paese ad alta tassazione verso un Paese a bassa tassazione, erodendo la base imponibile del primo. La disciplina dei prezzi di trasferimento nasce per contrastare questa possibilità, imponendo che i corrispettivi infragruppo siano determinati come se le parti fossero indipendenti.",
+          "Il transfer pricing non è quindi, di per sé, una pratica elusiva: è un fenomeno fisiologico e inevitabile in qualunque gruppo multinazionale, che deve necessariamente fissare i prezzi delle transazioni interne. Ciò che la disciplina fiscale richiede è che quei prezzi rispettino il principio di libera concorrenza e che l'impresa sia in grado di dimostrarlo con una documentazione adeguata. È attorno a questa esigenza di prova che ruota l'intera materia della documentazione dei prezzi di trasferimento, oggetto di questa scheda."
+        ]
+      },
+      {
+        "h": "Perché il transfer pricing è un tema fiscale",
+        "p": [
+          "La rilevanza fiscale del transfer pricing discende dalla struttura stessa dei gruppi multinazionali. Un gruppo è un'unica realtà economica articolata in una pluralità di soggetti giuridici autonomi, ciascuno soggetto alla potestà impositiva del proprio Stato. Le operazioni tra questi soggetti sono, sul piano giuridico, operazioni tra parti distinte, ma sul piano economico sono movimenti interni a un'unica organizzazione. Questa dissociazione tra unità economica e pluralità giuridica è la radice del problema fiscale.",
+          "Gli Stati hanno interesse a che il reddito prodotto sul proprio territorio sia correttamente attribuito e tassato, senza che venga artificiosamente trasferito altrove attraverso la manipolazione dei prezzi interni. Il transfer pricing è quindi uno degli strumenti principali con cui le amministrazioni finanziarie presidiano la corretta allocazione della base imponibile internazionale, e uno dei terreni di più frequente contenzioso tra imprese e fisco, per gli importi in gioco e per la complessità delle valutazioni.",
+          "Per l'impresa, la gestione del transfer pricing non è solo un adempimento, ma un profilo strategico di gestione del rischio fiscale: una politica dei prezzi di trasferimento coerente, ben documentata e difendibile riduce il rischio di rettifiche, di doppia imposizione e di sanzioni. La documentazione è lo strumento attraverso cui questa politica viene formalizzata e resa dimostrabile, ed è il cuore del presidio del rischio."
+        ]
+      },
+      {
+        "h": "Il principio di libera concorrenza (arm's length)",
+        "p": [
+          "Il cardine dell'intera disciplina è il principio di libera concorrenza, noto anche con l'espressione inglese arm's length principle. Secondo questo principio, i prezzi e le condizioni delle operazioni tra imprese associate devono corrispondere a quelli che sarebbero stati pattuiti tra imprese indipendenti in operazioni comparabili, svolte in circostanze comparabili. In altre parole, l'operazione infragruppo va valutata come se fosse avvenuta tra parti che agiscono a distanza, ciascuna nel proprio interesse, senza i vincoli e le sinergie del gruppo.",
+          "Il principio di libera concorrenza è il criterio universalmente adottato a livello internazionale, sancito dall'articolo 9 del Modello di Convenzione OCSE contro le doppie imposizioni e recepito nelle legislazioni nazionali, tra cui quella italiana. La sua logica è quella di ricondurre l'operazione infragruppo a un parametro di mercato: se il prezzo praticato si discosta da quello di libera concorrenza, l'amministrazione può rettificare il reddito per riportarlo al valore che sarebbe emerso tra parti indipendenti.",
+          "L'applicazione concreta del principio non è però semplice, perché richiede di individuare operazioni comparabili tra parti indipendenti e di misurare la conformità del prezzo infragruppo a quel parametro. Da qui la necessità di metodologie di determinazione dei prezzi, di analisi di comparabilità e di documentazione: il principio di libera concorrenza è enunciato in poche parole, ma la sua attuazione richiede un apparato tecnico articolato, che la documentazione è chiamata a rappresentare e a giustificare."
+        ]
+      },
+      {
+        "h": "Le operazioni infragruppo e il concetto di controllo",
+        "p": [
+          "La disciplina si applica alle operazioni tra imprese associate, cioè legate da un rapporto di controllo. Il concetto di controllo rilevante ai fini del transfer pricing è ampio e non coincide necessariamente con quello civilistico: comprende non solo il controllo di diritto, fondato sulla maggioranza dei voti, ma anche il controllo di fatto e le situazioni di influenza dominante, in cui un'impresa è in grado di determinare le scelte dell'altra sul piano economico e gestionale. Ciò che conta è la possibilità di incidere sulle condizioni delle operazioni.",
+          "Le operazioni interessate sono le più varie: cessioni di beni materiali, prestazioni di servizi, concessione in uso di beni immateriali (marchi, brevetti, know-how), finanziamenti e altre operazioni finanziarie, accordi di ripartizione dei costi, operazioni di ristrutturazione. Ciascuna tipologia presenta specificità tecniche che si riflettono nella scelta del metodo e nell'analisi di comparabilità, e che la documentazione deve affrontare.",
+          "Rilevano, ai fini della disciplina italiana, le operazioni transfrontaliere, cioè quelle con imprese associate non residenti. Le operazioni infragruppo puramente domestiche seguono regole in parte diverse. La corretta individuazione del perimetro delle operazioni soggette — quali entità sono associate, quali operazioni sono transfrontaliere, quali sono rilevanti — è il primo passo della predisposizione della documentazione e va essa stessa documentata."
+        ]
+      },
+      {
+        "h": "Il contesto internazionale: OCSE e Linee guida",
+        "p": [
+          "La materia del transfer pricing è profondamente internazionale e trova il suo riferimento tecnico principale nelle Linee guida dell'OCSE sui prezzi di trasferimento per le imprese multinazionali e le amministrazioni fiscali (OECD Transfer Pricing Guidelines). Si tratta di un corpus tecnico, aggiornato nel tempo, che definisce l'applicazione del principio di libera concorrenza, i metodi di determinazione dei prezzi, l'analisi di comparabilità e gli standard di documentazione. Pur non essendo formalmente vincolanti, le Linee guida OCSE costituiscono il riferimento interpretativo condiviso a livello mondiale.",
+          "La disciplina italiana rinvia espressamente alle Linee guida OCSE come criterio di riferimento per l'applicazione del principio di libera concorrenza. Ciò significa che la documentazione predisposta in Italia deve essere coerente con l'impianto metodologico OCSE, adottandone i metodi, la logica dell'analisi di comparabilità e la struttura documentale (Masterfile e Local file). L'allineamento agli standard internazionali è essenziale anche per la difendibilità della documentazione in un contesto di controlli e di eventuali procedure di composizione delle controversie tra Stati.",
+          "L'adesione a un quadro internazionale condiviso ha una ragione pratica: poiché il transfer pricing riguarda operazioni tra Stati diversi, una divergenza di criteri tra le amministrazioni genererebbe doppie imposizioni e conflitti. L'armonizzazione attorno alle Linee guida OCSE mira a ridurre queste divergenze, offrendo un linguaggio comune. La documentazione, redatta secondo quello standard, è lo strumento che consente all'impresa di dialogare con più amministrazioni sulla base di criteri omogenei."
+        ]
+      },
+      {
+        "h": "BEPS e l'Azione 13 sulla documentazione",
+        "p": [
+          "L'attuale architettura della documentazione dei prezzi di trasferimento è il frutto del progetto BEPS (Base Erosion and Profit Shifting) promosso dall'OCSE e dal G20, volto a contrastare l'erosione della base imponibile e lo spostamento artificioso degli utili. In particolare, l'Azione 13 del progetto BEPS ha ridisegnato gli standard di documentazione, introducendo un approccio articolato su tre livelli: il Masterfile, la Documentazione Nazionale (Local file) e la Rendicontazione Paese per Paese (Country-by-Country Reporting).",
+          "Questo approccio a tre livelli risponde a esigenze diverse. Il Masterfile fornisce una visione d'insieme del gruppo multinazionale, delle sue attività, dei suoi beni immateriali e della sua struttura finanziaria e fiscale. Il Local file scende nel dettaglio della singola entità e delle sue operazioni infragruppo. Il Country-by-Country Reporting offre alle amministrazioni una fotografia aggregata della distribuzione dei ricavi, degli utili e delle imposte del gruppo tra i vari Paesi, come strumento di valutazione del rischio.",
+          "L'Italia ha recepito questo impianto: la disciplina della documentazione idonea, rinnovata dal Provvedimento del 2020, adotta la struttura Masterfile e Local file dell'Azione 13, mentre il Country-by-Country Reporting è disciplinato da specifiche disposizioni. Comprendere l'origine BEPS della documentazione aiuta a coglierne la funzione: non un mero adempimento formale, ma uno strumento di trasparenza e di valutazione del rischio pensato in chiave internazionale."
+        ]
+      },
+      {
+        "h": "L'evoluzione della disciplina italiana",
+        "p": [
+          "La disciplina italiana del transfer pricing ha una storia risalente. Il riferimento normativo era originariamente contenuto in disposizioni che ancoravano la valutazione delle operazioni infragruppo al «valore normale». Con il tempo, e in coerenza con l'evoluzione internazionale, il riferimento è stato aggiornato al principio di libera concorrenza, oggi fissato dall'articolo 110, comma 7, del TUIR, che impone di determinare i componenti di reddito derivanti da operazioni con imprese associate non residenti in base alle condizioni e ai prezzi che sarebbero stati pattuiti tra soggetti indipendenti.",
+          "Il regime della documentazione e della connessa protezione dalle sanzioni è stato introdotto dall'articolo 26 del D.L. 78/2010, che ha previsto la possibilità, per il contribuente dotato di documentazione idonea, di beneficiare della disapplicazione delle sanzioni in caso di rettifica. Le regole tecniche sono state poi dettate da un primo provvedimento del 2010 e, successivamente, dal Provvedimento del 23 novembre 2020, che ha rinnovato profondamente struttura e adempimenti allineandoli agli standard BEPS e introducendo l'obbligo di firma elettronica con marca temporale.",
+          "Questa evoluzione riflette un mutamento di approccio: dalla mera valutazione del valore normale a un sistema fondato sull'analisi funzionale, sui metodi OCSE e su una documentazione strutturata, la cui idoneità è premiata con l'esimente sanzionatoria. La disciplina attuale è quindi il punto di arrivo di un percorso di allineamento agli standard internazionali, in cui la documentazione assume un ruolo centrale come strumento di trasparenza e di gestione del rischio."
+        ]
+      },
       {
         "h": "Quadro normativo",
         "p": [
@@ -1786,6 +1842,222 @@
         "p": [
           "La documentazione idonea si compone di due documenti. Il Masterfile contiene informazioni sul gruppo multinazionale nel suo complesso: struttura organizzativa, attività, beni immateriali, attività finanziarie infragruppo e posizione fiscale del gruppo. La Documentazione Nazionale (Local file) riguarda invece la singola entità locale: descrizione dell'impresa, delle operazioni infragruppo, dell'analisi di comparabilità e del metodo adottato per la determinazione dei prezzi di trasferimento.",
           "Con il Provvedimento del 2020 l'obbligo di predisporre entrambi i documenti è stato esteso alla generalità dei soggetti (in precedenza il Masterfile era richiesto principalmente alle holding). La documentazione va redatta in lingua italiana; il Masterfile può essere presentato anche in inglese. Sono previsti alcuni adattamenti per le piccole e medie imprese quanto all'aggiornamento di alcune parti dell'analisi."
+        ]
+      },
+      {
+        "h": "Il Masterfile: la struttura organizzativa del gruppo",
+        "p": [
+          "La prima sezione del Masterfile descrive la struttura organizzativa del gruppo multinazionale. Vi si rappresenta, tipicamente con un organigramma, la catena di controllo e la distribuzione geografica delle entità: chi controlla chi, dove sono localizzate le società operative, le holding, le società di servizi. Questa rappresentazione consente all'amministrazione di collocare la singola entità locale all'interno del disegno complessivo del gruppo e di comprenderne il ruolo.",
+          "La struttura organizzativa non è un dato meramente formale: essa riflette il modello di business del gruppo e la sua strategia di localizzazione delle funzioni. La collocazione delle funzioni ad alto valore aggiunto, delle proprietà dei beni immateriali, delle funzioni di direzione e coordinamento è un elemento che orienta la valutazione dei prezzi di trasferimento, perché indica dove si concentrano il valore e i rischi. La descrizione della struttura è quindi la base su cui si innesta l'intera analisi.",
+          "Per l'impresa, la corretta rappresentazione della struttura organizzativa richiede una visione d'insieme del gruppo che spesso trascende la prospettiva della singola entità locale. È questo uno dei motivi per cui il Masterfile è tipicamente predisposto a livello di gruppo e poi messo a disposizione delle singole entità: la sua coerenza tra le diverse giurisdizioni è essenziale per evitare rappresentazioni divergenti che potrebbero generare contestazioni."
+        ]
+      },
+      {
+        "h": "Il Masterfile: le attività del gruppo",
+        "p": [
+          "Una parte centrale del Masterfile è dedicata alla descrizione delle attività economiche del gruppo (business): i principali fattori di generazione del profitto, la catena di fornitura dei prodotti e dei servizi più rilevanti, i mercati geografici serviti, le principali funzioni svolte, i rischi assunti e i beni impiegati dalle diverse entità. Si tratta di ricostruire la value chain del gruppo, individuando dove e come si crea il valore.",
+          "Questa descrizione è funzionale a comprendere la logica economica delle operazioni infragruppo. Sapere come il gruppo genera profitto, quali sono le sue funzioni chiave e come esse sono distribuite tra le entità consente di valutare se la remunerazione attribuita a ciascuna entità, attraverso i prezzi di trasferimento, sia coerente con il suo contributo alla catena del valore. È il quadro d'insieme in cui la singola operazione trova il suo significato.",
+          "La descrizione delle attività include anche le eventuali riorganizzazioni aziendali intervenute e i principali accordi infragruppo di prestazione di servizi. La completezza e la coerenza di questa sezione sono importanti perché offrono all'amministrazione la chiave di lettura economica del gruppo, rispetto alla quale verrà poi valutata la congruità dei prezzi praticati dalla singola entità."
+        ]
+      },
+      {
+        "h": "Il Masterfile: i beni immateriali",
+        "p": [
+          "I beni immateriali — marchi, brevetti, know-how, software, liste clienti — sono spesso la principale fonte di valore dei gruppi multinazionali e uno degli ambiti più delicati del transfer pricing. Il Masterfile deve descrivere la strategia del gruppo in materia di beni immateriali: quali sono i beni immateriali rilevanti, quali entità ne sono proprietarie legali, come sono sviluppati, mantenuti e sfruttati, e quali sono i principali accordi infragruppo che li riguardano (licenze, cessioni, accordi di ripartizione dei costi di ricerca e sviluppo).",
+          "La rilevanza dei beni immateriali deriva dalla loro mobilità e dalla difficoltà di valutarli: un bene immateriale può essere facilmente allocato in una giurisdizione a bassa tassazione, e la sua remunerazione (royalty) incide direttamente sulla ripartizione del reddito. Per questo l'analisi dei beni immateriali richiede di andare oltre la titolarità formale, per individuare quali entità svolgono effettivamente le funzioni rilevanti di sviluppo, valorizzazione, mantenimento, protezione e sfruttamento.",
+          "Il Masterfile deve inoltre indicare i trasferimenti di beni immateriali tra entità del gruppo avvenuti nel periodo, con i relativi corrispettivi. La trasparenza su questo fronte è essenziale, perché i trasferimenti di beni immateriali sono operazioni ad alto rischio, spesso oggetto di contestazione per la difficoltà di determinarne il valore di libera concorrenza."
+        ]
+      },
+      {
+        "h": "Il Masterfile: le attività finanziarie infragruppo",
+        "p": [
+          "Il Masterfile descrive anche il modo in cui il gruppo finanzia le proprie attività, comprese le operazioni finanziarie infragruppo rilevanti. Vi si indicano le modalità di finanziamento del gruppo, comprese le fonti esterne, e si individuano le entità che svolgono funzioni di finanziamento centralizzato (ad esempio le società che gestiscono la tesoreria di gruppo o che erogano finanziamenti alle altre entità), con la descrizione della loro localizzazione e delle funzioni svolte.",
+          "Le operazioni finanziarie infragruppo — finanziamenti, cash pooling, garanzie, gestione accentrata della tesoreria — sono un ambito di crescente attenzione, perché il tasso di interesse e le condizioni applicate incidono sulla ripartizione del reddito e possono essere utilizzati per spostare utili. Il Masterfile fornisce il quadro d'insieme di queste attività, che sarà poi dettagliato, per la singola entità, nella Documentazione Nazionale.",
+          "La descrizione delle attività finanziarie del gruppo consente di valutare la coerenza tra la struttura finanziaria e la sostanza economica: se il finanziamento centralizzato è collocato in un'entità priva delle funzioni e dei rischi corrispondenti, la remunerazione ad essa attribuita potrebbe non essere di libera concorrenza. Anche in questo ambito, la trasparenza documentale è la premessa della difendibilità."
+        ]
+      },
+      {
+        "h": "Il Masterfile: la posizione finanziaria e fiscale",
+        "p": [
+          "L'ultima parte del Masterfile riguarda la posizione finanziaria e fiscale del gruppo. Vi si allega il bilancio consolidato del gruppo per il periodo di riferimento e si forniscono informazioni sugli accordi preventivi (ruling) e sugli altri accordi con le amministrazioni fiscali in materia di ripartizione dei redditi tra Paesi. Questa sezione offre all'amministrazione una visione della situazione economico-finanziaria complessiva del gruppo e degli eventuali accordi che ne condizionano la tassazione.",
+          "Le informazioni sui ruling e sugli accordi preventivi sono particolarmente significative, perché indicano dove il gruppo ha già ottenuto certezza sul trattamento di determinate operazioni. La loro trasparenza consente all'amministrazione di collocare la posizione della singola entità in un quadro coerente e di valutare eventuali disallineamenti tra gli accordi conclusi in diverse giurisdizioni.",
+          "Nel complesso, il Masterfile fornisce la cornice d'insieme entro cui si colloca la Documentazione Nazionale: senza la visione di gruppo offerta dal Masterfile, l'analisi della singola entità sarebbe monca. È per questo che la disciplina richiede entrambi i documenti, complementari e da leggere insieme."
+        ]
+      },
+      {
+        "h": "La Documentazione Nazionale: descrizione dell'entità locale",
+        "p": [
+          "La Documentazione Nazionale, o Local file, si apre con la descrizione dell'entità locale: la sua struttura gestionale e organizzativa, l'attività svolta e la strategia imprenditoriale perseguita, i principali concorrenti. Vi si indicano i soggetti cui l'entità locale riferisce e i Paesi in cui questi sono localizzati. È una descrizione che cala la prospettiva dal gruppo alla singola impresa, individuandone il ruolo e le funzioni concrete.",
+          "Questa parte è essenziale perché la valutazione dei prezzi di trasferimento dipende dal profilo funzionale dell'entità locale: un distributore a basso rischio, un produttore su commessa, un licenziatario di beni immateriali hanno profili di rischio e di remunerazione molto diversi. Individuare correttamente il ruolo dell'entità è il presupposto per selezionare il metodo appropriato e per identificare comparabili coerenti.",
+          "La descrizione dell'entità locale va tenuta coerente con quella contenuta nel Masterfile: la collocazione dell'entità nella struttura del gruppo, le funzioni ad essa attribuite, i rischi che assume devono trovare corrispondenza tra i due documenti. Un'incoerenza tra Masterfile e Local file è uno dei profili che più agevolmente attirano l'attenzione dei verificatori."
+        ]
+      },
+      {
+        "h": "La Documentazione Nazionale: le operazioni infragruppo",
+        "p": [
+          "Il cuore del Local file è la descrizione delle operazioni infragruppo dell'entità locale (controlled transactions). Per ciascuna categoria di operazioni rilevanti — acquisto e vendita di beni, prestazione e ricezione di servizi, concessione o utilizzo di beni immateriali, operazioni finanziarie — occorre indicare i corrispettivi, le controparti associate e i Paesi coinvolti, e allegare i relativi contratti infragruppo. Si tratta di ricostruire, operazione per operazione, i flussi economici con le parti correlate.",
+          "Per ogni categoria di operazioni va poi svolta l'analisi di transfer pricing vera e propria: l'individuazione del metodo adottato, l'analisi funzionale, l'analisi di comparabilità, la selezione dei comparabili e la verifica della congruità dei corrispettivi rispetto al principio di libera concorrenza. È in questa parte che la documentazione dimostra, con dati e analisi, che i prezzi praticati sono conformi al mercato.",
+          "La completezza nell'individuazione e nella descrizione delle operazioni infragruppo è cruciale: un'operazione rilevante non documentata è un'operazione priva di protezione, esposta a rettifica senza il riparo dell'esimente sanzionatoria. La mappatura accurata delle transazioni con le parti correlate è quindi il presupposto di una documentazione realmente idonea."
+        ]
+      },
+      {
+        "h": "La Documentazione Nazionale: l'analisi di comparabilità",
+        "p": [
+          "L'analisi di comparabilità è il fulcro tecnico del Local file. Essa consiste nel confrontare l'operazione infragruppo con operazioni comparabili tra parti indipendenti, per verificare se il prezzo o il margine praticato rientri nell'intervallo di libera concorrenza. Il confronto richiede di individuare operazioni comparabili — interne, se l'impresa svolge analoghe operazioni con parti indipendenti, o esterne, ricavate da banche dati di società indipendenti — e di misurare la conformità.",
+          "La comparabilità non è mai perfetta: le operazioni confrontate presentano quasi sempre differenze, che vanno individuate e, ove possibile, neutralizzate mediante rettifiche di comparabilità. L'analisi deve quindi documentare i criteri di ricerca dei comparabili, i filtri applicati, le società selezionate e scartate, e le eventuali rettifiche operate. La trasparenza sul processo di selezione è ciò che rende l'analisi verificabile e difendibile.",
+          "L'analisi di comparabilità richiede l'uso di banche dati commerciali di bilanci di società indipendenti, da cui si estraggono i comparabili esterni. La costruzione del set di comparabili, la sua motivazione e il suo aggiornamento periodico sono attività tecniche complesse, che costituiscono spesso il punto di maggiore attenzione in sede di controllo, dove i verificatori possono contestare la selezione dei comparabili e ricostruirne una propria."
+        ]
+      },
+      {
+        "h": "La Documentazione Nazionale: le informazioni finanziarie",
+        "p": [
+          "Il Local file contiene infine le informazioni finanziarie dell'entità locale: i bilanci d'esercizio del periodo di riferimento, i prospetti che illustrano come i dati finanziari utilizzati nell'applicazione del metodo di transfer pricing si raccordano con il bilancio, e le informazioni finanziarie sui comparabili utilizzati nell'analisi, con l'indicazione delle fonti. Questa parte àncora l'analisi ai dati contabili effettivi dell'impresa.",
+          "Il raccordo tra i dati utilizzati nell'analisi e il bilancio è un elemento di garanzia: consente di verificare che gli indicatori di profittabilità o i margini analizzati corrispondano effettivamente alla realtà economica dell'impresa e non a dati costruiti ad hoc. È un ponte tra l'analisi tecnica del transfer pricing e la contabilità dell'entità, e come tale va documentato con cura.",
+          "Le informazioni finanziarie sui comparabili, con l'indicazione delle fonti, consentono all'amministrazione di ripercorrere l'analisi e di verificarne la solidità. La tracciabilità dei dati — dalla banca dati al comparabile, dal comparabile all'indicatore, dall'indicatore alla conclusione — è ciò che distingue una documentazione robusta da una meramente descrittiva."
+        ]
+      },
+      {
+        "h": "L'analisi funzionale: funzioni, rischi e beni",
+        "p": [
+          "Trasversale a tutta la documentazione è l'analisi funzionale, che consiste nell'individuare le funzioni svolte, i rischi assunti e i beni impiegati (functions, assets, risks) da ciascuna delle parti dell'operazione infragruppo. L'analisi funzionale è il presupposto logico di ogni valutazione di transfer pricing: solo comprendendo che cosa fa concretamente ciascuna entità, quali rischi sopporta e quali beni utilizza è possibile stabilire quale remunerazione le spetti secondo il principio di libera concorrenza.",
+          "Le funzioni comprendono le attività effettivamente svolte — produzione, distribuzione, ricerca e sviluppo, marketing, gestione — ; i rischi comprendono i rischi di mercato, di credito, di cambio, di magazzino, imprenditoriali; i beni comprendono gli impianti, i beni immateriali, il capitale impiegato. Nella logica del transfer pricing, a maggiori funzioni, rischi e beni corrisponde una maggiore remunerazione attesa: chi svolge funzioni complesse e assume rischi elevati deve poter conseguire un rendimento superiore.",
+          "Un aspetto centrale, valorizzato dall'evoluzione degli standard OCSE, è che l'analisi funzionale deve fondarsi sulla sostanza e non sulla forma contrattuale: rileva il controllo effettivo dei rischi e lo svolgimento reale delle funzioni, non la mera allocazione contrattuale. Un'entità cui il contratto attribuisce un rischio, ma che non ha la capacità e le funzioni per gestirlo, non può pretendere la relativa remunerazione. L'analisi funzionale documentata è quindi la spina dorsale dell'intera documentazione."
+        ]
+      },
+      {
+        "h": "L'analisi di comparabilità: i cinque fattori",
+        "p": [
+          "La comparabilità tra l'operazione infragruppo e le operazioni tra indipendenti si valuta secondo cinque fattori individuati dalle Linee guida OCSE: le caratteristiche dei beni o dei servizi oggetto dell'operazione; l'analisi funzionale delle parti (funzioni, rischi, beni); le clausole contrattuali; le circostanze economiche e il contesto di mercato; le strategie aziendali perseguite. Due operazioni sono comparabili quando non vi sono differenze, rispetto a questi fattori, tali da incidere significativamente sul prezzo o sul margine, oppure quando tali differenze possono essere eliminate con rettifiche affidabili.",
+          "L'applicazione dei cinque fattori richiede un giudizio tecnico articolato: occorre stabilire quali differenze siano rilevanti e come tenerne conto. Ad esempio, differenze nelle funzioni svolte o nei rischi assunti possono giustificare margini diversi; differenze nel contesto di mercato (un mercato in espansione rispetto a uno maturo) possono incidere sui prezzi; differenze nelle strategie (una politica di penetrazione con prezzi bassi iniziali) possono spiegare risultati temporaneamente inferiori.",
+          "La documentazione deve dar conto dell'applicazione dei cinque fattori nella selezione e nell'aggiustamento dei comparabili. È questo il livello di analisi che distingue una documentazione tecnicamente solida da una superficiale: non basta elencare società comparabili, occorre dimostrare, alla luce dei cinque fattori, perché siano effettivamente comparabili e quali rettifiche siano state applicate per garantirne la comparabilità."
+        ]
+      },
+      {
+        "h": "I metodi di determinazione dei prezzi: panoramica",
+        "p": [
+          "Le Linee guida OCSE, recepite dalla disciplina italiana, individuano cinque metodi per determinare i prezzi di libera concorrenza, distinti in due gruppi. I metodi tradizionali basati sulla transazione confrontano direttamente il prezzo o il margine lordo dell'operazione: il metodo del confronto di prezzo (CUP), il metodo del prezzo di rivendita e il metodo del costo maggiorato. I metodi basati sull'utile delle transazioni confrontano invece l'utile netto o la sua ripartizione: il metodo del margine netto della transazione (TNMM) e il metodo di ripartizione degli utili (Profit Split).",
+          "Non esiste una gerarchia rigida tra i metodi: la disciplina impone di adottare il metodo più appropriato alle circostanze del caso, tenuto conto dei punti di forza e di debolezza di ciascuno, della natura dell'operazione, della disponibilità di informazioni affidabili sui comparabili e del grado di comparabilità. Tuttavia, i metodi tradizionali sono generalmente preferiti quando applicabili con pari affidabilità, perché confrontano più direttamente le condizioni dell'operazione.",
+          "La scelta del metodo va motivata nella documentazione: occorre spiegare perché il metodo adottato sia il più appropriato e perché gli altri siano stati scartati. Questa motivazione è parte essenziale dell'idoneità della documentazione, perché la selezione del metodo condiziona l'intera analisi e ne determina l'esito. Nei paragrafi seguenti si illustrano sinteticamente i singoli metodi."
+        ]
+      },
+      {
+        "h": "Il metodo del confronto di prezzo (CUP)",
+        "p": [
+          "Il metodo del confronto di prezzo (Comparable Uncontrolled Price, CUP) confronta il prezzo praticato nell'operazione infragruppo con il prezzo di operazioni comparabili tra parti indipendenti. È il metodo più diretto e, quando applicabile con affidabilità, il più raccomandato, perché confronta direttamente il prezzo dell'operazione anziché margini o utili. Il confronto può essere interno, con operazioni che l'impresa svolge con parti indipendenti, o esterno, con operazioni di mercato tra terzi.",
+          "Il CUP è particolarmente adatto quando esistono beni o servizi omogenei con un prezzo di mercato osservabile — ad esempio commodity quotate, o operazioni finanziarie con tassi di riferimento — mentre diventa di difficile applicazione quando le operazioni presentano caratteristiche peculiari o quando mancano comparabili di prezzo affidabili. La sua forza è la diretta comparazione; la sua debolezza è l'elevata sensibilità alle differenze tra le operazioni, che possono incidere sul prezzo in modo significativo.",
+          "Quando è applicabile, il CUP offre la dimostrazione più solida della conformità al principio di libera concorrenza, perché àncora il prezzo infragruppo a un prezzo di mercato osservabile. La documentazione deve però dimostrare l'effettiva comparabilità delle operazioni di confronto, tenuto conto delle caratteristiche dei beni, delle condizioni contrattuali e del contesto di mercato."
+        ]
+      },
+      {
+        "h": "Il metodo del prezzo di rivendita e del costo maggiorato",
+        "p": [
+          "Il metodo del prezzo di rivendita (Resale Price Method) parte dal prezzo al quale un bene acquistato da una parte associata viene rivenduto a un terzo indipendente e sottrae un margine lordo di rivendita, tale da coprire i costi di vendita e un utile congruo del rivenditore; il risultato è il prezzo di libera concorrenza dell'acquisto infragruppo. È il metodo tipicamente adatto ai distributori che non aggiungono valore significativo al bene, la cui remunerazione può essere misurata dal margine lordo sulla rivendita.",
+          "Il metodo del costo maggiorato (Cost Plus Method) parte dai costi sostenuti dal fornitore associato per i beni o i servizi forniti a una parte associata e vi aggiunge un ricarico (mark-up) di libera concorrenza, tale da remunerare le funzioni svolte e i rischi assunti. È il metodo tipicamente adatto ai produttori su commessa e ai prestatori di servizi, la cui remunerazione può essere misurata come ricarico sui costi.",
+          "Entrambi i metodi si basano sul margine lordo e richiedono comparabilità soprattutto sul piano funzionale, oltre che sulla coerenza delle prassi contabili nella determinazione dei costi e dei margini. La loro affidabilità dipende dalla possibilità di individuare margini lordi comparabili tra parti indipendenti, dato non sempre disponibile: per questo, nella prassi, sono spesso sostituiti dal metodo del margine netto."
+        ]
+      },
+      {
+        "h": "Il metodo del margine netto (TNMM)",
+        "p": [
+          "Il metodo del margine netto della transazione (Transactional Net Margin Method, TNMM) esamina il margine di utile netto che l'impresa realizza su un'operazione infragruppo, rapportato a una base appropriata (costi, ricavi, attività), e lo confronta con il margine netto realizzato da imprese indipendenti comparabili in operazioni analoghe. È oggi il metodo più utilizzato nella prassi, per la sua flessibilità e per la maggiore disponibilità di dati sui margini netti rispetto ai margini lordi.",
+          "La ragione della sua diffusione è pratica: il margine netto è meno sensibile alle differenze funzionali e alle diverse prassi contabili rispetto al margine lordo, ed è più facilmente ricavabile dai bilanci delle società comparabili disponibili nelle banche dati. Il TNMM richiede però la scelta di un indicatore di profittabilità appropriato (il profit level indicator) e della parte da testare (tested party), tipicamente l'entità con il profilo funzionale meno complesso.",
+          "Il TNMM è particolarmente adatto quando una delle parti svolge funzioni routinarie (un distributore, un produttore su commessa, un prestatore di servizi) e l'altra detiene i beni immateriali o assume i rischi imprenditoriali principali. Testando la parte con funzioni routinarie, se ne verifica la remunerazione netta rispetto a comparabili indipendenti. La documentazione deve motivare la scelta dell'indicatore, della parte testata e del set di comparabili."
+        ]
+      },
+      {
+        "h": "Il metodo di ripartizione degli utili (Profit Split)",
+        "p": [
+          "Il metodo di ripartizione degli utili (Profit Split) determina la ripartizione tra le parti associate dell'utile (o della perdita) complessivo derivante dalle operazioni infragruppo, attribuendo a ciascuna la quota che imprese indipendenti si sarebbero attese in circostanze comparabili. La ripartizione può avvenire in base al contributo di ciascuna parte (contribution analysis) o attraverso schemi che remunerano prima le funzioni routinarie e poi ripartiscono l'utile residuo (residual analysis).",
+          "Il Profit Split è il metodo appropriato quando le operazioni sono altamente integrate e non è possibile valutare separatamente il contributo di ciascuna parte, oppure quando entrambe le parti apportano contributi unici e di valore, tipicamente beni immateriali, che rendono inapplicabili i metodi unilaterali. È un metodo complesso, che richiede una robusta analisi dei fattori di ripartizione, ma è spesso l'unico in grado di cogliere la sostanza economica di operazioni fortemente interconnesse.",
+          "La crescente rilevanza dei modelli di business integrati e dell'economia digitale ha accresciuto l'importanza del Profit Split, che consente di ripartire gli utili in funzione dell'effettivo contributo al valore. La sua applicazione richiede però una documentazione particolarmente accurata dei criteri di ripartizione, che sono il punto più delicato e più esposto a contestazioni."
+        ]
+      },
+      {
+        "h": "La selezione del metodo e l'intervallo di libera concorrenza",
+        "p": [
+          "La scelta del metodo più appropriato dipende dalle circostanze del caso: dalla natura dell'operazione, dal profilo funzionale delle parti, dalla disponibilità di comparabili affidabili e dai punti di forza e di debolezza di ciascun metodo. La documentazione deve motivare la selezione, spiegando perché il metodo adottato sia il più idoneo a determinare un risultato conforme al principio di libera concorrenza e perché gli altri siano meno appropriati.",
+          "L'applicazione del metodo prescelto raramente conduce a un unico valore: più spesso genera un intervallo di valori di libera concorrenza (arm's length range), derivante dall'analisi di una pluralità di comparabili. Quando i comparabili presentano un grado di comparabilità non pieno, si utilizzano strumenti statistici, in particolare l'intervallo interquartile, per circoscrivere il campo dei valori considerati conformi al principio di libera concorrenza e ridurre l'effetto dei valori estremi.",
+          "Se il prezzo o il margine dell'operazione infragruppo rientra nell'intervallo di libera concorrenza, l'operazione si considera conforme; se ne resta al di fuori, l'amministrazione può rettificare il reddito portandolo, di norma, al valore mediano dell'intervallo. La corretta costruzione e documentazione dell'intervallo — comparabili, indicatori, statistiche — è quindi determinante per la difendibilità della posizione dell'impresa."
+        ]
+      },
+      {
+        "h": "I servizi infragruppo e i servizi a basso valore aggiunto",
+        "p": [
+          "I servizi infragruppo — amministrativi, tecnici, di direzione, di supporto — sono tra le operazioni più frequenti e più contestate. La loro valutazione richiede anzitutto di verificare che il servizio sia stato effettivamente reso e che abbia procurato un beneficio economico all'entità che lo riceve (benefit test): un servizio non reso, o che non arreca alcun vantaggio, non giustifica un corrispettivo. Occorre poi determinare un corrispettivo di libera concorrenza, tipicamente con il metodo del costo maggiorato o del margine netto.",
+          "Per i servizi a basso valore aggiunto — servizi di natura routinaria e di supporto, non centrali per il core business del gruppo — le Linee guida OCSE prevedono un approccio semplificato, che consente di applicare un ricarico standardizzato sui costi senza una completa analisi di comparabilità, riducendo gli oneri documentali. Questo approccio semplificato agevola la gestione di servizi ricorrenti e di modesto valore, mantenendo però l'esigenza di dimostrare l'effettiva prestazione e il beneficio.",
+          "La documentazione dei servizi infragruppo deve dar conto della natura del servizio, del beneficio arrecato, del metodo di determinazione del corrispettivo e del criterio di ripartizione dei costi tra le entità beneficiarie. La corretta documentazione dei servizi è cruciale perché la loro deducibilità è spesso contestata, e il rischio di indeducibilità del costo si somma a quello della rettifica sui prezzi di trasferimento."
+        ]
+      },
+      {
+        "h": "I beni immateriali e l'approccio DEMPE",
+        "p": [
+          "I beni immateriali sono l'ambito più complesso del transfer pricing, sia per la difficoltà di valutarli sia per la loro centralità nella creazione del valore. L'evoluzione degli standard OCSE, nell'ambito del progetto BEPS, ha introdotto l'approccio DEMPE, dalle iniziali delle funzioni rilevanti in lingua inglese: sviluppo, valorizzazione, mantenimento, protezione e sfruttamento del bene immateriale (Development, Enhancement, Maintenance, Protection, Exploitation).",
+          "Il principio dell'approccio DEMPE è che i benefici derivanti da un bene immateriale devono essere attribuiti alle entità che svolgono effettivamente le funzioni DEMPE, ne sopportano i rischi e ne finanziano le attività, e non alla mera proprietà legale del bene. Un'entità che è titolare legale di un marchio, ma non svolge alcuna delle funzioni DEMPE, non può pretendere per ciò solo di trattenere i profitti generati dal marchio: la sostanza economica prevale sulla titolarità formale.",
+          "La documentazione relativa ai beni immateriali deve quindi individuare chi svolge le funzioni DEMPE, chi ne sopporta i rischi e chi ne finanzia le attività, per giustificare la ripartizione dei relativi profitti. È un'analisi complessa e ad alto rischio, perché i beni immateriali sono facilmente allocabili in giurisdizioni a bassa tassazione e la loro remunerazione è un obiettivo primario dei controlli. La solidità documentale è, in questo ambito, particolarmente importante."
+        ]
+      },
+      {
+        "h": "Le operazioni finanziarie infragruppo",
+        "p": [
+          "Le operazioni finanziarie infragruppo — finanziamenti, cash pooling, garanzie, gestione accentrata della tesoreria — sono un ambito di crescente attenzione, oggetto di specifiche indicazioni nelle Linee guida OCSE. Per i finanziamenti infragruppo, la valutazione riguarda sia la qualificazione dell'operazione (se si tratti effettivamente di un finanziamento o, in sostanza, di un apporto di capitale) sia la determinazione di un tasso di interesse di libera concorrenza, che tenga conto del merito creditizio del debitore, della durata, della valuta e delle garanzie.",
+          "Il cash pooling, cioè la gestione accentrata della liquidità del gruppo, pone problemi di attribuzione dei benefici derivanti dall'accentramento e di remunerazione dell'entità che svolge la funzione di pool leader. Le garanzie infragruppo pongono il problema di determinare se e in che misura la garanzia prestata da una parte a favore di un'altra giustifichi una commissione di libera concorrenza. Ciascuna di queste operazioni richiede un'analisi specifica, tipicamente fondata sul confronto con condizioni di mercato.",
+          "La documentazione delle operazioni finanziarie deve dar conto della loro qualificazione, del merito creditizio delle parti, delle condizioni applicate e del confronto con operazioni comparabili. È un ambito tecnicamente sofisticato, in cui la determinazione del tasso o della commissione di libera concorrenza richiede l'uso di banche dati finanziarie e di analisi del rischio di credito, che la documentazione deve rappresentare e giustificare."
+        ]
+      },
+      {
+        "h": "Accordi di ripartizione dei costi e ristrutturazioni",
+        "p": [
+          "Gli accordi di ripartizione dei costi (Cost Contribution Arrangements, CCA) sono accordi con cui più entità del gruppo condividono i costi e i rischi dello sviluppo, della produzione o dell'acquisizione di beni, servizi o beni immateriali, in proporzione ai benefici attesi da ciascuna. La loro conformità al principio di libera concorrenza richiede che i contributi di ciascun partecipante siano coerenti con i benefici attesi e che le entità che partecipano abbiano effettivamente la capacità di controllare i rischi condivisi. La documentazione deve dar conto dei criteri di ripartizione e della loro coerenza con i benefici.",
+          "Le ristrutturazioni d'impresa (business restructuring) — trasferimenti di funzioni, di rischi o di beni immateriali tra entità del gruppo, riorganizzazioni delle catene di fornitura, conversione di distributori in commissionari — pongono il problema di valutare se il trasferimento sia avvenuto a condizioni di libera concorrenza e se sia dovuto un indennizzo per il trasferimento di funzioni e di potenziale di profitto. Sono operazioni ad alto rischio, spesso oggetto di contestazione per gli importi in gioco.",
+          "Entrambi gli ambiti richiedono una documentazione particolarmente accurata, perché toccano la ripartizione del valore e del potenziale di profitto tra le entità del gruppo. La corretta rappresentazione degli accordi, dei criteri di ripartizione e delle valutazioni sottostanti è la condizione per difendere la posizione dell'impresa in sede di controllo."
+        ]
+      },
+      {
+        "h": "La rendicontazione Paese per Paese (Country-by-Country Reporting)",
+        "p": [
+          "Accanto al Masterfile e alla Documentazione Nazionale, il progetto BEPS ha introdotto un terzo livello di documentazione, la rendicontazione Paese per Paese (Country-by-Country Reporting, CbCR), destinata ai gruppi multinazionali di maggiori dimensioni. Il CbCR consiste in un prospetto che riporta, per ciascuna giurisdizione in cui il gruppo opera, dati aggregati quali i ricavi, gli utili ante imposte, le imposte pagate e maturate, il numero dei dipendenti, il capitale e gli attivi materiali, oltre all'elenco delle entità e delle loro attività.",
+          "In Italia l'obbligo di rendicontazione Paese per Paese è previsto per i gruppi con ricavi consolidati pari o superiori a una soglia stabilita dalla normativa e grava, di regola, sulla società controllante capogruppo residente. Il prospetto è trasmesso all'amministrazione finanziaria e scambiato con le amministrazioni degli altri Paesi in cui il gruppo opera, nell'ambito degli accordi internazionali sullo scambio automatico di informazioni.",
+          "Il CbCR non serve a determinare i prezzi di trasferimento, ma a fornire alle amministrazioni uno strumento di analisi del rischio ad alto livello: consente di individuare eventuali disallineamenti tra dove il gruppo realizza i ricavi e impiega risorse e dove dichiara gli utili e paga le imposte. È quindi un livello di documentazione complementare, la cui logica è la trasparenza e l'analisi del rischio su scala globale, distinta da quella analitica del Local file."
+        ]
+      },
+      {
+        "h": "Gli accordi preventivi e il ruling internazionale",
+        "p": [
+          "Per gestire preventivamente l'incertezza sui prezzi di trasferimento, l'ordinamento offre lo strumento degli accordi preventivi (Advance Pricing Agreement, APA), nella forma italiana degli accordi preventivi per le imprese con attività internazionale. Con tali accordi l'impresa e l'amministrazione definiscono in via preventiva, per un periodo determinato, i criteri di calcolo dei prezzi di trasferimento delle operazioni infragruppo, ottenendo certezza sul loro trattamento e riparo dalle contestazioni per il periodo coperto.",
+          "Gli accordi possono essere unilaterali, se conclusi tra l'impresa e la sola amministrazione italiana, o bilaterali e multilaterali, se coinvolgono anche le amministrazioni degli altri Paesi interessati, in modo da prevenire non solo la contestazione interna ma anche la doppia imposizione internazionale. Gli accordi bilaterali e multilaterali offrono la protezione più ampia, perché vincolano più amministrazioni a un criterio condiviso.",
+          "Il ricorso agli accordi preventivi è particolarmente indicato per le operazioni di importo elevato o di elevata complessità, dove l'incertezza sui prezzi di trasferimento è maggiore e il rischio di contestazioni e doppia imposizione più significativo. Pur richiedendo un impegno istruttorio rilevante, l'accordo offre in cambio certezza e stabilità, valori di grande importanza nella pianificazione dei gruppi multinazionali."
+        ]
+      },
+      {
+        "h": "Le rettifiche e le procedure di eliminazione della doppia imposizione",
+        "p": [
+          "Quando l'amministrazione di un Paese rettifica in aumento il reddito di un'impresa contestando i prezzi di trasferimento (rettifica primaria), lo stesso reddito rischia di essere tassato due volte: una prima volta nel Paese che ha operato la rettifica e una seconda volta nel Paese della controparte associata, che ha già tassato il medesimo reddito. Per eliminare questa doppia imposizione occorre una rettifica corrispondente nell'altro Paese, che riduca in misura equivalente il reddito ivi tassato.",
+          "Gli strumenti per ottenere la rettifica corrispondente sono le procedure amichevoli (Mutual Agreement Procedure, MAP) previste dalle convenzioni contro le doppie imposizioni e, nell'ambito dell'Unione europea, dalle procedure di composizione delle controversie fiscali. Attraverso queste procedure le amministrazioni dei Paesi coinvolti si confrontano per eliminare la doppia imposizione, eventualmente ricorrendo a fasi arbitrali se non raggiungono un accordo entro i termini previsti.",
+          "La documentazione di transfer pricing svolge un ruolo importante anche in questa fase: una posizione ben documentata rafforza la difesa dell'impresa nella procedura amichevole e agevola il raggiungimento di un accordo tra le amministrazioni. La coerenza della documentazione tra le diverse giurisdizioni è, ancora una volta, un valore essenziale per prevenire e risolvere le controversie sulla doppia imposizione."
+        ]
+      },
+      {
+        "h": "Il transfer pricing e la stabile organizzazione",
+        "p": [
+          "Il principio di libera concorrenza si applica non solo alle operazioni tra società distinte del gruppo, ma anche ai rapporti tra la casa madre e le sue stabili organizzazioni all'estero, e tra la stabile organizzazione in Italia di un'impresa non residente e la sua casa madre. Alla stabile organizzazione va attribuito il reddito che essa avrebbe conseguito se fosse stata un'impresa distinta e indipendente, svolgendo le medesime funzioni in condizioni analoghe.",
+          "L'attribuzione del reddito alla stabile organizzazione segue un approccio in due fasi: prima si analizzano le funzioni svolte, i rischi assunti e i beni impiegati dalla stabile organizzazione, ipotizzandola come impresa indipendente; poi si determina la remunerazione di libera concorrenza delle operazioni interne (dealings) tra la stabile organizzazione e il resto dell'impresa, applicando i medesimi metodi del transfer pricing. Anche i rapporti interni all'unica impresa vanno quindi valutati secondo il principio di libera concorrenza.",
+          "La documentazione relativa alla stabile organizzazione segue una logica analoga a quella del transfer pricing tra società, con la Documentazione Nazionale che descrive le operazioni interne e ne dimostra la congruità. Anche per la stabile organizzazione, la predisposizione di documentazione idonea, comunicata e cristallizzata nei termini, consente di accedere alla protezione sanzionatoria in caso di rettifica dell'attribuzione del reddito."
+        ]
+      },
+      {
+        "h": "Le piccole e medie imprese e la documentazione semplificata",
+        "p": [
+          "La disciplina della documentazione tiene conto delle dimensioni dell'impresa, prevedendo alcune semplificazioni per le piccole e medie imprese. Per tali soggetti, individuati in base a soglie di volume d'affari o di ricavi, è ammesso non aggiornare annualmente alcune parti dell'analisi di comparabilità, a condizione che l'analisi si basi su comparabili con dati pluriennali e che non siano intervenute modifiche significative nei fattori di comparabilità. Ciò riduce l'onere di rielaborazione periodica dell'analisi economica.",
+          "La semplificazione non esonera la piccola e media impresa dalla predisposizione della documentazione, né dai requisiti di forma — firma elettronica e marca temporale nei termini — necessari per l'idoneità: attenua soltanto l'onere di aggiornamento di alcune componenti. La logica è di proporzionalità, per non gravare le imprese minori di costi documentali sproporzionati rispetto alla dimensione delle operazioni, mantenendo però l'accesso alla penalty protection.",
+          "Per le piccole e medie imprese, il bilanciamento tra il costo della documentazione e il beneficio della protezione sanzionatoria va valutato caso per caso, alla luce del volume e della criticità delle operazioni infragruppo. Anche per esse, tuttavia, la documentazione resta lo strumento principale per gestire il rischio di transfer pricing e per prevenire contestazioni onerose in sede di controllo."
+        ]
+      },
+      {
+        "h": "La documentazione integrativa e i periodi pregressi",
+        "p": [
+          "Il regime della documentazione consente, a determinate condizioni, di predisporre documentazione anche per periodi d'imposta pregressi, ad esempio in relazione ad annualità ancora accertabili per le quali non era stata originariamente predisposta. La possibilità di produrre documentazione integrativa o relativa a periodi anteriori è però subordinata al rispetto dei requisiti di idoneità, tra cui, in particolare, il requisito della data certa attribuita dalla marca temporale, che consente di collocare temporalmente la formazione del documento.",
+          "Il tema della data certa è qui ancora più delicato: la documentazione relativa a periodi pregressi deve poter dimostrare quando è stata effettivamente formata, per evitare che si tratti di documentazione costruita ex post in vista di un controllo. La marca temporale, apposta secondo le regole tecniche, è lo strumento che fornisce questa prova, e la sua corretta apposizione è la condizione per l'ammissibilità e l'efficacia della documentazione integrativa.",
+          "La gestione dei periodi pregressi e della documentazione integrativa richiede quindi attenzione particolare al profilo temporale e probatorio: firma elettronica, marca temporale e conservazione a norma non sono, anche qui, meri adempimenti tecnici, ma gli elementi che conferiscono al documento la sua efficacia difensiva, ancorandone la formazione a una data certa e opponibile all'amministrazione."
         ]
       },
       {
@@ -1815,6 +2087,22 @@
         "p": [
           "La documentazione di transfer pricing è, a tutti gli effetti, un insieme di documenti informatici rilevanti a fini fiscali e come tali va conservata a norma per i termini dell'accertamento, garantendone integrità, leggibilità e reperibilità. La marca temporale apposta ai fini dell'idoneità svolge qui una doppia funzione: da un lato è requisito sostanziale per la penalty protection, dall'altro fornisce la prova della data certa dei documenti, elemento centrale della conservazione a norma.",
           "In pratica, il processo di formazione della documentazione (redazione, firma elettronica del legale rappresentante, apposizione della marca temporale entro il termine della dichiarazione) e quello di conservazione a norma vanno progettati in modo coordinato: la marca temporale che cristallizza la documentazione entro il termine confluisce nel sistema di conservazione, dove il documento è custodito con i propri metadati fino alla definizione degli accertamenti relativi al periodo d'imposta. È un caso emblematico in cui firma e marca temporale non sono un mero adempimento tecnico, ma la condizione stessa dell'efficacia giuridica del documento."
+        ]
+      },
+      {
+        "h": "La gestione del rischio e il valore strategico della documentazione",
+        "p": [
+          "La documentazione di transfer pricing non va intesa come un mero adempimento formale, ma come uno strumento di gestione del rischio fiscale. La sua predisposizione tempestiva e accurata consente all'impresa di conoscere in anticipo la propria esposizione, di individuare le operazioni più critiche e di intervenire per allinearle al principio di libera concorrenza prima che intervenga un controllo. In questa prospettiva, la documentazione è parte di un più ampio sistema di controllo del rischio fiscale (tax control framework), particolarmente rilevante per i gruppi di maggiori dimensioni.",
+          "La predisposizione della documentazione impone all'impresa un esercizio di autoanalisi: mappare le operazioni infragruppo, ricostruire i profili funzionali, verificare la congruità dei prezzi. Questo esercizio, oltre a produrre il documento, genera consapevolezza e consente di correggere per tempo le politiche di prezzo non allineate. La documentazione diventa così un momento di verifica interna, il cui valore va oltre la protezione sanzionatoria.",
+          "Per i gruppi che aderiscono a regimi di adempimento collaborativo con l'amministrazione, la documentazione di transfer pricing assume un rilievo ulteriore, come elemento del dialogo trasparente con il Fisco. La qualità e la coerenza della documentazione, mantenute nel tempo, sono la base della credibilità dell'impresa e della prevedibilità del suo trattamento fiscale."
+        ]
+      },
+      {
+        "h": "Sintesi operativa",
+        "p": [
+          "La documentazione di transfer pricing è l'insieme di documenti — Masterfile e Documentazione Nazionale — con cui l'impresa dimostra che i prezzi delle operazioni infragruppo sono conformi al principio di libera concorrenza sancito dall'art. 110, comma 7, del TUIR. La sua predisposizione è facoltativa, ma il possesso di documentazione idonea, comunicato nella dichiarazione dei redditi, consente di beneficiare della penalty protection, cioè della disapplicazione delle sanzioni per infedele dichiarazione in caso di rettifica dei prezzi di trasferimento.",
+          "L'idoneità della documentazione dipende da requisiti di contenuto — struttura conforme al Provvedimento del 2020, completezza dell'analisi funzionale e di comparabilità, motivazione del metodo adottato — e da un requisito di forma imprescindibile: la firma elettronica del legale rappresentante e l'apposizione di una marca temporale entro il termine di presentazione della dichiarazione dei redditi cui la documentazione si riferisce. Senza marca temporale entro il termine, la documentazione non è idonea e la penalty protection non opera.",
+          "Predisposta e cristallizzata con firma e marca temporale, la documentazione va esibita all'amministrazione entro venti giorni dalla richiesta e conservata a norma per l'intero periodo dell'accertamento, garantendone integrità, leggibilità e reperibilità. Firma elettronica, marca temporale e conservazione a norma sono così, in questo ambito, non un mero corredo tecnico, ma la condizione stessa dell'efficacia giuridica e dell'utilità difensiva della documentazione."
         ]
       }
     ],
