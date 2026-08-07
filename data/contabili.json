@@ -1,6 +1,7 @@
 [
   {
     "id": "registri-iva",
+    "esempi": [ { "label": "Registro IVA vendite/acquisti (HTML)", "file": "esempi/registro-iva.html" } ],
     "title": "Registri IVA",
     "abstract": "Registro delle fatture emesse, degli acquisti e dei corrispettivi: la base della liquidazione dell'imposta sul valore aggiunto.",
     "lead": "I registri IVA sono le scritture in cui l'imprenditore e il professionista annotano le operazioni rilevanti ai fini dell'imposta sul valore aggiunto. Non nascono dal Codice civile ma dalla disciplina IVA (D.P.R. 633/1972): registro delle fatture emesse, registro degli acquisti e, per chi non emette fattura, registro dei corrispettivi. Da queste annotazioni discende la liquidazione periodica dell'imposta, cioè il calcolo di quanto versare o portare a credito. Sono documenti a un tempo contabili e fiscali, la cui corretta costruzione è il presupposto della corretta determinazione del tributo.",
@@ -203,6 +204,7 @@
   },
   {
     "id": "libro-giornale",
+    "esempi": [ { "label": "Libro giornale (HTML)", "file": "esempi/libro-giornale.html" } ],
     "title": "Libro Giornale",
     "abstract": "La scrittura cronologica per eccellenza: tutte le operazioni di gestione, giorno per giorno, nell'ordine in cui avvengono.",
     "lead": "Il libro giornale è il registro contabile obbligatorio in cui vengono annotate, in ordine cronologico, tutte le operazioni relative all'esercizio dell'impresa. È previsto dall'articolo 2216 del Codice civile, nell'ambito dell'obbligo generale di tenuta delle scritture contabili posto dall'articolo 2214. La sua caratteristica distintiva è la cronologicità: ogni fatto di gestione vi trova posto nel momento in cui si verifica, indipendentemente dalla sua natura, componendo il diario continuo e ordinato della vita economica dell'impresa.",
@@ -410,6 +412,7 @@
   },
   {
     "id": "libro-inventari",
+    "esempi": [ { "label": "Libro degli inventari (HTML)", "file": "esempi/libro-inventari.html" } ],
     "title": "Libro Inventari",
     "abstract": "La fotografia annuale del patrimonio: attività, passività e bilancio, redatti all'inizio dell'attività e alla chiusura di ogni esercizio.",
     "lead": "Il libro degli inventari è la scrittura contabile obbligatoria che rappresenta, in modo analitico, la consistenza del patrimonio dell'impresa a una data determinata. Previsto dall'articolo 2217 del Codice civile, si redige all'inizio dell'esercizio dell'impresa e successivamente ogni anno, e si chiude con il bilancio. Se il libro giornale è il diario dinamico delle operazioni, il libro inventari è la fotografia statica del patrimonio: mostra ciò che l'impresa possiede e ciò che deve in un preciso momento.",
@@ -631,6 +634,7 @@
   },
   {
     "id": "libro-mastro",
+    "esempi": [ { "label": "Libro mastro / mastrino (HTML)", "file": "esempi/libro-mastro.html" } ],
     "title": "Libro Mastro",
     "abstract": "La rilevazione sistematica per conti: i saldi di ogni conto, complemento sistematico del libro giornale.",
     "lead": "Il libro mastro è la scrittura contabile che raccoglie le registrazioni in forma sistematica, ordinandole per conto anziché per data. A differenza del libro giornale e del libro degli inventari, non è un libro obbligatorio espressamente nominato dal Codice civile, ma rientra tra le scritture richieste dalla natura e dalle dimensioni dell'impresa (art. 2214 c.c.) ed è parte integrante e imprescindibile del metodo della partita doppia. Se il giornale registra le operazioni nell'ordine in cui accadono, il mastro le riaggrega per conto, mostrando in ogni momento il saldo di ciascuno.",
@@ -835,6 +839,7 @@
   },
   {
     "id": "libro-cespiti",
+    "esempi": [ { "label": "Registro dei beni ammortizzabili (HTML)", "file": "esempi/registro-cespiti.html" } ],
     "title": "Libro Cespiti",
     "abstract": "Il registro dei beni ammortizzabili: la memoria analitica delle immobilizzazioni e dei relativi ammortamenti.",
     "lead": "Il libro dei cespiti, o registro dei beni ammortizzabili, è la scrittura in cui l'impresa annota i beni strumentali a utilità pluriennale e ne segue nel tempo l'ammortamento. È previsto, ai fini fiscali, dall'articolo 16 del D.P.R. 600/1973. La sua funzione è tenere memoria analitica di ciascun cespite — data di acquisizione, costo, quota e fondo di ammortamento — così da determinare correttamente le quote deducibili e il valore residuo dei beni impiegati nell'attività.",
@@ -1056,6 +1061,7 @@
   },
   {
     "id": "giornale-magazzino",
+    "esempi": [ { "label": "Giornale di magazzino (HTML)", "file": "esempi/giornale-magazzino.html" } ],
     "title": "Giornale di magazzino",
     "abstract": "La rilevazione cronologica dei movimenti di magazzino, cuore delle scritture ausiliarie di magazzino.",
     "lead": "Il giornale di magazzino è la scrittura in cui si annotano, in ordine cronologico, i movimenti di carico e scarico dei beni in giacenza. Fa parte delle scritture ausiliarie di magazzino, la cui tenuta è imposta, ai fini fiscali, dall'articolo 14 del D.P.R. 600/1973 ai soggetti che superano determinate soglie dimensionali. La sua funzione è documentare in modo continuo la movimentazione delle merci, così da consentire la determinazione e il controllo delle rimanenze.",
@@ -1262,6 +1268,7 @@
   },
   {
     "id": "schede-magazzino",
+    "esempi": [ { "label": "Scheda di magazzino (HTML)", "file": "esempi/scheda-magazzino.html" } ],
     "title": "Schede di magazzino",
     "abstract": "La rilevazione sistematica per singolo articolo: la giacenza e i movimenti di ciascun bene, complemento del giornale di magazzino.",
     "lead": "Le schede di magazzino sono la componente sistematica delle scritture ausiliarie di magazzino: mentre il giornale di magazzino registra i movimenti in ordine cronologico, le schede li ordinano per singolo articolo o categoria di beni, mostrando per ciascuno la giacenza e la sua evoluzione. Come il giornale di magazzino, rientrano tra le scritture obbligatorie ai fini fiscali per i soggetti che superano le soglie dimensionali previste dall'articolo 14 del D.P.R. 600/1973.",
@@ -1762,6 +1769,7 @@
   },
   {
     "id": "transfer-pricing",
+    "esempi": [ { "label": "Documentazione TP â€” frontespizio (HTML)", "file": "esempi/transfer-pricing-frontespizio.html" } ],
     "title": "Transfer Pricing — Documentazione",
     "abstract": "Masterfile e Documentazione Nazionale sui prezzi di trasferimento: contenuto, penalty protection e — punto cruciale — firma elettronica con marca temporale entro il termine della dichiarazione.",
     "lead": "La documentazione sui prezzi di trasferimento (transfer pricing) è l'insieme dei documenti con cui l'impresa che effettua operazioni infragruppo con parti correlate non residenti dimostra che i corrispettivi rispettano il principio di libera concorrenza (arm's length). Non è obbligatoria in senso stretto, ma predisporla in forma «idonea» consente di beneficiare della cosiddetta penalty protection: l'esonero dalle sanzioni per infedele dichiarazione in caso di rettifica dei prezzi di trasferimento. Dal punto di vista della conservazione, il tratto più delicato e specifico è che la documentazione deve essere firmata elettronicamente e marcata temporalmente entro un termine preciso: senza la marca temporale, la documentazione non è idonea e la protezione dalle sanzioni viene meno.",

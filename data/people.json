@@ -1,6 +1,7 @@
 [
   {
     "id": "certificazione-unica",
+    "esempi": [ { "label": "Certificazione Unica â€” dati fiscali (HTML)", "file": "esempi/certificazione-unica.html" } ],
     "title": "Certificazione Unica (CU)",
     "abstract": "La certificazione dei redditi di lavoro dipendente, autonomo e assimilati corrisposti e delle ritenute operate dal sostituto d'imposta.",
     "lead": "La Certificazione Unica (CU) è il documento con cui il sostituto d'imposta certifica, per ciascun percipiente, i redditi di lavoro dipendente, assimilati e di lavoro autonomo corrisposti nell'anno, le ritenute operate, le detrazioni applicate e i dati previdenziali e assistenziali. È disciplinata dall'articolo 4 del D.P.R. 322/1998 e sostituisce, dal 2015, il precedente modello CUD. La CU assolve una duplice funzione: consegnata al lavoratore, gli serve per la dichiarazione dei redditi; trasmessa all'Agenzia delle Entrate, alimenta la dichiarazione precompilata e i controlli sui redditi e sulle ritenute.",
@@ -331,6 +332,7 @@
   },
   {
     "id": "libro-unico-lavoro",
+    "esempi": [ { "label": "LUL â€” cedolino e presenze (HTML)", "file": "esempi/lul-cedolino.html" } ],
     "title": "Libro Unico del Lavoro (LUL)",
     "abstract": "Il documento obbligatorio che documenta lo stato di ogni lavoratore e le somme erogate: presenze, retribuzioni, trattenute.",
     "lead": "Il Libro Unico del Lavoro (LUL) è il documento obbligatorio in cui il datore di lavoro registra, per ciascun lavoratore, i dati del rapporto di lavoro e le somme corrisposte: la retribuzione, le trattenute, le presenze, le assenze, le ferie, gli straordinari. Istituito dal D.L. 112/2008 in sostituzione dei preesistenti libri paga e matricola, il LUL è disciplinato dal relativo decreto attuativo del Ministero del Lavoro e costituisce il principale strumento di documentazione del rapporto di lavoro, con funzione probatoria e di controllo nei rapporti con gli enti ispettivi.",
@@ -700,6 +702,7 @@
   },
   {
     "id": "modello-770",
+    "esempi": [ { "label": "Modello 770 â€” sostituto d'imposta (HTML)", "file": "esempi/modello-770.html" } ],
     "title": "Modello 770",
     "abstract": "La dichiarazione annuale del sostituto d'imposta: il riepilogo delle ritenute operate e versate su redditi di lavoro e altri redditi.",
     "lead": "Il modello 770 è la dichiarazione annuale con cui il sostituto d'imposta comunica all'Agenzia delle Entrate le ritenute operate e versate nell'anno sui redditi corrisposti — di lavoro dipendente e assimilati, di lavoro autonomo, provvigioni, redditi di capitale — nonché i relativi versamenti, compensazioni e crediti. Disciplinato dall'articolo 4 del D.P.R. 322/1998, il 770 è il documento che riepiloga all'Amministrazione l'insieme dell'attività del sostituto d'imposta, in stretto collegamento con le Certificazioni Uniche dei singoli percipienti.",
@@ -1045,6 +1048,7 @@
   },
   {
     "id": "trasferte-note-spese",
+    "esempi": [ { "label": "Nota spese di trasferta (HTML)", "file": "esempi/nota-spese.html" } ],
     "title": "Trasferte e note spese",
     "abstract": "La documentazione dei rimborsi ai dipendenti per le trasferte: note spese, giustificativi, trattamento fiscale e contributivo.",
     "lead": "Le trasferte e le note spese riguardano la documentazione e il rimborso delle spese sostenute dai lavoratori nell'espletamento dell'attività lavorativa fuori dalla sede abituale: viaggio, vitto, alloggio, spese varie. La nota spese è il documento con cui il lavoratore rendiconta le spese sostenute, corredato dai giustificativi; il trattamento fiscale e contributivo dei rimborsi dipende dalle modalità adottate — analitico, forfetario, misto — e dai limiti previsti dall'articolo 51 del TUIR. Trasferte e note spese si collocano al crocevia tra amministrazione del personale, disciplina fiscale del reddito di lavoro e deducibilità dei costi per l'impresa.",
@@ -1375,6 +1379,7 @@
   },
   {
     "id": "cud-storico",
+    "esempi": [ { "label": "CUD storico (HTML)", "file": "esempi/cud-storico.html" } ],
     "title": "CUD (storico)",
     "abstract": "La Certificazione Unica dei redditi di lavoro Dipendente, in vigore fino al 2014 e sostituita dalla CU: un riferimento storico ancora rilevante negli archivi.",
     "lead": "Il CUD — Certificazione Unica dei redditi di lavoro Dipendente e assimilati — è stato, fino all'anno d'imposta 2013 (rilasciato nel 2014), il documento con cui il sostituto d'imposta certificava al lavoratore i redditi di lavoro dipendente e assimilati corrisposti, le ritenute operate e i dati previdenziali. Dal 2015 è stato sostituito dalla Certificazione Unica (CU), che ne ha ampliato l'ambito. Pur non essendo più emesso, il CUD conserva rilievo pratico: milioni di esemplari sono ancora presenti negli archivi dei datori di lavoro e dei lavoratori, soggetti a obblighi di conservazione e talvolta richiesti per finalità previdenziali o di ricostruzione della posizione reddituale.",
@@ -1699,6 +1704,7 @@
   },
   {
     "id": "autoliquidazione-inail",
+    "esempi": [ { "label": "Autoliquidazione INAIL (HTML)", "file": "esempi/autoliquidazione-inail.html" } ],
     "title": "Autoliquidazione INAIL",
     "abstract": "Il calcolo e il versamento annuale del premio per l'assicurazione obbligatoria contro gli infortuni sul lavoro e le malattie professionali.",
     "lead": "L'autoliquidazione INAIL è l'adempimento con cui il datore di lavoro determina e versa annualmente il premio dovuto all'Istituto Nazionale per l'Assicurazione contro gli Infortuni sul Lavoro. Il meccanismo si fonda su una regolazione del premio dell'anno precedente, calcolata sulle retribuzioni effettivamente erogate, e su una rata anticipata per l'anno in corso, calcolata su una base presunta. L'assicurazione contro gli infortuni e le malattie professionali è obbligatoria ai sensi del D.P.R. 1124/1965, e l'autoliquidazione ne costituisce il principale adempimento contributivo periodico.",
@@ -2036,6 +2042,7 @@
   },
   {
     "id": "uniemens",
+    "esempi": [ { "label": "Denuncia UniEmens (estratto XML) (HTML)", "file": "esempi/uniemens.html" } ],
     "title": "UniEmens",
     "abstract": "La denuncia contributiva e retributiva mensile telematica all'INPS: dati dei lavoratori, retribuzioni e contributi.",
     "lead": "L'UniEmens è la denuncia mensile con cui il datore di lavoro comunica all'INPS, in via telematica, i dati retributivi e contributivi di ciascun lavoratore: le retribuzioni imponibili, i contributi dovuti, le informazioni utili al calcolo delle prestazioni previdenziali e assistenziali. Nato dall'unificazione delle precedenti denunce EMens e DM10, l'UniEmens costituisce il principale flusso informativo del rapporto di lavoro verso l'INPS, alimentando le posizioni assicurative individuali dei lavoratori e il calcolo dei contributi.",
@@ -2380,6 +2387,7 @@
   },
   {
     "id": "tfr",
+    "esempi": [ { "label": "Prospetto TFR (HTML)", "file": "esempi/tfr.html" } ],
     "title": "TFR — Trattamento di Fine Rapporto",
     "abstract": "La retribuzione differita spettante al lavoratore alla cessazione del rapporto: calcolo, accantonamento, destinazione e tassazione.",
     "lead": "Il Trattamento di Fine Rapporto (TFR) è la somma che spetta al lavoratore dipendente alla cessazione del rapporto di lavoro, quale ne sia la causa. Disciplinato dall'articolo 2120 del Codice civile, si determina accantonando, per ciascun anno di servizio, una quota della retribuzione, rivalutata annualmente. Il TFR è una forma di retribuzione differita, la cui gestione tocca profili civilistici, contabili, fiscali e previdenziali: dall'accantonamento annuale alla scelta di destinazione — in azienda o alla previdenza complementare — fino alla tassazione separata al momento dell'erogazione.",
@@ -2711,6 +2719,7 @@
   },
   {
     "id": "modello-f24",
+    "esempi": [ { "label": "Modello F24 (HTML)", "file": "esempi/modello-f24.html" } ],
     "title": "Modello F24",
     "abstract": "La delega unica di pagamento con cui si versano imposte, contributi e premi e si effettuano le compensazioni: il crocevia dei versamenti fiscali e previdenziali.",
     "lead": "Il modello F24 è la delega di pagamento con cui si versano, in modo unitario, la gran parte delle imposte, dei contributi e dei premi dovuti a diversi enti — Agenzia delle Entrate, INPS, INAIL, Regioni, Comuni e altri — e con cui si effettuano le compensazioni tra debiti e crediti. Introdotto dall'articolo 17 del D.Lgs. 241/1997, l'F24 realizza il principio del versamento unitario e della compensazione: consente al contribuente di pagare in un'unica soluzione somme dovute a titoli diversi e di compensare i debiti con i crediti maturati verso lo stesso o altri enti. È lo strumento attraverso cui transita, ogni giorno, gran parte della fiscalità e della contribuzione italiana.",
@@ -3042,6 +3051,7 @@
   },
   {
     "id": "contributi-collaboratori",
+    "esempi": [ { "label": "Contributi collaboratori â€” Gestione Separata (HTML)", "file": "esempi/contributi-collaboratori.html" } ],
     "title": "Autoliquidazione contributi dei collaboratori",
     "abstract": "Gli obblighi contributivi per i collaboratori coordinati e continuativi e figure assimilate: Gestione Separata INPS, versamento con F24 e premio INAIL.",
     "lead": "I collaboratori coordinati e continuativi e le figure a essi assimilate — amministratori, alcuni professionisti senza cassa, collaboratori occasionali oltre soglia — sono soggetti a obblighi contributivi propri, distinti da quelli dei lavoratori subordinati. Il perno del sistema è la Gestione Separata INPS, istituita dall'articolo 2, comma 26, della Legge 335/1995, cui affluiscono i contributi calcolati sui compensi, ripartiti tra committente e collaboratore e versati con modello F24. A questi si affianca, per i collaboratori che svolgono attività a rischio, l'assicurazione INAIL, il cui premio è autoliquidato annualmente. Il termine «autoliquidazione», proprio del premio INAIL, si estende nel linguaggio comune all'insieme degli adempimenti contributivi che il committente calcola e versa in luogo dell'ente.",
