@@ -828,6 +828,18 @@
 <div class="temi-grid" id="people-grid" style="margin-bottom:70px"></div>
 </section>
 
+<!-- ───────── Novità 2026: E-Evidence ───────── -->
+<section class="portal-section" data-sez="eevidence" hidden>
+<div class="sez-nav"><a class="back-btn" href="#">← Torna all'indice</a></div>
+<div class="section-rule">
+  <span class="kicker">Novità 2026</span>
+  <h2>E-Evidence</h2>
+  <span class="rule-line"></span>
+</div>
+<div class="section-intro">Il pacchetto europeo e-evidence (Reg. UE 2023/1543, D.Lgs. 215 e 216/2025): ordini EPOC di produzione, EPOC-PR di congelamento, freezing interno ex art. 263-bis c.p.p. e impatti sui sistemi di conservazione a norma.</div>
+<div class="temi-grid" id="eevidence-grid" style="margin-bottom:70px"></div>
+</section>
+
 <footer>
   <span>Materiale a fini informativi — non costituisce consulenza legale o fiscale</span>
   <span>Verificare sempre la versione vigente sulle fonti ufficiali (AgID, Normattiva, EUR-Lex)</span>
@@ -1108,6 +1120,25 @@ function renderPeople(){
   if(cnt) cnt.textContent = `${PEOPLE.length} schede`;
 }
 
+/* ───────── E-Evidence ───────── */
+function renderEevidence(){
+  const grid = document.getElementById('eevidence-grid');
+  if(!grid) return;
+  const t = TEMI.find(x => x.id === 'e-evidence');
+  if(!t){ grid.innerHTML = '<p>Contenuto non disponibile.</p>'; return; }
+  grid.innerHTML = `
+    <div class="tema-card" tabindex="0" data-id="${t.id}" role="button" aria-label="Apri tema ${t.title}">
+      <div class="tema-num">${t.num}</div>
+      <div class="tema-title">${t.title}</div>
+      <div class="tema-abstract">${t.abstract}</div>
+      <div class="tema-foot">${fontiForTema(t.id).length} fonti collegate →</div>
+    </div>`;
+  grid.querySelectorAll('.tema-card').forEach(card => {
+    card.addEventListener('click', () => openTema(card.dataset.id));
+    card.addEventListener('keypress', e => { if(e.key === 'Enter') openTema(card.dataset.id); });
+  });
+}
+
 function openPeople(id, noPush){
   const p = PEOPLE.find(x => x.id === id);
   if(!p) return;
@@ -1316,6 +1347,7 @@ function routeFromHash(){
   if(hash.startsWith('doganale-')){ setSection('doganali'); openDoganale(hash.slice(9), true); return; }
   if(hash.startsWith('ambientale-')){ setSection('ambientali'); openAmbientale(hash.slice(11), true); return; }
   if(hash.startsWith('people-')){ setSection('people'); openPeople(hash.slice(7), true); return; }
+  if(hash === 'sezione-eevidence'){ setSection('eevidence'); window.scrollTo(0,0); return; }
   if(hash.startsWith('fonte-')){
     const id = hash.slice(6);
     const f = FONTI.find(x => x.id === id);
@@ -1419,6 +1451,7 @@ async function init(){
   renderDoganali();
   renderAmbientali();
   renderPeople();
+  renderEevidence();
   renderHomeIndex();
   routeFromHash();
 }
