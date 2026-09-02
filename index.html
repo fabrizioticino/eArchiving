@@ -1126,17 +1126,21 @@ function renderEevidence(){
   if(!grid) return;
   const t = TEMI.find(x => x.id === 'e-evidence');
   if(!t){ grid.innerHTML = '<p>Contenuto non disponibile.</p>'; return; }
+  const obblighiHTML = (t.obblighi || []).map(o => `<li>${o}</li>`).join('');
+  const approHTML = (t.approfondimento || []).map(s => `
+    <div class="appro-section">
+      ${s.h ? `<h3 class="appro-h">${s.h}</h3>` : ''}
+      ${(s.p || []).map(par => `<p class="appro-p">${par}</p>`).join('')}
+    </div>`).join('');
   grid.innerHTML = `
-    <div class="tema-card" tabindex="0" data-id="${t.id}" role="button" aria-label="Apri tema ${t.title}">
-      <div class="tema-num">${t.num}</div>
-      <div class="tema-title">${t.title}</div>
-      <div class="tema-abstract">${t.abstract}</div>
-      <div class="tema-foot">${fontiForTema(t.id).length} fonti collegate →</div>
+    <div style="grid-column:1/-1">
+      <p class="lead">${t.body}</p>
+      ${approHTML}
+      <div class="block">
+        <div class="block-head">Obblighi e adempimenti chiave</div>
+        <ul class="point-list">${obblighiHTML}</ul>
+      </div>
     </div>`;
-  grid.querySelectorAll('.tema-card').forEach(card => {
-    card.addEventListener('click', () => openTema(card.dataset.id));
-    card.addEventListener('keypress', e => { if(e.key === 'Enter') openTema(card.dataset.id); });
-  });
 }
 
 function openPeople(id, noPush){
