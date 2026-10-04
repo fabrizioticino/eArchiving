@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conservazione a norma in Romania — Regesta Group</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,'Segoe UI',sans-serif;background:#f4f4f0;color:#1a1a18;line-height:1.6}
+  a{color:#C8102E;text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  /* Header */
+  header{background:#C8102E;color:#fff;padding:10px 5vw}
+  .hdr-top{display:flex;justify-content:space-between;align-items:center;gap:16px}
+  .hdr-logo{height:22px;filter:brightness(0) invert(1);opacity:.9;flex-shrink:0}
+  .hdr-back{font-size:12px;color:#fff;opacity:.85;display:flex;align-items:center;gap:6px}
+  .hdr-back:hover{opacity:1;text-decoration:none}
+  .hdr-title{font-size:13px;font-weight:600;letter-spacing:.04em;text-align:center;flex:1}
+
+  /* Hero */
+  .hero{background:#fff;border-bottom:3px double #1a1a18;padding:2rem 5vw 1.5rem}
+  .hero h1{font-size:clamp(18px,3vw,26px);font-weight:700;line-height:1.3;margin-bottom:.5rem}
+  .hero .sub{font-size:13px;color:#555;margin-bottom:.75rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:#888}
+  .meta span{display:flex;align-items:center;gap:4px}
+  .disclaimer{margin-top:1rem;padding:.75rem 1rem;background:#FFF9C4;border-left:3px solid #F0BF00;border-radius:4px;font-size:12px;color:#6B4F00}
+
+  /* Layout */
+  .wrap{max-width:860px;margin:0 auto;padding:2rem 5vw}
+
+  /* Messaggi chiave */
+  .key-messages{background:#fff;border:1px solid #e0e0d8;border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:2rem}
+  .key-messages h2{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#C8102E;margin-bottom:.75rem}
+  .key-messages ul{padding-left:1.1rem}
+  .key-messages li{font-size:13px;margin-bottom:.5rem}
+
+  /* Raccomandazione */
+  .recommendation{background:#E6F1FB;border:1px solid #b3d0f0;border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:2rem}
+  .recommendation h2{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#185FA5;margin-bottom:.75rem}
+  .recommendation p{font-size:13px}
+
+  /* Sezioni */
+  .section{margin-bottom:2rem}
+  .section h2{font-size:16px;font-weight:700;border-bottom:2px solid #1a1a18;padding-bottom:.4rem;margin-bottom:1rem}
+  .section h3{font-size:14px;font-weight:600;color:#C8102E;margin:1rem 0 .5rem}
+  .section p{font-size:13px;margin-bottom:.75rem}
+  .section ul,.section ol{padding-left:1.2rem;margin-bottom:.75rem}
+  .section li{font-size:13px;margin-bottom:.35rem}
+
+  /* Tabelle */
+  .tbl-wrap{overflow-x:auto;margin-bottom:1rem}
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  thead th{background:#1a1a18;color:#fff;padding:7px 10px;text-align:left;font-weight:600}
+  tbody td{padding:7px 10px;border-bottom:1px solid #e0e0d8;vertical-align:top}
+  tbody tr:nth-child(even) td{background:#fafaf6}
+  .tag-vigente{display:inline-block;background:#d1fae5;color:#065f46;border-radius:3px;padding:1px 6px;font-size:11px;font-weight:600}
+  .tag-abrogata{display:inline-block;background:#fee2e2;color:#991b1b;border-radius:3px;padding:1px 6px;font-size:11px;font-weight:600}
+
+  /* Box nota */
+  .box-note{background:#f0f0ea;border-left:3px solid #888;border-radius:0 6px 6px 0;padding:.75rem 1rem;font-size:12px;color:#555;margin:1rem 0}
+
+  /* Box avviso rosso */
+  .box-warn{background:#FFF0F0;border-left:3px solid #C8102E;border-radius:0 6px 6px 0;padding:.75rem 1rem;font-size:12px;color:#7a1010;margin:1rem 0}
+
+  /* Indice */
+  .toc{background:#fff;border:1px solid #e0e0d8;border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:2rem}
+  .toc h2{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#888;margin-bottom:.75rem}
+  .toc ol{padding-left:1.3rem}
+  .toc li{font-size:13px;margin-bottom:.3rem}
+  .toc a{color:#1a1a18;font-weight:500}
+
+  /* Fonti */
+  .fonti ul{padding-left:1.2rem}
+  .fonti li{font-size:12px;margin-bottom:.35rem;color:#555}
+  .fonti a{color:#C8102E}
+
+  /* Footer */
+  footer{text-align:center;font-size:11px;color:#aaa;padding:1.5rem 5vw;border-top:1px solid #e0e0d8;margin-top:2rem}
+
+  @media(max-width:600px){
+    .hdr-title{display:none}
+    .wrap{padding:1.25rem 1rem}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr-top">
+    <a href="https://www.regestaitalia.eu/gestione-documentale/" target="_blank" rel="noopener">
+      <img class="hdr-logo" src="regesta-logo.png" alt="Regesta Group">
+    </a>
+    <span class="hdr-title">Conservazione a norma — Romania</span>
+    <a class="hdr-back" href="index.html">← eArchiving Tracker</a>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Conservazione a norma dei documenti in Romania</h1>
+  <p class="sub">Quadro normativo, autorità competenti, obblighi fiscali e implicazioni operative per un operatore italiano di conservazione</p>
+  <div class="meta">
+    <span>📅 Aggiornato al 6 ottobre 2026</span>
+    <span>✍️ Fabrizio Ticino — Regesta Group</span>
+  </div>
+  <p class="disclaimer">Documento informativo a uso interno. Non costituisce parere legale: le indicazioni normative vanno validate con un consulente qualificato in diritto romeno prima di decisioni operative.</p>
+</div>
+
+<div class="wrap">
+
+  <div class="key-messages">
+    <h2>Messaggi chiave</h2>
+    <ul>
+      <li><strong>Normativa aggiornata nel 2024.</strong> La Legge 201/2024 ha modificato la Legge 135/2007 e la Legge degli Archivi Nazionali (16/1996): obblighi espliciti di integrità, autenticità, esportabilità e migrazione dei documenti elettronici.</li>
+      <li><strong>Nuove regole tecniche ADR.</strong> L'Ordine 20.717/2024 ha sostituito le norme del 2009: l'archiviazione elettronica avviene solo tramite sistemi avizati dall'ADR. La Decisione ADR 162/2026 (marzo 2026) ha ridisegnato le procedure.</li>
+      <li><strong>Firma elettronica riformata.</strong> Dall'8 ottobre 2024 la Legge 214/2024 sostituisce la storica Legge 455/2001.</li>
+      <li><strong>e-Factura è il motore della domanda.</strong> Lo SPV dell'ANAF rende disponibili le fatture solo per 60 giorni; oltre, la conservazione dell'XML firmato dal Ministero delle Finanze è a carico dell'impresa. Dal 2026 termine di 5 giorni lavorativi.</li>
+      <li><strong>Mercato presidiato da società romene.</strong> Il registro ADR conta 11 amministratori accreditati, tutti società di diritto romeno. I gruppi esteri operano tramite filiale romena (tra cui Namirial SRL, accreditata dal 14 luglio 2026).</li>
+      <li><strong>eIDAS 2 operativo.</strong> Il Reg. UE 2025/2532, applicabile dal 6 gennaio 2026, fissa gli standard per l'archiviazione elettronica qualificata: è la leva per un'offerta paneuropea.</li>
+    </ul>
+  </div>
+
+  <div class="recommendation">
+    <h2>Raccomandazione di sintesi</h2>
+    <p>Adottare una <strong>strategia a doppio binario</strong>: (1) nel breve periodo, ottenere l'<em>aviz tehnic</em> ADR per il sistema e, se si opera per conto terzi, l'accreditamento come <em>administrator de arhivă electronică</em> tramite una società di diritto romeno, così da intercettare la domanda generata da e-Factura; (2) nel medio periodo, avviare il percorso di qualificazione eIDAS 2 per beneficiare del riconoscimento in Romania e negli altri Stati membri senza ulteriori procedure nazionali.</p>
+  </div>
+
+  <div class="toc">
+    <h2>Indice</h2>
+    <ol>
+      <li><a href="#contesto">Contesto e perimetro</a></li>
+      <li><a href="#normativa">Quadro normativo nazionale</a></li>
+      <li><a href="#eidas">Il livello europeo: eIDAS 2</a></li>
+      <li><a href="#efactura">Obblighi fiscali: e-Factura</a></li>
+      <li><a href="#autorita">Autorità e attori</a></li>
+      <li><a href="#operatori">Operatori accreditati</a></li>
+      <li><a href="#confronto">Confronto con il modello italiano</a></li>
+      <li><a href="#raccomandazioni">Implicazioni e raccomandazioni operative</a></li>
+      <li><a href="#rischi">Punti aperti e rischi</a></li>
+      <li><a href="#fonti">Fonti</a></li>
+    </ol>
+  </div>
+
+  <div class="section" id="contesto">
+    <h2>1. Contesto e perimetro</h2>
+    <p>Il documento descrive lo stato della conservazione a lungo termine dei documenti informatici in Romania, con l'obiettivo di supportare la valutazione di un'offerta di servizi da parte di un operatore italiano. Il perimetro comprende:</p>
+    <ul>
+      <li>il quadro normativo nazionale su archiviazione elettronica, archivi e firma elettronica;</li>
+      <li>le autorità competenti e i relativi procedimenti (accreditamento, pareri tecnici, vigilanza);</li>
+      <li>gli obblighi fiscali e contabili che generano domanda di conservazione (RO e-Factura, termini di conservazione contabile);</li>
+      <li>il livello europeo (eIDAS 2) e il confronto con il modello italiano;</li>
+      <li>implicazioni operative, rischi e punti aperti.</li>
+    </ul>
+    <div class="box-note">Terminologia: in romeno la conservazione digitale è <em>arhivare electronică</em>; il soggetto che la gestisce per conto terzi è l'<em>administrator de arhivă electronică</em>; il parere tecnico sul sistema è l'<em>aviz tehnic</em>.</div>
+  </div>
+
+  <div class="section" id="normativa">
+    <h2>2. Quadro normativo nazionale</h2>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Atto</th><th>Oggetto</th><th>Stato e rilevanza</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Legge 135/2007</strong></td><td>Archiviazione dei documenti in forma elettronica; figura dell'<em>administrator de arhivă electronică</em></td><td><span class="tag-vigente">Vigente</span> Modificata dalla Legge 201/2024. È la norma cardine.</td></tr>
+          <tr><td><strong>Legge 16/1996</strong> (Archivi Nazionali)</td><td>Disciplina generale degli archivi e del patrimonio archivistico</td><td><span class="tag-vigente">Vigente</span> Integrata dalla Legge 201/2024 con obblighi su documenti elettronici.</td></tr>
+          <tr><td><strong>Legge 201/2024</strong></td><td>Modifica Legge 16/1996 e Legge 135/2007 — MO n. 594 del 26/06/2024</td><td><span class="tag-vigente">Vigente</span> Introduce obblighi di integrità, autenticità, esportabilità e migrazione.</td></tr>
+          <tr><td><strong>Ordine 20.717/2024</strong></td><td>Norme tecniche accreditamento e avizare sistemi — MO n. 438 del 13/05/2024</td><td><span class="tag-vigente">Vigente</span> Abroga l'Ordine 493/2009.</td></tr>
+          <tr><td><strong>Decisione ADR 162/2026</strong></td><td>Procedure per prestatori di servizi fiduciari e aviz tehnic — MO n. 246 del 30/03/2026</td><td><span class="tag-vigente">Vigente</span> 12 mesi ai prestatori già qualificati per aggiornare la documentazione.</td></tr>
+          <tr><td><strong>Legge 214/2024</strong></td><td>Firma elettronica, sigilli, marche temporali; in vigore dall'08/10/2024</td><td><span class="tag-vigente">Vigente</span> Abroga Legge 455/2001, Legge 451/2004 e OUG 38/2020.</td></tr>
+          <tr><td><strong>Legge 82/1991</strong> mod. Legge 36/2023</td><td>Termini di conservazione contabili</td><td><span class="tag-vigente">Vigente</span> Registri e giustificativi: 5 anni dal 1° luglio dell'anno successivo.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>2.1 Legge 135/2007 e la riforma della Legge 201/2024</h3>
+    <p>La Legge 201/2024 (MO n. 594 del 26 giugno 2024) ha due effetti principali:</p>
+    <ul>
+      <li><strong>Sulla Legge 16/1996:</strong> introduce l'obbligo di garantire integrità, autenticità e utilizzabilità dei documenti elettronici, adottare un sistema di gestione archivistica approvato dagli Archivi Nazionali, e garantire l'esportazione dei dati in formati standard con migrazione periodica.</li>
+      <li><strong>Sulla Legge 135/2007:</strong> chiarisce chi svolge l'attività di archiviazione e prevede regimi specifici per le autorità pubbliche.</li>
+    </ul>
+    <div class="box-note">Punto da verificare: lo stato di adozione delle procedure attuative che la legge demandava agli Archivi Nazionali entro 90 giorni.</div>
+
+    <h3>2.2 Norme tecniche ADR (Ordine 20.717/2024)</h3>
+    <p>Le norme tecniche del maggio 2024 definiscono due procedimenti distinti presso l'ADR:</p>
+    <ul>
+      <li><strong>Accreditamento dell'<em>administrator de arhivă electronică</em></strong>, necessario per chi gestisce archivi elettronici per conto di terzi.</li>
+      <li><strong>Aviz tehnic del sistema elettronico di archiviazione</strong>: l'archiviazione può avvenire esclusivamente tramite sistemi avizati. La domanda prevede una tassa di analisi di 2.500 lei e documentazione che include piani di sicurezza, rapporti di audit e test di penetrazione.</li>
+    </ul>
+
+    <h3>2.3 Decisione ADR 162/2026</h3>
+    <p>Pubblicata nel MO n. 246 del 30 marzo 2026, disciplina il ciclo di vita dei prestatori di servizi fiduciari e le procedure per il rilascio e la revoca dell'<em>aviz tehnic</em>. Prevede tariffe fisse di 2.500 lei (IVA inclusa) per servizio. I prestatori già qualificati devono aggiornare la documentazione entro 12 mesi (fine marzo 2027).</p>
+
+    <h3>2.4 Firma elettronica: Legge 214/2024</h3>
+    <p>In vigore dall'8 ottobre 2024, allinea l'ordinamento romeno a eIDAS e abroga la Legge 455/2001. Punti rilevanti per la conservazione:</p>
+    <ul>
+      <li>riconosce effetti giuridici a firme semplici, avanzate e qualificate;</li>
+      <li>i documenti delle autorità pubbliche con firma o sigillo qualificato hanno valore di atto autentico;</li>
+      <li>la validità della firma si valuta al momento della sottoscrizione: la scadenza successiva del certificato non incide sulla validità, a condizione di poter dimostrare le condizioni al momento della firma.</li>
+    </ul>
+    <div class="box-note">Questo rende centrale la conservazione delle evidenze di validazione (marche temporali, stato dei certificati).</div>
+  </div>
+
+  <div class="section" id="eidas">
+    <h2>3. Il livello europeo: eIDAS 2 e archiviazione qualificata</h2>
+    <p>Il Regolamento (UE) 2024/1183 (eIDAS 2), in vigore dal 20 maggio 2024, ha introdotto tra i servizi fiduciari l'archiviazione elettronica qualificata (artt. 45j–45k). I dati e documenti conservati con un servizio qualificato godono della presunzione di integrità e di origine, con riconoscimento in tutti gli Stati membri.</p>
+    <p>Il Regolamento di esecuzione (UE) 2025/2532, applicabile dal <strong>6 gennaio 2026</strong>, stabilisce standard e specifiche per i servizi di archiviazione qualificata. La specifica CEN/TS 18170:2025 definisce i requisiti funzionali.</p>
+    <div class="box-warn"><strong>Perché conta per la Romania:</strong> un servizio di archiviazione qualificato vigilato in Italia e iscritto nella Trusted List nazionale è riconosciuto in Romania per effetto diretto del Regolamento. Resta da chiarire con l'ADR il rapporto tra qualificazione eIDAS e <em>aviz tehnic</em> nazionale ex Legge 135/2007.</div>
+  </div>
+
+  <div class="section" id="efactura">
+    <h2>4. Obblighi fiscali e contabili: la domanda generata da e-Factura</h2>
+
+    <h3>4.1 RO e-Factura e il limite dei 60 giorni</h3>
+    <p>Lo Spațiul Privat Virtual (SPV) dell'ANAF è un canale di trasmissione e validazione, <strong>non un deposito di lungo periodo</strong>: rende disponibili gli XML delle fatture per soli <strong>60 giorni</strong> dal caricamento. Il documento con valore legale è l'XML firmato dal Ministero delle Finanze restituito dopo la validazione, non la sua rappresentazione PDF.</p>
+    <p>Novità 2026 introdotte dall'OUG 89/2025:</p>
+    <ul>
+      <li>termine di trasmissione di <strong>5 giorni lavorativi</strong> dalla data di emissione (in luogo di 5 di calendario), dal 1° gennaio 2026, anche per il B2C;</li>
+      <li>estensione B2B alle fatture verso soggetti non stabiliti in Romania ma registrati ai fini IVA nel Paese;</li>
+      <li>dal 15 gennaio 2026, obbligo di registrazione nel Registro RO e-Factura (modulo 082) per le persone fisiche con CNP che svolgono attività economica.</li>
+    </ul>
+
+    <h3>4.2 Termini di conservazione</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Categoria</th><th>Termine</th><th>Riferimento</th></tr></thead>
+        <tbody>
+          <tr><td>Registri contabili obbligatori e documenti giustificativi (incluse fatture)</td><td><strong>5 anni</strong></td><td>Legge 82/1991 mod. Legge 36/2023; dal 1° luglio dell'anno successivo alla chiusura dell'esercizio</td></tr>
+          <tr><td>Situazioni finanziarie annuali</td><td><strong>10 anni</strong></td><td>Legge 82/1991</td></tr>
+          <tr><td>Prassi prudenziale sulle fatture elettroniche</td><td><strong>10 anni</strong></td><td>Diversi operatori raccomandano 10 anni dalla chiusura dell'esercizio per coprire contestazioni e rettifiche</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>4.3 Requisiti di un servizio di conservazione per e-Factura</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Requisito</th><th>Perché serve</th><th>Come lo garantisce il servizio</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>1. Scarico automatico dallo SPV</strong></td>
+            <td>Le fatture sono disponibili 60 giorni; non recuperabili dopo la scadenza.</td>
+            <td>Collegamento API ANAF; scarico quotidiano; quadratura giornaliera con allerta a 45 giorni.</td>
+          </tr>
+          <tr>
+            <td><strong>2. Conservazione dell'originale integro</strong></td>
+            <td>Ha valore legale l'XML con firma del Ministero delle Finanze, non il PDF.</td>
+            <td>Conservazione del pacchetto ZIP originale; hash all'acquisizione; indicizzazione metadati.</td>
+          </tr>
+          <tr>
+            <td><strong>3. Validità della firma nel tempo</strong></td>
+            <td>Conservazione 5–10 anni; certificati scadono e algoritmi si indeboliscono.</td>
+            <td>Verifica firma all'ingresso; marca temporale qualificata; rinnovo periodico delle evidenze.</td>
+          </tr>
+          <tr>
+            <td><strong>4. Esibizione ai controlli</strong></td>
+            <td>ANAF chiede l'originale con prova di integrità e autenticità.</td>
+            <td>Esportazione immediata per periodo/controparte; registro degli accessi.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section" id="autorita">
+    <h2>5. Autorità e attori</h2>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Soggetto</th><th>Ruolo</th></tr></thead>
+        <tbody>
+          <tr><td><strong>ADR</strong> – Autoritatea pentru Digitalizarea României</td><td>Vigilanza servizi fiduciari eIDAS; accredita gli <em>administratori</em>; rilascia l'<em>aviz tehnic</em>; gestisce la Trusted List romena.</td></tr>
+          <tr><td><strong>Arhivele Naționale ale României</strong></td><td>Indirizzo archivistico; approvazione sistemi di gestione archivistica e formati ex Legge 16/1996.</td></tr>
+          <tr><td><strong>ANAF</strong></td><td>Gestisce RO e-Factura, SPV e SAF-T; controlli fiscali.</td></tr>
+          <tr><td><strong>Ministero delle Finanze</strong></td><td>Firma gli XML validati in e-Factura; norme sui documenti finanziario-contabili.</td></tr>
+          <tr><td><strong>Ministero degli Interni</strong></td><td>Vigilanza sugli Archivi Nazionali; emana gli ordini attuativi della Legge 16/1996.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section" id="operatori">
+    <h2>6. Operatori accreditati in Romania</h2>
+    <p>L'ADR pubblica due registri: il Registro degli amministratori di archivio elettronico e il Registro dei sistemi elettronici di archiviazione. <em>Dati rilevati al 4 ottobre 2026.</em></p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Amministratore accreditato</th><th>Gruppo / origine</th><th>Accreditato dal</th><th>Aviz tehnic valido fino al</th></tr></thead>
+        <tbody>
+          <tr><td>certSIGN S.A.</td><td>Romeno (gruppo UTI)</td><td>11/06/2025</td><td>22/05/2027</td></tr>
+          <tr><td>Trans Sped S.A.</td><td>Romeno</td><td>26/06/2025</td><td>19/06/2027</td></tr>
+          <tr><td>Iron Mountain SRL</td><td>Estero – Iron Mountain (USA)</td><td>04/08/2025</td><td>—</td></tr>
+          <tr><td>Transfond S.A.</td><td>Romeno</td><td>23/09/2025</td><td>21/05/2027</td></tr>
+          <tr><td>Next Docs ECM Expert S.R.L.</td><td>Da verificare</td><td>06/10/2025</td><td>29/06/2027</td></tr>
+          <tr><td>Zipper Services S.R.L.</td><td>Romeno (Cluj)</td><td>03/12/2025</td><td>09/09/2027</td></tr>
+          <tr><td>Comtec Net S.R.L.</td><td>Romeno</td><td>19/12/2025</td><td>15/12/2027</td></tr>
+          <tr><td>Bithat Solutions SRL</td><td>Probabile estero – Asseco SEE (Polonia)</td><td>29/12/2025</td><td>21/07/2027</td></tr>
+          <tr><td>Inform Lykos S.A.</td><td>Estero – gruppo Lykos (Grecia)</td><td>27/01/2026</td><td>15/10/2027</td></tr>
+          <tr><td>Axivant SRL</td><td>Romeno</td><td>04/06/2026</td><td>11/05/2028</td></tr>
+          <tr><td><strong>Namirial SRL</strong></td><td><strong>Estero – Namirial S.p.A. (Italia)</strong></td><td><strong>14/07/2026</strong></td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="box-note">Nessun soggetto estero è accreditato direttamente: tutti gli 11 amministratori sono società di diritto romeno. Namirial è il riferimento competitivo più vicino: concorrente italiano, filiale romena, ISO/IEC 27001/27017/27018, modello OAIS.</div>
+  </div>
+
+  <div class="section" id="confronto">
+    <h2>7. Confronto con il modello italiano</h2>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Aspetto</th><th>Italia</th><th>Romania</th></tr></thead>
+        <tbody>
+          <tr><td>Fonte principale</td><td>CAD e Linee guida AgID</td><td>Legge 135/2007 e Legge 16/1996 (mod. 2024), norme tecniche ADR 2024</td></tr>
+          <tr><td>Abilitazione operatore</td><td>Conservatori qualificati AgID/ACN (per la PA)</td><td>Accreditamento ADR come <em>administrator</em> + <em>aviz tehnic</em> del sistema</td></tr>
+          <tr><td>Figura di responsabilità</td><td>Responsabile della conservazione, Manuale di conservazione</td><td>Administrator dell'archivio; obblighi del creatore/detentore ex Legge 16/1996</td></tr>
+          <tr><td>Fatturazione elettronica</td><td>SdI; conservazione gratuita AdE su adesione</td><td>RO e-Factura; SPV per 60 giorni, poi conservazione a carico dell'impresa</td></tr>
+          <tr><td>Firma elettronica</td><td>CAD + eIDAS</td><td>Legge 214/2024 + eIDAS</td></tr>
+          <tr><td>Ponte UE</td><td>Archiviazione qualificata eIDAS 2</td><td>Archiviazione qualificata eIDAS 2 (riconoscimento automatico)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section" id="raccomandazioni">
+    <h2>8. Implicazioni e raccomandazioni operative</h2>
+    <ol>
+      <li><strong>Mappare il servizio sul quadro romeno.</strong> Verificare con un legale locale se l'offerta si configura come archiviazione per conto terzi (accreditamento richiesto) o come fornitura di tecnologia (solo <em>aviz tehnic</em>).</li>
+      <li><strong>Preparare il dossier per l'aviz tehnic ADR.</strong> Riutilizzare la documentazione italiana (Manuale, piano sicurezza, ISO/IEC 27001, audit, penetration test), tradotta e adattata alle norme tecniche ADR 2024 e alla Decisione 162/2026.</li>
+      <li><strong>Integrare e-Factura come funzione standard del servizio.</strong> Il collegamento allo SPV di ogni cliente deve essere incluso nell'offerta: scarico automatico quotidiano entro 45 giorni, conservazione dell'XML originale con firma MF, verifica firma e rinnovo evidenze.</li>
+      <li><strong>Allineare formati e metadati.</strong> Recepire i formati e i requisiti di esportazione indicati dagli Archivi Nazionali, con procedure di migrazione documentate.</li>
+      <li><strong>Avviare la qualificazione eIDAS 2.</strong> Valutare il gap rispetto al Reg. 2025/2532 per ottenere lo status di servizio qualificato, spendibile in Romania e nell'intera UE.</li>
+      <li><strong>Costituire un'entità romena.</strong> Tutti i gruppi esteri accreditati operano tramite una società di diritto romeno: prevedere una filiale (o joint venture con un operatore locale) titolare dell'accreditamento e della polizza assicurativa.</li>
+      <li><strong>Analizzare il posizionamento di Namirial.</strong> È il concorrente italiano già presente: confrontarne offerta, certificazioni e prezzi per definire una proposta differenziante.</li>
+    </ol>
+  </div>
+
+  <div class="section" id="rischi">
+    <h2>9. Punti aperti e rischi</h2>
+    <ul>
+      <li><strong>Norme attuative degli Archivi Nazionali</strong> previste dalla Legge 201/2024: verificarne adozione, contenuto e tempistiche di adeguamento.</li>
+      <li><strong>Coordinamento eIDAS / regime nazionale:</strong> chiarire se e quando l'<em>aviz tehnic</em> resta necessario per un servizio già qualificato in un altro Stato membro.</li>
+      <li><strong>Affiliazioni da confermare:</strong> verificare l'eventuale appartenenza a gruppi esteri di Bithat Solutions (Asseco SEE) e Next Docs ECM Expert; monitorare i registri ADR, in rapida evoluzione dal 2025.</li>
+      <li><strong>Localizzazione dei dati:</strong> verificare eventuali requisiti su ubicazione dei server e accesso delle autorità in sede di controllo.</li>
+      <li><strong>Termini di conservazione:</strong> la distanza tra il termine legale di 5 anni e la prassi prudenziale di 10 anni va risolta nel contratto con il cliente.</li>
+      <li><strong>Evoluzione e-Factura:</strong> il sistema cambia frequentemente; serve un monitoraggio normativo continuo.</li>
+    </ul>
+  </div>
+
+  <div class="section fonti" id="fonti">
+    <h2>Fonti</h2>
+    <ul>
+      <li>ADR – Registri degli amministratori e dei sistemi di archiviazione elettronica</li>
+      <li>Legge 135/2007 – testo aggiornato (Lege5)</li>
+      <li>Legge 201/2024 – Portale legislativo</li>
+      <li>Ordine 20.717/2024 – Norme tecniche (Portale legislativo)</li>
+      <li>Decisione ADR 162/2026 (Dragne &amp; Asociații)</li>
+      <li>Legge 214/2024 sulla firma elettronica (BPV Grigorescu Ștefănică)</li>
+      <li>eIDAS 2 in Romania (Accace)</li>
+      <li>Regolamento di esecuzione (UE) 2025/2532 (EUR-Lex)</li>
+      <li>Accreditamento Namirial in Romania</li>
+      <li>Obblighi di archiviazione e-Factura 2026 (Arhilego)</li>
+      <li>Modifiche e-Factura da OUG 89/2025 (StartupCafe)</li>
+      <li>Archiviazione e-Factura: l'XML firmato come documento obbligatorio (Contabilul.ro)</li>
+      <li>Termini di conservazione dopo la Legge 36/2023 (Contzilla)</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  Regesta Group · Documento informativo a uso interno · Aggiornato al 6 ottobre 2026<br>
+  Non costituisce parere legale. Verificare le indicazioni normative con un consulente qualificato in diritto romeno.
+</footer>
+
+</body>
+</html>
