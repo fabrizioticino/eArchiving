@@ -1,0 +1,614 @@
+<html lang="it"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manuale di Conservazione – Compilazione guidata</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,sans-serif;background:#f4f4f0;color:#1a1a18;min-height:100vh;padding:2rem 1rem}
+  .wrap{max-width:780px;margin:0 auto}
+  .hdr{background:#fff;border:1px solid #e0e0d8;border-radius:12px;padding:1.25rem;margin-bottom:1.5rem;display:flex;align-items:center;gap:14px}
+  .hdr-logo{height:26px;flex-shrink:0;opacity:.85;margin-right:4px}
+  .hdr-icon{width:44px;height:44px;border-radius:10px;background:#E6F1FB;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+  .hdr h1{font-size:17px;font-weight:600;color:#1a1a18}
+  .hdr p{font-size:12px;color:#666;margin-top:2px}
+  .prog{background:#fff;border:1px solid #e0e0d8;border-radius:12px;padding:1rem 1.25rem;margin-bottom:1.5rem}
+  .prog-steps{display:flex;align-items:center}
+  .ps{display:flex;align-items:center;gap:5px;flex:1}
+  .pc{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;flex-shrink:0;transition:.2s}
+  .pc.done{background:#E1F5EE;color:#0F6E56;border:1px solid #5DCAA5}
+  .pc.active{background:#E6F1FB;color:#185FA5;border:2px solid #378ADD}
+  .pc.todo{background:#f4f4f0;color:#999;border:1px solid #ddd}
+  .pl{font-size:11px;color:#888}
+  .pl.active{color:#185FA5;font-weight:600}
+  .pconn{height:1px;width:14px;background:#ddd;flex-shrink:0;margin:0 3px}
+  .card{background:#fff;border:1px solid #e0e0d8;border-radius:12px;padding:1.25rem;margin-bottom:1rem}
+  .ch{display:flex;align-items:center;gap:8px;margin-bottom:1rem;padding-bottom:10px;border-bottom:1px solid #f0f0e8}
+  .ch-ic{font-size:18px;color:#888}
+  .ch h2{font-size:14px;font-weight:600;color:#1a1a18}
+  .fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  .fi{display:flex;flex-direction:column;gap:4px}
+  label{font-size:12px;color:#555;display:flex;align-items:center;gap:5px}
+  .br{background:#FFF9C4;color:#854F0B;font-size:10px;padding:1px 6px;border-radius:99px;border:1px solid #F0BF00}
+  .bo{background:#f4f4f0;color:#999;font-size:10px;padding:1px 6px;border-radius:99px;border:1px solid #ddd}
+  input,select,textarea{width:100%;background:#fafafa;border:1px solid #ddd;border-radius:8px;padding:7px 10px;font-size:13px;color:#1a1a18;font-family:inherit}
+  input:focus,select:focus{outline:none;border-color:#378ADD;box-shadow:0 0 0 2px rgba(55,138,221,.12)}
+  input.req{background:#FFFDE7;border-color:#F0BF00}
+  select.req{background:#FFFDE7;border-color:#F0BF00}
+  .trow{display:flex;align-items:center;gap:10px;padding:10px 12px;background:#fafafa;border-radius:8px;border:1px solid #e8e8e0;margin-bottom:10px}
+  .tog{position:relative;width:38px;height:22px;flex-shrink:0}
+  .tog input{opacity:0;width:0;height:0;position:absolute}
+  .sli{position:absolute;inset:0;background:#ccc;border-radius:99px;cursor:pointer;transition:.2s}
+  .sli:before{content:'';position:absolute;width:16px;height:16px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}
+  .tog input:checked+.sli{background:#378ADD}
+  .tog input:checked+.sli:before{transform:translateX(16px)}
+  .tl{font-size:13px;font-weight:500;color:#1a1a18}
+  .ts{font-size:11px;color:#888;margin-top:1px}
+  .opt{overflow:hidden;transition:max-height .3s,opacity .3s}
+  .opt.h{max-height:0;opacity:0;pointer-events:none}
+  .opt.v{max-height:400px;opacity:1}
+  .nav{display:flex;justify-content:space-between;align-items:center;margin-top:1rem}
+  .btn{background:#fff;border:1px solid #ccc;border-radius:8px;padding:8px 18px;font-size:13px;cursor:pointer;color:#1a1a18;display:inline-flex;align-items:center;gap:6px;font-family:inherit}
+  .btn:hover{background:#f4f4f0}
+  .btn:active{transform:scale(.98)}
+  .btn-p{background:#E6F1FB;border-color:#85B7EB;color:#0C447C}
+  .btn-p:hover{background:#B5D4F4}
+  .btn-g{background:#E1F5EE;border-color:#5DCAA5;color:#085041;font-weight:600}
+  .btn-g:hover{background:#9FE1CB}
+  .page{display:none}
+  .page.active{display:block}
+  .sr{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #f0f0e8;font-size:13px}
+  .sk{color:#666}
+  .sv{color:#1a1a18;font-weight:500;text-align:right;max-width:60%;word-break:break-word}
+  .alert{display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:8px;margin-bottom:12px;font-size:13px}
+  .alert-ok{background:#E1F5EE;color:#085041}
+  .alert-err{background:#FCEBEB;color:#791F1F}
+  .miss{color:#E24B4A;font-size:11px}
+  .preview-box{background:#fafafa;border:1px solid #e0e0d8;border-radius:8px;padding:1rem;font-size:12px;font-family:monospace;white-space:pre-wrap;max-height:320px;overflow-y:auto;color:#333;line-height:1.6}
+  .dl-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:1rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hdr">
+    <img class="hdr-logo" src="regesta-logo.png" alt="Regesta Group">
+    <div class="hdr-icon">📋</div>
+    <div>
+      <h1>Manuale di Conservazione – compilazione guidata</h1>
+      <p>Conforme Linee Guida AgID 2022 · D.Lgs. 82/2005 · Generazione offline</p>
+    </div>
+  </div>
+
+  <div class="prog">
+    <div class="prog-steps" id="prog">
+      <div class="ps"><div class="pc done" id="sc1">✓</div><span class="pl" id="sl1">Azienda</span></div>
+      <div class="pconn"></div>
+      <div class="ps"><div class="pc done" id="sc2">✓</div><span class="pl" id="sl2">Responsabile</span></div>
+      <div class="pconn"></div>
+      <div class="ps"><div class="pc done" id="sc3">✓</div><span class="pl" id="sl3">Conservazione</span></div>
+      <div class="pconn"></div>
+      <div class="ps"><div class="pc done" id="sc4">✓</div><span class="pl" id="sl4">Infrastruttura</span></div>
+      <div class="pconn"></div>
+      <div class="ps"><div class="pc active" id="sc5">5</div><span class="pl active" id="sl5">Riepilogo</span></div>
+    </div>
+  </div>
+
+  <!-- STEP 1 -->
+  <div class="page" id="page1">
+    <div class="card">
+      <div class="ch"><span class="ch-ic">🏢</span><h2>Dati identificativi azienda</h2></div>
+      <div class="fg">
+        <div class="fi"><label>Ragione sociale <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_rs" placeholder="es. Rossi &amp; Partners Srl"></div>
+        <div class="fi"><label>Forma giuridica <span class="br">obbligatorio</span></label>
+          <select class="req" id="f_fg"><option value="">— seleziona —</option><option>SRL</option><option>SPA</option><option>SAS</option><option>SNC</option><option>Ditta individuale</option><option>Altra</option></select>
+        </div>
+        <div class="fi"><label>P.IVA / Codice fiscale <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_piva" placeholder="IT12345678901"></div>
+        <div class="fi"><label>Sede legale <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_sede" placeholder="Via Roma 1, 20121 Milano MI"></div>
+        <div class="fi"><label>Codice ATECO <span class="bo">opzionale</span></label><input type="text" id="f_ateco" placeholder="es. 62.01.00"></div>
+        <div class="fi"><label>Luogo di redazione <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_luogo" placeholder="es. Milano"></div>
+        <div class="fi"><label>Data emissione <span class="br">obbligatorio</span></label><input class="req" type="date" id="f_dem"></div>
+        <div class="fi"><label>Data entrata in vigore <span class="br">obbligatorio</span></label><input class="req" type="date" id="f_dvig"></div>
+      </div>
+    </div>
+    <div class="nav">
+      <span style="font-size:12px;color:#999">Passo 1 di 4</span>
+      <button class="btn btn-p" onclick="goTo(2)">Avanti →</button>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="page" id="page2">
+    <div class="card">
+      <div class="ch"><span class="ch-ic">👤</span><h2>Responsabile della conservazione</h2></div>
+      <div class="fg">
+        <div class="fi"><label>Nome e cognome <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_rn" placeholder="es. Mario Rossi"></div>
+        <div class="fi"><label>Qualifica / ruolo <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_rr" placeholder="es. Responsabile IT"></div>
+        <div class="fi"><label>Email <span class="br">obbligatorio</span></label><input class="req" type="email" id="f_re" placeholder="m.rossi@azienda.it"></div>
+        <div class="fi"><label>Data di nomina <span class="br">obbligatorio</span></label><input class="req" type="date" id="f_rd"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="ch"><span class="ch-ic">🛡</span><h2>Privacy e DPO</h2></div>
+      <div class="fg">
+        <div class="fi"><label>DPO nominato <span class="bo">opzionale</span></label><input type="text" id="f_dpo" placeholder="Nome Cognome oppure lascia vuoto"></div>
+        <div class="fi"><label>Frequenza audit interni <span class="br">obbligatorio</span></label>
+          <select class="req" id="f_aud"><option value="">— seleziona —</option><option>Trimestrale</option><option>Semestrale</option><option>Annuale</option></select>
+        </div>
+      </div>
+    </div>
+    <div class="nav">
+      <button class="btn" onclick="goTo(1)">← Indietro</button>
+      <button class="btn btn-p" onclick="goTo(3)">Avanti →</button>
+    </div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="page" id="page3">
+    <div class="card">
+      <div class="ch"><span class="ch-ic">🔏</span><h2>Firma digitale</h2></div>
+      <div class="fg">
+        <div class="fi"><label>Certificatore firma digitale <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_cf" placeholder="es. Aruba PEC Spa"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="ch"><span class="ch-ic">🕐</span><h2>Marca temporale (TSA)</h2></div>
+      <div class="trow">
+        <label class="tog"><input type="checkbox" id="tog_tsa" onchange="togSec('tsa_sec',this)"><span class="sli"></span></label>
+        <div><div class="tl">Utilizza marca temporale esterna</div><div class="ts">Opzionale – attiva se il processo prevede TSA esterna</div></div>
+      </div>
+      <div class="opt h" id="tsa_sec">
+        <div class="fg">
+          <div class="fi"><label>Certificatore TSA <span class="bo">opzionale</span></label><input type="text" id="f_tsa" placeholder="es. InfoCert Spa"></div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="ch"><span class="ch-ic">🗄</span><h2>Conservatore esterno accreditato AgID</h2></div>
+      <div class="trow">
+        <label class="tog"><input type="checkbox" id="tog_cons" onchange="togSec('cons_sec',this)"><span class="sli"></span></label>
+        <div><div class="tl">Affidamento a conservatore esterno</div><div class="ts">Opzionale – attiva se utilizzi un conservatore accreditato AgID</div></div>
+      </div>
+      <div class="opt h" id="cons_sec">
+        <div class="fg" style="margin-top:8px">
+          <div class="fi"><label>Ragione sociale conservatore <span class="bo">opzionale</span></label><input type="text" id="f_cn" placeholder="es. Zucchetti Spa"></div>
+          <div class="fi"><label>N. accreditamento AgID <span class="bo">opzionale</span></label><input type="text" id="f_ca" placeholder="es. ACC-2023-0042"></div>
+          <div class="fi"><label>Referente contrattuale <span class="bo">opzionale</span></label><input type="text" id="f_cr" placeholder="es. Luca Bianchi"></div>
+          <div class="fi"><label>Data stipula contratto <span class="bo">opzionale</span></label><input type="date" id="f_cd"></div>
+        </div>
+      </div>
+    </div>
+    <div class="nav">
+      <button class="btn" onclick="goTo(2)">← Indietro</button>
+      <button class="btn btn-p" onclick="goTo(4)">Avanti →</button>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="page" id="page4">
+    <div class="card">
+      <div class="ch"><span class="ch-ic">💾</span><h2>Infrastruttura tecnologica</h2></div>
+      <div class="fg">
+        <div class="fi"><label>Software di conservazione <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_sw" placeholder="es. DocuFileSafe v3.2"></div>
+        <div class="fi"><label>Sistema documentale DMS <span class="bo">opzionale</span></label><input type="text" id="f_dms" placeholder="es. SharePoint / Alfresco"></div>
+        <div class="fi"><label>Ubicazione server <span class="br">obbligatorio</span></label><input class="req" type="text" id="f_srv" placeholder="es. Data center Milano / Cloud AWS"></div>
+        <div class="fi"><label>Frequenza backup <span class="br">obbligatorio</span></label>
+          <select class="req" id="f_bk"><option value="">— seleziona —</option><option>Giornaliero</option><option>Settimanale</option><option>Mensile</option></select>
+        </div>
+        <div class="fi"><label>RTO – Recovery Time Objective (ore) <span class="br">obbligatorio</span></label><input class="req" type="number" id="f_rto" placeholder="es. 4" min="1"></div>
+        <div class="fi"><label>RPO – Recovery Point Objective (ore) <span class="br">obbligatorio</span></label><input class="req" type="number" id="f_rpo" placeholder="es. 1" min="1"></div>
+      </div>
+    </div>
+    <div class="nav">
+      <button class="btn" onclick="goTo(3)">← Indietro</button>
+      <button class="btn btn-p" onclick="goTo(5)">Vedi riepilogo ✓</button>
+    </div>
+  </div>
+
+  <!-- STEP 5 RIEPILOGO -->
+  <div class="page active" id="page5">
+    <div class="card">
+      <div class="ch"><span class="ch-ic">✅</span><h2>Riepilogo e generazione</h2></div>
+      <div id="sum_body"><div class="alert alert-ok">✓ Tutti i campi obbligatori compilati. Pronto per la generazione.</div><div class="sr"><span class="sk">Ragione sociale</span><span class="sv">TRIVELLATO S.P.A.</span></div><div class="sr"><span class="sk">Forma giuridica</span><span class="sv">SPA</span></div><div class="sr"><span class="sk">P.IVA</span><span class="sv">IT01656520242</span></div><div class="sr"><span class="sk">Sede legale</span><span class="sv">Via degli Avieri, 8 – 36040 TORRI DI QUARTESOLO (VI)</span></div><div class="sr"><span class="sk">Codice ATECO</span><span class="sv"><span style="color:#bbb;font-size:11px">—</span></span></div><div class="sr"><span class="sk">Luogo</span><span class="sv">TORRI DI QUARTESOLO (VI)</span></div><div class="sr"><span class="sk">Data emissione</span><span class="sv">2026-01-01</span></div><div class="sr"><span class="sk">Data vigore</span><span class="sv">2026-01-01</span></div><div class="sr"><span class="sk">Responsabile</span><span class="sv">Luca Trivellato</span></div><div class="sr"><span class="sk">Qualifica</span><span class="sv">Legale Rappresentante</span></div><div class="sr"><span class="sk">Email responsabile</span><span class="sv">it@trivellato.it</span></div><div class="sr"><span class="sk">Data nomina</span><span class="sv">2020-06-16</span></div><div class="sr"><span class="sk">DPO</span><span class="sv">Non nominato</span></div><div class="sr"><span class="sk">Frequenza audit</span><span class="sv">Annuale</span></div><div class="sr"><span class="sk">Certificatore firma</span><span class="sv">Trust Pro</span></div><div class="sr"><span class="sk">Marca temporale</span><span class="sv">Non utilizzata</span></div><div class="sr"><span class="sk">Conservatore esterno</span><span class="sv">Non utilizzato</span></div><div class="sr"><span class="sk">Software conservazione</span><span class="sv">Arxivar eArchiving</span></div><div class="sr"><span class="sk">DMS</span><span class="sv">—</span></div><div class="sr"><span class="sk">Server</span><span class="sv">Data center Brennercom / Trento - Bolzano</span></div><div class="sr"><span class="sk">Backup</span><span class="sv">Giornaliero</span></div><div class="sr"><span class="sk">RTO (ore)</span><span class="sv">4</span></div><div class="sr"><span class="sk">RPO (ore)</span><span class="sv">1</span></div></div>
+    </div>
+    <div class="card" id="preview_card" style="display: block;">
+      <div class="ch"><span class="ch-ic">📄</span><h2>Anteprima documento</h2></div>
+      <div class="preview-box" id="preview_box"># MANUALE DI CONSERVAZIONE
+
+**Redatto ai sensi delle Linee Guida AgID sulla formazione, gestione e conservazione dei documenti informatici (2022) e del D.Lgs. 82/2005 (CAD)**
+
+---
+
+## FRONTESPIZIO
+
+| Campo | Valore |
+|---|---|
+| **Ragione Sociale** | TRIVELLATO S.P.A. |
+| **Forma Giuridica** | SPA |
+| **Codice Fiscale / P.IVA** | IT01656520242 |
+| **Sede Legale** | Via degli Avieri, 8 – 36040 TORRI DI QUARTESOLO (VI) |
+| **Codice ATECO** | — |
+| **Versione documento** | 1.0 |
+| **Data di emissione** | 2026-01-01 |
+| **Data di entrata in vigore** | 2026-01-01 |
+| **Responsabile della Conservazione** | Luca Trivellato |
+| **Classificazione** | Documento interno – uso riservato |
+
+---
+
+## REGISTRO DELLE VERSIONI
+
+| Versione | Data | Descrizione modifica | Autore |
+|---|---|---|---|
+| 1.0 | 2026-01-01 | Prima emissione | Luca Trivellato |
+
+---
+
+## 1. PREMESSA E RIFERIMENTI NORMATIVI
+
+Il presente Manuale di Conservazione è redatto da **TRIVELLATO S.P.A.** (di seguito "l'Organizzazione") in conformità alle disposizioni normative vigenti in materia di conservazione dei documenti informatici.
+
+### 1.1 Riferimenti normativi
+
+- **D.Lgs. 82/2005** – Codice dell'Amministrazione Digitale (CAD) 
+
+[... documento completo disponibile al download ...]</div>
+      <div class="dl-row">
+        <button class="btn btn-g" onclick="dlMD()">⬇ Scarica .md</button>
+        <button class="btn btn-p" onclick="dlTXT()">⬇ Scarica .txt</button>
+        <button class="btn" onclick="copyDoc()">📋 Copia testo</button>
+      </div>
+      <div class="dl-row" style="margin-top:8px;border-top:1px solid #f0f0e8;padding-top:12px">
+        <button class="btn btn-g" onclick="dlHTML()" style="width:100%">⬇ Scarica l'intero portale (.html) per uso offline</button>
+      </div>
+    </div>
+    <div class="nav">
+      <button class="btn" onclick="goTo(4)">← Modifica</button>
+      <button class="btn btn-g" id="gen_btn" onclick="genera()">Genera manuale ↓</button>
+    </div>
+  </div>
+
+</div>
+<script>
+var cur=1,genDoc='';
+
+function goTo(n){
+  document.getElementById('page'+cur).classList.remove('active');
+  document.getElementById('page'+n).classList.add('active');
+  for(var i=1;i<=5;i++){
+    var sc=document.getElementById('sc'+i),sl=document.getElementById('sl'+i);
+    sc.className='pc '+(i<n?'done':i===n?'active':'todo');
+    sl.className='pl'+(i===n?' active':'');
+    sc.textContent=i<n?'✓':i;
+  }
+  cur=n;
+  if(n===5)buildSum();
+}
+
+function togSec(id,el){
+  var s=document.getElementById(id);
+  s.className='opt '+(el.checked?'v':'h');
+}
+
+function g(id){return(document.getElementById(id)?.value||'').trim();}
+
+function buildSum(){
+  var tsaOn=document.getElementById('tog_tsa').checked;
+  var consOn=document.getElementById('tog_cons').checked;
+  var fs=[
+    {k:'Ragione sociale',v:g('f_rs'),r:true},
+    {k:'Forma giuridica',v:g('f_fg'),r:true},
+    {k:'P.IVA',v:g('f_piva'),r:true},
+    {k:'Sede legale',v:g('f_sede'),r:true},
+    {k:'Codice ATECO',v:g('f_ateco'),r:false},
+    {k:'Luogo',v:g('f_luogo'),r:true},
+    {k:'Data emissione',v:g('f_dem'),r:true},
+    {k:'Data vigore',v:g('f_dvig'),r:true},
+    {k:'Responsabile',v:g('f_rn'),r:true},
+    {k:'Qualifica',v:g('f_rr'),r:true},
+    {k:'Email responsabile',v:g('f_re'),r:true},
+    {k:'Data nomina',v:g('f_rd'),r:true},
+    {k:'DPO',v:g('f_dpo')||'Non nominato',r:false},
+    {k:'Frequenza audit',v:g('f_aud'),r:true},
+    {k:'Certificatore firma',v:g('f_cf'),r:true},
+    {k:'Marca temporale',v:tsaOn?(g('f_tsa')||'—'):'Non utilizzata',r:false},
+    {k:'Conservatore esterno',v:consOn?(g('f_cn')||'—'):'Non utilizzato',r:false},
+    {k:'Software conservazione',v:g('f_sw'),r:true},
+    {k:'DMS',v:g('f_dms')||'—',r:false},
+    {k:'Server',v:g('f_srv'),r:true},
+    {k:'Backup',v:g('f_bk'),r:true},
+    {k:'RTO (ore)',v:g('f_rto'),r:true},
+    {k:'RPO (ore)',v:g('f_rpo'),r:true},
+  ];
+  var miss=0,html='';
+  fs.forEach(function(f){
+    var e=!f.v||f.v==='— seleziona —';
+    if(f.r&&e)miss++;
+    var badge=e?(f.r?'<span class="miss">⚠ mancante</span>':'<span style="color:#bbb;font-size:11px">—</span>'):'';
+    html+='<div class="sr"><span class="sk">'+f.k+'</span><span class="sv">'+(e?badge:f.v)+'</span></div>';
+  });
+  var top=miss===0
+    ?'<div class="alert alert-ok">✓ Tutti i campi obbligatori compilati. Pronto per la generazione.</div>'
+    :'<div class="alert alert-err">⚠ '+miss+' campo/i obbligatori mancanti – torna indietro per completarli.</div>';
+  document.getElementById('sum_body').innerHTML=top+html;
+  document.getElementById('preview_card').style.display='none';
+  genDoc='';
+}
+
+function genera(){
+  var tsaOn=document.getElementById('tog_tsa').checked;
+  var consOn=document.getElementById('tog_cons').checked;
+  var d={
+    rs:g('f_rs')||'[RAGIONE SOCIALE]',
+    fg:g('f_fg')||'[FORMA GIURIDICA]',
+    piva:g('f_piva')||'[P.IVA]',
+    sede:g('f_sede')||'[SEDE LEGALE]',
+    ateco:g('f_ateco')||'—',
+    luogo:g('f_luogo')||'[LUOGO]',
+    dem:g('f_dem')||'[DATA EMISSIONE]',
+    dvig:g('f_dvig')||'[DATA VIGORE]',
+    rn:g('f_rn')||'[NOME COGNOME]',
+    rr:g('f_rr')||'[QUALIFICA]',
+    re:g('f_re')||'[EMAIL]',
+    rd:g('f_rd')||'[DATA NOMINA]',
+    dpo:g('f_dpo')||'Non nominato',
+    aud:g('f_aud')||'[FREQUENZA AUDIT]',
+    cf:g('f_cf')||'[CERTIFICATORE FIRMA]',
+    tsa:tsaOn?(g('f_tsa')||'[TSA]'):'Non utilizzata',
+    cn:consOn?(g('f_cn')||'—'):'Non utilizzato',
+    ca:consOn?(g('f_ca')||'—'):'—',
+    cr:consOn?(g('f_cr')||'—'):'—',
+    cd:consOn?(g('f_cd')||'—'):'—',
+    sw:g('f_sw')||'[SOFTWARE CONSERVAZIONE]',
+    dms:g('f_dms')||'—',
+    srv:g('f_srv')||'[SERVER]',
+    bk:g('f_bk')||'[BACKUP]',
+    rto:g('f_rto')||'[RTO]',
+    rpo:g('f_rpo')||'[RPO]'
+  };
+
+  var tsaRiga=tsaOn?'\n| **Certificatore TSA (marca temporale)** | '+d.tsa+' |':'';
+  var consSezione=consOn?`
+### 2.3 Conservatore esterno accreditato AgID
+
+| Campo | Valore |
+|---|---|
+| **Ragione Sociale** | ${d.cn} |
+| **Accreditamento AgID n.** | ${d.ca} |
+| **Referente contrattuale** | ${d.cr} |
+| **Contratto stipulato il** | ${d.cd} |
+`:'### 2.3 Conservatore esterno\n\nL\'Organizzazione gestisce la conservazione internamente. Non è stato nominato un conservatore esterno accreditato AgID.\n';
+
+  genDoc=`# MANUALE DI CONSERVAZIONE
+
+**Redatto ai sensi delle Linee Guida AgID sulla formazione, gestione e conservazione dei documenti informatici (2022) e del D.Lgs. 82/2005 (CAD)**
+
+---
+
+## FRONTESPIZIO
+
+| Campo | Valore |
+|---|---|
+| **Ragione Sociale** | ${d.rs} |
+| **Forma Giuridica** | ${d.fg} |
+| **Codice Fiscale / P.IVA** | ${d.piva} |
+| **Sede Legale** | ${d.sede} |
+| **Codice ATECO** | ${d.ateco} |
+| **Versione documento** | 1.0 |
+| **Data di emissione** | ${d.dem} |
+| **Data di entrata in vigore** | ${d.dvig} |
+| **Responsabile della Conservazione** | ${d.rn} |
+| **Classificazione** | Documento interno – uso riservato |
+
+---
+
+## REGISTRO DELLE VERSIONI
+
+| Versione | Data | Descrizione modifica | Autore |
+|---|---|---|---|
+| 1.0 | ${d.dem} | Prima emissione | ${d.rn} |
+
+---
+
+## 1. PREMESSA E RIFERIMENTI NORMATIVI
+
+Il presente Manuale di Conservazione è redatto da **${d.rs}** (di seguito "l'Organizzazione") in conformità alle disposizioni normative vigenti in materia di conservazione dei documenti informatici.
+
+### 1.1 Riferimenti normativi
+
+- **D.Lgs. 82/2005** – Codice dell'Amministrazione Digitale (CAD) e successive modificazioni
+- **DPCM 3 dicembre 2013** – Regole tecniche per il protocollo informatico
+- **DPCM 13 novembre 2014** – Regole tecniche in materia di formazione, trasmissione, copia, duplicazione, riproduzione e validazione temporale dei documenti informatici
+- **Linee Guida AgID** sulla formazione, gestione e conservazione dei documenti informatici, adottate con determinazione AgID n. 407/2021, in vigore dal 1° gennaio 2022
+- **Regolamento eIDAS** (UE) n. 910/2014
+- **GDPR** – Regolamento (UE) 2016/679 in materia di protezione dei dati personali
+- **D.Lgs. 196/2003** – Codice in materia di protezione dei dati personali, come modificato dal D.Lgs. 101/2018
+
+### 1.2 Scopo del documento
+
+Il presente Manuale descrive il sistema di conservazione adottato dall'Organizzazione, definendo ruoli, responsabilità, processi e infrastrutture tecnologiche utilizzate per garantire la conservazione a norma dei documenti informatici prodotti e ricevuti nell'esercizio dell'attività.
+
+---
+
+## 2. ORGANIGRAMMA E RUOLI
+
+### 2.1 Responsabile della Conservazione
+
+| Campo | Valore |
+|---|---|
+| **Nome e Cognome** | ${d.rn} |
+| **Ruolo in azienda** | ${d.rr} |
+| **Email** | ${d.re} |
+| **Data di nomina** | ${d.rd} |
+
+Il Responsabile della Conservazione ha il compito di:
+
+- definire e attuare le politiche complessive del sistema di conservazione;
+- gestire e controllare il processo di conservazione;
+- verificare periodicamente la corretta funzionalità del sistema;
+- adottare misure per la sicurezza fisica e logica del sistema;
+- assicurare la conformità del processo alle normative vigenti;
+- garantire la disponibilità, il reperimento e l'esibizione dei documenti conservati.
+
+### 2.2 Delegati interni
+
+| Nome e Cognome | Ruolo | Delega specifica |
+|---|---|---|
+| — | — | — |
+
+${consSezione}
+
+---
+
+## 3. PROCESSO DI CONSERVAZIONE
+
+### 3.1 Schema del processo
+
+Il processo di conservazione si articola nelle seguenti fasi:
+
+1. **Acquisizione** – ricezione o produzione del documento informatico
+2. **Verifica formale** – controllo di integrità, formato e metadati
+3. **Preparazione del Pacchetto di Versamento (PdV)**
+4. **Trasmissione al sistema di conservazione**
+5. **Verifica e accettazione** – generazione del Pacchetto di Archiviazione (PdA)
+6. **Apposizione di firma digitale** del Responsabile della Conservazione${tsaOn?' e marca temporale':''}
+7. **Indicizzazione e archiviazione**
+8. **Generazione del Pacchetto di Distribuzione (PdD)** su richiesta
+
+### 3.2 Firma digitale${tsaOn?' e marca temporale':''}
+
+| Campo | Valore |
+|---|---|
+| **Certificatore per firma digitale** | ${d.cf} |${tsaRiga}
+
+---
+
+## 4. OGGETTO DI CONSERVAZIONE
+
+| Tipologia documentale | Formato | Obbligo normativo | Durata conservazione |
+|---|---|---|---|
+| Fatture elettroniche attive | XML (FatturaPA) | D.Lgs. 127/2015 | 10 anni |
+| Fatture elettroniche passive | XML (FatturaPA) | D.Lgs. 127/2015 | 10 anni |
+| Libri contabili e registri | PDF/A | Art. 2220 c.c. | 10 anni |
+| Contratti | PDF/A | Art. 2220 c.c. | 10 anni |
+| Documentazione fiscale | PDF/A | DPR 600/1973 | 10 anni |
+
+---
+
+## 5. INFRASTRUTTURA TECNOLOGICA
+
+| Componente | Soluzione |
+|---|---|
+| Software di conservazione | ${d.sw} |
+| Sistema di gestione documentale (DMS) | ${d.dms} |
+| Ubicazione server | ${d.srv} |
+| Algoritmo di hashing | SHA-256 |
+| Protocolli di trasmissione | HTTPS/TLS 1.2+ |
+
+---
+
+## 6. SICUREZZA E BACKUP
+
+| Parametro | Valore |
+|---|---|
+| Frequenza backup | ${d.bk} |
+| RTO (Recovery Time Objective) | ${d.rto} ore |
+| RPO (Recovery Point Objective) | ${d.rpo} ore |
+
+---
+
+## 7. MONITORAGGIO E AUDIT
+
+| Attività | Frequenza | Responsabile |
+|---|---|---|
+| Verifica integrità archivi | ${d.aud} | ${d.rn} |
+| Audit del processo | Annuale | ${d.rn} |
+| Verifica conformità normativa | Annuale | ${d.rn} |
+
+---
+
+## 8. TRATTAMENTO DEI DATI PERSONALI
+
+| Campo | Valore |
+|---|---|
+| **Titolare del trattamento** | ${d.rs} |
+| **DPO** | ${d.dpo} |
+| **Base giuridica** | Obbligo legale (art. 6, par. 1, lett. c GDPR) |
+| **Periodo di conservazione** | Secondo le durate indicate nella Sezione 4 |
+
+---
+
+## 9. GESTIONE DELLE ANOMALIE
+
+In caso di anomalie (integrità, formato, sistema, sicurezza) il Responsabile della Conservazione attiva la procedura di gestione che prevede: rilevazione, notifica, analisi, contenimento, ripristino da backup, documentazione e aggiornamento delle procedure.
+
+In caso di violazione dei dati personali, l'Organizzazione provvede alla notifica al Garante entro 72 ore (art. 33 GDPR).
+
+---
+
+## 10. ALLEGATI
+
+| N. | Titolo allegato |
+|---|---|
+| All. 1 | Atto di nomina del Responsabile della Conservazione |
+| All. 2 | Eventuale atto di delega a soggetto interno |${consOn?'\n| All. 3 | Contratto con il conservatore esterno accreditato |':''}
+| All. 4 | Schema del flusso del processo di conservazione |
+| All. 5 | Piano di Disaster Recovery |
+| All. 6 | Registro degli audit e delle verifiche |
+
+---
+
+*Documento redatto in conformità alle Linee Guida AgID – versione 2022.*
+
+*${d.luogo}, ${d.dem}*
+
+*Il Responsabile della Conservazione*
+*________________________________*
+*${d.rn}*
+`;
+
+  var box=document.getElementById('preview_box');
+  box.textContent=genDoc.substring(0,1200)+(genDoc.length>1200?'\n\n[... documento completo disponibile al download ...]':'');
+  document.getElementById('preview_card').style.display='block';
+  document.getElementById('preview_card').scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+function dlHTML(){
+  var src=document.documentElement.outerHTML;
+  var b=new Blob([src],{type:'text/html;charset=utf-8'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(b);
+  a.download='portale_manuale_conservazione.html';
+  a.click();
+}
+
+
+function dlMD(){
+  if(!genDoc)return;
+  var b=new Blob([genDoc],{type:'text/markdown;charset=utf-8'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(b);
+  a.download='manuale_conservazione.md';
+  a.click();
+}
+
+function dlTXT(){
+  if(!genDoc)return;
+  var b=new Blob([genDoc],{type:'text/plain;charset=utf-8'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(b);
+  a.download='manuale_conservazione.txt';
+  a.click();
+}
+
+function copyDoc(){
+  if(!genDoc)return;
+  navigator.clipboard.writeText(genDoc).then(function(){
+    var btn=event.target;
+    btn.textContent='✓ Copiato!';
+    setTimeout(function(){btn.textContent='📋 Copia testo';},2000);
+  });
+}
+</script>
+
+
+</body></html>
