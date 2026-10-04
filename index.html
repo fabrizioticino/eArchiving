@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="it">
 <head>
 <meta charset="UTF-8">
@@ -55,7 +55,7 @@
   .masthead-top{
     display:flex;
     justify-content:space-between;
-    align-items:baseline;
+    align-items:center;
     flex-wrap:wrap;
     gap:8px;
     font-family:'IBM Plex Mono', monospace;
@@ -66,6 +66,7 @@
     margin-bottom:18px;
   }
   .masthead-top .dot{ color:var(--accent); }
+  .masthead-logo{ height:28px;flex-shrink:0;opacity:.9;margin-right:14px; }
 
   h1.title{
     font-family:'Fraunces', serif;
@@ -655,7 +656,8 @@
 
 <header class="masthead">
   <div class="masthead-top">
-    <span>CONSERVAZIONE DIGITALE A NORMA <span class="dot">•</span> AUTORE: FABRIZIO TICINO</span>
+    <img class="masthead-logo" src="regesta-logo.png" alt="Regesta Group">
+    <span>CONSERVAZIONE DIGITALE A NORMA <span class="dot">•</span></span>
     <span id="live-clock"></span>
   </div>
   <h1 class="title">Libro bianco —<br>Conservazione <em>a norma</em> del documento informatico</h1>
